@@ -1,0 +1,91 @@
+\documentclass[letterpaper,10pt,oneside,landscape]{article}
+
+\usepackage[kerning=true, protrusion=alltext, draft=false]{microtype}
+\usepackage[utf8]{inputenc}	% not working with ð and þ; use \eth and \thorn instead
+\usepackage[T1]{fontenc}	% scalable EC fonts
+\usepackage{charter}
+\usepackage[bitstream-charter]{mathdesign}% math fonts matched for charter, garamond, times, utopia
+%\usepackage[T1]{eulervm}	% this font is a good alternative to mathdesign for use with charter
+\def\sfdefault{pag}		% charter sans serif looks horrible, so we replace it with AvantGarde-Book
+\usepackage{bbding}		% several arrows, crosses, checkmarks, and other symbols
+
+\usepackage[paper=letterpaper,left=15mm,right=15mm,top=15mm,bottom=15mm]{geometry}
+
+%opening
+\title{Closure and Decision Properties of String Languages}
+\author{Thomas Graf}
+
+\begin{document}
+\pagestyle{empty}
+\begin{table}[tbph]
+\begin{center}
+\begin{tabular}{rcccc|ccccccccc|cccc}
+        & SL & LT & LTT & SF & REG & DCFL & CFL & TAL/LIL/CCG/HG & LCFL/MCFL/ML & IL & CSL & REC & RE & Trio & FTrio & AFL & FAFL\\\hline
+        $\overline{L}$ & & & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & & $\times$ & $\checkmark$ & $\checkmark$ & $\times$\\
+        %
+        $^*$ & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ & $\times$ & $\times$ & $\checkmark$\\
+        %
+        $\mathbf{^\smallfrown}$ & & & & $\checkmark$ & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\mathbf{+}$ & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\mathbf{\cup}$ & & & & $\checkmark$ & $\checkmark$ & $\times$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\cap$ & & & & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\times$ & & $\times$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\mathbf{\cap R}$ & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\mathbf{\varepsilon}$\textbf{-free} $\mathbf{h}$ & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\mathbf{h^{-1}}$ & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        $\mathbf{h}$ & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$\\
+        %
+        Difference & & & & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\times$ & & $\times$ & $\checkmark$ & $\checkmark$ & $\times$\\
+        %
+        Substitution & & & & & $\checkmark$ & $\times$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\checkmark$\\
+        %
+        Sub into REG & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\checkmark$\\
+        %
+        Sub by $\varepsilon$-free REG & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        Sub by REG & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$\\
+        %
+        GSM map & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$\\
+        %
+        $\varepsilon$-free GSM map & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        Inverse GSM map & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        Limited Erasing & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        Quotient with REG & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$\\
+        %
+        INIT & & & & & $\checkmark$ & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$ & $\times$ & $\checkmark$\\
+        %
+        Reversal & & & & & $\checkmark$ & $\times$ & $\checkmark$ & & & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        MIN & & & & & $\checkmark$ & $\checkmark$ & $\times$ & & & & & $\checkmark$ & $\checkmark$\\
+        %
+        MAX & & & & & $\checkmark$ & $\checkmark$ & $\times$ & & & &$\times$ & $\times$ & $\times$\\
+        %
+        CYCLE & & & & & $\checkmark$ & $\times$ & $\checkmark$ & & & &$\checkmark$ & $\checkmark$ & $\checkmark$\\
+        %
+        & & & & & & & & & & & & &\\
+        %
+        $w \in L$ & & & & & D & D & D & & & &D & D & U\\
+        $L = \emptyset$ & & & & & D & D & D & & & &U & U & U\\
+        $L = \Sigma^*$ & & & & & D & D & U & & & &U & U & U\\
+        $L_1 = L_2$ & & & & & D & & U & & & &U & U & U\\
+        $L_1 \subseteq L_2$ & & & & & D & U & U & & && U & U & U\\
+        $L_1 \cap L_2 = \emptyset$ & & & & & D & U & U & & & & U & U & U\\
+        $L=R$ & & & & & D & D & U & & & & U & U & U\\
+        $L$ finite & & & & & & & D & & & & & &\\
+        $L$ regular & T & T & T & T & T & D & U & & & & U & U & U\\
+        $L_1 \cap L_2 $ same type & & & & T & T & U & U & & & & T & T & T\\
+        $\neg L$ same type & & & & T & T & U & U & & & & & T & U
+\end{tabular}
+\end{center}
+\caption{Closure and decision properties of string languages}
+\end{table}
+\end{document}
