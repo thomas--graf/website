@@ -135,6 +135,8 @@ table {margin: .5em auto 1.5em auto; width: 98%;}
 header, section, footer,
 aside, nav, article, figure {
 	display: block;
+    position: relative;
+    z-index: 200;
 }
 
 /***** Layout *****/
@@ -485,6 +487,7 @@ div.tagcloud{
   position: absolute;
   width: 15%;
   left: 20px;
+  z-index: 1;
 }
 
 div.tagcloud-header {
@@ -497,7 +500,6 @@ div.tagcloud-header {
 	-webkit-border-radius: 5px 5px 5px 5px;
     border: 0px;
     bottom: 0;
-    z-index: 1;
 }
 
 div.tagcloud-list {
@@ -511,7 +513,6 @@ div.tagcloud-list {
 	border-radius: 0px 0px 5px 5px;
 	-moz-border-radius: 0px 0px 5px 5px;
 	-webkit-border-radius: 0px 0px 5px 5px;
-    z-index: 0;
 }
 
 ul.tagcloud {
