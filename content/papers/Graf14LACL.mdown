@@ -1,0 +1,36 @@
+Title: Late Merge as Lowering Movement in Minimalist Grammars
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Papers
+Tags: Minimalist grammars; late merge; movement; lowering; generative capacity
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf14LACL.pdf)]
+[[code]({filename}/doc/papers/Graf14LACL.tar.gz)]
+</div>
+
+~~~bibtex
+@InProceedings{Graf14LACL,
+  author	= {Graf, Thomas},
+  title		= {Late Merge as Lowering Movement in Minimalist Grammars},
+  year		= {2014},
+  booktitle	= {LACL 2014},
+  pages		= {107--121},
+  editor	= {Asher, Nicholas and Soloviev, Sergei},
+  volume	= {8535},
+  series	= {Lecture Notes in Computer Science},
+  address	= {Heidelberg},
+  publisher	= {Springer}
+}
+~~~
+

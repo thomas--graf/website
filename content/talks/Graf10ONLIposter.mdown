@@ -1,0 +1,32 @@
+Title: Efficient Computation at the Interfaces
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10ONLIposter.pdf)]
+[[code]({filename}/doc/talks/Graf10ONLIposter.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10ONLIposter,
+  author	= {Graf, Thomas},
+  title		= {Efficient Computation at the Interfaces},
+  year		= {2010},
+  note		= {Poster presented at On Linguistic Interfaces II (OnLI II),
+		  December 2--4, 2010, University of Ulster, Belfast, United
+		  Kingdom}
+}
+~~~
+

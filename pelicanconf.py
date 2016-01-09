@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Thomas Graf'
 SITENAME = u'Thomas Graf'
 SITESUBTITLE = u'Computational Linguist at Stony Brook University'
-SITEURL = 'http://thomasgraf.net'
+SITEURL = 'http://localhost:8000'
 GITHUB_URL = 'https://github.com/thomas--graf/thomas--graf.github.io-src'
 
 PATH = 'content'
@@ -23,29 +23,22 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = False
 
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['pandoc_reader', 'tag_cloud']
-
-# Pandoc settings
-PANDOC_FILES = ['pd']
-PANDOC_ARGS = [
-    '--mathjax',
-    '--smart'
-]
-MARKUP = ('rst', 'md', 'pd')
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['tag_cloud']
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False
+# RELATIVE_URLS = True
 
 # Theme
-THEME = 'pelican-themes/blueidea_v2'
+THEME = 'themes/blueidea_v2'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_SUBMENU = True
-DISPLAY_CATEGORIES_ON_POSTINFO = True
+DISPLAY_CATEGORIES_ON_POSTINFO = False
 DISPLAY_SEARCH_FORM = False
 GITHUB_POSITION = 'left'
-MENUITEMS = [('News', 'http://localhost:8000/index.html')]
+MENUITEMS = [('News', SITEURL + '/index.html')]
 DISPLAY_SEARCH_FORM = True
+SUMMARY_MAX_LENGTH = 40
 
 # Blogroll
 LINKS = [('SBU Linguistics', 'http://linguistics.stonybrook.edu'), 
@@ -62,10 +55,9 @@ SOCIAL = [('email', 'mailto://mail@thomasgraf.net'),
 
 LOAD_CONTENT_CACHE = False
 
-SUMMARY_MAX_LENGTH = 80
-
 SLUGIFY_SOURCE = 'basename'
 ARTICLE_SAVE_AS = '{slug}.html'
+STATIC_PATHS = ['images', 'doc']
 
 TYPOGRIFY = True
 

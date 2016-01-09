@@ -1,0 +1,34 @@
+Title: Locality in Flux — Reducibility Results for Syntactic Constraints
+Author: Thomas Graf
+Date: 2009-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf09MASLposter.pdf)]
+[[code]({filename}/doc/talks/Graf09MASLposter.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf09MASLposter,
+  author	= {Graf, Thomas},
+  title		= {Locality in Flux --- Reducibility Results for Syntactic
+		  Constraints},
+  year		= {2009},
+  note		= {Poster presented at the Conference on Minimalist
+		  Approaches to Syntactic Locality (MASL), August 26 -- 28,
+		  Research Institute for Linguistics of the Hungarian Academy
+		  of Sciences, Budapest, Hungary}
+}
+~~~
+

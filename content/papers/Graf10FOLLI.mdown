@@ -1,0 +1,38 @@
+Title: Formal Parameters of Phonology: From Government Phonology to SPE
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf10FOLLI.pdf)]
+[[code]({filename}/doc/papers/Graf10FOLLI.tar.gz)]
+</div>
+
+~~~bibtex
+@InCollection{Graf10FOLLI,
+  author	= {Graf, Thomas},
+  title		= {Formal Parameters of Phonology: From {G}overnment
+		  {P}honology to {SPE}},
+  year		= {2010},
+  editor	= {Icard, Thomas and Muskens, Reinhard},
+  booktitle	= {Interfaces: Explorations in Logic, Language and
+		  Computation},
+  publisher	= {Springer},
+  address	= {Berlin},
+  pages		= {72--86},
+  volume	= {6211},
+  series	= {Lectures Notes in Artifical Intelligence}
+}
+~~~
+

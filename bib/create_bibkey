@@ -11,7 +11,7 @@ sed -i 's/@[[:alpha:]]*{//g' $outfile
 sed -i 's/,$//g' $outfile
 
 for key in $(cat $outfile); do
-    bib2blog $bibfile $key;
+    ./bib/bib2blog $bibfile $key;
 done
 
 rm $outfile

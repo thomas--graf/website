@@ -1,0 +1,31 @@
+Title: From Vagueness to Disaster: On the Intricacies of Feature Checking
+Author: Thomas Graf
+Date: 2007-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf07Thesis.pdf)]
+[[code]({filename}/doc/papers/Graf07Thesis.tar.gz)]
+</div>
+
+~~~bibtex
+@MastersThesis{Graf07Thesis,
+  author	= {Graf, Thomas},
+  title		= {From Vagueness to Disaster: On the Intricacies of Feature
+		  Checking},
+  year		= {2007},
+  school	= {University of Vienna}
+}
+~~~
+

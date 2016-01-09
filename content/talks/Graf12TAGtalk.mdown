@@ -1,0 +1,33 @@
+Title: Tree Adjunction as Minimalist Lowering
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf12TAGtalk.pdf)]
+[[code]({filename}/doc/talks/Graf12TAGtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf12TAGtalk,
+  author	= {Graf, Thomas},
+  title		= {Tree Adjunction as Minimalist Lowering},
+  year		= {2012},
+  note		= {Slides of a talk given at the 11$^	ext{th}$ International
+		  Workshop on Tree Adjoining Grammars and Related Formalisms
+		  (TAG+11), September 26--28, University Paris-Diderot,
+		  Paris, France}
+}
+~~~
+

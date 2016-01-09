@@ -1,0 +1,32 @@
+Title: Syntax, Semantics, Pragmatics: Where Do We Find Optimality?
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10Goettingentalk.pdf)]
+[[code]({filename}/doc/talks/Graf10Goettingentalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10Goettingentalk,
+  author	= {Graf, Thomas},
+  title		= {Syntax, Semantics, Pragmatics: Where do we Find
+		  Optimality?},
+  year		= {2010},
+  note		= {Invited talk, December 15, Institut für Anglistik,
+		  Universität Göttingen, Göttingen, Germany}
+}
+~~~
+

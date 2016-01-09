@@ -1,0 +1,40 @@
+Title: Comparing Incomparable Frameworks: A Model Theoretic Approach to Phonology
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+In previous work, we used techniques from mathematical logic and model theory to study and compare two phonological theories, SPE and Government Phonology.
+The surprising result was that Government Phonology corresponds to a very weak fragment of SPE, yet it can attain the full expressivity of the latter through more powerful mechanisms of feature spreading.
+An issue that we didn't elaborate on, however, is the question of what this increase in expressivity buys us in terms of empirical coverage, which we pick up in this paper.
+Again making good use of our model theoretic techniques, we investigate two phonological phenomena --- Sanskrit n-retroflexion and primary stress assignment in Creek and Cairene Arabic --- and show how much power feature spreading has to be granted in any descriptively adequate account which does not invoke additional technical machinery.
+These technical results are accompanied by reflections on the relation between empirically minded theory comparisons and the model theoretic approach.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf10PLC.pdf)]
+[[code]({filename}/doc/papers/Graf10PLC.tar.gz)]
+</div>
+
+~~~bibtex
+@Article{Graf10PLC,
+  author	= {Graf, Thomas},
+  title		= {Comparing Incomparable Frameworks: A Model Theoretic
+		  Approach to Phonology},
+  year		= {2010},
+  journal	= {University of Pennsylvania Working Papers in Linguistics},
+  volume	= {16},
+  pages		= {Article 10},
+  number	= {2},
+  note		= {Available at:
+		  \url{http://repository.upenn.edu/pwpl/vol16/iss1/10}}
+}
+~~~
+

@@ -1,0 +1,31 @@
+Title: Movement-Generalized Minimalist Grammars
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf12LACLtalk.pdf)]
+[[code]({filename}/doc/talks/Graf12LACLtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf12LACLtalk,
+  author	= {Graf, Thomas},
+  title		= {Movement-Generalized Minimalist Grammars},
+  year		= {2012},
+  note		= {Slides of a talk given at LACL 2012, July 2--4, LINA,
+		  Nantes, France}
+}
+~~~
+

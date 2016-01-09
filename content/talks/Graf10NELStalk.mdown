@@ -1,0 +1,33 @@
+Title: Rethinking Transderivationality
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10NELStalk.pdf)]
+[[code]({filename}/doc/talks/Graf10NELStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10NELStalk,
+  author	= {Graf, Thomas},
+  title		= {Rethinking Transderivationality},
+  year		= {2010},
+  note		= {Slides of a talk given at the 41$^{	ext{st}}$ annual
+		  meeting of the North East Linguistic Society (NELS 41),
+		  October 22--24, University of Pennsylvania, Philadelphia,
+		  PA}
+}
+~~~
+

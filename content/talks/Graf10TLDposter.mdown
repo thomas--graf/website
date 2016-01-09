@@ -1,0 +1,32 @@
+Title: Concealed Reference-Set Computation or How Syntax Escapes the Parser’s Clutches
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10TLDposter.pdf)]
+[[code]({filename}/doc/talks/Graf10TLDposter.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10TLDposter,
+  author	= {Graf, Thomas},
+  title		= {Concealed Reference-Set Computation or How Syntax Escapes
+		  the Parser's Clutches},
+  year		= {2010},
+  note		= {Poster presented at The Language Design, May 27--29, UQAM,
+		  Montreal, Canada}
+}
+~~~
+

@@ -1,0 +1,33 @@
+Title: Locality and the Complexity of Minimalist Derivation Tree Languages
+Author: Thomas Graf
+Date: 2011-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf11FGtalk.pdf)]
+[[code]({filename}/doc/talks/Graf11FGtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf11FGtalk,
+  author	= {Graf, Thomas},
+  title		= {Locality and the Complexity of Minimalist Derivation Tree
+		  Languages},
+  year		= {2011},
+  note		= {Slides of a talk presented at the 16$^	extrm{th}$
+		  Conference on Formal Grammar (FG-2011), August 6, 2011,
+		  Ljubljana, Slovenia}
+}
+~~~
+

@@ -1,0 +1,32 @@
+Title: latexmath:\[$	ext{Reference-Set Computation} = 	ext{Minimalism} + 	ext{Transformational Rules?}$\]
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10Bielefeldtalk.pdf)]
+[[code]({filename}/doc/talks/Graf10Bielefeldtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10Bielefeldtalk,
+  author	= {Graf, Thomas},
+  title		= {$	ext{Reference-Set Computation} = 	ext{Minimalism} +
+		  	ext{Transformational Rules?}$},
+  year		= {2010},
+  note		= {Invited talk, December 8, Institut für Linguistik,
+		  Universität Bielefeld, Bielefeld, Germany}
+}
+~~~
+

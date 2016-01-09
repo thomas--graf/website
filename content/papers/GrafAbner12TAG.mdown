@@ -1,0 +1,36 @@
+Title: Is Syntactic Binding Rational?
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas, and Natasha Abner
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Recent results show that both TAG and Minimalist grammars can be enriched with rational constraints without increasing their strong generative capacity, where a constraint is rational iff it can be computed by a bottom-up tree automaton.
+This raises the question which aspects of syntax can be adequately formalized using only such constraints.
+One of hardest phenomena commonly studied by syntacticians is binding theory.
+In this paper, we give a high-level implementation of (the syntactic parts of) binding theory in terms of rational constraints, and we argue that this implementation is sufficiently powerful for natural language.
+This conclusion is backed up by data drawn from English, German, and American Sign Language.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/GrafAbner12TAG.pdf)]
+[[code]({filename}/doc/papers/GrafAbner12TAG.tar.gz)]
+</div>
+
+~~~bibtex
+@InProceedings{GrafAbner12TAG,
+  author	= {Graf, Thomas and Natasha Abner},
+  title		= {Is Syntactic Binding Rational?},
+  year		= {2012},
+  booktitle	= {Proceedings of the 11$^	ext{th}$ International Workshop
+		  on Tree Adjoining Grammars and Related Formalisms (TAG+11)},
+  pages		= {189--197}
+}
+~~~
+

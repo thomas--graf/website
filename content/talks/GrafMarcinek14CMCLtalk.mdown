@@ -1,0 +1,32 @@
+Title: Evaluating Evluation Metrics for Minimalist Parsing
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas, and Bradley Marcinek
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/GrafMarcinek14CMCLtalk.pdf)]
+[[code]({filename}/doc/talks/GrafMarcinek14CMCLtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{GrafMarcinek14CMCLtalk,
+  author	= {Graf, Thomas and Marcinek, Bradley},
+  title		= {Evaluating Evluation Metrics for Minimalist Parsing},
+  year		= {2014},
+  note		= {Slides for a talk given at Cognitive Modeling and
+		  Computational Linguistics {(CMCL 2014)}, June 26,
+		  Baltimore, MD}
+}
+~~~
+

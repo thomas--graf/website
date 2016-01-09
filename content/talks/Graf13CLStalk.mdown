@@ -1,0 +1,31 @@
+Title: The Syntactic Algebra of Adjuncts
+Author: Thomas Graf
+Date: 2013-01-01
+Category: Talks
+Tags: syntax; islands; algebra; AIC; CSC
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf13CLStalk.pdf)]
+[[code]({filename}/doc/talks/Graf13CLStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf13CLStalk,
+  author	= {Graf, Thomas},
+  title		= {The Syntactic Algebra of Adjuncts},
+  year		= {2013},
+  note		= {Slides of a talk given at {CLS 49}, April 18--22,
+		  University of Chicago, Chicago, IL}
+}
+~~~
+

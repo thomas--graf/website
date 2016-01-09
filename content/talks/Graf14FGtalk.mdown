@@ -1,0 +1,31 @@
+Title: Models of Adjunction in Minimalist Grammars
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf14FGtalk.pdf)]
+[[code]({filename}/doc/talks/Graf14FGtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf14FGtalk,
+  author	= {Graf, Thomas},
+  title		= {Models of Adjunction in Minimalist Grammars},
+  year		= {2014},
+  note		= {Slides of a talk given at {FG2014}, August 16--17,
+		  University of Tübingen, Tübingen, Germany}
+}
+~~~
+

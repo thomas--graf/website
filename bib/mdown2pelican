@@ -1,0 +1,80 @@
+#!/bin/sh
+
+# How to use
+usage() {
+    echo "usage: figure it out!"
+}
+
+###############
+#  Variables  #
+###############
+
+pdfile=$1
+
+author="unspecified"
+type="Output"
+content_path="./content/pages/"
+
+while [ "$1" != "" ]; do
+    case $1 in
+        -f | -i | --file | --input )
+            shift
+            pdfile=$1
+            ;;
+        -t | --type )
+            shift
+            type=$1
+            ;;
+        -a | --author )
+            shift
+            author=$1
+            ;;
+        -c | --content | --contentpath)
+            shift
+            content_path=$1
+            ;;
+        -o | --output )
+            shift
+            outfile=$1
+            ;;
+        --header )
+            shift
+            header=$1
+            ;;
+        --footer )
+            shift
+            footer=$1
+            ;;
+        -h | --help )
+            usage
+            exit
+            ;;
+        *)
+            usage
+            exit 1
+            ;;
+    esac
+    shift
+done
+
+if [ -z $pdfile ]; then
+    usage
+    exit 1
+fi
+
+if [ -z $outfile ]; then
+    outfile="${2-$(echo $type | tr '[:upper:]' '[:lower:]').mdown}"
+fi
+
+ 
+#######################
+#  Pelican  Meta Data #
+#######################
+# concatenate with header and footer
+cat $header $pdfile $footer > $outfile
+
+# add metadata
+sed -i "1s/^/Title: ${type}\nAuthor: ${author}\n/" $outfile
+
+# move output file
+mv $outfile $content_path/$(basename $outfile)

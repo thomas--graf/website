@@ -1,0 +1,32 @@
+Title: Closure Properties of Minimalist Derivation Tree Languages
+Author: Thomas Graf
+Date: 2011-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf11LACLtalk.pdf)]
+[[code]({filename}/doc/talks/Graf11LACLtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf11LACLtalk,
+  author	= {Graf, Thomas},
+  title		= {Closure Properties of Minimalist Derivation Tree
+		  Languages},
+  year		= {2011},
+  note		= {Slides of a talk given at LACL 2011, June 29--July 1,
+		  LIRMM, Montpellier, France}
+}
+~~~
+

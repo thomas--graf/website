@@ -1,0 +1,31 @@
+Title: A Computational Guide to the Dichotomy of Features and Constraints
+Author: Thomas Graf
+Date: 2015-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf15DGFStalk.pdf)]
+[[code]({filename}/doc/talks/Graf15DGFStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf15DGFStalk,
+  author	= {Graf, Thomas},
+  title		= {A Computational Guide to the Dichotomy of Features and Constraints},
+  year		= {2015},
+  note		= {Slides of a talk given at {DGfS 2015}, April 15--18,
+		  University of Leipzig, Leipzig, Germany.}
+}
+~~~
+

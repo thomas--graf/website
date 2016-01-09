@@ -1,0 +1,32 @@
+Title: The Price of Freedom: Why Adjuncts Are Islands
+Author: Thomas Graf
+Date: 2013-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf13DGFStalk.pdf)]
+[[code]({filename}/doc/talks/Graf13DGFStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf13DGFStalk,
+  author	= {Graf, Thomas},
+  title		= {The Price of Freedom: Why Adjuncts are Islands},
+  year		= {2013},
+  note		= {Slides of a talk given at the Deutsche Gesellschaft
+		  f\"{u}r Sprachwissenschaft 2013, March 12--15, University
+		  of Potsdam, Potsdam, Germany}
+}
+~~~
+

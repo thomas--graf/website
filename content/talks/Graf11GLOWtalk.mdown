@@ -1,0 +1,32 @@
+Title: Optimality Is Not a Race: Against a Performance-Based View of Reference-Set Computation
+Author: Thomas Graf
+Date: 2011-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf11GLOWtalk.pdf)]
+[[code]({filename}/doc/talks/Graf11GLOWtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf11GLOWtalk,
+  author	= {Graf, Thomas},
+  title		= {Optimality is not a Race: Against a Performance-based View
+		  of Reference-set Computation},
+  year		= {2011},
+  note		= {Slides of a talk given at Glow 34, April 28--30, 2011,
+		  University of Vienna, Vienna, Austria}
+}
+~~~
+

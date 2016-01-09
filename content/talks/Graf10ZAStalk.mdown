@@ -1,0 +1,31 @@
+Title: Optimality Conditions Could Care Less About Optimality
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10ZAStalk.pdf)]
+[[code]({filename}/doc/talks/Graf10ZAStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10ZAStalk,
+  author	= {Graf, Thomas},
+  title		= {Optimality Conditions Could Care Less About Optimality},
+  year		= {2010},
+  note		= {Invited talk, December 10, Zentrum für Allgemeine
+		  Sprachwissenschaft (ZAS), Berlin, Germany}
+}
+~~~
+

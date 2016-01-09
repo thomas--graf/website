@@ -1,0 +1,31 @@
+Title: Person Case Constraints and Feature Complexity in Syntax
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf14Viennatalk.pdf)]
+[[code]({filename}/doc/talks/Graf14Viennatalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf14Viennatalk,
+  author	= {Graf, Thomas},
+  title		= {Person Case Constraints and Feature Complexity in Syntax},
+  year		= {2014},
+  note		= {Invited talk, January 9, Institut für Sprachwissenschaft,
+		  Universität Wien, Vienna, Austria}
+}
+~~~
+

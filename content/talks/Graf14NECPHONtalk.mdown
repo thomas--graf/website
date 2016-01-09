@@ -1,0 +1,32 @@
+Title: Dependencies in Syntax and Phonology: A Computational Comparison
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf14NECPHONtalk.pdf)]
+[[code]({filename}/doc/talks/Graf14NECPHONtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf14NECPHONtalk,
+  author	= {Graf, Thomas},
+  title		= {Dependencies in Syntax and Phonology: A Computational
+		  Comparison},
+  year		= {2014},
+  note		= {Slides of a talk given at {NECPHON 2014}, November 15,
+		  NYU, New York, New York.}
+}
+~~~
+

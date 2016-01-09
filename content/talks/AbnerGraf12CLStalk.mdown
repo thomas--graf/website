@@ -1,0 +1,31 @@
+Title: The Complexity of Binding in English and ASL
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Abner, Natasha, and Thomas Graf
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/AbnerGraf12CLStalk.pdf)]
+[[code]({filename}/doc/talks/AbnerGraf12CLStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{AbnerGraf12CLStalk,
+  author	= {Abner, Natasha and Graf, Thomas},
+  title		= {The Complexity of Binding in {E}nglish and {ASL}},
+  year		= {2012},
+  note		= {Slides of a talk given at {CLS 48}, April 19--21,
+		  University of Chicago, Chicago, IL}
+}
+~~~
+

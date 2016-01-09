@@ -1,0 +1,33 @@
+Title: Reference-Set Constraints as Linear Tree Transductions via Controlled Optimality Systems
+Author: Thomas Graf
+Date: 2010-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf10FGtalk.pdf)]
+[[code]({filename}/doc/talks/Graf10FGtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf10FGtalk,
+  author	= {Graf, Thomas},
+  title		= {Reference-Set Constraints as Linear Tree Transductions via
+		  Controlled Optimality Systems},
+  year		= {2010},
+  note		= {Slides of a talk presented at the 15$^	extrm{th}$
+		  Conference on Formal Grammar (FG-2010), August 7--8, 2010,
+		  University of Copenhagen, Copenhagen, Denmark}
+}
+~~~
+

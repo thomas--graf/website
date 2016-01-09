@@ -1,0 +1,33 @@
+Title: Comparing Incomparable Frameworks — a Model Theoretic Approach to Phonology
+Author: Thomas Graf
+Date: 2009-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf09PLC33talk.pdf)]
+[[code]({filename}/doc/talks/Graf09PLC33talk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf09PLC33talk,
+  author	= {Graf, Thomas},
+  title		= {Comparing Incomparable Frameworks --- A Model Theoretic
+		  Approach to Phonology},
+  year		= {2009},
+  note		= {Handout of a talk given at the 33$^{	ext{rd}}$ Penn
+		  Linguistics Colloquium (PCL33), March 27 -- 29, University
+		  of Pennsylvania, Philadelphia, PA.}
+}
+~~~
+

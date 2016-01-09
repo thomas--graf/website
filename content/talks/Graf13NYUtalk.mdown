@@ -1,0 +1,31 @@
+Title: Optionality Implies Islandhood
+Author: Thomas Graf
+Date: 2013-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf13NYUtalk.pdf)]
+[[code]({filename}/doc/talks/Graf13NYUtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf13NYUtalk,
+  author	= {Graf, Thomas},
+  title		= {Optionality Implies Islandhood},
+  year		= {2013},
+  note		= {Invited talk, November 1, Department of Linguistics, NYU,
+		  New York, NY}
+}
+~~~
+

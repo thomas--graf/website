@@ -1,0 +1,33 @@
+Title: Some Interdefinability Results for Syntactic Constraint Classes
+Author: Thomas Graf
+Date: 2009-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf09MOLtalk.pdf)]
+[[code]({filename}/doc/talks/Graf09MOLtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf09MOLtalk,
+  author	= {Graf, Thomas},
+  title		= {Some Interdefinability Results for Syntactic Constraint
+		  Classes},
+  year		= {2009},
+  note		= {Slides of a talk given at the Eleventh Meeting on the
+		  Mathematics of Language (MOL11), August 20 -- 21,
+		  Universität Bielefeld, Bielefeld, Germany.}
+}
+~~~
+

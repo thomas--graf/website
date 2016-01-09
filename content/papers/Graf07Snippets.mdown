@@ -1,0 +1,33 @@
+Title: Agreement with Hybrid Nouns in Icelandic
+Author: Thomas Graf
+Date: 2007-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf07Snippets.pdf)]
+[[code]({filename}/doc/papers/Graf07Snippets.tar.gz)]
+</div>
+
+~~~bibtex
+@Article{Graf07Snippets,
+  author	= {Graf, Thomas},
+  title		= {Agreement with Hybrid Nouns in {I}celandic},
+  year		= {2007},
+  journal	= {Snippets},
+  volume	= {16},
+  pages		= {7--8},
+  note		= {Available at: \url{http://www.ledonline.it/snippets/}}
+}
+~~~
+

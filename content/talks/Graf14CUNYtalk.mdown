@@ -1,0 +1,32 @@
+Title: Adjuncts, Islands, Algebra (with a Sprinkling of Semantics)
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf14CUNYtalk.pdf)]
+[[code]({filename}/doc/talks/Graf14CUNYtalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf14CUNYtalk,
+  author	= {Graf, Thomas},
+  title		= {Adjuncts, Islands, Algebra (With a Sprinkling of
+		  Semantics)},
+  year		= {2014},
+  note		= {Invited talk, November 4, CUNY Graduate Center, New York,
+		  NY}
+}
+~~~
+

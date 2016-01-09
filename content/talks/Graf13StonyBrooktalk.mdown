@@ -1,0 +1,31 @@
+Title: Constraints Emerge from Merge
+Author: Thomas Graf
+Date: 2013-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf13StonyBrooktalk.pdf)]
+[[code]({filename}/doc/talks/Graf13StonyBrooktalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf13StonyBrooktalk,
+  author	= {Graf, Thomas},
+  title		= {Constraints Emerge from {M}erge},
+  year		= {2013},
+  note		= {Invited talk, February 12, Department of Linguistics, SUNY
+		  Stony Brook, NY}
+}
+~~~
+

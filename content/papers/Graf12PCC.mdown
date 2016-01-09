@@ -1,0 +1,35 @@
+Title: An Algebraic Perspective on the Person Case Constraint
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf12PCC.pdf)]
+[[code]({filename}/doc/papers/Graf12PCC.tar.gz)]
+</div>
+
+~~~bibtex
+@InCollection{Graf12PCC,
+  author	= {Graf, Thomas},
+  title		= {An Algebraic Perspective on the Person Case Constraint},
+  year		= {2012},
+  editor	= {Graf, Thomas and Paperno, Denis and Szabolcsi, Anna and
+		  Tellings, Jos},
+  booktitle	= {Theories of Everything. In Honor of Ed Keenan},
+  pages		= {85--90},
+  volume	= {17},
+  series	= {UCLA Working Papers in Linguistics}
+}
+~~~
+

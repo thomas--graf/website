@@ -1,0 +1,33 @@
+Title: Binding Complexity and the Status of Pronouns in English and ASL
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Abner, Natasha, and Thomas Graf
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/AbnerGraf12FEASTposter.pdf)]
+[[code]({filename}/doc/talks/AbnerGraf12FEASTposter.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{AbnerGraf12FEASTposter,
+  author	= {Abner, Natasha and Graf, Thomas},
+  title		= {Binding Complexity and the Status of Pronouns in English
+		  and ASL},
+  year		= {2012},
+  note		= {Poster presented at Formal and Experimental Advances in
+		  Sign Language (FEAST), June 1--2, University of Warsaw,
+		  Warsaw, Poland}
+}
+~~~
+

@@ -1,0 +1,32 @@
+Title: Ein Modelltheoretischer Blick Auf Syntaktische Constraints
+Author: Thomas Graf
+Date: 2008-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf08GGStalk.pdf)]
+[[code]({filename}/doc/talks/Graf08GGStalk.tar.gz)]
+</div>
+
+~~~bibtex
+@Misc{Graf08GGStalk,
+  author	= {Graf, Thomas},
+  title		= {Ein modelltheoretischer Blick auf syntaktische
+		  Constraints},
+  year		= {2008},
+  note		= {Handout of a talk given at Generative Grammatik des
+		  Südens 2008 (GGS 08), May 2-4, ZAS Berlin, Germany}
+}
+~~~
+
