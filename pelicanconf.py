@@ -38,7 +38,7 @@ DISPLAY_SEARCH_FORM = False
 GITHUB_POSITION = 'left'
 MENUITEMS = [('News', SITEURL + '/index.html')]
 DISPLAY_SEARCH_FORM = True
-SUMMARY_MAX_LENGTH = 40
+SUMMARY_MAX_LENGTH = 45
 
 # Blogroll
 LINKS = [('SBU Linguistics', 'http://linguistics.stonybrook.edu'), 
