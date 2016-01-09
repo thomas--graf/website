@@ -1,0 +1,32 @@
+Title: Feature Geometry and the Person Case Constraint: An Algebraic Link
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Papers
+Tags: morphosyntax; PCC; algebra; feature geometry; typology
+
+<div class="authors">
+Graf, Thomas
+</div>
+
+<div class="abstract">
+<span id="abstract-title">Abstract</span>
+
+
+</div>
+
+<div class="files">
+<span id="files-title">Files</span>
+[[pdf]](./doc/papers/Graf14CLS.pdf)
+[[code]](./doc/papers/Graf14CLS.tar.gz)
+</div>
+
+~~~~~ {.bibtex}
+@InProceedings{Graf14CLS,
+  author	= {Graf, Thomas},
+  title		= {Feature Geometry and the Person Case Constraint: An
+		  Algebraic Link},
+  year		= {2014},
+  booktitle	= {Proceedings of CLS 50},
+  note		= {To appear}
+}
+~~~~~~~~~~~~~~~~~~~

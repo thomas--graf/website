@@ -62,8 +62,14 @@ help:
 	@echo '                                                                          '
 
 html:
+	./bib/bib2pd --file ~/Latex/graf.bib --type Publications --style ./bib/mylanguage.csl
+	./bib/bib2pd --file ~/Latex/graf_presentations.bib --type Presentations --style ./bib/mylanguage.csl
+	cat publications.pd presentations.pd > allentries.pd
+	./bib/pd2pelican --file allentries.pd --type Output --author "Thomas Graf"
+	rm publications.pd presentations.pd allentries.pd
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 	rsync -SHqav output_raw/ $(OUTPUTDIR)
+
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

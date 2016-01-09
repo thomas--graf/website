@@ -1,0 +1,17 @@
+#!/bin/sh
+
+bibfile=$1
+outfile=$(basename $bibfile).keys
+
+# only keep lines with bibtex key
+grep -E "^@" $bibfile > $outfile
+
+# only keep bibkeys;
+sed -i 's/@[[:alpha:]]*{//g' $outfile
+sed -i 's/,$//g' $outfile
+
+for key in $(cat $outfile); do
+    bib2blog $bibfile $key;
+done
+
+rm $outfile

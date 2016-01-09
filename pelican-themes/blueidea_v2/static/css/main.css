@@ -13,7 +13,7 @@
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+/* @import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin); */
 
 /***** Global *****/
 /* Body */
@@ -39,11 +39,15 @@ h6 {font-size: 1em}		/* 14px */
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
+    margin-top: 1em;
 	margin-bottom: .8em;
     font-family: 'Yanone Kaffeesatz', arial, serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
+
+/* do not offset title banner */
+#title { margin-top: 0em; }
 	
 hr { border: 2px solid #EEEEEE; }
 
@@ -352,15 +356,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	/* Blogroll */
 	#extras .blogroll {
 		float: left;
-		width: 615px;
+		width: 660px;
+        margin-left: 15px;
 	}
 	
-	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
+	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 165px;}
 	
 	/* Social */
 	#extras .social {
 		float: right;
-		width: 175px;
+		width: 125px;
 	}
 	
 	#extras div[class='social'] a {
@@ -371,6 +376,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	
 		/* Icons */
 		#extras .social a {background-size: 18px;}
+		#extras .social a[href*='mailto://'] {background-image: url('../images/icons/email.png');}
 		#extras .social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
 		#extras .social a[href*='github.com'], 
 		#extras .social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
@@ -472,3 +478,89 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+
+
+/* Tagcloud */
+div.tagcloud{
+  position: absolute;
+  width: 15%;
+  left: 20px;
+}
+
+div.tagcloud-header {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+
+div.tagcloud-list {
+    position: relative;
+    background-color: white;
+    border-top-width: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+    z-index: 0;
+}
+
+ul.tagcloud {
+  padding: 0;
+}
+
+ul.tagcloud li {
+}
+
+li.tag-1 {
+    font-size: 100%;
+}
+
+li.tag-2 {
+    font-size: 100%;
+}
+
+li.tag-3 {
+    font-size: 100%;
+}
+
+li.tag-4 {
+    font-size: 100%;
+}
+
+ul.tagcloud .list-group-item <span>.badge {
+    background-color: white;
+    color: white;
+}
+
+/* Bib-entry laytout */
+div.authors {
+    text-align: right;
+    font-size: 120%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+div.abstract, div.files {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+div.files {
+    margin-top: 2em;
+}
+
+#abstract-title, #files-title {
+    font-weight: bold;
+    font-size: 110%;
+    margin-right: 1em;
+}

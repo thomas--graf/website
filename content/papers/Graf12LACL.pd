@@ -1,0 +1,34 @@
+Title: Movement-Generalized Minimalist Grammars
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Papers
+Tags: 
+
+<div class="authors">
+Graf, Thomas
+</div>
+
+<div class="abstract">
+<span id="abstract-title">Abstract</span>
+
+
+</div>
+
+<div class="files">
+<span id="files-title">Files</span>
+[[pdf]](./doc/papers/Graf12LACL.pdf)
+[[code]](./doc/papers/Graf12LACL.tar.gz)
+</div>
+
+~~~~~ {.bibtex}
+@InProceedings{Graf12LACL,
+  author	= {Graf, Thomas},
+  title		= {Movement-Generalized Minimalist Grammars},
+  year		= {2012},
+  booktitle	= {LACL 2012},
+  pages		= {58--73},
+  editor	= {Béchet, Denis and Dikovsky, Alexander J.},
+  volume	= {7351},
+  series	= {Lecture Notes in Computer Science}
+}
+~~~~~~~~~~~~~~~~~~~

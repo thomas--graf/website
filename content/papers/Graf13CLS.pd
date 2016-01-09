@@ -1,0 +1,31 @@
+Title: The Syntactic Algebra of Adjuncts
+Author: Thomas Graf
+Date: 2013-01-01
+Category: Papers
+Tags: 
+
+<div class="authors">
+Graf, Thomas
+</div>
+
+<div class="abstract">
+<span id="abstract-title">Abstract</span>
+
+
+</div>
+
+<div class="files">
+<span id="files-title">Files</span>
+[[pdf]](./doc/papers/Graf13CLS.pdf)
+[[code]](./doc/papers/Graf13CLS.tar.gz)
+</div>
+
+~~~~~ {.bibtex}
+@InProceedings{Graf13CLS,
+  author	= {Graf, Thomas},
+  title		= {The Syntactic Algebra of Adjuncts},
+  year		= {2013},
+  booktitle	= {Proceedings of CLS 49},
+  note		= {To appear}
+}
+~~~~~~~~~~~~~~~~~~~

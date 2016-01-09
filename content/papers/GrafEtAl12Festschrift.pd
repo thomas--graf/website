@@ -1,0 +1,32 @@
+Title: Theories of Everything. in Honor of Ed Keenan
+Author: Thomas Graf
+Date: 2012-01-01
+Category: Books
+Tags: 
+
+<div class="authors">
+Graf, Thomas, Denis Paperno, Anna Szabolcsi, and Jos Tellings \[eds.\]
+</div>
+
+<div class="abstract">
+<span id="abstract-title">Abstract</span>
+
+
+</div>
+
+<div class="files">
+<span id="files-title">Files</span>
+[[pdf]](./doc/papers/GrafEtAl12Festschrift.pdf)
+[[code]](./doc/papers/GrafEtAl12Festschrift.tar.gz)
+</div>
+
+~~~~~ {.bibtex}
+@Proceedings{GrafEtAl12Festschrift,
+  title		= {Theories of Everything. In Honor of Ed Keenan},
+  year		= {2012},
+  editor	= {Graf, Thomas and Paperno, Denis and Szabolcsi, Anna and
+		  Tellings, Jos},
+  volume	= {17},
+  series	= {UCLA Working Papers in Linguistics}
+}
+~~~~~~~~~~~~~~~~~~~

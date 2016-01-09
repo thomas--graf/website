@@ -1,0 +1,114 @@
+#!/bin/sh
+
+bibfile=$1
+bibkey=$2
+tmpfile=/tmp/bib2blog_${bibkey}.bib
+auxfile_folder=${HOME}/Latex/bibextra/
+content_folder=${HOME}/dev/website_pelican/content/
+
+######################
+#  File Preparation  #
+######################
+
+# extract bibtex entry
+awk -v RS='' "/${bibkey},/" $bibfile > $tmpfile
+
+# convert via bib2pd
+cp $tmpfile ${bibkey}.bib
+bib2pd $tmpfile Entry bib2blog_${bibkey}
+
+
+#########################
+#  Variable Extraction  #
+#########################
+
+# first we go throug hthe pandoc-processed file;
+# author goes from third position until first space before (
+author=$(sed -e 's/^- \([^(]*\) .*/\1/' bib2blog_${bibkey})
+# year occurs between first ( and )
+year=$(sed -e 's/^[^(]*(\([0-9]*\)).*/\1/' bib2blog_${bibkey})
+# title occurs between first occurrence of stars
+title=$(sed -e 's/[^*]*\*\?\*\([^*]*\).*/\1/' bib2blog_${bibkey})
+
+# abstract and tags have their own files so that we do not clutter the bibtex file;
+abstract=$(cat ${auxfile_folder}${bibkey}_abstract.pd)
+tags=$(cat ${auxfile_folder}${bibkey}_tags.pd)
+
+# now back to the original bibentry;
+# its found between @ and { on the first line;
+# we discard all other lines
+bibtype=$(sed -e '1s/^@\([^{[:space:]]*\).*/\1/' ${bibkey}.bib | head -n 1)
+bibtex_clean=$(cat ${bibkey}.bib)
+
+case $bibtype in
+    Book|book|Proceedings|proceedings)
+        category="Books"
+        ;;
+    Unpublished|unpublished)
+        category="Talks"
+        ;;
+    *)
+        category="Papers"
+esac
+
+case $category in
+    Unpublished|unpublished)
+        macrotype="talks"
+        ;;
+    *)
+        macrotype="papers"
+        ;;
+esac
+
+
+# Pdf and Code paths are generated automatically
+
+pdf="./doc/$macrotype/${bibkey}.pdf"
+code="./doc/$macrotype/${bibkey}.tar.gz"
+
+# if test -e "./content/$pdf"; then
+    pdfstring="[[pdf]]($pdf)"
+# fi
+#
+# if test -e "./content/$code"; then
+    codestring="[[code]]($code)"
+# fi
+
+
+#################
+#  Pandoc File  #
+#################
+
+# and put them all together
+echo "Title: $(echo $title | tr -d "\n")
+Author: Thomas Graf
+Date: $(echo $year | tr -d "\n")-01-01
+Category: $category
+Tags: $tags
+
+<div class=\"authors\">
+$(echo $author | tr -d "\n")
+</div>
+
+<div class=\"abstract\">
+<span id=\"abstract-title\">Abstract</span>
+
+$abstract
+</div>
+
+<div class=\"files\">
+<span id=\"files-title\">Files</span>
+$pdfstring
+$codestring
+</div>
+
+~~~~~ {.bibtex}
+$bibtex_clean
+~~~~~~~~~~~~~~~~~~~" > ${content_folder}${macrotype}/${bibkey}.pd
+
+
+##############
+#  Clean-Up  #
+##############
+rm ${bibkey}.bib
+rm bib2blog_${bibkey}

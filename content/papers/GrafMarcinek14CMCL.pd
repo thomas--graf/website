@@ -1,0 +1,33 @@
+Title: Evaluating Evaluation Metrics for Minimalist Parsing
+Author: Thomas Graf
+Date: 2014-01-01
+Category: Papers
+Tags: Minimalist grammars; parsing; relative clauses
+
+<div class="authors">
+Graf, Thomas, and Bradley Marcinek
+</div>
+
+<div class="abstract">
+<span id="abstract-title">Abstract</span>
+
+In response to Kobele et al. (2012), we evaluate four ways of linking the processing difficulty of sentences to the behavior of the top-down parser for Minimalist grammars developed in Stabler (2012).
+We investigate the predictions these four metrics make for a number of relative clause constructions, and we conclude that at this point, none of them capture the full range of attested patterns.
+</div>
+
+<div class="files">
+<span id="files-title">Files</span>
+[[pdf]](./doc/papers/GrafMarcinek14CMCL.pdf)
+[[code]](./doc/papers/GrafMarcinek14CMCL.tar.gz)
+</div>
+
+~~~~~ {.bibtex}
+@InProceedings{GrafMarcinek14CMCL,
+  author	= {Graf, Thomas and Marcinek, Bradley},
+  title		= {Evaluating Evaluation Metrics for Minimalist Parsing},
+  year		= {2014},
+  booktitle	= {Proceedings of the 2014 {ACL} Workshop on Cognitive
+		  Modeling and Computational Linguistics},
+  pages		= {28--36}
+}
+~~~~~~~~~~~~~~~~~~~

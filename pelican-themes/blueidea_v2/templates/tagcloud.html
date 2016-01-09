@@ -1,0 +1,17 @@
+<div class="tagcloud">
+    <div class="tagcloud-header">{{ TAGCLOUD_HEADER }}</div>
+    <div class="tagcloud-list">
+        <ul class="tagcloud">
+            {% for tag in tag_cloud %}
+                <li class="tag-{{ tag.1 }}">
+                    <a href="{{ SITEURL }}/{{ tag.0.url }}">
+                    {{ tag.0 }}
+                        {% if TAG_CLOUD_BADGE %}
+                            <span class="badge">({{ tag.2 }})</span>
+                        {% endif %}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
