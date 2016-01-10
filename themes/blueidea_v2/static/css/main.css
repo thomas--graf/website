@@ -1,12 +1,12 @@
 /*
-	Name: blueidea
-	Date: Oct 2013
+	Name: blueidea_v2
+    Date: Jan 2016
 	Description: A Pelican theme inspired by the default theme notmyidea 
 	Version: 1.0
 	License: MIT <http://opensource.org/licenses/MIT>
 	Licensed by: Smashing Media GmbH <http://www.smashingmagazine.com/>
 	Original author: Enrique Ramírez <http://enrique-ramirez.com/>
-	Customized by : Nassim Kacha <http://www.blueicefield.com/>
+	Customized by : Nassim Kacha <http://www.blueicefield.com/>, Thomas Graf <http://www.thomasgraf.net>
 */
 
 /* Imports */
@@ -500,6 +500,7 @@ div.tagcloud-header {
 	-webkit-border-radius: 5px 5px 5px 5px;
     border: 0px;
     bottom: 0;
+    text-align: center;
 }
 
 div.tagcloud-list {
@@ -565,4 +566,29 @@ div.files {
     font-weight: bold;
     font-size: 110%;
     margin-right: 1em;
+}
+
+#me-assistant, #me-affiliate, #SBU, #myemail {
+    font-size: 120%;
+}
+
+#myemail {
+    margin-top: 1.5em;
+}
+
+#email-note {
+    font-size: 80%;
+}
+
+#SBU-address {
+    font-weight: bold;
+}
+
+#home-splash {
+    position: absolute;
+    width: 400px;
+}
+
+#home-photo {
+    float: right;
 }

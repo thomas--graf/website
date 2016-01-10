@@ -4,6 +4,8 @@ Author: Thomas Graf
 picture
 
 contact details
+    address
+    office number
 
 CV
 
@@ -14,4 +16,3 @@ picture
 # Research Interests
 
 see also Projects
-

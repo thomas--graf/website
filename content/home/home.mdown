@@ -1,0 +1,43 @@
+Title: Welcome!
+Author: Thomas Graf
+URL:
+Template: home
+save_as: index.html
+status: draft
+
+<div markdown id="home-splash">
+
+<span markdown id="me-assistant">
+Assistant Professor  
+[Department of Linguistics](https://linguistics.stonybrook.edu/)
+</span>
+
+<span markdown id="me-affiliate">
+Affiliate Professor  
+[Institute for Advanced Computational Science](http://www.stonybrook.edu/)
+</span>
+
+<span markdown id="SBU">
+[Stony Brook University](http://www.stonybrook.edu)  
+Stony Brook, NY 11794-4376
+</span>
+
+<p markdown id="myemail">
+Email <span id="email-note">(remove underscores)</span>  
+[mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)
+</p>
+
+<p markdown id="myemail">
+Research Interests
+</p>
+
+- Computational Syntax
+- Computational Phonology
+- Parsing theory
+- [and  much more]({filename}/pages/projects.mdown)
+
+</div>
+
+<div markdown id="home-photo">
+![You're missing out on a lovely picture of me]({filename}/images/graf.jpg) 
+</div>
