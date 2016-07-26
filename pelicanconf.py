@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Thomas Graf'
 SITENAME = u'Thomas Graf'
 SITESUBTITLE = u'Computational Linguist at Stony Brook University'
-SITEURL = 'http://localhost:8000/'
+SITEURL = 'http://localhost:8000'
 GITHUB_URL = 'https://github.com/thomas--graf/thomas--graf.github.io-src'
 
 PATH = 'content'
@@ -31,6 +31,7 @@ DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tag_cloud']
+# MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight, guess_lang=off)']
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
@@ -51,7 +52,7 @@ HOME_NEWS_COUNT = 8
 LINKS = [('SBU Linguistics', 'http://linguistics.stonybrook.edu'), 
          ('SBU CompLab', ''),
          ('SBU IACS', 'http://www.iacs.stonybrook.edu/'),
-         ('MathLing Reading Group', ''),
+         ('MathLing Reading Group', 'http://linguistics.stonybrook.edu/mathling'),
          ('NLP Reading Group', 'https://sites.google.com/site/nlpsbureadinggroup/home'),
          ('Faculty of Language', 'http://facultyoflanguage.blogspot.com')]
 
@@ -64,20 +65,19 @@ LOAD_CONTENT_CACHE = False
 
 SLUGIFY_SOURCE = 'basename'
 ARTICLE_SAVE_AS = '{slug}.html'
-STATIC_PATHS = ['images', 'doc', 'extra/CNAME', 'extra/README.md', 'extra/robots.txt', 'home/home.mdown']
+STATIC_PATHS = ['images', 'doc', 'extra/CNAME', 'extra/README.md', 'extra/robots.txt']
 STATIC_EXCLUDE_SOURCES = False
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/README.md': {'path': 'README.md'},
-    'extra/CNAME': {'path': 'CNAME'},
-    'extra/home.mdown': {'path': 'index.html'}
+    'extra/CNAME': {'path': 'CNAME'}
 }
 
 TYPOGRIFY = True
 
 # Tagcloud
 TAGCLOUD_HEADER = 'Browse by Topic'
-TAG_CLOUD_SORTING = 'alphabetically'
+TAG_CLOUD_SORTING = 'size'
 TAG_CLOUD_BADGE = True
 
 INDEX_SAVE_AS = 'news.html'
@@ -87,3 +87,6 @@ DIRECT_TEMPLATES = ['index', 'categories', 'archives']
 
 # this is needed to get an index.html
 DEFAULT_DATE = 'fs'
+
+# no author page
+AUTHOR_SAVE_AS = ''
