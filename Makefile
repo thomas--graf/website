@@ -67,6 +67,8 @@ html:
 	cat publications.mdown presentations.mdown > allentries.mdown
 	./bib/mdown2pelican --file allentries.mdown --type Output --author "Thomas Graf"
 	rm publications.mdown presentations.mdown allentries.mdown
+	./bib/create_bibkey ~/Latex/graf.bib
+	./bib/create_bibkey ~/Latex/graf_presentations.bib
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 
