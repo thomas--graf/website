@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# Basic usage
+usage() {
+    echo "
+    to be done
+    "
+}
+
+# Detailed help
+
+website_folder="${HOME}/dev/website"
+author="Thomas Graf"
+lastname="graf"
+publications=${2-"${HOME}/Latex/${lastname}.bib"}
+presentations=${3-"${HOME}/Latex/${lastname}_presentations.bib"}
+tmppath="/tmp"
+outfile="${website_folder}/content/pages/output.mdown"
+
+############
+#  Output  #
+############
+echo "Title: Output
+Author: ${author}" > ${tmppath}/output_header
+${website_folder}/bib/bib2mdown -f $publications -t Publications -r True -o ${tmppath}/output_$(basename $publications)
+${website_folder}/bib/bib2mdown -f $presentations -t Presentations -r True -o ${tmppath}/output_$(basename $presentations)
+
+cat ${tmppath}/output_header ${tmppath}/output_$(basename $publications) ${tmppath}/output_$(basename $presentations) > $outfile
+
+rm ${tmppath}/output_header
+rm ${tmppath}/output_$(basename $publications)
+rm ${tmppath}/output_$(basename $presentations)

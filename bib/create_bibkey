@@ -1,17 +1,23 @@
 #!/bin/sh
 
-bibfile=$1
-outfile=$(basename $bibfile).keys
+website_folder="${HOME}/dev/website"
+bibfile=${1-"${HOME}/Latex/graf.bib"}
+tmppath="/tmp"
+outfile="${tmppath}/$(basename $bibfile).keys"
 
 # only keep lines with bibtex key
 grep -E "^@" $bibfile > $outfile
 
-# only keep bibkeys;
+# only keep bibkeys
 sed -i 's/@[[:alpha:]]*{//g' $outfile
 sed -i 's/,$//g' $outfile
 
+# create blog page for each bib entry
 for key in $(cat $outfile); do
-    ./bib/bib2blog $bibfile $key;
+    ${website_folder}/bib/bib2blog $bibfile $key;
 done
 
-rm $outfile
+# clean up
+if [ -e $outfile ]; then
+    rm $outfile
+fi

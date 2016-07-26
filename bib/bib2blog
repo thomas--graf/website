@@ -1,29 +1,167 @@
 #!/bin/sh
 
+# Basic usage
+usage() {
+    echo "
+    Convert bibtex entry to pelican blog entry
+    
+    Usage: bib2blog [options] BIBFILE BIBKEY [OUTPUT-FILE]
+    "
+}
+
+# Detailed help
+help() {
+echo "bib2blog [options] BIBENTRY BIBKEY [OUTPUT-FILE]
+
+Input: bibtex file and bibkey of entry to be extracted from this file
+Output: formatted pelican blog page for bibentry
+
+Options:
+
+  Files and Paths
+  -------------------------------------------------------------------
+  -f  --file              input file
+  -i  --input             input file
+
+  -o  --output            output file
+
+      --tmp               temp file
+
+  -b  --blogpath          path for pelican-internal link resolution
+
+  -c  --content           path to pelican content (sub)folder
+                          where output file shold be saved
+      --content-path      dito
+
+  -p  --pdfpath           path to pdf folder
+
+  -s  --style             csl style sheet to use in conversion
+
+  -w  --website-folder    path to website folder
+
+
+  Output Parameters
+  -------------------------------------------------------------------
+  -a  --add-section       Boolean; should we add the type as a header
+                          at the top of the output file? 
+                          [Default=true]
+
+  -t  --type              specify type of blog page to create;
+                          Output: formatted bibliography of all
+                          bibtex entries
+                          Entry: blog page for single bibtex entry;
+                          sets add-section=False
+
+                        
+  Miscellaneous
+  -------------------------------------------------------------------
+  -h  --help            this overview
+"
+}
+
+###############
+#  Variables  #
+###############
+
+# bibfile with entries to convert
+bibfile=$1
+
+# some important paths
+website_folder="${HOME}/dev/website"
+content_path="${website_folder}/content/pages/"
+style="${website_folder}/bib/mylanguage.csl"
+
+# are we producing a large bibliography [Output]
+# or a blogpost for single bibtex entry [Entry]
+type="Output"
+
+# should the type be added as a header to the output file?
+add_section="True"
+
+# options
+# while [ "$1" != "" ]; do
+#     case $1 in
+#         -f | -i | --file | --input )
+#             shift
+#             bibfile=$1
+#             ;;
+#         --tmp )
+#             shift
+#             tmpfile=$1
+#             ;;
+#         -s | --style )
+#             shift
+#             style=$1
+#             ;;
+#         -b | --blogpath )
+#             shift
+#             blog_path=$1
+#             ;;
+#         -p | --pdfpath )
+#             shift
+#             pdf_path=$1
+#             ;;
+#         -t | --type )
+#             shift
+#             type=$1
+#             ;;
+#         -a | --add-section )
+#             shift
+#             add_section=$1
+#             ;;
+#         -c | --content | --contentpath )
+#             shift
+#             content_path=$1
+#             ;;
+#         -o | --output )
+#             shift
+#             outfile=$1
+#             ;;
+#         -w | --website )
+#             shift
+#             website_folder=$1
+#             ;;
+#         -h | --help )
+#             help
+#             exit
+#             ;;
+#         *)
+#             usage
+#             exit 1
+#             ;;
+#     esac
+#     shift
+# done
+
 bibfile=$1
 bibkey=$2
 webauthor=${3-"Thomas Graf"}
-tmpfile=/tmp/bib2blog_${bibkey}.bib
-auxfile_folder=${HOME}/Latex/bibextra/
-content_folder=${HOME}/dev/website_pelican/content/
+tmpfile="/tmp/bib2blog_${bibkey}.bib"
+auxfile_folder="${HOME}/Latex/bibextra/"
+website_folder="${HOME}/dev/website"
+content_folder="${website_folder}/content/"
+
+
 
 ######################
 #  File Preparation  #
 ######################
 
-# extract bibtex entry
+# look for $bibkey in $bibfile and
+# extract the full entry to $tmpfile
 awk -v RS='' "/${bibkey},/" $bibfile > $tmpfile
 
-# convert via bib2mdown
+# convert entry to pelican format via bib2mdown
 cp $tmpfile ${bibkey}.bib
-./bib/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
+${website_folder}/bib/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
+
 
 
 #########################
 #  Variable Extraction  #
 #########################
 
-# first we go throug hthe pandoc-processed file;
+# first we go through the pandoc-processed file;
 # author goes from third position until first space before (
 author=$(sed -e 's/^- \([^(]*\) .*/\1/' bib2blog_${bibkey})
 # year occurs between first ( and )
@@ -34,6 +172,8 @@ title=$(sed -e 's/[^*]*\*\?\*\([^*]*\).*/\1/' bib2blog_${bibkey})
 # abstract and tags have their own files so that we do not clutter the bibtex file;
 abstract=$(cat ${auxfile_folder}${bibkey}/abstract.pd 2>/dev/null)
 tags=$(cat ${auxfile_folder}${bibkey}/tags.pd 2>/dev/null)
+# tags_raw=$(cat ${auxfile_folder}${bibkey}/tags.pd 2>/dev/null)
+# tags=$(echo "$tags_raw" | tr '[:upper:]' '[:lower:]')
 date=$(cat ${auxfile_folder}${bibkey}/date.pd 2>/dev/null)
 desc=$(cat ${auxfile_folder}${bibkey}/desc.pd 2>/dev/null)
 
@@ -44,10 +184,13 @@ fi
 
 # now back to the original bibentry;
 # its found between @ and { on the first line;
-# we discard all other lines
+# we discard all other lines in order to
+# determine the type of entry
 bibtype=$(sed -e '1s/^@\([^{[:space:]]*\).*/\1/' ${bibkey}.bib | head -n 1)
+# and then we just load the whole bib entry
 bibtex_clean=$(cat ${bibkey}.bib)
 
+# use type of entry to determine category for blog
 case $bibtype in
     Book|book|Proceedings|proceedings)
         category="Books"
@@ -59,6 +202,8 @@ case $bibtype in
         category="Papers"
 esac
 
+# set a macrotype that determines where blog entries
+# are saved in the website's content folder
 case $category in
     Talks)
         macrotype="talks"
@@ -68,12 +213,13 @@ case $category in
         ;;
 esac
 
-
-# Pdf and Code paths are generated automatically
+# pdf and code paths are generated automatically,
+# so you have to make sure to name them accordingly
 
 pdf="{filename}/doc/$macrotype/${bibkey}.pdf"
 code="{filename}/doc/$macrotype/${bibkey}.tar.gz"
 
+# now we create the links in the blog entry
 # if test -e "./content/$pdf"; then
     pdflink="[pdf]($pdf)"
 # fi
@@ -87,36 +233,53 @@ code="{filename}/doc/$macrotype/${bibkey}.tar.gz"
 #  Markdown File  #
 ###################
 
-# and put them all together
+# and now we put it all together
+
+# create file
 echo "Title: $(echo $title | tr -d "\n")
 Author: $webauthor
 Date: $date
 Category: $category
 Tags: $tags
+" > ${content_folder}${macrotype}/${bibkey}.mdown
 
-<div markdown class=\"authors\">
+echo "<div markdown class=\"authors\">
 $(echo $author | tr -d "\n")
 </div>
+" >> ${content_folder}${macrotype}/${bibkey}.mdown
 
-<div markdown class=\"abstract\">
+if [ "x$abstract" != "x" ]; then
+echo "<div markdown class=\"abstract\">
 <span id=\"abstract-title\">Abstract</span>
 $abstract
 </div>
+" >> ${content_folder}${macrotype}/${bibkey}.mdown
+fi
 
-<div markdown class=\"files\">
+echo "<div markdown class=\"files\">
 <span id=\"files-title\">Files</span>
 [$pdflink]
 [$codelink]
 </div>
+" >> ${content_folder}${macrotype}/${bibkey}.mdown
 
-~~~bibtex
-$bibtex_clean
-~~~
-" > ${content_folder}${macrotype}/${bibkey}.mdown
+echo '~~~latex' >> ${content_folder}${macrotype}/${bibkey}.mdown
+cat  ${bibkey}.bib >> ${content_folder}${macrotype}/${bibkey}.mdown
+echo '~~~' >> ${content_folder}${macrotype}/${bibkey}.mdown
+ 
 
 
 ##############
 #  Clean-Up  #
 ##############
-rm ${bibkey}.bib
-rm bib2blog_${bibkey}
+if [ -e $tmpfile ]; then
+    rm $tmpfile
+fi
+
+if [ -e ${bibkey}.bib ]; then
+    rm ${bibkey}.bib
+fi
+
+if [ -e bib2blog_${bibkey} ]; then
+    rm bib2blog_${bibkey}
+fi

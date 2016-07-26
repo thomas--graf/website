@@ -1,21 +1,88 @@
 #!/bin/sh
 
-# How to use
+# Basic usage
 usage() {
-    echo "usage: figure it out!"
+    echo "
+    Convert bib file to markdown list of entries
+    
+    Usage: bib2mdown [options] BIBFILE [OUTPUT-FILE]
+    "
+}
+
+# Detailed help
+help() {
+echo "bib2mdown [options] BIBFILE [OUTPUT-FILE]
+
+Input: must be a bibtex file
+Output: formatted markdown list of bibtex entries
+
+Options:
+
+  Files and Paths
+  -------------------------------------------------------------------
+  -f  --file              input file
+  -i  --input             input file
+
+  -o  --output            output file
+
+      --tmp               temp file
+
+  -b  --blogpath          path for pelican-internal link resolution
+
+  -c  --content           path to pelican content (sub)folder
+                          where output file shold be saved
+      --content-path      dito
+
+  -p  --pdfpath           path to pdf folder
+
+  -s  --style             csl style sheet to use in conversion
+
+  -w  --website-folder    path to website folder
+
+
+  Output Parameters
+  -------------------------------------------------------------------
+  -a  --add-section       Boolean; should we add the type as a header
+                          at the top of the output file? 
+                          [Default=true]
+
+  -n  --numbered          Boolean; produce numbered list of entries?
+
+  -r  --reverse-numbered  Boolean; reverse-numbered list of entries?
+
+  -t  --type              specify type of blog page to create;
+                          Output: formatted bibliography of all
+                          bibtex entries
+                          Entry: blog page for single bibtex entry;
+                          sets add-section=False
+
+                        
+  Miscellaneous
+  -------------------------------------------------------------------
+  -h  --help            this overview
+"
 }
 
 ###############
 #  Variables  #
 ###############
 
+# bibfile with entries to convert
 bibfile=$1
 
-style="./bib/mylanguage.csl"
-type="Output"
-add_section="True"
-content_path="./content/pages/"
+# some important paths
+website_folder="${HOME}/dev/website"
+content_path="${website_folder}/content/pages/"
+style="${website_folder}/bib/mylanguage.csl"
 
+# are we producing a large bibliography [Output]
+# or a blogpost for single bibtex entry [Entry]
+type="Output"
+
+# should the type be added as a header to the output file?
+add_section="True"
+
+# options
 while [ "$1" != "" ]; do
     case $1 in
         -f | -i | --file | --input )
@@ -46,7 +113,7 @@ while [ "$1" != "" ]; do
             shift
             add_section=$1
             ;;
-        -c | --content | --contentpath)
+        -c | --content | --contentpath )
             shift
             content_path=$1
             ;;
@@ -54,8 +121,20 @@ while [ "$1" != "" ]; do
             shift
             outfile=$1
             ;;
+        -n | --numbered )
+            shift
+            numbered_list=$1
+            ;;
+        -r | --reverse-numbered )
+            shift
+            reverse_numbered_list=$1
+            ;;
+        -w | --website )
+            shift
+            website_folder=$1
+            ;;
         -h | --help )
-            usage
+            help
             exit
             ;;
         *)
@@ -67,13 +146,16 @@ while [ "$1" != "" ]; do
 done
 
 
+# input file must exist,
 if [ -z $bibfile ]; then
     usage
     exit 1
-else
+# and we create a default tmp-file if not manually specified
+elif [ "x$tmpfile" = "x" ]; then
     tmpfile="/tmp/$(basename $0)_$(basename $bibfile)"
 fi
 
+# also set a default output file: lowercase $type.mdown
 if [ -z $outfile ]; then
     outfile="${2-$(echo $type | tr '[:upper:]' '[:lower:]').mdown}"
 fi
@@ -130,14 +212,34 @@ sed -i 's/,/\]\n/g' $tmpfile
 # we use asciidoc as an intermediary to keep the ref-ids;
 # strictly speaking this doesn't translate much
 # because pandoc has no asciidoc reader; ah well, maybe in the future
-pandoc $tmpfile --bibliography $bibfile --csl $style -t asciidoc --standalone --wrap=none -o ${tmpfile}_asciidoc
-pandoc ${tmpfile}_asciidoc -t markdown --wrap=none -o $tmpfile
+# NOTE: --wrap=none is --no-wrap in earlier versions of pandoc
+if [ -z $tmpfile ]; then
+    echo "$tmpfile does not exist!"
+    exit 1
+else
+    pandoc $tmpfile --bibliography $bibfile --csl $style -t asciidoc --standalone --wrap=none -o ${tmpfile}_asciidoc
+fi
+
+if [ -z ${tmpfile}_asciidoc ]; then
+    echo "${tmpfile}_asciidoc does not exist!"
+    exit 1
+else
+    pandoc ${tmpfile}_asciidoc -t markdown --wrap=none -o $tmpfile
+fi
+
 # clean-up
-rm ${tmpfile}_asciidoc
+if [ -e ${tmpfile}_asciidoc ]; then
+    rm ${tmpfile}_asciidoc
+fi
+
+# make doi hyperlinks;
+# we first extract all relevant parts,
+# and the reassemble them into a markdown link
+sed -i 's|doi:\(https\{0,1\}\)://\([^/]*\)/\([^/]*\)/\([^\\]*\)\\\(_\{0,1\}\)\([^\\]*\).*|doi:[\3/\4\5\6](\1://\2/\3/\4\5\6)|g' $tmpfile
 
 # remove URL links as they're best kept in the details;
 # this must be done before we move ref ids to the end;
-sed -i 's/ http:.*//' $tmpfile
+sed -i 's| https\{0,1\}://.*||g' $tmpfile
 
 # format ref ids and move to end
 sed -i 's|.*\\\[\\\[ref-\([[:alnum:]]*\)\\\]\\\] \(.*\)|\2 [\[pdf\]]('"$pdf_path"'\1.pdf) [\[details\]]('"$blog_path"'\1.mdown)|' $tmpfile
@@ -154,15 +256,39 @@ mv ${tmpfile}_grep $tmpfile
 # and now remove blank lines at start
 sed -i '/./,$!d' $tmpfile
 
-# itemize biliography
-sed -i 's/^\([[:alnum:]]\)/- \1/' $tmpfile
+# itemize biliography as desired
+if [ $numbered_list ]; then
+    sed -i 's/^\([[:alnum:]]\)/0. \1/' $tmpfile
+elif [ $reverse_numbered_list ]; then
+    # wrap entries in <li> tags 
+    # the markdown specification makes sure the markdown inside the tags gets parsed by pelican
+    sed -i 's/^\([[:alnum:]]\)/<li markdown>\n\1/' $tmpfile
+    sed -i 's|^\([^\n<]\+\)|\1\n</li>|' $tmpfile
+    # wrap in ordered list environment
+    sed -i '1s|^|\n<ol reversed markdown>\n|' $tmpfile
+    sed -i '$ s|>|>\n</ol>|' $tmpfile
+    # delete empty lines
+    sed -i '/^\s*$/d' $tmpfile
+else
+    sed -i 's/^\([[:alnum:]]\)/- \1/' $tmpfile
+fi
 
 
 ###########
 #  Hacks  #
 ###########
-# fix th on numbers
-sed -i 's/latexmath:\\\[\$\([[:alnum:]]*\)\^{\?\\text{th}}\?\$\\\]/\1th/g' $tmpfile
+# remove latexmath stuff
+sed -i 's/latexmath:\\\[\$\(.*\)\$\\\]/\1/g' $tmpfile
+# remove latex commands
+sed -i 's/\\[[:alnum:]]*{\([^}]*\)}/\1/g' $tmpfile
+# fix superscripts for numbers
+sed -i 's|\^{\{0,1\}\([^\}]*\)}\{0,1\}|\1|g' $tmpfile
+
+# fix duplicated Ms.
+sed -i 's/ ms\. Ms\./ Ms\./' $tmpfile
+
+# fix titles in italic instead of boldface
+sed -i 's/: \*\([^*]\+\)\*/: \*\*\1\*\*/' $tmpfile
 
 # second bold face should be italic
 # this regex is hard to read, so we first switch from ** to !!
