@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block content %}
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+           title="Permalink to {{ article.title|striptags }}">{{ article.title}}</a></h1>
+      {% include 'twitter.html' %}
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+      <br>
+      {% import 'translations.html' as translations with context %}
+      {{ translations.translations_for(article) }}
+      </footer><!-- /.post-info -->
+      {{ article.content }}
+    </div><!-- /.entry-content -->
+    {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "{{ article.url }}";
+        var disqus_url = "{{ SITEURL }}/{{ article.url }}";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+    {% endif %}
+
+  </article>
+</section>
+<section id="content" class="body">
+<h3>{% if FEED_ALL_ATOM %}
+<a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"><img src="./theme/images/icons/atom.gif" alt="subscribe to atom feed" border="0" width=24px /></a>
+{% endif %}
+Recent News
+</h3>
+<dl>
+{% for article in dates[:HOME_NEWS_COUNT] %}
+    {% if article.category|string == "Talks" %}
+        <dt>{{ article.locale_date }}: Talk</dt>
+    {% elif article.category|string == "Posters" %}
+        <dt>{{ article.locale_date }}: Poster</dt>
+    {% elif article.category|string == "Papers" %}
+        <dt>{{ article.locale_date }}: Paper</dt>
+    {% elif article.category|string == "Books" %}
+        <dt>{{ article.locale_date }}: Book</dt>
+    {% else %}
+    <dt>{{ article.locale_date }}: Blog Post</dt>
+    {% endif %}
+    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+{% endfor %}
+</dl>
+</section>
+{% endblock content %}
