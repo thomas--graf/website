@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf14NECPHONtalk.pdf)]
 [[code]({filename}/doc/talks/Graf14NECPHONtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf14NECPHONtalk,
   author	= {Graf, Thomas},
   title		= {Dependencies in Syntax and Phonology: A Computational
@@ -29,4 +24,3 @@ Graf, Thomas
 		  NYU, New York, New York.}
 }
 ~~~
-

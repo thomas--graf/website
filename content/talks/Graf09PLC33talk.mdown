@@ -2,7 +2,7 @@ Title: Comparing Incomparable Frameworks — a Model Theoretic Approach to Phono
 Author: Thomas Graf
 Date: 2009-01-01
 Category: Talks
-Tags: 
+Tags: phonology; generative capacity; subregular; Sanskrit; Cairene Arabic; Creek; primary stress
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,11 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+In previous work, we used techniques from mathematical logic and model theory to study and compare two phonological theories, SPE and Government Phonology.
+The surprising result was that Government Phonology corresponds to a very weak fragment of SPE, yet it can attain the full expressivity of the latter through more powerful mechanisms of feature spreading.
+An issue that we didn't elaborate on, however, is the question of what this increase in expressivity buys us in terms of empirical coverage, which we pick up in this paper.
+Again making good use of our model theoretic techniques, we investigate two phonological phenomena --- Sanskrit n-retroflexion and primary stress assignment in Creek and Cairene Arabic --- and show how much power feature spreading has to be granted in any descriptively adequate account which does not invoke additional technical machinery.
+These technical results are accompanied by reflections on the relation between empirically minded theory comparisons and the model theoretic approach.
 </div>
 
 <div markdown class="files">
@@ -19,15 +23,14 @@ Graf, Thomas
 [[code]({filename}/doc/talks/Graf09PLC33talk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf09PLC33talk,
   author	= {Graf, Thomas},
   title		= {Comparing Incomparable Frameworks --- A Model Theoretic
 		  Approach to Phonology},
   year		= {2009},
-  note		= {Handout of a talk given at the 33$^{	ext{rd}}$ Penn
+  note		= {Handout of a talk given at the 33$^{\text{rd}}$ Penn
 		  Linguistics Colloquium (PCL33), March 27 -- 29, University
 		  of Pennsylvania, Philadelphia, PA.}
 }
 ~~~
-

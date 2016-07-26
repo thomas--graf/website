@@ -2,7 +2,7 @@ Title: Locality in Flux — Reducibility Results for Syntactic Constraints
 Author: Thomas Graf
 Date: 2009-01-01
 Category: Talks
-Tags: 
+Tags: constraints; locality; transderivationality; reference-set computation; multi-dimensional trees; model-theoretic syntax; optimality theory
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,9 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+Müller and Sternefeld (2000) propose a locality hierarchy of syntactic constraints such that {representational, derivational} < global < translocal < transderivational.
+We use formal methods to demonstrate that their hierarchy correctly assumes that higher constraint classes are more powerful, but we also show that for every class there are constraints that can be reduced to a constraint in a weaker class.
+These results have important ramifications for our conception of locality, the relation between representational and derivational theories, the status of reference set computation, and how constraints might be acquired.
 </div>
 
 <div markdown class="files">
@@ -19,7 +21,7 @@ Graf, Thomas
 [[code]({filename}/doc/talks/Graf09MASLposter.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf09MASLposter,
   author	= {Graf, Thomas},
   title		= {Locality in Flux --- Reducibility Results for Syntactic
@@ -31,4 +33,3 @@ Graf, Thomas
 		  of Sciences, Budapest, Hungary}
 }
 ~~~
-

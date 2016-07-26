@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf12Interfaces.pdf)]
 [[code]({filename}/doc/papers/Graf12Interfaces.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InCollection{Graf12Interfaces,
   author	= {Graf, Thomas},
   title		= {Concealed Reference-Set Computation: How Syntax Escapes
@@ -33,4 +28,3 @@ Graf, Thomas
   pages		= {339--362}
 }
 ~~~
-

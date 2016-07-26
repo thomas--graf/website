@@ -1,0 +1,24 @@
+Title: Syntax and Phonology: A Computational Common Core
+Author: Thomas Graf
+Date: 2015-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf15StPetetalk.pdf)]
+[[code]({filename}/doc/talks/Graf15StPetetalk.tar.gz)]
+</div>
+
+~~~latex
+@Misc{Graf15StPetetalk,
+  author	= {Graf, Thomas},
+  title		= {Syntax and Phonology: A Computational Common Core},
+  year		= {2015},
+  note		= {Department of Mathematical Linguistics, Saint Petersburg State University, St. Petersburg, Russia}
+}
+~~~

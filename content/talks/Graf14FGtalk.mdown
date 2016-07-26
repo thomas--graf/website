@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf14FGtalk.pdf)]
 [[code]({filename}/doc/talks/Graf14FGtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf14FGtalk,
   author	= {Graf, Thomas},
   title		= {Models of Adjunction in Minimalist Grammars},
@@ -28,4 +23,3 @@ Graf, Thomas
 		  University of Tübingen, Tübingen, Germany}
 }
 ~~~
-

@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf15Athensposter.pdf)]
 [[code]({filename}/doc/talks/Graf15Athensposter.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf15Athensposter,
   author	= {Graf, Thomas},
   title		= {A Hidden Consensus: Computational Invariants of Minimalist Syntax},
@@ -28,4 +23,3 @@ Graf, Thomas
 		  Athens, Greece.}
 }
 ~~~
-

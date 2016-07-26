@@ -1,8 +1,8 @@
-Title: latexmath:\[$	ext{Reference-Set Computation} = 	ext{Minimalism} + 	ext{Transformational Rules?}$\]
+Title: Reference-Set Computation = Minimalism + Transformational Rules?
 Author: Thomas Graf
 Date: 2010-01-01
 Category: Talks
-Tags: 
+Tags: constraints; transderivationality; TAG; optimality theory; Focus Economy; Merge-over-Move; Shortest Derivation Principle; transducers
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,13 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
+Transderivational constraints (TC) formed an integral part of the early Minimalist Program. I develop a formal model of TCs firmly rooted in automata theory and subsequently argue that
 
+- in general, TCs aren't computationally intractable, nor does their complexity exceed that of non-transderivational constraints;
+- TCs have technical advantages over normal constraints in accounting for cross-linguistic variation;
+- an automata-theoretic approach brings us closer to a unified perspective on three rather distant research traditions, each of them with their unique body of empirical results: TCs, OT, and Synchronous Tree-Adjoining Grammar.
+
+As an illustration of the applicability of this formal model, I exhibit precise implementations of Focus Economy (Reinhart 2006), the Merge-over-Move condition (Chomsky 1998), and the Shortest Derivation Principle.
 </div>
 
 <div markdown class="files">
@@ -19,14 +25,12 @@ Graf, Thomas
 [[code]({filename}/doc/talks/Graf10Bielefeldtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf10Bielefeldtalk,
   author	= {Graf, Thomas},
-  title		= {$	ext{Reference-Set Computation} = 	ext{Minimalism} +
-		  	ext{Transformational Rules?}$},
+  title		= {$\text{Reference-Set Computation} = \text{Minimalism} + \text{Transformational Rules?}$},
   year		= {2010},
   note		= {Invited talk, December 8, Institut für Linguistik,
 		  Universität Bielefeld, Bielefeld, Germany}
 }
 ~~~
-

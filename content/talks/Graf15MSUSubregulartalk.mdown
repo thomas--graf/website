@@ -1,0 +1,24 @@
+Title: Computational Unity Across Language Modules
+Author: Thomas Graf
+Date: 2015-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf15MSUSubregulartalk.pdf)]
+[[code]({filename}/doc/talks/Graf15MSUSubregulartalk.tar.gz)]
+</div>
+
+~~~latex
+@Misc{Graf15MSUSubregulartalk,
+  author	= {Graf, Thomas},
+  title		= {Computational Unity Across Language Modules},
+  year		= {2015},
+  note		= {Invited talk, December 15, Department of Theoretical and Applied Linguistics, Moscow State University, Moscow, Russia}
+}
+~~~

@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf14CLStalk.pdf)]
 [[code]({filename}/doc/talks/Graf14CLStalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf14CLStalk,
   author	= {Graf, Thomas},
   title		= {Feature Geometry and the Person Case Constraint: An
@@ -29,4 +24,3 @@ Graf, Thomas
 		  University of Chicago, Chicago, IL}
 }
 ~~~
-

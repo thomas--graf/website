@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf11GLOWtalk.pdf)]
 [[code]({filename}/doc/talks/Graf11GLOWtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf11GLOWtalk,
   author	= {Graf, Thomas},
   title		= {Optimality is not a Race: Against a Performance-based View
@@ -29,4 +24,3 @@ Graf, Thomas
 		  University of Vienna, Vienna, Austria}
 }
 ~~~
-

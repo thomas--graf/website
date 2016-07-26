@@ -2,7 +2,7 @@ Title: Some Interdefinability Results for Syntactic Constraint Classes
 Author: Thomas Graf
 Date: 2009-01-01
 Category: Talks
-Tags: 
+Tags: constraints; transderivationality; reference-set computation; model-theoretic syntax; multi-dimensional trees; optimality theory
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,12 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+Choosing as my vantage point the linguistically motivated Müller-Sternefeld hierarchy (Müller and Sternefeld 2000), which classifies constraints according to their locality properties, I investigate the interplay of various syntactic constraint classes on a formal level.
+For non-comparative constraints, I use Rogers' (2003) framework of multi-dimensional trees to state Müller and Sternefeld's definitions in general yet rigorous terms that are compatible with a wide range of syntactic theories, and I formulate conditions under which distinct non-comparative constraints are equivalent.
+Comparative constraints, on the other hand, are shown to be best understood in terms of optimality systems (Frank and Satta 1998).
+From this I derive that some of them are reducible to non-comparative constraints.
+ 	 
+The results jointly vindicate a broadly construed version of the Müller-Sternefeld hierarchy, yet they also support a refined picture of constraint interaction that has profound repercussions for both the study of locality phenomena in natural language and how the complexity of linguistic proposals is to be assessed.
 </div>
 
 <div markdown class="files">
@@ -19,7 +24,7 @@ Graf, Thomas
 [[code]({filename}/doc/talks/Graf09MOLtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf09MOLtalk,
   author	= {Graf, Thomas},
   title		= {Some Interdefinability Results for Syntactic Constraint
@@ -30,4 +35,3 @@ Graf, Thomas
 		  Universität Bielefeld, Bielefeld, Germany.}
 }
 ~~~
-

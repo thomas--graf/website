@@ -1,0 +1,24 @@
+Title: Tier-Based Strict Locality in Phonology and Syntax
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas, and Jeffrey Heinz
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/GrafHeinz16JOLLI.pdf)]
+[[code]({filename}/doc/papers/GrafHeinz16JOLLI.tar.gz)]
+</div>
+
+~~~latex
+@unpublished{GrafHeinz16JOLLI,
+  author = {Graf, Thomas and Heinz, Jeffrey},
+  title = {Tier-Based Strict Locality in Phonology and Syntax},
+  year = {2016},
+  note = {Ms., Stony Brook University and University of Delaware}
+}
+~~~

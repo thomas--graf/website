@@ -2,7 +2,7 @@ Title: Ein Modelltheoretischer Blick Auf Syntaktische Constraints
 Author: Thomas Graf
 Date: 2008-01-01
 Category: Talks
-Tags: 
+Tags: constraints; model-theoretic syntax; multi-dimensional trees
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,7 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+My very first talk \*nostalgia\*. It's a very early attempt at developing a general, model-theoretic meta-theory of linguistic constraints, which came to full fruition in my UCLA PhD thesis. Beware: it's all in German.
 </div>
 
 <div markdown class="files">
@@ -19,7 +19,7 @@ Graf, Thomas
 [[code]({filename}/doc/talks/Graf08GGStalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf08GGStalk,
   author	= {Graf, Thomas},
   title		= {Ein modelltheoretischer Blick auf syntaktische
@@ -29,4 +29,3 @@ Graf, Thomas
 		  Südens 2008 (GGS 08), May 2-4, ZAS Berlin, Germany}
 }
 ~~~
-

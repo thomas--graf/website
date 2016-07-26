@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf13NYUtalk.pdf)]
 [[code]({filename}/doc/talks/Graf13NYUtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf13NYUtalk,
   author	= {Graf, Thomas},
   title		= {Optionality Implies Islandhood},
@@ -28,4 +23,3 @@ Graf, Thomas
 		  New York, NY}
 }
 ~~~
-

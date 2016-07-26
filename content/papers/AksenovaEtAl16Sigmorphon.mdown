@@ -1,0 +1,25 @@
+Title: Morphotactics as Tier-Based Strictly Local Dependencies
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/AksenovaEtAl16Sigmorphon.pdf)]
+[[code]({filename}/doc/papers/AksenovaEtAl16Sigmorphon.tar.gz)]
+</div>
+
+~~~latex
+@InProceedings{AksenovaEtAl16Sigmorphon,
+  author = {Aks\"{e}nova, Al\"{e}na and Graf, Thomas and Moradi, Sedigheh},
+  title = {Morphotactics as Tier-Based Strictly Local Dependencies},
+  year = {2016},
+  booktitle = {Proceedings of SIGMorPhon 2016},
+  note = {To appear} 
+}
+~~~

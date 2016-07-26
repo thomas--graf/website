@@ -8,21 +8,16 @@ Tags: Minimalist grammars; adjunction; model-theoretic syntax; MSO
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf14FG.pdf)]
 [[code]({filename}/doc/papers/Graf14FG.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf14FG,
   author	= {Graf, Thomas},
-  title		= {Models of Adjunction in Minimalist Grammars},
+  title		= {Models of Adjunction in {M}inimalist Grammars},
   year		= {2014},
   booktitle	= {Formal Grammar 2014},
   pages		= {52--68},
@@ -31,7 +26,7 @@ Graf, Thomas
   volume	= {8612},
   series	= {Lecture Notes in Computer Science},
   address	= {Heidelberg},
-  publisher	= {Springer}
+  publisher	= {Springer},
+  doi       = {10.1007/978-3-662-44121-3_4}
 }
 ~~~
-

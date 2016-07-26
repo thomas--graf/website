@@ -1,0 +1,24 @@
+Title: An Alternate View on Strong Lexicalization in Tag
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+De Santo, Aniello, Alëna Aksënova, and Thomas Graf
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/DeSantoEtAl16TAGtalk.pdf)]
+[[code]({filename}/doc/talks/DeSantoEtAl16TAGtalk.tar.gz)]
+</div>
+
+~~~latex
+@Misc{DeSantoEtAl16TAGtalk,
+  author    = {De Santo, Aniello and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
+  title     = {An Alternate View on Strong Lexicalization in TAG},
+  year      = {2016},
+  note      = {Slides of a talk given at the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms, June 29 -- July 1, Düsseldorf, Germany}
+}
+~~~

@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf14LACLtalk.pdf)]
 [[code]({filename}/doc/talks/Graf14LACLtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf14LACLtalk,
   author	= {Graf, Thomas},
   title		= {Late Merge as Lowering Movement in Minimalist Grammars},
@@ -28,4 +23,3 @@ Graf, Thomas
 		  {IRIT}, Toulouse, France}
 }
 ~~~
-

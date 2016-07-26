@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf10ONLIposter.pdf)]
 [[code]({filename}/doc/talks/Graf10ONLIposter.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf10ONLIposter,
   author	= {Graf, Thomas},
   title		= {Efficient Computation at the Interfaces},
@@ -29,4 +24,3 @@ Graf, Thomas
 		  Kingdom}
 }
 ~~~
-

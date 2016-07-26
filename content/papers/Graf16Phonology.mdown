@@ -1,0 +1,24 @@
+Title: The Power of Locality Domains in Phonology
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf16Phonology.pdf)]
+[[code]({filename}/doc/papers/Graf16Phonology.tar.gz)]
+</div>
+
+~~~latex
+@unpublished{Graf16Phonology,
+  author = {Graf, Thomas},
+  title = {The Power of Locality Domains in Phonology},
+  year = {2016},
+  note = {Ms., Stony Brook University}
+}
+~~~

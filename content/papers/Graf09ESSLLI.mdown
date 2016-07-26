@@ -2,7 +2,7 @@ Title: Towards a Factorization of String-Based Phonology
 Author: Thomas Graf
 Date: 2009-01-01
 Category: Papers
-Tags: 
+Tags: phonology; generative capacity; constraints; modal logic; Government Phonology; SPE
 
 <div markdown class="authors">
 Graf, Thomas
@@ -22,15 +22,14 @@ I identify several other axes along which Government Phonology might be generali
 [[code]({filename}/doc/papers/Graf09ESSLLI.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf09ESSLLI,
   author	= {Graf, Thomas},
   title		= {Towards a Factorization of String-Based Phonology},
   year		= {2009},
-  booktitle	= {Proceedings of the $14^{	ext{th}}$ Student Session of the
+  booktitle	= {Proceedings of the $14^{\text{th}}$ Student Session of the
 		  European Summerschool for Logic, Language and Information},
   pages		= {72--84},
   editor	= {Icard, Thomas}
 }
 ~~~
-

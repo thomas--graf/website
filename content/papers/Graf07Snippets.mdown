@@ -2,7 +2,7 @@ Title: Agreement with Hybrid Nouns in Icelandic
 Author: Thomas Graf
 Date: 2007-01-01
 Category: Papers
-Tags: 
+Tags: Icelandic; gender; agreement
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,7 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+A short squib on the special gender agreement properties exhibited by Icelandic nouns when their semantic gender is different from their syntactic gender.
 </div>
 
 <div markdown class="files">
@@ -19,7 +19,7 @@ Graf, Thomas
 [[code]({filename}/doc/papers/Graf07Snippets.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Article{Graf07Snippets,
   author	= {Graf, Thomas},
   title		= {Agreement with Hybrid Nouns in {I}celandic},
@@ -30,4 +30,3 @@ Graf, Thomas
   note		= {Available at: \url{http://www.ledonline.it/snippets/}}
 }
 ~~~
-

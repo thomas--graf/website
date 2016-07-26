@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf11LACLtalk.pdf)]
 [[code]({filename}/doc/talks/Graf11LACLtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf11LACLtalk,
   author	= {Graf, Thomas},
   title		= {Closure Properties of Minimalist Derivation Tree
@@ -29,4 +24,3 @@ Graf, Thomas
 		  LIRMM, Montpellier, France}
 }
 ~~~
-

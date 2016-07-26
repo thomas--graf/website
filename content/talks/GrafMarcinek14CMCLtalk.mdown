@@ -2,7 +2,7 @@ Title: Evaluating Evluation Metrics for Minimalist Parsing
 Author: Thomas Graf
 Date: 2014-01-01
 Category: Talks
-Tags: 
+Tags: Minimalist grammars; parsing; relative clauses; embedding
 
 <div markdown class="authors">
 Graf, Thomas, and Bradley Marcinek
@@ -10,7 +10,8 @@ Graf, Thomas, and Bradley Marcinek
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+In response to Kobele et al. (2012), we evaluate four ways of linking the processing difficulty of sentences to the behavior of the top-down parser for Minimalist grammars developed in Stabler (2012).
+We investigate the predictions these four metrics make for a number of relative clause constructions, and we conclude that at this point, none of them capture the full range of attested patterns.
 </div>
 
 <div markdown class="files">
@@ -19,7 +20,7 @@ Graf, Thomas, and Bradley Marcinek
 [[code]({filename}/doc/talks/GrafMarcinek14CMCLtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{GrafMarcinek14CMCLtalk,
   author	= {Graf, Thomas and Marcinek, Bradley},
   title		= {Evaluating Evluation Metrics for Minimalist Parsing},
@@ -29,4 +30,3 @@ Graf, Thomas, and Bradley Marcinek
 		  Baltimore, MD}
 }
 ~~~
-

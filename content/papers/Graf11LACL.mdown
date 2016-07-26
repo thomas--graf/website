@@ -8,30 +8,25 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf11LACL.pdf)]
 [[code]({filename}/doc/papers/Graf11LACL.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf11LACL,
   author	= {Graf, Thomas},
-  title		= {Closure Properties of Minimalist Derivation Tree
+  title		= {Closure Properties of {M}inimalist Derivation Tree
 		  Languages},
   year		= {2011},
-  booktitle	= {LACL 2011},
+  booktitle	= {{LACL} 2011},
   pages		= {96--111},
   editor	= {Pogodalla, Sylvain and Prost, Jean-Philippe},
   volume	= {6736},
   series	= {Lecture Notes in Artificial Intelligence},
   address	= {Heidelberg},
-  publisher	= {Springer}
+  publisher	= {Springer},
+  doi = {10.1007/978-3-642-22221-4_7}
 }
 ~~~
-

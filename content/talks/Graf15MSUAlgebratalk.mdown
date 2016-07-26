@@ -1,0 +1,24 @@
+Title: Towards an Algebraic Morphosyntax
+Author: Thomas Graf
+Date: 2015-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf15MSUAlgebratalk.pdf)]
+[[code]({filename}/doc/talks/Graf15MSUAlgebratalk.tar.gz)]
+</div>
+
+~~~latex
+@Misc{Graf15MSUAlgebratalk,
+  author	= {Graf, Thomas},
+  title		= {Towards an Algebraic Morphosyntax},
+  year		= {2015},
+  note		= {Invited talk, December 16, Department of Theoretical and Applied Linguistics, Moscow State University, Moscwo, Russia}
+}
+~~~

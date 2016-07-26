@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf10ZAStalk.pdf)]
 [[code]({filename}/doc/talks/Graf10ZAStalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf10ZAStalk,
   author	= {Graf, Thomas},
   title		= {Optimality Conditions Could Care Less About Optimality},
@@ -28,4 +23,3 @@ Graf, Thomas
 		  Sprachwissenschaft (ZAS), Berlin, Germany}
 }
 ~~~
-

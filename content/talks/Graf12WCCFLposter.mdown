@@ -8,25 +8,19 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf12WCCFLposter.pdf)]
 [[code]({filename}/doc/talks/Graf12WCCFLposter.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf12WCCFLposter,
   author	= {Graf, Thomas},
   title		= {Why There Must be Exceptions to Principle {B}},
   year		= {2012},
-  note		= {Poster presented at the 30$^{	ext{th}}$ West Coast
+  note		= {Poster presented at the 30$^{\text{th}}$ West Coast
 		  Conference on Formal Linguistics (WCCFL 30), April 13--15,
 		  UCSC, Santa Cruz, CA}
 }
 ~~~
-

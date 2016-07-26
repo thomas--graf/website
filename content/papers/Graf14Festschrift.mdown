@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf14Festschrift.pdf)]
 [[code]({filename}/doc/papers/Graf14Festschrift.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf14Festschrift,
   author	= {Graf, Thomas},
   title		= {Beyond the Apparent: Cognitive Parallels Between Syntax
@@ -32,4 +27,3 @@ Graf, Thomas
   editor	= {Schütze, Carson T. and Stockall, Linnaea}
 }
 ~~~
-

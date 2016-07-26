@@ -1,0 +1,24 @@
+Title: A Computational Guide to the Dichotomy of Features and Constraints
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf16Glossa.pdf)]
+[[code]({filename}/doc/papers/Graf16Glossa.tar.gz)]
+</div>
+
+~~~latex
+@article{Graf16Glossa,
+  author = {Graf, Thomas},
+  title = {A Computational Guide to the Dichotomy of Features and Constraints},
+  year = {2016},
+  note = {To appear in \emph{Glossa}}
+}
+~~~

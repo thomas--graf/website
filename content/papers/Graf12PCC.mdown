@@ -8,28 +8,22 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf12PCC.pdf)]
 [[code]({filename}/doc/papers/Graf12PCC.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InCollection{Graf12PCC,
   author	= {Graf, Thomas},
-  title		= {An Algebraic Perspective on the Person Case Constraint},
+  title		= {An Algebraic Perspective on the {P}erson {C}ase {C}onstraint},
   year		= {2012},
   editor	= {Graf, Thomas and Paperno, Denis and Szabolcsi, Anna and
 		  Tellings, Jos},
-  booktitle	= {Theories of Everything. In Honor of Ed Keenan},
+  booktitle	= {Theories of Everything. {I}n Honor of {E}d {K}eenan},
   pages		= {85--90},
   volume	= {17},
   series	= {UCLA Working Papers in Linguistics}
 }
 ~~~
-

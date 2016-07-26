@@ -2,7 +2,7 @@ Title: From Vagueness to Disaster: On the Intricacies of Feature Checking
 Author: Thomas Graf
 Date: 2007-01-01
 Category: Papers
-Tags: 
+Tags: model-theoretic syntax; binding; feature checking; Minimalist grammars
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,7 +10,7 @@ Graf, Thomas
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+Because the thesis I wrote as a wee undergrad at the University of Vienna is cited in Reuland (2011) *Anaphora and Language Design*, I finally decided to upload it despite its many shortcomings. The (preachy) message is that we have to be more careful in formulating our theories in order to guarantee their consistency. As a case study of how imprecision begets incosistency, I investigate the theory of binding proposed in Reuland (2001).
 </div>
 
 <div markdown class="files">
@@ -19,7 +19,7 @@ Graf, Thomas
 [[code]({filename}/doc/papers/Graf07Thesis.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @MastersThesis{Graf07Thesis,
   author	= {Graf, Thomas},
   title		= {From Vagueness to Disaster: On the Intricacies of Feature
@@ -28,4 +28,3 @@ Graf, Thomas
   school	= {University of Vienna}
 }
 ~~~
-

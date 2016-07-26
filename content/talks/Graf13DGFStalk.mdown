@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf13DGFStalk.pdf)]
 [[code]({filename}/doc/talks/Graf13DGFStalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf13DGFStalk,
   author	= {Graf, Thomas},
   title		= {The Price of Freedom: Why Adjuncts are Islands},
@@ -29,4 +24,3 @@ Graf, Thomas
 		  of Potsdam, Potsdam, Germany}
 }
 ~~~
-

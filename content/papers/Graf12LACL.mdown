@@ -8,27 +8,23 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf12LACL.pdf)]
 [[code]({filename}/doc/papers/Graf12LACL.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf12LACL,
   author	= {Graf, Thomas},
-  title		= {Movement-Generalized Minimalist Grammars},
+  title		= {Movement-Generalized {M}inimalist Grammars},
   year		= {2012},
-  booktitle	= {LACL 2012},
+  booktitle	= {{LACL} 2012},
   pages		= {58--73},
   editor	= {Béchet, Denis and Dikovsky, Alexander J.},
   volume	= {7351},
-  series	= {Lecture Notes in Computer Science}
+  series	= {Lecture Notes in Computer Science},
+  doi       = {10.1007/978-3-642-31262-5_4},
+  url       = {http://dx.doi.org/10.1007/978-3-642-31262-5_4}
 }
 ~~~
-

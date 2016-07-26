@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf15DGFStalk.pdf)]
 [[code]({filename}/doc/talks/Graf15DGFStalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf15DGFStalk,
   author	= {Graf, Thomas},
   title		= {A Computational Guide to the Dichotomy of Features and Constraints},
@@ -28,4 +23,3 @@ Graf, Thomas
 		  University of Leipzig, Leipzig, Germany.}
 }
 ~~~
-

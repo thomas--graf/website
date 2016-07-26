@@ -8,21 +8,16 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf11FG.pdf)]
 [[code]({filename}/doc/papers/Graf11FG.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf11FG,
   author	= {Graf, Thomas},
-  title		= {Locality and the Complexity of Minimalist Derivation Tree
+  title		= {Locality and the Complexity of {M}inimalist Derivation Tree
 		  Languages},
   year		= {2012},
   booktitle	= {Formal Grammar 2010\slash 2011},
@@ -31,7 +26,8 @@ Graf, Thomas
   volume	= {7395},
   series	= {Lecture Notes in Computer Science},
   address	= {Heidelberg},
-  publisher	= {Springer}
+  publisher	= {Springer},
+  doi       = {10.1007/978-3-642-32024-8_14},
+  url       = {http://dx.doi.org/10.1007/978-3-642-32024-8_14}
 }
 ~~~
-

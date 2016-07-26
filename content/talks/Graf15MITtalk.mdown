@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf15MITtalk.pdf)]
 [[code]({filename}/doc/talks/Graf15MITtalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf15MITtalk,
   author	= {Graf, Thomas},
   title		= {Formal Processing Theory, or Parsing Without Parsers},
@@ -27,4 +22,3 @@ Graf, Thomas
   note		= {Slides of a talk given at the Workshop on Minimalist Parsing, October 9--12, MIT, Boston, MA}
 }
 ~~~
-

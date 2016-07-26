@@ -8,18 +8,13 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf10TLDposter.pdf)]
 [[code]({filename}/doc/talks/Graf10TLDposter.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{Graf10TLDposter,
   author	= {Graf, Thomas},
   title		= {Concealed Reference-Set Computation or How Syntax Escapes
@@ -29,4 +24,3 @@ Graf, Thomas
 		  Montreal, Canada}
 }
 ~~~
-

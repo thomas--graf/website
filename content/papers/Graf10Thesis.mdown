@@ -8,23 +8,18 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf10Thesis.pdf)]
 [[code]({filename}/doc/papers/Graf10Thesis.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @MastersThesis{Graf10Thesis,
   author	= {Graf, Thomas},
   title		= {Logics of Phonological Reasoning},
   year		= {2010},
-  school	= {University of California, Los Angeles}
+  school	= {University of California, Los Angeles},
+  url       = {http://thomasgraf.net/doc/papers/LogicsOfPhonologicalReasoning.pdf}
 }
 ~~~
-

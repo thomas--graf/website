@@ -1,0 +1,24 @@
+Title: A Single Movement Normal Form for Minimalist Grammars
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Talks
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas, Alëna Aksënova, and Aniello De Santo
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/GrafEtAl16FGtalk.pdf)]
+[[code]({filename}/doc/talks/GrafEtAl16FGtalk.tar.gz)]
+</div>
+
+~~~latex
+@Misc{GrafEtAl16FGtalk,
+  author = {Graf, Thomas and Aks\"{e}nova, Al\"{e}na and De Santo, Aniello},
+  title = {A Single Movement Normal Form for {M}inimalist Grammars},
+  year = {2016},
+  note = {Slides of a talk given the 21st Conference on Formal Grammar, August 20--21, Bolzano, Italy}
+}
+~~~

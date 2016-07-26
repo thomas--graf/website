@@ -8,24 +8,19 @@ Tags:
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf13Thesis.pdf)]
 [[code]({filename}/doc/papers/Graf13Thesis.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @PhDThesis{Graf13Thesis,
   author	= {Graf, Thomas},
   title		= {Local and Transderivational Constraints in Syntax and
 		  Semantics},
   year		= {2013},
-  school	= {UCLA}
+  school	= {UCLA},
+  url       = {http://thomasgraf.net/doc/papers/PhDThesis_RollingRelease.pdf}
 }
 ~~~
-

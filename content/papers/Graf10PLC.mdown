@@ -2,7 +2,7 @@ Title: Comparing Incomparable Frameworks: A Model Theoretic Approach to Phonolog
 Author: Thomas Graf
 Date: 2010-01-01
 Category: Papers
-Tags: 
+Tags: phonology; generative capacity; subregular; Sanskrit; Cairene Arabic; Creek; primary stress
 
 <div markdown class="authors">
 Graf, Thomas
@@ -23,7 +23,7 @@ These technical results are accompanied by reflections on the relation between e
 [[code]({filename}/doc/papers/Graf10PLC.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Article{Graf10PLC,
   author	= {Graf, Thomas},
   title		= {Comparing Incomparable Frameworks: A Model Theoretic
@@ -33,8 +33,6 @@ These technical results are accompanied by reflections on the relation between e
   volume	= {16},
   pages		= {Article 10},
   number	= {2},
-  note		= {Available at:
-		  \url{http://repository.upenn.edu/pwpl/vol16/iss1/10}}
+  URL       = {http://repository.upenn.edu/pwpl/vol16/iss1/10}
 }
 ~~~
-

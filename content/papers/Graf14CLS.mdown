@@ -8,25 +8,19 @@ Tags: morphosyntax; PCC; algebra; feature geometry; typology
 Graf, Thomas
 </div>
 
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
-</div>
-
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf14CLS.pdf)]
 [[code]({filename}/doc/papers/Graf14CLS.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{Graf14CLS,
   author	= {Graf, Thomas},
-  title		= {Feature Geometry and the Person Case Constraint: An
+  title		= {Feature Geometry and the {P}erson {C}ase {C}onstraint: An
 		  Algebraic Link},
   year		= {2014},
-  booktitle	= {Proceedings of CLS 50},
+  booktitle	= {Proceedings of {CLS} 50},
   note		= {To appear}
 }
 ~~~
-

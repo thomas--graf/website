@@ -1,8 +1,8 @@
-Title: Binding Complexity and the Status of Pronouns in English and ASL
+Title: Binding Complexity and the Status of Pronouns in English and Asl
 Author: Thomas Graf
 Date: 2012-01-01
 Category: Talks
-Tags: 
+Tags: binding; Principle B; sign language; English
 
 <div markdown class="authors">
 Abner, Natasha, and Thomas Graf
@@ -10,7 +10,10 @@ Abner, Natasha, and Thomas Graf
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+We have argued in previous work based on data from English that Principle B is suspended in all those contexts that would allow for an unbounded number of pronouns to occur within a single binding domain.
+American Sign Language seems to contradict this generalization.
+We show that these are not true counterexamples as they involve discourse binding rather than syntactic binding.
+This suggests a profound difference in the mechanisms that mediate binding in English and ASL.
 </div>
 
 <div markdown class="files">
@@ -19,7 +22,7 @@ Abner, Natasha, and Thomas Graf
 [[code]({filename}/doc/talks/AbnerGraf12FEASTposter.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{AbnerGraf12FEASTposter,
   author	= {Abner, Natasha and Graf, Thomas},
   title		= {Binding Complexity and the Status of Pronouns in English
@@ -30,4 +33,3 @@ Abner, Natasha, and Thomas Graf
 		  Warsaw, Poland}
 }
 ~~~
-

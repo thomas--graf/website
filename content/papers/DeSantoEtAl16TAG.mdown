@@ -1,0 +1,27 @@
+Title: An Alternate View on Strong Lexicalization in Tag
+Author: Thomas Graf
+Date: 2016-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+De Santo, Aniello, Alëna Aksënova, and Thomas Graf
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/DeSantoEtAl16TAG.pdf)]
+[[code]({filename}/doc/papers/DeSantoEtAl16TAG.tar.gz)]
+</div>
+
+~~~latex
+@InProceedings{DeSantoEtAl16TAG,
+  author    = {De Santo, Aniello and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
+  title     = {An Alternate View on Strong Lexicalization in TAG},
+  booktitle = {Proceedings of the 12th International Workshop on {T}ree {A}djoining {G}rammars and Related Formalisms ({TAG}+12)},
+  year      = {2016},
+  address   = {Düsseldorf, Germany},
+  pages     = {93--102},
+  url       = {http://www.aclweb.org/anthology/W16-3310}
+}
+~~~

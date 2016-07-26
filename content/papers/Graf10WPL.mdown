@@ -26,7 +26,7 @@ My approach sheds new light on the internal mechanics of these constraints and s
 [[code]({filename}/doc/papers/Graf10WPL.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Article{Graf10WPL,
   author	= {Graf, Thomas},
   title		= {A Tree Transducer Model of Reference-Set Computation},
@@ -37,4 +37,3 @@ My approach sheds new light on the internal mechanics of these constraints and s
   eid		= {Article 4}
 }
 ~~~
-

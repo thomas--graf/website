@@ -2,7 +2,7 @@ Title: A Refined Notion of Memory Usage for Minimalist Parsing
 Author: Thomas Graf
 Date: 2015-01-01
 Category: Papers
-Tags: 
+Tags: Minimalist grammars; parsing; relative clauses; movement
 
 <div markdown class="authors">
 Graf, Thomas, Brigitta Fodor, James Monette, Gianpaul Rachiele, Aunika Warren, and Chong Zhang
@@ -23,7 +23,7 @@ This result thus lends further support to the hypothesis that very simple notion
 [[code]({filename}/doc/papers/GrafEtAl15MOL.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @InProceedings{GrafEtAl15MOL,
   author    = {Graf, Thomas  and  Fodor, Brigitta  and  Monette, James  and  Rachiele, Gianpaul  and  Warren, Aunika  and  Zhang, Chong},
   title     = {A Refined Notion of Memory Usage for Minimalist Parsing},
@@ -36,4 +36,3 @@ This result thus lends further support to the hypothesis that very simple notion
   url       = {http://www.aclweb.org/anthology/W15-2301}
 }
 ~~~
-

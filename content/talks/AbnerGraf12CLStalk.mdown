@@ -2,7 +2,7 @@ Title: The Complexity of Binding in English and ASL
 Author: Thomas Graf
 Date: 2012-01-01
 Category: Talks
-Tags: 
+Tags: binding; Principle B; finite-state; typology; sign language; English
 
 <div markdown class="authors">
 Abner, Natasha, and Thomas Graf
@@ -10,7 +10,9 @@ Abner, Natasha, and Thomas Graf
 
 <div markdown class="abstract">
 <span id="abstract-title">Abstract</span>
-
+It is a well-known fact that pronouns can sometimes be locally bound in English, for instance in *picture*-phrases and certain adjuncts.
+Even though many different analyses have been developed over the years, it is still unclear why English exhibits this behavior, and more importantly, whether exceptions to Principle B must occur in every natural language.
+Starting from an independent observation about the permissible resource load of constraints and how a limited version of Principle B can be computed within these narrow confines, we formulate the hypothesis that Principle B is circumvented in every configuration that would allow for an unbounded number of pronouns to occur within a single binding domain.
 </div>
 
 <div markdown class="files">
@@ -19,7 +21,7 @@ Abner, Natasha, and Thomas Graf
 [[code]({filename}/doc/talks/AbnerGraf12CLStalk.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Misc{AbnerGraf12CLStalk,
   author	= {Abner, Natasha and Graf, Thomas},
   title		= {The Complexity of Binding in {E}nglish and {ASL}},
@@ -28,4 +30,3 @@ Abner, Natasha, and Thomas Graf
 		  University of Chicago, Chicago, IL}
 }
 ~~~
-

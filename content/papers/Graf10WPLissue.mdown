@@ -2,15 +2,10 @@ Title: Papers in Mathematical Linguistics 1
 Author: Thomas Graf
 Date: 2010-01-01
 Category: Books
-Tags: 
+Tags: edited volume
 
 <div markdown class="authors">
 Graf, Thomas \[ed.\]
-</div>
-
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
-
 </div>
 
 <div markdown class="files">
@@ -19,7 +14,7 @@ Graf, Thomas \[ed.\]
 [[code]({filename}/doc/papers/Graf10WPLissue.tar.gz)]
 </div>
 
-~~~bibtex
+~~~latex
 @Proceedings{Graf10WPLissue,
   title		= {Papers in Mathematical Linguistics 1},
   year		= {2010},
@@ -28,4 +23,3 @@ Graf, Thomas \[ed.\]
   series	= {UCLA Working Papers in Linguistics}
 }
 ~~~
-
