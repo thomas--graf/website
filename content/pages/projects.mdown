@@ -1,14 +1,16 @@
 Title: Projects
 Author: Thomas Graf
 
-# Morphosyntax
+# Computational Syntax
+
+# Syntactic Constraints
+
+# Subregular Complexity
 
 # Parsing
 
-# Phonology
-
 # Protein Folding
 
-# Syntax
-
 # Syntax Timeline
+
+[interactive timeline]({filename}/timeline/main.html)
