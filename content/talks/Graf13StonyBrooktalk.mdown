@@ -18,7 +18,7 @@ Graf, Thomas
   author	= {Graf, Thomas},
   title		= {Constraints Emerge from {M}erge},
   year		= {2013},
-  note		= {Invited talk, February 12, Department of Linguistics, SUNY
-		  Stony Brook, NY}
+  note		= {Invited talk, February 12, Department of Linguistics, 
+		  Stony Brook University, Stony Brook, NY}
 }
 ~~~

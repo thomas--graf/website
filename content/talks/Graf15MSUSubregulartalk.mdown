@@ -8,8 +8,30 @@ Tags: phonology; Minimalist grammars; subregular; constraints; locality
 Graf, Thomas
 </div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Computational linguistics is often construed as the enterprise of 
+processing language with computers. But the field has much more to 
+offer than just that. A computationally informed perspective of 
+language offers profound scientific insights and can unearth new 
+language universals. In this talk, I illustrate this point with a 
+concrete case study.
+
+Syntax and phonology are commonly considered radically different 
+components of natural language. This view has been formally 
+corroborated by proofs that the generative capacity of syntax vastly 
+exceeds that of phonology. A very different picture emerges, however, 
+if one follows standard linguistic practice and treats syntax as 
+manipulating tree structures. I show that in this case, syntax and 
+phonology are computational twins in that they use the same memory 
+structures and inference patterns. The observed empirical differences 
+are due to a difference in data structures: strings for phonology, 
+trees for syntax.
+</div>
+
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf15MSUSubregulartalk.pdf)]
 </div>
 
 ~~~latex

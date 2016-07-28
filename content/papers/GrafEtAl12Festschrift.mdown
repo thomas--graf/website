@@ -5,7 +5,7 @@ Category: Books
 Tags: edited volume
 
 <div markdown class="authors">
-Graf, Thomas, Denis Paperno, Anna Szabolcsi, and Jos Tellings \[eds.\]
+Graf, Thomas, Denis Paperno, Anna Szabolcsi, and Jos Tellings [eds.]
 </div>
 
 <div markdown class="abstract">

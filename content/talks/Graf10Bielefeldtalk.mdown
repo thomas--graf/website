@@ -1,4 +1,4 @@
-Title: Reference-Set Computation = Minimalism + Transformational Rules?
+Title: latexmath:[$text{Reference-Set Computation} = text{Minimalism} + text{Transformational Rules?}$]
 Author: Thomas Graf
 Date: 2010-12-08
 Category: Talks

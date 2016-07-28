@@ -5,7 +5,7 @@ Category: Books
 Tags: edited volume
 
 <div markdown class="authors">
-Graf, Thomas \[ed.\]
+Graf, Thomas [ed.]
 </div>
 
 <div markdown class="abstract">

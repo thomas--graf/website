@@ -1,0 +1,24 @@
+Title: Memory Usage Predicts Relative Difficulty in Human Sentence Processing
+Author: Thomas Graf
+Date: 2016-04-13
+Category: Talks
+Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
+
+<div markdown class="authors">
+Graf, Thomas, James Monette, Robert Pasternak, and Chong Zhang
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/GrafEtAl16IACSposter.pdf)]
+[[code]({filename}/doc/talks/GrafEtAl16IACSposter.tar.gz)]
+</div>
+
+~~~latex
+@Misc{GrafEtAl16IACSposter,
+  author    = {Graf, Thomas and Monette, James and Pasternak, Robert and Zhang, Chong},
+  title     = {Memory Usage Predicts Relative Difficulty in Human Sentence Processing},
+  year      = {2016},
+  note      = {Poster presented at the {IACS} {R}esearch {D}ay 2016, April 13, IACS, Stony Brook University, Stony Brook, NY}
+}
+~~~

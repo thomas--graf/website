@@ -17,6 +17,8 @@ Starting from an independent observation about the permissible resource load of 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/AbnerGraf12CLStalk.pdf)]
+[[code]({filename}/doc/talks/AbnerGraf12CLStalk.tar.gz)]
 </div>
 
 ~~~latex
