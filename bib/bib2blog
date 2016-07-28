@@ -30,14 +30,14 @@ Options:
   -b  --blogpath          path for pelican-internal link resolution
 
   -c  --content           path to pelican content (sub)folder
-                          where output file shold be saved
+                          where output file should be saved
       --content-path      dito
 
   -p  --pdfpath           path to pdf folder
 
   -s  --style             csl style sheet to use in conversion
 
-  -w  --website-folder    path to website folder
+  -w  --website-path      path to website folder
 
 
   Output Parameters
@@ -67,9 +67,11 @@ Options:
 bibfile=$1
 
 # some important paths
-website_folder="${HOME}/dev/website"
-content_path="${website_folder}/content/pages/"
-style="${website_folder}/bib/mylanguage.csl"
+website_path="${HOME}/dev/website"
+content_path="${website_path}/content"
+pages_path="${content_path}/pages"
+bib_path="${website_path}/bib"
+style="${bib_path}/mylanguage.csl"
 
 # are we producing a large bibliography [Output]
 # or a blogpost for single bibtex entry [Entry]
@@ -119,7 +121,7 @@ add_section="True"
 #             ;;
 #         -w | --website )
 #             shift
-#             website_folder=$1
+#             website_path=$1
 #             ;;
 #         -h | --help )
 #             help
@@ -137,9 +139,7 @@ bibfile=$1
 bibkey=$2
 webauthor=${3-"Thomas Graf"}
 tmpfile="/tmp/bib2blog_${bibkey}.bib"
-auxfile_folder="${HOME}/Latex/bibextra/"
-website_folder="${HOME}/dev/website"
-content_folder="${website_folder}/content/"
+auxfile_path="${HOME}/Latex/bibextra"
 
 
 
@@ -153,7 +153,7 @@ awk -v RS='' "/${bibkey},/" $bibfile > $tmpfile
 
 # convert entry to pelican format via bib2mdown
 cp $tmpfile ${bibkey}.bib
-${website_folder}/bib/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
+${bib_path}/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
 
 
 
@@ -170,12 +170,12 @@ year=$(sed -e 's/^[^(]*(\([0-9]*\)).*/\1/' bib2blog_${bibkey})
 title=$(sed -e 's/[^*]*\*\?\*\([^*]*\).*/\1/' bib2blog_${bibkey})
 
 # abstract and tags have their own files so that we do not clutter the bibtex file;
-abstract=$(cat ${auxfile_folder}${bibkey}/abstract.pd 2>/dev/null)
-tags=$(cat ${auxfile_folder}${bibkey}/tags.pd 2>/dev/null)
-# tags_raw=$(cat ${auxfile_folder}${bibkey}/tags.pd 2>/dev/null)
+abstract=$(cat ${auxfile_path}/${bibkey}/abstract.pd 2>/dev/null)
+tags=$(cat ${auxfile_path}/${bibkey}/tags.pd 2>/dev/null)
+# tags_raw=$(cat ${auxfile_path}/${bibkey}/tags.pd 2>/dev/null)
 # tags=$(echo "$tags_raw" | tr '[:upper:]' '[:lower:]')
-date=$(cat ${auxfile_folder}${bibkey}/date.pd 2>/dev/null)
-desc=$(cat ${auxfile_folder}${bibkey}/desc.pd 2>/dev/null)
+date=$(cat ${auxfile_path}/${bibkey}/date.pd 2>/dev/null)
+desc=$(cat ${auxfile_path}/${bibkey}/desc.pd 2>/dev/null)
 
 if [ "x$date" = "x" ]; then
     date=$(echo $year | tr -d "\n")-01-01
@@ -236,41 +236,41 @@ Author: $webauthor
 Date: $date
 Category: $category
 Tags: $tags
-" > ${content_folder}${macrotype}/${bibkey}.mdown
+" > ${content_path}/${macrotype}/${bibkey}.mdown
 
 echo "<div markdown class=\"authors\">
 $(echo $author | tr -d "\n")
 </div>
-" >> ${content_folder}${macrotype}/${bibkey}.mdown
+" >> ${content_path}/${macrotype}/${bibkey}.mdown
 
 if [ "x$abstract" != "x" ]; then
 echo "<div markdown class=\"abstract\">
 <span id=\"abstract-title\">Abstract</span>
 $abstract
 </div>
-" >> ${content_folder}${macrotype}/${bibkey}.mdown
+" >> ${content_path}/${macrotype}/${bibkey}.mdown
 fi
 
 echo "<div markdown class=\"files\">
 <span id=\"files-title\">Files</span>"\
->> ${content_folder}${macrotype}/${bibkey}.mdown
+>> ${content_path}/${macrotype}/${bibkey}.mdown
 
-if [ -e "${website_folder}/content/doc/${macrotype}/${bibkey}.pdf" ]; then
+if [ -e "${content_path}/doc/${macrotype}/${bibkey}.pdf" ]; then
     echo "[$pdflink]"\
-    >> ${content_folder}${macrotype}/${bibkey}.mdown
+    >> ${content_path}/${macrotype}/${bibkey}.mdown
 fi
 
-if [ -e "${website_folder}/content/doc/${macrotype}/${bibkey}.tar.gz" -o -e "${website_folder}/content/doc/${macrotype}/${bibkey}.zip" ]; then
+if [ -e "${content_path}/doc/${macrotype}/${bibkey}.tar.gz" -o -e "${content_path}/doc/${macrotype}/${bibkey}.zip" ]; then
     echo "[$codelink]"\
-    >> ${content_folder}${macrotype}/${bibkey}.mdown
+    >> ${content_path}/${macrotype}/${bibkey}.mdown
 fi
 
 echo "</div>
-" >> ${content_folder}${macrotype}/${bibkey}.mdown
+" >> ${content_path}/${macrotype}/${bibkey}.mdown
 
-echo '~~~latex' >> ${content_folder}${macrotype}/${bibkey}.mdown
-cat  ${bibkey}.bib >> ${content_folder}${macrotype}/${bibkey}.mdown
-echo '~~~' >> ${content_folder}${macrotype}/${bibkey}.mdown
+echo '~~~latex' >> ${content_path}/${macrotype}/${bibkey}.mdown
+cat  ${bibkey}.bib >> ${content_path}/${macrotype}/${bibkey}.mdown
+echo '~~~' >> ${content_path}/${macrotype}/${bibkey}.mdown
  
 
 
