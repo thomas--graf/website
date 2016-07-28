@@ -1,17 +1,25 @@
 Title: A Computational Guide to the Dichotomy of Features and Constraints
 Author: Thomas Graf
-Date: 2016-01-01
+Date: 2016-07-27
 Category: Papers
-Tags: 
+Tags: Minimalist grammars; syntax; typology; categories; subcategorization; model-theoretic syntax; generative capacity
 
 <div markdown class="authors">
 Graf, Thomas
 </div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A contentious issue in the Minimalist literature is whether certain phenomena are best described in terms of features or constraints.
+Building on recent work in mathematical linguistics, I argue that constraints and features are interchangeable in Minimalist syntax.
+This does not invalidate the feature-constraint debate, though.
+Rather, the interdefinability of the two points out an unexpected loop hole in the formalism that allows for massive overgeneration and produces incorrect typological predictions.
+At the same time, the feature-constraint equivalence can be helpful in plugging this loop hole.
+</div>
+
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf16Glossa.pdf)]
-[[code]({filename}/doc/papers/Graf16Glossa.tar.gz)]
 </div>
 
 ~~~latex

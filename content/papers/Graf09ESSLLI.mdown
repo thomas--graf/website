@@ -1,8 +1,8 @@
 Title: Towards a Factorization of String-Based Phonology
 Author: Thomas Graf
-Date: 2009-01-01
+Date: 2009-07-28
 Category: Papers
-Tags: phonology; generative capacity; constraints; modal logic; Government Phonology; SPE
+Tags: phonology; generative capacity; constraints; modal logic; Government Phonology; SPE; subregular hierarchy
 
 <div markdown class="authors">
 Graf, Thomas

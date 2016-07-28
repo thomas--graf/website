@@ -1,11 +1,21 @@
 Title: Tree Adjunction as Minimalist Lowering
 Author: Thomas Graf
-Date: 2012-01-01
+Date: 2012-09-26
 Category: Talks
-Tags: 
+Tags: Minimalist grammars; TAG; movement; lowering; generative capacity
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+TAG and Minimalist grammars (MGs) are related in very interesting ways.
+Even though MGs subsume TAGs at the level of string languages, their respective classes of tree languages are incomparable (Kobele et al 2007, Mönnich 2006). 
+As pointed out by Mönnich (2006), this is due to a profound difference in how the two formalisms construct their tree languages.
+In particular, TAGs' tree adjunction corresponds to a specific kind of substitution that cannot be emulated by MGs' Move operation.
+However, Graf (2012) gives a general scheme for enriching MGs with new variants of Move without increasing their weak generative capacity.
+I show that tree adjunction can be emulated by a specific kind of lowering movement and give a general procedure for translating (suitably preprocessed) TAGs into MGs.
 </div>
 
 <div markdown class="files">

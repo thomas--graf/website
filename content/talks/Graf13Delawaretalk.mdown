@@ -1,8 +1,8 @@
 Title: Islands Without Islands
 Author: Thomas Graf
-Date: 2013-01-01
+Date: 2013-10-04
 Category: Talks
-Tags: 
+Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint
 
 <div markdown class="authors">
 Graf, Thomas

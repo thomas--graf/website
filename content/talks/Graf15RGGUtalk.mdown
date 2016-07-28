@@ -1,8 +1,8 @@
 Title: Adjuncts, Conjuncts, Ojuncts: Deriving Strong Island Constraints
 Author: Thomas Graf
-Date: 2015-01-01
+Date: 2015-12-14
 Category: Talks
-Tags: 
+Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">
 Graf, Thomas
@@ -10,8 +10,6 @@ Graf, Thomas
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf15RGGUtalk.pdf)]
-[[code]({filename}/doc/talks/Graf15RGGUtalk.tar.gz)]
 </div>
 
 ~~~latex

@@ -1,8 +1,8 @@
 Title: Local and Transderivational Constraints in Syntax and Semantics
 Author: Thomas Graf
-Date: 2013-01-01
+Date: 2013-07-30
 Category: Papers
-Tags: 
+Tags: Minimalist grammars; syntax; constraints; MSO; tree automata; tree transducers; features
 
 <div markdown class="authors">
 Graf, Thomas
@@ -11,7 +11,6 @@ Graf, Thomas
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf13Thesis.pdf)]
-[[code]({filename}/doc/papers/Graf13Thesis.tar.gz)]
 </div>
 
 ~~~latex

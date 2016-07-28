@@ -1,11 +1,28 @@
 Title: A Computational Guide to the Dichotomy of Features and Constraints
 Author: Thomas Graf
-Date: 2015-01-01
+Date: 2015-03-05
 Category: Talks
-Tags: 
+Tags: syntax; Minimalist grammars; model-theoretic syntax; subcategorization; features; constraints; overgeneration
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+I draw on various result from mathematical linguistics to argue that feature-based accounts and constraint-based ones should not be viewed as competing with each other but rather as complementing each other.
+In particular, recent results on Minimalist grammars show that features and constraints are interchangeable; one can do the work of the other.
+Even simple c-selection/subcategorization is powerful enough to handle very complex syntactic constraints, including transderivational ones such as Focus Economy and the Shortest Derivation Principle.
+Moreover, this basic feature checking mechanisms is already too powerful and opens up various loopholes in our theories, for instance by allowing phrases to seemingly be extracted out of islands.
+The same problem arises with constraints, where even very weak constraints can be co-opted to do a tremendous amount of work.
+The real problem, then, is that both types of devices --- constraints and features --- are too powerful.
+
+Hence we should not focus on choosing between the two at this point.
+Instead we need a better understanding of the properties that characterize the class of well-formedness conditions in natural language and how we can use these properties to restrict the power of the formalism in a principled manner.
+Since features and constraints are interchangeable, it ultimately does not matter from which perspective one approaches this issue.
+In some areas the relevant conditions might be more apparent when viewed through the lens of features, in others constraints might prove more fruitful.
+Once we have suitably formalized theories of empirically adequate feature systems and constraint classes, one can investigate whether there are formal reasons to prefer one over the other, e.g.\ succinctness.
+But as long as this it not the case, we should freely choose between the two as we see fit in an effort to pinpoint the right level of generative capacity.
 </div>
 
 <div markdown class="files">

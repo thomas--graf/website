@@ -1,11 +1,20 @@
 Title: Formal Processing Theory, or Parsing Without Parsers
 Author: Thomas Graf
-Date: 2015-01-01
+Date: 2015-10-11
 Category: Talks
-Tags: 
+Tags: syntax; processing; relative clauses; Minimalist grammars; parsing; Chomsky in the audience
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+I argue that computational parsing research so far has operated at the wrong level(s) of granularity and that we should take a hint from formal language theory instead.
+Rather than compare the predictions of specific parsing models for specific phenomena, we should identify abstract properties that carve out classes of parsers and investigate what kind of processing patterns these classes can replicate.
+This view is more concrete than information-theoretic accounts as it maintains a close connection to the structural inference mechanisms of parsing.
+At the same time, it deliberately avoids the pitfalls of combinatorial indeterminacy that arise with the comparison of specific parsing models.
+This "formal processing theory" thus opens up a way of studying parsing without parsers.
 </div>
 
 <div markdown class="files">

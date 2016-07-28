@@ -1,11 +1,21 @@
 Title: The Price of Freedom: Why Adjuncts Are Islands
 Author: Thomas Graf
-Date: 2013-01-01
+Date: 2013-03-14
 Category: Talks
-Tags: 
+Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+I propose that if one takes seriously the Minimalist idea that syntax is driven by Merge and the feature calculus, the status of adjuncts as strong islands follows immediately from the properties that set them apart from arguments: optionality and iterability.
+This claim rests on mathematical results pertaining to specific properties of standard Minimalist grammars (MGs; Stabler 2011) versus those with an adjunction operation (Frey & Gärtner 2002).
+While the former can express all constraints definable in monadic second-order logic through their feature calculus (Graf 2011, Kobele 2011), the latter are restricted to a less powerful subclass.
+Intuitively, the freedom of adjuncts to adjoin to a phrase without being c-selected by the head comes at the price of rendering them *semi-permeable* with respect to constraints: dependencies can "scope" out of adjuncts and thus restrict the shape of the remainder of the tree, but not the other way round.
+This precludes extraction out of adjuncts given the standard assumption that movement involves a probe feature at the target site that needs to be checked, since this would be an instance of a dependency scoping into an adjunct.
+The existence of parasitic gaps, on the other hand, is expected since their dependencies extend in the other direction --- from inside the adjunct into the rest of the tree.
 </div>
 
 <div markdown class="files">

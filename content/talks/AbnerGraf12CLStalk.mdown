@@ -1,6 +1,6 @@
 Title: The Complexity of Binding in English and ASL
 Author: Thomas Graf
-Date: 2012-01-01
+Date: 2012-04-19
 Category: Talks
 Tags: binding; Principle B; finite-state; typology; sign language; English
 
@@ -17,8 +17,6 @@ Starting from an independent observation about the permissible resource load of 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/AbnerGraf12CLStalk.pdf)]
-[[code]({filename}/doc/talks/AbnerGraf12CLStalk.tar.gz)]
 </div>
 
 ~~~latex

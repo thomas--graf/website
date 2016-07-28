@@ -1,11 +1,16 @@
 Title: Closure Properties of Minimalist Derivation Tree Languages
 Author: Thomas Graf
-Date: 2011-01-01
+Date: 2011-06-30
 Category: Papers
-Tags: 
+Tags: Minimalist grammars; derivation trees; constraints; tree automata; generative capacity
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Recently, the question has been raised whether the derivation tree languages of Minimalist grammars (MGs; Stabler 1997, Stabler & Keenan 2003) are closed under intersection with regular tree languages (Graf 2010). Using a variation of a proof technique devised by Thatcher (1967), I show that even though closure under intersection does not obtain, it holds for every MG and regular tree language that their intersection is identical to the derivation tree language of some MG *modulo* category labels. It immediately follows that the same closure property holds with respect to union, relative complement, and certain kinds of linear transductions. Moreover, enriching MGs with the ability to put regular constraints on the shape of their derivation trees does not increase the formalism's weak generative capacity. This makes it straightforward to implement numerous linguistically motivated constraints on the Move operation.
 </div>
 
 <div markdown class="files">

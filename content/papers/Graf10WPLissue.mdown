@@ -8,10 +8,14 @@ Tags: edited volume
 Graf, Thomas \[ed.\]
 </div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A collection of articles in mathematical linguistics.
+</div>
+
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf10WPLissue.pdf)]
-[[code]({filename}/doc/papers/Graf10WPLissue.tar.gz)]
 </div>
 
 ~~~latex

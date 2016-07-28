@@ -2,10 +2,20 @@ Title: Concealed Reference-Set Computation: How Syntax Escapes the Parser’s Cl
 Author: Thomas Graf
 Date: 2012-01-01
 Category: Papers
-Tags: 
+Tags: transderivationality; reference-set computation; constraints; syntax; Merge-over-Move; tree transducers
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+It has been conjectured that all properties of language beyond recursion can be motivated by interface requirements.
+One component in this setup is the parser, which is thought to give rise to a preference for computational parsimony.
+I discuss a mathematical result on reference-set computation, an (allegedly) non-parsimonious piece of machinery, that challenges this assumption and suggests that syntax can sometimes "trick" the parser in order to escape its demands.
+If reference-set constraints are construed as so-called tree transducers, they do not increase the power of the syntactic machinery.
+This in turn entails that they can be expressed purely in terms of the Minimalist feature calculus regulating Merge and Move, so it cannot be ruled out that syntax employs reference-set constraints, whereas the parser operates on their less demanding equivalents.
+In order to demonstrate the viability of this approach for the kind of reference-set constraints found in the literature, I give an implementation of Merge-over-Move.
 </div>
 
 <div markdown class="files">

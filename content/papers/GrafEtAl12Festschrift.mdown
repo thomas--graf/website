@@ -16,7 +16,6 @@ A festschrift for Ed Keenan, containing 49 contributions from a variety of areas
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/GrafEtAl12Festschrift.pdf)]
-[[code]({filename}/doc/papers/GrafEtAl12Festschrift.tar.gz)]
 </div>
 
 ~~~latex

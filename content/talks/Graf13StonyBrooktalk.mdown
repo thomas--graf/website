@@ -1,8 +1,8 @@
 Title: Constraints Emerge from Merge
 Author: Thomas Graf
-Date: 2013-01-01
+Date: 2013-02-07
 Category: Talks
-Tags: 
+Tags: Minimalist grammars; syntax; constraints; MSO; tree automata; features
 
 <div markdown class="authors">
 Graf, Thomas
@@ -11,7 +11,6 @@ Graf, Thomas
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf13StonyBrooktalk.pdf)]
-[[code]({filename}/doc/talks/Graf13StonyBrooktalk.tar.gz)]
 </div>
 
 ~~~latex

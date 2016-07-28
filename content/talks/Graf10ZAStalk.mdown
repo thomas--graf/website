@@ -1,8 +1,8 @@
 Title: Optimality Conditions Could Care Less About Optimality
 Author: Thomas Graf
-Date: 2010-01-01
+Date: 2010-12-10
 Category: Talks
-Tags: 
+Tags: constraints; transderivationality; reference-set computation; optimality theory; transducers; semantics; Scope Economy
 
 <div markdown class="authors">
 Graf, Thomas

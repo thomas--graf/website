@@ -1,8 +1,8 @@
 Title: A Refined Notion of Memory Usage for Minimalist Parsing
 Author: Thomas Graf
-Date: 2015-01-01
+Date: 2015-07-25
 Category: Papers
-Tags: Minimalist grammars; parsing; relative clauses; movement
+Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
 
 <div markdown class="authors">
 Graf, Thomas, Brigitta Fodor, James Monette, Gianpaul Rachiele, Aunika Warren, and Chong Zhang

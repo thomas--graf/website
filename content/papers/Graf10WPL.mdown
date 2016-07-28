@@ -2,7 +2,7 @@ Title: A Tree Transducer Model of Reference-Set Computation
 Author: Thomas Graf
 Date: 2010-01-01
 Category: Papers
-Tags: 
+Tags: syntax; constraints; transderivationality; reference-set computation; optimality theory; Focus Economy; Merge-over-Move; Shortest Derivation Principle; tree transducers; MSO
 
 <div markdown class="authors">
 Graf, Thomas

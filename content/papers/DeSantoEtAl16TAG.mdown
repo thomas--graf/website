@@ -1,17 +1,24 @@
 Title: An Alternate View on Strong Lexicalization in Tag
 Author: Thomas Graf
-Date: 2016-01-01
+Date: 2016-07-27
 Category: Papers
-Tags: 
+Tags: Tree Adjoining grammar; lexicalization; multi-dimensional trees; generative capacity
 
 <div markdown class="authors">
 De Santo, Aniello, Alëna Aksënova, and Thomas Graf
 </div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+TAGs were recently shown not to be closed under strong lexicalization but to be strongly lexicalizable by context-free tree grammars of rank 2.
+This paper presents an alternative lexicalization procedure that builds on an earlier generalization of TAGs to multi-dimensional trees.
+A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding TAG is lifted to higher dimensions to show that for every $d$-dimensional TAG there exists a $(d+1)$-dimensional TAG that strongly lexicalizes it.
+A similar lifting reveals that $d$-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong lexicalization.
+</div>
+
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/DeSantoEtAl16TAG.pdf)]
-[[code]({filename}/doc/papers/DeSantoEtAl16TAG.tar.gz)]
 </div>
 
 ~~~latex

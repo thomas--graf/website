@@ -1,11 +1,19 @@
 Title: Models of Adjunction in Minimalist Grammars
 Author: Thomas Graf
-Date: 2014-01-01
+Date: 2014-08-16
 Category: Talks
-Tags: 
+Tags: Minimalist grammars; adjunction; model-theoretic syntax; MSO; derivation trees; subregular hierarchy
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Three closely related proposals for adding (cyclic) adjunction to Minimalist grammars are given model-theoretic definitions and investigated with respect to their linguistic and formal properties. 
+While they differ with respect to their linguistic adequacy, they behave largely the same on a computational level.
+Weak generative capacity is not affected, and while subregular complexity varies betweeen the three proposals, it does not exceed the complexity imposed by Move.
+The closure of Minimalist derivation tree languages under intersection with regular tree languages, however, is lost.
 </div>
 
 <div markdown class="files">

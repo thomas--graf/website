@@ -2,7 +2,7 @@ Title: Tier-Based Strict Locality in Phonology and Syntax
 Author: Thomas Graf
 Date: 2016-01-01
 Category: Papers
-Tags: 
+Tags: phonology; syntax; Minimalist grammars; tiers; movement; derivation trees; cognitive architecture
 
 <div markdown class="authors">
 Graf, Thomas, and Jeffrey Heinz
@@ -10,8 +10,6 @@ Graf, Thomas, and Jeffrey Heinz
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafHeinz16JOLLI.pdf)]
-[[code]({filename}/doc/papers/GrafHeinz16JOLLI.tar.gz)]
 </div>
 
 ~~~latex

@@ -16,7 +16,6 @@ A short squib on the special gender agreement properties exhibited by Icelandic 
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf07Snippets.pdf)]
-[[code]({filename}/doc/papers/Graf07Snippets.tar.gz)]
 </div>
 
 ~~~latex

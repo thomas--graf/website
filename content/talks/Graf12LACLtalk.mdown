@@ -1,11 +1,19 @@
 Title: Movement-Generalized Minimalist Grammars
 Author: Thomas Graf
-Date: 2012-01-01
+Date: 2012-07-04
 Category: Talks
-Tags: 
+Tags: Minimalist grammars; movement; MSO; tree languages; transductions; Tree Adjoining grammar; sideward movement; lowering movement; clustering; generative capacity
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A general framework is presented that allows for Minimalist grammars to use arbitrary movement operations under the proviso that they are all definable by monadic second-order formulas over derivation trees.
+Lowering, sidewards movement, and clustering, among others, are the result of instantiating the parameters of this framework in a certain way.
+Even though weak generative capacity is not increased, strong generative capacity may change depending on the available movement types.
+Notably, TAG-style tree adjunction can be emulated by a special type of lowering movement.
 </div>
 
 <div markdown class="files">

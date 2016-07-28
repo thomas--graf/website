@@ -1,11 +1,19 @@
 Title: Late Merge as Lowering Movement in Minimalist Grammars
 Author: Thomas Graf
-Date: 2014-01-01
+Date: 2014-06-19
 Category: Talks
-Tags: 
+Tags: Minimalist grammars; late merge; movement; lowering; generative capacity
 
 <div markdown class="authors">
 Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Minimalist grammars can be specified in terms of their derivation tree languages and a mapping from derivations to derived trees, each of which is definable in monadic second-order logic (MSO).
+It has been shown that the linguistically motivated operation Late Merge can push either component past the threshold of MSO-definability.
+However, Late Merge as used in the syntactic literature can be elegantly recast in terms of Lowering movement within the framework of Movement-generalized Minimalist grammars.
+As the latter are MSO-definable, the linguistically relevant fragment of Late Merge is too.
 </div>
 
 <div markdown class="files">
