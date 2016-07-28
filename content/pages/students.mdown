@@ -20,6 +20,6 @@ Author: Thomas Graf
 - [Alena Aksenova](http://www.aaksenova.com/) (SBU, Linguistics)
 - James Monette (SBU, Linguistics)
 - Robert Pasternak (SBU, Linguistics)
-- Amanda Payne (UD, Linguistics)
+- [Amanda Payne](http://udel.edu/~amandapa/) (UD, Linguistics)
 - Aniello de Santo (SBU, Linguistics)
 - Chong Zhang (SBU, Linguistics)
