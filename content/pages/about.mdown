@@ -1,18 +1,65 @@
 Title: About
 Author: Thomas Graf
 
-picture
+# [CV]({filename}/doc/other/cv.pdf)
 
-contact details
-    address
-    office number
+# My Research
 
-CV
+## Linguistics
 
-email
+As a linguist, I study the patterns that occur in languages around the world and seek to characterize what makes them special.
+For example, the English noun *denaturalization* is assembled from five components: *de* + *nature* + *al* + *ize* + *ation*.
+There are 120 ways these elements could be arranged, but English allows only the one above.
+The other 119 patterns would include words like *naturdeizalation* and *deationalnaturize*, and all of them are clearly incorrect.
+Languages differ in what orders they allow, but not everything goes: for instance, no language requires the parts of a word to be ordered by their length.
+Linguists try to construct a scientific theory of which patterns are possible, why only these patterns occur across languages, and how humans learn to produce the right patterns.
 
-picture
+## Computational Linguistics
 
-# Research Interests
+Computational linguistics means many things to many people.
+Some consider it computer-assisted linguistics, others a branch of engineering that tries to teach computers to communicate with humans.
+I have a much more general view: computational linguistics is any kind of linguistics with a grounding in mathematics.
+Mathematics is a wonderful tool to do scientific research, and all the advantages it has for physics, chemistry and biology can also be harnessed for linguistics.
 
-see also Projects
+My main goal is to evaluate the complexity of language from a mathematically and computationally informed perspective.
+What kind of memory architecture and inference rules are required to produce only correct patterns?
+Can computational limitations of the human brain be invoked to explain why certain patterns never occur in any languages?
+And can we exploit the limited nature of certain patterns to make them easier to handle for computers?
+
+## Research Topics
+
+I have worked on a pretty diverse list of topics, although they are all connected by this overarching idea of determining the complexity of patterns in language.
+I have looked a fair bit at the structure of sounds (*phonology*) and words (*morphology*), but in particular sentences (*syntax*).
+Recently I have also developed an interest in applying results from my research to molecular biology.
+If you'd like to know more, check out the [overview of research projects]({filename}/pages/projects.mdown) or the list of topics to the left (assuming you're not using a device with a small screen).
+
+
+# Getting in Touch
+
+<p markdown id="myemail">
+Email <span id="email-note">(remove underscores)</span>  
+[mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)
+</p>
+
+<span markdown id="myaddress">
+Github  
+</span>
+<span id
+[https://github.com/thomas--graf](https://github.com/thomas--graf)
+
+<span markdown id="myaddress">
+Mailing Address  
+</span>
+Department of Linguistics  
+Stony Brook University  
+Stony Brook, NY 11794-4376  
+USA
+
+<span markdown id="myoffice">
+Office  
+</span>
+Social and Behavioral Sciences Building  
+2nd floor  
+Room N-249
+
+
