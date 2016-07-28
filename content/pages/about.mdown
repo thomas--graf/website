@@ -36,15 +36,15 @@ If you'd like to know more, check out the [overview of research projects]({filen
 
 # Getting in Touch
 
-<p markdown id="myemail">
-Email <span id="email-note">(remove underscores)</span>  
+<p markdown>
+<span id="myemail">Email</span>
+(remove underscores)  
 [mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)
 </p>
 
 <span markdown id="myaddress">
-Github  
-</span>
-<span id
+Github
+</span>  
 [https://github.com/thomas--graf](https://github.com/thomas--graf)
 
 <span markdown id="myaddress">
