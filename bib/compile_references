@@ -1,0 +1,8 @@
+#!/bin/sh
+
+website_path=${HOME}/dev/website
+bib_path=${website_path}/bib
+
+$bib_path/create_bibliography
+$bib_path/create_bibkey ${HOME}/Latex/graf.bib
+$bib_path/create_bibkey ${HOME}/Latex/graf_presentations.bib
