@@ -43,7 +43,8 @@ DISPLAY_CATEGORIES_ON_SUBMENU = True
 DISPLAY_CATEGORIES_ON_POSTINFO = True
 DISPLAY_SEARCH_FORM = False
 GITHUB_POSITION = 'left'
-MENUITEMS = [('News', SITEURL + '/news.html')]
+MENUITEMS = [('Home', SITEURL),
+             ('News', SITEURL + '/news.html')]
 DISPLAY_SEARCH_FORM = True
 SUMMARY_MAX_LENGTH = 45
 HOME_NEWS_COUNT = 8
@@ -65,8 +66,9 @@ LOAD_CONTENT_CACHE = False
 
 SLUGIFY_SOURCE = 'basename'
 ARTICLE_SAVE_AS = '{slug}.html'
-STATIC_PATHS = ['images', 'doc', 'extra/CNAME', 'extra/README.md', 'extra/robots.txt']
+STATIC_PATHS = ['images', 'doc', 'extra/CNAME', 'extra/README.md', 'extra/robots.txt','timeline']
 STATIC_EXCLUDE_SOURCES = False
+IGNORE_FILES = ['timeline', 'extra']
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/README.md': {'path': 'README.md'},
