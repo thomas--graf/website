@@ -17,7 +17,7 @@ Author: Thomas Graf
 
 ## Current
 
-- Alena Aksenova (SBU, Linguistics)
+- [Alena Aksenova](http://www.aaksenova.com/) (SBU, Linguistics)
 - James Monette (SBU, Linguistics)
 - Robert Pasternak (SBU, Linguistics)
 - Amanda Payne (UD, Linguistics)
