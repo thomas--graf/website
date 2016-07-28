@@ -39,7 +39,8 @@ If you'd like to know more, check out the [overview of research projects]({filen
 <p markdown>
 <span id="myemail">Email</span>
 (remove underscores)  
-[mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)
+[mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)  
+[Public key for signing and encryption]({filename}/doc/other/thomasgraf_public.asc)
 </p>
 
 <span markdown id="myaddress">

@@ -21,9 +21,12 @@ Affiliate Professor
 Stony Brook, NY 11794-4376
 </span>
 
-<p markdown id="myemail">
+<p markdown>
+<span markdown id="myemail">
 Email <span id="email-note">(remove underscores)</span>  
-[mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)
+[mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)  
+</span>
+[Public key for signing and encryption]({filename}/doc/other/thomasgraf_public.asc)
 </p>
 
 <p markdown id="myemail">
