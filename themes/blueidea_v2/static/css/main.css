@@ -568,9 +568,15 @@ div.files {
     margin-right: 1em;
 }
 
-#me-assistant, #me-affiliate, #SBU, #myemail {
+#me-assistant, #me-affiliate, #SBU, #myemail, #myaddress, #myoffice {
     font-size: 120%;
 }
+
+/* #mycv { */
+/*     font-weight: bold; */
+/*     font-size: 150%; */
+/*     margin-top: 1.5em; */
+/* } */
 
 #myemail {
     margin-top: 1.5em;
