@@ -297,13 +297,16 @@ sed -i 's/\([^!]*!![^!]*!![^!]*\)!!\([^!]*\)!!\([^!]*\)/\1\*\2\*\3/' $tmpfile
 # and now back from !! to **
 sed -i 's/!!/**/g' $tmpfile
 
-# insert empty line at top
-sed -i '1s/.*/\n&/' $tmpfile
+# fix broken links
+sed -i 's|{filename[^}]|{filename}/|g' $tmpfile
 
 
 ##############
 #  Finalize  #
 ##############
+# insert empty line at top
+sed -i '1s/.*/\n&/' $tmpfile
+
 if [ $type = "Entry" ]; then
     add_section="False"
 fi

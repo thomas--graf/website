@@ -177,7 +177,7 @@ tags=$(cat ${auxfile_folder}${bibkey}/tags.pd 2>/dev/null)
 date=$(cat ${auxfile_folder}${bibkey}/date.pd 2>/dev/null)
 desc=$(cat ${auxfile_folder}${bibkey}/desc.pd 2>/dev/null)
 
-if [ "x$date"="x" ]; then
+if [ "x$date" = "x" ]; then
     date=$(echo $year | tr -d "\n")-01-01
 fi
 
@@ -216,17 +216,12 @@ esac
 # pdf and code paths are generated automatically,
 # so you have to make sure to name them accordingly
 
-pdf="{filename}/doc/$macrotype/${bibkey}.pdf"
-code="{filename}/doc/$macrotype/${bibkey}.tar.gz"
+pdf="{filename}/doc/${macrotype}/${bibkey}.pdf"
+code="{filename}/doc/${macrotype}/${bibkey}.tar.gz"
 
 # now we create the links in the blog entry
-# if test -e "./content/$pdf"; then
-    pdflink="[pdf]($pdf)"
-# fi
-#
-# if test -e "./content/$code"; then
-    codelink="[code]($code)"
-# fi
+pdflink="[pdf]($pdf)"
+codelink="[code]($code)"
 
 
 ###################
@@ -257,10 +252,20 @@ $abstract
 fi
 
 echo "<div markdown class=\"files\">
-<span id=\"files-title\">Files</span>
-[$pdflink]
-[$codelink]
-</div>
+<span id=\"files-title\">Files</span>"\
+>> ${content_folder}${macrotype}/${bibkey}.mdown
+
+if [ -e "${website_folder}/content/doc/${macrotype}/${bibkey}.pdf" ]; then
+    echo "[$pdflink]"\
+    >> ${content_folder}${macrotype}/${bibkey}.mdown
+fi
+
+if [ -e "${website_folder}/content/doc/${macrotype}/${bibkey}.tar.gz" -o -e "${website_folder}/content/doc/${macrotype}/${bibkey}.zip" ]; then
+    echo "[$codelink]"\
+    >> ${content_folder}${macrotype}/${bibkey}.mdown
+fi
+
+echo "</div>
 " >> ${content_folder}${macrotype}/${bibkey}.mdown
 
 echo '~~~latex' >> ${content_folder}${macrotype}/${bibkey}.mdown
