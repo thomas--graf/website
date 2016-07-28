@@ -71,9 +71,11 @@ Options:
 bibfile=$1
 
 # some important paths
-website_folder="${HOME}/dev/website"
-content_path="${website_folder}/content/pages/"
-style="${website_folder}/bib/mylanguage.csl"
+website_path="${HOME}/dev/website"
+content_path="${website_path}/content"
+pages_path="${content_path}/pages"
+bib_path="${website_path}/bib"
+style="${bib_path}/mylanguage.csl"
 
 # are we producing a large bibliography [Output]
 # or a blogpost for single bibtex entry [Entry]
@@ -131,7 +133,7 @@ while [ "$1" != "" ]; do
             ;;
         -w | --website )
             shift
-            website_folder=$1
+            website_path=$1
             ;;
         -h | --help )
             help
@@ -253,7 +255,29 @@ sed -i 's|.*\\\[\\\[ref-\([[:alnum:]]*\)\\\]\\\] \(.*\)|\2 [\[pdf\]]('"$pdf_path
 # this works because bib-file preparation numbered them all
 grep -Ev "^[0-9]+\." $tmpfile > ${tmpfile}_grep
 mv ${tmpfile}_grep $tmpfile
-# and now remove blank lines at start
+
+# delete links to non-existent files;
+# first we create a new temporary file to store lines after filtering
+touch ${tmpfile}_filtered
+
+# now we search every line in the file for a pdf path
+while read line; do
+    # extract the pdf link
+    pdf_file=$(echo $line | sed 's|.*\[\[pdf\]\]({filename}/\([^)]*\)).*|\1|')
+    # if the line contains a pdf link, pdf_file is not empty;
+    # but if it is non-empty and the linked file does not exist,
+    # it is a dead link and must be removed
+    if [ ! -z "$pdf_file" -a ! -f "${content_path}/$pdf_file" ]; then
+        line=$(echo $line | sed 's|\[\[pdf\]\]([^)]*) ||')
+    fi
+    # write the (possibly modified) line to filtered tmp file
+    echo "$line" >> ${tmpfile}_filtered
+done < $tmpfile
+
+# and make the filtererd tmp file the new base tmpfile
+mv ${tmpfile}_filtered $tmpfile
+
+# next step: remove blank lines at start
 sed -i '/./,$!d' $tmpfile
 
 # itemize biliography as desired
