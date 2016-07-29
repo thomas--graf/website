@@ -5,13 +5,13 @@ usage() {
     echo "
     Produce blog entry for every item in bibtex file
 
-    Usage: create_bibkey [options] BIBFILE
+    Usage: create_bibkey [options] -i BIBFILE
     "
 }
 
 # Detailed help
 help() {
-echo "create_bibkey [options] BIBFILE
+echo "create_bibkey [options] -i BIBFILE
 
 Input: bibtex file
 Output: pelican blog page for each bibentry
@@ -38,7 +38,7 @@ Options:
 
 website_path="${HOME}/dev/website"
 bib_path="${website_path}/bib"
-bibfile=${1-"${bib_path}/references.bib"}
+bibfile="${bib_path}/references.bib"
 tmppath="/tmp"
 outfile="${tmppath}/$(basename $bibfile).keys"
 
@@ -87,7 +87,7 @@ sed -i 's/,$//g' $outfile
 
 # create blog page for each bib entry
 for key in $(cat $outfile); do
-    ${website_path}/bib/bib2blog $bibfile $key;
+    ${website_path}/bib/bib2blog -i $bibfile -k $key;
 done
 
 # clean up

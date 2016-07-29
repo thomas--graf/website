@@ -5,13 +5,13 @@ usage() {
     echo "
     Convert bibtex entry to pelican blog entry
     
-    Usage: bib2blog [options] BIBFILE BIBKEY
+    Usage: bib2blog [options] -i BIBFILE -k BIBKEY
     "
 }
 
 # Detailed help
 help() {
-echo "bib2blog [options] BIBFILE BIBKEY
+echo "bib2blog [options] -i BIBFILE -k BIBKEY
 
 Input: bibtex file and bibkey of entry to be extracted from this file
 Output: formatted pelican blog page for the bibentry
@@ -51,9 +51,7 @@ content_path="${website_path}/content"
 bib_path="${website_path}/bib"
 auxfile_path="${bib_path}/auxfiles"
 
-bibfile=$1
-bibkey=$2
-webauthor=${3-"Thomas Graf"}
+webauthor="Thomas Graf"
 tmpfile="/tmp/bib2blog_${bibkey}.bib"
 
 # options

@@ -5,13 +5,13 @@ usage() {
     echo "
     Produce formatted list of publications and presentations 
 
-    Usage: create_bibliography [options] PUBLICATION-FILE PRESENTATION-FILE
+    Usage: create_bibliography [options] -p PUBLICATION-FILE -t PRESENTATION-FILE
     "
 }
 
 # Detailed help
 help() {
-echo "create_bibliography [options] PUBLICATION-FILE PRESENTATION-FILE
+echo "create_bibliography [options] -p PUBLICATION-FILE -t PRESENTATION-FILE
 
 Input: bibtex file and bibkey of entry to be extracted from this file
 Output: markdown file for Output page

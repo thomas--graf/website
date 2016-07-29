@@ -2,7 +2,9 @@
 
 website_path=${HOME}/dev/website
 bib_path=${website_path}/bib
+papers=${HOME}/Latex/graf.bib
+talks=${HOME}/Latex/graf_presentations.bib
 
-$bib_path/create_bibliography
-$bib_path/create_bibkey ${HOME}/Latex/graf.bib
-$bib_path/create_bibkey ${HOME}/Latex/graf_presentations.bib
+$bib_path/create_bibliography -p $papers -t $talks
+$bib_path/create_bibkey -i $papers
+$bib_path/create_bibkey -i $talks

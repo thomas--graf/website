@@ -5,13 +5,13 @@ usage() {
     echo "
     Convert bib file to markdown list of entries
     
-    Usage: bib2mdown [options] BIBFILE [OUTPUT-FILE]
+    Usage: bib2mdown [options] -i BIBFILE
     "
 }
 
 # Detailed help
 help() {
-echo "bib2mdown [options] BIBFILE [OUTPUT-FILE]
+echo "bib2mdown [options] -i BIBFILE
 
 Input: must be a bibtex file
 Output: formatted markdown list of bibtex entries
