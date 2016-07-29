@@ -1,0 +1,166 @@
+\documentclass[letterpaper,12pt]{article}
+
+\newcommand{\theauthor}{Thomas Graf}		% enter your name here to save you some typing
+\newcommand{\university}{University of California, Los Angeles}	% dito for the name of your university
+\newcommand{\emailaddress}{tgraf@ucla.edu}
+\newcommand{\thetitle}{LX208 --- Homework 2 Discussion} % dito for the title
+\newcommand{\thekeywords}{}
+\newcommand{\thedate}{\today}
+
+\author{\theauthor}
+\title{\thetitle}
+\date{\thedate}
+
+\usepackage{fixltx2e}
+
+\usepackage[kerning=true, protrusion=alltext, draft=false]{microtype}
+\usepackage[paper=letterpaper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{setspace}
+
+\usepackage[utf8]{inputenc}	% not working with ð and þ; use \eth and \thorn instead
+\usepackage[T1]{fontenc}	% scalable EC fonts
+\usepackage{charter}
+\usepackage[bitstream-charter]{mathdesign}% math fonts matched for charter, garamond, times, utopia
+\def\sfdefault{pag}		% charter sans serif looks horrible, so we replace it with AvantGarde-Book
+
+\usepackage{amsmath}		% AMS special settings for mathematics
+\usepackage{amsthm}		% AMS theorem package for mathematics
+
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{theblue} {rgb}{0.02,0.04,0.48}
+
+\usepackage[pdftex,%
+			backref=false,%		add link to section of citation to each item in bibliography
+			pagebackref=false,%	add link to page of citation to each item in bibliography
+			bookmarks=true,%	show bookmarks bar?
+			unicode=true,%		non-Latin characters in Acrobat’s bookmarks
+			breaklinks=true,%	allow link texts to break across lines
+			pageanchor=true,%	if set to false, the TOC will have no links
+			pdftoolbar=true,%	show Acrobat’s toolbar?
+			pdfmenubar=true,%	show Acrobat’s menu?
+			pdffitwindow=true,%	page fit to window when opened
+			pdfnewwindow=true,%	links in new window
+			colorlinks=true,%	false: boxed links; true: colored links
+			linkcolor=theblue,%	color of internal links
+			citecolor=theblue,%	color of links to bibliography
+			filecolor=theblue,%	color of file links
+			urlcolor=theblue,%	color of external links
+			pdfauthor={\theauthor},%
+			pdftitle={\thetitle},%
+			pdfkeywords={\thekeywords}%
+		]{hyperref}
+
+
+\newcommand{\is}{\ensuremath{\mathrel{\mathop:}=}}
+\newcommand{\setof}[1]{\ensuremath{\left \{ #1 \right \}}}
+\newcommand{\tuple}[1]{\ensuremath{\left \langle #1 \right \rangle }}
+\newcommand{\exercise}[1]{\noindent \textbf{Exercise #1} \quad}
+\renewcommand{\setminus}{-}
+
+
+
+\begin{document}
+\maketitle
+\doublespacing
+
+\exercise{2.5ai} $A \subseteq B \leftrightarrow A \cap B = A$
+\begin{proof}
+	$\rightarrow$: By definition, $A \subseteq B$ implies $\forall x [ x \in A \rightarrow x \in B]$. Hence
+	\begin{align*}
+		A \cap B \is& \setof{x \mid x \in A \text{ and } x \in B}\\
+			=& \setof{x \mid x \in A}\\
+			=&\ A
+	\end{align*}
+	$\leftarrow$: As shown in exercise 2.4, $A \cap B \subseteq B$. Since $A \cap B = A$, $A \subseteq B$.
+\end{proof}
+%
+\begin{proof}
+	$\rightarrow$: We know that $A \subseteq B$, so there is no $x \in A$ that lies outside of $B$. Recall that by the definition of intersection, $A \cap B \is \setof{ x \mid x \in A \text { and } x \in B}$. But since all members of $A$ are members of $B$, $A \cap B$ has to contain all members of $A$, i.e.\ $A \cap B \subseteq A$. Moreover, it is easy to see that $A \cap B$ cannot be a proper subset of $A$, for there are no $x \in A$ that are not in $B$. It follows immediately that $A \cap B = A$.\\
+	$\leftarrow$: We are given that $A \cap B = A$. So all elements in $A$ also have to lie within $B$. Otherwise, there would be an $x \in A$ not contained in $A \cap B$, contradicting our initial assumption. But if all $x \in A$ are also included in $B$, then by definition $A \subseteq B$.
+\end{proof}
+%
+\begin{proof}
+	$\rightarrow$: We prove by contradiction. Suppose $A \cap B \neq A$. First consider the case $A \cap B \varsubsetneq A$. Then there is an $x \in A \cap B$ s.t.\ $x \notin A$, which violates the definition of intersection [different route: use exercise 2.4]. Alternatively, assume $A \cap B \varsupsetneq A$, i.e.\ that there is an $x \in A$ s.t.\ $x \notin A \cap B$. Clearly, this is not in accord with our initial assumption that $A \subseteq B$.\\
+	$\leftarrow$: We prove again by contradiction. Suppose $A \varsubsetneq B$. Then there is an $x \in A$ that is not a member of $B$. But by the definition of $\cap$, then, $A \cap B \neq A$. Contradiction.
+\end{proof}
+
+
+\exercise{2.5aii} $A \subseteq B \leftrightarrow A \setminus B = \emptyset$
+\begin{proof}
+	$\rightarrow$: Note again that $A \subseteq B \rightarrow \forall x [ x \in A \rightarrow x \in B]$, whence
+	\begin{align*}
+		A \setminus B \is& \setof{x \mid x \in A \text{ and } x \notin B}\\
+			=& \setof{x \mid x \in \emptyset}\\
+			=&\ \emptyset
+	\end{align*}
+	$\leftarrow$: By definition, $A \setminus B \is \setof{x \mid x \in A \text{ and } x \notin B}$. If $A \setminus B = \emptyset$, then there is no $x$ s.t.\ $x \in A$ and $x \notin B$, whence $A \subseteq B$.
+\end{proof}
+%
+\begin{proof}
+	$\rightarrow$: If $A \subseteq B$, then every element of $A$ is contained in $B$, or equivalently, there is no $x \in A$ that is not a member of $B$. By the definition of relative complement, then, $A \setminus B = \emptyset$.\\
+	$\leftarrow$: Assume $A \varsubsetneq B$, from which it follows that there is an $x \in A$ s.t.\ $x \notin B$. But given the definition of relative complement, then, $x \in A \setminus B$. Contradiction.
+\end{proof}
+
+
+\exercise{2.5bi} $A \cap A = A$
+\begin{proof}
+	$A \cap A \is \setof{x \mid x \in A \text{ and } x \in A} = \setof{ x \mid x \in A} = A$.
+\end{proof}
+%
+\begin{proof}
+	We prove by contradiction. First assume $A \cap A \varsubsetneq A$. But we already know from exercise 2.4 that $A \cap A \subseteq A$. So suppose $A \cap A \varsupsetneq A$. Then there is an $x \in A$ that is not in $A \cap A$, implying that one of the two arguments of the intersection function is different from $A$. Contradiction.
+\end{proof}
+
+
+\exercise{2.5ci} $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+\begin{proof}
+	$\subseteq$: We prove by contradiction.
+% 	By definition of union and intersection, $A \cap (B \cup C)$ is the set of all objects that are in both $A$ and $B \cup C$, the latter of which is the set of elements in $B$ or $C$.
+	For arbitrary $x \in E$, assume that $x \in A \cap (B \cup C)$ yet $x \notin (A \cap B) \cup (A \cap C)$, i.e.\ $x$ is neither in $A \cap B$ nor in $A \cap C$. This is the case if $x \notin A$ or if $x \notin B$ and $x \notin C$. But we know $x \in A \cap (B \cup C)$, so in particular $x \in A$. Then it has to be the case that $x \notin B$ and $x \notin C$. But then $x \notin B \cup C$, whence $x \notin A \cap (B \cup C)$. Contradiction.\\
+	$\supseteq$: Suppose that $x \in (A \cap B) \cup (A \cap C)$. So $x$ has to be in $A \cap B$ or in $A \cap C$. Notice that in either case, $x$ has to be a member of $A$. Assume that $x \in A$. Then in order to be contained in $(A \cap B) \cup (A \cap C)$, $x$ must also be in $B$ or in $C$, i.e.\ it must hold that $x \in B \cup C$. Combining these two conditions, we see that $(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$.
+\end{proof}
+%
+\begin{proof}
+	Investigating the truth tables for ``and'' and ``or'', we see that $(x \text{ and } (y \text{ or } z))$ is equivalent to $((x \text{ and } y) \text{ or } (x \text{ and } z))$. Therefore
+	\begin{align*}
+	A \cap (B \cup C) \is& \setof{ x \mid x \in A \text{ and } (x \in B \text{ or } x \in C)}\\
+			=& \setof{ x \mid (x \in A \text{ and } x \in B) \text{ or } (x \in A \text{ and } x \in C)}\\
+			=& (A \cap B) \cup (A \cap C)
+	\qedhere
+	\end{align*}
+\end{proof}
+
+
+\exercise{2.5cii} $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
+\begin{proof}
+	Analogous to 2.5ci.
+\end{proof}
+
+
+\exercise{2.5di} $\neg (A \cap B) = \neg A \cup \neg B$
+\begin{proof}
+	Observe first that $\neg (A \cap B) = E \setminus (A \cap B) = \setof{ x \mid x \in E \text{ and } x \notin (A \cap B)}$. Clearly, if $x \notin A$ or $x \notin B$, then $x \notin (A \cap B)$. For the other direction, suppose neither $x \notin A$ nor $x \notin B$ holds, so both $x \in A$ and $x \in B$, contradicting our initial assumption that $x \notin (A \cap B)$. We conclude that $x \notin A$ or $x \notin B$ iff $x \notin (A \cap B)$, so $\neg (A \cap B) = \setof{x \mid x \in E \text{ and } (x \notin A \text{ or } x \notin B)}$. Using the definition of complement, this is equivalent to the set $\setof{x \mid x \in E \text { and } (x \in \neg A \text{ or } x \in \neg B)}$, which, by the definition of union, is in turn equivalent to $\neg A \cup \neg B$ (after dropping the redundant $x \in E$ clause), proving equality of $\neg (A \cap B)$ and $\neg A \cup \neg B$.
+\end{proof}
+%
+\begin{proof}
+	It is easy to see from the definition of intersection that $(x \notin A \text { or } x \notin B)$ implies $x \notin (A \cap B)$. An easy proof by contradiction shows that the converse holds, too. Thus
+	\begin{align*}
+		x \in \neg (A \cap B)   & \leftrightarrow x \notin (A \cap B) \tag{definition of complement}\\
+					& \leftrightarrow x \notin A \text{ or } x \notin B \tag{shown above}\\
+					& \leftrightarrow x \in \neg A \text{ or } x \in \neg B \tag{definition of complement}\\
+					& \leftrightarrow x \in \neg A \cup \neg B \tag{definition of union}
+	\end{align*}
+\end{proof}
+%
+\begin{proof}
+	$\subseteq$: We prove by contradiction. Assume there was an $x \in \neg (A \cap B)$ s.t.\ $x \notin \neg A \cup \neg B$. By the definition of complement, $x \in \neg (A \cap B) = x \notin A \cap B$. But then $x \notin A$ or $x \notin B$, or equivalently, $x \in \neg A$ or $x \in \neg B$, implying $x \in \neg A \cup \neg B$. Contradiction.\\
+	$\supseteq$: Inspecting the definition of complement and union, we see that $\neg (A \cap B)$ is the set of elements that are not in both $A$ and $B$. It is easy to see that $x \in \neg (A \cap B)$ if $x \notin A$ or $x \notin B$. By the definition of union, this yields $(\neg A \cup \neg B) \subseteq \neg (A \cap B)$.
+\end{proof}
+
+
+\exercise{2.5dii} $\neg (A \cup B) = \neg A \cap \neg B$
+\begin{proof}
+	Analogous to 2.5di.
+\end{proof}
+
+\end{document}

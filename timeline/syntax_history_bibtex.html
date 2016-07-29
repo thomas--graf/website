@@ -1,0 +1,3469 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>JabRef References output</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+<!--
+// QuickSearch script for JabRef HTML export 
+// Version: 2.0
+//
+// Copyright (c) 2006-2007, Mark Schenk
+//
+// Permission to use, copy, modify, and distribute this software for any
+// purpose with or without fee is hereby granted, provided that the above
+// copyright notice and this permission notice appear in all copies.
+//
+
+// Some features:
+// + optionally searches Abstracts and Reviews
+// + allows RegExp searches
+//   e.g. to search for entries between 1980 and 1989, type:  198[0-9]
+//   e.g. for any entry ending with 'symmetry', type:  symmetry$
+//   e.g. for all reftypes that are books: ^book$, or ^article$
+//   e.g. for entries by either John or Doe, type john|doe
+// + easy toggling of Abstract/Review
+
+// Acknowledgements:
+// + incorporates speed improvements suggested by Jean-Luc Falcone
+
+// Search settings
+var searchAbstract = true;
+var searchReview = true;
+
+// Speed optimisation introduced some esoteric problems with certain RegExp searches
+// e.g. if the previous search is 200[-7] and the next search is 200[4-7] then the search doesn't work properly until the next 'keyup'
+// hence the searchOpt can be turned off for RegExp adepts
+var searchOpt = true;
+
+if (window.addEventListener) {
+	window.addEventListener("load",initSearch,false); }
+else if (window.attachEvent) {
+	window.attachEvent("onload", initSearch); }
+
+function initSearch() {
+	// basic object detection
+	if(!document.getElementById || !document.getElementsByTagName) { return; }
+	if (!document.getElementById('qstable')||!document.getElementById('qs')) { return; }
+
+	// find QS table and appropriate rows
+	searchTable = document.getElementById('qstable');
+	var allRows = searchTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+
+	// split all rows into entryRows and infoRows (e.g. abstract, review, bibtex)
+	entryRows = new Array();
+	infoRows = new Array();
+
+	for (var i=0, k=0, j=0; i<allRows.length;i++) {
+		if (allRows[i].className.indexOf('entry') != -1) {
+			entryRows[j++] = allRows[i];
+		} else {
+			infoRows[k++] = allRows[i];		
+		}
+	}
+
+	//number of entries and rows
+	numRows = allRows.length;
+	numEntries = entryRows.length;
+	numInfo = infoRows.length;
+
+	//find the query field
+	qsfield = document.getElementById('qsfield');
+
+	// previous search term; used for speed optimisation
+	prevSearch = '';
+
+	//find statistics location
+	stats = document.getElementById('stat');
+	setStatistics(-1);
+
+	// shows the searchfield
+	document.getElementById('qs').style.display = 'block';
+	document.getElementById('qsfield').onkeyup = testEvent;
+}
+
+function quickSearch(tInput){
+
+	 if (tInput.value.length == 0) {
+		showAll();
+		setStatistics(-1);
+		qsfield.className = '';
+		return;
+	} else {
+		// only search for valid RegExp
+		try {
+			var searchText = new RegExp(tInput.value,"i")
+			closeAllInfo();
+			qsfield.className = '';
+		}
+		catch(err) {
+			prevSearch = tInput.value;
+			qsfield.className = 'invalidsearch';
+			return;
+		}
+	}
+	
+	// count number of hits
+	var hits = 0;
+
+	// start looping through all entry rows
+	for (var i = 0; cRow = entryRows[i]; i++){
+
+		// only show search the cells if it isn't already hidden OR if the search term is getting shorter, then search all
+		// some further optimisation is possible: if the search string is getting shorter, and the row is already visible, skip it. Then be careful with hits!
+		if(!searchOpt || cRow.className.indexOf('noshow')==-1 || tInput.value.length <= prevSearch.length){
+			var found = false; 
+
+			var inCells = cRow.getElementsByTagName('td');
+			var numCols = inCells.length;
+				
+			for (var j=0; j<numCols; j++) {
+				cCell = inCells[j];
+				var t = cCell.innerText?cCell.innerText:getTextContent(cCell);
+				if (t.search(searchText) != -1){ 
+					found=true; 
+					break;
+				} 
+			}
+
+			// look for further hits in Abstract and Review
+			if(!found) {
+				var articleid = cRow.id;
+				if(searchAbstract && (abs = document.getElementById('abs_'+articleid))) {
+					if (getTextContent(abs).search(searchText) != -1){ found=true; } 
+				}
+				if(searchReview && (rev = document.getElementById('rev_'+articleid))) {
+					if (getTextContent(rev).search(searchText) != -1){ found=true; } 
+				}
+			}
+			
+			if(found) {
+				cRow.className = 'entry show';
+				hits++;
+			} else {
+				cRow.className = 'entry noshow';
+			}
+		}
+	}
+
+	// update statistics
+	setStatistics(hits)
+	
+	// set previous search value
+	prevSearch = tInput.value;
+}
+
+function toggleInfo(articleid,info) {
+
+	var entry = document.getElementById(articleid);
+	var abs = document.getElementById('abs_'+articleid);
+	var rev = document.getElementById('rev_'+articleid);
+	var bib = document.getElementById('bib_'+articleid);
+	
+	if (abs && info == 'abstract') {
+		if(abs.className.indexOf('abstract') != -1) {
+		abs.className.indexOf('noshow') == -1?abs.className = 'abstract noshow':abs.className = 'abstract';
+		}
+	} else if (rev && info == 'review') {
+		if(rev.className.indexOf('review') != -1) {
+		rev.className.indexOf('noshow') == -1?rev.className = 'review noshow':rev.className = 'review';
+		}
+	} else if (bib && info == 'bibtex') {
+		if(bib.className.indexOf('bibtex') != -1) {
+		bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+		}		
+	} else { 
+		return;
+	}
+
+	// check if one or the other is available
+	var revshow = false;
+	var absshow = false;
+	var bibshow = false;
+	(abs && abs.className.indexOf('noshow') == -1)? absshow = true: absshow = false;
+	(rev && rev.className.indexOf('noshow') == -1)? revshow = true: revshow = false;	
+	(bib && bib.className == 'bibtex')? bibshow = true: bibshow = false;
+	
+	// highlight original entry
+	if(entry) {
+		if (revshow || absshow || bibshow) {
+		entry.className = 'entry highlight show';
+		} else {
+		entry.className = 'entry show';
+		}		
+	}
+	
+	// When there's a combination of abstract/review/bibtex showing, need to add class for correct styling
+	if(absshow) {
+		(revshow||bibshow)?abs.className = 'abstract nextshow':abs.className = 'abstract';
+	} 
+	if (revshow) {
+		bibshow?rev.className = 'review nextshow': rev.className = 'review';
+	}
+	
+}
+
+function setStatistics (hits) {
+	if(hits < 0) { hits=numEntries; }
+	if(stats) { stats.firstChild.data = hits + '/' + numEntries}
+}
+
+function getTextContent(node) {
+	// Function written by Arve Bersvendsen
+	// http://www.virtuelvis.com
+	
+	if (node.nodeType == 3) {
+	return node.nodeValue;
+	} // text node
+	if (node.nodeType == 1) { // element node
+	var text = [];
+	for (var chld = node.firstChild;chld;chld=chld.nextSibling) {
+		text.push(getTextContent(chld));
+	}
+	return text.join("");
+	} return ""; // some other node, won't contain text nodes.
+}
+
+function showAll(){
+	// first close all abstracts, reviews, etc.
+	closeAllInfo();
+
+	for (var i = 0; i < numEntries; i++){
+		entryRows[i].className = 'entry show'; 
+	}
+}
+
+function closeAllInfo(){
+	for (var i=0; i < numInfo; i++){
+		if (infoRows[i].className.indexOf('noshow') ==-1) {
+			infoRows[i].className = infoRows[i].className + ' noshow';
+		}
+	}
+}
+
+function testEvent(e){
+	if (!e) var e = window.event;
+	quickSearch(this);
+}
+
+function clearQS() {
+	qsfield.value = '';
+	quickSearch(qsfield);
+}
+
+function redoQS(){
+	showAll();
+	quickSearch(qsfield);
+}
+
+// Search Settings
+
+function toggleQSettingsDialog() {
+
+	var qssettings = document.getElementById('qssettings');
+
+	if(qssettings.className.indexOf('active')==-1) {
+		qssettings.className = 'active';
+
+		var absCheckBox = document.getElementById('searchabs');
+		var revCheckBox = document.getElementById('searchrev');
+		if(searchAbstract == true) { absCheckBox.checked = 'checked'; }
+		if(searchReview == true) { revCheckBox.checked = 'checked'; }
+
+	} else {
+		qssettings.className= '';
+	}
+}
+
+function toggleQSetting(setting) {
+
+	if(setting=='abs') { searchAbstract = !searchAbstract; }
+	if(setting=='rev') { searchReview = !searchReview; }
+
+	redoQS()
+}
+-->
+</script>
+<style type="text/css">
+body { background-color: white; font-family: "Trebuchet MS", Arial, sans-serif; font-size: 12px; line-height: 1.2; padding: 1em; }
+
+#qs { width: auto; border-style: solid; border-color: gray; border-width: 1px 1px 0px 1px; padding: 0.5em 0.5em; display:none; position:relative; }
+#qs form { padding: 0px; margin: 0px; }
+#qs form p { padding: 0px; margin: 0px; }
+
+.invalidsearch { background-color: red; }
+
+table { border: 1px gray solid; width: 100%; empty-cells: show; }
+th, td { border: 1px gray solid; padding: 0.5em; vertical-align: top;  }
+td { text-align: left; vertical-align: top; }
+th { background-color: #EFEFEF; }
+
+td a, td a:hover { color: navy; font-weight: bold; }
+
+tr.noshow { display: none;}
+
+tr.highlight td { background-color: #F1F1F1; border-top: 2px black solid; font-weight: bold; }
+tr.abstract td, tr.review td, tr.bibtex td { background-color: #F1F1F1; border-bottom: 2px black solid; }
+tr.nextshow td { border-bottom: 1px gray solid; }
+
+tr.bibtex pre { width: 100%; overflow: auto;}
+
+p.infolinks { margin: 0.5em 0em 0em 0em; padding: 0px; }
+
+#qssettings { padding: 0.5em; position: absolute; top: 0.2em; right: 0.2em; border: 1px gray solid; background-color: white; display: block; }
+#qssettings p { font-weight: bold; cursor: pointer; }
+#qssettings ul { display: none; list-style-type: none; padding-left: 0; margin: 0; }
+#qssettings.active ul { display: block; }
+</style>
+</head>
+<body>
+
+<div id="qs">
+	<form action="">
+	<p>QuickSearch: <input type="text" name="qsfield" id="qsfield" autocomplete="off" title="Allows plain text as well as RegExp searches" /><input type="button" onclick="clearQS()" value="clear" />&nbsp; Number of matching entries: <span id="stat">0</span>.</p>
+	<div id="qssettings">
+		<p onclick="toggleQSettingsDialog()">Search Settings</p>
+		<ul>
+		<li><label><input type="checkbox" id="searchabs" onclick="toggleQSetting('abs')"> search abstract</label></li>
+		<li><label><input type="checkbox" id="searchrev" onclick="toggleQSetting('rev')"> search review</label></li>
+		</ul>
+	</div>
+	</form>
+</div>
+<table id="qstable" border="1">
+<thead><tr><th width="20%">Author</th><th width="30%">Title</th><th width="5%">Year</th><th width="30%">Journal/Proceedings</th><th width="10%">Reftype</th><th width="5%">DOI/URL</th></tr></thead>
+<tbody><tr id="Abney87" class="entry">
+	<td>Abney, S.</td>
+	<td>The English Noun Phrase in its Sentential Aspect <p class="infolinks">[<a href="javascript:toggleInfo('Abney87','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Abney87','bibtex')">BibTeX</a>]</p></td>
+	<td>1987</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Abney87" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: This dissertation is a defense of the hypothesis that the noun phrase is headed by a functional element (i.e., "non-lexical" category) D, identified with the determiner. In this way, the structure of the noun phrase parallels that of the sentence, which is headed by Infl(ection), under assumptions now standard within the Government-Binding (GB) framework. The central empirical problem addressed is the question of the proper analysis of the so-called "Poss-ing" gerund in English. This construction possesses simultaneously many properties of sentences, and many properties of noun phrases. The problem of capturing this dual aspect of the Poss-ing construction is heightened by current restrictive views of X-bar theory, which, in particular, rule out the obvious structure for Poss-ing, [NP NP VPing] , by virtue of its exocentricity. Consideration of languages in which nouns, even the most basic concrete nouns, show agreement (AGR) with their possessors, points to an analysis of the noun phrase as headed by an element similar to Infl, which provides a position for AGR; I call this Infl-like element "D". D and Infl belong to the class of non-lexical categories, which I prefer to call functional categories. The analysis in which D heads the noun phrase I call the "DP-analysis".Importing the DP-analysis into English yields an immediate solution for the problem of the Poss-ing gerund: Poss-ing gerunds (and by extension, noun phrases generally) have a more sentence-like structure than hitherto thought, namely, [DP DP's D VPing]. (In non-gerundive noun phrases, "VP" is replaced by a projection of N. This projection of N, despite being a maximal X-bar projection, corresponds to N-bar in the standard analysis.) Current trends in the treatment of minor categories -- so-called "non-lexical" categories -- lead us to a similar conclusion. Until recently, minor categories like complementizers and modals had been treated as syncategorematic. Under current assumptions, however, they participate fully in the X-bar schema. In this way, two simplifications are achieved simultaneously: we eliminate syncategorematic elements. and we acquire an endocentric analysis of the sentence, which had been exceptional in being the only exocentric major category. To make these results fully general, we are led to treat the remaining syncategorematic elements -- in particular, determiners in noun phrases and degree words in adjective phrases -- as heads of full phrases. The analogy with complementizers and modals indicates that determiners and degree words should head nounphrases and adjective phrases, respectively. In other words, determiners are lexical instantiations of "D" in the same way that modals are lexical instantiations of Infl. However, despite the conceptual links, the question of the existence of a functional head of the noun phrase (the DP-analysis), and the question of the place of the determiner, are independent questions, and I treat them separately: Chapters One through Three are concerned predominately with the former question, Chapter Four with the latter. Chapter One provides a brief introduction. In Chapter Two I present the DP-analysis, motivating it by examining languages with agreement between noun and possessor. I also discuss issues raised by the DP-analysis, with emphasis on the parallelism between noun phrase and sentence hypothesized under the DP-analysis. In particular, I treat the question of PRO in the noun phrase; and I show that the numerous differences between sentence and noun phrase do not invalidate the parallelism of structure proposed under the DP-analysis. In Chapter Three I apply the analysis to the three gerundive constructions, Acc-ing, Poss-ing, and Ing-of. Finally, in Chapter Four, I turn to the question of whether the determiner is the lexical instantiation of D, the functional head of the noun phrase.</td>
+</tr>
+<tr id="bib_Abney87" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Abney87,
+  author = {Abney, Steven},
+  title = {The English Noun Phrase in its Sentential Aspect},
+  school = {MIT},
+  year = {1987}
+}
+</pre></td>
+</tr>
+<tr id="AdgerRamchand05" class="entry">
+	<td>Adger, D. &amp; Ramchand, G.</td>
+	<td>Merge and Move: Wh-dependencies Revisited <p class="infolinks">[<a href="javascript:toggleInfo('AdgerRamchand05','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('AdgerRamchand05','bibtex')">BibTeX</a>]</p></td>
+	<td>2005</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_AdgerRamchand05" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: In this paper we argue that, under current conceptions of the architecture of the grammar, apparent wh-dependencies can, in principle, arise from either a movement or a base generation strategy, where AGREE establishes the syntactic connection in the latter case. The crucial diagnostics are not locality effects, but rather identity effects. We implementthe base generation analysis using a minimal set of semantically interpretable features, together with a maximally simple universal syntax/semantics correspondence. We show that parametric variation arises because of the different way the features are bundled on functional heads. We further argue that it is the bundling of two features on a single lexical item, together with the correspondence that requires them to be interpreted apart, that is responsible for the displacement property of human languages. Keywords: relatives, wh-movement, syntax/semantics interface, Scottish Gaelic.</td>
+</tr>
+<tr id="bib_AdgerRamchand05" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{AdgerRamchand05,
+  author = {Adger, David and Ramchand, Gillian},
+  title = {Merge and Move: Wh-dependencies Revisited},
+  journal = {Linguistic Inquiry},
+  year = {2005},
+  volume = {36},
+  number = {2},
+  pages = {161--193}
+}
+</pre></td>
+</tr>
+<tr id="AounHornsteinEtAl81" class="entry">
+	<td>Aoun, J., Hornstein, N. &amp; Sportiche, D.</td>
+	<td>Some Aspects of Wide Scope Quantification <p class="infolinks">[<a href="javascript:toggleInfo('AounHornsteinEtAl81','bibtex')">BibTeX</a>]</p></td>
+	<td>1981</td>
+	<td>Journal of Linguistic Research &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_AounHornsteinEtAl81" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{AounHornsteinEtAl81,
+  author = {Aoun, Joseph and Hornstein, Norbert and Sportiche, Dominique},
+  title = {Some Aspects of Wide Scope Quantification},
+  journal = {Journal of Linguistic Research},
+  year = {1981},
+  volume = {1},
+  pages = {69--95}
+}
+</pre></td>
+</tr>
+<tr id="AounSportiche83" class="entry">
+	<td>Aoun, J. &amp; Sportiche, D.</td>
+	<td>On the Formal Theory of Government <p class="infolinks">[<a href="javascript:toggleInfo('AounSportiche83','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('AounSportiche83','bibtex')">BibTeX</a>]</p></td>
+	<td>1983</td>
+	<td>Linguistic Review &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_AounSportiche83" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Discussed are locality conditions on strict subcategorization rules. The locality condition formalized by N. Chomsky under the name government (Lectures on Government and Binding, Dordrecht: Foris Publications, 1981) is examined, &amp; a specific formalization of that notion supported which preserves the empirical adequacy of certain systems of principles. The definition of government outlined here does not, unlike others, appeal to the notion of c-command, which is found to be inadequate in its current form due to its use of the primitive notion branching node. Formal similarities between c-command &amp; government are outlined, &amp; the implications of the newly formalized notion of government for theta theory are considered. 31 References. B. Annesser</td>
+</tr>
+<tr id="bib_AounSportiche83" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{AounSportiche83,
+  author = {Aoun, Joseph and Sportiche, Dominique},
+  title = {On the Formal Theory of Government},
+  journal = {Linguistic Review},
+  year = {1983},
+  volume = {2},
+  pages = {211--236}
+}
+</pre></td>
+</tr>
+<tr id="Bach64" class="entry">
+	<td>Bach, E.</td>
+	<td>An Introduction to Transformational Grammars <p class="infolinks">[<a href="javascript:toggleInfo('Bach64','bibtex')">BibTeX</a>]</p></td>
+	<td>1964</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Bach64" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Bach64,
+  author = {Bach, Emmon},
+  title = {An Introduction to Transformational Grammars},
+  publisher = {Holt, Rinehart and Winston},
+  year = {1964}
+}
+</pre></td>
+</tr>
+<tr id="Bach62" class="entry">
+	<td>Bach, E.</td>
+	<td>The Order of Elements in a Transformational Grammar of German <p class="infolinks">[<a href="javascript:toggleInfo('Bach62','bibtex')">BibTeX</a>]</p></td>
+	<td>1962</td>
+	<td>Language &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Bach62" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Bach62,
+  author = {Bach, Emmon},
+  title = {The Order of Elements in a Transformational Grammar of German},
+  journal = {Language},
+  year = {1962},
+  volume = {38},
+  pages = {263--269}
+}
+</pre></td>
+</tr>
+<tr id="Baker88" class="entry">
+	<td>Baker, M.</td>
+	<td>Incorporation: A Theory of Grammatical Function Changing <p class="infolinks">[<a href="javascript:toggleInfo('Baker88','bibtex')">BibTeX</a>]</p></td>
+	<td>1988</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Baker88" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Baker88,
+  author = {Baker, Mark},
+  title = {Incorporation: A Theory of Grammatical Function Changing},
+  publisher = {University of Chicago Press},
+  year = {1988}
+}
+</pre></td>
+</tr>
+<tr id="Baker85" class="entry">
+	<td>Baker, M.</td>
+	<td>The Mirror Principle and Morphosyntactic Explanation <p class="infolinks">[<a href="javascript:toggleInfo('Baker85','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Baker85','bibtex')">BibTeX</a>]</p></td>
+	<td>1985</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Baker85" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Pretheoretically,there are processes in languagesof the world that have both a syntactic component and a morphologicalcomponent. An example is the English passive, illustrated in (1):<p>(1) a. The cats chase the mouse every day. b. The mouse is chased by the cats every day.<p>(lb) differs from (la) in two ways. First, the NP that bears the patient or "logical object" semantic role appears as the surface direct object in (la) but as the surface subject in (lb). Second, the main verb in (lb) is morphologicallyderived from the (stem of the) verb in (la) by suffixing the -ed morpheme.Any complete account of the passive construction will have to encompass both of these aspects, the syntactic and the morphological. On this, all are agreed. How to integrate the two components into a unified account is another matter, however, and differing viewpoints abound regarding which component is primary and which is derived, at what level(s) of representation the two are explicitly related, and so on (for a cross section, see Chomsky (1981), Bresnan (1982c), Perlmutter and Postal (1977), Marantz(1981)). Part of the reason for this diversity is that the phenomenain and of themselves do not supply a wide enough range of evidence to guide theoretical decisions in this area. This article will shed new light on these issues by considering interactions of these processes in morphologically complex languages. In particular,it will argue that the morphology and the syntax in this class of cases must be two aspects of a single process. This result in turn will be shown to place strong, substantive constraints on the kind of syntactic framework that should be adopted.</td>
+</tr>
+<tr id="bib_Baker85" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Baker85,
+  author = {Baker, Mark},
+  title = {The Mirror Principle and Morphosyntactic Explanation},
+  journal = {Linguistic Inquiry},
+  year = {1985},
+  volume = {16},
+  pages = {373--415}
+}
+</pre></td>
+</tr>
+<tr id="BarkerPullum90" class="entry">
+	<td>Barker, C. &amp; Pullum, G. K.</td>
+	<td>A Theory of Command Relations <p class="infolinks">[<a href="javascript:toggleInfo('BarkerPullum90','bibtex')">BibTeX</a>]</p></td>
+	<td>1990</td>
+	<td>Linguistics and Philosophy &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_BarkerPullum90" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{BarkerPullum90,
+  author = {Barker, Chris and Pullum, Geoffrey K.},
+  title = {A Theory of Command Relations},
+  journal = {Linguistics and Philosophy},
+  year = {1990},
+  volume = {13},
+  pages = {1--34}
+}
+</pre></td>
+</tr>
+<tr id="Besten77" class="entry">
+	<td>den Besten, H.</td>
+	<td>On the Interaction of Root Transformations and Lexical Deletive Rules <p class="infolinks">[<a href="javascript:toggleInfo('Besten77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Besten77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{Besten77,
+  author = {den Besten, Hans},
+  title = {On the Interaction of Root Transformations and Lexical Deletive Rules},
+  year = {1977},
+  note = {Ms., MIT and University of Amsterdam}
+}
+</pre></td>
+</tr>
+<tr id="Bierwisch63" class="entry">
+	<td>Bierwisch, M.</td>
+	<td>Grammatik des deutschen Verbs <p class="infolinks">[<a href="javascript:toggleInfo('Bierwisch63','bibtex')">BibTeX</a>]</p></td>
+	<td>1963</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Bierwisch63" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Bierwisch63,
+  author = {Bierwisch, Manfred},
+  title = {Grammatik des deutschen Verbs},
+  publisher = {Akademie Verlag},
+  year = {1963}
+}
+</pre></td>
+</tr>
+<tr id="Borer84" class="entry">
+	<td>Borer, H.</td>
+	<td>Parametric Syntax: Case Studies in Semitic and Romance Languages <p class="infolinks">[<a href="javascript:toggleInfo('Borer84','bibtex')">BibTeX</a>]</p></td>
+	<td>1984</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Borer84" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Borer84,
+  author = {Borer, Hagit},
+  title = {Parametric Syntax: Case Studies in Semitic and Romance Languages},
+  publisher = {Foris},
+  year = {1984}
+}
+</pre></td>
+</tr>
+<tr id="Brame68" class="entry">
+	<td>Brame, M.</td>
+	<td>A New Analysis of the Relative Clause: Evidence for an Interpretive Theory <p class="infolinks">[<a href="javascript:toggleInfo('Brame68','bibtex')">BibTeX</a>]</p></td>
+	<td>1968</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Brame68" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{Brame68,
+  author = {Brame, Michael},
+  title = {A New Analysis of the Relative Clause: Evidence for an Interpretive Theory},
+  year = {1968},
+  note = {Ms., MIT}
+}
+</pre></td>
+</tr>
+<tr id="Bresnan76" class="entry">
+	<td>Bresnan, J.</td>
+	<td>On the Form and Functioning of Transformations <p class="infolinks">[<a href="javascript:toggleInfo('Bresnan76','bibtex')">BibTeX</a>]</p></td>
+	<td>1976</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Bresnan76" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Bresnan76,
+  author = {Bresnan, Joan},
+  title = {On the Form and Functioning of Transformations},
+  journal = {Linguistic Inquiry},
+  year = {1976},
+  volume = {7},
+  pages = {3--40}
+}
+</pre></td>
+</tr>
+<tr id="Bresnan72" class="entry">
+	<td>Bresnan, J.</td>
+	<td>Theory of Complementation in English Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Bresnan72','bibtex')">BibTeX</a>]</p></td>
+	<td>1972</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Bresnan72" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Bresnan72,
+  author = {Bresnan, Joan},
+  title = {Theory of Complementation in English Syntax},
+  school = {MIT},
+  year = {1972},
+  note = {Reprinted as tetBresnan79}
+}
+</pre></td>
+</tr>
+<tr id="Bresnan70" class="entry">
+	<td>Bresnan, J.</td>
+	<td>On Complementizers: Toward a Syntactic Theory of Complement Types <p class="infolinks">[<a href="javascript:toggleInfo('Bresnan70','bibtex')">BibTeX</a>]</p></td>
+	<td>1970</td>
+	<td>Foundations of Language &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Bresnan70" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Bresnan70,
+  author = {Bresnan, Joan},
+  title = {On Complementizers: Toward a Syntactic Theory of Complement Types},
+  journal = {Foundations of Language},
+  year = {1970},
+  volume = {6},
+  pages = {297--321}
+}
+</pre></td>
+</tr>
+<tr id="Brody95" class="entry">
+	<td>Brody, M.</td>
+	<td>Lexico-Logical Form: A Radically Minimalist Theory <p class="infolinks">[<a href="javascript:toggleInfo('Brody95','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Brody95','bibtex')">BibTeX</a>]</p></td>
+	<td>1995</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Brody95" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Lexico-Logical Form relates in aim to Noam Chomsky's recent works on economy and minimalism: both authors recast the structure of the grammar, revealing its essential properties in the process. In Lexico-Logical Form, Michael Brody meticulously dissects aspects of the Principles and Parameters theory, pares away the extraneous, focuses on core issues, and recreates them in subtle and interesting ways. Brody argues for and discusses aspects of a radically minimalist, nonderivational approach to syntax in which both the central conceptual systems and the lexicon have direct access to the single syntactic representation, called Lexico-Logical Form. He proposes to streamline the syntactic component of the grammar by eliminating syntactic derivation and all syntactic levels of representation other than LF, the interface with the semantic component. A central driving force throughout is the elimination of redundancy in the theory. Since movement characterizes a subset of the relations characterized by chains, the former is eliminated. Since the lexicon must constrain the input to the semantic component, intervening representations are eliminated, and the relationship between the lexicon and LF becomes direct. This timely approach explores a logical next step in the minimalist path.</td>
+</tr>
+<tr id="bib_Brody95" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Brody95,
+  author = {Brody, Michael},
+  title = {Lexico-Logical Form: A Radically Minimalist Theory},
+  publisher = {MIT Press},
+  year = {1995}
+}
+</pre></td>
+</tr>
+<tr id="Burzio86" class="entry">
+	<td>Burzio, L.</td>
+	<td>Italian Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Burzio86','bibtex')">BibTeX</a>]</p></td>
+	<td>1986</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Burzio86" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Burzio86,
+  author = {Burzio, Luigi},
+  title = {Italian Syntax},
+  publisher = {Reidel},
+  year = {1986}
+}
+</pre></td>
+</tr>
+<tr id="Burzio81" class="entry">
+	<td>Burzio, L.</td>
+	<td>Intransitive Verbs and Italian Auxiliaries <p class="infolinks">[<a href="javascript:toggleInfo('Burzio81','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Burzio81','bibtex')">BibTeX</a>]</p></td>
+	<td>1981</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Burzio81" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: If we accept some results provided by some recent generative studies on Italian, it will appear that some purely syntactic processes affect the selection between the two aspectual auxiliariesof Italian: essere (be) and avere (have), as in (i) and (ii).<p> (i) a. Giovanni ha voluto venire Giovanni has wanted to come<p> b. Giovanni e' voluto venire Giovanni is (has) wanted to cume<p> (ii) a. Si vorrebbe gia aver comprato quei regali One would like to already have hought those presents<p> b. Quei regali si vorrebbero gia esser~ comprati Those presents one would like to already be (llave) bought<p>In A Restructuring Rule in Italian Syntax, L. Rizzi has argued that in (i)b., but not in (i)a., a process altering the complementation relation between the two verbs has taken place, and that such a process is syntactic. Rizzi as well as other researchers have claimed that caseslike (ii)b. are derived from cases like (ii)a. via application of the syntactic rule of NP-movement. On the basis of this, one will be led to believe that syntactic factors playa role in the selection of the auxiliary in Italian. In this thesis we claim that not only is this belief correct, but that in fact the type of auxiliary reflects certain configurational properties of syntactic structure systematically. This view is supported by the fact that the distribution of auxiliaries is entirely uniform over some well-defined syntactic domains, such as: a. Passives, b. Reflexives (when the reflexive element is a clitic), c. Impersonals, since each of those constructions ti11 take essere invariably, and as in (iii).<p> (iii) a. Giovanni e' stato invitato Giovanni is (has) been invited<p> b. Giovanni si e' vestito Giovanni is (has) dressed himself<p> c. Si sarebbe invitato anche Giovanni One would be (have) invited Giovanni as well<p>On the fact that among the apparently intransitive verbs, some normally select avere, while others select essere as in IIGiovanni ha telefonato/ Giovanni has pholled" versus "Giovanni e r venuto/ Giovanni is (has) cornell, we assume, following some recent studies within Relational Grammar, in particular D. Perlmutter's Impersonal Passives and the Unaccusative Hypothesis, that the class of apparent intransitives is syntactically non-homogeneous, in that with verbs like venire the apparent subject is in fact a direct object at the level at which thematic relations, or the "argument structure" of predicates, are represented. The earlier part of the thesis is devoted to providing evidence for this bifurcation within apparently intransitive verbs. Beside providing an account for facts like those in (i), (ii), (iii) above, in the course of our discussion we will develop several subsystems of the grammar of Italian, test their interaction and examine some extensions to other languages. These subsystems are: The syntax of auxiliary assignment and past participle agreement. The syntax of "subject inversion". The syntax of "reduced relatives". The rule operative in causative and restructuring constructions. The syntax of reflexives.</td>
+</tr>
+<tr id="bib_Burzio81" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Burzio81,
+  author = {Burzio, Luigi},
+  title = {Intransitive Verbs and Italian Auxiliaries},
+  school = {MIT},
+  year = {1981}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky05a" class="entry">
+	<td>Chomsky, N.</td>
+	<td>On Phases <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky05a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky05a','bibtex')">BibTeX</a>]</p></td>
+	<td>2005</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky05a" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: I would like to review some recent and ongoing work in the general framework of the so-called “Minimalist Program” (MP), which addresses an array of concerns thatare a core part of the traditional study of language, assuming a different form within the biolinguistic perspective that began to take shape fifty years ago. I will presuppose familiarity with recent publications, while recalling some conclusions that seem pertinent to proceeding along lines they suggest. One major stimulus to the development of the MP was a personal letter by Jean-Roger Vergnaud in 1977, unpublished but famous in the field, which initiated very extensive and productive inquiries that remain central to the study of language to the present, including the considerations here.</td>
+</tr>
+<tr id="bib_Chomsky05a" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{Chomsky05a,
+  author = {Chomsky, Noam},
+  title = {On Phases},
+  year = {2005},
+  note = {Ms., MIT}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky04" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Beyond Explanatory Adequacy <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky04','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky04','bibtex')">BibTeX</a>]</p></td>
+	<td>2004</td>
+	<td>Structures and Beyond: The Cartography of Syntactic Structures Volume 3 &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky04" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: A principled explanation of the human faculty of language, transcending explanatory adequacy &amp; restricted to general properties of organic systems &amp; the interface condition the design of language must satisfy, is explored in a version of the minimalist program that eliminates logical form in favor of a tripartite architecture of language &amp; a transfer operation; language is composed of (1) a narrow syntax that maps lexical arrays to a derivation &amp; a transfer operation that maps the latter to (2) a phonological component that makes it accessible to the sensorimotor system &amp; (3) a semantic component that makes it accessible to conceptual-intentional systems. The mappings within each component are cyclical &amp; parallel, &amp; the relevant mapped units or phases are determined to be two functional categories of syntactic structure, vP &amp; CP. The interface condition imposes parametrically fixed order at the phonological component &amp; duality of interpretation at the semantic component, with no interaction between these components. Overt &amp; covert movement result from internal Merge operations that apply respectively before &amp; after the application of transfer to a phase &amp; are determined by the interface condition, specifically duality of semantic interpretation. References. J. Hitchcock</td>
+</tr>
+<tr id="bib_Chomsky04" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky04,
+  author = {Noam Chomsky},
+  title = {Beyond Explanatory Adequacy},
+  booktitle = {Structures and Beyond: The Cartography of Syntactic Structures Volume 3},
+  publisher = {Oxford University Press},
+  year = {2004},
+  pages = {104--131}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky01" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Derivation by Phase <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky01','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky01','bibtex')">BibTeX</a>]</p></td>
+	<td>2001</td>
+	<td>Ken Hale: A Life in Language &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky01" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: In a revision &amp; extension of Chomsky's "Minimalist Inquiries" (2000), the limitation of basic syntactic operations to Merge, which is necessary for recursion, &amp; Agree, which is motivated by the need to eliminate uninterpretable features, is refined in a model of cyclic derivation by phases within a single narrow-syntactic computation that eliminates the overt/covert distinction &amp; accommodates parallel processing in the phonological component. Each phase consists of a substantive root XP &amp; the functional element that selects it &amp; determines its category; the computation of a phase forms a syntactic object that is passed to the phonological component very shortly after its uninterpretable, ie, unvalued features receive values through the probe-goal matching mechanism of Agree. A crucial distinction between strong &amp; weak phases restricts the former to CP &amp; v*P, ie, phrases headed respectively by a complementizer &amp; a light verb with full argument structure; each strong phase is interpreted or evaluated at the next higher strong phase, &amp; the phase impenetrability condition denies probe operations of the latter any access to the domain of the former except for its head &amp; edge (ie, adjunction &amp; specifier positions). Probes of weak phases are not constrained in this way &amp; may therefore penetrate the full domain of the next lower strong phase. 50 References. J. Hitchcock</td>
+</tr>
+<tr id="bib_Chomsky01" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky01,
+  author = {Noam Chomsky},
+  title = {Derivation by Phase},
+  booktitle = {Ken Hale: A Life in Language},
+  publisher = {MIT Press},
+  year = {2001},
+  pages = {1--52}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky00" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Minimalist Inquiries: The Framework <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky00','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky00','bibtex')">BibTeX</a>]</p></td>
+	<td>2000</td>
+	<td>Step by Step: Essays on minimalist syntax in honor of Howard Lasnik &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky00" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: In the first part of an unfinished manuscript that takes the final sections of Noam Chomsky's The Minimalist Program (1995) as its starting point, issues &amp; concerns that motivate the minimalist program are rethought, clarified, &amp; developed further by showing that a natural reduction of operative complexity, supporting the nonobvious thesis that computational complexity is important for cognitive systems, results from two major refinements of the minimalist program. First, basic operations are limited to Merge &amp; Agree, each of which preempts the Move operation while satisfying optimal design conditions; Agree is defined as the deletion of uninterpreted matched features. Second, basic properties of core functional categories are accounted for by a four-step procedure in which a language is specified by (1) selection of a subset from the universal set of features &amp; (2) assembly of the features in the subset into a lexicon; particular expressions are derived by (3) selection of a lexical array from the lexicon &amp; (4) mapping of the lexical array to the expression without access to the lexicon or the feature subset. 107 References. J. Hitchcock</td>
+</tr>
+<tr id="bib_Chomsky00" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky00,
+  author = {Noam Chomsky},
+  title = {Minimalist Inquiries: The Framework},
+  booktitle = {Step by Step: Essays on minimalist syntax in honor of Howard Lasnik},
+  publisher = {MIT Press},
+  year = {2000},
+  pages = {89--156}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky95b" class="entry">
+	<td>Chomsky, N.</td>
+	<td>The Minimalist Program <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky95b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky95b','bibtex')">BibTeX</a>]</p></td>
+	<td>1995</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky95b" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: This vol in the Current Studies in Linguistics series contains an Introduction &amp; 4 Chpts largely based on lecture seminars from 1986 to 1994 on the principles &amp; parameters approach to linguistic theory. Three previously published essays are presented with minor revisions: Chomsky's &amp; Howard Lasnik's "The Theory of Principles and Parameters" (see LLBA 30/2, 9603187), Chomsky's "Some Notes on Economy of Derivation and Representation" (see LLBA 25/3, 9106405), &amp; Chomsky's "A Minimalist Program for Linguistic Theory" (see LLBA 28/4, 9408402). The remainder of this book is characterized as a substantial revision of Chomsky's Language and Thought (Wakefield, RI: Moyer Bell, 1994), departing from the theoretical approach of the first three essays by adhering in a more principled way to minimalist assumptions &amp; extending them to a larger domain of language. Phrase structure theory is eliminated, the computational system is reformulated, &amp; the notion of economy in derivation is refined. The human language computation maps a selection from the lexicon to phonetic form &amp; logical form by an attract/move operation that incorporates a merge operation; the functional category Agr is eliminated, &amp; the property of feature strength is restricted. Bibliog. J. Hitchcock</td>
+</tr>
+<tr id="bib_Chomsky95b" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky95b,
+  author = {Noam Chomsky},
+  title = {The Minimalist Program},
+  publisher = {MIT Press},
+  year = {1995}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky93" class="entry">
+	<td>Chomsky, N.</td>
+	<td>A Minimalist Program for Linguistic Theory <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky93','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky93','bibtex')">BibTeX</a>]</p></td>
+	<td>1993</td>
+	<td>The View from Building 20 &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky93" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Changes to various aspects of universal grammar (UG) required by the stipulation of maximum cognitive economy are explored. The fundamentals of UG &amp; the role of economy as a metric in linguistic theory are discussed initially, followed by descriptions of X-bar theory &amp; of the specific relations required by a minimalist account, encompassing many of the extant conditions &amp; relations proposed for X-bar theory by various researchers. Arguments for the elimination of the deep-structure level of representation are developed, &amp; a streamlined version of projection &amp; a version of the strict cycle are considered in its place. It is further proposed that the surface-structure level of representation may be eliminated &amp; several types of evidence for surface-structure are shown to have acceptable minimalist accounts. Issues raised by extension of the minimalist treatment to the reconstruction operation &amp; to binding conditions are explored. 67 References. J. Easton</td>
+</tr>
+<tr id="bib_Chomsky93" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky93,
+  author = {Noam Chomsky},
+  title = {A Minimalist Program for Linguistic Theory},
+  booktitle = {The View from Building 20},
+  publisher = {MIT Press},
+  year = {1993},
+  pages = {1--52}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky91" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Some Notes on Economy of Derivation and Representation <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky91','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky91','bibtex')">BibTeX</a>]</p></td>
+	<td>1991</td>
+	<td>Principles and Parameters in Comparative Grammar &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky91" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Some features of the development of the principles-&amp;-parameters approach to the study of language are reviewed. Some preliminary assumptions about language design are presented &amp; discussed, &amp; some general properties of verbal inflection described. An analysis of verbal inflection that includes a "least effort" condition - which specifies that a shorter derivation is always chosen over an equivalent longer one - is presented. Notions of economy of representation are discussed with relation to raising &amp; movement in general. Evidence suggests that both representations &amp; derivations are subject to a "least effort" condition, the guidelines of which may eventually be recognized as part of universal grammar. B. Annesser Murray</td>
+</tr>
+<tr id="bib_Chomsky91" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky91,
+  author = {Chomsky, Noam},
+  title = {Some Notes on Economy of Derivation and Representation},
+  booktitle = {Principles and Parameters in Comparative Grammar},
+  publisher = {MIT Press},
+  year = {1991},
+  pages = {417--454}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky86" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Barriers <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky86','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky86','bibtex')">BibTeX</a>]</p></td>
+	<td>1986</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky86" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: his vol in the Linguistic Inquiry Monograph Series contains a Preface &amp; 13 Chpts. It explores certain issues related to the theories of government &amp; bounding as elaborated in the "principles &amp; parameters" model of Universal Grammar. The central idea is that the categories that act as barriers to government &amp; those that act as barriers to movement can be treated in a unified way. (1) X-Bar Theory - outlines a theory of phrase structure based on the notion that both lexical &amp; nonlexical categories project according to the same general schemata. Thus, INFL (I) &amp; COMP (C) are no longer conceived of as defective categories. The maximal projection of C (C" or CP) corresponds to the traditional S', the maximal projection of I (I" or IP) to the traditional S. (2) Theory of Movement - sets forth the basic principles governing the rule Move a. Substitution &amp; adjunction are distinguished. Substitution is restricted to minimal (ie, X(degrees)) &amp; maximal (ie, X") projections, X(degrees) being allowed to move only to the head position &amp; X" being allowed to move only to the specifier position. Adjunction is possible to a nonargument X" only. Several novel conceptions follow from these assumptions. Wh-movement, for example, becomes movement to the specifier position of C", as opposed to movement to COMP; maximal categories, moreover, are allowed to adjoin to VP. (3) Government - defines the notions of "c-command" &amp; "government." Consideration of the special properties of adjunction structures leads to a definition of "government" in terms of exclusion rather than domination. (4) Barriers - explores the factors upon which the concept of barrier is contingent. It is suggested that maximal categories are never inherently barriers. They may become barriers, with respect to a given category g, either by being a "blocking category" (BC) for g or by immediately dominating a BC for g. A BC for a category g is, in essence, a maximal category dominating g that is a complement, ie, a th-marked sister of a lexical head. (5) Proper Government - examines the sort of data motivating the Empty Category Principle, in an effort to formally characterize the notion of proper government in the new framework. H. Lasnik's &amp; M. Saito's (see LLBA 18/4, 8406650) proposal that antecedent government (chain coindexing) constitutes an instance of proper government is adopted &amp; justified. It is argued further that a lexical head properly governs its complements. (6) Subjacency - considers how wh-movement must be assumed to function. The problem is that IP &amp; VP are barriers (by definition) for the complements of V. Any direct movement of a verbal complement to the specifier position of CP therefore involves crossing two barriers. The assumption that phrases may adjoin to VP is shown to provide a means of denying barrierhood to both VP &amp; IP. (7) Island Violations - shows how replacing the notion of bounding node with that of barrier yields a unified account of various island phenomena, including violations of the Subject Condition, the Adjunct Island Condition, the Complex Noun Phrase Constraint, &amp; the Wh-Island Condition. (8) The Minimality Condition - argues for a condition blocking government of a complement by a more remote head when a closer head is available. Certain empirical consequences follow from such a condition. In particular, an explanation emerges for the fact that the subject of an NP may be wh-extracted in the Romance langs. (9) Vacuous Movement - advances the hypothesis that, whereas wh-movement must occur at the level of Logical Form, it need not occur at S-Structure. This hypothesis sheds light on several problematic phenomena of Eng &amp; provides a simple means of handling the difference between Eng &amp; langs like Chinese &amp; Japanese that have wh-in-situ for simple interrogatives. (10) Parasitic Gaps - presents arguments for treating parasitic gaps as variables bound by an empty operator distinct from whatever operator binds the licensing gap. A chain composition algorithm links the chains of the two gaps. Alternative conditions aimed at explaining licensing gap asymmetries are considered. (11) A-Chains - addresses the issue of head movement, focusing on the process by which V moves to the head position I of IP, forming an inflected element &amp; then moves to the head position of CP, as in the Eng Aux Inversion phenomenon. The discussion leads to the conclusion that head-to-head movement forms an A-chain. The chain coindexing condition that emerges appears to make it possible to reduce proper government to antecedent government. (12) Some Further Problems - considers possible solutions to various subsidiary problems, such as those posed by the impossibility of wh-extraction from predication structures, asymmetries regarding extraction from NPs, the structure of gerunds, &amp; Exceptional Case-Marking configurations. (13) Summary - briefly reviews the proposed theory. Bibliog</td>
+</tr>
+<tr id="bib_Chomsky86" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky86,
+  author = {Noam Chomsky},
+  title = {Barriers},
+  publisher = {MIT Press},
+  year = {1986}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky86a" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Knowledge of Language: Its Nature, Origins and Use <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky86a','bibtex')">BibTeX</a>]</p></td>
+	<td>1986</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky86a" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky86a,
+  author = {Chomsky, Noam},
+  title = {Knowledge of Language: Its Nature, Origins and Use},
+  publisher = {Praeger},
+  year = {1986}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky82" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Some Concepts and Consequences of the Theory of Government and Binding <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky82,
+  author = {Chomsky, Noam},
+  title = {Some Concepts and Consequences of the Theory of Government and Binding},
+  publisher = {MIT Press},
+  year = {1982}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky81" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Lectures on Government and Binding: The Pisa Lectures <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky81','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky81','bibtex')">BibTeX</a>]</p></td>
+	<td>1981</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky81" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: This vol in the Studies in Generative Grammar series contains a Preface &amp; 6 Chpts that are based on lectures first presented at the GLOW conference &amp; workshop held at the Scuola Normale Superiore in Pisa, Italy in Apr 1979. These lextures contain a major revision of Chomsky's extended standard theory of transformational generative grammar, which consists of five independent subtheories concerning (1) noun phrases, (2) case, (3) government relations, (4) indexing, &amp; (5) binding. Conceptual &amp; empirical advantages to the new theory are illustrated in areas such as the empty category principle &amp; the unification of the specified subject &amp; tensed S constraints. Examples are drawn from a wide variety of languages, eg, Arabic, Japanese, &amp; Russian, with heavy reliance on Romance languages. Bibliog. C. Brennan</td>
+</tr>
+<tr id="bib_Chomsky81" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky81,
+  author = {Noam Chomsky},
+  title = {Lectures on Government and Binding: The Pisa Lectures},
+  publisher = {Foris},
+  year = {1981}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky80" class="entry">
+	<td>Chomsky, N.</td>
+	<td>On Binding <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky80','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky80','bibtex')">BibTeX</a>]</p></td>
+	<td>1980</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky80" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Discussion of binding phenomena is based on a general framework of the Extended Standard Theory, whose operation is outlined. Conditions on anaphora discussed include the Specified Subject &amp; Propositional Island Conditions, along with the Command Condition. An Opacity Condition dealing with binding is outlined &amp; discussed with reference to a principle of Case Assignment &amp; a Nominative Island Condition. Some rules discussed are part of the transformational component of the grammar, while others are part of the Logical Form (LF)-interpretive component. An Appendix provides discussion of incorporation of the rule of Disjoint Reference under the binding conditions discussed here. B. Annesser</td>
+</tr>
+<tr id="bib_Chomsky80" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Chomsky80,
+  author = {Chomsky, Noam},
+  title = {On Binding},
+  journal = {Linguistic Inquiry},
+  year = {1980},
+  volume = {11},
+  pages = {1--46}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky77" class="entry">
+	<td>Chomsky, N.</td>
+	<td>On <em>wh</em>-Movement <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td>Formal Syntax &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky77,
+  author = {Chomsky, Noam},
+  title = {On <em>wh</em>-Movement},
+  booktitle = {Formal Syntax},
+  publisher = {Academic Press},
+  year = {1977},
+  pages = {71--132}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky76" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Conditions on Rules of Grammar <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky76','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky76','bibtex')">BibTeX</a>]</p></td>
+	<td>1976</td>
+	<td>Linguistic Analysis &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky76" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Ideas on grammatical theory are considered within the framework suggested in N. Chomsky's earlier works, eg, Studies on Semantics in Generative Grammar (see LLBA VIII/I, 7400778). It is held that general properties should be abstracted from specific grammars &amp; theories in order to formulate a universal grammar that will account for a general linguistic theory. 61 References. L. Laughlin</td>
+</tr>
+<tr id="bib_Chomsky76" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Chomsky76,
+  author = {Chomsky, Noam},
+  title = {Conditions on Rules of Grammar},
+  journal = {Linguistic Analysis},
+  year = {1976},
+  volume = {2},
+  pages = {303--351},
+  note = {Reprinted in tetChomsky1977a}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky74" class="entry">
+	<td>Chomsky, N.</td>
+	<td>The Amherst Lectures <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky74','bibtex')">BibTeX</a>]</p></td>
+	<td>1974</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky74" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{Chomsky74,
+  author = {Chomsky, Noam},
+  title = {The Amherst Lectures},
+  year = {1974},
+  note = {Unpublished lecture notes}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky73" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Conditions on Transformations <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky73','bibtex')">BibTeX</a>]</p></td>
+	<td>1973</td>
+	<td>A Festschrift for Morris Halle &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky73" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky73,
+  author = {Chomsky, Noam},
+  title = {Conditions on Transformations},
+  booktitle = {A Festschrift for Morris Halle},
+  publisher = {Holt, Rinehart, and Winston},
+  year = {1973},
+  pages = {232--286},
+  note = {Reprinted in tetChomsky77a}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky70" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Remarks on Nominalization <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky70','bibtex')">BibTeX</a>]</p></td>
+	<td>1970</td>
+	<td>Readings in English Transformational Grammar &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky70" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Chomsky70,
+  author = {Chomsky, Noam},
+  title = {Remarks on Nominalization},
+  booktitle = {Readings in English Transformational Grammar},
+  publisher = {Ginn &amp; Co.},
+  year = {1970},
+  pages = {184--221},
+  note = {Reprinted in tetChomsky72}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky65" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Aspects of the Theory of Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky65','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Chomsky65','bibtex')">BibTeX</a>]</p></td>
+	<td>1965</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Chomsky65" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Beginning in the mid-fifties and emanating largely form MIT, and approach was developed to linguistic theory and to the study of the structure of particular languages that diverges in many respects from modern linguistics. Although this approach is connected to the traditional study of languages, it differs enough in its specific conclusions about the structure and in its specific conclusions about the structure of language to warrant a name, "generative grammar". <p>Various deficiencies have been discovered in the first attempts to formulate a theory of transformational generative grammar and in the descriptive analysis of particular languages that motivated these formulations. At the same time, it has become apparent that these formulations can be extended and deepened. The major purpose of this book is to review these developments and to propose a reformulation of the theory of transformational generative grammar that takes them into account. The emphasis in this study is syntax; semantic and phonological aspects of the language structure are discussed only insofar as they bear on syntactic theory.</td>
+</tr>
+<tr id="bib_Chomsky65" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky65,
+  author = {Noam Chomsky},
+  title = {Aspects of the Theory of Syntax},
+  publisher = {MIT Press},
+  year = {1965}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky62" class="entry">
+	<td>Chomsky, N.</td>
+	<td>The Logical Basis of Linguistic Theory <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky62','bibtex')">BibTeX</a>]</p></td>
+	<td>1962</td>
+	<td>Proceedings of the Ninth International Congress of Linguists &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky62" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{Chomsky62,
+  author = {Chomsky, Noam},
+  title = {The Logical Basis of Linguistic Theory},
+  booktitle = {Proceedings of the Ninth International Congress of Linguists},
+  publisher = {Mouton},
+  year = {1962}
+}
+</pre></td>
+</tr>
+<tr id="Chomsky57" class="entry">
+	<td>Chomsky, N.</td>
+	<td>Syntactic Structures <p class="infolinks">[<a href="javascript:toggleInfo('Chomsky57','bibtex')">BibTeX</a>]</p></td>
+	<td>1957</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Chomsky57" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Chomsky57,
+  author = {Chomsky, Noam},
+  title = {Syntactic Structures},
+  publisher = {Mouton},
+  year = {1957}
+}
+</pre></td>
+</tr>
+<tr id="ChomskyLasnik77" class="entry">
+	<td>Chomsky, N. &amp; Lasnik, H.</td>
+	<td>Filters and Control <p class="infolinks">[<a href="javascript:toggleInfo('ChomskyLasnik77','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('ChomskyLasnik77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_ChomskyLasnik77" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Problems dealt with here include: restricting the options for transformational grammar, perceptual strategies, obligatory control, &amp; properties of the complementizer system. The development of a device (filter) is needed to simplify the theory of transformations &amp; aid in constructing a notion of well formedness for surface structures. Surface filters account for some properties of complementizers, but rules of obligation control &amp; not filters block the occurrence of lexical NPs in the surface structure in particular constructions. The consequences of ordering, obligatoriness, &amp; contextual dependency can be described in terms of surface filters. J. Atkinson</td>
+</tr>
+<tr id="bib_ChomskyLasnik77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{ChomskyLasnik77,
+  author = {Chomsky, Noam and Lasnik, Howard},
+  title = {Filters and Control},
+  journal = {Linguistic Inquiry},
+  year = {1977},
+  volume = {8},
+  pages = {425--504}
+}
+</pre></td>
+</tr>
+<tr id="Cinque99" class="entry">
+	<td>Cinque, G.</td>
+	<td>Adverbs and Functional Heads: A Cross-Linguistic Perspective <p class="infolinks">[<a href="javascript:toggleInfo('Cinque99','bibtex')">BibTeX</a>]</p></td>
+	<td>1999</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Cinque99" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Cinque99,
+  author = {Cinque, Guglielmo},
+  title = {Adverbs and Functional Heads: A Cross-Linguistic Perspective},
+  publisher = {Oxford University Press},
+  year = {1999}
+}
+</pre></td>
+</tr>
+<tr id="Cinque94" class="entry">
+	<td>Cinque, G.</td>
+	<td>On the Evidence for Partial N-Movement in the Romance DP <p class="infolinks">[<a href="javascript:toggleInfo('Cinque94','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Cinque94','bibtex')">BibTeX</a>]</p></td>
+	<td>1994</td>
+	<td>Paths Towards Universal Grammar. Studies in Honor of Richard S. Kayne &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Cinque94" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: The base position of adjective phrases (APs) in Romance &amp; Germanic languages is argued to be to the left of the noun, &amp; the different surface position in the languages is attributed to the raising of the N in Romance languages, but not in Germanic - to a functional head intermediate between N &amp; D across some of the APs. This notion is supported by the distribution of thematic APs that express the external theta-role of a N; in Romance languages, the only order admitted is with the AP intervening between the N &amp; its complement. Another support is provided by the distribution of attributive APs. Whereas they necessarily precede the N in Germanic, they are found either preceding or following the N in Romance. This does not imply that APs in Romance can be freely generated both to the left &amp; the right of the N &amp; its complement, as there is evidence that the AP cases constitute a predicative type of modification, which is found to the right of the N &amp; its complements in Germanic as well. A specific unmarked serialization of the different classes of APs &amp; the existence of a clear limit on the number of noncoordinated attributive APs within DP lead to the conclusion of generating the APs in distinct specifier positions. 65 References. K. Burch</td>
+</tr>
+<tr id="bib_Cinque94" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Cinque94,
+  author = {Cinque, Guglielmo},
+  title = {On the Evidence for Partial N-Movement in the Romance DP},
+  booktitle = {Paths Towards Universal Grammar. Studies in Honor of Richard S. Kayne},
+  publisher = {Georgetown University Press},
+  year = {1994},
+  pages = {85--110}
+}
+</pre></td>
+</tr>
+<tr id="Collins96" class="entry">
+	<td>Collins, C.</td>
+	<td>Local Economy <p class="infolinks">[<a href="javascript:toggleInfo('Collins96','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Collins96','bibtex')">BibTeX</a>]</p></td>
+	<td>1996</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Collins96" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: This vol in the Linguistic Inquiry Monographs series contains 7 Chpts addressing the nature of economy conditions in Noam Chomsky's minimalist program, responding in particular to Chomsky's bare phrase structure theory. It is proposed that economy is local; ie, economy constraints do not require the comparison of whole derivations but imply evaluation of candidate operations in terms of information available in the set of syntactic objects to which the operations apply. An analysis of locative &amp; quotative inversion is argued to give strong empirical support to the proposal, which is held to be theoretically superior to global economy proposals in that (1) it does not require the grammar to have an operation-counting apparatus &amp; (2) it sharply constrains possibilities in each economy analysis during a derivation. Last resort &amp; minimality are reinterpreted as local conditions, &amp; the shortest derivation requirement &amp; procrastinate are eliminated; exceptional case marking &amp; successive cyclicity are explained by asymmetric feature checking. Binary branching follows from minimality, strict cyclicity is derived from the linear correspondence axiom, &amp; improper movement is constrained by local last resort. Bibliog. J. Hitchcock</td>
+</tr>
+<tr id="bib_Collins96" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Collins96,
+  author = {Collins, Chris},
+  title = {Local Economy},
+  publisher = {MIT Press},
+  year = {1996}
+}
+</pre></td>
+</tr>
+<tr id="Crisma90" class="entry">
+	<td>Crisma, P.</td>
+	<td>Functional Categories Inside the Noun Phrase: A Study of the Distribution of Nominal Modifiers <p class="infolinks">[<a href="javascript:toggleInfo('Crisma90','bibtex')">BibTeX</a>]</p></td>
+	<td>1990</td>
+	<td><i>School</i>: University of Venice &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Crisma90" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Crisma90,
+  author = {Crisma, Paolo},
+  title = {Functional Categories Inside the Noun Phrase: A Study of the Distribution of Nominal Modifiers},
+  school = {University of Venice},
+  year = {1990}
+}
+</pre></td>
+</tr>
+<tr id="Emonds76" class="entry">
+	<td>Emonds, J.</td>
+	<td>A Transformational Approach to English Syntax: Root, Structure Preserving, and Local Transformations <p class="infolinks">[<a href="javascript:toggleInfo('Emonds76','bibtex')">BibTeX</a>]</p></td>
+	<td>1976</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Emonds76" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Emonds76,
+  author = {Emonds, Joseph},
+  title = {A Transformational Approach to English Syntax: Root, Structure Preserving, and Local Transformations},
+  publisher = {Academic Press},
+  year = {1976}
+}
+</pre></td>
+</tr>
+<tr id="Emonds70" class="entry">
+	<td>Emonds, J.</td>
+	<td>Root and Structure Preserving Transformations <p class="infolinks">[<a href="javascript:toggleInfo('Emonds70','bibtex')">BibTeX</a>]</p></td>
+	<td>1970</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Emonds70" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Emonds70,
+  author = {Emonds, Joseph},
+  title = {Root and Structure Preserving Transformations},
+  school = {MIT},
+  year = {1970}
+}
+</pre></td>
+</tr>
+<tr id="Engdahl83" class="entry">
+	<td>Engdahl, E.</td>
+	<td>Parasitic Gaps <p class="infolinks">[<a href="javascript:toggleInfo('Engdahl83','bibtex')">BibTeX</a>]</p></td>
+	<td>1983</td>
+	<td>Linguistics and Philosophy &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Engdahl83" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Engdahl83,
+  author = {Engdahl, Elisabet},
+  title = {Parasitic Gaps},
+  journal = {Linguistics and Philosophy},
+  year = {1983},
+  volume = {6},
+  pages = {5--34}
+}
+</pre></td>
+</tr>
+<tr id="EpsteinGroatEtAl98" class="entry">
+	<td>Epstein, S. D., Groat, E. M., Kawashima, R. &amp; Kitahara, H.</td>
+	<td>A Derivational Approach to Syntactic Relations <p class="infolinks">[<a href="javascript:toggleInfo('EpsteinGroatEtAl98','bibtex')">BibTeX</a>]</p></td>
+	<td>1998</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_EpsteinGroatEtAl98" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{EpsteinGroatEtAl98,
+  author = {Samuel D. Epstein and Erich M. Groat and Ruriko Kawashima and Hisatsugu Kitahara},
+  title = {A Derivational Approach to Syntactic Relations},
+  publisher = {Oxford University Press},
+  year = {1998}
+}
+</pre></td>
+</tr>
+<tr id="Fiengo74" class="entry">
+	<td>Fiengo, R. W.</td>
+	<td>Semantic Conditions on Surface Structure <p class="infolinks">[<a href="javascript:toggleInfo('Fiengo74','bibtex')">BibTeX</a>]</p></td>
+	<td>1974</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Fiengo74" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Fiengo74,
+  author = {Fiengo, Robert W.},
+  title = {Semantic Conditions on Surface Structure},
+  school = {MIT},
+  year = {1974}
+}
+</pre></td>
+</tr>
+<tr id="FiengoMay94" class="entry">
+	<td>Fiengo, R. W. &amp; May, R.</td>
+	<td>Indices and Identity <p class="infolinks">[<a href="javascript:toggleInfo('FiengoMay94','bibtex')">BibTeX</a>]</p></td>
+	<td>1994</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_FiengoMay94" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{FiengoMay94,
+  author = {Fiengo, Robert W. and May, Robert},
+  title = {Indices and Identity},
+  publisher = {MIT Press},
+  year = {1994}
+}
+</pre></td>
+</tr>
+<tr id="Fillmore68" class="entry">
+	<td>Fillmore, C. J.</td>
+	<td>The Case for Case <p class="infolinks">[<a href="javascript:toggleInfo('Fillmore68','bibtex')">BibTeX</a>]</p></td>
+	<td>1968</td>
+	<td>Universals in Linguistic Theory &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Fillmore68" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Fillmore68,
+  author = {Fillmore, Charles J.},
+  title = {The Case for Case},
+  booktitle = {Universals in Linguistic Theory},
+  publisher = {Holt, Rinehart and Winston},
+  year = {1968},
+  pages = {1--88}
+}
+</pre></td>
+</tr>
+<tr id="Fox00" class="entry">
+	<td>Fox, D.</td>
+	<td>Economy and Semantic Interpretation <p class="infolinks">[<a href="javascript:toggleInfo('Fox00','bibtex')">BibTeX</a>]</p></td>
+	<td>2000</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Fox00" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Fox00,
+  author = {Fox, Danny},
+  title = {Economy and Semantic Interpretation},
+  publisher = {MIT Press},
+  year = {2000}
+}
+</pre></td>
+</tr>
+<tr id="FoxPesetsky05" class="entry">
+	<td>Fox, D. &amp; Pesetsky, D.</td>
+	<td>Cyclic Linearization of Syntactic Structure <p class="infolinks">[<a href="javascript:toggleInfo('FoxPesetsky05','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('FoxPesetsky05','bibtex')">BibTeX</a>]</p></td>
+	<td>2005</td>
+	<td>Theoretical Linguistics &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_FoxPesetsky05" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: This paper proposes an architecture for the mapping between syntax &amp; phonology - in particular, that aspect of phonology that determines the linear ordering of words. We propose that linearization is restricted in two key ways. (1) the relative ordering of words is fixed at the end of each phase, or "Spell-out domain"; &amp; (2) ordering established in an earlier phase may not be revised or contradicted in a later phase. As a consequence, overt extraction out of a phase P may apply only if the result leaves unchanged the precedence relations established in P. We argue first that this architecture ("cyclic linearization") gives us a means of understanding the reasons for successive-cyclic movement. We then turn our attention to more specific predictions of the proposal: in particular, the effects of Holmberg's Generalization on Scandinavian Object Shift; &amp; also the Inverse Holmberg Effects found in Scandinavian "Quantifier Movement" constructions (Rognvaldsson (1987); Jonsson (1996); Svenonius (2000)) &amp; in Korean scrambling configurations (Ko (2003, 2004)). The cyclic linearization proposal makes predictions that cross-cut the details of particular syntactic configurations. For example, whether an apparent case of verb fronting results from V-to-C movement or from "remnant movement" of a VP whose complements have been removed by other processes, the verb should still be required to precede its complements after fronting if it preceded them before fronting according to an ordering established at an earlier phase. We argue that "cross-construction" consistency of this sort is in fact found. 68 References. Adapted from the source document</td>
+</tr>
+<tr id="bib_FoxPesetsky05" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{FoxPesetsky05,
+  author = {Fox, Danny and Pesetsky, David},
+  title = {Cyclic Linearization of Syntactic Structure},
+  journal = {Theoretical Linguistics},
+  publisher = {Walter de Gruyter},
+  year = {2005},
+  volume = {31},
+  number = {1-2},
+  pages = {1--45}
+}
+</pre></td>
+</tr>
+<tr id="FramptonGutman02" class="entry">
+	<td>Frampton, J. &amp; Gutman, S.</td>
+	<td>Crash-Proof Syntax <p class="infolinks">[<a href="javascript:toggleInfo('FramptonGutman02','bibtex')">BibTeX</a>]</p></td>
+	<td>2002</td>
+	<td>Derivation and Explanation in the Minimalist Program &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_FramptonGutman02" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{FramptonGutman02,
+  author = {John Frampton and Sam Gutman},
+  title = {Crash-Proof Syntax},
+  booktitle = {Derivation and Explanation in the Minimalist Program},
+  publisher = {Blackwell},
+  year = {2002},
+  pages = {90--105}
+}
+</pre></td>
+</tr>
+<tr id="FramptonGutman00" class="entry">
+	<td>Frampton, J. &amp; Gutman, S.</td>
+	<td>Agreement is Feature-Sharing <p class="infolinks">[<a href="javascript:toggleInfo('FramptonGutman00','bibtex')">BibTeX</a>]</p></td>
+	<td>2000</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_FramptonGutman00" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{FramptonGutman00,
+  author = {Frampton, John and Gutman, Sam},
+  title = {Agreement is Feature-Sharing},
+  year = {2000},
+  note = {Ms., Northwestern University}
+}
+</pre></td>
+</tr>
+<tr id="Freidin78" class="entry">
+	<td>Freidin, R.</td>
+	<td>Cyclicity and the Theory of Grammar <p class="infolinks">[<a href="javascript:toggleInfo('Freidin78','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Freidin78','bibtex')">BibTeX</a>]</p></td>
+	<td>1978</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Freidin78" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Comparisons of the function of rules to the performance of filters in the transformational component of a grammar suggest that effects of the rule conditions may be subsumed within the filters. Filters are shown to work independently of the strict-cycle condition violation (causing misgeneration). The theory of transformations is thus narrowed. T. Adams Muranaka</td>
+</tr>
+<tr id="bib_Freidin78" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Freidin78,
+  author = {Freidin, Robert},
+  title = {Cyclicity and the Theory of Grammar},
+  journal = {Linguistic Inquiry},
+  year = {1978},
+  volume = {9},
+  pages = {519--549}
+}
+</pre></td>
+</tr>
+<tr id="FukuiSpeas86" class="entry">
+	<td>Fukui, N. &amp; Speas, M.</td>
+	<td>Specifiers and Projection <p class="infolinks">[<a href="javascript:toggleInfo('FukuiSpeas86','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('FukuiSpeas86','bibtex')">BibTeX</a>]</p></td>
+	<td>1986</td>
+	<td>MIT Working Papers in Linguistics &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_FukuiSpeas86" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: The question of whether valid linguistic generalizations are obscured by the overlap between constraints imposed at D-structure by the projection principle &amp; constraints imposed by X-bar theory is considered. Properties of the two systems of constraints are examined in order to make it possible to express observed generalizations that cannot presently be expressed in either system of constraints. A theory of well-formed D-structures is outlined, based on an asymmetry between lexical &amp; functional categories. Consequences of the reinterpretation of projection proposed here are considered. 67 References. B. Annesser Murray</td>
+</tr>
+<tr id="bib_FukuiSpeas86" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{FukuiSpeas86,
+  author = {Fukui, Naoki and Speas, Margaret},
+  title = {Specifiers and Projection},
+  journal = {MIT Working Papers in Linguistics},
+  year = {1986},
+  volume = {8},
+  pages = {128--172}
+}
+</pre></td>
+</tr>
+<tr id="Gazdar81" class="entry">
+	<td>Gazdar, G.</td>
+	<td>Unbounded Dependencies and Coordinate Structure <p class="infolinks">[<a href="javascript:toggleInfo('Gazdar81','bibtex')">BibTeX</a>]</p></td>
+	<td>1981</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Gazdar81" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Gazdar81,
+  author = {Gazdar, Gerald},
+  title = {Unbounded Dependencies and Coordinate Structure},
+  journal = {Linguistic Inquiry},
+  year = {1981},
+  volume = {12},
+  pages = {155--184}
+}
+</pre></td>
+</tr>
+<tr id="GazdarKleinEtAl85" class="entry">
+	<td>Gazdar, G., Klein, E., Pullum, G. K. &amp; Sag, I. A.</td>
+	<td>Generalized Phrase Structure Grammar <p class="infolinks">[<a href="javascript:toggleInfo('GazdarKleinEtAl85','bibtex')">BibTeX</a>]</p></td>
+	<td>1985</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_GazdarKleinEtAl85" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{GazdarKleinEtAl85,
+  author = {Gazdar, Gerald and Klein, Ewan and Pullum, Geoffrey K. and Sag, Ivan A.},
+  title = {Generalized Phrase Structure Grammar},
+  publisher = {Blackwell},
+  year = {1985}
+}
+</pre></td>
+</tr>
+<tr id="GazdarPullum82" class="entry">
+	<td>Gazdar, G. &amp; Pullum, G. K.</td>
+	<td>Generalized Phrase Structure Grammar: A Theoretical Synopsis <p class="infolinks">[<a href="javascript:toggleInfo('GazdarPullum82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td> &nbsp;</td>
+	<td>techreport</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_GazdarPullum82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@techreport{GazdarPullum82,
+  author = {Gazdar, Gerald and Pullum, Geoffrey K.},
+  title = {Generalized Phrase Structure Grammar: A Theoretical Synopsis},
+  year = {1982},
+  number = {007}
+}
+</pre></td>
+</tr>
+<tr id="GaertnerMichaelis07" class="entry">
+	<td>G&auml;rtner, H. &amp; Michaelis, J.</td>
+	<td>Some Remarks on Locality Conditions and Minimalist Grammars <p class="infolinks">[<a href="javascript:toggleInfo('GaertnerMichaelis07','bibtex')">BibTeX</a>]</p></td>
+	<td>2007</td>
+	<td>Interfaces + Recursion = Language? Chomsky's Minimalism and the View from Syntax-Semantics &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_GaertnerMichaelis07" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{GaertnerMichaelis07,
+  author = {G&auml;rtner, Hans-Martin and Michaelis, Jens},
+  title = {Some Remarks on Locality Conditions and Minimalist Grammars},
+  booktitle = {Interfaces + Recursion = Language? Chomsky's Minimalism and the View from Syntax-Semantics},
+  publisher = {Mouton de Gruyter},
+  year = {2007},
+  pages = {161--196}
+}
+</pre></td>
+</tr>
+<tr id="HaleKeyser93" class="entry">
+	<td>Hale, K. &amp; Keyser, S. J.</td>
+	<td>On Argument Structure and the Lexical Expression of Syntactic Relations <p class="infolinks">[<a href="javascript:toggleInfo('HaleKeyser93','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('HaleKeyser93','bibtex')">BibTeX</a>]</p></td>
+	<td>1993</td>
+	<td>The View from Building 20: Essays in Honor of Sylvain Bromberger &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_HaleKeyser93" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: An account of the argument structure of verbal lexical items, in which argument structure results from a projected "lexical relational structure" (LRS), a lexically represented syntax of a verb's argument structure, is proposed. An analysis of the formation of denominal verbs involving LRS is presented, &amp; it is shown that restrictions on incoporation can be stated naturally in terms of LRS. It is argued that the limited set of thematic role types in linguistic theory can be seen as an artifact of LRS, &amp; alternative accounts of thematic role &amp; thematic role assignment in terms of LRS are explored. Restrictions on the verbs that may occur in various verbal constructions (eg, the causatives, middles, &amp; inchoatives) are discussed in terms of LRS. It is also argued that, given a theory incorporating LRS, the syntactic principles of unambiguous projection &amp; full interpretation apply to the projection of lexical categories. A final section is devoted to qualifying the distinction between syntax (as per its commonly understood definition in linguistic theory) &amp; the lexical "syntax" of LRS &amp; to discussing issues in the treatment of sentential subjects that result from the positing of LRS. 60 References. J. Easton</td>
+</tr>
+<tr id="bib_HaleKeyser93" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{HaleKeyser93,
+  author = {Hale, Kenneth and Keyser, Samuel J.},
+  title = {On Argument Structure and the Lexical Expression of Syntactic Relations},
+  booktitle = {The View from Building 20: Essays in Honor of Sylvain Bromberger},
+  publisher = {MIT Press},
+  year = {1993}
+}
+</pre></td>
+</tr>
+<tr id="HalleMarantz93" class="entry">
+	<td>Halle, M. &amp; Marantz, A.</td>
+	<td>Distributed Morphology and the Pieces of Inflection <p class="infolinks">[<a href="javascript:toggleInfo('HalleMarantz93','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('HalleMarantz93','bibtex')">BibTeX</a>]</p></td>
+	<td>1993</td>
+	<td>The view from building 20 &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_HalleMarantz93" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: A new theoretical approach to morphology - "distributed morphology" (DM) - is developed, combining features of two other recent theories: M. Aronoff's "affixless" morphology (1975) &amp; R. Lieber's "lexicalist" morphology (1992), &amp; positing that "morphology" is distributed among different components of the grammar. The organization of principles &amp; parameters grammar is reviewed, &amp; the posited structure of morphemes as hierarchically structured trees &amp; the role of the morphological structure level of representation in DM are discussed. Morphological "merger," "fusion," &amp; "fission" (treated here as operations on tree structures) are outlined, as is the role of vocabulary insertion &amp; a DM account of allomorphy. Readjustment rules &amp; null morpheme elements in DM are treated &amp; the DM view is contrasted with the "affixless" approach of S. Anderson (1992). An analysis of inflectional morphemes in Potowatomi is developed &amp; again contrasted with the affixless account. An overview of the DM theory is also presented, &amp; the contrast between DM &amp; Noam Chomsky's proposed system of "feature checking" (abstracted in this issue) is considered. 1 Table, 46 References. J. Easton</td>
+</tr>
+<tr id="bib_HalleMarantz93" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{HalleMarantz93,
+  author = {Morris Halle and Alec Marantz},
+  title = {Distributed Morphology and the Pieces of Inflection},
+  booktitle = {The view from building 20},
+  publisher = {MIT Press},
+  year = {1993},
+  pages = {111--176}
+}
+</pre></td>
+</tr>
+<tr id="Heim08" class="entry">
+	<td>Heim, I.</td>
+	<td>Features on Bound Pronouns <p class="infolinks">[<a href="javascript:toggleInfo('Heim08','bibtex')">BibTeX</a>]</p></td>
+	<td>2008</td>
+	<td>Phi Theory. Phy-Features Across Modules and Interfaces<i>School</i>: MIT &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Heim08" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Heim08,
+  author = {Heim, Irene},
+  title = {Features on Bound Pronouns},
+  booktitle = {Phi Theory. Phy-Features Across Modules and Interfaces},
+  publisher = {Oxford University Press},
+  school = {MIT},
+  year = {2008},
+  pages = {35--56}
+}
+</pre></td>
+</tr>
+<tr id="Higginbotham80" class="entry">
+	<td>Higginbotham, J.</td>
+	<td>Pronouns and Bound Variables <p class="infolinks">[<a href="javascript:toggleInfo('Higginbotham80','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Higginbotham80','bibtex')">BibTeX</a>]</p></td>
+	<td>1980</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Higginbotham80" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: The problem of determining the conditions necessary for the pronoun to be interpreted as a variable, bound to the quantificational NP is addressed. The bound interpretation is optional, &amp; reflexive or reciprocal examples are excluded. Essential elements of N. Chomsky's "On Binding" (see LLBA 16/2, 8202755) are reviewed, including important aspects of indexing &amp; its variables. It is demonstrated that rules of sentence grammar are used to answer questions of referential overlap between referential NPs. Also covered are questions where binding is not possible because of cross-over. Similarities with Chinese binding are exhibited to show that Chinese is a subset of English binding. R. Minerd</td>
+</tr>
+<tr id="bib_Higginbotham80" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Higginbotham80,
+  author = {Higginbotham, James},
+  title = {Pronouns and Bound Variables},
+  journal = {Linguistic Inquiry},
+  year = {1980},
+  volume = {11},
+  pages = {679--708}
+}
+</pre></td>
+</tr>
+<tr id="Holmberg86" class="entry">
+	<td>Holmberg, A.</td>
+	<td>Word Order and Syntactic Features in the Scandinavian Languages and English <p class="infolinks">[<a href="javascript:toggleInfo('Holmberg86','bibtex')">BibTeX</a>]</p></td>
+	<td>1986</td>
+	<td><i>School</i>: University of Stockholm &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Holmberg86" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Holmberg86,
+  author = {Holmberg, Anders},
+  title = {Word Order and Syntactic Features in the Scandinavian Languages and English},
+  school = {University of Stockholm},
+  year = {1986}
+}
+</pre></td>
+</tr>
+<tr id="Hornstein99" class="entry">
+	<td>Hornstein, N.</td>
+	<td>Movement and Control <p class="infolinks">[<a href="javascript:toggleInfo('Hornstein99','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hornstein99','bibtex')">BibTeX</a>]</p></td>
+	<td>1999</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Hornstein99" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Since the earliest days of generative grammar, control has been distinguished from raising: The latter is the product of movement operations, &amp; the former is the result of construal processes relating a PRO to an antecedent. This article argues that obligatory control structures are also formed by movement. Minimalism makes this approach viable by removing D-Structure as a grammatical level. Implementing the suggestion, however, requires eliminating the last vestiges of D-Structure still extant in Noam Chomsky's (1995) version of the minimalist program. In particular, it requires dispensing with the theta-criterion &amp; adopting the view that theta-roles are featurelike in being able to license movement. 36 References. Adapted from the source document</td>
+</tr>
+<tr id="bib_Hornstein99" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Hornstein99,
+  author = {Hornstein, Norbert},
+  title = {Movement and Control},
+  journal = {Linguistic Inquiry},
+  year = {1999},
+  volume = {30},
+  pages = {69--96}
+}
+</pre></td>
+</tr>
+<tr id="Hornstein98" class="entry">
+	<td>Hornstein, N.</td>
+	<td>Movement and Chains <p class="infolinks">[<a href="javascript:toggleInfo('Hornstein98','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hornstein98','bibtex')">BibTeX</a>]</p></td>
+	<td>1998</td>
+	<td>Syntax &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Hornstein98" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: A line of thought within the minimalist program proceeds as follows: the objects interpreted at the interface determine the units of syntactic manipulation. It is argued here that chains are not proper units for determining relative quantifier scope &amp; so should not be thought of as proper syntactic objects. This conclusion is buttressed by the claim that once 0-features are allowed into the theory, a conclusion independently required once control is considered, then chains are redundant objects that can be seen as violating the inclusiveness condition. A theory is presented that dispenses with chains. This requires syntactic innovations that are examined. 27 References. Adapted from the source document</td>
+</tr>
+<tr id="bib_Hornstein98" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Hornstein98,
+  author = {Hornstein, Norbert},
+  title = {Movement and Chains},
+  journal = {Syntax},
+  year = {1998},
+  volume = {1},
+  pages = {99--127}
+}
+</pre></td>
+</tr>
+<tr id="Huang82" class="entry">
+	<td>Huang, C. J.</td>
+	<td>Logical Relations in Chinese and The Theory of Grammar <p class="infolinks">[<a href="javascript:toggleInfo('Huang82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Huang82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Huang82,
+  author = {Huang, C.-T. James},
+  title = {Logical Relations in Chinese and The Theory of Grammar},
+  school = {MIT},
+  year = {1982}
+}
+</pre></td>
+</tr>
+<tr id="Jackendoff77" class="entry">
+	<td>Jackendoff, R.</td>
+	<td>X-Bar Syntax: A Study of Phrase Structure <p class="infolinks">[<a href="javascript:toggleInfo('Jackendoff77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Jackendoff77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Jackendoff77,
+  author = {Jackendoff, Ray},
+  title = {X-Bar Syntax: A Study of Phrase Structure},
+  publisher = {MIT Press},
+  year = {1977}
+}
+</pre></td>
+</tr>
+<tr id="Jaeggli82" class="entry">
+	<td>Jaeggli, O.</td>
+	<td>Topics in Romance Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Jaeggli82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Jaeggli82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Jaeggli82,
+  author = {Jaeggli, Osvaldo},
+  title = {Topics in Romance Syntax},
+  publisher = {Foris},
+  year = {1982}
+}
+</pre></td>
+</tr>
+<tr id="KatzPostal64" class="entry">
+	<td>Katz, J. J. &amp; Postal, P.</td>
+	<td>An Integrated Theory of Linguistic Description <p class="infolinks">[<a href="javascript:toggleInfo('KatzPostal64','bibtex')">BibTeX</a>]</p></td>
+	<td>1964</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_KatzPostal64" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{KatzPostal64,
+  author = {Katz, Jerrold J. and Postal, Paul},
+  title = {An Integrated Theory of Linguistic Description},
+  publisher = {MIT Press},
+  year = {1964}
+}
+</pre></td>
+</tr>
+<tr id="Kayne02" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>Pronouns and Their Antecedents <p class="infolinks">[<a href="javascript:toggleInfo('Kayne02','bibtex')">BibTeX</a>]</p></td>
+	<td>2002</td>
+	<td>Derivation and Explanation in the Minimalist Program &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne02" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Kayne02,
+  author = {Kayne, Richard S.},
+  title = {Pronouns and Their Antecedents},
+  booktitle = {Derivation and Explanation in the Minimalist Program},
+  publisher = {Blackwell},
+  year = {2002},
+  pages = {133--166}
+}
+</pre></td>
+</tr>
+<tr id="Kayne94" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>The Antisymmetry of Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Kayne94','bibtex')">BibTeX</a>]</p></td>
+	<td>1994</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne94" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Kayne94,
+  author = {Richard S. Kayne},
+  title = {The Antisymmetry of Syntax},
+  publisher = {MIT Press},
+  year = {1994}
+}
+</pre></td>
+</tr>
+<tr id="Kayne89" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>Facets of Romance Past Participle Agreement <p class="infolinks">[<a href="javascript:toggleInfo('Kayne89','bibtex')">BibTeX</a>]</p></td>
+	<td>1989</td>
+	<td>Dialect Variation and the Theory of Grammar &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne89" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Kayne89,
+  author = {Kayne, Richard S.},
+  title = {Facets of Romance Past Participle Agreement},
+  booktitle = {Dialect Variation and the Theory of Grammar},
+  publisher = {Foris},
+  year = {1989},
+  pages = {85--103}
+}
+</pre></td>
+</tr>
+<tr id="Kayne84" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>Connectedness and Binary Branching <p class="infolinks">[<a href="javascript:toggleInfo('Kayne84','bibtex')">BibTeX</a>]</p></td>
+	<td>1984</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne84" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Kayne84,
+  author = {Kayne, Richard S.},
+  title = {Connectedness and Binary Branching},
+  publisher = {Foris},
+  year = {1984}
+}
+</pre></td>
+</tr>
+<tr id="Kayne83" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>Connectedness <p class="infolinks">[<a href="javascript:toggleInfo('Kayne83','bibtex')">BibTeX</a>]</p></td>
+	<td>1983</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne83" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Kayne83,
+  author = {Kayne, Richard S.},
+  title = {Connectedness},
+  journal = {Linguistic Inquiry},
+  year = {1983},
+  volume = {14},
+  pages = {223--249}
+}
+</pre></td>
+</tr>
+<tr id="Kayne81" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>Unambiguous Paths <p class="infolinks">[<a href="javascript:toggleInfo('Kayne81','bibtex')">BibTeX</a>]</p></td>
+	<td>1981</td>
+	<td>Levels of Syntactic Representation &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne81" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Kayne81,
+  author = {Kayne, Richard S.},
+  title = {Unambiguous Paths},
+  booktitle = {Levels of Syntactic Representation},
+  publisher = {Foris},
+  year = {1981},
+  pages = {143--183}
+}
+</pre></td>
+</tr>
+<tr id="Kayne75" class="entry">
+	<td>Kayne, R. S.</td>
+	<td>French Syntax: The Transformational Cycle <p class="infolinks">[<a href="javascript:toggleInfo('Kayne75','bibtex')">BibTeX</a>]</p></td>
+	<td>1975</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kayne75" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Kayne75,
+  author = {Kayne, Richard S.},
+  title = {French Syntax: The Transformational Cycle},
+  publisher = {MIT Press},
+  year = {1975}
+}
+</pre></td>
+</tr>
+<tr id="KeenanComrie77" class="entry">
+	<td>Keenan, E. L. &amp; Comrie, B.</td>
+	<td>Noun Phrase Accessiblity and Universal Grammar <p class="infolinks">[<a href="javascript:toggleInfo('KeenanComrie77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_KeenanComrie77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{KeenanComrie77,
+  author = {Keenan, Edward L. and Comrie, Bernard},
+  title = {Noun Phrase Accessiblity and Universal Grammar},
+  journal = {Linguistic Inquiry},
+  year = {1977},
+  volume = {8},
+  pages = {63--99}
+}
+</pre></td>
+</tr>
+<tr id="Klima64" class="entry">
+	<td>Klima, E.</td>
+	<td>Negation in English <p class="infolinks">[<a href="javascript:toggleInfo('Klima64','bibtex')">BibTeX</a>]</p></td>
+	<td>1964</td>
+	<td>The Structure of Language &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Klima64" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Klima64,
+  author = {Klima, Edward},
+  title = {Negation in English},
+  booktitle = {The Structure of Language},
+  publisher = {Prentice Hall},
+  year = {1964},
+  pages = {246--323}
+}
+</pre></td>
+</tr>
+<tr id="Koopman92" class="entry">
+	<td>Koopman, H.</td>
+	<td>On the Absence of Case Chains in Bambara <p class="infolinks">[<a href="javascript:toggleInfo('Koopman92','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Koopman92','bibtex')">BibTeX</a>]</p></td>
+	<td>1992</td>
+	<td>Natural Language and Linguistic Theory &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Koopman92" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: In Bambara, problems concerning transitivity appear in sentences containing perfective aspect &amp; in causatives. These problems are shown to arise from the interaction of verb movement &amp; the property specific to Bambara that case cannot be transmitted along a verbal chain. It is argued that this property follows from a particular setting of a parameter that either allows or disallows case chains (CCs) in a particular language. In general, CCs can never be formed in Bambara. In the nominal system, the lack of CCs accounts for the fact that syntactic NP movement occurs in more configurations than in a language such as English, &amp; for the absence of expletive pronouns that transmit case at S-structure. It is suggested that the absence of CCs has consequences for the syntax of predicate nominals, &amp; may explain the absence of nominal small clauses &amp; syntactic wh-movement in Bambara. 2 Tables, 49 References. Adapted from the source document</td>
+</tr>
+<tr id="bib_Koopman92" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Koopman92,
+  author = {Koopman, Hilda},
+  title = {On the Absence of Case Chains in Bambara},
+  journal = {Natural Language and Linguistic Theory},
+  year = {1992},
+  volume = {10},
+  pages = {555--594}
+}
+</pre></td>
+</tr>
+<tr id="Koopman84" class="entry">
+	<td>Koopman, H.</td>
+	<td>The Syntax of Verbs <p class="infolinks">[<a href="javascript:toggleInfo('Koopman84','bibtex')">BibTeX</a>]</p></td>
+	<td>1984</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Koopman84" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Koopman84,
+  author = {Koopman, Hilda},
+  title = {The Syntax of Verbs},
+  publisher = {Foris},
+  year = {1984}
+}
+</pre></td>
+</tr>
+<tr id="KoopmanSportiche91" class="entry">
+	<td>Koopman, H. &amp; Sportiche, D.</td>
+	<td>The Position of Subjects <p class="infolinks">[<a href="javascript:toggleInfo('KoopmanSportiche91','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('KoopmanSportiche91','bibtex')">BibTeX</a>]</p></td>
+	<td>1991</td>
+	<td>Lingua &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_KoopmanSportiche91" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: The concept of canonical position of a phrase (or, in Extended Standard Theory, its D-structure position) is examined with reference to defining the canonical position of subjects. A proposed constituent structure is argued to represent the canonical position of the noun phrase for many languages, which fall into two classes. The class 1 languages involve movement of the subject from its base-generated position; class 2 languages do not. For English, this proposal is equivalent to saying that INFL is a raising category. Arguments supporting this analysis are presented. A detailed discussion of the implications of this analysis of canonical position includes an examination of the nature of the parameter relating to obligatory vs optional raising of the base-generated subject, a discussion of raising in English &amp; French nonfinite clauses, &amp; a discussion of implications of this analysis for the verb phrase/internal subject hypothesis. 53 References. B. Annesser Murray</td>
+</tr>
+<tr id="bib_KoopmanSportiche91" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{KoopmanSportiche91,
+  author = {Koopman, Hilda and Sportiche, Dominique},
+  title = {The Position of Subjects},
+  journal = {Lingua},
+  year = {1991},
+  volume = {85},
+  pages = {211--258}
+}
+</pre></td>
+</tr>
+<tr id="KoopmanSportiche85" class="entry">
+	<td>Koopman, H. &amp; Sportiche, D.</td>
+	<td>Theta-Theory and Extraction <p class="infolinks">[<a href="javascript:toggleInfo('KoopmanSportiche85','bibtex')">BibTeX</a>]</p></td>
+	<td>1985</td>
+	<td> &nbsp;</td>
+	<td>misc</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_KoopmanSportiche85" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@misc{KoopmanSportiche85,
+  author = {Koopman, Hilda and Sportiche, Dominique},
+  title = {Theta-Theory and Extraction},
+  year = {1985},
+  note = {Paper presented at the 1985 Glow colloquium, Brussels, Belgium}
+}
+</pre></td>
+</tr>
+<tr id="KoopmanSportiche82" class="entry">
+	<td>Koopman, H. &amp; Sportiche, D.</td>
+	<td>Variables and the Bijection Principle <p class="infolinks">[<a href="javascript:toggleInfo('KoopmanSportiche82','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('KoopmanSportiche82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td>The Linguistic Review &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_KoopmanSportiche82" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Until N. Chomsky's Lectures on Government and Binding (Foris Publications: Dordrecht, 1981) appeared, variables had been characterized: "a is a variable iff a is the trace of movement from an A-position to an A-position." Chomsky's proposed modification of this definition is outlined, &amp; argued to be too narrow. Consequences of this extension are explored &amp; a new explanation of the weak-cross-over facts is presented based on what is termed the bijection principle. The bijection principle is compared to other proposals &amp; its status as either a condition on rule application &amp;/or on representations on some level is considered. The case of focused phrases is studied. 34 References. B. Annesser</td>
+</tr>
+<tr id="bib_KoopmanSportiche82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{KoopmanSportiche82,
+  author = {Koopman, Hilda and Sportiche, Dominique},
+  title = {Variables and the Bijection Principle},
+  journal = {The Linguistic Review},
+  year = {1982},
+  volume = {2},
+  pages = {135--170}
+}
+</pre></td>
+</tr>
+<tr id="Kratzer96" class="entry">
+	<td>Kratzer, A.</td>
+	<td>Severing the External Argument From its Verb <p class="infolinks">[<a href="javascript:toggleInfo('Kratzer96','bibtex')">BibTeX</a>]</p></td>
+	<td>1996</td>
+	<td>Phrase Structure and Lexicon &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Kratzer96" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Kratzer96,
+  author = {Kratzer, Angelika},
+  title = {Severing the External Argument From its Verb},
+  booktitle = {Phrase Structure and Lexicon},
+  publisher = {Kluwer},
+  year = {1996},
+  pages = {109--137}
+}
+</pre></td>
+</tr>
+<tr id="Kuroda88" class="entry">
+	<td>Kuroda, Y. S.</td>
+	<td>Whether We Agree or Not: A Comparative Syntax of English and Japanese <p class="infolinks">[<a href="javascript:toggleInfo('Kuroda88','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Kuroda88','bibtex')">BibTeX</a>]</p></td>
+	<td>1988</td>
+	<td>Papers from the Second International Workshop on Japanese Syntax &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Kuroda88" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Although several syntactic differences exist between Eng &amp; Japanese, it is argued here that there are no parametric differences between the two langs that result in any fundamental differences in deep structure. The major parametric difference is that agreement is forced in Eng but not in Japanese. It is shown that the major typological differences between the two langs can be deduced from a set of assumptions on universal grammar, plus the parameter noted. Inherent differences in forced agreement &amp; nonforced agreement langs are outlined. 42 References. B. Annesser Murray</td>
+</tr>
+<tr id="bib_Kuroda88" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{Kuroda88,
+  author = {Kuroda, Yuki S.},
+  title = {Whether We Agree or Not: A Comparative Syntax of English and Japanese},
+  booktitle = {Papers from the Second International Workshop on Japanese Syntax},
+  publisher = {CSLI},
+  year = {1988},
+  pages = {103--143}
+}
+</pre></td>
+</tr>
+<tr id="Lakoff68" class="entry">
+	<td>Lakoff, G.</td>
+	<td>Pronouns and Reference <p class="infolinks">[<a href="javascript:toggleInfo('Lakoff68','bibtex')">BibTeX</a>]</p></td>
+	<td>1968</td>
+	<td> &nbsp;</td>
+	<td>misc</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Lakoff68" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@misc{Lakoff68,
+  author = {Lakoff, George},
+  title = {Pronouns and Reference},
+  year = {1968}
+}
+</pre></td>
+</tr>
+<tr id="Langacker69" class="entry">
+	<td>Langacker, R. W.</td>
+	<td>On Pronominalization and the Chain of Command <p class="infolinks">[<a href="javascript:toggleInfo('Langacker69','bibtex')">BibTeX</a>]</p></td>
+	<td>1969</td>
+	<td>Modern Studies in English &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Langacker69" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Langacker69,
+  author = {Langacker, Ronald W.},
+  title = {On Pronominalization and the Chain of Command},
+  booktitle = {Modern Studies in English},
+  publisher = {Prentice Hall},
+  year = {1969},
+  pages = {160--186}
+}
+</pre></td>
+</tr>
+<tr id="Larson88" class="entry">
+	<td>Larson, R.</td>
+	<td>On the Double Object Construction <p class="infolinks">[<a href="javascript:toggleInfo('Larson88','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Larson88','bibtex')">BibTeX</a>]</p></td>
+	<td>1988</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Larson88" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Analysis of double O constructions building from an early suggestion by Noam Chomsky (The Logical Structure of Linguistic Theory, Chicago: U of Chicago Press, [1955] 1975) that simple datives like John sent a letter to Mary derive from an underlying form in which the V &amp; indirect O make up a constituent that excludes the direct O. The specific proposal adopted here is that such datives involve an underlying clauselike VP whose "subject" is a letter &amp; whose "object" is to Mary: this inner constituent is obscured at S-structure by V raising. With this view of dative complementation, double Os can be derived by a modern form of dative shift. Specifically, they can be produced by applying the familiar operations responsible for passives within VP. The former indirect O (Mary) becomes a derived VP subject, &amp; the former direct O assumes adjunct status within V'. This structure is shown to account for a variety of properties of the double O structure, including "domain asymmetries" discussed recently by A. Barss &amp; H. Lasnik (see LLBA 20/3, 8604829). 78 References. Modified AA</td>
+</tr>
+<tr id="bib_Larson88" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Larson88,
+  author = {Larson, Richard},
+  title = {On the Double Object Construction},
+  journal = {Linguistic Inquiry},
+  year = {1988},
+  volume = {19},
+  number = {3},
+  pages = {335--391}
+}
+</pre></td>
+</tr>
+<tr id="Lasnik76" class="entry">
+	<td>Lasnik, H.</td>
+	<td>Remarks on Coreference <p class="infolinks">[<a href="javascript:toggleInfo('Lasnik76','bibtex')">BibTeX</a>]</p></td>
+	<td>1976</td>
+	<td>Linguistic Analysis &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Lasnik76" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Lasnik76,
+  author = {Lasnik, Howard},
+  title = {Remarks on Coreference},
+  journal = {Linguistic Analysis},
+  year = {1976},
+  volume = {2},
+  pages = {1--22}
+}
+</pre></td>
+</tr>
+<tr id="Lebeaux88" class="entry">
+	<td>Lebeaux, D.</td>
+	<td>Language Acquisition and the Form of the Grammar <p class="infolinks">[<a href="javascript:toggleInfo('Lebeaux88','bibtex')">BibTeX</a>]</p></td>
+	<td>1988</td>
+	<td><i>School</i>: University of Massachusetts, Amherst &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Lebeaux88" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Lebeaux88,
+  author = {Lebeaux, David},
+  title = {Language Acquisition and the Form of the Grammar},
+  school = {University of Massachusetts, Amherst},
+  year = {1988}
+}
+</pre></td>
+</tr>
+<tr id="Lees60" class="entry">
+	<td>Lees, R. B.</td>
+	<td>The Grammar of English Nominalizations <p class="infolinks">[<a href="javascript:toggleInfo('Lees60','bibtex')">BibTeX</a>]</p></td>
+	<td>1960</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Lees60" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Lees60,
+  author = {Lees, Robert B.},
+  title = {The Grammar of English Nominalizations},
+  publisher = {Mouton},
+  year = {1960}
+}
+</pre></td>
+</tr>
+<tr id="Levin86" class="entry">
+	<td>Levin, N.</td>
+	<td>Main-Verb Ellipsis in Spoken English <p class="infolinks">[<a href="javascript:toggleInfo('Levin86','bibtex')">BibTeX</a>]</p></td>
+	<td>1986</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Levin86" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Levin86,
+  author = {Levin, Nancy},
+  title = {Main-Verb Ellipsis in Spoken English},
+  publisher = {Garland Publishing},
+  year = {1986}
+}
+</pre></td>
+</tr>
+<tr id="May85" class="entry">
+	<td>May, R.</td>
+	<td>Logical Form: Its Structure and Derivation <p class="infolinks">[<a href="javascript:toggleInfo('May85','bibtex')">BibTeX</a>]</p></td>
+	<td>1985</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_May85" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{May85,
+  author = {May, Robert},
+  title = {Logical Form: Its Structure and Derivation},
+  publisher = {MIT Press},
+  year = {1985}
+}
+</pre></td>
+</tr>
+<tr id="May77" class="entry">
+	<td>May, R.</td>
+	<td>The Grammar of Quantification <p class="infolinks">[<a href="javascript:toggleInfo('May77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_May77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{May77,
+  author = {May, Robert},
+  title = {The Grammar of Quantification},
+  school = {MIT},
+  year = {1977}
+}
+</pre></td>
+</tr>
+<tr id="Nunes95" class="entry">
+	<td>Nunes, J.</td>
+	<td>The Copy Theory of Movement and Linearization of Chains in the Minimalist Program <p class="infolinks">[<a href="javascript:toggleInfo('Nunes95','bibtex')">BibTeX</a>]</p></td>
+	<td>1995</td>
+	<td><i>School</i>: University of Maryland, College Park &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Nunes95" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Nunes95,
+  author = {Nunes, Jairo},
+  title = {The Copy Theory of Movement and Linearization of Chains in the Minimalist Program},
+  school = {University of Maryland, College Park},
+  year = {1995}
+}
+</pre></td>
+</tr>
+<tr id="Perlmutter78" class="entry">
+	<td>Perlmutter, D. M.</td>
+	<td>Impersonal Passives and the Unaccusative Hypothesis <p class="infolinks">[<a href="javascript:toggleInfo('Perlmutter78','bibtex')">BibTeX</a>]</p></td>
+	<td>1978</td>
+	<td>Proceedings of the Fourth Annual Meeting of the Berkeley Linguistics Society &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Perlmutter78" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Perlmutter78,
+  author = {Perlmutter, David M.},
+  title = {Impersonal Passives and the Unaccusative Hypothesis},
+  booktitle = {Proceedings of the Fourth Annual Meeting of the Berkeley Linguistics Society},
+  publisher = {University of California, BLS},
+  year = {1978},
+  pages = {157--189}
+}
+</pre></td>
+</tr>
+<tr id="Perlmutter71" class="entry">
+	<td>Perlmutter, D. M.</td>
+	<td>Deep and Surface Structure Constraints in Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Perlmutter71','bibtex')">BibTeX</a>]</p></td>
+	<td>1971</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Perlmutter71" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Perlmutter71,
+  author = {Perlmutter, David M.},
+  title = {Deep and Surface Structure Constraints in Syntax},
+  publisher = {Holt, Rinehart and Winston},
+  year = {1971}
+}
+</pre></td>
+</tr>
+<tr id="Pesetsky87" class="entry">
+	<td>Pesetsky, D.</td>
+	<td>Wh-in-situ: Movement and Unselective Binding <p class="infolinks">[<a href="javascript:toggleInfo('Pesetsky87','bibtex')">BibTeX</a>]</p></td>
+	<td>1987</td>
+	<td>The representation of (in)definiteness &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Pesetsky87" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Pesetsky87,
+  author = {Pesetsky, David},
+  title = {Wh-in-situ: Movement and Unselective Binding},
+  booktitle = {The representation of (in)definiteness},
+  publisher = {MIT Press},
+  year = {1987},
+  pages = {98--129}
+}
+</pre></td>
+</tr>
+<tr id="Pesetsky82" class="entry">
+	<td>Pesetsky, D.</td>
+	<td>Paths and Categories <p class="infolinks">[<a href="javascript:toggleInfo('Pesetsky82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Pesetsky82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Pesetsky82,
+  author = {Pesetsky, David},
+  title = {Paths and Categories},
+  school = {MIT},
+  year = {1982}
+}
+</pre></td>
+</tr>
+<tr id="PesetskyTorrego01" class="entry">
+	<td>Pesetsky, D. &amp; Torrego, E.</td>
+	<td>T to C Movement: Causes and Consequences <p class="infolinks">[<a href="javascript:toggleInfo('PesetskyTorrego01','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('PesetskyTorrego01','bibtex')">BibTeX</a>]</p></td>
+	<td>2001</td>
+	<td>Ken Hale: A life in language. &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_PesetskyTorrego01" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Three subject/nonsubject asymmetries - the that-trace effect, that-omission, &amp; tense (T) to complementizer (C) movement - receive a unified explanation under the minimalist hypotheses that (1) syntactic movement is triggered exclusively by an uninterpretable feature that has the extended projection principle (EPP) property as a subfeature &amp; that (2) uninterpretable features marked for deletion may persist for a while before they are required to disappear at the end of the derivation. It is proposed that C has an uninterpretable tense feature uT with the EPP property &amp; that uT is matched by nominative case on the determiner head D; although uT on the subject DP is marked for deletion through the establishment of a relationship between uninterpretable phi-features on T &amp; the interpretable phi-features on DP, it persists through the construction of the CP projection &amp; is therefore able to delete uT on C. The impossibility of T-to-C movement in a subject wh-question is due to economy; that is analyzed as T moved to C in all clauses, &amp; that-omission is explained under a proposed asymmetric match condition by a claim that declarative clauses are nominative if introduced by that &amp; are not nominative otherwise. 141 References. J. Hitchcock</td>
+</tr>
+<tr id="bib_PesetskyTorrego01" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{PesetskyTorrego01,
+  author = {David Pesetsky and Esther Torrego},
+  title = {T to C Movement: Causes and Consequences},
+  booktitle = {Ken Hale: A life in language.},
+  publisher = {MIT Press},
+  year = {2001},
+  pages = {355--426}
+}
+</pre></td>
+</tr>
+<tr id="Pica91" class="entry">
+	<td>Pica, P.</td>
+	<td>On the Interaction Between Antecedent-Government and Binding: The Case of Long-Distance Reflexivization <p class="infolinks">[<a href="javascript:toggleInfo('Pica91','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Pica91','bibtex')">BibTeX</a>]</p></td>
+	<td>1991</td>
+	<td>Long-Distance Anaphora &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Pica91" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: An analysis of long-distance &amp; clause-bounded reflexivization suggests that principles of the binding theory are not subject to parametric variation. Asymmetries between the two sorts of reflexivization are related to other well-known asymmetries between arguments, adjuncts, &amp; X0s with respect to extraction. Following Noam Chomsky (Knowledge of Language: Its Nature, Origin and Use, New York: Praeger, 1986), anaphors are taken to be clitic-like elements that undergo movement in order to be antecedent-governed. The binding theory then applies only to the reflexive's trace. Clitics are held to be of two types, with some cliticizing onto Infl at S-structure &amp; others at LF, long-distance reflexives like Icelandic sig being of the latter sort. It is further proposed that a reflexive trace can circumvent the specified subject constraint through an escape hatch, eg, the head of CP. The phenomena of long-distance reflexivization is taken as evidence that both antecedent-government &amp; the binding principles contribute to the derivation of binding facts. Neither theory is reducible to the other, thus strongly supporting a modular conception of language. M. Israel</td>
+</tr>
+<tr id="bib_Pica91" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Pica91,
+  author = {Pica, Pierre},
+  title = {On the Interaction Between Antecedent-Government and Binding: The Case of Long-Distance Reflexivization},
+  booktitle = {Long-Distance Anaphora},
+  publisher = {Cambridge University Press},
+  year = {1991},
+  pages = {119--137}
+}
+</pre></td>
+</tr>
+<tr id="Pica87" class="entry">
+	<td>Pica, P.</td>
+	<td>On the Nature of the Reflexivization Cycle <p class="infolinks">[<a href="javascript:toggleInfo('Pica87','bibtex')">BibTeX</a>]</p></td>
+	<td>1987</td>
+	<td>Proceedings of NELS &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Pica87" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{Pica87,
+  author = {Pica, Pierre},
+  title = {On the Nature of the Reflexivization Cycle},
+  booktitle = {Proceedings of NELS},
+  year = {1987},
+  volume = {17},
+  pages = {483--499},
+  note = {GLSA, University of Massachusetts, Amherst}
+}
+</pre></td>
+</tr>
+<tr id="PollardSag94" class="entry">
+	<td>Pollard, C. &amp; Sag, I.</td>
+	<td>Head-Driven Phrase Structure Grammar <p class="infolinks">[<a href="javascript:toggleInfo('PollardSag94','bibtex')">BibTeX</a>]</p></td>
+	<td>1994</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_PollardSag94" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{PollardSag94,
+  author = {Carl Pollard and Ivan Sag},
+  title = {Head-Driven Phrase Structure Grammar},
+  publisher = {CSLI and The University of Chicago Press},
+  year = {1994}
+}
+</pre></td>
+</tr>
+<tr id="PollardSag92" class="entry">
+	<td>Pollard, C. &amp; Sag, I.</td>
+	<td>Anaphors in English and the Scope of Binding Theory <p class="infolinks">[<a href="javascript:toggleInfo('PollardSag92','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('PollardSag92','bibtex')">BibTeX</a>]</p></td>
+	<td>1992</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_PollardSag92" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: It has been widely assumed that a single generalization determines the possible antecedents of anaphors in English, although the expression of this generalization has not been agreed on. Accounts that have challenged the single-constraint approach also exist. An alternative account of anaphor binding is proposed that contains elements of each perspective. A distinction is made between anaphors that are subject to the grammatical constraint outlined as principle A, &amp; those that are exempt. It is further claimed that principle A should be formulated in terms of relational &amp; not configurational superiority. 69 References. B. Annesser Murray</td>
+</tr>
+<tr id="bib_PollardSag92" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{PollardSag92,
+  author = {Pollard, Carl and Sag, Ian},
+  title = {Anaphors in English and the Scope of Binding Theory},
+  journal = {Linguistic Inquiry},
+  year = {1992},
+  volume = {23},
+  pages = {261--303}
+}
+</pre></td>
+</tr>
+<tr id="PollardSag87" class="entry">
+	<td>Pollard, C. &amp; Sag, I.</td>
+	<td>Information-Based Syntax and Semantics; Volume One --- Fundamentals <p class="infolinks">[<a href="javascript:toggleInfo('PollardSag87','bibtex')">BibTeX</a>]</p></td>
+	<td>1987</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_PollardSag87" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{PollardSag87,
+  author = {Pollard, Carl and Sag, Ivan},
+  title = {Information-Based Syntax and Semantics; Volume One --- Fundamentals},
+  publisher = {CSLI Publications},
+  year = {1987},
+  volume = {13}
+}
+</pre></td>
+</tr>
+<tr id="Pollock89" class="entry">
+	<td>Pollock, J.</td>
+	<td>Verb Movement, Universal Grammar, and the Structure of IP <p class="infolinks">[<a href="javascript:toggleInfo('Pollock89','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Pollock89','bibtex')">BibTeX</a>]</p></td>
+	<td>1989</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Pollock89" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: On the basis of a fairly thorough comparison beween the chief syntactic properties of questions, sentence negation, adverbs, floating quantifiers, &amp; quantification at a distance in tensed sentences &amp; infinitives in French &amp; English, it is argued that the structure of English &amp; French sentences should be considered more highly articulated than currently thought. Agreement morphemes &amp; tense morphemes are shown to be heads of two different maximal projections, Tense Phrase (TP) &amp; Agreement Phrase (AGRP), respectively. There also exists a Negative Phrase (NegP) in the two languages. TP, AGRP, &amp; NegP are barriers for V-movement rules, &amp; the surface differences between French &amp; English in the areas mentioned are shown to follow as an automatic consequence from the properties of universal grammar on the one hand &amp; an opacity vs transparency parameter ultimately related to the morphological poverty/richness of AGR on the other. Standard generative grammar analyses of the English &amp; French AUX(iliary) systems are taken up in a new form (eg, that in Noam Chomsky [1957, no further information provided]) &amp; it is shown how the theoretical framework of Chomsky (1986, no further information provided) provides real explanations to old puzzles that had no answer in previous models. Also offered are analyses of V-movement for a variety of Romance languages, comparative analyses of V-Mvt in gerunds in French &amp; English &amp; participle clauses in French &amp; Italian, &amp; hints concerning the history of English V-movement &amp; the rise of do as an auxiliary verb. 74 References. Modified AA</td>
+</tr>
+<tr id="bib_Pollock89" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Pollock89,
+  author = {Pollock, Jean-Yves},
+  title = {Verb Movement, Universal Grammar, and the Structure of IP},
+  journal = {Linguistic Inquiry},
+  year = {1989},
+  volume = {20},
+  pages = {365--424}
+}
+</pre></td>
+</tr>
+<tr id="Postal71" class="entry">
+	<td>Postal, P.</td>
+	<td>Cross-over Phenomena <p class="infolinks">[<a href="javascript:toggleInfo('Postal71','bibtex')">BibTeX</a>]</p></td>
+	<td>1971</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Postal71" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Postal71,
+  author = {Postal, Paul},
+  title = {Cross-over Phenomena},
+  publisher = {Holt, Rinehart and Winston},
+  year = {1971}
+}
+</pre></td>
+</tr>
+<tr id="Postal69" class="entry">
+	<td>Postal, P.</td>
+	<td>Review of A. McIntosh and M. A. K. Halliday <p class="infolinks">[<a href="javascript:toggleInfo('Postal69','bibtex')">BibTeX</a>]</p></td>
+	<td>1969</td>
+	<td>Papers in General, Descriptive and Applied Linguistics. Foundations of Language &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Postal69" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Postal69,
+  author = {Postal, Paul},
+  title = {Review of A. McIntosh and M. A. K. Halliday},
+  journal = {Papers in General, Descriptive and Applied Linguistics. Foundations of Language},
+  year = {1969},
+  volume = {5},
+  pages = {409--439}
+}
+</pre></td>
+</tr>
+<tr id="Pullum76" class="entry">
+	<td>Pullum, G. K.</td>
+	<td>The Duke-of-York Gambit <p class="infolinks">[<a href="javascript:toggleInfo('Pullum76','bibtex')">BibTeX</a>]</p></td>
+	<td>1976</td>
+	<td>Journal of Linguistics &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Pullum76" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Pullum76,
+  author = {Pullum, Geoffrey K.},
+  title = {The Duke-of-York Gambit},
+  journal = {Journal of Linguistics},
+  year = {1976},
+  volume = {12},
+  pages = {83--102}
+}
+</pre></td>
+</tr>
+<tr id="Reinhart83" class="entry">
+	<td>Reinhart, T.</td>
+	<td>Anaphora and Semantic Interpretation <p class="infolinks">[<a href="javascript:toggleInfo('Reinhart83','bibtex')">BibTeX</a>]</p></td>
+	<td>1983</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Reinhart83" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Reinhart83,
+  author = {Reinhart, Tanya},
+  title = {Anaphora and Semantic Interpretation},
+  publisher = {Croon-Helm},
+  year = {1983}
+}
+</pre></td>
+</tr>
+<tr id="Reinhart76" class="entry">
+	<td>Reinhart, T.</td>
+	<td>The Syntactic Domain of Anaphora <p class="infolinks">[<a href="javascript:toggleInfo('Reinhart76','bibtex')">BibTeX</a>]</p></td>
+	<td>1976</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Reinhart76" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Reinhart76,
+  author = {Reinhart, Tanya},
+  title = {The Syntactic Domain of Anaphora},
+  school = {MIT},
+  year = {1976}
+}
+</pre></td>
+</tr>
+<tr id="ReinhartReuland93" class="entry">
+	<td>Reinhart, T. &amp; Reuland, E.</td>
+	<td>Reflexivity <p class="infolinks">[<a href="javascript:toggleInfo('ReinhartReuland93','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('ReinhartReuland93','bibtex')">BibTeX</a>]</p></td>
+	<td>1993</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_ReinhartReuland93" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: The explanatory scope of the binding theory, already reduced by assignment of condition C to a separate inferential module of the grammar by Tanya Reinhart (1983), is further restricted to the reflexivizing function, associated with the reflexivity of particular predicates. All other aspects of anaphora are treated as referential dependency under chain theory; this division of labor is argued to liberate binding conditions A &amp; B to account for the syntax &amp; semantics of reflexive predicates in languages where current stages of binding theory do not work correctly. Evidence of asymmetry between conditions A &amp; B is interpreted to show that condition A applies to syntactic predicates only, condition B to semantic predicates only. It is argued in this connection that only verbal heads can form syntactic predicates whereas verbal, prepositional, &amp; nominal predicative heads all form semantic predicates. 114 References. J. Hitchcock</td>
+</tr>
+<tr id="bib_ReinhartReuland93" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{ReinhartReuland93,
+  author = {Reinhart, Tanya and Reuland, Eric},
+  title = {Reflexivity},
+  journal = {Linguistic Inquiry},
+  year = {1993},
+  volume = {24},
+  pages = {657--720}
+}
+</pre></td>
+</tr>
+<tr id="ReinhartReuland91" class="entry">
+	<td>Reinhart, T. &amp; Reuland, E.</td>
+	<td>Anaphors and Logophors: An Argument Structure Perspective <p class="infolinks">[<a href="javascript:toggleInfo('ReinhartReuland91','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('ReinhartReuland91','bibtex')">BibTeX</a>]</p></td>
+	<td>1991</td>
+	<td>Long-Distance Anaphora &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_ReinhartReuland91" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: A major revision of binding theory is proposed to account for cross-linguistic behavior of anaphors. Three binding domains &amp; two types of anaphor are distinguished: SELF-anaphors are bound within a local domain &amp; obey the specified subject condition (SSC); SE-anaphors are bound in a medium-distance (MD) domain &amp; obey the tensed S condition (TSC); &amp; both anaphors may appear in a logophoric domain, which is not (directly) subject to the structural binding theory. SE- &amp; SELF-anaphors differ in their lexical structure: the former lack (phi)-features &amp; so are unable to project an independently interpretable argument; the latter are analyzed as relational nouns expressing an identity relation between some pro-form &amp; another argument. An analysis in terms of LF-movement posits two landing sites for anaphors: SE-anaphors adjoin to Io (hence the TSC-effects) &amp; SELF-anaphors adjoin to Vo (hence the SSC-effects). In order to account for complementarity effects holding between SELF-anaphors &amp; pronominals, &amp; between SELF- &amp; SE-anaphors, both conditions A &amp; B are reformulated in terms of thematic structure. Counterexamples to the proposal are considered, &amp; some open &amp; language-specific problems are identified. A brief account of logophoricity, the conditions that give rise to it, &amp; its interaction with the proposed binding theory is included. M. Israel</td>
+</tr>
+<tr id="bib_ReinhartReuland91" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{ReinhartReuland91,
+  author = {Reinhart, Tanya and Reuland, Eric},
+  title = {Anaphors and Logophors: An Argument Structure Perspective},
+  booktitle = {Long-Distance Anaphora},
+  publisher = {Cambridge University Press},
+  year = {1991},
+  pages = {283--321}
+}
+</pre></td>
+</tr>
+<tr id="Reuland01a" class="entry">
+	<td>Reuland, E.</td>
+	<td>Primitives of Binding <p class="infolinks">[<a href="javascript:toggleInfo('Reuland01a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Reuland01a','bibtex')">BibTeX</a>]</p></td>
+	<td>2001</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Reuland01a" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: This article explains the conditions on the binding of pronouns, simplex anaphors, &amp; complex anaphors, distinguishing the roles of the computational system, interpretive procedures, &amp; discourse storage. It argues for a general principle of economy counting interpretive steps. Locality conditions on binding are shown to follow from this economy principle &amp; independent principles of (minimalist) syntax, providing the means to encode certain dependencies, most economically, within the computational system. It shows that the role of complex anaphors in licensing reflexivization follows from an interpretive condition holding at the conceptual-intentional interface. 86 References. Adapted from the source documen</td>
+</tr>
+<tr id="bib_Reuland01a" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Reuland01a,
+  author = {Eric Reuland},
+  title = {Primitives of Binding},
+  journal = {Linguistic Inquiry},
+  year = {2001},
+  volume = {32},
+  pages = {439--492}
+}
+</pre></td>
+</tr>
+<tr id="Rizzi97" class="entry">
+	<td>Rizzi, L.</td>
+	<td>The Fine-Structure of the Left Periphery <p class="infolinks">[<a href="javascript:toggleInfo('Rizzi97','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Rizzi97','bibtex')">BibTeX</a>]</p></td>
+	<td>1997</td>
+	<td>Elements of Grammar &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Rizzi97" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: An expansion of the complementizer projection (CP) structure is proposed whereby activation of the topic-comment &amp;/or focus-presupposition articulations splits CP into (1) a force projection ForceP specifying illocutionary force &amp; dominating the entire tree, &amp; (2) a finiteness projection FinP selecting a finite or nonfinite IP complement. In Italian, a focused phrase occupies a nonrecursive focus projection that may be surrounded by recursive topic projections, all of which are dominated by (1) &amp; dominate (2). For economy reasons, in the absence of topic &amp; focus activation, the force &amp; finiteness specifications are executed from a single syncretic CP. Many adjacency effects in nonfinite constructions follow from subject Case assignment in the finiteness head. This CP structure is argued to account for constraints on subject extraction in French &amp; English &amp; for anti-adjacency effects in English associated with preposed adverbs &amp; negative preposing, which trigger the force-finiteness split. 106 References. J. Hitchcock</td>
+</tr>
+<tr id="bib_Rizzi97" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Rizzi97,
+  author = {Rizzi, Luigi},
+  title = {The Fine-Structure of the Left Periphery},
+  booktitle = {Elements of Grammar},
+  publisher = {Kluwer},
+  year = {1997},
+  pages = {281--337}
+}
+</pre></td>
+</tr>
+<tr id="Rizzi90" class="entry">
+	<td>Rizzi, L.</td>
+	<td>Relativized Minimality <p class="infolinks">[<a href="javascript:toggleInfo('Rizzi90','bibtex')">BibTeX</a>]</p></td>
+	<td>1990</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Rizzi90" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Rizzi90,
+  author = {Rizzi, Luigi},
+  title = {Relativized Minimality},
+  publisher = {MIT Press},
+  year = {1990}
+}
+</pre></td>
+</tr>
+<tr id="Rizzi82" class="entry">
+	<td>Rizzi, L.</td>
+	<td>Issues in Italian Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Rizzi82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Rizzi82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Rizzi82,
+  author = {Rizzi, Luigi},
+  title = {Issues in Italian Syntax},
+  publisher = {Foris},
+  year = {1982}
+}
+</pre></td>
+</tr>
+<tr id="Rizzi78" class="entry">
+	<td>Rizzi, L.</td>
+	<td>Violations of the Wh-Island Constraint in Italian and the Subjacency Condition <p class="infolinks">[<a href="javascript:toggleInfo('Rizzi78','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Rizzi78','bibtex')">BibTeX</a>]</p></td>
+	<td>1978</td>
+	<td>Montreal Working Papers in Linguistics &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Rizzi78" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: N. Chomsky's tensed sentence, specified subject, &amp; subjacency conditions are tested for their strength in accounting for a pronoun extraction from Italian clauses introduced by it. The specified subject condition is found empirically superior to the other two. The condition's predictive strength is tested in movement of a relative pronoun from an O &amp; subject position. An analysis for acceptability prediction of Italian relatives with a Wh-pronoun is formulated, tested, &amp; claimed valid. Z. Dubiel</td>
+</tr>
+<tr id="bib_Rizzi78" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Rizzi78,
+  author = {Rizzi, Luigi},
+  title = {Violations of the Wh-Island Constraint in Italian and the Subjacency Condition},
+  booktitle = {Montreal Working Papers in Linguistics},
+  year = {1978},
+  volume = {11},
+  note = {Reprinted in tetRizzi82}
+}
+</pre></td>
+</tr>
+<tr id="Rosenbaum67" class="entry">
+	<td>Rosenbaum, P. S.</td>
+	<td>The Grammar of English Predicate Complement Constructions <p class="infolinks">[<a href="javascript:toggleInfo('Rosenbaum67','bibtex')">BibTeX</a>]</p></td>
+	<td>1967</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Rosenbaum67" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Rosenbaum67,
+  author = {Rosenbaum, Peter S.},
+  title = {The Grammar of English Predicate Complement Constructions},
+  publisher = {MIT Press},
+  year = {1967}
+}
+</pre></td>
+</tr>
+<tr id="Ross70" class="entry">
+	<td>Ross, J. R.</td>
+	<td>On Declarative Sentences <p class="infolinks">[<a href="javascript:toggleInfo('Ross70','bibtex')">BibTeX</a>]</p></td>
+	<td>1970</td>
+	<td>Readings in English Transformational Grammar &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Ross70" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Ross70,
+  author = {Ross, John R.},
+  title = {On Declarative Sentences},
+  booktitle = {Readings in English Transformational Grammar},
+  publisher = {Georgetown University Press},
+  year = {1970},
+  pages = {222--272}
+}
+</pre></td>
+</tr>
+<tr id="Ross69" class="entry">
+	<td>Ross, J. R.</td>
+	<td>Guess who? <p class="infolinks">[<a href="javascript:toggleInfo('Ross69','bibtex')">BibTeX</a>]</p></td>
+	<td>1969</td>
+	<td>Papers from the Fifth Regional Meeting of the Chicago LInguistic Society &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Ross69" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{Ross69,
+  author = {Ross, John R.},
+  title = {Guess who?},
+  booktitle = {Papers from the Fifth Regional Meeting of the Chicago LInguistic Society},
+  publisher = {University of Chicago, Chicago Linguistic Society},
+  year = {1969},
+  pages = {252--286}
+}
+</pre></td>
+</tr>
+<tr id="Ross67" class="entry">
+	<td>Ross, J. R.</td>
+	<td>Constraints on Variables in Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Ross67','bibtex')">BibTeX</a>]</p></td>
+	<td>1967</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Ross67" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Ross67,
+  author = {Ross, John R.},
+  title = {Constraints on Variables in Syntax},
+  school = {MIT},
+  year = {1967}
+}
+</pre></td>
+</tr>
+<tr id="RouveretVergnaud80" class="entry">
+	<td>Rouveret, A. &amp; Vergnaud, J.</td>
+	<td>Specifying Reference to the Subject: French Causatives and Conditions on Representations <p class="infolinks">[<a href="javascript:toggleInfo('RouveretVergnaud80','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('RouveretVergnaud80','bibtex')">BibTeX</a>]</p></td>
+	<td>1980</td>
+	<td>LInguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_RouveretVergnaud80" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Discussed are certain constraints on the functioning of grammatical rules outlined by N. Chomsky ("Conditions on Transformations" in A Festschrift for Morris Halle, Anderson, S. &amp; Kiparsky, P. [Eds], New York: Holt, Rinehart, &amp; Winston, 1973). A general filter restricting infinitival constructions in English &amp; French is presented, &amp; the derivation of French causatives considered. Chomsky's Specified Subject Condition (SSC) is discussed with relation to French faire-infinitive constructions. The SSC is reformulated within an "index-rewriting" approach outlined here. Also discussed are faire ... par structures &amp; dative clitics. Three Appendixes deal with case marking, markedness, &amp; relevant data from Latin. B. Annesser</td>
+</tr>
+<tr id="bib_RouveretVergnaud80" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{RouveretVergnaud80,
+  author = {Rouveret, Alain and Vergnaud, Jean-Roger},
+  title = {Specifying Reference to the Subject: French Causatives and Conditions on Representations},
+  journal = {LInguistic Inquiry},
+  year = {1980},
+  volume = {11},
+  pages = {97--202}
+}
+</pre></td>
+</tr>
+<tr id="Schachter73" class="entry">
+	<td>Schachter, P.</td>
+	<td>Focus and Relativization <p class="infolinks">[<a href="javascript:toggleInfo('Schachter73','bibtex')">BibTeX</a>]</p></td>
+	<td>1973</td>
+	<td>Language &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Schachter73" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Schachter73,
+  author = {Schachter, Paul},
+  title = {Focus and Relativization},
+  journal = {Language},
+  year = {1973},
+  volume = {53},
+  pages = {19--49}
+}
+</pre></td>
+</tr>
+<tr id="Scott98" class="entry">
+	<td>Scott, G.</td>
+	<td>Stacked Adjectival Modification and the Structure of Nominal Phrases <p class="infolinks">[<a href="javascript:toggleInfo('Scott98','bibtex')">BibTeX</a>]</p></td>
+	<td>1998</td>
+	<td>SOAS Working Papers In Linguistics and Phonetics &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Scott98" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Scott98,
+  author = {Scott, Gary-John},
+  title = {Stacked Adjectival Modification and the Structure of Nominal Phrases},
+  journal = {SOAS Working Papers In Linguistics and Phonetics},
+  year = {1998},
+  volume = {8},
+  pages = {59--89}
+}
+</pre></td>
+</tr>
+<tr id="Sportiche88" class="entry">
+	<td>Sportiche, D.</td>
+	<td>A Theory of Floating Quantifiers and Its Corollaries for Constituent Structure <p class="infolinks">[<a href="javascript:toggleInfo('Sportiche88','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Sportiche88','bibtex')">BibTeX</a>]</p></td>
+	<td>1988</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Sportiche88" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Some proposals regarding the structure of S = IP made by H. Koopman &amp; D. Sportiche (eg, "Theta Theory and Extraction" in GLOW Newsletter, 1985, 14, 57-58) are examined. That model is equivalent to treating Infl as a raising category in langs like French, Eng, &amp; Dutch. Based on this assumption a treatment of floating quantifiers (Qs) is proposed, with data drawn largely from French. Some semantic issues relating to the interpretation of floating Qs are discussed. 50 References. B. Annesser Murray</td>
+</tr>
+<tr id="bib_Sportiche88" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Sportiche88,
+  author = {Sportiche, Dominique},
+  title = {A Theory of Floating Quantifiers and Its Corollaries for Constituent Structure},
+  journal = {Linguistic Inquiry},
+  year = {1988},
+  volume = {19},
+  pages = {425--449}
+}
+</pre></td>
+</tr>
+<tr id="Stechow03" class="entry">
+	<td>Stechow, A. v.</td>
+	<td>Feature Deletion under Semantic Binding: Tense, Person, and Mood under Verbal Quantifiers <p class="infolinks">[<a href="javascript:toggleInfo('Stechow03','bibtex')">BibTeX</a>]</p></td>
+	<td>2003</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Stechow03" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{Stechow03,
+  author = {Stechow, Arnim von},
+  title = {Feature Deletion under Semantic Binding: Tense, Person, and Mood under Verbal Quantifiers},
+  year = {2003},
+  note = {Ms., Universit&auml;t T&uuml;bingen}
+}
+</pre></td>
+</tr>
+<tr id="Stowell81" class="entry">
+	<td>Stowell, T.</td>
+	<td>Origins of Phrase Structure <p class="infolinks">[<a href="javascript:toggleInfo('Stowell81','bibtex')">BibTeX</a>]</p></td>
+	<td>1981</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Stowell81" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Stowell81,
+  author = {Stowell, Tim},
+  title = {Origins of Phrase Structure},
+  school = {MIT},
+  year = {1981}
+}
+</pre></td>
+</tr>
+<tr id="Stowell78" class="entry">
+	<td>Stowell, T.</td>
+	<td>What was There Before There was There? <p class="infolinks">[<a href="javascript:toggleInfo('Stowell78','bibtex')">BibTeX</a>]</p></td>
+	<td>1978</td>
+	<td>Papers From the Fourteenth Regional Meeting of the Chicago Linguistics Society &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Stowell78" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{Stowell78,
+  author = {Stowell, Tim},
+  title = {What was There Before There was There?},
+  booktitle = {Papers From the Fourteenth Regional Meeting of the Chicago Linguistics Society},
+  publisher = {University of Chicago},
+  year = {1978},
+  pages = {457--471}
+}
+</pre></td>
+</tr>
+<tr id="Szabolcsi83" class="entry">
+	<td>Szabolcsi, A.</td>
+	<td>The Possessor That Ran Away From Home <p class="infolinks">[<a href="javascript:toggleInfo('Szabolcsi83','bibtex')">BibTeX</a>]</p></td>
+	<td>1983</td>
+	<td>Linguistic Review &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Szabolcsi83" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Szabolcsi83,
+  author = {Szabolcsi, Anna},
+  title = {The Possessor That Ran Away From Home},
+  journal = {Linguistic Review},
+  year = {1983},
+  volume = {3},
+  pages = {89--102}
+}
+</pre></td>
+</tr>
+<tr id="TakahashiFox05" class="entry">
+	<td>Takahashi, S. &amp; Fox, D.</td>
+	<td>MaxElide and the Re-Binding Problem <p class="infolinks">[<a href="javascript:toggleInfo('TakahashiFox05','bibtex')">BibTeX</a>]</p></td>
+	<td>2005</td>
+	<td>Proceedings of SALT XV &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_TakahashiFox05" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{TakahashiFox05,
+  author = {Takahashi, Shoichi and Fox, Danny},
+  title = {MaxElide and the Re-Binding Problem},
+  booktitle = {Proceedings of SALT XV},
+  publisher = {CLC publications},
+  year = {2005},
+  pages = {223-240}
+}
+</pre></td>
+</tr>
+<tr id="Taraldsen80" class="entry">
+	<td>Taraldsen, K. T.</td>
+	<td>On the Nominative Island Condition, Vacuous Application and the that-trace Effect <p class="infolinks">[<a href="javascript:toggleInfo('Taraldsen80','bibtex')">BibTeX</a>]</p></td>
+	<td>1980</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Taraldsen80" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Taraldsen80,
+  author = {Taraldsen, Knut Tarald},
+  title = {On the Nominative Island Condition, Vacuous Application and the that-trace Effect},
+  publisher = {Indiana University Linguistics Club},
+  year = {1980}
+}
+</pre></td>
+</tr>
+<tr id="Taraldsen80a" class="entry">
+	<td>Taraldsen, K. T.</td>
+	<td>The Theoretical Interpretation of a Class of "Marked" Extractions <p class="infolinks">[<a href="javascript:toggleInfo('Taraldsen80a','bibtex')">BibTeX</a>]</p></td>
+	<td>1980</td>
+	<td>Proceedings of the Third GLOW Conference &nbsp;</td>
+	<td>inproceedings</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Taraldsen80a" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{Taraldsen80a,
+  author = {Taraldsen, Knut Tarald},
+  title = {The Theoretical Interpretation of a Class of "Marked" Extractions},
+  booktitle = {Proceedings of the Third GLOW Conference},
+  year = {1980}
+}
+</pre></td>
+</tr>
+<tr id="Travis84" class="entry">
+	<td>Travis, L.</td>
+	<td>Parameters and Effects of Word Order Variation <p class="infolinks">[<a href="javascript:toggleInfo('Travis84','bibtex')">BibTeX</a>]</p></td>
+	<td>1984</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Travis84" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Travis84,
+  author = {Travis, Lisa},
+  title = {Parameters and Effects of Word Order Variation},
+  school = {MIT},
+  year = {1984}
+}
+</pre></td>
+</tr>
+<tr id="Ura00" class="entry">
+	<td>Ura, H.</td>
+	<td>Checking Theory and Grammatical Functions in Universal Grammar <p class="infolinks">[<a href="javascript:toggleInfo('Ura00','bibtex')">BibTeX</a>]</p></td>
+	<td>2000</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Ura00" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Ura00,
+  author = {Hiroyuki Ura},
+  title = {Checking Theory and Grammatical Functions in Universal Grammar},
+  publisher = {Oxford University Press},
+  year = {2000}
+}
+</pre></td>
+</tr>
+<tr id="Uriagereka99" class="entry">
+	<td>Uriagereka, J.</td>
+	<td>Multiple Spell-Out <p class="infolinks">[<a href="javascript:toggleInfo('Uriagereka99','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Uriagereka99','bibtex')">BibTeX</a>]</p></td>
+	<td>1999</td>
+	<td>Working Minimalism &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Uriagereka99" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Richard Kayne's (1994) linear correspondence axiom is reduced in the framework of Noam Chomsky's bare phrase structure by (1) converting the base step, which makes precedence conditional on command, to a theorem that follows from optimality, &amp; (2) deducing the induction step of the axiom trivially from an assumption that permits dynamically split access to interpretation. It is proposed that spell-out applies only to a command unit formed by continuous application of Merge to a single object &amp; that separate command units require multiple spell-out. Two versions of multiple spell-out are detailed - a conservative version in which phrase markers after spell-out cease to be phrasal, functioning instead like a lexical compound, &amp; a radical version in which interphrasal association is accomplished in performative components. This system is claimed to be more dynamically derivational than that of Chomsky (1995) &amp; to be conceptually indistinguishable from that of Chomsky's "Minimalist Inquiries: The Framework" (1998). 42 References. J. Hitchcock</td>
+</tr>
+<tr id="bib_Uriagereka99" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Uriagereka99,
+  author = {Uriagereka, Juan},
+  title = {Multiple Spell-Out},
+  booktitle = {Working Minimalism},
+  publisher = {MIT Press},
+  year = {1999},
+  pages = {251--282}
+}
+</pre></td>
+</tr>
+<tr id="Vergnaud82" class="entry">
+	<td>Vergnaud, J.</td>
+	<td>Dépendances et niveau de représentation <p class="infolinks">[<a href="javascript:toggleInfo('Vergnaud82','bibtex')">BibTeX</a>]</p></td>
+	<td>1982</td>
+	<td><i>School</i>: University of Paris &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Vergnaud82" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Vergnaud82,
+  author = {Vergnaud, Jean-Roger},
+  title = {Dépendances et niveau de représentation},
+  school = {University of Paris},
+  year = {1982}
+}
+</pre></td>
+</tr>
+<tr id="Vergnaud77" class="entry">
+	<td>Vergnaud, J.</td>
+	<td>Letter to Noam Chomsky and Howard Lasnik <p class="infolinks">[<a href="javascript:toggleInfo('Vergnaud77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td> &nbsp;</td>
+	<td>unpublished</td>
+	<td><a href="http://ling.auf.net/lingBuzz/000461">URL</a> &nbsp;</td>
+</tr>
+<tr id="bib_Vergnaud77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@unpublished{Vergnaud77,
+  author = {Vergnaud, Jean-Roger},
+  title = {Letter to Noam Chomsky and Howard Lasnik},
+  year = {1977},
+  note = {Unpublished letter},
+  url = {http://ling.auf.net/lingBuzz/000461}
+}
+</pre></td>
+</tr>
+<tr id="Wasow79" class="entry">
+	<td>Wasow, T.</td>
+	<td>Anaphora in Generative Grammar <p class="infolinks">[<a href="javascript:toggleInfo('Wasow79','bibtex')">BibTeX</a>]</p></td>
+	<td>1979</td>
+	<td> &nbsp;</td>
+	<td>book</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Wasow79" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@book{Wasow79,
+  author = {Wasow, Thomas},
+  title = {Anaphora in Generative Grammar},
+  publisher = {E. Story-Scientia},
+  year = {1979}
+}
+</pre></td>
+</tr>
+<tr id="Wasow72" class="entry">
+	<td>Wasow, T.</td>
+	<td>Anaphoric Relations in English <p class="infolinks">[<a href="javascript:toggleInfo('Wasow72','bibtex')">BibTeX</a>]</p></td>
+	<td>1972</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Wasow72" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Wasow72,
+  author = {Wasow, Thomas},
+  title = {Anaphoric Relations in English},
+  school = {MIT},
+  year = {1972}
+}
+</pre></td>
+</tr>
+<tr id="Williams83" class="entry">
+	<td>Williams, E.</td>
+	<td>Against Small Clauses <p class="infolinks">[<a href="javascript:toggleInfo('Williams83','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Williams83','bibtex')">BibTeX</a>]</p></td>
+	<td>1983</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Williams83" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: Investigated is whether the complements of Vs such as seem &amp; consider are clausal in such constructions as I consider John sick &amp; John seems sick. The answer to this question defines "subject" &amp; the nature of "opacity." Considered are two opposing analyses of the construction: the small clause (SC) theory in which "all subjects are structural subjects," &amp; the predication theory, based on the idea of "subject as external argument." It is argued that a SC analysis of these constructions would require NP, VP to be defined as a structural subject in constructions such as Bill considers John sick. An added benefit of considering predication theory as an adequate analysis of these constructions is that it recognizes predicates &amp; subjects. Subject is defined in terms of "predicate," allowing opacity to be defined in terms of predicates rather than subjects. 17 References. I. Mielonen</td>
+</tr>
+<tr id="bib_Williams83" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Williams83,
+  author = {Williams, Edwin},
+  title = {Against Small Clauses},
+  journal = {Linguistic Inquiry},
+  year = {1983},
+  volume = {14},
+  pages = {203--238}
+}
+</pre></td>
+</tr>
+<tr id="Williams78" class="entry">
+	<td>Williams, E.</td>
+	<td>Across-the-Board Rule Application <p class="infolinks">[<a href="javascript:toggleInfo('Williams78','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Williams78','bibtex')">BibTeX</a>]</p></td>
+	<td>1978</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Williams78" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: J. Ross's principle of Across-the-Board (ATB) rule application (Constraints on Variables in Syntax, Bloomington: Indiana U Linguistics Club, 1967) is described &amp; formalized. It is argued that this principle governs all transformation applications. While traditional derivations of indirect questions, eg, "Who John saw &amp; Bill hit," involve Conjunction Reduction, it is argued that an ATB derivation provides a simpler explanation, deriving such questions via a single application of wh-movement. Extensions of linguistic theory needed to provide for the existence of ATB derivations are outlined. Revised versions of Conjunction Reduction &amp; the Coordinate Structure Constraint are presented. B. Annesser</td>
+</tr>
+<tr id="bib_Williams78" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Williams78,
+  author = {Williams, Edwin},
+  title = {Across-the-Board Rule Application},
+  journal = {Linguistic Inquiry},
+  year = {1978},
+  volume = {9},
+  pages = {31--43}
+}
+</pre></td>
+</tr>
+<tr id="Williams77" class="entry">
+	<td>Williams, E.</td>
+	<td>Across-the-Board Application of Rules <p class="infolinks">[<a href="javascript:toggleInfo('Williams77','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Williams77','bibtex')">BibTeX</a>]</p></td>
+	<td>1977</td>
+	<td>Linguistic Inquiry &nbsp;</td>
+	<td>article</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="abs_Williams77" class="abstract noshow">
+	<td colspan="6"><b>Abstract</b>: A specific relation between rules of sentence grammar &amp; rules pertaining to the relation of a sentence &amp; its linguistic &amp; pragmatic context is described. The evidence is from English rules of ellipsis. Two strings are simultaneously factorized if their factors can be matched one-to-one with each other. To make the correspondence between factors of a pair of conjuncts clear, conjuncts are written on top of each other; examples are given. Modified AA</td>
+</tr>
+<tr id="bib_Williams77" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{Williams77,
+  author = {Williams, Edwin},
+  title = {Across-the-Board Application of Rules},
+  journal = {Linguistic Inquiry},
+  year = {1977},
+  volume = {8},
+  pages = {419--423}
+}
+</pre></td>
+</tr>
+<tr id="Williams75" class="entry">
+	<td>Williams, E.</td>
+	<td>Small Clauses in English <p class="infolinks">[<a href="javascript:toggleInfo('Williams75','bibtex')">BibTeX</a>]</p></td>
+	<td>1975</td>
+	<td>Syntax and Semantics &nbsp;</td>
+	<td>incollection</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Williams75" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@incollection{Williams75,
+  author = {Williams, Edwin},
+  title = {Small Clauses in English},
+  booktitle = {Syntax and Semantics},
+  publisher = {Academic Press},
+  year = {1975},
+  volume = {5},
+  pages = {249--273}
+}
+</pre></td>
+</tr>
+<tr id="Williams74" class="entry">
+	<td>Williams, E.</td>
+	<td>Rule Ordering in Syntax <p class="infolinks">[<a href="javascript:toggleInfo('Williams74','bibtex')">BibTeX</a>]</p></td>
+	<td>1974</td>
+	<td><i>School</i>: MIT &nbsp;</td>
+	<td>phdthesis</td>
+	<td> &nbsp;</td>
+</tr>
+<tr id="bib_Williams74" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@phdthesis{Williams74,
+  author = {Williams, Edwin},
+  title = {Rule Ordering in Syntax},
+  school = {MIT},
+  year = {1974}
+}
+</pre></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 07/04/2010.</small>
+</p>
+
+</body>
+</html>
+
+<!-- File generated by JabRef ; Export Filter written by Mark Schenk -->
+

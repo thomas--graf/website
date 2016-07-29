@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Generative Syntax Timeline</title>
+	<link rel="stylesheet" type="text/css" href="timeline.css" />
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+
+	<link href="./syntax.js" type="application/json" rel="exhibit/data" />
+	<script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js"
+           type="text/javascript"></script>
+	<script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js"
+           type="text/javascript"></script>
+
+    <script>
+    var timelineConfig = {
+        timelineConstructor: function (div, eventSource) {
+            div.style.height="420px";
+	    div.style.fontSize="9pt";
+            var theme = Timeline.ClassicTheme.create();
+	    theme.event.track.height = 5;
+	    theme.event.track.gap = 15;
+            theme.event.label.width = 200;
+            theme.event.bubble.width = 450;
+            theme.event.bubble.height = 300;
+            
+            var date = "1980"
+            var bandInfos = [
+                Timeline.createBandInfo({
+                    width:          "90%", 
+                    intervalUnit: Timeline.DateTime.YEAR,
+                    intervalPixels: 260,
+                    eventSource:    eventSource,
+                    date:           date,
+                    theme:          theme
+                }),
+                Timeline.createBandInfo({
+                    width:          "10%", 
+                    intervalUnit: Timeline.DateTime.DECADE,
+                    intervalPixels: 160,
+                    eventSource:    eventSource,
+                    date:           date, 
+                    overview:	    true,
+                    theme:          theme
+                })
+            ];
+	
+	    bandInfos[1].syncWith = 0;
+            bandInfos[1].highlight = true;
+            tl = Timeline.create(div, bandInfos, Timeline.HORIZONTAL);
+            return tl;
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+<div id="content">
+<h1>Timeline of the History of Generative Syntax</h1>
+    <div ex:role="coder" ex:coderClass="Color" id="type-colors">
+        <span ex:color="#283C41">HPSG</span>
+        <span ex:color="#486090">GPSG</span>
+        <span ex:color="#3D7C2C">LFG</span>
+        <span ex:color="#348F7D">Relational Grammar</span>
+        <span ex:color="#9D4F00">Transformational</span>
+        <span ex:color="#FF9000">GB</span> 
+        <span ex:color="#BD1C18">Minimalism</span> 
+        <span ex:color="#29221E">other</span>
+    </div>
+    <table width="98%">
+        <tr valign="top">
+            <td ex:role="viewPanel">
+                <table ex:role="lens" class="Entry">
+                    <tr>
+                        <td>
+                            <div ex:if-exists=".author" class="author">Author:
+                                <span ex:content=".author"></span>
+                            </div>
+                            <div ex:if-exists=".co-author" class="co-author">Co-author(s): 
+                                <span ex:content=".co-author"></span>
+                            </div>
+                            <div ex:if-exists=".title" class="year">Title:
+                                <span ex:content=".title"></span>
+                            </div>
+                            <div ex:if-exists=".year" class="year">Year:
+                                <span ex:content=".year"></span>
+			                </div>
+			                <div ex:if-exists=".innovations" class="innovations">Innovations: 
+                                <span ex:content=".innovations"></span>
+                            </div>
+			                <div ex:if-exists=".keywords" class="keywords">Keywords: 
+                                <span ex:content=".keywords"></span>
+                            </div>
+			                <div ex:if-exists=".details" class="details">
+                                <span ex:content=".details"></span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div ex:role="exhibit-view"
+                     ex:viewClass="Exhibit.TimelineView"
+                     ex:start=".year"
+                     ex:marker=".framework"
+		             ex:showHeader="true"
+		             ex:showFooter="true"
+		             ex:showSummary="true"
+		             ex:topBandIntervalPixels="140"
+		             ex:bottomBandIntervalPixels="160"
+		             ex:configuration="timelineConfig"
+		             ex:topBandUnit="year"
+		             ex:bottomBandUnit="decade"
+		             ex:colorCoder="type-colors"
+		             ex:colorKey=".framework">
+                </div>
+                <div ex:role="view"
+		             ex:label="List"
+                     ex:orders=".author, .year"
+                     ex:possibleOrders=".author, .framework, .title, .year">
+                </div>
+            </td>
+            <td width="18%">
+                <div ex:role="facet"
+                     ex:facetClass="TextSearch"
+                     id="search-facet"
+                     ex:facetLabel="Search">
+                </div>
+                <div ex:role="facet"
+                     ex:expression=".framework"
+                     id="framework-facet"
+                     ex:facetLabel="Framework"
+                     ex:showMissing="true"
+                     ex:scroll="false">
+                </div>
+                <div ex:role="facet"
+                     ex:expression=".keywords"
+                     id="keyword-facet"
+                     ex:facetLabel="Keywords"
+                     ex:height="13em"
+                     ex:showMissing="true"
+                     ex:scroll="true">
+                </div>
+                <div ex:role="facet"
+                     ex:expression=".author"
+                     id="author-facet"
+                     ex:facetLabel="Author"
+                     ex:height="7em"
+                     ex:showMissing="true"
+                     ex:scroll="true">
+                </div>
+            </td>
+        </tr>
+    </table>
+
+<h2>How to Use the Syntax Timeline</h2>
+
+<h3>Navigation and views</h3>
+<p>
+The links above the timeline allow you to switch between timeline view and list view.
+List view should be self-explanatory.
+In timeline view, you navigate around with the cursor keys or by grabbing the timeline with the left mouse button Adobe-Reader-style (i.e. hold the left mouse button and move the mouse opposite to the desired scroll direction, then release the button).
+The HOME and END keys on your keyboard take you to the beginning and the end of the timeline, respectively.
+Clicking on an entry shows you a small bubble with further information, including a link to the full bibliographic information.
+</p>
+
+<h3>Searching and filtering</h3>
+<p>
+To the right of the timeline, there is a list of predefined filters, which allow you to restrict which entries are to be shown in the timeline.
+If you only want to see what's been going on in, say, Transformational Grammar, simply click on "Transformational" under the heading "Framework".
+If you want to undo the filter, you need to remove the checkmark that has appeared in front of "Transformational".
+If you click on the name of another filter, only this filter will be activated; that is to say, all filters that you've previously selected will be deactivated.
+If you want to keep those filters active, you'll have to click the box next to the desired additional filter instead of its name.
+Note that activating multiple filters under a common heading will give you their union, while combination of filters under different headings (e.g. "Keywords" and "Author") is intersective.
+You can filter for arbitrary words using the search field.
+Unfortunately, regular expressions aren't supported at this point.
+</p>
+
+<h3>Exporting</h3>
+<p>
+When the mouse is hovering over the timeline, an orange button with a scissor on it will show up in the top right corner.
+This button allows you to exhibit the JSON code of the currently shown entries or to export them to XML, Semantic wikitext and tab separated values.
+</p>
+
+<h3>Contributing</h3>
+<p>
+Feel free to submit new entries via email.
+Submissions should include the full bibliographic reference formated as a bibtex entry, at least one reason as to why it should be added to the timeline, and the actual <a href="http://www.json.org/" title="Homepage of JSON, a simple data interchange format used in many AJAX based web services">JSON</a> database entry, formated as indicated below and doublechecked for the correct usage of quotation marks and commas:
+</span>
+</p>
+<pre>
+	{   type :                  "entry",
+            label :                 "Author Year_in_four_digits&lt;br&gt;short_description",
+	    author :		    "Surname, First_name",
+	    title : 		    "Full_title",
+            year :         	    "Year_in_four_digits",
+	    framework :             "abbreviation_for_framework",
+	    innovations :	    [
+		"list_of_all_innovations"
+	    ],
+            keywords :		    [
+		"coma-separated_list_of_keywords"
+		// where possible, try to stick with those already in use
+	    ],
+	    details :		    "link_to_details"
+		//leave that one blank
+	}
+</pre>
+
+
+<h2><a id="faq" name="faq">FAQ</a></h2>
+
+<p>
+<span class="question"><a id="t_what" name="t_what"></a>
+    What exactly is this "syntax timeline?" How does it work?
+</span><br />
+<span class="answer">
+    In computer nerd lingo, it's a DHTML-based AJAX widget for the visualization of time-based events.
+    In the speech of mere mortals, it's simply an interactive timeline listing influential publications in generative syntax.
+    By interactive I mean that you can filter the output, click on an entry to get additional information and so on.
+    It's like Google maps for the history of syntax.
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_why" name="t_why"></a>
+    Why did you create it, and how?
+</span><br />
+<span class="answer">
+    I got interested in the development of syntactic theory since the fifties for various reasons.
+    The single most important one was my suspicion that certain analyses in modern frameworks are historical accidents, i.e. that at some point they became the received view and have since then been ported from one theory to the next one despite well-known flaws, even if the latest incarnation of the theory would allow for alternative views (which are, of course, put forward in the literature but never make it into the mainstream).<br />
+
+    So I grabbed pen and paper and started collecting references (I don't remember all my sources, but Newmeyer's <a href="http://www.amazon.com/Linguistic-Theory-America-Frederick-Newmeyer/dp/012517151X/ref=sr_1_3?ie=UTF8\amp;s=books\amp;qid=1236692755\amp;sr=8-3" title="Order the book from Amazon">Linguistic Theory in America</a> and <a href="http://www.amazon.com/Generative-Linguistics-Historical-Perspective-Linguistic/dp/0415171261/ref=sr_1_1?ie=UTF8\amp;s=books\amp;qid=1236692755\amp;sr=8-1" title="Order the book from Amazon">Generative Linguistics: A Historical Perspective</a> definitely were among them).
+    However, severe handwriting deficits soon forced me to settle for a computerized solution.
+    Compiling a bibtex bibliography with additional annotation seemed unsatisfactory, whereas all solutions for the dynamic creation of timelines from <a href="http://www.sqlite.org/" title="Homepage of SQlite, a light-weight SQL database engine">SQlite</a> or <a href="http://www.mysql.com/" title="The worlds most popular open source database; let's hope Sun won't ruin this one">MySQL</a> databases were overkill.
+    And obviously I had no intention to settle for a proprietary solution.
+I then stumbled upon <a href="http://simile.mit.edu/" title="Homepage of the Simile project. Simile is focused on developing robust, open source tools that empower users to access, manage, visualize and reuse digital assets">Simile</a>, which fit the bill perfectly.
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_criteria" name="t_criteria"></a>
+    According to which criteria did you pick the articles? (aka "Why isn't my article mentioned here?")
+</span><br />
+<span class="answer">
+    I created the timeline for my own personal use and only later on did I decide to put it online, so the criteria are kind of arbitrary and seldom applied in a rigorous fashion, especially for the entries after 2000.
+    My goal was to trace the development of main concepts of generative syntax, highlighting both the publications that moved a proposal into the standard theory and those where an idea or term was introduced for the first time.
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_contributors" name="t_contributors"></a>
+    Did you do this all by yourself?
+</span><br />
+<span class="answer">
+    No, the greatest part of the work was actually done by MIT's <a href="http://simile.mit.edu/exhibit/" title="Homepage of Exhibit">Simile Exhibit</a> and <a href="http://simile.mit.edu/timeline/" title="Homepage of Timeline">Simile Timeline</a> developers, who wrote all the code and released it under a <a href="http://en.wikipedia.org/wiki/Bsd_license" title="Wikipedia entry for the BSD license">BSD</a>-style license.
+    In addition, the following people have so far helped me with their syntactic expertise in one way or the other (in alphabetical order of last name):<br />
+    Natasha Abner, Peter Hallman, Hilda Koopman, Gereon M&uuml;ller, Dominique Sportiche
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_missing" name="t_missing"></a>
+    Is there anything that still needs to be done?
+</span><br />
+<span class="answer">
+    Why, yes! Non-Chomskyan frameworks (GPSG, HPSG, LFG, Relational Grammar) are severely underrepresented, there are no references for ellipsis, quirky case or scrambling, several entries are missing keywords or short descriptions, and the detailed information should include abstracts and could definitely use a few layout tweaks.
+    There are also several publications like Chomsky's LSLT that haven't made it into the database yet for no other reason than my own lazyness.
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_citeline" name="t_citeline"></a>
+    Why didn't you use MIT's <a href="http://citeline.mit.edu/" title="Homepage of Citeline, a subproject of Simile">Citeline</a>?
+</span><br />
+<span class="answer">
+    It didn't exist yet when I started working on the timeline.
+    But if you want to create your own timeline, I whole-heartedly recommend that you start with Citeline rather than creating an Exhibit from scratch.
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_mediawiki" name="t_mediawiki"></a>
+    Why didn't you use the <a href="http://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki" title="Semantic Mediawiki is an extension of Mediawiki">Semantic Mediawiki</a>?
+</span><br />
+<span class="answer">
+    As I created the timeline mainly for myself, there were no advantages to a wiki, so I never gave it any serious considertations.
+    Things are obviously different now, so if somebody volunteered to do the port, they would have my full support.
+</span>
+</p>
+
+<p>
+<span class="question"><a id="t_browser" name="t_browser"></a>
+    I use Internet Explorer and am experiencing overlapping text and weird time intervals.
+</span><br />
+<span class="answer">
+    Sorry, nothing I can do about it.
+    Please use a different browser.
+</span>
+</p>
+
+
+
+<h2>Download</h2>
+<ul>
+    <li>
+        <a href="../doc/other/syntax_timeline_database.tar.gz" title="Download an archive containing the source code of all relevant files">
+        Source code</a>
+    </li>
+    <li>
+        <a href="../doc/other/timeline.bib" title="Download all references as a Bibtex file">
+        References</a>
+    </li>
+</ul>
+
+</div>
+
+</body>
+</html>

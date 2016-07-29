@@ -1,0 +1,136 @@
+\documentclass[landscape,10pt,oneside]{article}
+
+\usepackage[kerning=true, protrusion=alltext, draft=false]{microtype}
+\usepackage[utf8]{inputenc}	% not working with ð and þ; use \eth and \thorn instead
+\usepackage[T1]{fontenc}	% scalable EC fonts
+\usepackage{charter}
+\usepackage[bitstream-charter]{mathdesign}% math fonts matched for charter, garamond, times, utopia
+%\usepackage[T1]{eulervm}	% this font is a good alternative to mathdesign for use with charter
+\def\sfdefault{pag}		% charter sans serif looks horrible, so we replace it with AvantGarde-Book
+\usepackage{bbding}		% several arrows, crosses, checkmarks, and other symbols
+
+\usepackage[paper=letterpaper,left=0mm,right=0mm,top=15mm,bottom=15mm]{geometry}
+
+\usepackage{covington}
+% \usepackage{multicol}
+
+\newcommand{\tophead}[1]{\textbf{\Large #1}}
+\newcommand{\subhead}[1]{\emph{\large #1}}
+\newcommand{\focus}[1]{\textsc{#1}}
+
+%opening
+\title{Ellipsis}
+\author{Thomas Graf}
+
+\begin{document}
+\pagestyle{empty}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{itemize}
+	\item \tophead{Ellipsis}
+		\begin{itemize}
+			\item \subhead{VP-ellipsis}
+				\begin{examples}
+					\item John eats bread and Mary does, too.
+					\item Cathy read the book by Chomsky but she heard from Peter than John told him that Mary didn't.
+				\end{examples}
+% 
+				\begin{example}
+					\begin{enumerate}
+						\item[(a)] Holly Golightly won't eat rutabagas.
+						\item[(b)] I don't think Fred will, either.
+					\end{enumerate}
+				\end{example}
+
+				\begin{example}
+					Anyone who can, should show me how to wiggle my ears.
+				\end{example}
+			
+			\item \subhead{Antecedent-Contained Deletion}
+				\begin{example}
+					I visited every country I had to.
+				\end{example}
+			
+			\item \subhead{Sluicing}
+				\begin{example}
+					I know you talked to someone, but I can't remember who.
+				\end{example}
+				\begin{examples}
+					\item I believe the claim that he bit someone, but they don't know who (CNPC)
+					\item That he'll hire someone is possible, but I won't divulge who (Sentential Subject Constraint)
+					\item Irv and someone were dancing together, but I don't know who (CSC)
+				\end{examples}
+			
+			\item \subhead{N$'$-deletion}
+				\begin{examples}
+					\item Sal read Bertie's book, but he hasn't read Richie's, yet.
+					\item Sal read Bertie's book about marriage, but he hasn't read Richie's about phrase markers.
+				\end{examples}
+			
+			\item \subhead{Pseudo-Gapping}
+				\begin{examples}
+					\item Sal eats Beans and Holly does rice.
+					\begin{enumerate}
+						\item I want to understand VP-ellipsis
+						\item I do, too./ $^*$ I do Sluicing.
+					\end{enumerate}
+				\end{examples}
+		\end{itemize}
+\end{itemize}
+\end{minipage}
+% 
+\begin{minipage}[t]{0.5\textwidth}
+\begin{itemize}
+		\item \tophead{Stripping}\\
+		closer to gapping than VP-ellipsis
+		\begin{itemize}
+			\item VP: intersentional, no focus needed
+			\item Gapping: ungrammatical in subordinate clauses,\\
+			may not precede its antecedent, does not delete entire phrases
+		\end{itemize}
+% 
+		\begin{examples}
+			\item I sleep a lot and Peter, too.
+			\item I sleep a lot. Peter, too.
+			\item *John studied rocks even though not Jane
+			\item Jane loves to study rocks, and geography, too.
+		\end{examples}
+
+		\item \tophead{Gapping}
+		\begin{examples}
+			\item Some ate \focus{natto} and others \focus{rice}.
+			\item Some ate \focus{Bertie}'s book about \focus{marriage} and \focus{Richie}'s about \focus{divorce}.
+			\item I made \focus{Sam} angry at \focus{Beaner} and \focus{Betsy} at \focus{Perseus}.
+			\item Some gave \focus{albums} to their spouses, and others \focus{tapes}.
+		\end{examples}
+
+		\item \tophead{Right-Node-Raising}
+		\begin{examples}
+			\item John loves and Mary hates cheese.
+			\item Susan suspects but Mary knows that John likes her.
+			\item Each year John has a spring and an autumn depression.
+		\end{examples}
+% 
+		contra gapping: targets right node\\
+		contra ellipsis: targets non-constituents, gap c-commands its antecedent
+\end{itemize}
+\end{minipage}
+
+\begin{table}[tbh]
+\begin{center}
+\begin{tabular}{lccccccccc}
+	& CAT & X$'$/XP & identity & focus needed & non-adjacent antecedent & subordinate & intersententional & remnant & island repair\\ \hline
+	\textbf{Ellipsis} & & & & & & & & &\\
+	\quad VP-Ellipsis & V & \checkmark & semantic & $\times$ & if $\Delta$ does not c-com & \checkmark & \checkmark & $\times$ & \checkmark (LF?)\\
+	\quad ACD & V & \checkmark & sem. (tricky) & $\times$ & NA & \checkmark & NA & $\times$ &\\
+	\quad Sluicing & C & \checkmark & semantic & & if $\Delta$ does not c-com & \checkmark & \checkmark & $\times$ & \checkmark (PF?)\\
+	\quad N$'$-deletion & N & \checkmark & semantic & $\times$ & if $\Delta$ does not c-com & \checkmark & \checkmark & restricted &\\
+	\quad Pseudo-Gapping & V & \checkmark & semantic & \checkmark & if $\Delta$ does not precede & \checkmark & $\times$ & restricted &\\
+	\textbf{Gapping} & V/N/A & $\times$ & strict & \checkmark & $\times$ & $\times$ & $\times$ & very free & $\times$ \\
+	\textbf{Stripping} & C & $\times$ & strict & $\times$ & if $\Delta$ does not precede & $\times$ & \checkmark & &\\
+	\textbf{Right-Node Raising} & RE(\&) & $\times$ & $\sim$ strict (Case!) & $\times$ & \checkmark & & $\times$ & &\\
+\end{tabular}
+\end{center}
+\caption{Properties of elision phenomena}
+\end{table}
+
+\end{document}

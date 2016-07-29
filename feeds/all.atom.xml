@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2016-07-27T00:00:00-04:00</updated><entry><title>Morphotactics as Tier-Based Strictly Local Dependencies</title><link href="http://thomasgraf.net/aksenovaetal16sigmorphon.html" rel="alternate"></link><updated>2016-07-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-27:aksenovaetal16sigmorphon.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Aksënova, Alëna, Thomas Graf, and Sedigheh&amp;nbsp;Moradi&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
+Drawing on technical results from computational phonology, we show that a variety of morphotactic phenomena are tier-based strictly local and do not fall into weaker subclasses such as the strictly local or strictly piecewise languages. 
+Since the tier-based strictly local languages are learnable in the limit from positive texts, this marks a first important steps towards general machine learning algorithms for morphology.
+Furthermore, the limitation to tier-based strictly local languages explains typological gaps that are puzzling from a purely linguistic&amp;nbsp;perspective.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/AksenovaEtAl16Sigmorphon.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@InProceedings&lt;span class="nb"&gt;{&lt;/span&gt;AksenovaEtAl16Sigmorphon,
+  author = &lt;span class="nb"&gt;{&lt;/span&gt;Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas and Moradi, Sedigheh&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title = &lt;span class="nb"&gt;{&lt;/span&gt;Morphotactics as Tier-Based Strictly Local Dependencies&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of SIGMorPhon 2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt; 
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="morphology"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category><category term="English"></category><category term="German"></category><category term="Russian"></category><category term="Swahili"></category><category term="Ilocano"></category></entry><entry><title>An Alternate View on Strong Lexicalization in Tag</title><link href="http://thomasgraf.net/desantoetal16tag.html" rel="alternate"></link><updated>2016-07-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-27:desantoetal16tag.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;De Santo, Aniello, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+TAGs were recently shown not to be closed under strong lexicalization but to be strongly lexicalizable by context-free tree grammars of rank 2.
+This paper presents an alternative lexicalization procedure that builds on an earlier generalization of TAGs to multi-dimensional trees.
+A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding &lt;span class="caps"&gt;TAG&lt;/span&gt; is lifted to higher dimensions to show that for every $d$-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; there exists a $(d+1)$-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; that strongly lexicalizes it.
+A similar lifting reveals that $d$-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong&amp;nbsp;lexicalization.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/DeSantoEtAl16TAG.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@InProceedings&lt;span class="nb"&gt;{&lt;/span&gt;DeSantoEtAl16TAG,
+  author    = &lt;span class="nb"&gt;{&lt;/span&gt;De Santo, Aniello and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title     = &lt;span class="nb"&gt;{&lt;/span&gt;An Alternate View on Strong Lexicalization in TAG&lt;span class="nb"&gt;}&lt;/span&gt;,
+  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of the 12th International Workshop on &lt;span class="nb"&gt;{&lt;/span&gt;T&lt;span class="nb"&gt;}&lt;/span&gt;ree &lt;span class="nb"&gt;{&lt;/span&gt;A&lt;span class="nb"&gt;}&lt;/span&gt;djoining &lt;span class="nb"&gt;{&lt;/span&gt;G&lt;span class="nb"&gt;}&lt;/span&gt;rammars and Related Formalisms (&lt;span class="nb"&gt;{&lt;/span&gt;TAG&lt;span class="nb"&gt;}&lt;/span&gt;+12)&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year      = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  address   = &lt;span class="nb"&gt;{&lt;/span&gt;Düsseldorf, Germany&lt;span class="nb"&gt;}&lt;/span&gt;,
+  pages     = &lt;span class="nb"&gt;{&lt;/span&gt;93--102&lt;span class="nb"&gt;}&lt;/span&gt;,
+  url       = &lt;span class="nb"&gt;{&lt;/span&gt;http://www.aclweb.org/anthology/W16-3310&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Tree Adjoining grammar"></category><category term="lexicalization"></category><category term="multi-dimensional trees"></category><category term="generative capacity"></category></entry><entry><title>A Computational Guide to the Dichotomy of Features and Constraints</title><link href="http://thomasgraf.net/graf16glossa.html" rel="alternate"></link><updated>2016-07-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-27:graf16glossa.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+A contentious issue in the Minimalist literature is whether certain phenomena are best described in terms of features or constraints.
+Building on recent work in mathematical linguistics, I argue that constraints and features are interchangeable in Minimalist syntax.
+This does not invalidate the feature-constraint debate, though.
+Rather, the interdefinability of the two points out an unexpected loop hole in the formalism that allows for massive overgeneration and produces incorrect typological predictions.
+At the same time, the feature-constraint equivalence can be helpful in plugging this loop&amp;nbsp;hole.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/Graf16Glossa.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article&lt;span class="nb"&gt;{&lt;/span&gt;Graf16Glossa,
+  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title = &lt;span class="nb"&gt;{&lt;/span&gt;A Computational Guide to the Dichotomy of Features and Constraints&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear in &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;Glossa&lt;span class="nb"&gt;}}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Minimalist grammars"></category><category term="syntax"></category><category term="typology"></category><category term="categories"></category><category term="subcategorization"></category><category term="model-theoretic syntax"></category><category term="generative capacity"></category></entry><entry><title>A Single Movement Normal Form for Minimalist Grammars</title><link href="http://thomasgraf.net/grafetal16fg.html" rel="alternate"></link><updated>2016-07-14T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-14:grafetal16fg.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, Alëna Aksënova, and Aniello De&amp;nbsp;Santo&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
+In order to simplify future analysis of the formalism, we prove that every &lt;span class="caps"&gt;MG&lt;/span&gt; can be converted into a strongly equivalent &lt;span class="caps"&gt;MG&lt;/span&gt; where every phrase moves at most once.
+The translation procedure is implemented via a deterministic linear tree transduction on the derivation tree language and induces at most a linear blow-up in the size of the&amp;nbsp;lexicon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/GrafEtAl16FG.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;GrafEtAl16FG,
+  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and De Santo, Aniello&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title = &lt;span class="nb"&gt;{&lt;/span&gt;A Single Movement Normal Form for &lt;span class="nb"&gt;{&lt;/span&gt;M&lt;span class="nb"&gt;}&lt;/span&gt;inimalist Grammars&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Formal Grammar&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt; 
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Minimalist grammars"></category><category term="tree transductions"></category><category term="derivation trees"></category><category term="lexical blow-up"></category><category term="successive cyclic movement"></category></entry><entry><title>Computational Lessons from and for Language</title><link href="http://thomasgraf.net/graf16iacstalk.html" rel="alternate"></link><updated>2016-04-28T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-04-28:graf16iacstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Barely any task is more challenging and more effortlessly carried out by 
+humans than the efficient use of language. Within a couple of years, 
+children figure out a learning problem that even computers with large, 
+extensively annotated training sets fail at. On a daily basis, we hear 
+thousands of sentences and within split seconds assign them highly 
+elaborate structures whose complexity matches and even exceeds what we 
+find in protein folding or the specification of programming languages.
+The conundrum of language is that all research and all our theorems 
+point towards it being a very hard computational problem, yet for humans 
+it is no more difficult than jumping on one&amp;nbsp;leg.&lt;/p&gt;
+&lt;p&gt;In this talk, I present recent research that suggests ways of resolving 
+this contradiction. The central lesson is that complex structures are 
+simple structures in disguise. I illustrate this idea with concrete 
+linguistic examples, and I show how the formal insights can be 
+generalized beyond language. In the other direction, I also highlight 
+open complexity issues in linguistics where supercomputation may prove 
+indispensable for finding simpler solutions. These issues can be tackled 
+with the tools and techniques that already exist today, we just have to 
+step up and actually do&amp;nbsp;it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf16IACStalk.pdf"&gt;pdf&lt;/a&gt;]
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf16IACStalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf16IACStalk,
+  author    = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title     = &lt;span class="nb"&gt;{&lt;/span&gt;Computational Lessons from and for Language&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year      = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note      = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, April 28, IACS, Stony
+          Brook University, Stony Brook, NY&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="phonology"></category><category term="subregular"></category><category term="syntax"></category><category term="derivation trees"></category><category term="open problems"></category></entry><entry><title>Memory Usage Predicts Relative Difficulty in Human Sentence Processing</title><link href="http://thomasgraf.net/grafetal16iacsposter.html" rel="alternate"></link><updated>2016-04-13T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-04-13:grafetal16iacsposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, James Monette, Robert Pasternak, and Chong&amp;nbsp;Zhang&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/GrafEtAl16IACSposter.pdf"&gt;pdf&lt;/a&gt;]
+[&lt;a href="http://thomasgraf.net/doc/talks/GrafEtAl16IACSposter.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;GrafEtAl16IACSposter,
+  author    = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Monette, James and Pasternak, Robert and Zhang, Chong&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title     = &lt;span class="nb"&gt;{&lt;/span&gt;Memory Usage Predicts Relative Difficulty in Human Sentence Processing&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year      = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note      = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at the &lt;span class="nb"&gt;{&lt;/span&gt;IACS&lt;span class="nb"&gt;}&lt;/span&gt; &lt;span class="nb"&gt;{&lt;/span&gt;R&lt;span class="nb"&gt;}&lt;/span&gt;esearch &lt;span class="nb"&gt;{&lt;/span&gt;D&lt;span class="nb"&gt;}&lt;/span&gt;ay 2016, April 13, IACS, Stony Brook University, Stony Brook, NY&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Minimalist grammars"></category><category term="parsing"></category><category term="relative clauses"></category><category term="movement"></category><category term="processing"></category><category term="Chinese"></category><category term="Japanese"></category><category term="Korean"></category></entry><entry><title>Towards an Algebraic Morphosyntax</title><link href="http://thomasgraf.net/graf15msualgebratalk.html" rel="alternate"></link><updated>2015-12-16T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2015-12-16:graf15msualgebratalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+I argue that important generalizations in morphosyntax are currently 
+obscured by the technical details of the syntactic apparatus. These 
+generalizations can be brought out more clearly via a perspective that 
+is informed by higher&amp;nbsp;algebra.&lt;/p&gt;
+&lt;p&gt;I support my argument with a case study of the Person Case Constraint 
+(&lt;span class="caps"&gt;PCC&lt;/span&gt;). I give an algebraic characterization of the attested PCCs that 
+completely abstracts away from the details of their syntactic 
+encoding. All &lt;span class="caps"&gt;PCC&lt;/span&gt; variants are reduced to one general prominence 
+principle, with the cross-linguistic variation stemming from 
+differences in how the individual person features are ranked with 
+respect to prominence.
+These rankings, in turn, form a natural class in the sense that there 
+is an algebraically natural class of functions that derives them from 
+Zwicky&amp;#8217;s (1977) person hierarchy. The algebraic perspective thus 
+highlights the feature regularities that underly a specific area of 
+morphosyntax without relying on a specific syntactic&amp;nbsp;analysis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf15MSUAlgebratalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf15MSUAlgebratalk,
+  author    = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title     = &lt;span class="nb"&gt;{&lt;/span&gt;Towards an Algebraic Morphosyntax&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year      = &lt;span class="nb"&gt;{&lt;/span&gt;2015&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note      = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, December 16, Department of Theoretical and Applied Linguistics, Moscow State University, Moscwo, Russia&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="substantive universals"></category><category term="person case constraint"></category><category term="algebra"></category><category term="person hierarchy"></category><category term="lattices"></category><category term="feature geometry"></category></entry><entry><title>Computational Unity Across Language Modules</title><link href="http://thomasgraf.net/graf15msusubregulartalk.html" rel="alternate"></link><updated>2015-12-15T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2015-12-15:graf15msusubregulartalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Computational linguistics is often construed as the enterprise of 
+processing language with computers. But the field has much more to 
+offer than just that. A computationally informed perspective of 
+language offers profound scientific insights and can unearth new 
+language universals. In this talk, I illustrate this point with a 
+concrete case&amp;nbsp;study.&lt;/p&gt;
+&lt;p&gt;Syntax and phonology are commonly considered radically different 
+components of natural language. This view has been formally 
+corroborated by proofs that the generative capacity of syntax vastly 
+exceeds that of phonology. A very different picture emerges, however, 
+if one follows standard linguistic practice and treats syntax as 
+manipulating tree structures. I show that in this case, syntax and 
+phonology are computational twins in that they use the same memory 
+structures and inference patterns. The observed empirical differences 
+are due to a difference in data structures: strings for phonology, 
+trees for&amp;nbsp;syntax.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf15MSUSubregulartalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf15MSUSubregulartalk,
+  author    = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title     = &lt;span class="nb"&gt;{&lt;/span&gt;Computational Unity Across Language Modules&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year      = &lt;span class="nb"&gt;{&lt;/span&gt;2015&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note      = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, December 15, Department of Theoretical and Applied Linguistics, Moscow State University, Moscow, Russia&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="phonology"></category><category term="Minimalist grammars"></category><category term="subregular"></category><category term="constraints"></category><category term="locality"></category></entry></feed>
