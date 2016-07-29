@@ -302,9 +302,9 @@ fi
 #  Hacks  #
 ###########
 # remove latexmath stuff
-sed -i 's/latexmath:\\\[\$\(.*\)\$\\\]/\1/g' $tmpfile
-# remove latex commands
-sed -i 's/\\[[:alnum:]]*{\([^}]*\)}/\1/g' $tmpfile
+sed -i 's/latexmath:\[\$\([^\$]*\)\$\]/\1/g' $tmpfile
+# remove text commands
+sed -i 's/text[[:alnum:]]*{\([^}]*\)}/\1/g' $tmpfile
 # fix superscripts for numbers
 sed -i 's|\^{\{0,1\}\([^\}]*\)}\{0,1\}|\1|g' $tmpfile
 
