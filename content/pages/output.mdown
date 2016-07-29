@@ -11,7 +11,7 @@ Graf, Thomas (2016): **A Computational Guide to the Dichotomy of Features and Co
 Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. *Formal Grammar*. To appear. [[pdf]]({filename}/doc/papers/GrafEtAl16FG.pdf) [[details]]({filename}/papers/GrafEtAl16FG.mdown)
 </li>
 <li markdown>
-De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View on Strong Lexicalization in Tag**. *Proceedings of the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms (TAG+12)*, 93–102. Düsseldorf, Germany. [[pdf]]({filename}/doc/papers/DeSantoEtAl16TAG.pdf) [[details]]({filename}/papers/DeSantoEtAl16TAG.mdown)
+De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View on Strong Lexicalization in TAG**. *Proceedings of the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms (TAG+12)*, 93–102. Düsseldorf, Germany. [[pdf]]({filename}/doc/papers/DeSantoEtAl16TAG.pdf) [[details]]({filename}/papers/DeSantoEtAl16TAG.mdown)
 </li>
 <li markdown>
 Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Morphotactics as Tier-Based Strictly Local Dependencies**. *Proceedings of Sigmorphon 2016*. To appear. [[pdf]]({filename}/doc/papers/AksenovaEtAl16Sigmorphon.pdf) [[details]]({filename}/papers/AksenovaEtAl16Sigmorphon.mdown)
