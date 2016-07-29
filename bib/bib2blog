@@ -139,7 +139,7 @@ bibfile=$1
 bibkey=$2
 webauthor=${3-"Thomas Graf"}
 tmpfile="/tmp/bib2blog_${bibkey}.bib"
-auxfile_path="${HOME}/Latex/bibextra"
+auxfile_path="${bib_path}/auxfiles"
 
 
 
