@@ -1,0 +1,4 @@
+Three closely related proposals for adding (cyclic) adjunction to Minimalist grammars are given model-theoretic definitions and investigated with respect to their linguistic and formal properties. 
+While they differ with respect to their linguistic adequacy, they behave largely the same on a computational level.
+Weak generative capacity is not affected, and while subregular complexity varies betweeen the three proposals, it does not exceed the complexity imposed by Move.
+The closure of Minimalist derivation tree languages under intersection with regular tree languages, however, is lost.

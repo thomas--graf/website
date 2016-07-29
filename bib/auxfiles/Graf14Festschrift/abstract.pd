@@ -1,0 +1,8 @@
+One of the central changes in 20th century linguistics was the reconceptualization of language as a cognitive ability rather than merely an abstract relational system of signs --- in the terminology of Chomsky (1986), the move from E-language to I-language.
+This shift entails that linguistic theory is no longer measured exclusively by empirical coverage, succinctness of description, and conceptual appeal, but must also address the question of how language is integrated into our mental architecture.
+A lot of prominent work along these lines has focused on the supposed modularity of language, i.e. whether language is autonomous or shares resources with other mental capacities.
+This debate has been conducted at a very high level of abstraction, and as a result it sidesteps a more tangible issue: what kind of cognitive resources are actually needed to support the data structures and operations employed by I-language?
+
+Formal language theory makes it possible to tie the complexity of linguistic patterns to specific claims about memory organization and thus provides an indirect way of measuring the cognitive demands of language.
+This is not a straight-forward exercise, though, and care must be taken to conceptualize these patterns in the right way.
+In this paper, I argue based on a battery of previous results that even though syntax and phonology involve patterns of vastly different complexity, a linguistically informed perspective of the underlying dependencies reveals surprising similarities regarding their memory infrastructure. 

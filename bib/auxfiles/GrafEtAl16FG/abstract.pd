@@ -1,0 +1,3 @@
+Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
+In order to simplify future analysis of the formalism, we prove that every MG can be converted into a strongly equivalent MG where every phrase moves at most once.
+The translation procedure is implemented via a deterministic linear tree transduction on the derivation tree language and induces at most a linear blow-up in the size of the lexicon.

@@ -1,0 +1,9 @@
+Adjuncts differ from arguments by a number of properties, in 
+particular i) optionality and ii) their island status, which renders 
+them opaque for extraction of subconstituents. Conjuncts, too, are 
+optional and forbid extraction. Starting from this basic observation, 
+I demonstrate that islandhood is a direct consequence of optionality 
+in every framework where extraction involves some dependency at the 
+target site, for instance via feature checking. Given current 
+generative assumptions about movement, it is thus unsurprising that 
+optional constituents --- which I call ojuncts --- are islands.

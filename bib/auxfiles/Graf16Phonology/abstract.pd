@@ -1,0 +1,6 @@
+Locality domains play an integral role in linguistic theories.
+This paper combines locality domains with current work on the computational complexity of phonology.
+The general upshot is that if a specific formalism --- the strictly piecewise grammars --- is supplemented with a mechanism to enforce domain restrictions, its power increases so much that it subsumes almost the full hierarchy of subregular languages.
+However, if domain restrictions must follow a linguistically natural template, one instead obtains a much more restricted class that unifies all phonologically natural subregular classes.
+At the same time, unnatural abilities of some subregular classes such as counting and elaborate conditionals are correctly excluded.
+In addition, this restricted class is learnable in the limit from positive data.

@@ -1,0 +1,20 @@
+Barely any task is more challenging and more effortlessly carried out by 
+humans than the efficient use of language. Within a couple of years, 
+children figure out a learning problem that even computers with large, 
+extensively annotated training sets fail at. On a daily basis, we hear 
+thousands of sentences and within split seconds assign them highly 
+elaborate structures whose complexity matches and even exceeds what we 
+find in protein folding or the specification of programming languages.
+The conundrum of language is that all research and all our theorems 
+point towards it being a very hard computational problem, yet for humans 
+it is no more difficult than jumping on one leg.
+
+In this talk, I present recent research that suggests ways of resolving 
+this contradiction. The central lesson is that complex structures are 
+simple structures in disguise. I illustrate this idea with concrete 
+linguistic examples, and I show how the formal insights can be 
+generalized beyond language. In the other direction, I also highlight 
+open complexity issues in linguistics where supercomputation may prove 
+indispensable for finding simpler solutions. These issues can be tackled 
+with the tools and techniques that already exist today, we just have to 
+step up and actually do it.

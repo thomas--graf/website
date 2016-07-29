@@ -1,0 +1,5 @@
+A common sentiment among linguists is that the Minimalist literature features a dazzling array of competing proposals that seem to share little common ground in their technical assumptions.
+While differences certainly do exist between accounts, a computationally informed perspective reveals a set of invariants that unify Minimalist analyses and differentiate them from competing proposals such as HPSG and LFG.
+These invariants have been studied extensively by the Minimalist grammar community, but have mostly gone unnoticed by syntacticians.
+Taking these findings as my vantage point, I argue that Minimalist syntax can be understood as a theory of derivation trees and corresponding mappings to interface representations, with the restriction that both derivations and mappings are computable with a finite amount of working memory.
+Each Minimalist analysis occupies a specific point within this class, depending on which ancillary assumptions it adopts, and we can measure the distance between two proposals in this space according to certain formal metrics of equivalence.

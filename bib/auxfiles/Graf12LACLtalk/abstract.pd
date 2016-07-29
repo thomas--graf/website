@@ -1,0 +1,4 @@
+A general framework is presented that allows for Minimalist grammars to use arbitrary movement operations under the proviso that they are all definable by monadic second-order formulas over derivation trees.
+Lowering, sidewards movement, and clustering, among others, are the result of instantiating the parameters of this framework in a certain way.
+Even though weak generative capacity is not increased, strong generative capacity may change depending on the available movement types.
+Notably, TAG-style tree adjunction can be emulated by a special type of lowering movement.

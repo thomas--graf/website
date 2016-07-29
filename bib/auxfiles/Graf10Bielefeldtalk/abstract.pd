@@ -1,0 +1,7 @@
+Transderivational constraints (TC) formed an integral part of the early Minimalist Program. I develop a formal model of TCs firmly rooted in automata theory and subsequently argue that
+
+- in general, TCs aren't computationally intractable, nor does their complexity exceed that of non-transderivational constraints;
+- TCs have technical advantages over normal constraints in accounting for cross-linguistic variation;
+- an automata-theoretic approach brings us closer to a unified perspective on three rather distant research traditions, each of them with their unique body of empirical results: TCs, OT, and Synchronous Tree-Adjoining Grammar.
+
+As an illustration of the applicability of this formal model, I exhibit precise implementations of Focus Economy (Reinhart 2006), the Merge-over-Move condition (Chomsky 1998), and the Shortest Derivation Principle.

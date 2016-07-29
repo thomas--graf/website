@@ -1,0 +1,3 @@
+Müller and Sternefeld (2000) propose a locality hierarchy of syntactic constraints such that {representational, derivational} < global < translocal < transderivational.
+We use formal methods to demonstrate that their hierarchy correctly assumes that higher constraint classes are more powerful, but we also show that for every class there are constraints that can be reduced to a constraint in a weaker class.
+These results have important ramifications for our conception of locality, the relation between representational and derivational theories, the status of reference set computation, and how constraints might be acquired.

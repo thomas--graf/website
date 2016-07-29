@@ -1,0 +1,5 @@
+Minimalist grammars provide a formalization of Minimalist syntax which allows us to study how the components of said theory affect its expressivity. 
+A central concern of Minimalist syntax is the locality of the displacement operation Move. 
+In Minimalist grammars, however, Move is unbounded. 
+This paper is a study of the repercussions of limiting movement with respect to the number of *slices* a moved constituent is allowed to cross, where a slice is the derivation tree equivalent of the phrase projected by a lexical item in the derived tree. 
+I show that this locality condition 1) has no effect on weak generative capacity 2) has no effect on a Minimalist derivation tree language's recognizability by top-down automata 3) renders Minimalist derivation tree languages strictly locally testable, whereas their unrestricted counterparts aren't even locally threshold testable.

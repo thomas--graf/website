@@ -1,0 +1,9 @@
+I argue that the special behavior of adjuncts is a consequence of two properties that set them apart from arguments: optionality and independence.
+
+- **Optionality** Adjuncts can be omitted.
+- **Independence** Independently well-formed adjuncts can be combined.
+
+These properties yield several grammaticality inferences that mirror the entailments of the logical connector *and*.
+For instance, just like `t = 0` implies `t & a = 0` for propositions, the ungrammaticality of tree *t* entails that the result of adding adjunct *a* to *t* is also ungrammatical.
+Intuitively, these grammaticality entailments render adjuncts semi-permeable with respect to constraints --- dependencies can "scope out" of adjuncts and thus restrict the shape of the rest of the tree, but not the other way round.
+In combination with standard assumptions about the feature-driven nature of Move, semi-permeability derives the Adjunct Island Constraint while still allowing for parasitic gaps.

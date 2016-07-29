@@ -1,0 +1,4 @@
+It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
+Drawing on technical results from computational phonology, we show that a variety of morphotactic phenomena are tier-based strictly local and do not fall into weaker subclasses such as the strictly local or strictly piecewise languages. 
+Since the tier-based strictly local languages are learnable in the limit from positive texts, this marks a first important steps towards general machine learning algorithms for morphology.
+Furthermore, the limitation to tier-based strictly local languages explains typological gaps that are puzzling from a purely linguistic perspective.

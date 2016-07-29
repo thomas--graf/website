@@ -1,0 +1,9 @@
+Graf (2011) and Kobele (2011)  proved independently that Minimalist grammars can express all constraints that are definable in weak monadic second-order logic (MSO), i.e. the extension of first-order logic with quantification over finite sets.
+The proof takes as its vantage point the well-known equivalence between MSO and finite-state tree automata and then shows how such automata can be emulated in the Minimalist feature calculus.
+On the one hand this is a welcome result, as numerous phenomena that seem bewildering to linguists can now be understood as merely arising from the unexpected MSO-like power of the feature calculus.
+On the other hand, it also exacerbates the overgeneration problem --- there are infinitely many patterns that are MSO-definable yet are not realized in any known language.
+For example, it is a relatively easy exercise to write an MSO-formula that is satisfied in a tree only if assigning each leaf $l$ the value $0$ or $1$ depending on whether the length of the shortest path from the root to $l$ is even or odd yields a string that is the binary encoding of the longest sentence in Hermann Broch's *The Death of Virgil* (which allegedly contains over a thousand words).
+Seeing how the feature calculus is the essential component in capturing the expressivity of MSO, it is a natural idea to look for empirically motivated restrictions that might curtail its excessive power.
+
+As a first step in this direction, I show here how the attested variants of the Person Case Constraint can be treated with MSO in a unified fashion if one posits certain plausible restrictions on the algebra of person features.
+The general upshot is that the different Person Case Constraints correspond to specific preorders over the set of person features, and that these preorders form a particular class of presemilattices.

@@ -1,0 +1,5 @@
+Recent results show that both TAG and Minimalist grammars can be enriched with rational constraints without increasing their strong generative capacity, where a constraint is rational iff it can be computed by a bottom-up tree automaton.
+This raises the question which aspects of syntax can be adequately formalized using only such constraints.
+One of hardest phenomena commonly studied by syntacticians is binding theory.
+In this paper, we give a high-level implementation of (the syntactic parts of) binding theory in terms of rational constraints, and we argue that this implementation is sufficiently powerful for natural language.
+This conclusion is backed up by data drawn from English, German, and American Sign Language.

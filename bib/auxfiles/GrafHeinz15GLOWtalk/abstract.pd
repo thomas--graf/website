@@ -1,0 +1,4 @@
+Heinz and Idsardi (2013) draw attention to a computational difference between syntax and phonology established by earlier research: phonology only requires regular computations over strings (Johnson 1972, Kaplan and Kay 1995), whereas syntax involves non-regular computations over strings (Chomsky 1956, Shieber 1985).
+In the present work, the computational difference between these two domains is studied from a perspective which recognizes two dimensions of formal grammars: the nature of the model (the data structures) and the power of the computations that manipulate these structures.
+We argue that the differences between syntax and phonology can be recast entirely in terms of the differences in the data structures rather than the power of the computations.
+Both phonological and syntactic dependencies turn out to be local given a suitable domain of relativization, which we formalize in terms of tiers.

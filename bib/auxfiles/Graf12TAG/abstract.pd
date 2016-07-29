@@ -1,0 +1,3 @@
+Even though Minimalist grammars are more powerful than TAG on the string level, the classes of tree languages the two define are incomparable.
+I give a constructive proof that if the standard Move operation in Minimalist grammars is replaced by *Reset Lowering*, every TAG tree language can be generated. 
+The opposite does not hold, so the strong generative capacity of Minimalist grammars with Reset Lowering exceeds that of TAG.

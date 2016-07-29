@@ -1,0 +1,5 @@
+Recently there has been a lot of interest in testing the processing predictions of a specific top-down parser for Minimalist grammars (Stabler 2012).
+Most of this work relies on memory-based difficulty metrics that relate the shape of the parse tree to processing behavior.
+We show that none of the difficulty metrics proposed so far can explain why subject relative clauses are more easily processed than object relative clauses in Chinese, Korean, and Japanese.
+However, a minor tweak to how memory load is determined is sufficient to fully capture the data.
+This result thus lends further support to the hypothesis that very simple notions of resource usage are powerful enough to explain a variety of processing phenomena.

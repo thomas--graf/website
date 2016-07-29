@@ -1,0 +1,8 @@
+Reference-set constraints are a special class of constraints used in Minimalist syntax.
+They extend the notion of well-formedness beyond the level of single trees:
+When presented with some phrase structure tree, they compute its set of competing output candidates and determine the optimal output(s) according to some economy metric.
+Doubts have frequently been raised in the literature whether such constraints are computationally tractable (Johnson and Lappin 1999).
+
+I define a subclass of Optimality Systems (OSs) that is sufficiently powerful to accommodate a wide range of reference-set constraints and show that these OSs are globally optimal (Jäger 2002), a prerequisite for them being computable by linear tree transducers.
+As regular and linear context-free tree languages are closed under linear tree transductions, this marks an important step towards showing that the expressivity of various syntactic formalisms is not increased by adding reference-set constraints.
+In the second half of the paper, I demonstrate the feasibility of the OS-approach by exhibiting an efficiently computable OS for a prominent reference-set constraint, Focus Economy (Reinhart 2006).

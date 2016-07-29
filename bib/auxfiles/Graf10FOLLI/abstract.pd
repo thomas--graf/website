@@ -1,0 +1,4 @@
+Inspired by the model-theoretic approach to phonology deployed by Kracht (2003) and Potts and Pullum (2002), I develop an extendable modal logic for the investigation of phonological theories operating on (richly annotated) string structures.
+In contrast to previous research in this vein (Russel 1993, Kaplan and Kay 1994, Mohri and Sproat 1996), I ultimately strive to study the entire class of such theories rather than merely one particular incarnation thereof.
+To this end, I first provide a formalization of classic Government Phonology in a restricted variant of temporal logic, whose generative capacity is then subsequently increased by the addition of further operators, thereby pushing it up the subregular hierarchy until one reaches the level of the regular stringsets.
+I identify several other axes along which Government Phonology might be generalized, moving us towards a parametric metatheory of phonology.
