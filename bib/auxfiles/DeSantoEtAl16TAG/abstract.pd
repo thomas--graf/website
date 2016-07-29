@@ -1,4 +1,4 @@
 TAGs were recently shown not to be closed under strong lexicalization but to be strongly lexicalizable by context-free tree grammars of rank 2.
 This paper presents an alternative lexicalization procedure that builds on an earlier generalization of TAGs to multi-dimensional trees.
-A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding TAG is lifted to higher dimensions to show that for every $d$-dimensional TAG there exists a $(d+1)$-dimensional TAG that strongly lexicalizes it.
-A similar lifting reveals that $d$-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong lexicalization.
+A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding TAG is lifted to higher dimensions to show that for every d-dimensional TAG there exists a (d+1)-dimensional TAG that strongly lexicalizes it.
+A similar lifting reveals that d-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong lexicalization.
