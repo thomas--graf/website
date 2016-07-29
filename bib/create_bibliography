@@ -3,27 +3,110 @@
 # Basic usage
 usage() {
     echo "
-    to be done
+    Produce formatted list of publications and presentations 
+
+    Usage: create_bibliography [options] PUBLICATION-FILE PRESENTATION-FILE
     "
 }
 
 # Detailed help
+help() {
+echo "create_bibliography [options] PUBLICATION-FILE PRESENTATION-FILE
 
-website_folder="${HOME}/dev/website"
+Input: bibtex file and bibkey of entry to be extracted from this file
+Output: markdown file for Output page
+
+Options:
+
+  -p  --paper             bibtex file for publications
+  -t  --talks             bibtex file for presentations
+
+  -o  --output            output file (with full path)
+  -n  --name              name of produced list on the website
+
+  -a  --author            author to be used for blog post
+
+      --tmp               temp file
+
+  -b  --bib[path]         path to bib folder
+
+  -w  --website[path]     path to website folder
+
+  -h  --help              this overview
+"
+}
+
+
+###############
+#  Variables  #
+###############
+
+title="Output"
 author="Thomas Graf"
-lastname="graf"
-publications=${2-"${HOME}/Latex/${lastname}.bib"}
-presentations=${3-"${HOME}/Latex/${lastname}_presentations.bib"}
+publications=${1-"${HOME}/Latex/graf.bib"}
+presentations=${2-"${HOME}/Latex/graf_presentations.bib"}
+
+website_path="${HOME}/dev/website"
+bib_path="${website_path}/bib"
 tmppath="/tmp"
-outfile="${website_folder}/content/pages/output.mdown"
+outfile="${website_path}/content/pages/output.mdown"
+
+# options
+while [ "$1" != "" ]; do
+    case $1 in
+        -p | --papers )
+            shift
+            publications=$1
+            ;;
+        -t | --talks )
+            shift
+            presentations=$1
+            ;;
+        -o | --output )
+            shift
+            outfile=$1
+            ;;
+        -n | --name )
+            shift
+            title=$1
+            ;;
+        -a | --author )
+            shift
+            author=$1
+            ;;
+        --tmp )
+            shift
+            tmppath=$1
+            ;;
+        -b | --bib | --bibpath )
+            shift
+            bib_path=$1
+            ;;
+        -w | --website | --websitepath )
+            shift
+            website_path=$1
+            ;;
+        -h | --help )
+            help
+            exit
+            ;;
+        *)
+            usage
+            exit 1
+            ;;
+    esac
+    shift
+done
+
 
 ############
 #  Output  #
 ############
-echo "Title: Output
+
+echo "Title: ${title}
 Author: ${author}" > ${tmppath}/output_header
-${website_folder}/bib/bib2mdown -f $publications -t Publications -r True -o ${tmppath}/output_$(basename $publications)
-${website_folder}/bib/bib2mdown -f $presentations -t Presentations -r True -o ${tmppath}/output_$(basename $presentations)
+${bib_path}/bib2mdown -f $publications -t Publications -r True -o ${tmppath}/output_$(basename $publications)
+${bib_path}/bib2mdown -f $presentations -t Presentations -r True -o ${tmppath}/output_$(basename $presentations)
 
 cat ${tmppath}/output_header ${tmppath}/output_$(basename $publications) ${tmppath}/output_$(basename $presentations) > $outfile
 

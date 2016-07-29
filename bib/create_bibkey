@@ -1,9 +1,82 @@
 #!/bin/sh
 
-website_folder="${HOME}/dev/website"
-bibfile=${1-"${HOME}/Latex/graf.bib"}
+# Basic usage
+usage() {
+    echo "
+    Produce blog entry for every item in bibtex file
+
+    Usage: create_bibkey [options] BIBFILE
+    "
+}
+
+# Detailed help
+help() {
+echo "create_bibkey [options] BIBFILE
+
+Input: bibtex file
+Output: pelican blog page for each bibentry
+
+Options:
+
+  -f  --file              input file
+  -i  --input             input file
+
+      --tmp               temp file
+
+  -b  --bib[path]         path to bib folder
+
+  -w  --website[path]     path to website folder
+
+  -h  --help              this overview
+"
+}
+
+
+###############
+#  Variables  #
+###############
+
+website_path="${HOME}/dev/website"
+bib_path="${website_path}/bib"
+bibfile=${1-"${bib_path}/references.bib"}
 tmppath="/tmp"
 outfile="${tmppath}/$(basename $bibfile).keys"
+
+# options
+while [ "$1" != "" ]; do
+    case $1 in
+        -f | -i | --file | --input )
+            shift
+            bibfile=$1
+            ;;
+        --tmp )
+            shift
+            tmppath=$1
+            ;;
+        -b | --bib | --bibpath )
+            shift
+            bib_path=$1
+            ;;
+        -w | --website | --websitepath )
+            shift
+            website_path=$1
+            ;;
+        -h | --help )
+            help
+            exit
+            ;;
+        *)
+            usage
+            exit 1
+            ;;
+    esac
+    shift
+done
+
+
+##########
+#  Body  #
+##########
 
 # only keep lines with bibtex key
 grep -E "^@" $bibfile > $outfile
@@ -14,7 +87,7 @@ sed -i 's/,$//g' $outfile
 
 # create blog page for each bib entry
 for key in $(cat $outfile); do
-    ${website_folder}/bib/bib2blog $bibfile $key;
+    ${website_path}/bib/bib2blog $bibfile $key;
 done
 
 # clean up

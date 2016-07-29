@@ -5,57 +5,39 @@ usage() {
     echo "
     Convert bibtex entry to pelican blog entry
     
-    Usage: bib2blog [options] BIBFILE BIBKEY [OUTPUT-FILE]
+    Usage: bib2blog [options] BIBFILE BIBKEY
     "
 }
 
 # Detailed help
 help() {
-echo "bib2blog [options] BIBENTRY BIBKEY [OUTPUT-FILE]
+echo "bib2blog [options] BIBFILE BIBKEY
 
 Input: bibtex file and bibkey of entry to be extracted from this file
-Output: formatted pelican blog page for bibentry
+Output: formatted pelican blog page for the bibentry
 
 Options:
 
-  Files and Paths
-  -------------------------------------------------------------------
   -f  --file              input file
   -i  --input             input file
 
-  -o  --output            output file
+  -k  --key               bibkey
+
+  -a  --author            author to be used for blog post
 
       --tmp               temp file
 
-  -b  --blogpath          path for pelican-internal link resolution
+      --aux               path to folders with extra info for bib entries
+      --aux[file]path
 
-  -c  --content           path to pelican content (sub)folder
+  -b  --bib[path]         path to bib folder
+
+  -c  --content[path]     path to pelican content (sub)folder
                           where output file should be saved
-      --content-path      dito
 
-  -p  --pdfpath           path to pdf folder
+  -w  --website[path]     path to website folder
 
-  -s  --style             csl style sheet to use in conversion
-
-  -w  --website-path      path to website folder
-
-
-  Output Parameters
-  -------------------------------------------------------------------
-  -a  --add-section       Boolean; should we add the type as a header
-                          at the top of the output file? 
-                          [Default=true]
-
-  -t  --type              specify type of blog page to create;
-                          Output: formatted bibliography of all
-                          bibtex entries
-                          Entry: blog page for single bibtex entry;
-                          sets add-section=False
-
-                        
-  Miscellaneous
-  -------------------------------------------------------------------
-  -h  --help            this overview
+  -h  --help              this overview
 "
 }
 
@@ -63,83 +45,63 @@ Options:
 #  Variables  #
 ###############
 
-# bibfile with entries to convert
-bibfile=$1
-
 # some important paths
 website_path="${HOME}/dev/website"
 content_path="${website_path}/content"
-pages_path="${content_path}/pages"
 bib_path="${website_path}/bib"
-style="${bib_path}/mylanguage.csl"
-
-# are we producing a large bibliography [Output]
-# or a blogpost for single bibtex entry [Entry]
-type="Output"
-
-# should the type be added as a header to the output file?
-add_section="True"
-
-# options
-# while [ "$1" != "" ]; do
-#     case $1 in
-#         -f | -i | --file | --input )
-#             shift
-#             bibfile=$1
-#             ;;
-#         --tmp )
-#             shift
-#             tmpfile=$1
-#             ;;
-#         -s | --style )
-#             shift
-#             style=$1
-#             ;;
-#         -b | --blogpath )
-#             shift
-#             blog_path=$1
-#             ;;
-#         -p | --pdfpath )
-#             shift
-#             pdf_path=$1
-#             ;;
-#         -t | --type )
-#             shift
-#             type=$1
-#             ;;
-#         -a | --add-section )
-#             shift
-#             add_section=$1
-#             ;;
-#         -c | --content | --contentpath )
-#             shift
-#             content_path=$1
-#             ;;
-#         -o | --output )
-#             shift
-#             outfile=$1
-#             ;;
-#         -w | --website )
-#             shift
-#             website_path=$1
-#             ;;
-#         -h | --help )
-#             help
-#             exit
-#             ;;
-#         *)
-#             usage
-#             exit 1
-#             ;;
-#     esac
-#     shift
-# done
+auxfile_path="${bib_path}/auxfiles"
 
 bibfile=$1
 bibkey=$2
 webauthor=${3-"Thomas Graf"}
 tmpfile="/tmp/bib2blog_${bibkey}.bib"
-auxfile_path="${bib_path}/auxfiles"
+
+# options
+while [ "$1" != "" ]; do
+    case $1 in
+        -f | -i | --file | --input )
+            shift
+            bibfile=$1
+            ;;
+        -k | --key )
+            shift
+            bibkey=$1
+            ;;
+        --tmp )
+            shift
+            tmpfile=$1
+            ;;
+        -a | --author )
+            shift
+            webauthor=$1
+            ;;
+        --aux | --auxpath | --auxfilepath )
+            shift
+            auxfile_path=$1
+            ;;
+        -b | --bib | --bibpath )
+            shift
+            bib_path=$1
+            ;;
+        -c | --content | --contentpath )
+            shift
+            content_path=$1
+            ;;
+        -w | --website | --websitepath )
+            shift
+            website_path=$1
+            ;;
+        -h | --help )
+            help
+            exit
+            ;;
+        *)
+            usage
+            exit 1
+            ;;
+    esac
+    shift
+done
 
 
 

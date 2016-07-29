@@ -63,6 +63,7 @@ Options:
 "
 }
 
+
 ###############
 #  Variables  #
 ###############
@@ -146,7 +147,6 @@ while [ "$1" != "" ]; do
     esac
     shift
 done
-
 
 # input file must exist,
 if [ -z $bibfile ]; then
