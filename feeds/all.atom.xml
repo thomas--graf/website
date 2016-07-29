@@ -27,8 +27,8 @@ Furthermore, the limitation to tier-based strictly local languages explains typo
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
 TAGs were recently shown not to be closed under strong lexicalization but to be strongly lexicalizable by context-free tree grammars of rank 2.
 This paper presents an alternative lexicalization procedure that builds on an earlier generalization of TAGs to multi-dimensional trees.
-A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding &lt;span class="caps"&gt;TAG&lt;/span&gt; is lifted to higher dimensions to show that for every $d$-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; there exists a $(d+1)$-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; that strongly lexicalizes it.
-A similar lifting reveals that $d$-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong&amp;nbsp;lexicalization.&lt;/p&gt;
+A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding &lt;span class="caps"&gt;TAG&lt;/span&gt; is lifted to higher dimensions to show that for every d-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; there exists a (d+1)-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; that strongly lexicalizes it.
+A similar lifting reveals that d-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong&amp;nbsp;lexicalization.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
