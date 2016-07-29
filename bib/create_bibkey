@@ -2,11 +2,9 @@
 
 # Basic usage
 usage() {
-    echo "
-    Produce blog entry for every item in bibtex file
+    echo "Produce blog entry for every item in bibtex file
 
-    Usage: create_bibkey [options] -i BIBFILE
-    "
+Usage: create_bibkey [options] -i BIBFILE"
 }
 
 # Detailed help
@@ -38,9 +36,7 @@ Options:
 
 website_path="${HOME}/dev/website"
 bib_path="${website_path}/bib"
-bibfile="${bib_path}/references.bib"
 tmppath="/tmp"
-outfile="${tmppath}/$(basename $bibfile).keys"
 
 # options
 while [ "$1" != "" ]; do
@@ -72,6 +68,18 @@ while [ "$1" != "" ]; do
     esac
     shift
 done
+
+# input file must exist
+if [ -z $bibfile ]; then
+    echo "Error: missing argument!\n"
+    usage
+    exit 1
+fi
+
+# also set a default output file if none specified
+if [ -z $outfile ]; then
+    outfile="${tmppath}/$(basename $bibfile).keys"
+fi
 
 
 ##########

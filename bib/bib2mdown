@@ -2,11 +2,9 @@
 
 # Basic usage
 usage() {
-    echo "
-    Convert bib file to markdown list of entries
+    echo "Convert bib file to markdown list of entries
     
-    Usage: bib2mdown [options] -i BIBFILE
-    "
+Usage: bib2mdown [options] -i BIBFILE"
 }
 
 # Detailed help
@@ -67,9 +65,6 @@ Options:
 ###############
 #  Variables  #
 ###############
-
-# bibfile with entries to convert
-bibfile=$1
 
 # some important paths
 website_path="${HOME}/dev/website"
@@ -150,16 +145,19 @@ done
 
 # input file must exist,
 if [ -z $bibfile ]; then
+    echo "Error: missing argument!\n"
     usage
     exit 1
+fi
+
 # and we create a default tmp-file if not manually specified
-elif [ "x$tmpfile" = "x" ]; then
+if [ "x$tmpfile" = "x" ]; then
     tmpfile="/tmp/$(basename $0)_$(basename $bibfile)"
 fi
 
 # also set a default output file: lowercase $type.mdown
 if [ -z $outfile ]; then
-    outfile="${2-$(echo $type | tr '[:upper:]' '[:lower:]').mdown}"
+    outfile="$(echo $type | tr '[:upper:]' '[:lower:]').mdown"
 fi
  
 # if blog_path isn't specified, pick smart default

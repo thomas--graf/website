@@ -5,6 +5,6 @@ bib_path=${website_path}/bib
 papers=${HOME}/Latex/graf.bib
 talks=${HOME}/Latex/graf_presentations.bib
 
-$bib_path/create_bibliography -p $papers -t $talks
+$bib_path/create_bibliography -p $papers -t $talks -a "Thomas Graf"
 $bib_path/create_bibkey -i $papers
 $bib_path/create_bibkey -i $talks

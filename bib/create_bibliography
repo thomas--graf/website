@@ -2,11 +2,9 @@
 
 # Basic usage
 usage() {
-    echo "
-    Produce formatted list of publications and presentations 
+    echo "Produce formatted list of publications and presentations 
 
-    Usage: create_bibliography [options] -p PUBLICATION-FILE -t PRESENTATION-FILE
-    "
+Usage: create_bibliography [options] -p PUBLICATION-FILE -t PRESENTATION-FILE -a AUTHORNAME"
 }
 
 # Detailed help
@@ -42,10 +40,6 @@ Options:
 ###############
 
 title="Output"
-author="Thomas Graf"
-publications=${1-"${HOME}/Latex/graf.bib"}
-presentations=${2-"${HOME}/Latex/graf_presentations.bib"}
-
 website_path="${HOME}/dev/website"
 bib_path="${website_path}/bib"
 tmppath="/tmp"
@@ -97,6 +91,12 @@ while [ "$1" != "" ]; do
     esac
     shift
 done
+
+if [ -z "$publications" -o -z "$presentations" -o -z "$author" ]; then
+    echo "Error: missing argument!\n"
+    usage
+    exit 1
+fi
 
 
 ############

@@ -2,11 +2,9 @@
 
 # Basic usage
 usage() {
-    echo "
-    Convert bibtex entry to pelican blog entry
+    echo "Convert bibtex entry to pelican blog entry
     
-    Usage: bib2blog [options] -i BIBFILE -k BIBKEY
-    "
+Usage: bib2blog [options] -i BIBFILE -k BIBKEY"
 }
 
 # Detailed help
@@ -101,6 +99,13 @@ while [ "$1" != "" ]; do
     esac
     shift
 done
+
+# input files must exist
+if [ -z "$bibfile" -o -z "$bibkey" ]; then
+    echo "Error: missing argument!\n"
+    usage
+    exit 1
+fi
 
 
 ######################
