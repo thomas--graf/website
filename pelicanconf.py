@@ -66,6 +66,8 @@ LOAD_CONTENT_CACHE = False
 
 SLUGIFY_SOURCE = 'basename'
 ARTICLE_SAVE_AS = '{slug}.html'
+
+# Tricks to deal with special files
 STATIC_PATHS = ['images', 'doc', 'extra/CNAME', 'extra/README.md', 'extra/robots.txt','timeline']
 STATIC_EXCLUDE_SOURCES = False
 IGNORE_FILES = ['timeline', 'extra']
@@ -82,7 +84,9 @@ TAGCLOUD_HEADER = 'Browse by Topic'
 TAG_CLOUD_SORTING = 'size'
 TAG_CLOUD_BADGE = True
 
+# We have our start page, so the index needs a different name
 INDEX_SAVE_AS = 'news.html'
+
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ['README.md', '.git', '.gitignore']
 DIRECT_TEMPLATES = ['index', 'categories', 'archives']
