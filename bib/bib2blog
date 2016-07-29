@@ -41,6 +41,7 @@ Options:
 "
 }
 
+
 ###############
 #  Variables  #
 ###############
@@ -102,7 +103,6 @@ while [ "$1" != "" ]; do
 done
 
 
-
 ######################
 #  File Preparation  #
 ######################
@@ -114,7 +114,6 @@ awk -v RS='' "/${bibkey},/" $bibfile > $tmpfile
 # convert entry to pelican format via bib2mdown
 cp $tmpfile ${bibkey}.bib
 ${bib_path}/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
-
 
 
 #########################
@@ -190,7 +189,7 @@ codelink="[code]($code)"
 
 # and now we put it all together
 
-# create file
+# create file with Pelican headers
 echo "Title: $(echo $title | tr -d "\n")
 Author: $webauthor
 Date: $date
@@ -198,11 +197,13 @@ Category: $category
 Tags: $tags
 " > ${content_path}/${macrotype}/${bibkey}.mdown
 
+# add the list of authors
 echo "<div markdown class=\"authors\">
 $(echo $author | tr -d "\n")
 </div>
 " >> ${content_path}/${macrotype}/${bibkey}.mdown
 
+# the abstract, if it exists
 if [ "x$abstract" != "x" ]; then
 echo "<div markdown class=\"abstract\">
 <span id=\"abstract-title\">Abstract</span>
@@ -211,32 +212,38 @@ $abstract
 " >> ${content_path}/${macrotype}/${bibkey}.mdown
 fi
 
+# the Files header
 echo "<div markdown class=\"files\">
 <span id=\"files-title\">Files</span>"\
 >> ${content_path}/${macrotype}/${bibkey}.mdown
 
+# add link to pdf if file exists
 if [ -e "${content_path}/doc/${macrotype}/${bibkey}.pdf" ]; then
     echo "[$pdflink]"\
     >> ${content_path}/${macrotype}/${bibkey}.mdown
 fi
 
+# add link to source code if file exists
+# fixme: we check for tar.gz or zip, but codelink is always tar.gz
 if [ -e "${content_path}/doc/${macrotype}/${bibkey}.tar.gz" -o -e "${content_path}/doc/${macrotype}/${bibkey}.zip" ]; then
     echo "[$codelink]"\
     >> ${content_path}/${macrotype}/${bibkey}.mdown
 fi
 
+# close the Files div element
 echo "</div>
 " >> ${content_path}/${macrotype}/${bibkey}.mdown
 
+# print the full bibtex entry, verbatim
 echo '~~~latex' >> ${content_path}/${macrotype}/${bibkey}.mdown
 cat  ${bibkey}.bib >> ${content_path}/${macrotype}/${bibkey}.mdown
 echo '~~~' >> ${content_path}/${macrotype}/${bibkey}.mdown
- 
 
 
 ##############
 #  Clean-Up  #
 ##############
+
 if [ -e $tmpfile ]; then
     rm $tmpfile
 fi
