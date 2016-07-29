@@ -3,14 +3,80 @@ Author: Thomas Graf
 
 # Computational Syntax
 
-# Syntactic Constraints
+My primary research area is computational syntax.
+I like to approach syntactic research questions from the perspective of Minimalist grammars (MGs), a formalization of Chomsky's Minimalist Program.
+MGs are very close to the syntactic mainstream, which allows me to draw from a humongous body of ideas and proposals.
+But the formal nature of MGs also allows me to probe these ideas with technical precision and depth to answer numerous questions:
 
-# Subregular Complexity
+- What kind of computational resources are needed for syntax?
+- How is resource usage influenced by properties of syntactic representations?
+- What kind of patterns can or cannot be produced by a given formalism?
+- Can we use computational characterizations to derive new language universals?
+- Are two competing formalisms just notational variants of each other? If not, how do they differ, and is there a way of teasing them apart empirically?
+- How are formal devices like Merge, Move, and feature checking connected at an abstract level?
 
-# Parsing
+One thing I have come to greatly appreciate through my work on MGs is the central role of derivation trees.
+While syntacticians still think of syntax in terms of phrase structure trees, derivation trees actually provide a much simpler structural description that is easier to reason about.
+Pretty much all my published MG research would've been much harder if not downright impossible without derivation trees.
 
-# Protein Folding
+I am also quite enamored with Tree Adjoining Grammar and Dependency Grammar, though I have only done a little bit of original research on the former and none of the latter.
+Both are very close in spirit to MGs, and the three display a surprising amount of overlap to anyone who endorsess the derivational view of syntax.
+
+
+# Computational Models of Syntactic Constraints
+
+A large part of my MG research pertains to syntactic constraints and their relation to syntactic features.
+I have shown that syntactic constraints and syntactic features are interdefinable in a specific way.
+Constraints can be reduced to features and features can be reduced to constraints, the two are one side of the same coin.
+More specifically, a constraint can be expressed in terms of subcategorization features iff it can be defined in monadic second-order logic (MSO).
+Virtually all constraints from the syntactic literature satisfy this requirement.
+This includes even transderivational constraints, which for the longest time have been believed to be computationally intractable.
+My results thus disprove claims that certain classes of constraints should be discarded for being too powerful, and they also show that every formalism with subcategorization massively overgenerates because it predicts that every MSO-definable constraint is a possible syntactic constraint.
+
+In the wake of this result, I am now trying to develop strategies to restrict this overgeneration as much as possible.
+Changes to the feature calculus correspond to changes in what constraints can be expressed in syntax.
+This basic fact makes it possible to link specific properties of linguistic objects to the constraints that hold of them.
+For instance, the optionality of adjuncts and conjuncts necessarily turns them into syntactic islands.
+
+
+# Algebraic Morphosyntax
+
+The overgeneration problem surfaces particularly clearly in morphosyntax.
+For example, the *Person Case Constraint* has 512 logically possible variants, but only 4 are attested.
+I have given an algebraic account that derives the small numbers of variants from Zwicky's Person Hierarchy in a natural manner.
+The next step will be to extend this approach to other aspects of morphosyntax, such as gender and number agreement.
+
+
+# Subregular Complexity in Phonology, Morphology, and Syntax
+
+That the full class of MSO-definable constraints cannot be the right characterization of syntactic constraints isn't just obvious from empirical data, it is also evident from formal considerations.
+None of the constraints in the syntactic literature require MSO, first-order logic suffices.
+And the derivation trees of MGs can also be defined in a much simpler logic.
+Both the constraints and the derivation trees are *subregular*, and I am trying to determine what kind of formal machinery provides the tightest fit for them.
+
+This line of research intersects with a large research enterprise by Jeff Heinz on subregularity in phonology.
+I have contributed some work to this enterprise, and I am also in the process of extending it to morphology.
+Jeff and me are also busy adapting the subregular techniques he developed for phonology to the more complicated structures found in syntax.
+
+
+# Distinguishing Syntactic Theories via Parsing
+
+My recent interest in parsing is yet another project that grew out of the overgeneration problem caused by the equivalence of features and MSO-definable constraints.
+In general, it is very hard to gauge the complexity of syntactic constraints and representations because there is large disagreement on what these structures look like.
+If two accounts make the same predictions for the available data, which one of them is right?
+This question would be easier to answer if one could relate each syntactic analysis to specific processing predictions that can then be verified in the lab.
+Following pioneering work by Greg Kobele, John Hale, and Sabrina Gerth, I am now testing the feasibility of using MG parsing as a model of human sentence processing to distinguish competing syntactic analyses.
+
+
+# Protein Folding as Sentence Parsing
+
+Protein folding is the process by which a sequence of amino acids combines into a richly structured object, which we call a protein. 
+This is similar to how a listener assembles linearly ordered words to obtain the syntactic structure of a sentence.
+Together with [Ken Dill at Stony Brook's Laufer Center](http://dillgroup.stonybrook.edu/) I am trying to apply parsing techniques from computational linguistics to protein folding.
+
 
 # Syntax Timeline
 
-[interactive timeline]({filename}/timeline/main.html)
+As a first-year graduate student at UCLA I developed an [interactive timeline of the history of generative syntax]({filename}/timeline/main.html).
+I haven't had much time since then to work on it, and it would probably be better to run it as a collaborative project with the support of the community.
+If you have any suggestions along those lines, please shoot me a line.
