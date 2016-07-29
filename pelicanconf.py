@@ -6,7 +6,7 @@ AUTHOR = u'Thomas Graf'
 SITENAME = u'Thomas Graf'
 SITESUBTITLE = u'Computational Linguist at Stony Brook University'
 SITEURL = 'http://localhost:8000'
-GITHUB_URL = 'https://github.com/thomas--graf/thomas--graf.github.io-src'
+GITHUB_URL = 'https://github.com/thomas--graf/website'
 
 PATH = 'content'
 
