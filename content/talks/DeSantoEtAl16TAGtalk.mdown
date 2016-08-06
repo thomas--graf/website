@@ -18,6 +18,8 @@ A similar lifting reveals that $d$-dimensional TAGs are not closed under strong 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/DeSantoEtAl16TAGtalk.pdf)]
+[[code]({filename}/doc/talks/DeSantoEtAl16TAGtalk.tar.gz)]
 </div>
 
 ~~~latex
