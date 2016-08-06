@@ -95,7 +95,9 @@ A previous theorem that every Tree Substitution grammar is strongly lexicalized 
 A similar lifting reveals that $d$-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong&amp;nbsp;lexicalization.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/DeSantoEtAl16TAGtalk.pdf"&gt;pdf&lt;/a&gt;]
+[&lt;a href="http://thomasgraf.net/doc/talks/DeSantoEtAl16TAGtalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;DeSantoEtAl16TAGtalk,
   author    = &lt;span class="nb"&gt;{&lt;/span&gt;De Santo, Aniello and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
