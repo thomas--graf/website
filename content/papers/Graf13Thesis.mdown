@@ -8,6 +8,30 @@ Tags: Minimalist grammars; syntax; constraints; MSO; tree automata; tree transdu
 Graf, Thomas
 </div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A long-standing tension in Minimalist syntax is that between the structure-building operations Merge and Move on the one hand and the constraints restricting the shape of the structures built by said operations on the other.
+Proposals differ vastly in how much weight they attribute to each component, partially because there seems to be no principled connection between the two --- constraints can easily be grafted onto any syntactic theory, and the choice of constraints is apparently independent of the types of posited operations.
+As a consequence, many foundational questions still lack satisfying answers:
+
+- What kinds of constraints are there?
+- What is their respective power, and are there any factors that could limit it?
+- Are there phenomena that can only be explained via constraints?
+- Why would syntax have both operations and constraints?
+
+My thesis explores these and related questions from a mathematically informed perspective.
+The central result is that Minimalist syntax can express a constraint purely via the operation Merge iff computing said constraint requires only a finitely bounded amount of working memory iff the constraint can be defined by an extension of first-order logic known as monadic second-order logic.
+A peculiar lexicalization procedure is used to establish the equivalence between Merge and constraints.
+The procedure pushes the working memory configurations that emerge during the computation of a constraint directly into the lexical categories.
+Refining categories in this fashion allows the selectional restrictions of lexical items to act as a proxy through which constraints are expressed via Merge.
+
+Merge-expressible constraints are very powerful and can capture dependencies between nodes as well as the domains that such dependencies are usually relativized to.
+Hence almost all conditions proposed in the syntactic literature belong to this class, including transderivational constraints and economy conditions.
+Surprisingly, the power of Merge-expressible constraints does not vary with respect to the type of syntactic tree structure they are stated over (phrase structure tree, multidominance tree, derivation tree), nor is it affected by locality restrictions.
+With respect to the issues raised above, then, the emerging picture is that the kind of constraints entertained by syntacticians belong to a uniform class of structural conditions that is computationally well-behaved and tightly linked to the foundations of the framework.
+The existence of these constraints in language is a natural consequence of the core component of Minimalist syntax: feature-driven Merge.
+</div>
+
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/papers/Graf13Thesis.pdf)]
