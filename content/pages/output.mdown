@@ -100,7 +100,7 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 <ol reversed markdown>
 <li markdown>
-De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View on Strong Lexicalization in Tag**. Slides of a talk given at the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms, June 29 – July 1, Düsseldorf, Germany. [[details]]({filename}/talks/DeSantoEtAl16TAGtalk.mdown)
+De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View on Strong Lexicalization in Tag**. Slides of a talk given at the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms, June 29 – July 1, Düsseldorf, Germany. [[pdf]]({filename}/doc/talks/DeSantoEtAl16TAGtalk.pdf) [[details]]({filename}/talks/DeSantoEtAl16TAGtalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2016): **Computational Lessons from and for Language**. Invited talk, April 28, IACS, Stony Brook University, Stony Brook, NY. [[pdf]]({filename}/doc/talks/Graf16IACStalk.pdf) [[details]]({filename}/talks/Graf16IACStalk.mdown)
