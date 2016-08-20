@@ -1,0 +1,30 @@
+Title: A Single Movement Normal Form for Minimalist Grammars
+Author: Thomas Graf
+Date: 2016-08-20
+Category: Talks
+Tags: Minimalist grammars, tree transductions, derivation trees, lexical blow-up, successive cyclic movement
+
+<div markdown class="authors">
+Graf, Thomas, Alëna Aksënova, and Aniello De Santo
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
+In order to simplify future analysis of the formalism, we prove that every MG can be converted into a strongly equivalent MG where every phrase moves at most once.
+The translation procedure is implemented via a deterministic linear tree transduction on the derivation tree language and induces at most a linear blow-up in the size of the lexicon.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/GrafEtAl16FGtalk.pdf)]
+</div>
+
+~~~latex
+@Misc{GrafEtAl16FGtalk,
+  author = {Graf, Thomas and Aks\"{e}nova, Al\"{e}na and De Santo, Aniello},
+  title = {A Single Movement Normal Form for {M}inimalist Grammars},
+  year = {2016},
+  note = {Slides of a talk given the 21st Conference on Formal Grammar, August 20--21, Bolzano, Italy}
+}
+~~~
