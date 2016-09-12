@@ -5,6 +5,8 @@ Author: Thomas Graf
 
 - [Computational Linguistics 2 (Lin637)](http://lin637.thomasgraf.net)
 
+- [Computational Phonology (Lin626)](http://lin626.thomasgraf.net)
+
 - [Parsing and Processing (Lin630)](http://lin630.thomasgraf.net)
 
 - Misc
