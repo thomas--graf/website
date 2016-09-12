@@ -25,6 +25,6 @@ The translation procedure is implemented via a deterministic linear tree transdu
   author = {Graf, Thomas and Aks\"{e}nova, Al\"{e}na and De Santo, Aniello},
   title = {A Single Movement Normal Form for {M}inimalist Grammars},
   year = {2016},
-  note = {Slides of a talk given the 21st Conference on Formal Grammar, August 20--21, Bolzano, Italy}
+  note = {Slides of a talk given at the 21st Conference on Formal Grammar, August 20--21, Bolzano, Italy}
 }
 ~~~

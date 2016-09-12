@@ -100,7 +100,7 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. Slides of a talk given the 21st Conference on Formal Grammar, August 20–21, Bolzano, Italy. [[pdf]]({filename}/doc/talks/GrafEtAl16FGtalk.pdf) [[details]]({filename}/talks/GrafEtAl16FGtalk.mdown)
+Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. Slides of a talk given at the 21st Conference on Formal Grammar, August 20–21, Bolzano, Italy. [[pdf]]({filename}/doc/talks/GrafEtAl16FGtalk.pdf) [[details]]({filename}/talks/GrafEtAl16FGtalk.mdown)
 </li>
 <li markdown>
 De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View on Strong Lexicalization in Tag**. Slides of a talk given at the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms, June 29 – July 1, Düsseldorf, Germany. [[pdf]]({filename}/doc/talks/DeSantoEtAl16TAGtalk.pdf) [[details]]({filename}/talks/DeSantoEtAl16TAGtalk.mdown)
