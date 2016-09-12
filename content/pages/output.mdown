@@ -109,6 +109,9 @@ De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View
 Graf, Thomas (2016): **Computational Lessons from and for Language**. Invited talk, April 28, IACS, Stony Brook University, Stony Brook, NY. [[pdf]]({filename}/doc/talks/Graf16IACStalk.pdf) [[details]]({filename}/talks/Graf16IACStalk.mdown)
 </li>
 <li markdown>
+Graf, Thomas (2016): **Computational Parallels Across Language Modules**. Invited talk, September 12, Department of Linguistics, Yale University, New Haven, CT. [[pdf]]({filename}/doc/talks/Graf16Yaletalk.pdf) [[details]]({filename}/talks/Graf16Yaletalk.mdown)
+</li>
+<li markdown>
 Graf, Thomas, James Monette, Robert Pasternak, and Chong Zhang (2016): **Memory Usage Predicts Relative Difficulty in Human Sentence Processing**. Poster presented at the IACS Research Day 2016, April 13, IACS, Stony Brook University, Stony Brook, NY. [[pdf]]({filename}/doc/talks/GrafEtAl16IACSposter.pdf) [[details]]({filename}/talks/GrafEtAl16IACSposter.mdown)
 </li>
 <li markdown>

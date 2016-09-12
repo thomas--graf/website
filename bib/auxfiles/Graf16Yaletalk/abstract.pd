@@ -1,0 +1,9 @@
+Linguists study a variety of aspects of language, including phonology, morphology, and syntax.
+It is commonly believed that those are  distinct modules of language, governed by very different principles  and consequently studied with very different tools.
+While there have been attempts at unification (e.g. Government Phonology, Distributed  Morphology, and OT-syntax), the received view is that these modules are too far removed from each other to allow for direct transfer of knowledge.
+
+In this talk, I argue against this position.
+Recent results from computational linguistics reveal a surprising amount of commonalities between phonology, morphology, and syntax.
+In particular, the dependencies found in all three are close to the bottom of the so-called subregular hiearchy.
+This results in an abstract but unified view of language where results from one domain can be extended to another in a precise manner.
+This has theoretical and empirical implications for cognition and typology alike, and it even furnishes new models of language acquisition.
