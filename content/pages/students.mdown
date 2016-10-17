@@ -23,5 +23,5 @@ Author: Thomas Graf
 - James Monette (SBU, Linguistics)
 - Robert Pasternak (SBU, Linguistics)
 - [Amanda Payne](http://udel.edu/~amandapa/) (UD, Linguistics)
-- Aniello de Santo (SBU, Linguistics)
+- Aniello De Santo (SBU, Linguistics)
 - Chong Zhang (SBU, Linguistics)
