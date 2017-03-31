@@ -1,52 +1,26 @@
 <html>
 <head>
-    <title>My Publications Exhibit</title>
-    <link rel="exhibit-babel" href="http://service.simile-widgets.org/babel/"/>
-    <script src="https://api.simile-widgets.org/exhibit/current/exhibit-api.js" type="text/javascript"></script>
-    <link rel="exhibit/data"
-       href="http://thomasgraf.net/doc/other/timeline.bib" 
-       type="application/x-bibtex" />
-    
-    <style>
-        body {
-            font-family: sans-serif;
-        }
-        div.publication { margin-bottom: 1em; padding: 1em; border: 1px solid #ccc; }
-        div.author {}
-        div.title { font-weight: bold; font-size: 120%; }
-    </style>
-</head>
+   <title>MIT Nobel Prize Winners</title>
+ 
+   <link href="nobelists.js" type="application/json" rel="exhibit/data" />
+ 
+   <script src="syntax.js"
+           type="text/javascript"></script>
+
+   <style>
+   </style>
+</head> 
 <body>
-    <h1>My Publications Exhibit</h1>
-    <table width="100%">
-        <tr valign="top">
-            <td>
-                    <div data-ex-role="collection" data-ex-item-types="Publication"></div>
-                    <div data-ex-role="exhibit-lens" ex:itemTypes="Publication" class="publication" style="display: none">
-                        <span data-ex-control="copy-button" style="float: right"></span>
-                        <div class="title"><span data-ex-content=".label"></span></div>
-                        <div class="authors"><span data-ex-content=".author"></span></div>
-                        <p data-ex-content=".abstract"></p>
-                    </div>
-                    <div data-ex-role="exhibit-lens" ex:itemTypes="Author" class="author" style="display: none">
-                        <span data-ex-control="copy-button" style="float: right"></span>
-                        <div class="title"><span data-ex-content=".label"></span></div>
-                        
-                        <ol class="publications" data-ex-content="!author">
-                            <li data-ex-content="value"></li>
-                        </ol>
-                    </div>
-                    <div data-ex-role="view"
-                        data-ex-view-class="TileView"
-                        data-ex-orders=".pub-type"
-                        data-ex-possible-orders=".pub-type, .author, .year, .label"></div>
-            </td>
-            <td width="30%">
-                <div data-ex-role="facet" data-ex-expression=".pub-type"></div>
-                <div data-ex-role="facet" data-ex-ex:expression=".author"></div>
-                <div data-ex-role="facet" data-ex-expression=".year"></div>
-            </td>
-        </tr>
-    </table>
+   <h1>MIT Nobel Prize Winners</h1>
+   <table width="100%">
+       <tr valign="top">
+           <td ex:role="viewPanel">
+               <div ex:role="view"></div>
+           </td>
+           <td width="25%">
+               browsing controls here...
+           </td>
+       </tr>
+   </table>
 </body>
 </html>
