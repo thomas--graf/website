@@ -24,20 +24,115 @@
         <h1>Timeline of the History of Generative Syntax</h1>
     </div>
 
-    <div id="top-panels">
-        <table width="100%"><tr>
-            <td>Facets for sorting and browsing go here</td>
-            </tr>
-        </table>
-    </div>
+    <!-- <div id="top&#45;panels"> -->
+    <!--     <table width="100%"><tr> -->
+    <!--         <td>Facets for sorting and browsing go here</td> -->
+    <!--         </tr> -->
+    <!--     </table> -->
+    <!-- </div> -->
+    <!--  -->
+    <!-- <div ex:role="viewPanel" style="padding: 1em 0.5in;"> -->
+    <!--     <div ex:role="view" -->
+    <!--         ex:label="Details" -->
+    <!--         ex:viewClass="Tile" -->
+    <!--         ex:showAll="true"> -->
+    <!--     </div> -->
+    <!-- </div> -->
 
-    <div ex:role="viewPanel" style="padding: 1em 0.5in;">
-        <div ex:role="view"
-            ex:label="Details"
-            ex:viewClass="Tile"
-            ex:showAll="true">
-        </div>
+    <div ex:role="coder" ex:coderClass="Color" id="type-colors">
+        <span ex:color="#283C41">HPSG</span>
+        <span ex:color="#486090">GPSG</span>
+        <span ex:color="#3D7C2C">LFG</span>
+        <span ex:color="#348F7D">Relational Grammar</span>
+        <span ex:color="#9D4F00">Transformational</span>
+        <span ex:color="#FF9000">GB</span> 
+        <span ex:color="#BD1C18">Minimalism</span> 
+        <span ex:color="#29221E">other</span>
     </div>
+    <table width="98%">
+        <tr valign="top">
+            <td ex:role="viewPanel">
+                <table ex:role="lens" class="Entry">
+                    <tr>
+                        <td>
+                            <div ex:if-exists=".author" class="author">Author:
+                                <span ex:content=".author"></span>
+                            </div>
+                            <div ex:if-exists=".co-author" class="co-author">Co-author(s): 
+                                <span ex:content=".co-author"></span>
+                            </div>
+                            <div ex:if-exists=".title" class="year">Title:
+                                <span ex:content=".title"></span>
+                            </div>
+                            <div ex:if-exists=".year" class="year">Year:
+                                <span ex:content=".year"></span>
+			                </div>
+			                <div ex:if-exists=".innovations" class="innovations">Innovations: 
+                                <span ex:content=".innovations"></span>
+                            </div>
+			                <div ex:if-exists=".keywords" class="keywords">Keywords: 
+                                <span ex:content=".keywords"></span>
+                            </div>
+			                <div ex:if-exists=".details" class="details">
+                                <span ex:content=".details"></span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div ex:role="exhibit-view"
+                     ex:viewClass="Exhibit.TimelineView"
+                     ex:start=".year"
+                     ex:marker=".framework"
+		             ex:showHeader="true"
+		             ex:showFooter="true"
+		             ex:showSummary="true"
+		             ex:topBandIntervalPixels="140"
+		             ex:bottomBandIntervalPixels="160"
+		             ex:configuration="timelineConfig"
+		             ex:topBandUnit="year"
+		             ex:bottomBandUnit="decade"
+		             ex:colorCoder="type-colors"
+		             ex:colorKey=".framework">
+                </div>
+                <div ex:role="view"
+		             ex:label="List"
+                     ex:orders=".author, .year"
+                     ex:possibleOrders=".author, .framework, .title, .year">
+                </div>
+            </td>
+            <td width="18%">
+                <div ex:role="facet"
+                     ex:facetClass="TextSearch"
+                     id="search-facet"
+                     ex:facetLabel="Search">
+                </div>
+                <div ex:role="facet"
+                     ex:expression=".framework"
+                     id="framework-facet"
+                     ex:facetLabel="Framework"
+                     ex:showMissing="true"
+                     ex:scroll="false">
+                </div>
+                <div ex:role="facet"
+                     ex:expression=".keywords"
+                     id="keyword-facet"
+                     ex:facetLabel="Keywords"
+                     ex:height="13em"
+                     ex:showMissing="true"
+                     ex:scroll="true">
+                </div>
+                <div ex:role="facet"
+                     ex:expression=".author"
+                     id="author-facet"
+                     ex:facetLabel="Author"
+                     ex:height="7em"
+                     ex:showMissing="true"
+                     ex:scroll="true">
+                </div>
+            </td>
+        </tr>
+    </table>
+
 </div>
 </body>
 </html>
