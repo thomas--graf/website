@@ -787,7 +787,7 @@
            "label" :                 "Epstein et al. 1998<br />start Strictly Derivational Minimalism",
 	   "author" :		    "Epstein, Samuel D.",
 	    "co-author" :	    "Groat, Erich M.",
-	    "co-author" :	    "Kawashima, Ruriko",
+        "co-author" :	    "Kawashima, Ruriko",
 	    "co-author" :	    "Kitahara, Hisatsugu",
 	   "title" :		    "A Derivational Approach to Syntactic Relations",
            "year" :         	    "1998",
