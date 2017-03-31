@@ -78,7 +78,7 @@ function onLoad() {
   bandInfos[1].highlight = true;
 
   tl = Timeline.create(document.getElementById("syntax-timeline"), bandInfos);
-  Timeline.loadXML("syntax.xml", function(xml, url) { eventSource.loadxml(xml, url); });
+  Timeline.loadJSON("syntax.js", function(xml, url) { eventSource.loadJSON(xml, url); });
 }
 
 var resizeTimerID = null;
