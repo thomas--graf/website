@@ -979,21 +979,6 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#GazdarKleinEtAl85 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Gärtner & Michaelis 2007: formally investigate locality conditions",
-	   "author" :		    "Gärtner, Hans-Martin",
-	   "co-author" :	    ["Michaelis, Jens"],
-	   "title" :		    "Some Remarks on Locality Conditions and Minimalist Grammars",
-           "year" :         	    "2007",
-	   "framework" :             "Minimalism",
-	   "innovations" :	    [
-		"First accessible presentation of formal research on the expressivity of different variants of Minimalist Grammars"
-	    ],
-           "keywords" :		    [
-		"Constraints"
-	    ],
-	   "details" :		    "<a href=./syntax_history_bibtex.html#GaertnerMichaelis07 target=_blank>Details</a>"
-	},
-	{  "type" :                  "entry",
            "label" :                 "Hale and Keyser 1993: rethink incorporation",
 	   "author" :		    "Hale, Kenneth",
 	   "co-author" :	    ["Keyser, Samuel J."],
@@ -1026,21 +1011,6 @@
 		"Thematic Roles"
 	    ],
 	   "details" :		    "<a href=./syntax_history_bibtex.html#HalleMarantz93 target=_blank>Details</a>"
-	},
-	{  "type" :                  "entry",
-           "label" :                 "Heim 2008: separates interpretability from interpretation",
-	   "author" :		    "Heim Irene",
-	   "title" :		    "Features on Bound Pronouns",
-           "year" :         	    "2008",
-	   "framework" :             "Minimalism",
-	   "innovations" :	    [
-		"Presents evidence that interpretable features are not always interpreted"
-	    ],
-           "keywords" :		    [
-		"Features",
-		"Logical Form"
-	    ],
-	   "details" :		    "<a href=./syntax_history_bibtex.html#Heim08 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
            "label" :                 "Higginbotham 1980: extends the Leftness condition",
