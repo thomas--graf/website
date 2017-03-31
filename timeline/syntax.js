@@ -1,14 +1,14 @@
 {
-    types: {
-        "entry" : {
-            pluralLabel: "entries"
-        }
-    },
-    properties: {
+    // types: {
+    //     "entry" : {
+    //         pluralLabel: "entries"
+    //     }
+    // },
+    // properties: {
 // 	"keywords" : {
 // 	    valueType: "item"
 // 	}
-    },
+    // },
     "items" : [
     	{   type :                  "entry",
             label :                 "Abney 1987<br />DP above NP",
