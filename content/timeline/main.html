@@ -11,6 +11,23 @@
     <link rel="exhibit-extension" type="text/javascript" href="http://api.simile-widgets.org/exhibit/3.1.0rc/extensions/time/time-extension.js" type="text/javascript" />
     <script src="http://api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js"></script>
 
+    <style>
+    .question {
+        font-style: italic;
+    }
+
+    .answer {
+    }
+
+    .author, .co-author, .year, .innovations, .keywords, .framework, .details {
+        text-align: left;
+        font-size:   90%;
+    }
+
+    #search-facet, #framework-facet, #keyword-facet, #author-facet, #type-colors {
+        font-size: small;
+    }
+    </style>
 </head>
 <body>
 
@@ -22,6 +39,7 @@
 <div id="main-content">
     <div id="title-panel">
         <h1>Timeline of the History of Generative Syntax</h1>
+        <h3>created by <a href="http://thomasgraf.net">Thomas Graf</a></h3>
     </div>
 
     <div ex:role="coder" ex:coderClass="Color" id="type-colors">
@@ -160,28 +178,29 @@
     <h3>Contributing</h3>
     <p>
     Feel free to submit new entries via email.
-    Submissions should include the full bibliographic reference formated as a bibtex entry, at least one reason as to why it should be added to the timeline, and the actual <a href="http://www.json.org/" title="Homepage of JSON, a simple data interchange format used in many AJAX based web services">JSON</a> database entry, formated as indicated below and doublechecked for the correct usage of quotation marks and commas:
+    Submissions should include the full bibliographic reference formated as a bibtex entry, at least one reason as to why it should be added to the timeline, and the actual JSON database entry, formated as indicated below and doublechecked for the correct usage of quotation marks and commas:
     </span>
     </p>
     <pre>
-        {   type :                  "entry",
-                label :                 "Author Year_in_four_digits&lt;br&gt;short_description",
-            author :		    "Surname, First_name",
-            title : 		    "Full_title",
-                year :         	    "Year_in_four_digits",
-            framework :             "abbreviation_for_framework",
-            innovations :	    [
-            "list_of_all_innovations"
+        {   "type" : "entry",
+            "label" : "Author Year_in_four_digits: short_description",
+            "author" : "Surname, First_name",
+            "co-author" : ["second author", "third author", "... last author"]
+            // delete this field for single-authored papers
+            "title" : "Full_title",
+            "year" : "Year_in_four_digits",
+            "framework" : "abbreviation_for_framework",
+            "innovations" :	[
+            "innovation 1", "innovation 2", "...innovation n"
             ],
-                keywords :		    [
-            "coma-separated_list_of_keywords"
-            // where possible, try to stick with those already in use
+            "keywords" : [
+            "keyword 1", "keyword 2", "... keyword n"
+            // where possible, use existing keywords
             ],
-            details :		    "link_to_details"
-            //leave that one blank
+            "details" :		    "link_to_details"
+            // keep this as is
         }
     </pre>
-
 
     <h2><a id="faq" name="faq">FAQ</a></h2>
 
@@ -190,7 +209,7 @@
         What exactly is this "syntax timeline?" How does it work?
     </span><br />
     <span class="answer">
-        In computer nerd lingo, it's a DHTML-based AJAX widget for the visualization of time-based events.
+        In computer nerd lingo, it's a javascript widget for the visualization of time-based events.
         In the speech of mere mortals, it's simply an interactive timeline listing influential publications in generative syntax.
         By interactive I mean that you can filter the output, click on an entry to get additional information and so on.
         It's like Google maps for the history of syntax.
@@ -215,11 +234,14 @@
 
     <p>
     <span class="question"><a id="t_criteria" name="t_criteria"></a>
-        According to which criteria did you pick the articles? (aka "Why isn't my article mentioned here?")
+        According to which criteria did you pick the articles? (aka "Why isn't my highly influential work mentioned here?")
     </span><br />
     <span class="answer">
-        I created the timeline for my own personal use and only later on did I decide to put it online, so the criteria are kind of arbitrary and seldom applied in a rigorous fashion, especially for the entries after 2000.
+        I created the timeline in 2008 (the first semester of grad school) for my own personal use.
+        Only later on did I decide to put it online.
+        So this project is very informal in nature: the criteria for inclusion are fairly arbitrary and rarely applied in a rigorous fashion, especially for the entries after 2000.
         My goal was to trace the development of main concepts of generative syntax, highlighting both the publications that moved a proposal into the standard theory and those where an idea or term was introduced for the first time.
+        The only limitation I imposed on myself is a cutoff date of 2005, which isn't much of a restriction considering that the timeline was created in 2008.
     </span>
     </p>
 
@@ -228,8 +250,10 @@
         Did you do this all by yourself?
     </span><br />
     <span class="answer">
-        No, the greatest part of the work was actually done by MIT's <a href="http://simile.mit.edu/exhibit/" title="Homepage of Exhibit">Simile Exhibit</a> and <a href="http://simile.mit.edu/timeline/" title="Homepage of Timeline">Simile Timeline</a> developers, who wrote all the code and released it under a <a href="http://en.wikipedia.org/wiki/Bsd_license" title="Wikipedia entry for the BSD license">BSD</a>-style license.
-        In addition, the following people have so far helped me with their syntactic expertise in one way or the other (in alphabetical order of last name):<br />
+        Yes and no.
+        The greatest part of the technical work was actually done by MIT's <a href="http://simile.mit.edu/exhibit/" title="Homepage of Exhibit">Simile Exhibit</a> and <a href="http://simile.mit.edu/timeline/" title="Homepage of Timeline">Simile Timeline</a> developers, who wrote all the code and released it under a <a href="http://en.wikipedia.org/wiki/Bsd_license" title="Wikipedia entry for the BSD license">BSD</a>-style license.
+        But for the setup, configuration, and data collection I was on my own.
+        However, the following people have helped me with their syntactic expertise in one way or the other (in alphabetical order of last name):<br />
         Natasha Abner, Peter Hallman, Hilda Koopman, Gereon M&uuml;ller, Dominique Sportiche
     </span>
     </p>
@@ -267,7 +291,7 @@
 
     <h2>Download</h2>
 
-    Just go to the <a href="">github repository for my personal website</a>.
+    Just go to the <a href="https://github.com/thomas--graf/website/">github repository for my personal website</a>.
     All relevant files are in the folder <i>content/timeline</i>
 
 </div>
