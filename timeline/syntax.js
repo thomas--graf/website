@@ -132,7 +132,7 @@
 	{  "type" :                  "entry",
            "label" :                 "Barker & Pullum 1990<br />formal study of command relations",
 	   "author" :		    "Barker, Chris",
-	   "co-author" :	    "Pullum, Geoffrey K."],
+	   "co-author" :	    ["Pullum, Geoffrey K."],
 	   "title" :		    "A Theory of Command Relations",
            "year" :         	    "1990",
 	   "framework" :             "other",
