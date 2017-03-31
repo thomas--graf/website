@@ -1,4 +1,4 @@
-{
+// {
     // types: {
     //     "entry" : {
     //         pluralLabel: "entries"
@@ -9,7 +9,7 @@
 // 	    valueType: "item"
 // 	}
     // },
-    "items" : [
+{ "items" : [
     	{   type :                  "entry",
             label :                 "Abney 1987<br />DP above NP",
 	    author :		    "Abney, Steven",
