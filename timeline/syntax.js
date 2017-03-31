@@ -160,7 +160,7 @@
 	    ],
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Besten77 target=_blank>Details</a>"
 	},
-	{   "type":		    "entry",
+    {   "type":		    "entry",
 	    "label":		    "Bierwisch 1963<br />early transformational analysis of German",
 	    "author":		    "Bierwisch, Manfred",
 	    "title":		    "Grammatik des deutschen Verbs",
