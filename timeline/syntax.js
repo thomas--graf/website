@@ -1,15 +1,4 @@
-// {
-    // types: {
-    //     "entry" : {
-    //         pluralLabel: "entries"
-    //     }
-    // },
-    // properties: {
-// 	"keywords" : {
-// 	    valueType: "item"
-// 	}
-    // },
-{ "items" : [
+"items" : [
     	{   type :                  "entry",
             label :                 "Abney 1987<br />DP above NP",
 	    author :		    "Abney, Steven",
@@ -2344,4 +2333,3 @@
 	    details :		    "<a href=./syntax_history_bibtex.html#Williams83 target=_blank>Details</a>"
 	}
     ]
-}
