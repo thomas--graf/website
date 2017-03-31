@@ -43,7 +43,7 @@
 	{  "type" :                  "entry",
            "label" :                 "Aoun and Sportiche 1983<br />define m-command",
 	   "author" :		    "Aoun, Joseph",
-	    "co-author" :	    ["Sportiche, Dominique"],
+	   "co-author" :	    ["Sportiche, Dominique"],
 	   "title" :		    "On the Formal Theory of Government",
            "year" :         	    "1983",
 	   "framework" :             "GB",
