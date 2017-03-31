@@ -9,7 +9,8 @@
     <link href="syntax.js" type="application/json" rel="exhibit-data" />
 
     <link rel="exhibit-extension" type="text/javascript" href="http://api.simile-widgets.org/exhibit/3.1.0rc/extensions/time/time-extension.js" type="text/javascript" />
-    <script src="http://api.simile-widgets.org/exhibit/3.1.0rc1/exhibit-api.js" type="text/javascript"></script> 
+    <script src="http://api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js"></script>
+
     <!-- <script src="http://api.simile&#45;widgets.org/exhibit/3.1.0rc1/extensions/time/time&#45;extension.js" -->
          <!-- type="text/javascript"></script> -->
 
@@ -87,7 +88,13 @@
                 <div ex:role="view"
                      ex:viewClass="Timeline"
                      ex:start=".year"
-		             ex:colorKey=".framework">
+		             ex:colorKey=".framework"
+                     ex:topBandUnit="year"
+                     ex:topBandPixelsPerUnit="140"
+                     ex:bottomBandUnit="decade"
+                     ex:bottomBandPixelsPerUnit="160"
+                     ex:bubbleWidth="400"
+                     ex:bubbleHeight="250">
                 </div>
                 <!-- <div ex:role="view" -->
                 <!--      ex:viewClass="Timeline" -->
