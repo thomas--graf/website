@@ -8,7 +8,7 @@
  	},
     "items" : [
     	{  "type" :                  "entry",
-           "label" :                 "Abney 1987<br />DP above NP",
+           "label" :                 "Abney 1987: DP above NP",
 	   "author" :		    "Abney, Steven",
 	   "title" :		    "The English Noun Phrase in its Sentential Aspect",
            "year" :         	    "1987",
@@ -23,7 +23,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Abney87 target=_blank>Details</a>"
         },
         {  "type" :                  "entry",
-           "label" :                 "Adger & Ramchand 2005<br />on Comp-alternations in Irish",
+           "label" :                 "Adger & Ramchand 2005: on Comp-alternations in Irish",
 	   "author" :		    "Adger, David",
 	   "co-author" :	    ["Ramchand, Gillian"],
 	   "title" : 		    "Merge and Move: Wh-dependencies revisited",
@@ -41,7 +41,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#AdgerRamchand05 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Aoun and Sportiche 1983<br />define m-command",
+           "label" :                 "Aoun and Sportiche 1983: define m-command",
 	   "author" :		    "Aoun, Joseph",
 	   "co-author" :	    ["Sportiche, Dominique"],
 	   "title" :		    "On the Formal Theory of Government",
@@ -56,7 +56,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#AounSportiche83 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Aoun, Hornstein, Sportiche 1981<br />coin wh-in-situ",
+           "label" :                 "Aoun, Hornstein, Sportiche 1981: coin wh-in-situ",
 	   "author" :		    "Aoun, Joseph",
 	   "co-author" :	    ["Sportiche, Dominique"],
 	   "title" :		    "Some Aspects of Wide Scope Quantification",
@@ -73,7 +73,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#AounHornsteinEtAl81 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Bach 1962<br />applies Transformational to German for the first time",
+           "label" :                 "Bach 1962: applies Transformational to German for the first time",
 	   "author" :		    "Bach, Emmon",
 	   "title" :		    "The Order of Elements in a Transformational Grammar of German",
            "year" :         	    "1962",
@@ -86,7 +86,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Bach62 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Bach 1964<br />first textbook on Transformational Grammar",
+           "label" :                 "Bach 1964: first textbook on Transformational Grammar",
 	   "author" :		    "Bach, Emmon",
 	   "title" :		    "An Introduction to Transformational Grammars",
            "year" :         	    "1964",
@@ -99,7 +99,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Bach64 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Baker 1985<br />introduces the mirror principle",
+           "label" :                 "Baker 1985: introduces the mirror principle",
 	   "author" :		    "Baker, Mark",
 	   "title" :		    "The Mirror Principle and Morphosyntactic Explanation",
            "year" :         	    "1985",
@@ -114,7 +114,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Baker85 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Baker 1988<br />most influential theory of incorporation",
+           "label" :                 "Baker 1988: most influential theory of incorporation",
 	   "author" :		    "Baker, Mark",
 	   "title" :		    "Incorporation: a theory of grammatical function changing",
            "year" :         	    "1988",
@@ -130,7 +130,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Baker88 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Barker & Pullum 1990<br />formal study of command relations",
+           "label" :                 "Barker & Pullum 1990: formal study of command relations",
 	   "author" :		    "Barker, Chris",
 	   "co-author" :	    ["Pullum, Geoffrey K."],
 	   "title" :		    "A Theory of Command Relations",
@@ -145,7 +145,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#BarkerPullum90 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "den Besten 1977<br />first flashed-out version of head movement and V2",
+           "label" :                 "den Besten 1977: first flashed-out version of head movement and V2",
 	   "author" :		    "den Besten, Hans",
 	   "title" :		    "On the Interaction of Root Transformations and Lexical Deletive Rules",
            "year" :         	    "1977",
@@ -161,7 +161,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Besten77 target=_blank>Details</a>"
 	},
     {   "type":		    "entry",
-	    "label":		    "Bierwisch 1963<br />early transformational analysis of German",
+	    "label":		    "Bierwisch 1963: early transformational analysis of German",
 	    "author":		    "Bierwisch, Manfred",
 	    "title":		    "Grammatik des deutschen Verbs",
 	    "year":		    "1963",
@@ -171,7 +171,7 @@
 	    "details":		    "<a href=./syntax_history_bibtex.html#Bierwisch63 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Borer 1984<br />restricts parametric variation to the lexicon",
+           "label" :                 "Borer 1984: restricts parametric variation to the lexicon",
 	   "author" :		    "Borer, Haggit",
 	   "title" :		    "Parametric Syntax: Case Studies in Semitic and Romance Languages",
            "year" :         	    "1984",
@@ -185,7 +185,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Borer84 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Brame 1968<br />Head Promotion analysis of relative clauses",
+           "label" :                 "Brame 1968: Head Promotion analysis of relative clauses",
 	   "author" :		    "Brame, Michael",
 	   "title" :		    "A New Analysis of the Relative Clause: Evidence for an Interpretive Theory",
            "year" :         	    "1968",
@@ -200,7 +200,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Brame68 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Bresnan 1970<br />elaborates the structure of COMP",
+           "label" :                 "Bresnan 1970: elaborates the structure of COMP",
 	   "author" :		    "Bresnan, Joan",
 	   "title" :		    "On Complementizers: Toward a Syntactic Theory of Complement Types",
            "year" :         	    "1970",
@@ -228,7 +228,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Bresnan72 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Bresnan 1976<br />",
+           "label" :                 "Bresnan 1976: ",
 	   "author" :		    "Bresnan, Joan",
 	   "title" :		    "On the Form and Function of Transformations",
            "year" :         	    "1976",
@@ -245,7 +245,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Bresnan76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Brody 1995<br />defines a representational version of Minimalism",
+           "label" :                 "Brody 1995: defines a representational version of Minimalism",
 	   "author" :		    "Brody, Michael",
 	   "title" :		    "Lexico-Logical Form: A Radically Minimalist Theory",
            "year" :         	    "1995",
@@ -259,7 +259,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Brody95 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Burzio 1981<br />formulates Burzio's generalization",
+           "label" :                 "Burzio 1981: formulates Burzio's generalization",
 	   "author" :		    "Burzio, Luigi",
 	   "title" :		    "Intransitive Verbs and Italian Auxiliaries",	
            "year" :         	    "1981",
@@ -273,7 +273,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Burzio81 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Burzio 1986<br />adopts Unaccusative Hypothesis for GB",
+           "label" :                 "Burzio 1986: adopts Unaccusative Hypothesis for GB",
 	   "author" :		    "Burzio, Luigi",
 	   "title" :		    "Italian Syntax",	
            "year" :         	    "1986",
@@ -289,7 +289,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Burzio86 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1957<br />kickstarts the generative enterprise",
+           "label" :                 "Chomsky 1957: kickstarts the generative enterprise",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "Syntactic Structures",
            "year" :         	    "1957",
@@ -304,7 +304,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky57 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1962<br />Texas conference",
+           "label" :                 "Chomsky 1962: Texas conference",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "The Logical Basis of Linguistic Theory",
            "year" :         	    "1962",
@@ -317,7 +317,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky62 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1965<br />introduces the Standard Theory",
+           "label" :                 "Chomsky 1965: introduces the Standard Theory",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "Aspects of the Theory of Syntax",
            "year" :         	    "1965",
@@ -330,7 +330,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky65 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1970<br />introduces EST",
+           "label" :                 "Chomsky 1970: introduces EST",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "Remarks on Nominalization",
            "year" :         	    "1970",
@@ -352,7 +352,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky70 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1973<br />unifies Ross's constraints",
+           "label" :                 "Chomsky 1973: unifies Ross's constraints",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "Conditions on Transformations",
            "year" :         	    "1973",
@@ -373,7 +373,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky73 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1974<br />first mention of traces in EST",
+           "label" :                 "Chomsky 1974: first mention of traces in EST",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "The Amherst Lectures",
            "year" :         	    "1974",
@@ -387,7 +387,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky74 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1976<br />introduces the Leftness condition",
+           "label" :                 "Chomsky 1976: introduces the Leftness condition",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "Conditions on Rules of Grammar",
            "year" :         	    "1976",
@@ -402,7 +402,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1977<br />defines REST",
+           "label" :                 "Chomsky 1977: defines REST",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "On wh-Movement",
            "year" :         	    "1977",
@@ -423,7 +423,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1980<br />defines the last precursor to classical binding theory",
+           "label" :                 "Chomsky 1980: defines the last precursor to classical binding theory",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "On Binding",
            "year" :         	    "1980",
@@ -440,7 +440,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky80 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1981<br />starts the LGB era",
+           "label" :                 "Chomsky 1981: starts the LGB era",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Lectures on Government and Binding: The Pisa Lectures",
            "year" :         	    "1981",
@@ -470,7 +470,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky81 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1982<br />analysis parasitic gaps as empty pronouns",
+           "label" :                 "Chomsky 1982: analysis parasitic gaps as empty pronouns",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Some Concepts and Consequences of the Theory of Government and Binding",
            "year" :         	    "1982",
@@ -484,7 +484,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1986<br />introduces barriers",
+           "label" :                 "Chomsky 1986: introduces barriers",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Barriers",
            "year" :         	    "1986",
@@ -503,7 +503,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky86 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1986<br />most articulate standard theory of binding",
+           "label" :                 "Chomsky 1986: most articulate standard theory of binding",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Knowledge of Language: Its Nature, Origins and Use",
            "year" :         	    "1986",
@@ -517,7 +517,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky86a target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1991<br />generalizes Kayne89 and Koopman92 to AgrO",
+           "label" :                 "Chomsky 1991: generalizes Kayne89 and Koopman92 to AgrO",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Some Notes on Economy of Derivation and Representation",
            "year" :         	    "1991",
@@ -533,7 +533,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky91 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1993<br />starts the Minimalist Program",
+           "label" :                 "Chomsky 1993: starts the Minimalist Program",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "A Minimalist Program for Linguistic Theory",
            "year" :         	    "1993",
@@ -557,7 +557,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky93 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1995<br />revises and popularizes Minimalist Program",
+           "label" :                 "Chomsky 1995: revises and popularizes Minimalist Program",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "The Minimalist Program",
            "year" :         	    "1995",
@@ -586,7 +586,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky95 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1998/2000<br />revises feature checking",
+           "label" :                 "Chomsky 1998/2000: revises feature checking",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Minimalist Inquiries",
            "year" :         	    "1998",
@@ -605,7 +605,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky01 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 1999/2001<br />picks up the notion of barriers again",
+           "label" :                 "Chomsky 1999/2001: picks up the notion of barriers again",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Derivation by Phase",
            "year" :         	    "1999",
@@ -623,7 +623,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky01 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 2001/2004<br />reintroduces representations",
+           "label" :                 "Chomsky 2001/2004: reintroduces representations",
 	   "author" :		    "Chomsky, Noam",
 	   "title" :		    "Beyond Explanatory Adequacy",
            "year" :         	    "2001",
@@ -639,7 +639,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky04 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky 2005<br />on feature inheritance",
+           "label" :                 "Chomsky 2005: on feature inheritance",
 	   "author" :		    "Chomsky, Noam",
 	   "title" : 		    "On Phases",
            "year" :         	    "2005",
@@ -654,7 +654,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Chomsky05a target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Chomsky and Lasnik 1977<br />move REST towards GB",
+           "label" :                 "Chomsky and Lasnik 1977: move REST towards GB",
 	   "author" :		    "Chomsky, Noam",
 	   "co-author" :	    ["Lasnik, Howard"],
 	   "title" : 		    "Filters and Control",
@@ -677,7 +677,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#ChomskyLasnik77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Cinque 1994<br />refines the adjective hierarchy",
+           "label" :                 "Cinque 1994: refines the adjective hierarchy",
 	   "author" :		    "Cinque, Guglielmo",
 	   "title" :		    "On the Evidence for Partial N-Movement in the Romance DP",
            "year" :         	    "1994",
@@ -692,7 +692,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Cinque94 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Cinque 1999<br />develops the adverb hierarchy",
+           "label" :                 "Cinque 1999: develops the adverb hierarchy",
 	   "author" :		    "Cinque, Guglielmo",
 	   "title" :		    "Adverbs and Functional Heads: A Cross-Linguistic Perspective",
            "year" :         	    "1999",
@@ -707,7 +707,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Cinque99 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Collins 1996<br />argues against global economy",
+           "label" :                 "Collins 1996: argues against global economy",
 	   "author" :		    "Collins, Chris",
 	   "title" :		    "Local Economy",
            "year" :         	    "1996",
@@ -721,7 +721,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Collins96 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Crisma 1990<br />develops the adjective hierarchy",
+           "label" :                 "Crisma 1990: develops the adjective hierarchy",
 	   "author" :		    "Crisma, Paolo",
 	   "title" :		    "Functional Categories Inside the Noun Phrase: A Study of the Distribution of Nominal Modifiers",
            "year" :         	    "1990",
@@ -736,7 +736,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Crisma90 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Emonds 1970<br />proposes Structure Preservation",
+           "label" :                 "Emonds 1970: proposes Structure Preservation",
 	   "author" :		    "Emonds, Joseph",
 	   "title" :		    "Root and Structure Preserving Transformations",
            "year" :         	    "1970",
@@ -754,7 +754,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Emonds70 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Emonds 1976<br />makes Structure Preservation popular",
+           "label" :                 "Emonds 1976: makes Structure Preservation popular",
 	   "author" :		    "Emonds, Joseph",
 	   "title" :		    "A Transformational Approach to English Syntax: Root, Structure Preserving, and Local Transformations",
            "year" :         	    "1976",
@@ -770,7 +770,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Emonds76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Engdahl 1983<br />independently coins parasitic gaps",
+           "label" :                 "Engdahl 1983: independently coins parasitic gaps",
 	   "author" :		    "Engdahl, Elisabet",
 	   "title" :		    "Parasitic Gaps",
            "year" :         	    "1983",
@@ -784,7 +784,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Emonds76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Epstein et al. 1998<br />start Strictly Derivational Minimalism",
+           "label" :                 "Epstein et al. 1998: start Strictly Derivational Minimalism",
 	   "author" :		    "Epstein, Samuel D.",
 	   "co-author" :	    ["Groat, Erich M.", "Kawashima, Ruriko", "Kitahara, Hisatsugu"],
 	   "title" :		    "A Derivational Approach to Syntactic Relations",
@@ -801,7 +801,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#EpsteinGroatEtAl98 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Fiengo 1974<br />first published mention of traces",
+           "label" :                 "Fiengo 1974: first published mention of traces",
 	   "author" :		    "Fiengo, Robert",
 	   "title" :		    "Semantic Conditions on Surface Structure",
            "year" :         	    "1974",
@@ -815,7 +815,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Fiengo74 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Fiengo and May 1994<br />introduce vehicle change",
+           "label" :                 "Fiengo and May 1994: introduce vehicle change",
 	   "author" :		    "Fiengo, Robert",
 	   "co-author" :	    ["May, Robert"],
 	   "title" :		    "Indices and Identity",
@@ -830,7 +830,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#FiengoMay94 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Fillmore 1968<br />first version of thematic hierarchy",
+           "label" :                 "Fillmore 1968: first version of thematic hierarchy",
 	   "author" :		    "Fillmore, Charles",
 	   "title" :		    "The Case for Case",
            "year" :         	    "1968",
@@ -844,7 +844,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Fillmore68 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Fox 2000<br />Scope Economy",
+           "label" :                 "Fox 2000: Scope Economy",
 	   "author" :		    "Fox, Danny",
 	   "title" :		    "Economy and Semantic Interpretation",
            "year" :         	    "2000",
@@ -859,7 +859,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Fox00 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Fox & Pesetsky 2005<br />rethink linearization",
+           "label" :                 "Fox & Pesetsky 2005: rethink linearization",
 	   "author" :		    "Fox, Danny",
 	   "co-author" :	    ["Pesetsky, David"],
 	   "title" :		    "Cyclic Linearization of Syntactic Structure",
@@ -875,7 +875,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#FoxPesetsky05 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Frampton and Gutmann 2000<br />give a sketch of feature sharing",
+           "label" :                 "Frampton and Gutmann 2000: give a sketch of feature sharing",
 	   "author" :		    "Frampton, John",
 	   "co-author" :	    ["Gutmann, Sam"],
 	   "title" :		    "Agreement is Feature-Sharing",
@@ -891,7 +891,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#FramptonGutmann00 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Frampton and Gutmann 2002<br />argue against crashing derivations",
+           "label" :                 "Frampton and Gutmann 2002: argue against crashing derivations",
 	   "author" :		    "Frampton, John",
 	   "co-author" :	    ["Gutmann, Sam"],
 	   "title" :		    "Crash-proof Syntax",
@@ -906,7 +906,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#FramptonGutmann02 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Freidin 1978<br />anticipates the Theta-Criterion",
+           "label" :                 "Freidin 1978: anticipates the Theta-Criterion",
 	   "author" :		    "Freidin, Robert",
 	   "title" :		    "Cyclicity and the Theory of Grammar",
            "year" :         	    "1978",
@@ -921,7 +921,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Freidin78 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Fukui and Speas 1986<br />first published proposal of VPISH",
+           "label" :                 "Fukui and Speas 1986: first published proposal of VPISH",
 	   "author" :		    "Fukui, Naoki",
 	   "co-author" :	    ["Speas, Margaret"],
 	   "title" :		    "Specifiers and projection",
@@ -936,7 +936,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#FukuiSpeas86 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Gazdar 1981<br />Slash percolation and well regarded analysis of coordination",
+           "label" :                 "Gazdar 1981: Slash percolation and well regarded analysis of coordination",
 	   "author" :		    "Gazdar, Gerald",
 	   "title" :		    "Unbounded Dependencies and Coordinate Structure",
            "year" :         	    "1981",
@@ -951,7 +951,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Gazdar81 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Gazdar and Pullum 1982<br />develop the first well-known version of GPSG",
+           "label" :                 "Gazdar and Pullum 1982: develop the first well-known version of GPSG",
 	   "author" :		    "Gazdar, Gerald",
 	   "co-author" :	    ["Pullum, Geoffrey K."],
 	   "title" :		    "Generalized Phrase Structure Grammar: A Theoretical Synopsis",
@@ -965,7 +965,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#GazdarPullum82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Gazdar et al. 1985<br />define the classical version of GPSG",
+           "label" :                 "Gazdar et al. 1985: define the classical version of GPSG",
 	   "author" :		    "Gazdar, Gerald",
 	   "co-author" :	    ["Klein, Ewan", "Pullum, Geoffrey K.", "Sag, Ivan"],
 	   "title" :		    "Generalized Phrase Structure Grammar",
@@ -979,7 +979,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#GazdarKleinEtAl85 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Gärtner & Michaelis 2007<br />formally investigate locality conditions",
+           "label" :                 "Gärtner & Michaelis 2007: formally investigate locality conditions",
 	   "author" :		    "Gärtner, Hans-Martin",
 	   "co-author" :	    ["Michaelis, Jens"],
 	   "title" :		    "Some Remarks on Locality Conditions and Minimalist Grammars",
@@ -994,7 +994,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#GaertnerMichaelis07 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Hale and Keyser 1993<br />rethink incorporation",
+           "label" :                 "Hale and Keyser 1993: rethink incorporation",
 	   "author" :		    "Hale, Kenneth",
 	   "co-author" :	    ["Keyser, Samuel J."],
 	    "article" :		    "On Argument Structure and the Lexical Expression of Syntactic Relations",
@@ -1011,7 +1011,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#HaleKeyser93 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Halle and Marantz 1993<br />put morphology into syntax",
+           "label" :                 "Halle and Marantz 1993: put morphology into syntax",
 	   "author" :		    "Halle, Morris",
 	   "co-author" :	    ["Marantz, Alec"],
 	   "title" :		    "Distributed Morphology and the Pieces of Inflection",
@@ -1028,7 +1028,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#HalleMarantz93 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Heim 2008<br />separates interpretability from interpretation",
+           "label" :                 "Heim 2008: separates interpretability from interpretation",
 	   "author" :		    "Heim Irene",
 	   "title" :		    "Features on Bound Pronouns",
            "year" :         	    "2008",
@@ -1043,7 +1043,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Heim08 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Higginbotham 1980<br />extends the Leftness condition",
+           "label" :                 "Higginbotham 1980: extends the Leftness condition",
 	   "author" :		    "Higginbotham, James",
 	   "title" :		    "Pronouns and Bound Variables",
            "year" :         	    "1980",
@@ -1058,7 +1058,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Higginbotham80 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Holmberg 1986<br />formulates Holmberg's generalization",
+           "label" :                 "Holmberg 1986: formulates Holmberg's generalization",
 	   "author" :		    "Holmberg, Anders",
 	   "title" :		    "Word Order and Syntactic Features in the Scandinavian Languages and English",
            "year" :         	    "1986",
@@ -1085,7 +1085,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Hornstein98 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Hornstein 1999<br />revives the analysis of control as movement",
+           "label" :                 "Hornstein 1999: revives the analysis of control as movement",
 	   "author" :		    "Hornstein, Norbert",
 	   "title" :		    "Movement and Control",
            "year" :         	    "1999",
@@ -1101,7 +1101,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Hornstein99 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Huang 1982<br />provides evidence for covert movement",
+           "label" :                 "Huang 1982: provides evidence for covert movement",
 	   "author" :		    "Huang, James",
 	   "title" :		    "Logical Relations in Chinese and The Theory of Grammar",
            "year" :         	    "1982",
@@ -1118,7 +1118,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Huang82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Jackendoff 1977<br />elaborates X'-theory",
+           "label" :                 "Jackendoff 1977: elaborates X'-theory",
 	   "author" :		    "Jackendoff, Ray",
 	   "title" :		    "X-Bar Syntax: A Study of Phrase Structure",
            "year" :         	    "1977",
@@ -1132,7 +1132,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Jackendoff77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Jaeggli 1982<br />independently introduces the pro-drop parameter",
+           "label" :                 "Jaeggli 1982: independently introduces the pro-drop parameter",
 	   "author" :		    "Jaeggli, Osvaldo",
 	   "title" :		    "Topics in Romance Syntax",
            "year" :         	    "1982",
@@ -1146,7 +1146,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Jaeggli82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Katz and Postal 1964<br />introduce Deep Structure",
+           "label" :                 "Katz and Postal 1964: introduce Deep Structure",
 	   "author" :		    "Katz, Jerrold J.",
 	   "co-author" :	    ["Postal, Paul"],
 	   "title" : 		    "An Integrated Theory of Linguistic Description",
@@ -1162,7 +1162,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#KatzPostal64 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 1975<br />groundwork for Romance syntax",
+           "label" :                 "Kayne 1975: groundwork for Romance syntax",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "French Syntax: The Transformational Cycle",
            "year" :         	    "1975",
@@ -1175,7 +1175,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne75 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 1981<br />unambiguous paths",
+           "label" :                 "Kayne 1981: unambiguous paths",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "Unambiguous Paths",
            "year" :         	    "1981",
@@ -1190,7 +1190,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne83 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 1983<br />introduces g-projections",
+           "label" :                 "Kayne 1983: introduces g-projections",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "Connectedness",
            "year" :         	    "1983",
@@ -1204,7 +1204,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne83 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 1984<br />derives binary branching from unambiguous paths",
+           "label" :                 "Kayne 1984: derives binary branching from unambiguous paths",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "Connectedness and Binary Branching",
            "year" :         	    "1984",
@@ -1227,7 +1227,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne84 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 1989<br />precursor of AgrO",
+           "label" :                 "Kayne 1989: precursor of AgrO",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "Facets of Romance Past Participle Agreement",
            "year" :         	    "1989",
@@ -1243,7 +1243,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne89 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 1994<br />gets rid of linear order in syntax",
+           "label" :                 "Kayne 1994: gets rid of linear order in syntax",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "The Antisymmetry of Syntax",
            "year" :         	    "1994",
@@ -1263,7 +1263,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne94 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kayne 2002<br />tries to reduce binding to movement",
+           "label" :                 "Kayne 2002: tries to reduce binding to movement",
 	   "author" :		    "Kayne, Richard",
 	   "title" :		    "Pronouns and their Antecedents",
            "year" :         	    "2002",
@@ -1278,7 +1278,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kayne02 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Keenan & Comrie 1977<br />define Accessibility Hierarchy",
+           "label" :                 "Keenan & Comrie 1977: define Accessibility Hierarchy",
 	   "author" :		    "Keenan, Edward L.",
 	   "co-author" :	    ["Comrie, Bernard"],
 	   "title" :		    "Noun Phrase Accessiblity and Universal Grammar",
@@ -1295,7 +1295,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#KeenanComrie77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Klima 1964<br />first study of NPIs",
+           "label" :                 "Klima 1964: first study of NPIs",
 	   "author" :		    "Klima, Edward",
 	   "title" :		    "Negation in English",
            "year" :         	    "1964",
@@ -1311,7 +1311,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Klima64 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Koopman 1983<br />first extensive study of head movement",
+           "label" :                 "Koopman 1983: first extensive study of head movement",
 	   "author" :		    "Koopman, Hilda",
 	   "title" :		    "The Syntax of Verbs",
            "year" :         	    "1984",
@@ -1327,7 +1327,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Koopman84 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Koopman 1992<br />precursor of AgrO",
+           "label" :                 "Koopman 1992: precursor of AgrO",
 	   "author" :		    "Koopman, Hilda",
 	   "title" :		    "On the Absence of Case Chains in Bambara",
            "year" :         	    "1992",
@@ -1343,7 +1343,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Koopman92 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Koopman & Sportiche 1982<br />define syntactic variable",
+           "label" :                 "Koopman & Sportiche 1982: define syntactic variable",
 	   "author" :		    "Koopman, Hilda",
 	   "co-author" :	    ["Sportiche, Dominique"],
 	   "title" :		    "Variables and the Bijection Principle",
@@ -1361,7 +1361,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#KoopmanSportiche82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Koopman & Sportiche 1985<br />first proposal of VPISH",
+           "label" :                 "Koopman & Sportiche 1985: first proposal of VPISH",
 	   "author" :		    "Koopman, Hilda",
 	   "co-author" :	    ["Sportiche, Dominique"],
 	   "title" :		    "Theta-Theory and Extraction",
@@ -1376,7 +1376,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#KoopmanSportiche85 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Koopman and Sportiche 1991<br />most influental variant of VPISH",
+           "label" :                 "Koopman and Sportiche 1991: most influental variant of VPISH",
 	   "author" :		    "Koopman, Hilda",
 	   "co-author" :	    ["Sportiche, Dominique"],
 	   "title" :		    "The Position of Subjects",
@@ -1391,7 +1391,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#KoopmanSportiche91 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kratzer 1996<br />semantic support for VPISH",
+           "label" :                 "Kratzer 1996: semantic support for VPISH",
 	   "author" :		    "Kratzer, Angelika",
 	   "title" :		    "Severing the External Argument From its Verb",
            "year" :         	    "1996",
@@ -1406,7 +1406,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kratzer96 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Kuroda 1988<br />independently proposes VPISH",
+           "label" :                 "Kuroda 1988: independently proposes VPISH",
 	   "author" :		    "Kuroda, Yuki",
 	   "title" :		    "Whether We Agree or Not: A Comparative Syntax of English and Japanese",
            "year" :         	    "1988",
@@ -1420,7 +1420,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Kuroda88 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Lakoff 1968<br />abundance of new binding data",
+           "label" :                 "Lakoff 1968: abundance of new binding data",
 	   "author" :		    "Lakoff, George",
 	   "title" :		    "Pronouns and Reference",
            "year" :         	    "1968",
@@ -1434,7 +1434,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Lakoff68 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Langacker 1969<br />first use of term 'command'",
+           "label" :                 "Langacker 1969: first use of term 'command'",
 	   "author" :		    "Langacker, Ronald W.",
 	   "title" :		    "On Pronominalization and the Chain of Command",
            "year" :         	    "1969",
@@ -1448,7 +1448,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Lakoff68 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Larson 1988<br />introduces VP shells",
+           "label" :                 "Larson 1988: introduces VP shells",
 	   "author" :		    "Larson, Richard",
 	   "title" :		    "On the Double Object Construction",
            "year" :         	    "1988",
@@ -1462,7 +1462,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Larson88 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Lasnik 1976<br />defines kommand relation",
+           "label" :                 "Lasnik 1976: defines kommand relation",
 	   "author" :		    "Lasnik, Howard",
 	   "title" :		    "Remarks on Coreference",
            "year" :         	    "1976",
@@ -1476,7 +1476,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Lasnik76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Lebeaux 1988<br />introduces Late Merge",
+           "label" :                 "Lebeaux 1988: introduces Late Merge",
 	   "author" :		    "Lebeaux, David",
 	   "title" :		    "Language Acquisition and the Form of the Grammar",
            "year" :         	    "1988",
@@ -1492,7 +1492,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Lebeaux88 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Lees 1960<br />detailled study of English",
+           "label" :                 "Lees 1960: detailled study of English",
 	   "author" :		    "Lees, Robert B.",
 	   "title" :		    "The Grammar of English Nominalizations",
            "year" :         	    "1960",
@@ -1505,7 +1505,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Less60 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Levin 1986<br />first mention of Pseudo-Gapping",
+           "label" :                 "Levin 1986: first mention of Pseudo-Gapping",
 	   "author" :		    "Levin, Nancy",
 	   "title" :		    "Main-Verb Ellipsis in Spoken English",
            "year" :         	    "1986",
@@ -1519,7 +1519,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Levin86 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "May 1977<br />introduces QR",
+           "label" :                 "May 1977: introduces QR",
 	   "author" :		    "May, Robert",
 	   "title" :		    "The Grammar of Quantification",
            "year" :         	    "1977",
@@ -1534,7 +1534,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#May77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "May 1985<br />brings QR to GB",
+           "label" :                 "May 1985: brings QR to GB",
 	   "author" :		    "May, Robert",
 	   "title" :		    "Logical Form: Its Structure and Derivation",
            "year" :         	    "1985",
@@ -1551,7 +1551,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#May85 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Nunes 1995<br />introduces Sideward Movement",
+           "label" :                 "Nunes 1995: introduces Sideward Movement",
 	   "author" :		    "Nunes, Jairo",
 	   "title" :		    "The Copy Theory of Movement and Linearization of Chains in the Minimalist Program",
            "year" :         	    "1995",
@@ -1565,7 +1565,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Nunes95 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Perlmutter 1971<br />formulates Perlmutter's conjecture",
+           "label" :                 "Perlmutter 1971: formulates Perlmutter's conjecture",
 	   "author" :		    "Perlmutter, David",
 	   "title" :		    "Deep and Surface Structure Constraints in Syntax",
            "year" :         	    "1971",
@@ -1581,7 +1581,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Perlmutter71 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Perlmutter 1978<br />formulates his Unaccusativity Hypothesis",
+           "label" :                 "Perlmutter 1978: formulates his Unaccusativity Hypothesis",
 	   "author" :		    "Perlmutter, David",
 	   "title" :		    "Impersonal Passives and the Unaccusative Hypothesis",
            "year" :         	    "1978",
@@ -1597,7 +1597,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Perlmutter78 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pesetsky 1982<br />starts path geometric research",
+           "label" :                 "Pesetsky 1982: starts path geometric research",
 	   "author" :		    "Pesetsky, David",
 	   "title" :		    "Paths and Categories",
            "year" :         	    "1982",
@@ -1611,7 +1611,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Pesetsky82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pesetsky 1987<br />introduces d-linking",
+           "label" :                 "Pesetsky 1987: introduces d-linking",
 	   "author" :		    "Pesetsky, David",
 	   "title" :		    "Wh-in-situ: Movement and unselective binding",
            "year" :         	    "1987",
@@ -1625,7 +1625,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Pesetsky87 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pesetsky and Torrego 2001<br />popularize the idea of feature sharing",
+           "label" :                 "Pesetsky and Torrego 2001: popularize the idea of feature sharing",
 	   "author" :		    "Pesetsky, David",
 	   "co-author" :	    ["Torrego, Esther"],
 	   "title" :		    "T to C Movement: Causes and Consequences",
@@ -1644,7 +1644,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#PesetskyTorrego01 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pica 1987<br />reduces long-distance to local binding",
+           "label" :                 "Pica 1987: reduces long-distance to local binding",
 	   "author" :		    "Pica, Pierre",
 	   "title" :		    "On the nature of the reflexivization cycle",
            "year" :         	    "1987",
@@ -1676,7 +1676,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Pica91 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pollard and Sag 1987<br />develop the first version of HPSG",
+           "label" :                 "Pollard and Sag 1987: develop the first version of HPSG",
 	   "author" :		    "Pollard, Carl",
 	   "co-author" :	    ["Sag, Ivan"],
 	   "title" :		    "Information-Based Syntax and Semantics; Volume One - Fundamentals",
@@ -1690,7 +1690,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#PollardSag87 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pollard and Sag 1992<br />tie binding exclusively to argument structure",
+           "label" :                 "Pollard and Sag 1992: tie binding exclusively to argument structure",
 	   "author" :		    "Pollard, Carl",
 	   "co-author" :	    ["Sag, Ivan"],
 	   "title" :		    "Anaphors in English and the Scope of Binding Theory",
@@ -1707,7 +1707,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#PollardSag92 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pollard and Sag 1994<br />define the classical version of HPSG",
+           "label" :                 "Pollard and Sag 1994: define the classical version of HPSG",
 	   "author" :		    "Pollard, Carl",
 	   "co-author" :	    ["Sag, Ivan"],
 	   "title" :		    "Head-Driven Phrase Structure Grammar",
@@ -1721,7 +1721,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#PollardSag94 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pollock 1989<br />starts refinement of clausal structure",
+           "label" :                 "Pollock 1989: starts refinement of clausal structure",
 	   "author" :		    "Pollock, Jean-Yves",
 	   "title" :		    "Verb Movement, Universal Grammar, and the Structure of IP",
            "year" :         	    "1989",
@@ -1736,7 +1736,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Pollock89 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Postal 1969<br />changes common view of binding",
+           "label" :                 "Postal 1969: changes common view of binding",
 	   "author" :		    "Postal, Paul",
 	   "title" :		    "Review of A. McIntosh and M. A. K. Halliday",
            "year" :         	    "1969",
@@ -1750,7 +1750,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Postal69 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Postal 1971<br />on crossover",
+           "label" :                 "Postal 1971: on crossover",
 	   "author" :		    "Postal, Paul",
 	   "title" : 		    "Cross-over Phenomena",
            "year" :         	    "1971",
@@ -1765,7 +1765,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Postal71 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Pullum 1976<br />defines Duke-of-York derivations",
+           "label" :                 "Pullum 1976: defines Duke-of-York derivations",
 	   "author" :		    "Pullum, Geoffrey K.",
 	   "title" :		    "The Duke-of-York Gambit",
            "year" :         	    "1976",
@@ -1778,7 +1778,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Pullum76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Reinhart, Tanya 1976<br />names and defends c-command",
+           "label" :                 "Reinhart, Tanya 1976: names and defends c-command",
 	   "author" :		    "Reinhart, Tanya",
 	   "title" :		    "The Syntactic Domain of Anaphora",
            "year" :         	    "1976",
@@ -1792,7 +1792,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Reinhart76 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Reinhart 1983<br />introduces Rule I",
+           "label" :                 "Reinhart 1983: introduces Rule I",
 	   "author" :		    "Reinhart, Tanya",
 	   "title" :		    "Anaphora and Semantic Interpretation",
            "year" :         	    "1983",
@@ -1808,7 +1808,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Reinhart83 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Reinhart & Reuland 1991<br />alternative binding theory",
+           "label" :                 "Reinhart & Reuland 1991: alternative binding theory",
 	   "author" :		    "Reinhart, Tanya",
 	   "co-author" :	    ["Reuland, Eric"],
 	   "title" : 		    "Anaphors and logophors: An argument structure perspective",
@@ -1825,7 +1825,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#ReinhartReuland91 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Reinhart & Reuland 1993<br />alternative binding theory",
+           "label" :                 "Reinhart & Reuland 1993: alternative binding theory",
 	   "author" :		    "Reinhart, Tanya",
 	   "co-author" :	    ["Reuland, Eric"],
 	   "title" : 		    "Reflexivity",
@@ -1843,7 +1843,7 @@
 	},
 	
 	{  "type" :                  "entry",
-           "label" :                 "Reuland 2001<br />reduces binding to local feature copying",
+           "label" :                 "Reuland 2001: reduces binding to local feature copying",
 	   "author" :		    "Reuland, Eric",
 	   "title" :		    "Principles of Binding",
            "year" :         	    "2001",
@@ -1858,7 +1858,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Reuland01a target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Rizzi 1978<br />parametrizes the set of bounding nodes",
+           "label" :                 "Rizzi 1978: parametrizes the set of bounding nodes",
 	   "author" :		    "Rizzi, Luigi",
 	   "title" :		    "Violations of the Wh-Island Constraint in Italian and the Subjacency Condition",
            "year" :         	    "1978",
@@ -1877,7 +1877,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Rizzi78 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Rizzi 1982<br />independently introduces the pro-drop parameter",
+           "label" :                 "Rizzi 1982: independently introduces the pro-drop parameter",
 	   "author" :		    "Rizzi, Luigi",
 	   "title" :		    "Issues in Italian Syntax",
            "year" :         	    "1982",
@@ -1891,7 +1891,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Rizzi82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Rizzi 1990<br />relativizes the notions of locality",
+           "label" :                 "Rizzi 1990: relativizes the notions of locality",
 	   "author" :		    "Rizzi, Luigi",
 	   "title" :		    "Relativized Minimality",
            "year" :         	    "1990",
@@ -1908,7 +1908,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Rizzi90 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Rizzi 1997<br />studies the cartography of CP",
+           "label" :                 "Rizzi 1997: studies the cartography of CP",
 	   "author" :		    "Rizzi, Luigi",
 	   "title" :		    "The Fine Structure of the Left Periphery",
            "year" :         	    "1997",
@@ -1923,7 +1923,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Rizzi97 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Rosenbaum 1967<br />establishes difference between raising and control",
+           "label" :                 "Rosenbaum 1967: establishes difference between raising and control",
 	   "author" :		    "Rosenbaum, Peter S.",
 	   "title" :		    "The Grammar of English Predicate Complement Constructions",
            "year" :         	    "1967",
@@ -1944,7 +1944,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Rosenbaum67 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Ross 1967<br />abundance of new phenomena",
+           "label" :                 "Ross 1967: abundance of new phenomena",
 	   "author" :		    "Ross, John",
 	   "title" : 		    "Constraints on Variables in Syntax",
            "year" :         	    "1967",
@@ -1965,7 +1965,7 @@
 	    "details" :		    "<a href=./syntax_history_bibtex.html#Ross67 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Ross 1969<br />first mention of Sluicing",
+           "label" :                 "Ross 1969: first mention of Sluicing",
 	   "author" :		    "Ross, John",
 	   "title" :		    "Guess who?",
            "year" :         	    "1969",
@@ -1979,7 +1979,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Ross69 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Ross 1970<br />puts some pragmatics into syntax",
+           "label" :                 "Ross 1970: puts some pragmatics into syntax",
 	   "author" :		    "Ross, John",
 	   "title" :		    "On Declarative Sentences",
            "year" :         	    "1970",
@@ -1993,7 +1993,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Ross70 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Rouveret and Vergnaud 1980<br />discuss the importance of Case",
+           "label" :                 "Rouveret and Vergnaud 1980: discuss the importance of Case",
 	   "author" :		    "Rouveret, Alain",
 	   "co-author" :	    ["Vergnaud, Jean-Roger"],
 	   "title" :		    "Specifying Reference to the Subject: French Causatives and Conditions on Representations",
@@ -2008,7 +2008,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#RouveretVergnaud80 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Scott 1998<br />provides the most recent version of the adjective hierarchy",
+           "label" :                 "Scott 1998: provides the most recent version of the adjective hierarchy",
 	   "author" :		    "Scott, Gary-John",
 	   "title" :		    "Stacked Adjectival Modification and the Structure of Nominal Phrases",
            "year" :         	    "1998",
@@ -2023,7 +2023,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Scott98 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Schachter 1973<br />first published version of Head Promotion analysis",
+           "label" :                 "Schachter 1973: first published version of Head Promotion analysis",
 	   "author" :		    "Schachter, Paul",
 	   "title" :		    "Focus and Relativization",
            "year" :         	    "1973",
@@ -2038,7 +2038,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Schachter73 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Sportiche 1988<br />rethinks quantifier floating",
+           "label" :                 "Sportiche 1988: rethinks quantifier floating",
 	   "author" :		    "Sportiche, Dominique",
 	   "title" :		    "A Theory of Floating Quantifiers and Its Corollaries for Constituent Structure",
            "year" :         	    "1988",
@@ -2053,7 +2053,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Sportiche88 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Stechow 2003<br />first (unpublished) discussion of interpretability",
+           "label" :                 "Stechow 2003: first (unpublished) discussion of interpretability",
 	   "author" :		    "Stechow, Arnim von",
 	   "title" :		    "Feature Deletion under Semantic Binding: Tense, Person, and Mood under Verbal Quantifiers",
            "year" :         	    "2003",
@@ -2068,7 +2068,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Stechow03 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Stowell 1978<br />modern version of Small Clauses",
+           "label" :                 "Stowell 1978: modern version of Small Clauses",
 	   "author" :		    "Stowell, Tim",
 	   "title" :		    "What was There Before There was There?",
            "year" :         	    "1978",
@@ -2082,7 +2082,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Stowell78 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Stowell 1981<br />introduces projection rules and headedness parameter",
+           "label" :                 "Stowell 1981: introduces projection rules and headedness parameter",
 	   "author" :		    "Stowell, Tim",
 	   "title" :		    "Origins of Phrase Structure",
            "year" :         	    "1981",
@@ -2098,7 +2098,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Stowell81 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Szabolcsi 1983<br />first mention of DP hypothesis",
+           "label" :                 "Szabolcsi 1983: first mention of DP hypothesis",
 	   "author" :		    "Scabolcsi, Anna",
 	   "title" :		    "The Possessor That Ran Away From Home",
            "year" :         	    "1983",
@@ -2112,7 +2112,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Szabolcsi83 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Takahashi & Fox 2005<br />MaxElide",
+           "label" :                 "Takahashi & Fox 2005: MaxElide",
 	   "author" :		    "Takahashi, Shoichi",
 	   "co-author" :	    ["Fox, Danny"],
 	   "title" :		    "MaxElide and the Re-Binding Problem",
@@ -2128,7 +2128,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Travis84 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Taraldsen 1980<br />Taraldsen's Generalization",
+           "label" :                 "Taraldsen 1980: Taraldsen's Generalization",
 	   "author" :		    "Taraldsen, Knut Tarald",
 	   "title" :		    "On the Nominative Island Condition, Vacuous Application and the that-trace Effect",
            "year" :         	    "1980",
@@ -2143,7 +2143,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Taraldsen80a target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Taraldsen 1980<br />coins Parasitic Gaps",
+           "label" :                 "Taraldsen 1980: coins Parasitic Gaps",
 	   "author" :		    "Taraldsen, Knut Tarald",
 	   "title" :		    "The Theoretical Interpretation of a Class of 'Marked' Extractions",
            "year" :         	    "1980",
@@ -2157,7 +2157,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Taraldsen80a target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Travis 1984<br />formulates Head Movement Constraint",
+           "label" :                 "Travis 1984: formulates Head Movement Constraint",
 	   "author" :		    "Travis, Lisa",
 	   "title" :		    "Parameters and Effects of Word Order Variation",
            "year" :         	    "1984",
@@ -2176,7 +2176,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Travis84 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Ura 2000<br />explores multiple feature checking",
+           "label" :                 "Ura 2000: explores multiple feature checking",
 	   "author" :		    "Ura, Hiroyuki",
 	   "title" :		    "Checking Theory and Grammatical Functions in Universal Grammar",
            "year" :         	    "2000",
@@ -2190,7 +2190,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Ura00 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Uriagereka 1999<br />talks about multiple Spell-Out for the first time",
+           "label" :                 "Uriagereka 1999: talks about multiple Spell-Out for the first time",
 	   "author" :		    "Uriagereka, Juan",
 	   "title" :		    "Multiple Spell-Out",
            "year" :         	    "1999",
@@ -2205,7 +2205,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Uriagereka99 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Vergnaud 1977<br />starts the development of Case theory",
+           "label" :                 "Vergnaud 1977: starts the development of Case theory",
 	   "author" :		    "Vergnaud, Jean-Roger",
 	   "title" :		    "Letter to Noam Chomsky and Howard Lasnik",
            "year" :         	    "1977",
@@ -2220,7 +2220,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Vergnaud77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Vergnaud 1982<br />elaborates Case theory",
+           "label" :                 "Vergnaud 1982: elaborates Case theory",
 	   "author" :		    "Vergnaud, Jean-Roger",
 	   "title" :		    "Dépendances et niveau de représentation",
            "year" :         	    "1982",
@@ -2234,7 +2234,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Vergnaud82 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Wasow 1972<br />coins terminology for crossover",
+           "label" :                 "Wasow 1972: coins terminology for crossover",
 	   "author" :		    "Wasow, Thomas",
 	   "title" :		    "Anaphoric Relations in English",
            "year" :         	    "1972",
@@ -2262,7 +2262,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Wasow79 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Williams 1974<br />introduces the 'Williams Cycle' ",
+           "label" :                 "Williams 1974: introduces the 'Williams Cycle' ",
 	   "author" :		    "Williams, Edwin",
 	   "title" :		    "Rule Ordering in Syntax",
            "year" :         	    "1974",
@@ -2279,7 +2279,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Williams74 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Williams 1975<br />coins the term Small-Clause",
+           "label" :                 "Williams 1975: coins the term Small-Clause",
 	   "author" :		    "Williams, Edwin",
 	   "title" :		    "Small Clauses in English",
            "year" :         	    "1975",
@@ -2293,7 +2293,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Williams75 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Williams 1977<br />introduces across-the-board movement",
+           "label" :                 "Williams 1977: introduces across-the-board movement",
 	   "author" :		    "Williams, Edwin",
 	   "title" :		    "Across-the-board Application of Rules",
            "year" :         	    "1977",
@@ -2308,7 +2308,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Williams77 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Williams 1978<br />makes across-the-board movement popular",
+           "label" :                 "Williams 1978: makes across-the-board movement popular",
 	   "author" :		    "Williams, Edwin",
 	   "title" :		    "Across-the-board Rule Application",
            "year" :         	    "1978",
@@ -2323,7 +2323,7 @@
 	   "details" :		    "<a href=./syntax_history_bibtex.html#Williams78 target=_blank>Details</a>"
 	},
 	{  "type" :                  "entry",
-           "label" :                 "Williams 1983<br />argues against Stowell 1978",
+           "label" :                 "Williams 1983: argues against Stowell 1978",
 	   "author" :		    "Williams, Edwin",
 	   "title" :		    "Against Small Clauses",
            "year" :         	    "1983",
