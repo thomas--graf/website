@@ -1,0 +1,36 @@
+Title: Fragments of First-Order Logic for Linguistic Structures
+Author: Thomas Graf
+Date: 2017-04-24
+Category: Talks
+Tags: phonology; morphology; syntax; semantics; morphosemantics; subregular hierarchy; logic; tiers;
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Logic has always played a central role in the study of natural  language meaning.
+But logic can also be used to describe the structure  of words and sentences.
+Recent research has revealed that these  structures are so simple that they can be modeled with very weak  fragments of first-order logic.
+Unfortunately, many of these fragments  are still not particularly well-understood on a formal level, which  has become a serious impediment to ongoing research.
+This talk is thus  equally about the known and the unknown:
+I will survey the empirically  relevant fragments of first-order logic and explain how they allow for  completely new generalizations about linguistic structures at the word and sentence level.
+But I will also highlight the limits of our current understanding and which mathematical challenges need to be overcome if the logical approach to natural language is to realize its full potential.
+Hopefully, an alliance of linguists, logicians, and computer scientists will be able to solve these problems in the near future.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf17UConntalk.pdf)]
+[[code]({filename}/doc/talks/Graf17UConntalk.tar.gz)]
+</div>
+
+~~~latex
+@Misc{Graf17UConntalk,
+    author = {Graf, Thomas},
+    title = {Fragments of First-order Logic for Linguistic Structures},
+    year = {2017},
+    note = {Invited talk, Apr 21, UConn Logic Group, University of Connecticut, Storrs, CT}
+}
+~~~

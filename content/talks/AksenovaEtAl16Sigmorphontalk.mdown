@@ -1,0 +1,30 @@
+Title: Morphotactics as Tier-Based Strictly Local Dependencies
+Author: Thomas Graf
+Date: 2016-08-11
+Category: Talks
+Tags: morphology; subregular hierarchy; formal language theory; tiers; locality; typology; English; German; Russian; Swahili; Ilocano
+
+<div markdown class="authors">
+Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
+Drawing on technical results from computational phonology, we show that a variety of morphotactic phenomena are tier-based strictly local and do not fall into weaker subclasses such as the strictly local or strictly piecewise languages. 
+Since the tier-based strictly local languages are learnable in the limit from positive texts, this marks a first important steps towards general machine learning algorithms for morphology.
+Furthermore, the limitation to tier-based strictly local languages explains typological gaps that are puzzling from a purely linguistic perspective.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~latex
+@misc{AksenovaEtAl16Sigmorphontalk,
+  author = {Aks\"{e}nova, Al\"{e}na and Graf, Thomas and Moradi, Sedigheh},
+  title = {Morphotactics as Tier-Based Strictly Local Dependencies},
+  year = {2016},
+  note = {Slides of a talk given at the 14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology, August 11, Berlin, Germany}
+}
+~~~

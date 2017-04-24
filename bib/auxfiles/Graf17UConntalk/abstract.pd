@@ -1,0 +1,8 @@
+Logic has always played a central role in the study of natural  language meaning.
+But logic can also be used to describe the structure  of words and sentences.
+Recent research has revealed that these  structures are so simple that they can be modeled with very weak  fragments of first-order logic.
+Unfortunately, many of these fragments  are still not particularly well-understood on a formal level, which  has become a serious impediment to ongoing research.
+This talk is thus  equally about the known and the unknown:
+I will survey the empirically  relevant fragments of first-order logic and explain how they allow for  completely new generalizations about linguistic structures at the word and sentence level.
+But I will also highlight the limits of our current understanding and which mathematical challenges need to be overcome if the logical approach to natural language is to realize its full potential.
+Hopefully, an alliance of linguists, logicians, and computer scientists will be able to solve these problems in the near future.
