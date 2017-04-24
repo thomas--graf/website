@@ -5,13 +5,7 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas, James Monette, and Chong Zhang (to appear): **Relative Clauses as a Benchmark for Minimalist Parsing**. *Journal of Language Modelling*. [[details]]({filename}/papers/GrafEtAl17JLM.mdown)
-</li>
-<li markdown>
 Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. To appear in *Glossa*. [[details]]({filename}/papers/Graf17Glossa.mdown)
-</li>
-<li markdown>
-Graf, Thomas (2017): **The Power of Locality Domains in Phonology**. To appear in *Phonology*. [[details]]({filename}/papers/Graf17Phonology.mdown)
 </li>
 <li markdown>
 Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. *Formal Grammar*. To appear. [[pdf]]({filename}/doc/papers/GrafEtAl16FG.pdf) [[details]]({filename}/papers/GrafEtAl16FG.mdown)
@@ -109,9 +103,6 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 Graf, Thomas (2017): **Fragments of First-Order Logic for Linguistic Structures**. Invited talk, Apr 21, UConn Logic Group, University of Connecticut, Storrs, CT. [[pdf]]({filename}/doc/talks/Graf17UConntalk.pdf) [[details]]({filename}/talks/Graf17UConntalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2017): **It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics**. Invited talk, May 25-27, CLS, University of Chicago, Chicago, IL. [[details]]({filename}/talks/Graf17CLStalk.mdown)
-</li>
-<li markdown>
 Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. Slides of a talk given at the 21st Conference on Formal Grammar, August 20–21, Bolzano, Italy. [[pdf]]({filename}/doc/talks/GrafEtAl16FGtalk.pdf) [[details]]({filename}/talks/GrafEtAl16FGtalk.mdown)
 </li>
 <li markdown>
@@ -127,7 +118,7 @@ Graf, Thomas (2016): **Computational Parallels Across Language Modules**. Invite
 Graf, Thomas, James Monette, Robert Pasternak, and Chong Zhang (2016): **Memory Usage Predicts Relative Difficulty in Human Sentence Processing**. Poster presented at the IACS Research Day 2016, April 13, IACS, Stony Brook University, Stony Brook, NY. [[pdf]]({filename}/doc/talks/GrafEtAl16IACSposter.pdf) [[details]]({filename}/talks/GrafEtAl16IACSposter.mdown)
 </li>
 <li markdown>
-Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Morphotactics as Tier-Based Strictly Local Dependencies**. Slides of a talk given at the 14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology, August 11, Berlin, Germany. [[details]]({filename}/talks/AksenovaEtAl16Sigmorphontalk.mdown)
+Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Morphotactics as Tier-Based Strictly Local Dependencies**. Slides of a talk given at the 14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology, August 11, Berlin, Germany. [[pdf]]({filename}/doc/talks/AksenovaEtAl16Sigmorphontalk.pdf) [[details]]({filename}/talks/AksenovaEtAl16Sigmorphontalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2015): **A Computational Guide to the Dichotomy of Features and Constraints**. Slides of a talk given at DGfS 2015, April 15–18, University of Leipzig, Leipzig, Germany. [[pdf]]({filename}/doc/talks/Graf15DGFStalk.pdf) [[details]]({filename}/talks/Graf15DGFStalk.mdown)
