@@ -1,5 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2017-04-24T00:00:00-04:00</updated><entry><title>Fragments of First-Order Logic for Linguistic Structures</title><link href="http://thomasgraf.net/graf17uconntalk.html" rel="alternate"></link><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-04-24:/graf17uconntalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2017-05-26T00:00:00-04:00</updated><entry><title>It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics</title><link href="http://thomasgraf.net/graf17clstalk.html" rel="alternate"></link><published>2017-05-26T00:00:00-04:00</published><updated>2017-05-26T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-05-26:/graf17clstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+It is commonly believed that phonology, morphology, syntax, and
+semantics are distinct modules of language, governed by very different
+principles with little common ground. Nonetheless several approaches
+(e.g. Government Phonology, Distributed Morphology) subscribe to the
+idea that at least some of …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+It is commonly believed that phonology, morphology, syntax, and
+semantics are distinct modules of language, governed by very different
+principles with little common ground. Nonetheless several approaches
+(e.g. Government Phonology, Distributed Morphology) subscribe to the
+idea that at least some of these language modules exhibit profound
+parallels. Interestingly, recent findings in computational linguistics
+corroborate this hypothesis: it seems that linguistic dependencies
+belong to a small, heavily constrained region of the so-called
+&lt;em&gt;subregular hierarchy&lt;/em&gt;. If correct, this has far-reaching
+typological implications, sheds new light on learnability issues, and
+raises deep questions about the cognitive architecture of&amp;nbsp;language.&lt;/p&gt;
+&lt;p&gt;The subregular hierarchy provides a system for classifying structural
+dependencies according to their computational complexity and expressive
+power. It turns out that linguistic dependencies largely cluster at the
+lower end of the hierarchy, thanks to the limiting effects of the
+locality conditions that they are subject to. This computational result
+furnishes answers to a variety of seemingly unrelated questions, such&amp;nbsp;as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why is there no first-last harmony in&amp;nbsp;phonology?&lt;/li&gt;
+&lt;li&gt;Why are some prefixes and suffixes freely iterable, but no&amp;nbsp;circumfixes?&lt;/li&gt;
+&lt;li&gt;Why does no language have a monomorphemic version of the quantifier
+  &lt;em&gt;an even number of&lt;/em&gt;?&lt;/li&gt;
+&lt;li&gt;Why is syntactic movement upward rather than&amp;nbsp;downward?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is but the tip of a much larger iceberg. The predictions span
+phonology, morphology, syntax, and semantics, and they even intersect
+with psycho- and neurolinguistics. Computational linguists cannot do all
+of this by themselves. Without the expertise of theoretical linguists,
+it is impossible to fully explore the cognitive, typological, and
+theoretical ramifications of this &amp;#8220;subregular conspiracy&amp;#8221;. If we want
+to know how deep the rabbit hole goes, we have to go down there&amp;nbsp;together.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf17CLStalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17CLStalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;It&amp;#39;s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, May 25--27, CLS, University of Chicago, Chicago, IL&lt;span class="nb"&gt;}&lt;/span&gt;,
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="morphosemantics"></category><category term="subregular hierarchy"></category><category term="tiers"></category></entry><entry><title>The Power of Locality Domains in Phonology</title><link href="http://thomasgraf.net/graf17phonology.html" rel="alternate"></link><published>2017-05-24T00:00:00-04:00</published><updated>2017-05-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-05-24:/graf17phonology.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Domains play an integral role in linguistic theories.
+This paper combines locality domains with current work on the computational complexity of phonology.
+The first result is that if a specific formalism &amp;#8212;- Strictly Piecewise (&lt;span class="caps"&gt;SP&lt;/span&gt;) grammars &amp;#8212;- is supplemented with a mechanism to enforce …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Domains play an integral role in linguistic theories.
+This paper combines locality domains with current work on the computational complexity of phonology.
+The first result is that if a specific formalism &amp;#8212;- Strictly Piecewise (&lt;span class="caps"&gt;SP&lt;/span&gt;) grammars &amp;#8212;- is supplemented with a mechanism to enforce first-order definable domain restrictions, its power increases so much that it subsumes almost the full hierarchy of subregular languages.
+However, if domain restrictions are based on linguistically natural intervals, one instead obtains an empirically more adequate model.
+On the on hand, this model subsumes only those subregular classes that have been argued to be relevant for phonotactic generalizations.
+On the other hand, it excludes unnatural generalizations that involve counting or elaborate conditionals.
+It is also shown that &lt;span class="caps"&gt;SP&lt;/span&gt; grammars with interval-based domains are theoretically learnable unlike &lt;span class="caps"&gt;SP&lt;/span&gt; grammars with arbitrary, first-order&amp;nbsp;domains.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/Graf17Phonology.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@article&lt;span class="nb"&gt;{&lt;/span&gt;Graf17Phonology,
+  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title = &lt;span class="nb"&gt;{&lt;/span&gt;The Power of Locality Domains in Phonology&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+  journal = &lt;span class="nb"&gt;{&lt;/span&gt;Phonology&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note = &lt;span class="nb"&gt;{&lt;/span&gt;In press&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="locality"></category><category term="formal language theory"></category><category term="learnability"></category></entry><entry><title>Relative Clauses as a Benchmark for Minimalist Parsing</title><link href="http://thomasgraf.net/grafetal17jlm.html" rel="alternate"></link><published>2017-05-24T00:00:00-04:00</published><updated>2017-05-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-05-24:/grafetal17jlm.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, James Monette, and Chong&amp;nbsp;Zhang&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Minimalist grammars have been used recently in a series of papers to explain well-known contrasts in human sentence processing in terms of subtle structural differences.
+These proposals combine a top-down parser with complexity metrics that relate parsing …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, James Monette, and Chong&amp;nbsp;Zhang&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Minimalist grammars have been used recently in a series of papers to explain well-known contrasts in human sentence processing in terms of subtle structural differences.
+These proposals combine a top-down parser with complexity metrics that relate parsing difficulty to memory usage.
+So far, though, there has been no large-scale exploration of the space of viable metrics.
+Building on this earlier work, we compare the ability of 1,600 metrics to derive several processing effects observed with relative clauses, many of which have been proven difficult to unify.
+We show that among those 1,600 candidates, a few metrics (and only a few) can provide a unified account of all these contrasts.
+This is a welcome result for two reasons: First, it provides a novel account of extensively studied psycholinguistic data.
+Second, it significantly limits the number of viable metrics that may be applied to other phenomena, thus reducing theoretical&amp;nbsp;indeterminacy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/GrafEtAl17JLM.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@article&lt;span class="nb"&gt;{&lt;/span&gt;GrafEtAl17JLM,
+  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Monette, James and Zhang, Chong&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title = &lt;span class="nb"&gt;{&lt;/span&gt;Relative Clauses as a Benchmark for &lt;span class="nb"&gt;{&lt;/span&gt;M&lt;span class="nb"&gt;}&lt;/span&gt;inimalist Parsing&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+  journal = &lt;span class="nb"&gt;{&lt;/span&gt;Journal of Language Modelling&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note = &lt;span class="nb"&gt;{&lt;/span&gt;In press&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="parsing"></category><category term="relative clauses"></category><category term="movement"></category><category term="processing"></category><category term="Chinese"></category><category term="Japanese"></category><category term="Korean"></category></entry><entry><title>Fragments of First-Order Logic for Linguistic Structures</title><link href="http://thomasgraf.net/graf17uconntalk.html" rel="alternate"></link><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-04-24:/graf17uconntalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -29,7 +146,7 @@ Hopefully, an alliance of linguists, logicians, and computer scientists will be 
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
     title = &lt;span class="nb"&gt;{&lt;/span&gt;Fragments of First-order Logic for Linguistic Structures&lt;span class="nb"&gt;}&lt;/span&gt;,
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, Apr 21, UConn Logic Group, University of Connecticut, Storrs, CT&lt;span class="nb"&gt;}&lt;/span&gt;
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="semantics"></category><category term="morphosemantics"></category><category term="subregular hierarchy"></category><category term="logic"></category><category term="tiers"></category></entry><entry><title>Computational Parallels Across Language Modules</title><link href="http://thomasgraf.net/graf16yaletalk.html" rel="alternate"></link><published>2016-09-12T00:00:00-04:00</published><updated>2016-09-12T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-09-12:/graf16yaletalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
@@ -141,87 +258,4 @@ Furthermore, the limitation to tier-based strictly local languages explains typo
   booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of SIGMorPhon 2016&lt;span class="nb"&gt;}&lt;/span&gt;,
   note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt; 
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category><category term="English"></category><category term="German"></category><category term="Russian"></category><category term="Swahili"></category><category term="Ilocano"></category></entry><entry><title>An Alternate View on Strong Lexicalization in TAG</title><link href="http://thomasgraf.net/desantoetal16tag.html" rel="alternate"></link><published>2016-07-27T00:00:00-04:00</published><updated>2016-07-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-27:/desantoetal16tag.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-TAGs were recently shown not to be closed under strong lexicalization but to be strongly lexicalizable by context-free tree grammars of rank 2.
-This paper presents an alternative lexicalization procedure that builds on an earlier generalization …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-TAGs were recently shown not to be closed under strong lexicalization but to be strongly lexicalizable by context-free tree grammars of rank 2.
-This paper presents an alternative lexicalization procedure that builds on an earlier generalization of TAGs to multi-dimensional trees.
-A previous theorem that every Tree Substitution grammar is strongly lexicalized by a corresponding &lt;span class="caps"&gt;TAG&lt;/span&gt; is lifted to higher dimensions to show that for every d-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; there exists a (d+1)-dimensional &lt;span class="caps"&gt;TAG&lt;/span&gt; that strongly lexicalizes it.
-A similar lifting reveals that d-dimensional TAGs are not closed under strong lexicalization, so for arbitrary TAGs an increase in dimensionality is an unavoidable consequence of strong&amp;nbsp;lexicalization.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/DeSantoEtAl16TAG.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@InProceedings&lt;span class="nb"&gt;{&lt;/span&gt;DeSantoEtAl16TAG,
-  author    = &lt;span class="nb"&gt;{&lt;/span&gt;De Santo, Aniello and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title     = &lt;span class="nb"&gt;{&lt;/span&gt;An Alternate View on Strong Lexicalization in &lt;span class="nb"&gt;{&lt;/span&gt;TAG&lt;span class="nb"&gt;}}&lt;/span&gt;,
-  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of the 12th International Workshop on &lt;span class="nb"&gt;{&lt;/span&gt;T&lt;span class="nb"&gt;}&lt;/span&gt;ree &lt;span class="nb"&gt;{&lt;/span&gt;A&lt;span class="nb"&gt;}&lt;/span&gt;djoining &lt;span class="nb"&gt;{&lt;/span&gt;G&lt;span class="nb"&gt;}&lt;/span&gt;rammars and Related Formalisms (&lt;span class="nb"&gt;{&lt;/span&gt;TAG&lt;span class="nb"&gt;}&lt;/span&gt;+12)&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year      = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  address   = &lt;span class="nb"&gt;{&lt;/span&gt;Düsseldorf, Germany&lt;span class="nb"&gt;}&lt;/span&gt;,
-  pages     = &lt;span class="nb"&gt;{&lt;/span&gt;93--102&lt;span class="nb"&gt;}&lt;/span&gt;,
-  url       = &lt;span class="nb"&gt;{&lt;/span&gt;http://www.aclweb.org/anthology/W16-3310&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Tree Adjoining grammar"></category><category term="lexicalization"></category><category term="multi-dimensional trees"></category><category term="generative capacity"></category></entry><entry><title>A Computational Guide to the Dichotomy of Features and Constraints</title><link href="http://thomasgraf.net/graf16glossa.html" rel="alternate"></link><published>2016-07-27T00:00:00-04:00</published><updated>2016-07-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-27:/graf16glossa.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-A contentious issue in the Minimalist literature is whether certain phenomena are best described in terms of features or constraints.
-Building on recent work in mathematical linguistics, I argue that constraints and features are interchangeable in Minimalist syntax.
-This does not invalidate …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-A contentious issue in the Minimalist literature is whether certain phenomena are best described in terms of features or constraints.
-Building on recent work in mathematical linguistics, I argue that constraints and features are interchangeable in Minimalist syntax.
-This does not invalidate the feature-constraint debate, though.
-Rather, the interdefinability of the two points out an unexpected loop hole in the formalism that allows for massive overgeneration and produces incorrect typological predictions.
-At the same time, the feature-constraint equivalence can be helpful in plugging this loop&amp;nbsp;hole.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/Graf16Glossa.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@article&lt;span class="nb"&gt;{&lt;/span&gt;Graf16Glossa,
-  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title = &lt;span class="nb"&gt;{&lt;/span&gt;A Computational Guide to the Dichotomy of Features and Constraints&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear in &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;Glossa&lt;span class="nb"&gt;}}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="syntax"></category><category term="typology"></category><category term="categories"></category><category term="subcategorization"></category><category term="model-theoretic syntax"></category><category term="generative capacity"></category></entry><entry><title>A Single Movement Normal Form for Minimalist Grammars</title><link href="http://thomasgraf.net/grafetal16fg.html" rel="alternate"></link><published>2016-07-14T00:00:00-04:00</published><updated>2016-07-14T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-14:/grafetal16fg.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, Alëna Aksënova, and Aniello De&amp;nbsp;Santo&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
-In order to simplify future analysis of the formalism, we prove that every &lt;span class="caps"&gt;MG&lt;/span&gt; can be converted into a …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, Alëna Aksënova, and Aniello De&amp;nbsp;Santo&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
-In order to simplify future analysis of the formalism, we prove that every &lt;span class="caps"&gt;MG&lt;/span&gt; can be converted into a strongly equivalent &lt;span class="caps"&gt;MG&lt;/span&gt; where every phrase moves at most once.
-The translation procedure is implemented via a deterministic linear tree transduction on the derivation tree language and induces at most a linear blow-up in the size of the&amp;nbsp;lexicon.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/GrafEtAl16FG.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;GrafEtAl16FG,
-  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and De Santo, Aniello&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title = &lt;span class="nb"&gt;{&lt;/span&gt;A Single Movement Normal Form for &lt;span class="nb"&gt;{&lt;/span&gt;M&lt;span class="nb"&gt;}&lt;/span&gt;inimalist Grammars&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Formal Grammar&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt; 
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="tree transductions"></category><category term="derivation trees"></category><category term="lexical blow-up"></category><category term="successive cyclic movement"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category><category term="English"></category><category term="German"></category><category term="Russian"></category><category term="Swahili"></category><category term="Ilocano"></category></entry></feed>
