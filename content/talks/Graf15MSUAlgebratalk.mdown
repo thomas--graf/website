@@ -39,6 +39,6 @@ morphosyntax without relying on a specific syntactic analysis.
   author	= {Graf, Thomas},
   title		= {Towards an Algebraic Morphosyntax},
   year		= {2015},
-  note		= {Invited talk, December 16, Department of Theoretical and Applied Linguistics, Moscow State University, Moscwo, Russia}
+  note		= {Invited talk, December 16, Department of Theoretical and Applied Linguistics, Moscow State University, Moscow, Russia}
 }
 ~~~

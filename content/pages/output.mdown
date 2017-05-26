@@ -5,7 +5,13 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. To appear in *Glossa*. [[details]]({filename}/papers/Graf17Glossa.mdown)
+Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2. doi:[10.5334/gjgl.212[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212[10.5334/gjgl.212) [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
+</li>
+<li markdown>
+Graf, Thomas, James Monette, and Chong Zhang (2017): **Relative Clauses as a Benchmark for Minimalist Parsing**. *Journal of Language Modelling*. In press. [[pdf]]({filename}/doc/papers/GrafEtAl17JLM.pdf) [[details]]({filename}/papers/GrafEtAl17JLM.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2017): **The Power of Locality Domains in Phonology**. *Phonology*. In press. [[pdf]]({filename}/doc/papers/Graf17Phonology.pdf) [[details]]({filename}/papers/Graf17Phonology.mdown)
 </li>
 <li markdown>
 Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. *Formal Grammar*. To appear. [[pdf]]({filename}/doc/papers/GrafEtAl16FG.pdf) [[details]]({filename}/papers/GrafEtAl16FG.mdown)
@@ -100,7 +106,10 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas (2017): **Fragments of First-Order Logic for Linguistic Structures**. Invited talk, Apr 21, UConn Logic Group, University of Connecticut, Storrs, CT. [[pdf]]({filename}/doc/talks/Graf17UConntalk.pdf) [[details]]({filename}/talks/Graf17UConntalk.mdown)
+Graf, Thomas (2017): **Fragments of First-Order Logic for Linguistic Structures**. Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT. [[pdf]]({filename}/doc/talks/Graf17UConntalk.pdf) [[details]]({filename}/talks/Graf17UConntalk.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2017): **It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics**. Invited talk, May 25–27, CLS, University of Chicago, Chicago, IL. [[pdf]]({filename}/doc/talks/Graf17CLStalk.pdf) [[details]]({filename}/talks/Graf17CLStalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. Slides of a talk given at the 21st Conference on Formal Grammar, August 20–21, Bolzano, Italy. [[pdf]]({filename}/doc/talks/GrafEtAl16FGtalk.pdf) [[details]]({filename}/talks/GrafEtAl16FGtalk.mdown)
@@ -145,7 +154,7 @@ Graf, Thomas (2015): **Formal Processing Theory, or Parsing Without Parsers**. S
 Graf, Thomas (2015): **Syntax and Phonology: A Computational Common Core**. Department of Mathematical Linguistics, Saint Petersburg State University, St. Petersburg, Russia. [[details]]({filename}/talks/Graf15StPetetalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2015): **Towards an Algebraic Morphosyntax**. Invited talk, December 16, Department of Theoretical and Applied Linguistics, Moscow State University, Moscwo, Russia. [[pdf]]({filename}/doc/talks/Graf15MSUAlgebratalk.pdf) [[details]]({filename}/talks/Graf15MSUAlgebratalk.mdown)
+Graf, Thomas (2015): **Towards an Algebraic Morphosyntax**. Invited talk, December 16, Department of Theoretical and Applied Linguistics, Moscow State University, Moscow, Russia. [[pdf]]({filename}/doc/talks/Graf15MSUAlgebratalk.pdf) [[details]]({filename}/talks/Graf15MSUAlgebratalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2014): **Adjuncts, Islands, Algebra (with a Sprinkling of Semantics)**. Invited talk, November 4, CUNY Graduate Center, New York, NY. [[pdf]]({filename}/doc/talks/Graf14CUNYtalk.pdf) [[details]]({filename}/talks/Graf14CUNYtalk.mdown)

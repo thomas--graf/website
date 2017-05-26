@@ -1,0 +1,35 @@
+Title: The Power of Locality Domains in Phonology
+Author: Thomas Graf
+Date: 2017-05-24
+Category: Papers
+Tags: phonology; subregular; locality; formal language theory; learnability
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Domains play an integral role in linguistic theories.
+This paper combines locality domains with current work on the computational complexity of phonology.
+The first result is that if a specific formalism --- Strictly Piecewise (SP) grammars --- is supplemented with a mechanism to enforce first-order definable domain restrictions, its power increases so much that it subsumes almost the full hierarchy of subregular languages.
+However, if domain restrictions are based on linguistically natural intervals, one instead obtains an empirically more adequate model.
+On the on hand, this model subsumes only those subregular classes that have been argued to be relevant for phonotactic generalizations.
+On the other hand, it excludes unnatural generalizations that involve counting or elaborate conditionals.
+It is also shown that SP grammars with interval-based domains are theoretically learnable unlike SP grammars with arbitrary, first-order domains.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf17Phonology.pdf)]
+</div>
+
+~~~latex
+@article{Graf17Phonology,
+  author = {Graf, Thomas},
+  title = {The Power of Locality Domains in Phonology},
+  year = {2017},
+  journal = {Phonology},
+  note = {In press}
+}
+~~~

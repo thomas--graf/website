@@ -1,0 +1,35 @@
+Title: Relative Clauses as a Benchmark for Minimalist Parsing
+Author: Thomas Graf
+Date: 2017-05-24
+Category: Papers
+Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
+
+<div markdown class="authors">
+Graf, Thomas, James Monette, and Chong Zhang
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Minimalist grammars have been used recently in a series of papers to explain well-known contrasts in human sentence processing in terms of subtle structural differences.
+These proposals combine a top-down parser with complexity metrics that relate parsing difficulty to memory usage.
+So far, though, there has been no large-scale exploration of the space of viable metrics.
+Building on this earlier work, we compare the ability of 1,600 metrics to derive several processing effects observed with relative clauses, many of which have been proven difficult to unify.
+We show that among those 1,600 candidates, a few metrics (and only a few) can provide a unified account of all these contrasts.
+This is a welcome result for two reasons: First, it provides a novel account of extensively studied psycholinguistic data.
+Second, it significantly limits the number of viable metrics that may be applied to other phenomena, thus reducing theoretical indeterminacy.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/GrafEtAl17JLM.pdf)]
+</div>
+
+~~~latex
+@article{GrafEtAl17JLM,
+  author = {Graf, Thomas and Monette, James and Zhang, Chong},
+  title = {Relative Clauses as a Benchmark for {M}inimalist Parsing},
+  year = {2017},
+  journal = {Journal of Language Modelling},
+  note = {In press}
+}
+~~~

@@ -1,0 +1,61 @@
+Title: It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics
+Author: Thomas Graf
+Date: 2017-05-26
+Category: Talks
+Tags: phonology; morphology; syntax; semantics; morphosemantics; subregular hierarchy; logic; tiers;
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+It is commonly believed that phonology, morphology, syntax, and
+semantics are distinct modules of language, governed by very different
+principles with little common ground. Nonetheless several approaches
+(e.g. Government Phonology, Distributed Morphology) subscribe to the
+idea that at least some of these language modules exhibit profound
+parallels. Interestingly, recent findings in computational linguistics
+corroborate this hypothesis: it seems that linguistic dependencies
+belong to a small, heavily constrained region of the so-called
+*subregular hierarchy*. If correct, this has far-reaching
+typological implications, sheds new light on learnability issues, and
+raises deep questions about the cognitive architecture of language.
+
+The subregular hierarchy provides a system for classifying structural
+dependencies according to their computational complexity and expressive
+power. It turns out that linguistic dependencies largely cluster at the
+lower end of the hierarchy, thanks to the limiting effects of the
+locality conditions that they are subject to. This computational result
+furnishes answers to a variety of seemingly unrelated questions, such
+as:
+
+- Why is there no first-last harmony in phonology?
+- Why are some prefixes and suffixes freely iterable, but no circumfixes?
+- Why does no language have a monomorphemic version of the quantifier
+  *an even number of*?
+- Why is syntactic movement upward rather than downward?
+
+This is but the tip of a much larger iceberg. The predictions span
+phonology, morphology, syntax, and semantics, and they even intersect
+with psycho- and neurolinguistics. Computational linguists cannot do all
+of this by themselves. Without the expertise of theoretical linguists,
+it is impossible to fully explore the cognitive, typological, and
+theoretical ramifications of this "subregular conspiracy". If we want
+to know how deep the rabbit hole goes, we have to go down there
+together.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf17CLStalk.pdf)]
+</div>
+
+~~~latex
+@Misc{Graf17CLStalk,
+    author = {Graf, Thomas},
+    title = {It's a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics},
+    year = {2017},
+    note = {Invited talk, May 25--27, CLS, University of Chicago, Chicago, IL},
+}
+~~~
