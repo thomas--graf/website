@@ -1,0 +1,7 @@
+Minimalist grammars have been used recently in a series of papers to explain well-known contrasts in human sentence processing in terms of subtle structural differences.
+These proposals combine a top-down parser with complexity metrics that relate parsing difficulty to memory usage.
+So far, though, there has been no large-scale exploration of the space of viable metrics.
+Building on this earlier work, we compare the ability of 1,600 metrics to derive several processing effects observed with relative clauses, many of which have been proven difficult to unify.
+We show that among those 1,600 candidates, a few metrics (and only a few) can provide a unified account of all these contrasts.
+This is a welcome result for two reasons: First, it provides a novel account of extensively studied psycholinguistic data.
+Second, it significantly limits the number of viable metrics that may be applied to other phenomena, thus reducing theoretical indeterminacy.
