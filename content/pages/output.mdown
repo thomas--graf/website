@@ -5,7 +5,7 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2. doi:[10.5334/gjgl.212[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212[10.5334/gjgl.212) [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
+Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2. doi:[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212) [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
 </li>
 <li markdown>
 Graf, Thomas, James Monette, and Chong Zhang (2017): **Relative Clauses as a Benchmark for Minimalist Parsing**. *Journal of Language Modelling*. In press. [[pdf]]({filename}/doc/papers/GrafEtAl17JLM.pdf) [[details]]({filename}/papers/GrafEtAl17JLM.mdown)
