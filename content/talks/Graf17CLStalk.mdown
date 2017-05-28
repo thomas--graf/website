@@ -49,6 +49,7 @@ together.
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf17CLStalk.pdf)]
+[[code]({filename}/doc/talks/Graf17CLStalk.tar.gz)]
 </div>
 
 ~~~latex
