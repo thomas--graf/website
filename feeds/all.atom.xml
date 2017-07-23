@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2017-05-26T00:00:00-04:00</updated><entry><title>It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics</title><link href="http://thomasgraf.net/graf17clstalk.html" rel="alternate"></link><published>2017-05-26T00:00:00-04:00</published><updated>2017-05-26T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-05-26:/graf17clstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2017-07-14T00:00:00-04:00</updated><entry><title>Graph Transductions and Typological Gaps in Morphological Paradigms</title><link href="http://thomasgraf.net/graf17moltalk.html" rel="alternate"></link><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-07-14:/graf17moltalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Several typological gaps have attracted a lot of interest in the linguistic literature recently.
+These concern the Person Case Constraint and the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
+This paper is …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Several typological gaps have attracted a lot of interest in the linguistic literature recently.
+These concern the Person Case Constraint and the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
+This paper is the first to provide a unified explanation of all these phenomena, and it does so via weakly non-inverting graph-transductions.
+A pattern $P$ is absent from the typology whenever such transductions cannot produce the graph corresponding to $P$ from some fixed underlying base graph.
+I show that weakly non-inverting graph-transductions are particularly simple from a computational perspective, and consequently all these typological gaps follow from general simplicity&amp;nbsp;desiderata.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf17MOLtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17MOLtalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Graph Transductions and Typological Gaps in Morphological Paradigms&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at the 15th meeting on the Mathematics of Language (MOL 2017), July 13--14, Queen Mary University of London, London, UK&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="morphosyntax"></category><category term="typology"></category><category term="person hierarchy"></category><category term="person case constraint"></category><category term="subregular"></category><category term="transductions"></category><category term="*ABA"></category></entry><entry><title>Graph Transductions and Typological Gaps in Morphological Paradigms</title><link href="http://thomasgraf.net/graf17mol.html" rel="alternate"></link><published>2017-07-01T00:00:00-04:00</published><updated>2017-07-01T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-07-01:/graf17mol.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Several typological gaps have attracted a lot of interest in the linguistic literature recently.
+These concern the Person Case Constraint and the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
+This paper is …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Several typological gaps have attracted a lot of interest in the linguistic literature recently.
+These concern the Person Case Constraint and the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
+This paper is the first to provide a unified explanation of all these phenomena, and it does so via weakly non-inverting graph-transductions.
+A pattern $P$ is absent from the typology whenever such transductions cannot produce the graph corresponding to $P$ from some fixed underlying base graph.
+I show that weakly non-inverting graph-transductions are particularly simple from a computational perspective, and consequently all these typological gaps follow from general simplicity&amp;nbsp;desiderata.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/Graf17MOL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;Graf17MOL,
+  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+  title = &lt;span class="nb"&gt;{&lt;/span&gt;Graph Transductions and Typological Gaps in Morphological Paradigms&lt;span class="nb"&gt;}&lt;/span&gt;,
+  year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of the 15h Meeting on the Mathematics of Language&lt;span class="nb"&gt;}&lt;/span&gt;,
+  pages = &lt;span class="nb"&gt;{&lt;/span&gt;114--126&lt;span class="nb"&gt;}&lt;/span&gt;,
+  url = &lt;span class="nb"&gt;{&lt;/span&gt;http://www.aclweb.org/anthology/W17-3411&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="morphosyntax"></category><category term="typology"></category><category term="person hierarchy"></category><category term="person case constraint"></category><category term="subregular"></category><category term="transductions"></category><category term="*ABA"></category></entry><entry><title>Do We Need Features for Morphosyntax?</title><link href="http://thomasgraf.net/graf17zastalk.html" rel="alternate"></link><published>2017-06-26T00:00:00-04:00</published><updated>2017-06-26T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-06-26:/graf17zastalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Bobaljik &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Sauerland&amp;#8217;s &lt;em&gt;*&lt;span class="caps"&gt;ABA&lt;/span&gt; and the Combinatorics of Morphological Features&lt;/em&gt; attempts to explain the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns across languages in terms of feature combinatorics.
+Their approach marks a step in the right direction by focusing on the algebra underlying the feature …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Bobaljik &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Sauerland&amp;#8217;s &lt;em&gt;*&lt;span class="caps"&gt;ABA&lt;/span&gt; and the Combinatorics of Morphological Features&lt;/em&gt; attempts to explain the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns across languages in terms of feature combinatorics.
+Their approach marks a step in the right direction by focusing on the algebra underlying the feature calculus, rather than the features themselves.
+I argue, however, that one can go even further and adapt a strategy that talks directly about cells in a morphological paradigm. 
+In support of this argument, I present results from my &lt;span class="caps"&gt;MOL&lt;/span&gt; paper &amp;#8220;Graph Transductions and Typological Gaps in Morphological Paradigms&amp;#8221;.
+This approach has a lot in common with Bobaljik &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Sauerland&amp;#8217;s, but the two also differ in some important respects.
+Their respective insights may eventually be synthesized into a unified&amp;nbsp;account.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf17ZAStalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17ZAStalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Do We Need Features for Morphosyntax?&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany&lt;span class="nb"&gt;}&lt;/span&gt;,
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="morphosyntax"></category><category term="typology"></category><category term="person hierarchy"></category><category term="person case constraint"></category><category term="subregular"></category><category term="features"></category><category term="transductions"></category><category term="*ABA"></category></entry><entry><title>It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics</title><link href="http://thomasgraf.net/graf17clstalk.html" rel="alternate"></link><published>2017-05-26T00:00:00-04:00</published><updated>2017-05-26T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-05-26:/graf17clstalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -85,7 +171,11 @@ It is also shown that &lt;span class="caps"&gt;SP&lt;/span&gt; grammars with int
   title = &lt;span class="nb"&gt;{&lt;/span&gt;The Power of Locality Domains in Phonology&lt;span class="nb"&gt;}&lt;/span&gt;,
   year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
   journal = &lt;span class="nb"&gt;{&lt;/span&gt;Phonology&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;In press&lt;span class="nb"&gt;}&lt;/span&gt;
+  volume = &lt;span class="nb"&gt;{&lt;/span&gt;34&lt;span class="nb"&gt;}&lt;/span&gt;,
+  pages = &lt;span class="nb"&gt;{&lt;/span&gt;1--21&lt;span class="nb"&gt;}&lt;/span&gt;,
+  doi = &lt;span class="nb"&gt;{&lt;/span&gt;10.1017/S0952675717000197&lt;span class="nb"&gt;}&lt;/span&gt;,
+  url = &lt;span class="nb"&gt;{&lt;/span&gt;https://dx.doi.org/10.1017/S0952675717000197&lt;span class="nb"&gt;}&lt;/span&gt;,
+  note = &lt;span class="nb"&gt;{&lt;/span&gt;in press&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="locality"></category><category term="formal language theory"></category><category term="learnability"></category></entry><entry><title>Relative Clauses as a Benchmark for Minimalist Parsing</title><link href="http://thomasgraf.net/grafetal17jlm.html" rel="alternate"></link><published>2017-05-24T00:00:00-04:00</published><updated>2017-05-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-05-24:/grafetal17jlm.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf, Thomas, James Monette, and Chong&amp;nbsp;Zhang&lt;/p&gt;
@@ -115,7 +205,10 @@ Second, it significantly limits the number of viable metrics that may be applied
   title = &lt;span class="nb"&gt;{&lt;/span&gt;Relative Clauses as a Benchmark for &lt;span class="nb"&gt;{&lt;/span&gt;M&lt;span class="nb"&gt;}&lt;/span&gt;inimalist Parsing&lt;span class="nb"&gt;}&lt;/span&gt;,
   year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
   journal = &lt;span class="nb"&gt;{&lt;/span&gt;Journal of Language Modelling&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;In press&lt;span class="nb"&gt;}&lt;/span&gt;
+  volume = &lt;span class="nb"&gt;{&lt;/span&gt;5&lt;span class="nb"&gt;}&lt;/span&gt;,
+  pages = &lt;span class="nb"&gt;{&lt;/span&gt;57--106&lt;span class="nb"&gt;}&lt;/span&gt;,
+  url = &lt;span class="nb"&gt;{&lt;/span&gt;http://dx.doi.org/10.15398/jlm.v5i1.157&lt;span class="nb"&gt;}&lt;/span&gt;,
+  doi = &lt;span class="nb"&gt;{&lt;/span&gt;10.15398/jlm.v5i1.157&lt;span class="nb"&gt;}&lt;/span&gt;,
 &lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="parsing"></category><category term="relative clauses"></category><category term="movement"></category><category term="processing"></category><category term="Chinese"></category><category term="Japanese"></category><category term="Korean"></category></entry><entry><title>Fragments of First-Order Logic for Linguistic Structures</title><link href="http://thomasgraf.net/graf17uconntalk.html" rel="alternate"></link><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-04-24:/graf17uconntalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
@@ -181,82 +274,4 @@ This has theoretical and empirical implications for cognition and typology alike
   year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
   note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, September 12, Department of Linguistics, Yale University, New Haven, CT&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category></entry><entry><title>A Single Movement Normal Form for Minimalist Grammars</title><link href="http://thomasgraf.net/grafetal16fgtalk.html" rel="alternate"></link><published>2016-08-20T00:00:00-04:00</published><updated>2016-08-20T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-08-20:/grafetal16fgtalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, Alëna Aksënova, and Aniello De&amp;nbsp;Santo&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
-In order to simplify future analysis of the formalism, we prove that every &lt;span class="caps"&gt;MG&lt;/span&gt; can be converted into a …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, Alëna Aksënova, and Aniello De&amp;nbsp;Santo&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity.
-In order to simplify future analysis of the formalism, we prove that every &lt;span class="caps"&gt;MG&lt;/span&gt; can be converted into a strongly equivalent &lt;span class="caps"&gt;MG&lt;/span&gt; where every phrase moves at most once.
-The translation procedure is implemented via a deterministic linear tree transduction on the derivation tree language and induces at most a linear blow-up in the size of the&amp;nbsp;lexicon.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/GrafEtAl16FGtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;GrafEtAl16FGtalk,
-  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and De Santo, Aniello&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title = &lt;span class="nb"&gt;{&lt;/span&gt;A Single Movement Normal Form for &lt;span class="nb"&gt;{&lt;/span&gt;M&lt;span class="nb"&gt;}&lt;/span&gt;inimalist Grammars&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at the 21st Conference on Formal Grammar, August 20--21, Bolzano, Italy&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="tree transductions"></category><category term="derivation trees"></category><category term="lexical blow-up"></category><category term="successive cyclic movement"></category></entry><entry><title>Morphotactics as Tier-Based Strictly Local Dependencies</title><link href="http://thomasgraf.net/aksenovaetal16sigmorphontalk.html" rel="alternate"></link><published>2016-08-11T00:00:00-04:00</published><updated>2016-08-11T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-08-11:/aksenovaetal16sigmorphontalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Aksënova, Alëna, Thomas Graf, and Sedigheh&amp;nbsp;Moradi&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
-Drawing on technical results from computational phonology, we show that a variety of morphotactic …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Aksënova, Alëna, Thomas Graf, and Sedigheh&amp;nbsp;Moradi&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
-Drawing on technical results from computational phonology, we show that a variety of morphotactic phenomena are tier-based strictly local and do not fall into weaker subclasses such as the strictly local or strictly piecewise languages. 
-Since the tier-based strictly local languages are learnable in the limit from positive texts, this marks a first important steps towards general machine learning algorithms for morphology.
-Furthermore, the limitation to tier-based strictly local languages explains typological gaps that are puzzling from a purely linguistic&amp;nbsp;perspective.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/AksenovaEtAl16Sigmorphontalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;AksenovaEtAl16Sigmorphontalk,
-  author = &lt;span class="nb"&gt;{&lt;/span&gt;Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas and Moradi, Sedigheh&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title = &lt;span class="nb"&gt;{&lt;/span&gt;Morphotactics as Tier-Based Strictly Local Dependencies&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at the 14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology, August 11, Berlin, Germany&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category><category term="English"></category><category term="German"></category><category term="Russian"></category><category term="Swahili"></category><category term="Ilocano"></category></entry><entry><title>Morphotactics as Tier-Based Strictly Local Dependencies</title><link href="http://thomasgraf.net/aksenovaetal16sigmorphon.html" rel="alternate"></link><published>2016-07-27T00:00:00-04:00</published><updated>2016-07-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-07-27:/aksenovaetal16sigmorphon.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Aksënova, Alëna, Thomas Graf, and Sedigheh&amp;nbsp;Moradi&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
-Drawing on technical results from computational phonology, we show that a variety of morphotactic …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Aksënova, Alëna, Thomas Graf, and Sedigheh&amp;nbsp;Moradi&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-It is commonly accepted that morphological dependencies are finite-state in nature. We argue that the upper bound on morphological expressivity is much lower.
-Drawing on technical results from computational phonology, we show that a variety of morphotactic phenomena are tier-based strictly local and do not fall into weaker subclasses such as the strictly local or strictly piecewise languages. 
-Since the tier-based strictly local languages are learnable in the limit from positive texts, this marks a first important steps towards general machine learning algorithms for morphology.
-Furthermore, the limitation to tier-based strictly local languages explains typological gaps that are puzzling from a purely linguistic&amp;nbsp;perspective.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/AksenovaEtAl16Sigmorphon.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@InProceedings&lt;span class="nb"&gt;{&lt;/span&gt;AksenovaEtAl16Sigmorphon,
-  author = &lt;span class="nb"&gt;{&lt;/span&gt;Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas and Moradi, Sedigheh&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title = &lt;span class="nb"&gt;{&lt;/span&gt;Morphotactics as Tier-Based Strictly Local Dependencies&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of SIGMorPhon 2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt; 
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category><category term="English"></category><category term="German"></category><category term="Russian"></category><category term="Swahili"></category><category term="Ilocano"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category></entry></feed>
