@@ -1,0 +1,5 @@
+Several typological gaps have attracted a lot of interest in the linguistic literature recently.
+These concern the Person Case Constraint and the absence of ABA patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
+This paper is the first to provide a unified explanation of all these phenomena, and it does so via weakly non-inverting graph-transductions.
+A pattern $P$ is absent from the typology whenever such transductions cannot produce the graph corresponding to $P$ from some fixed underlying base graph.
+I show that weakly non-inverting graph-transductions are particularly simple from a computational perspective, and consequently all these typological gaps follow from general simplicity desiderata.
