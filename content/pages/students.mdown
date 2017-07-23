@@ -20,8 +20,8 @@ Author: Thomas Graf
 ## Current
 
 - [Alena Aksenova](http://www.aaksenova.com/) (SBU, Linguistics)
-- James Monette (SBU, Linguistics)
-- Robert Pasternak (SBU, Linguistics)
-- [Amanda Payne](http://udel.edu/~amandapa/) (UD, Linguistics)
 - Aniello De Santo (SBU, Linguistics)
-- Chong Zhang (SBU, Linguistics)
+
+## Graduated
+
+- Chong Zhang (SBU, Linguistics, PhD 2017)
