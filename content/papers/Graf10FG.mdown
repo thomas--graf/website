@@ -38,6 +38,8 @@ In the second half of the paper, I demonstrate the feasibility of the OS-approac
   volume	= {7395},
   series	= {Lecture Notes in Computer Science},
   address	= {Heidelberg},
-  publisher	= {Springer}
+  publisher	= {Springer},
+  url = {https://doi.org/10.1007/978-3-642-32024-8_7},
+  doi = {10.1007/978-3-642-32024-8_7},
 }
 ~~~

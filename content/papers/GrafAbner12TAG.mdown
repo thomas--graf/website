@@ -28,8 +28,9 @@ This conclusion is backed up by data drawn from English, German, and American Si
   author	= {Graf, Thomas and Natasha Abner},
   title		= {Is Syntactic Binding Rational?},
   year		= {2012},
-  booktitle	= {Proceedings of the 11$^\text{th}$ International Workshop
+  booktitle	= {Proceedings of the 11th International Workshop
 		  on {T}ree {A}djoining {G}rammars and Related Formalisms ({TAG}+11)},
-  pages		= {189--197}
+  pages		= {189--197},
+  url = {http://thomasgraf.net/doc/papers/GrafAbner12TAG.pdf}
 }
 ~~~

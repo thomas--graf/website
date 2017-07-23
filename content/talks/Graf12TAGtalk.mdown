@@ -29,7 +29,7 @@ I show that tree adjunction can be emulated by a specific kind of lowering movem
   author	= {Graf, Thomas},
   title		= {Tree Adjunction as Minimalist Lowering},
   year		= {2012},
-  note		= {Slides of a talk given at the 11$^\text{th}$ International
+  note		= {Slides of a talk given at the 11th International
 		  Workshop on Tree Adjoining Grammars and Related Formalisms
 		  (TAG+11), September 26--28, University Paris-Diderot,
 		  Paris, France}

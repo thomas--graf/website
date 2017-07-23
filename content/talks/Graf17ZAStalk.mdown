@@ -1,0 +1,33 @@
+Title: Do We Need Features for Morphosyntax?
+Author: Thomas Graf
+Date: 2017-06-26
+Category: Talks
+Tags: morphology; morphosyntax; typology; person hierarchy; person case constraint; subregular; features; transductions; *ABA
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Bobaljik & Sauerland's *\*ABA and the Combinatorics of Morphological Features* attempts to explain the absence of ABA patterns across languages in terms of feature combinatorics.
+Their approach marks a step in the right direction by focusing on the algebra underlying the feature calculus, rather than the features themselves.
+I argue, however, that one can go even further and adapt a strategy that talks directly about cells in a morphological paradigm. 
+In support of this argument, I present results from my MOL paper "Graph Transductions and Typological Gaps in Morphological Paradigms".
+This approach has a lot in common with Bobaljik & Sauerland's, but the two also differ in some important respects.
+Their respective insights may eventually be synthesized into a unified account.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf17ZAStalk.pdf)]
+</div>
+
+~~~latex
+@Misc{Graf17ZAStalk,
+    author = {Graf, Thomas},
+    title = {Do We Need Features for Morphosyntax?},
+    year = {2017},
+    note = {Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany},
+}
+~~~

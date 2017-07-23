@@ -30,6 +30,9 @@ Second, it significantly limits the number of viable metrics that may be applied
   title = {Relative Clauses as a Benchmark for {M}inimalist Parsing},
   year = {2017},
   journal = {Journal of Language Modelling},
-  note = {In press}
+  volume = {5},
+  pages = {57--106},
+  url = {http://dx.doi.org/10.15398/jlm.v5i1.157},
+  doi = {10.15398/jlm.v5i1.157},
 }
 ~~~

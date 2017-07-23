@@ -30,6 +30,8 @@ At the same time, the feature-constraint equivalence can be helpful in plugging 
   journal = {Glossa},
   volume = {2},
   article = {18},
+  pages = {1--36},
   doi = {10.5334/gjgl.212},
+  url = {https://dx.doi.org/10.5334/gjgl.212}
 }
 ~~~

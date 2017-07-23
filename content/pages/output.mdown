@@ -5,22 +5,25 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2. doi:[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212) [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
+Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2.1–36. doi:[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212). [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
 </li>
 <li markdown>
-Graf, Thomas, James Monette, and Chong Zhang (2017): **Relative Clauses as a Benchmark for Minimalist Parsing**. *Journal of Language Modelling*. In press. [[pdf]]({filename}/doc/papers/GrafEtAl17JLM.pdf) [[details]]({filename}/papers/GrafEtAl17JLM.mdown)
+Graf, Thomas (2017): **Graph Transductions and Typological Gaps in Morphological Paradigms**. *Proceedings of the 15h Meeting on the Mathematics of Language*, 114–126. [[pdf]]({filename}/doc/papers/Graf17MOL.pdf) [[details]]({filename}/papers/Graf17MOL.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2017): **The Power of Locality Domains in Phonology**. *Phonology*. In press. [[pdf]]({filename}/doc/papers/Graf17Phonology.pdf) [[details]]({filename}/papers/Graf17Phonology.mdown)
+Graf, Thomas, James Monette, and Chong Zhang (2017): **Relative Clauses as a Benchmark for Minimalist Parsing**. *Journal of Language Modelling* 5.57–106. doi:[10.15398/jlm.v5i1.157](https://doi.org/10.15398/jlm.v5i1.157). [[pdf]]({filename}/doc/papers/GrafEtAl17JLM.pdf) [[details]]({filename}/papers/GrafEtAl17JLM.mdown)
 </li>
 <li markdown>
-Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. *Formal Grammar*. To appear. [[pdf]]({filename}/doc/papers/GrafEtAl16FG.pdf) [[details]]({filename}/papers/GrafEtAl16FG.mdown)
+Graf, Thomas (2017): **The Power of Locality Domains in Phonology**. *Phonology* 34.1–21. doi:[10.1017/S0952675717000197](https://doi.org/10.1017/S0952675717000197). [[pdf]]({filename}/doc/papers/Graf17Phonology.pdf) [[details]]({filename}/papers/Graf17Phonology.mdown)
+</li>
+<li markdown>
+Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. *Formal Grammar : 20th and 21st International Conferences, Fg 2015, Barcelona, Spain, August 2015, Revised Selected Papers. Fg 2016, Bozen, Italy, August 2016*, ed. by Annie Foret, Glyn Morrill, Reinhard Muskens, Rainer Osswald, and Sylvain Pogodalla, 200–215. Springer: Berlin, Heidelberg. doi:[10.1007/978-3-662-53042-9_12](https://doi.org/10.1007/978-3-662-53042-9_12). [[pdf]]({filename}/doc/papers/GrafEtAl16FG.pdf) [[details]]({filename}/papers/GrafEtAl16FG.mdown)
 </li>
 <li markdown>
 De Santo, Aniello, Alëna Aksënova, and Thomas Graf (2016): **An Alternate View on Strong Lexicalization in TAG**. *Proceedings of the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms (TAG+12)*, 93–102. Düsseldorf, Germany. [[pdf]]({filename}/doc/papers/DeSantoEtAl16TAG.pdf) [[details]]({filename}/papers/DeSantoEtAl16TAG.mdown)
 </li>
 <li markdown>
-Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Morphotactics as Tier-Based Strictly Local Dependencies**. *Proceedings of Sigmorphon 2016*. To appear. [[pdf]]({filename}/doc/papers/AksenovaEtAl16Sigmorphon.pdf) [[details]]({filename}/papers/AksenovaEtAl16Sigmorphon.mdown)
+Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Morphotactics as Tier-Based Strictly Local Dependencies**. *Proceedings of the 14th Sigmorphon Workshop on Computational Research in Phonetics, Phonology, and Morphology*, 121–130. [[pdf]]({filename}/doc/papers/AksenovaEtAl16Sigmorphon.pdf) [[details]]({filename}/papers/AksenovaEtAl16Sigmorphon.mdown)
 </li>
 <li markdown>
 Graf, Thomas, Brigitta Fodor, James Monette, Gianpaul Rachiele, Aunika Warren, and Chong Zhang (2015): **A Refined Notion of Memory Usage for Minimalist Parsing**. *Proceedings of the 14th Meeting on the Mathematics of Language (Mol 2015)*, 1–14. Association for Computational Linguistics: Chicago, USA. [[pdf]]({filename}/doc/papers/GrafEtAl15MOL.pdf) [[details]]({filename}/papers/GrafEtAl15MOL.mdown)
@@ -32,13 +35,13 @@ Graf, Thomas (2014): **Beyond the Apparent: Cognitive Parallels Between Syntax a
 Graf, Thomas, and Bradley Marcinek (2014): **Evaluating Evaluation Metrics for Minimalist Parsing**. *Proceedings of the 2014 ACL Workshop on Cognitive Modeling and Computational Linguistics*, 28–36. [[pdf]]({filename}/doc/papers/GrafMarcinek14CMCL.pdf) [[details]]({filename}/papers/GrafMarcinek14CMCL.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2014): **Feature Geometry and the Person Case Constraint: An Algebraic Link**. *Proceedings of CLS 50*. To appear. [[pdf]]({filename}/doc/papers/Graf14CLS.pdf) [[details]]({filename}/papers/Graf14CLS.mdown)
+Graf, Thomas (2014): **Feature Geometry and the Person Case Constraint: An Algebraic Link**. *Proceedings of CLS 50*. [[pdf]]({filename}/doc/papers/Graf14CLS.pdf) [[details]]({filename}/papers/Graf14CLS.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2014): **Late Merge as Lowering Movement in Minimalist Grammars**. *LACL 2014*, ed. by Nicholas Asher and Sergei Soloviev, 8535:107–121. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-662-43742-1_9](https://doi.org/10.1007/978-3-662-43742-1_9) [[pdf]]({filename}/doc/papers/Graf14LACL.pdf) [[details]]({filename}/papers/Graf14LACL.mdown)
+Graf, Thomas (2014): **Late Merge as Lowering Movement in Minimalist Grammars**. *LACL 2014*, ed. by Nicholas Asher and Sergei Soloviev, 8535:107–121. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-662-43742-1_9](https://doi.org/10.1007/978-3-662-43742-1_9). [[pdf]]({filename}/doc/papers/Graf14LACL.pdf) [[details]]({filename}/papers/Graf14LACL.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2014): **Models of Adjunction in Minimalist Grammars**. *Formal Grammar 2014*, ed. by Glynn Morrill, Reinhard Muskens, Rainer Osswald, and Frank Richter, 8612:52–68. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-662-44121-3_4](https://doi.org/10.1007/978-3-662-44121-3_4) [[pdf]]({filename}/doc/papers/Graf14FG.pdf) [[details]]({filename}/papers/Graf14FG.mdown)
+Graf, Thomas (2014): **Models of Adjunction in Minimalist Grammars**. *Formal Grammar 2014*, ed. by Glynn Morrill, Reinhard Muskens, Rainer Osswald, and Frank Richter, 8612:52–68. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-662-44121-3_4](https://doi.org/10.1007/978-3-662-44121-3_4). [[pdf]]({filename}/doc/papers/Graf14FG.pdf) [[details]]({filename}/papers/Graf14FG.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2013): **Local and Transderivational Constraints in Syntax and Semantics**. UCLA PhD thesis. [[pdf]]({filename}/doc/papers/Graf13Thesis.pdf) [[details]]({filename}/papers/Graf13Thesis.mdown)
@@ -56,13 +59,13 @@ Graf, Thomas (2012): **Concealed Reference-Set Computation: How Syntax Escapes t
 Graf, Thomas, and Natasha Abner (2012): **Is Syntactic Binding Rational?** *Proceedings of the 11th International Workshop on Tree Adjoining Grammars and Related Formalisms (TAG+11)*, 189–197. [[pdf]]({filename}/doc/papers/GrafAbner12TAG.pdf) [[details]]({filename}/papers/GrafAbner12TAG.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2012): **Locality and the Complexity of Minimalist Derivation Tree Languages**. *Formal Grammar 2010/2011*, ed. by Philippe de Groot and Mark-Jan Nederhof, 7395:208–227. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-642-32024-8_14](https://doi.org/10.1007/978-3-642-32024-8_14) [[pdf]]({filename}/doc/papers/Graf11FG.pdf) [[details]]({filename}/papers/Graf11FG.mdown)
+Graf, Thomas (2012): **Locality and the Complexity of Minimalist Derivation Tree Languages**. *Formal Grammar 2010/2011*, ed. by Philippe de Groot and Mark-Jan Nederhof, 7395:208–227. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-642-32024-8_14](https://doi.org/10.1007/978-3-642-32024-8_14). [[pdf]]({filename}/doc/papers/Graf11FG.pdf) [[details]]({filename}/papers/Graf11FG.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2012): **Movement-Generalized Minimalist Grammars**. *LACL 2012*, ed. by Denis Béchet and Alexander J. Dikovsky, 7351:58–73. Lecture Notes in Computer Science. doi:[10.1007/978-3-642-31262-5_4](https://doi.org/10.1007/978-3-642-31262-5_4) [[pdf]]({filename}/doc/papers/Graf12LACL.pdf) [[details]]({filename}/papers/Graf12LACL.mdown)
+Graf, Thomas (2012): **Movement-Generalized Minimalist Grammars**. *LACL 2012*, ed. by Denis Béchet and Alexander J. Dikovsky, 7351:58–73. Lecture Notes in Computer Science. doi:[10.1007/978-3-642-31262-5_4](https://doi.org/10.1007/978-3-642-31262-5_4). [[pdf]]({filename}/doc/papers/Graf12LACL.pdf) [[details]]({filename}/papers/Graf12LACL.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2012): **Reference-Set Constraints as Linear Tree Transductions via Controlled Optimality Systems**. *Formal Grammar 2010/2011*, ed. by Philippe de Groote and Mark-Jan Nederhof, 7395:97–113. Lecture Notes in Computer Science. Springer: Heidelberg. [[pdf]]({filename}/doc/papers/Graf10FG.pdf) [[details]]({filename}/papers/Graf10FG.mdown)
+Graf, Thomas (2012): **Reference-Set Constraints as Linear Tree Transductions via Controlled Optimality Systems**. *Formal Grammar 2010/2011*, ed. by Philippe de Groote and Mark-Jan Nederhof, 7395:97–113. Lecture Notes in Computer Science. Springer: Heidelberg. doi:[10.1007/978-3-642-32024-8_7](https://doi.org/10.1007/978-3-642-32024-8_7). [[pdf]]({filename}/doc/papers/Graf10FG.pdf) [[details]]({filename}/papers/Graf10FG.mdown)
 </li>
 <li markdown>
 Graf, Thomas, Denis Paperno, Anna Szabolcsi, and Jos Tellings [eds.] (2012): **Theories of Everything. in Honor of Ed Keenan**. Vol. 17. UCLA Working Papers in Linguistics. [[pdf]]({filename}/doc/papers/GrafEtAl12Festschrift.pdf) [[details]]({filename}/papers/GrafEtAl12Festschrift.mdown)
@@ -71,7 +74,7 @@ Graf, Thomas, Denis Paperno, Anna Szabolcsi, and Jos Tellings [eds.] (2012): **T
 Graf, Thomas (2012): **Tree Adjunction as Minimalist Lowering**. *Proceedings of the 11th International Workshop on Tree Adjoining Grammars and Related Formalisms (Tag+11)*, 19–27. [[pdf]]({filename}/doc/papers/Graf12TAG.pdf) [[details]]({filename}/papers/Graf12TAG.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2011): **Closure Properties of Minimalist Derivation Tree Languages**. *LACL 2011*, ed. by Sylvain Pogodalla and Jean-Philippe Prost, 6736:96–111. Lecture Notes in Artificial Intelligence. Springer: Heidelberg. doi:[10.1007/978-3-642-22221-4_7](https://doi.org/10.1007/978-3-642-22221-4_7) [[pdf]]({filename}/doc/papers/Graf11LACL.pdf) [[details]]({filename}/papers/Graf11LACL.mdown)
+Graf, Thomas (2011): **Closure Properties of Minimalist Derivation Tree Languages**. *LACL 2011*, ed. by Sylvain Pogodalla and Jean-Philippe Prost, 6736:96–111. Lecture Notes in Artificial Intelligence. Springer: Heidelberg. doi:[10.1007/978-3-642-22221-4_7](https://doi.org/10.1007/978-3-642-22221-4_7). [[pdf]]({filename}/doc/papers/Graf11LACL.pdf) [[details]]({filename}/papers/Graf11LACL.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2010): **A Tree Transducer Model of Reference-Set Computation**. *UCLA Working Papers in Linguistics* 15.1–53. [[pdf]]({filename}/doc/papers/Graf10WPL.pdf) [[details]]({filename}/papers/Graf10WPL.mdown)
@@ -106,7 +109,13 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 <ol reversed markdown>
 <li markdown>
+Graf, Thomas (2017): **Do We Need Features for Morphosyntax?** Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany. [[pdf]]({filename}/doc/talks/Graf17ZAStalk.pdf) [[details]]({filename}/talks/Graf17ZAStalk.mdown)
+</li>
+<li markdown>
 Graf, Thomas (2017): **Fragments of First-Order Logic for Linguistic Structures**. Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT. [[pdf]]({filename}/doc/talks/Graf17UConntalk.pdf) [[details]]({filename}/talks/Graf17UConntalk.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2017): **Graph Transductions and Typological Gaps in Morphological Paradigms**. Slides of a talk given at the 15th meeting on the Mathematics of Language (MOL 2017), July 13–14, Queen Mary University of London, London, UK. [[pdf]]({filename}/doc/talks/Graf17MOLtalk.pdf) [[details]]({filename}/talks/Graf17MOLtalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2017): **It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics**. Invited talk, May 25–27, CLS, University of Chicago, Chicago, IL. [[pdf]]({filename}/doc/talks/Graf17CLStalk.pdf) [[details]]({filename}/talks/Graf17CLStalk.mdown)
@@ -128,6 +137,9 @@ Graf, Thomas, James Monette, Robert Pasternak, and Chong Zhang (2016): **Memory 
 </li>
 <li markdown>
 Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Morphotactics as Tier-Based Strictly Local Dependencies**. Slides of a talk given at the 14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology, August 11, Berlin, Germany. [[pdf]]({filename}/doc/talks/AksenovaEtAl16Sigmorphontalk.pdf) [[details]]({filename}/talks/AksenovaEtAl16Sigmorphontalk.mdown)
+</li>
+<li markdown>
+Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi (2016): **Tier-Based Strict Locality in Phonology and Morphology**. Slides of a talk given at the 10th Northeast Computational Phonology Meeting (NECPhon), September 24, UMass Amherst, Amherst, MA. [[details]]({filename}/talks/AksenovaEtAl16NECPhontalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2015): **A Computational Guide to the Dichotomy of Features and Constraints**. Slides of a talk given at DGfS 2015, April 15–18, University of Leipzig, Leipzig, Germany. [[pdf]]({filename}/doc/talks/Graf15DGFStalk.pdf) [[details]]({filename}/talks/Graf15DGFStalk.mdown)

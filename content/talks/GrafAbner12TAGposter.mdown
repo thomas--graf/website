@@ -28,7 +28,7 @@ This conclusion is backed up by data drawn from English, German, and American Si
   author	= {Graf, Thomas and Abner, Natasha},
   title		= {Is Syntactic Binding Rational?},
   year		= {2012},
-  note		= {Poster presented at the 11$^\text{th}$ International
+  note		= {Poster presented at the 11th International
 		  Workshop on Tree Adjoining Grammars and Related Formalisms
 		  (TAG+11), September 26--28, University Paris-Diderot,
 		  Paris, France}

@@ -44,6 +44,6 @@ The existence of these constraints in language is a natural consequence of the c
 		  Semantics},
   year		= {2013},
   school	= {UCLA},
-  url       = {http://thomasgraf.net/doc/papers/PhDThesis_RollingRelease.pdf}
+  url = {http://thomasgraf.net/doc/papers/Graf13Thesis.pdf}
 }
 ~~~

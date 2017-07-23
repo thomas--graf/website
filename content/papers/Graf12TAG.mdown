@@ -26,8 +26,9 @@ The opposite does not hold, so the strong generative capacity of Minimalist gram
   author	= {Graf, Thomas},
   title		= {Tree Adjunction as {M}inimalist Lowering},
   year		= {2012},
-  booktitle	= {Proceedings of the 11$^\text{th}$ International Workshop
+  booktitle	= {Proceedings of the 11th International Workshop
 		  on Tree Adjoining Grammars and Related Formalisms (TAG+11)},
-  pages		= {19--27}
+  pages		= {19--27},
+  url = {http://www.aclweb.org/old_anthology/W/W12/W12-4603.pdf}
 }
 ~~~

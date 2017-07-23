@@ -28,6 +28,7 @@ I show that these four variants form a natural class when viewed from an algebra
 		  Algebraic Link},
   year		= {2014},
   booktitle	= {Proceedings of {CLS} 50},
-  note		= {To appear}
+  note		= {To appear},
+  url       = {http://thomasgraf.net/doc/papers/Graf14CLS.pdf}
 }
 ~~~

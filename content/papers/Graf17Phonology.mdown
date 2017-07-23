@@ -30,6 +30,10 @@ It is also shown that SP grammars with interval-based domains are theoretically 
   title = {The Power of Locality Domains in Phonology},
   year = {2017},
   journal = {Phonology},
-  note = {In press}
+  volume = {34},
+  pages = {1--21},
+  doi = {10.1017/S0952675717000197},
+  url = {https://dx.doi.org/10.1017/S0952675717000197},
+  note = {in press}
 }
 ~~~

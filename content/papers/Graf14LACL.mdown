@@ -34,6 +34,7 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
   series	= {Lecture Notes in Computer Science},
   address	= {Heidelberg},
   publisher	= {Springer},
-  doi       = {10.1007/978-3-662-43742-1_9}
+  doi       = {10.1007/978-3-662-43742-1_9},
+  url       = {https://doi.org/10.1007/978-3-662-43742-1_9}
 }
 ~~~

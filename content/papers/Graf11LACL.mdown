@@ -32,6 +32,7 @@ Recently, the question has been raised whether the derivation tree languages of 
   series	= {Lecture Notes in Artificial Intelligence},
   address	= {Heidelberg},
   publisher	= {Springer},
-  doi = {10.1007/978-3-642-22221-4_7}
+  doi = {10.1007/978-3-642-22221-4_7},
+  url = {https://dx.doi.org/10.1007/978-3-642-22221-4_7}
 }
 ~~~

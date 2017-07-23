@@ -1,0 +1,32 @@
+Title: Graph Transductions and Typological Gaps in Morphological Paradigms
+Author: Thomas Graf
+Date: 2017-07-14
+Category: Talks
+Tags: morphology; morphosyntax; typology; person hierarchy; person case constraint; subregular; transductions; *ABA
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Several typological gaps have attracted a lot of interest in the linguistic literature recently.
+These concern the Person Case Constraint and the absence of ABA patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
+This paper is the first to provide a unified explanation of all these phenomena, and it does so via weakly non-inverting graph-transductions.
+A pattern $P$ is absent from the typology whenever such transductions cannot produce the graph corresponding to $P$ from some fixed underlying base graph.
+I show that weakly non-inverting graph-transductions are particularly simple from a computational perspective, and consequently all these typological gaps follow from general simplicity desiderata.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf17MOLtalk.pdf)]
+</div>
+
+~~~latex
+@Misc{Graf17MOLtalk,
+    author = {Graf, Thomas},
+    title = {Graph Transductions and Typological Gaps in Morphological Paradigms},
+    year = {2017},
+    note = {Slides of a talk given at the 15th meeting on the Mathematics of Language (MOL 2017), July 13--14, Queen Mary University of London, London, UK}
+}
+~~~
