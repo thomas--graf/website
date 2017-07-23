@@ -233,9 +233,15 @@ if [ -e ${tmpfile}_asciidoc ]; then
 fi
 
 # make doi hyperlinks;
-# we first extract all relevant parts,
-# and the reassemble them into a markdown link
-sed -i 's|doi:\(https\{0,1\}\)://\([^/]*\)/\([^/]*\)/\([^\\]*\)\\\(_\{0,1\}\)\([^\\]*\).*|doi:[\3/\4\5\6](\1://\2/\3/\4\5\6)|g' $tmpfile
+# Step 1: replace \_ by _ so that we can easily find the end of the url
+sed -i 's|\\_|_|g' $tmpfile
+# Step 2: extract all relevant parts and reassemble into markdown link
+# - format in tmpfile is
+# doi:URL\[the_doi\]
+# - \1 = URL
+# - \2 = the_doi
+# - output: doi:[the_doi](URL)
+sed -i 's|doi:\([^\\]*\)\\\[\([^\\]*\)\\\]|doi:[\2](\1)|g' $tmpfile
 
 # remove URL links as they're best kept in the details;
 # this must be done before we move ref ids to the end;
