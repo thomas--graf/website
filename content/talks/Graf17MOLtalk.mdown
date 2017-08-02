@@ -20,6 +20,7 @@ I show that weakly non-inverting graph-transductions are particularly simple fro
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf17MOLtalk.pdf)]
+[[code]({filename}/doc/talks/Graf17MOLtalk.tar.gz)]
 </div>
 
 ~~~latex
