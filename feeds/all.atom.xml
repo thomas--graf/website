@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2017-07-14T00:00:00-04:00</updated><entry><title>Graph Transductions and Typological Gaps in Morphological Paradigms</title><link href="http://thomasgraf.net/graf17moltalk.html" rel="alternate"></link><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-07-14:/graf17moltalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2017-10-21T00:00:00-04:00</updated><entry><title>Syntax in Phonology? C-Command over Strings</title><link href="http://thomasgraf.net/graf17necphontalk.html" rel="alternate"></link><published>2017-10-21T00:00:00-04:00</published><updated>2017-10-21T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-10-21:/graf17necphontalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NECPHONtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17NECPHONtalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Syntax in Phonology? C-Command Over Strings&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NECPHONtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17NECPHONtalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Syntax in Phonology? C-Command Over Strings&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="syntax"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category></entry><entry><title>Graph Transductions and Typological Gaps in Morphological Paradigms</title><link href="http://thomasgraf.net/graf17moltalk.html" rel="alternate"></link><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-07-14:/graf17moltalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -55,7 +81,7 @@ I show that weakly non-inverting graph-transductions are particularly simple fro
   author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
   title = &lt;span class="nb"&gt;{&lt;/span&gt;Graph Transductions and Typological Gaps in Morphological Paradigms&lt;span class="nb"&gt;}&lt;/span&gt;,
   year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of the 15h Meeting on the Mathematics of Language&lt;span class="nb"&gt;}&lt;/span&gt;,
+  booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of the 15th Meeting on the Mathematics of Language&lt;span class="nb"&gt;}&lt;/span&gt;,
   pages = &lt;span class="nb"&gt;{&lt;/span&gt;114--126&lt;span class="nb"&gt;}&lt;/span&gt;,
   url = &lt;span class="nb"&gt;{&lt;/span&gt;http://www.aclweb.org/anthology/W17-3411&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
@@ -245,36 +271,4 @@ Hopefully, an alliance of linguists, logicians, and computer scientists will be 
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="semantics"></category><category term="morphosemantics"></category><category term="subregular hierarchy"></category><category term="logic"></category><category term="tiers"></category></entry><entry><title>Computational Parallels Across Language Modules</title><link href="http://thomasgraf.net/graf16yaletalk.html" rel="alternate"></link><published>2016-09-12T00:00:00-04:00</published><updated>2016-09-12T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2016-09-12:/graf16yaletalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Linguists study a variety of aspects of language, including phonology, morphology, and syntax.
-It is commonly believed that those are  distinct modules of language, governed by very different principles  and consequently studied with very different tools.
-While there have been attempts at …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Linguists study a variety of aspects of language, including phonology, morphology, and syntax.
-It is commonly believed that those are  distinct modules of language, governed by very different principles  and consequently studied with very different tools.
-While there have been attempts at unification (e.g. Government Phonology, Distributed  Morphology, and &lt;span class="caps"&gt;OT&lt;/span&gt;-syntax), the received view is that these modules are too far removed from each other to allow for direct transfer of&amp;nbsp;knowledge.&lt;/p&gt;
-&lt;p&gt;In this talk, I argue against this position.
-Recent results from computational linguistics reveal a surprising amount of commonalities between phonology, morphology, and syntax.
-In particular, the dependencies found in all three are close to the bottom of the so-called subregular hiearchy.
-This results in an abstract but unified view of language where results from one domain can be extended to another in a precise manner.
-This has theoretical and empirical implications for cognition and typology alike, and it even furnishes new models of language&amp;nbsp;acquisition.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf16Yaletalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf16Yaletalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf16Yaletalk,
-  author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-  title = &lt;span class="nb"&gt;{&lt;/span&gt;Computational Parallels Across Language Modules&lt;span class="nb"&gt;}&lt;/span&gt;,
-  year = &lt;span class="nb"&gt;{&lt;/span&gt;2016&lt;span class="nb"&gt;}&lt;/span&gt;,
-  note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, September 12, Department of Linguistics, Yale University, New Haven, CT&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="subregular hierarchy"></category><category term="formal language theory"></category><category term="tiers"></category><category term="locality"></category><category term="typology"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="morphology"></category><category term="syntax"></category><category term="semantics"></category><category term="morphosemantics"></category><category term="subregular hierarchy"></category><category term="logic"></category><category term="tiers"></category></entry></feed>
