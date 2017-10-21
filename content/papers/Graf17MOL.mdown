@@ -28,7 +28,7 @@ I show that weakly non-inverting graph-transductions are particularly simple fro
   author = {Graf, Thomas},
   title = {Graph Transductions and Typological Gaps in Morphological Paradigms},
   year = {2017},
-  booktitle = {Proceedings of the 15h Meeting on the Mathematics of Language},
+  booktitle = {Proceedings of the 15th Meeting on the Mathematics of Language},
   pages = {114--126},
   url = {http://www.aclweb.org/anthology/W17-3411}
 }

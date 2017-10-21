@@ -1,0 +1,23 @@
+Title: Syntax in Phonology? C-Command over Strings
+Author: Thomas Graf
+Date: 2017-10-21
+Category: Talks
+Tags: phonology; syntax; locality; subregular; c-command
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf17NECPHONtalk.pdf)]
+</div>
+
+~~~latex
+@Misc{Graf17NECPHONtalk,
+    author = {Graf, Thomas},
+    title = {Syntax in Phonology? C-Command Over Strings},
+    year = {2017},
+    note = {Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY}
+}
+~~~
