@@ -1,0 +1,11 @@
+This work is a first tentative step towards motivating constraints on
+movement as a mechanism for minimizing grammar size.
+
+Recently is has been proved that every Minimalist grammar can be converted
+into a strongly equivalent single movement normal form such that every
+phrase moves at most once in every derivation. The normal form conversion
+greatly simplifies the formalism and reduces the complexity of movement
+dependencies, but it also runs the risk of greatly increasing the size of
+the grammar. I show that no such blow-up obtains with linguistically
+plausible grammars that respect common constraints on movement. This
+provides an entirely new, quantitative motivation for movement constraints.
