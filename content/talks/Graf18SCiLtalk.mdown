@@ -1,0 +1,38 @@
+Title: Grammar Size and Quantitative Restrictions on Movement
+Author: Thomas Graf
+Date: 2018-01-04
+Category: Talks
+Tags: Minimalist grammars; movement; locality; improper movement; superraising; wh-islands; grammar size
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+This work is a first tentative step towards motivating constraints on
+movement as a mechanism for minimizing grammar size.
+
+Recently is has been proved that every Minimalist grammar can be converted
+into a strongly equivalent single movement normal form such that every
+phrase moves at most once in every derivation. The normal form conversion
+greatly simplifies the formalism and reduces the complexity of movement
+dependencies, but it also runs the risk of greatly increasing the size of
+the grammar. I show that no such blow-up obtains with linguistically
+plausible grammars that respect common constraints on movement. This
+provides an entirely new, quantitative motivation for movement constraints.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf18SCiLtalk.pdf)]
+</div>
+
+~~~latex
+@Misc{Graf18SCiLtalk,
+    author = {Graf, Thomas},
+    title = {Grammar Size and Quantitative Restrictions on Movement},
+    year = {2017},
+    note = {Slides of a talk given at SCiL 2018, January 04-07, Utah}
+}
+~~~
