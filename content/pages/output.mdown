@@ -109,13 +109,13 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 <ol reversed markdown>
 <li markdown>
+Graf, Thomas (2018): **Grammar Size and Quantitative Restrictions on Movement**. Slides of a talk given at SCiL 2018, January 04-07, Utah. [[pdf]]({filename}/doc/talks/Graf18SCiLtalk.pdf) [[details]]({filename}/talks/Graf18SCiLtalk.mdown)
+</li>
+<li markdown>
 Graf, Thomas (2017): **Do We Need Features for Morphosyntax?** Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany. [[pdf]]({filename}/doc/talks/Graf17ZAStalk.pdf) [[details]]({filename}/talks/Graf17ZAStalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2017): **Fragments of First-Order Logic for Linguistic Structures**. Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT. [[pdf]]({filename}/doc/talks/Graf17UConntalk.pdf) [[details]]({filename}/talks/Graf17UConntalk.mdown)
-</li>
-<li markdown>
-Graf, Thomas (2017): **Grammar Size and Quantitative Restrictions on Movement**. Slides of a talk given at SCiL 2018, January 04-07, Utah. [[pdf]]({filename}/doc/talks/Graf18SCiLtalk.pdf) [[details]]({filename}/talks/Graf18SCiLtalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2017): **Graph Transductions and Typological Gaps in Morphological Paradigms**. Slides of a talk given at the 15th meeting on the Mathematics of Language (MOL 2017), July 13–14, Queen Mary University of London, London, UK. [[pdf]]({filename}/doc/talks/Graf17MOLtalk.pdf) [[details]]({filename}/talks/Graf17MOLtalk.mdown)
