@@ -127,6 +127,9 @@ Graf, Thomas (2017): **It’s a (Sub-)Regular Conspiracy: Locality and Computati
 Graf, Thomas (2017): **Locality Domains and Phonological c-Command over Strings**. Slides of a talk given at the 48th Annual Meeting of the North East Linguistic Society (NELS 48), October 27–29, University of Iceland, Reykjavík, Iceland. [[pdf]]({filename}/doc/talks/Graf17NELStalk.pdf) [[details]]({filename}/talks/Graf17NELStalk.mdown)
 </li>
 <li markdown>
+Graf, Thomas (2017): **Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers**. Invited talk, December 15, Rutgers University, New Brunswick, NJ. [[pdf]]({filename}/doc/talks/Graf17Rutgerstalk.pdf) [[details]]({filename}/talks/Graf17Rutgerstalk.mdown)
+</li>
+<li markdown>
 Graf, Thomas (2017): **Syntax in Phonology? C-Command over Strings**. Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY. [[pdf]]({filename}/doc/talks/Graf17NECPHONtalk.pdf) [[details]]({filename}/talks/Graf17NECPHONtalk.mdown)
 </li>
 <li markdown>

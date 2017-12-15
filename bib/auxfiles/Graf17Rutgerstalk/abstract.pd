@@ -1,0 +1,5 @@
+Even though languages are capable of expressing very complex generalized quantifiers such as *all but seven* and *an even number of*, the range of possible meanings for monomorphemic determiners seems to be limited to *every*, *no*, *some*, and numerals.
+In this talk, I argue that this is not an accident.
+Borrowing insights from the semantic automata approach, I identify generalized quantifiers with string languages and show that all the monomorphemic quantifiers fall into the class of tier-based strictly local (TSL) languages.
+TSL has independently been argued to play a central role in phonology, morphology, and syntax.
+This suggests that the semantic limitations of monomorphemic quantifiers are connected to general computational properties of language.
