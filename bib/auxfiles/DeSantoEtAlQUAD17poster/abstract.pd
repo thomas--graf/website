@@ -1,0 +1,5 @@
+Semantic automata were developed to compare the complexity of generalized quantifiers based on the complexity of the string languages that describe their truth conditions.
+An important point that has gone unnoticed so far is that the generated string languages are remarkably simple for monomorphemic quantifiers.
+Whereas complex quantifiers such as \emph{an even number of} correspond to specific regular languages, monomorphemic \emph{every}, \emph{no}, \emph{some} as well as numerals do not reach this level of complexity.
+Instead, they all stay close to the bottom of the so-called subregular hierarchy.
+This poster defines relevant quantifier languages in subregular terms and sketches an experimental design for testing the cognitive predictions of the subregular perspective for quantifier complexity.

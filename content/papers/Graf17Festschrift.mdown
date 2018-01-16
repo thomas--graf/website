@@ -1,0 +1,28 @@
+Title: Derivations as Representations: News from the Computational Frontier
+Author: Thomas Graf
+Date: 2017-01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf17Festschrift.pdf)]
+[[code]({filename}/doc/papers/Graf17Festschrift.tar.gz)]
+</div>
+
+~~~latex
+@incollection{Graf17Festschrift,
+  author = {Graf, Thomas},
+  title = {Derivations as Representations: News from the Computational Frontier},
+  booktitle = {Festschrift for {M}artin {P}rinzhorn},
+  editor = {Mayr, Clemens and Williams, Edwin},
+  series = {Wiener Linguistische Gazette},
+  volume = {82},
+  pages = {61--69},
+  year = {2017}
+}
+~~~

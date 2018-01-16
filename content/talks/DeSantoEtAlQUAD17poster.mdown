@@ -1,0 +1,31 @@
+Title: Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers
+Author: Thomas Graf
+Date: 2017-07-22
+Category: Talks
+Tags: subregular hierarchy; semantics; quantifiers; typology; tiers
+
+<div markdown class="authors">
+De Santo, Aniello, Thomas Graf, and John E. Drury
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Semantic automata were developed to compare the complexity of generalized quantifiers based on the complexity of the string languages that describe their truth conditions.
+An important point that has gone unnoticed so far is that the generated string languages are remarkably simple for monomorphemic quantifiers.
+Whereas complex quantifiers such as mph{an even number of} correspond to specific regular languages, monomorphemic mph{every}, mph{no}, mph{some} as well as numerals do not reach this level of complexity.
+Instead, they all stay close to the bottom of the so-called subregular hierarchy.
+This poster defines relevant quantifier languages in subregular terms and sketches an experimental design for testing the cognitive predictions of the subregular perspective for quantifier complexity.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~latex
+@Misc{DeSantoEtAlQUAD17poster,
+    author = {De Santo, Aniello and Graf, Thomas and Drury, John E.},
+    title  = {Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers},
+    year   = {2017},
+    note   = {Poster presented at the {ESSLLI} Workshop on Quantifiers and Determiners ({QUAD} 2017), July 17 -- 21, University of Toulouse, France}
+}
+~~~

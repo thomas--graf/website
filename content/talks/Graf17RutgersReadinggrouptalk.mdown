@@ -1,0 +1,43 @@
+Title: One Reason to Move, a Million Reasons to Be an Island: Third-Factor Explanations from Computational Syntax
+Author: Thomas Graf
+Date: 2017-12-15
+Category: Talks
+Tags: subregular hierarchy; syntax; tiers; selection; movement; adjunction; islands
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Two linguistic findings are commonly taken for granted yet are anything but trivial:
+
+1. Phrases can be displaced from their base position.
+1. Some phrases block displacement.
+
+On a technical level, these properties are hashed out in terms of movement and islands.
+From a naive perspective, there is no reason why languages should exhibit either one.
+One can easily design a fully functional grammar without movement, and it is equally simple to imagine a grammar with movement but without islands.
+
+In this talk, I argue that both movement and island constraints can be motivated on computational grounds:
+
+1. Any computational device that can handle adjuncts can also compute movement dependencies.
+   Hence movement comes for free.
+1. At the same time, numerous island constraints are unavoidable in a computational system that recognizes the optionality of adjuncts, values parsing efficiency, and prefers small grammars over large ones.
+
+More specifically, I argue that standard phrasal movement (but not lowering movement) belongs to a very simple class of computational dependencies that can also be found in phonology, morphology, and semantics.
+I then show how the Adjunct Island Constraint and the Coordinate Structure Constraint both follow from optionality, the Specifier Island Constraint guarantees an exponential reduction in parsing complexity, and grammar size is kept minimal by the Ban against Improper Movement, freezing effects, and the wh-island constraint.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~latex
+@Misc{Graf17RutgersReadinggrouptalk,
+    author = {Graf, Thomas},
+    title = {One Reason to Move, A Million Reasons to be an Island: Third-Factor Explanations from Computational Syntax},
+    year = {2017},
+    note = {Invited talk, December 15, Rutgers University, New Brunswick, NJ.},
+}
+~~~

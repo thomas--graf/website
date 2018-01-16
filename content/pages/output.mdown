@@ -8,13 +8,19 @@ Author: Thomas Graf
 Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2.1–36. doi:[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212). [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
 </li>
 <li markdown>
+Graf, Thomas (2017): **Derivations as Representations: News from the Computational Frontier**. *Festschrift for Martin Prinzhorn*, ed. by Clemens Mayr and Edwin Williams, 82:61–69. Wiener Linguistische Gazette. [[pdf]]({filename}/doc/papers/Graf17Festschrift.pdf) [[details]]({filename}/papers/Graf17Festschrift.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2017): **Grammar Size and Quantitative Restrictions on Movement**. *Proceedings of the Society for Computation in Linguistics (Scil) 2018*, 23–33. doi:[10.7275/R5348HJ8](https://doi.org/10.7275/R5348HJ8). [[pdf]]({filename}/doc/papers/Graf17SCiL.pdf) [[details]]({filename}/papers/Graf17SCiL.mdown)
+</li>
+<li markdown>
 Graf, Thomas (2017): **Graph Transductions and Typological Gaps in Morphological Paradigms**. *Proceedings of the 15th Meeting on the Mathematics of Language*, 114–126. [[pdf]]({filename}/doc/papers/Graf17MOL.pdf) [[details]]({filename}/papers/Graf17MOL.mdown)
 </li>
 <li markdown>
 Graf, Thomas, James Monette, and Chong Zhang (2017): **Relative Clauses as a Benchmark for Minimalist Parsing**. *Journal of Language Modelling* 5.57–106. doi:[10.15398/jlm.v5i1.157](https://doi.org/10.15398/jlm.v5i1.157). [[pdf]]({filename}/doc/papers/GrafEtAl17JLM.pdf) [[details]]({filename}/papers/GrafEtAl17JLM.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2017): **The Power of Locality Domains in Phonology**. *Phonology* 34.1–21. doi:[10.1017/S0952675717000197](https://doi.org/10.1017/S0952675717000197). [[pdf]]({filename}/doc/papers/Graf17Phonology.pdf) [[details]]({filename}/papers/Graf17Phonology.mdown)
+Graf, Thomas (2017): **The Power of Locality Domains in Phonology**. *Phonology* 34.385–405. doi:[10.1017/S0952675717000197](https://doi.org/10.1017/S0952675717000197). [[pdf]]({filename}/doc/papers/Graf17Phonology.pdf) [[details]]({filename}/papers/Graf17Phonology.mdown)
 </li>
 <li markdown>
 Graf, Thomas, Alëna Aksënova, and Aniello De Santo (2016): **A Single Movement Normal Form for Minimalist Grammars**. *Formal Grammar : 20th and 21st International Conferences, Fg 2015, Barcelona, Spain, August 2015, Revised Selected Papers. Fg 2016, Bozen, Italy, August 2016*, ed. by Annie Foret, Glyn Morrill, Reinhard Muskens, Rainer Osswald, and Sylvain Pogodalla, 200–215. Springer: Berlin, Heidelberg. doi:[10.1007/978-3-662-53042-9_12](https://doi.org/10.1007/978-3-662-53042-9_12). [[pdf]]({filename}/doc/papers/GrafEtAl16FG.pdf) [[details]]({filename}/papers/GrafEtAl16FG.mdown)
@@ -115,6 +121,9 @@ Graf, Thomas (2018): **Grammar Size and Quantitative Restrictions on Movement**.
 Graf, Thomas (2017): **Do We Need Features for Morphosyntax?** Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany. [[pdf]]({filename}/doc/talks/Graf17ZAStalk.pdf) [[details]]({filename}/talks/Graf17ZAStalk.mdown)
 </li>
 <li markdown>
+De Santo, Aniello, Thomas Graf, and John E. Drury (2017): **Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers**. Poster presented at the ESSLLI Workshop on Quantifiers and Determiners (QUAD 2017), July 17 – 21, University of Toulouse, France. [[details]]({filename}/talks/DeSantoEtAlQUAD17poster.mdown)
+</li>
+<li markdown>
 Graf, Thomas (2017): **Fragments of First-Order Logic for Linguistic Structures**. Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT. [[pdf]]({filename}/doc/talks/Graf17UConntalk.pdf) [[details]]({filename}/talks/Graf17UConntalk.mdown)
 </li>
 <li markdown>
@@ -125,6 +134,9 @@ Graf, Thomas (2017): **It’s a (Sub-)Regular Conspiracy: Locality and Computati
 </li>
 <li markdown>
 Graf, Thomas (2017): **Locality Domains and Phonological c-Command over Strings**. Slides of a talk given at the 48th Annual Meeting of the North East Linguistic Society (NELS 48), October 27–29, University of Iceland, Reykjavík, Iceland. [[pdf]]({filename}/doc/talks/Graf17NELStalk.pdf) [[details]]({filename}/talks/Graf17NELStalk.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2017): **One Reason to Move, a Million Reasons to Be an Island: Third-Factor Explanations from Computational Syntax**. Invited talk, December 15, Rutgers University, New Brunswick, NJ. [[details]]({filename}/talks/Graf17RutgersReadinggrouptalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2017): **Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers**. Invited talk, December 15, Rutgers University, New Brunswick, NJ. [[pdf]]({filename}/doc/talks/Graf17Rutgerstalk.pdf) [[details]]({filename}/talks/Graf17Rutgerstalk.mdown)

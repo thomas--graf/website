@@ -1,7 +1,7 @@
 Title: Grammar Size and Quantitative Restrictions on Movement
 Author: Thomas Graf
-Date: 2018-01-04
-Category: Talks
+Date: 2018-01-16
+Category: Papers
 Tags: Minimalist grammars; movement; locality; improper movement; superraising; wh-islands; grammar size
 
 <div markdown class="authors">
@@ -25,15 +25,17 @@ provides an entirely new, quantitative motivation for movement constraints.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf18SCiLtalk.pdf)]
-[[code]({filename}/doc/talks/Graf18SCiLtalk.tar.gz)]
+[[pdf]({filename}/doc/papers/Graf17SCiL.pdf)]
+[[code]({filename}/doc/papers/Graf17SCiL.tar.gz)]
 </div>
 
 ~~~latex
-@Misc{Graf18SCiLtalk,
+@inproceedings{Graf17SCiL,
     author = {Graf, Thomas},
     title = {Grammar Size and Quantitative Restrictions on Movement},
-    year = {2018},
-    note = {Slides of a talk given at SCiL 2018, January 04-07, Utah}
+    year = {2017},
+    booktitle = {Proceedings of the Society for Computation in Linguistics (SCiL) 2018},
+    pages = {23--33},
+    doi = {10.7275/R5348HJ8}
 }
 ~~~

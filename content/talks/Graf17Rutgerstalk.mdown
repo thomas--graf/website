@@ -20,6 +20,7 @@ This suggests that the semantic limitations of monomorphemic quantifiers are con
 <div markdown class="files">
 <span id="files-title">Files</span>
 [[pdf]({filename}/doc/talks/Graf17Rutgerstalk.pdf)]
+[[code]({filename}/doc/talks/Graf17Rutgerstalk.tar.gz)]
 </div>
 
 ~~~latex

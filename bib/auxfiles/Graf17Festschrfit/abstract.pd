@@ -1,0 +1,5 @@
+Ever since McCawley (1968) one of the fundamental questions of linguistic theory has been whether formalisms should be construed as derivational or representational in nature.
+The former focuses on how structures are built in an incremental fashion from pre-defined atoms via structure-building operations, whereas the latter considers all possible structures and filters out the ill-formed ones via constraints.
+Even within Minimalism, proposals span the gamut from Strict Derivationalism all the way to the purely representational Mirror Theory.
+Rather than adjudicating between the two, this squib presents several computational arguments in support of a more pragmatic view that I call *representational derivationalism*.
+Representational derivationalism recognizes that both approaches have unique advantages and synthesizes them into a unique perspective of syntax that opens up several new research venues.
