@@ -25,6 +25,8 @@ Among other things, this entails that the linguistic notion of relativized local
 
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/GrafEtAl18Meertenstalk.pdf)]
+[[code]({filename}/doc/talks/GrafEtAl18Meertenstalk.tar.gz)]
 </div>
 
 ~~~latex

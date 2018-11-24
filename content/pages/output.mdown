@@ -148,7 +148,7 @@ Graf, Thomas, and Connor Mayer (2018): **Sanskrit N-Retroflexion Is Input-Output
 Graf, Thomas (2018): **The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition**. Invited talk, November 26, Integrated Language Science and Technology Seminar, University of Pennsylvania, Philadelphia, PA. [[details]]({filename}/talks/Graf18Penntalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas, Alëna Aksënova, Hyunah Baek, Aniello De Santo, Hossep Dolatian, Sedigheh Moradi, Jon Rawski, Suji Yang, and Jeffrey Heinz (2018): **Tiers and Relativized Locality Across Language Modules**. Slides of a talk given at the 1-day workshop Parallels Between Phonology and Syntax, July 9, Meertens Instituut, Amsterdam, Netherlands. [[details]]({filename}/talks/GrafEtAl18Meertenstalk.mdown)
+Graf, Thomas, Alëna Aksënova, Hyunah Baek, Aniello De Santo, Hossep Dolatian, Sedigheh Moradi, Jon Rawski, Suji Yang, and Jeffrey Heinz (2018): **Tiers and Relativized Locality Across Language Modules**. Slides of a talk given at the 1-day workshop Parallels Between Phonology and Syntax, July 9, Meertens Instituut, Amsterdam, Netherlands. [[pdf]]({filename}/doc/talks/GrafEtAl18Meertenstalk.pdf) [[details]]({filename}/talks/GrafEtAl18Meertenstalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2017): **Do We Need Features for Morphosyntax?** Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany. [[pdf]]({filename}/doc/talks/Graf17ZAStalk.pdf) [[details]]({filename}/talks/Graf17ZAStalk.mdown)
