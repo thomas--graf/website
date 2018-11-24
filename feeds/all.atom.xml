@@ -1,147 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2018-01-16T00:00:00-05:00</updated><entry><title>Grammar Size and Quantitative Restrictions on Movement</title><link href="http://thomasgraf.net/graf17scil.html" rel="alternate"></link><published>2018-01-16T00:00:00-05:00</published><updated>2018-01-16T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-01-16:/graf17scil.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2018-11-26T00:00:00-05:00</updated><entry><title>The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition</title><link href="http://thomasgraf.net/graf18penntalk.html" rel="alternate"></link><published>2018-11-26T00:00:00-05:00</published><updated>2018-11-26T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-11-26:/graf18penntalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-This work is a first tentative step towards motivating constraints on
-movement as a mechanism for minimizing grammar&amp;nbsp;size.&lt;/p&gt;
-&lt;p&gt;Recently is has been proved that every Minimalist grammar can be converted
-into a strongly equivalent single movement normal form such that every …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+It is a well-known fact of computational linguistics that syntax is 
+mildly context-sensitive and thus highly complex &amp;#8212;- certainly more 
+complex than phonology or morphology. This complexity is at odds with 
+the ease of language acquisition and the impressive speed of human 
+sentence …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-This work is a first tentative step towards motivating constraints on
-movement as a mechanism for minimizing grammar&amp;nbsp;size.&lt;/p&gt;
-&lt;p&gt;Recently is has been proved that every Minimalist grammar can be converted
-into a strongly equivalent single movement normal form such that every
-phrase moves at most once in every derivation. The normal form conversion
-greatly simplifies the formalism and reduces the complexity of movement
-dependencies, but it also runs the risk of greatly increasing the size of
-the grammar. I show that no such blow-up obtains with linguistically
-plausible grammars that respect common constraints on movement. This
-provides an entirely new, quantitative motivation for movement&amp;nbsp;constraints.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/Graf17SCiL.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/papers/Graf17SCiL.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;Graf17SCiL,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Grammar Size and Quantitative Restrictions on Movement&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of the Society for Computation in Linguistics (SCiL) 2018&lt;span class="nb"&gt;}&lt;/span&gt;,
-    pages = &lt;span class="nb"&gt;{&lt;/span&gt;23--33&lt;span class="nb"&gt;}&lt;/span&gt;,
-    doi = &lt;span class="nb"&gt;{&lt;/span&gt;10.7275/R5348HJ8&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="movement"></category><category term="locality"></category><category term="improper movement"></category><category term="superraising"></category><category term="wh-islands"></category><category term="grammar size"></category></entry><entry><title>Grammar Size and Quantitative Restrictions on Movement</title><link href="http://thomasgraf.net/graf18sciltalk.html" rel="alternate"></link><published>2018-01-04T00:00:00-05:00</published><updated>2018-01-04T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-01-04:/graf18sciltalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-This work is a first tentative step towards motivating constraints on
-movement as a mechanism for minimizing grammar&amp;nbsp;size.&lt;/p&gt;
-&lt;p&gt;Recently is has been proved that every Minimalist grammar can be converted
-into a strongly equivalent single movement normal form such that every …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-This work is a first tentative step towards motivating constraints on
-movement as a mechanism for minimizing grammar&amp;nbsp;size.&lt;/p&gt;
-&lt;p&gt;Recently is has been proved that every Minimalist grammar can be converted
-into a strongly equivalent single movement normal form such that every
-phrase moves at most once in every derivation. The normal form conversion
-greatly simplifies the formalism and reduces the complexity of movement
-dependencies, but it also runs the risk of greatly increasing the size of
-the grammar. I show that no such blow-up obtains with linguistically
-plausible grammars that respect common constraints on movement. This
-provides an entirely new, quantitative motivation for movement&amp;nbsp;constraints.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf18SCiLtalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf18SCiLtalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18SCiLtalk,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Grammar Size and Quantitative Restrictions on Movement&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at SCiL 2018, January 04-07, Utah&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="movement"></category><category term="locality"></category><category term="improper movement"></category><category term="superraising"></category><category term="wh-islands"></category><category term="grammar size"></category></entry><entry><title>One Reason to Move, a Million Reasons to Be an Island: Third-Factor Explanations from Computational Syntax</title><link href="http://thomasgraf.net/graf17rutgersreadinggrouptalk.html" rel="alternate"></link><published>2017-12-15T00:00:00-05:00</published><updated>2017-12-15T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-12-15:/graf17rutgersreadinggrouptalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Two linguistic findings are commonly taken for granted yet are anything but&amp;nbsp;trivial:&lt;/p&gt;
+It is a well-known fact of computational linguistics that syntax is 
+mildly context-sensitive and thus highly complex &amp;#8212;- certainly more 
+complex than phonology or morphology. This complexity is at odds with 
+the ease of language acquisition and the impressive speed of human 
+sentence processing. If syntax is so complex, why doesn&amp;#8217;t this 
+complexity cause any&amp;nbsp;issues?&lt;/p&gt;
+&lt;p&gt;In this talk, I argue that syntax is actually remarkably simple from a 
+computational perspective if one picks derivation trees as the central 
+representation/data structure. In this case, syntax becomes 
+subregular. Subregularity is already known to play a central role in 
+phonology and morphology, where it has led to new learning algorithms 
+and typological generalizations. Derivation trees allow us to extend 
+the subregular approach from these domains to syntax. This has 
+intriguing repercussions&amp;nbsp;for&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Phrases can be displaced from their base&amp;nbsp;position.&lt;/li&gt;
-&lt;li&gt;Some phrases block&amp;nbsp;displacement.&lt;/li&gt;
+&lt;li&gt;the cognitive architecture of language,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;the relation between Merge and Move,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;the difference between movement and constraints,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;efficient parsing via sensing tree automata,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;learning from positive data via limited semantic&amp;nbsp;bootstrapping.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;On a technical level, these properties are hashed out in terms of movement and islands.
-From a …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Two linguistic findings are commonly taken for granted yet are anything but&amp;nbsp;trivial:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Phrases can be displaced from their base&amp;nbsp;position.&lt;/li&gt;
-&lt;li&gt;Some phrases block&amp;nbsp;displacement.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;On a technical level, these properties are hashed out in terms of movement and islands.
-From a naive perspective, there is no reason why languages should exhibit either one.
-One can easily design a fully functional grammar without movement, and it is equally simple to imagine a grammar with movement but without&amp;nbsp;islands.&lt;/p&gt;
-&lt;p&gt;In this talk, I argue that both movement and island constraints can be motivated on computational&amp;nbsp;grounds:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Any computational device that can handle adjuncts can also compute movement dependencies.
-   Hence movement comes for&amp;nbsp;free.&lt;/li&gt;
-&lt;li&gt;At the same time, numerous island constraints are unavoidable in a computational system that recognizes the optionality of adjuncts, values parsing efficiency, and prefers small grammars over large&amp;nbsp;ones.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;More specifically, I argue that standard phrasal movement (but not lowering movement) belongs to a very simple class of computational dependencies that can also be found in phonology, morphology, and semantics.
-I then show how the Adjunct Island Constraint and the Coordinate Structure Constraint both follow from optionality, the Specifier Island Constraint guarantees an exponential reduction in parsing complexity, and grammar size is kept minimal by the Ban against Improper Movement, freezing effects, and the wh-island&amp;nbsp;constraint.&lt;/p&gt;
+&lt;p&gt;This shows that the subregular approach to syntax has great potential 
+for language science broadly construed: theoretical linguistics, 
+cognitive science, and language&amp;nbsp;technology.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17RutgersReadinggrouptalk,
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18Penntalk,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;One Reason to Move, A Million Reasons to be an Island: Third-Factor Explanations from Computational Syntax&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, December 15, Rutgers University, New Brunswick, NJ.&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, November 26, Integrated Language Science and Technology Seminar, University of Pennsylvania, Philadelphia, PA&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular hierarchy"></category><category term="syntax"></category><category term="tiers"></category><category term="selection"></category><category term="movement"></category><category term="adjunction"></category><category term="islands"></category></entry><entry><title>Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers</title><link href="http://thomasgraf.net/graf17rutgerstalk.html" rel="alternate"></link><published>2017-12-15T00:00:00-05:00</published><updated>2017-12-15T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-12-15:/graf17rutgerstalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="syntax"></category><category term="phonology"></category><category term="Minimalist grammars"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="http://thomasgraf.net/grafmayer18sigmorphonposter.html" rel="alternate"></link><published>2018-10-31T00:00:00-04:00</published><updated>2018-10-31T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-31:/grafmayer18sigmorphonposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Even though languages are capable of expressing very complex generalized quantifiers such as &lt;em&gt;all but seven&lt;/em&gt; and &lt;em&gt;an even number of&lt;/em&gt;, the range of possible meanings for monomorphemic determiners seems to be limited to &lt;em&gt;every&lt;/em&gt;, &lt;em&gt;no&lt;/em&gt;, &lt;em&gt;some&lt;/em&gt;, and numerals.
-In this talk …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
+While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
+We show that when …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Even though languages are capable of expressing very complex generalized quantifiers such as &lt;em&gt;all but seven&lt;/em&gt; and &lt;em&gt;an even number of&lt;/em&gt;, the range of possible meanings for monomorphemic determiners seems to be limited to &lt;em&gt;every&lt;/em&gt;, &lt;em&gt;no&lt;/em&gt;, &lt;em&gt;some&lt;/em&gt;, and numerals.
-In this talk, I argue that this is not an accident.
-Borrowing insights from the semantic automata approach, I identify generalized quantifiers with string languages and show that all the monomorphemic quantifiers fall into the class of tier-based strictly local (&lt;span class="caps"&gt;TSL&lt;/span&gt;) languages.
-&lt;span class="caps"&gt;TSL&lt;/span&gt; has independently been argued to play a central role in phonology, morphology, and syntax.
-This suggests that the semantic limitations of monomorphemic quantifiers are connected to general computational properties of&amp;nbsp;language.&lt;/p&gt;
+Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
+While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
+We show that when construed as a phonotactic dependency, the process fits into a class we call &lt;em&gt;input-output tier-based strictly local&lt;/em&gt; (&lt;span class="caps"&gt;IO&lt;/span&gt;-&lt;span class="caps"&gt;TSL&lt;/span&gt;), a natural extension of the familiar class &lt;span class="caps"&gt;TSL&lt;/span&gt;.
+&lt;span class="caps"&gt;IO&lt;/span&gt;-&lt;span class="caps"&gt;TSL&lt;/span&gt; increases the power of &lt;span class="caps"&gt;TSL&lt;/span&gt;&amp;#8217;s tier projection function by making it an input-output strictly local transduction.
+Assuming that /n/-retroflexion represents the upper bound on the complexity of segmental phonology, this shows that all of segmental phonology can be captured by combining the intuitive notion of tiers with the independently motivated machinery of strictly local&amp;nbsp;mappings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;GrafMayer18Sigmorphonposter,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Mayer, Connor&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Sanskrit n-Retroflexion is Input-Output Tier-Based Strictly Local&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at SIGMORPHON 2018, October 31, Brussels, Belgium&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="http://thomasgraf.net/grafmayer18sigmorphon.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/grafmayer18sigmorphon.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
+While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
+We show that when …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
+While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
+We show that when construed as a phonotactic dependency, the process fits into a class we call &lt;em&gt;input-output tier-based strictly local&lt;/em&gt; (&lt;span class="caps"&gt;IO&lt;/span&gt;-&lt;span class="caps"&gt;TSL&lt;/span&gt;), a natural extension of the familiar class &lt;span class="caps"&gt;TSL&lt;/span&gt;.
+&lt;span class="caps"&gt;IO&lt;/span&gt;-&lt;span class="caps"&gt;TSL&lt;/span&gt; increases the power of &lt;span class="caps"&gt;TSL&lt;/span&gt;&amp;#8217;s tier projection function by making it an input-output strictly local transduction.
+Assuming that /n/-retroflexion represents the upper bound on the complexity of segmental phonology, this shows that all of segmental phonology can be captured by combining the intuitive notion of tiers with the independently motivated machinery of strictly local&amp;nbsp;mappings.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17Rutgerstalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17Rutgerstalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/GrafMayer18Sigmorphon.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17Rutgerstalk,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, December 15, Rutgers University, New Brunswick, NJ.&lt;span class="nb"&gt;}&lt;/span&gt;,
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;GrafMayer18Sigmorphon,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Mayer, Connor&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Sanskrit n-Retroflexion is Input-Output Tier-Based Strictly Local&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of &lt;span class="nb"&gt;{&lt;/span&gt;SIGMORPHON&lt;span class="nb"&gt;}&lt;/span&gt; 2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt;, 
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular hierarchy"></category><category term="semantics"></category><category term="typology"></category><category term="tiers"></category><category term="monotonicity"></category></entry><entry><title>Locality Domains and Phonological c-Command over Strings</title><link href="http://thomasgraf.net/graf17nelstalk.html" rel="alternate"></link><published>2017-10-28T00:00:00-04:00</published><updated>2017-10-28T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-10-28:/graf17nelstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="http://thomasgraf.net/grafshafiei19scil.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/grafshafiei19scil.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
+The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and&amp;nbsp;morphology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/GrafShafiei19SCiL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;GrafShafiei19SCiL,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Shafiei, Nazila&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;C-Command Dependencies as &lt;span class="nb"&gt;{&lt;/span&gt;TSL&lt;span class="nb"&gt;}&lt;/span&gt; String Constraints&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proccedings of &lt;span class="nb"&gt;{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt;, 
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="http://thomasgraf.net/vuetal19scil.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/vuetal19scil.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly local over derivation trees.
+However, a broader range of empirical phenomena must be considered in order to solidify this claim.
+This paper investigates various phenomena related to morphological case, and we argue that they, too, are tier-based strictly local.
+Not only do our findings provide empirical support for a kind of computational parallelism across language modules, they also offer a new, computationally unified perspective of structural and lexical case.
+We hope that this paper will enable other researchers to fruitfully study syntactic phenomena from a subregular&amp;nbsp;perspective.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/VuEtAl19SCiL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;VuEtAl19SCiL,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Case Assignment in &lt;span class="nb"&gt;{&lt;/span&gt;TSL&lt;span class="nb"&gt;}&lt;/span&gt; Syntax: A Case Study&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proccedings of &lt;span class="nb"&gt;{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt;, 
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Monotonicity as an Effective Theory of Morphosyntactic Variation</title><link href="http://thomasgraf.net/graf18jlm.html" rel="alternate"></link><published>2018-10-24T00:00:00-04:00</published><updated>2018-10-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-24:/graf18jlm.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+One of the major goals of linguistics is to delineate the possible range of variation across languages.
+Recent work has identified a surprising number of typological gaps in a variety of domains.
+In morphology, this includes stem suppletion, person pronoun syncretism, case …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+One of the major goals of linguistics is to delineate the possible range of variation across languages.
+Recent work has identified a surprising number of typological gaps in a variety of domains.
+In morphology, this includes stem suppletion, person pronoun syncretism, case syncretism, and noun stem allomorphy.
+In morphosyntax, only a small number of all conceivable Person Case Constraints and Gender Case Constraints are found.
+While various proposals have been put forward for each individual domain, few attempts have been made to give a unified explanation of the limited typology across all domains.
+This paper presents a novel account that deliberately abstracts away from the usual details of grammatical description in order to provide a domain-agnostic explanation of the limits of typological variation.
+This is achieved by combining prominence hierarchies, e.g. for person and case, with mappings from those hierarchies to the relevant output forms.
+As the mappings are required to be monotonic, only a fraction of all conceivable patterns can be&amp;nbsp;instantiated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/papers/Graf18JLM.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@article&lt;span class="nb"&gt;{&lt;/span&gt;Graf18JLM,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Monotonicity as an effective theory of morphosyntactic variation&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    journal = &lt;span class="nb"&gt;{&lt;/span&gt;Journal of Language Modelling&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;to appear&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="monotonicity"></category><category term="algebra"></category><category term="morphology"></category><category term="morphosyntax"></category><category term="syncretism"></category><category term="typology"></category><category term="*ABA"></category><category term="PCC"></category><category term="Gender Case Constraint"></category></entry><entry><title>Pogo Sticks and Wasps: A Skeptic’s Guide to Computational Linguistics</title><link href="http://thomasgraf.net/graf18kasistotalk.html" rel="alternate"></link><published>2018-10-11T00:00:00-04:00</published><updated>2018-10-11T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-11:/graf18kasistotalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Big Data, machine learning, and neural networks have taken &lt;span class="caps"&gt;NLP&lt;/span&gt; by storm.
+This talk evaluates these approaches from a critical perspective.
+I argue that in particular for customer-facing applications, these techniques do not perform as well as one would hope once one …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Big Data, machine learning, and neural networks have taken &lt;span class="caps"&gt;NLP&lt;/span&gt; by storm.
+This talk evaluates these approaches from a critical perspective.
+I argue that in particular for customer-facing applications, these techniques do not perform as well as one would hope once one goes beyond purely quantitative evaluation metrics.
+Traditional approaches still offer significant advantages that have not been fully harnessed&amp;nbsp;yet. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf18Kasistotalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18Kasistotalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Pogo Sticks and Wasps: A Skeptic&amp;#39;s Guide to Computational Linguistics&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, October 11, Kasisto Inc, New York City, New York&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="neural networks"></category><category term="NLP"></category><category term="machine learning"></category><category term="industry"></category></entry><entry><title>Adjunction to Movement Paths: Floating Quantifiers as the Little Brother of Parasitic Gaps</title><link href="http://thomasgraf.net/graf18nelsposter.html" rel="alternate"></link><published>2018-10-07T00:00:00-04:00</published><updated>2018-10-07T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-07:/graf18nelsposter.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -154,97 +230,12 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
 A lot of recent work in computational phonology seeks to pinpoint the complexity of phonotactic dependencies from a formal perspective. Numerous mathematical classes have been proposed, but Graf (2017) subsumes them all under the umbrella of &lt;em&gt;interval-based strictly piecewise dependencies&lt;/em&gt; (&lt;span class="caps"&gt;IBSP&lt;/span&gt;). &lt;span class="caps"&gt;IBSP&lt;/span&gt; treats all phonological structures as strings that are subject to non-local constraints. Every local dependency is reanalyzed as a non-local constraint that is restricted to a locality domain of bounded size. If all phonotactic dependencies are &lt;span class="caps"&gt;IBSP&lt;/span&gt;, then we should only encounter phenomena that are either local or non-local, but not both. I show that this prediction is not borne out: several attested phenomena combine local and non-local information. However, a more relaxed notion of locality domains allows &lt;span class="caps"&gt;IBSP&lt;/span&gt; to produce these patterns while avoiding overgeneration. The make-up of these relaxed locality domains bears a striking resemblance to c-command in syntax, supporting the idea that phonology and syntax may be closely related on a computational&amp;nbsp;level.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NELStalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NELStalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17NELStalk,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Locality Domains and Phonological C-Command Over Strings&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at the 48th Annual Meeting of the North East Linguistic Society (NELS 48), October 27--29, University of Iceland, Reykjavík, Iceland&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="syntax"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category></entry><entry><title>Syntax in Phonology? C-Command over Strings</title><link href="http://thomasgraf.net/graf17necphontalk.html" rel="alternate"></link><published>2017-10-21T00:00:00-04:00</published><updated>2017-10-21T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-10-21:/graf17necphontalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NECPHONtalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NECPHONtalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17NECPHONtalk,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Syntax in Phonology? C-Command Over Strings&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NECPHONtalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17NECPHONtalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17NECPHONtalk,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Syntax in Phonology? C-Command Over Strings&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="syntax"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category></entry><entry><title>Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers</title><link href="http://thomasgraf.net/desantoetalquad17poster.html" rel="alternate"></link><published>2017-07-22T00:00:00-04:00</published><updated>2017-07-22T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-07-22:/desantoetalquad17poster.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, Thomas Graf, and John E.&amp;nbsp;Drury&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Semantic automata were developed to compare the complexity of generalized quantifiers based on the complexity of the string languages that describe their truth conditions.
-An important point that has gone unnoticed so far is that …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, Thomas Graf, and John E.&amp;nbsp;Drury&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Semantic automata were developed to compare the complexity of generalized quantifiers based on the complexity of the string languages that describe their truth conditions.
-An important point that has gone unnoticed so far is that the generated string languages are remarkably simple for monomorphemic quantifiers.
-Whereas complex quantifiers such as mph{an even number of} correspond to specific regular languages, monomorphemic mph{every}, mph{no}, mph{some} as well as numerals do not reach this level of complexity.
-Instead, they all stay close to the bottom of the so-called subregular hierarchy.
-This poster defines relevant quantifier languages in subregular terms and sketches an experimental design for testing the cognitive predictions of the subregular perspective for quantifier&amp;nbsp;complexity.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;DeSantoEtAlQUAD17poster,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;De Santo, Aniello and Graf, Thomas and Drury, John E.&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title  = &lt;span class="nb"&gt;{&lt;/span&gt;Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year   = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note   = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at the &lt;span class="nb"&gt;{&lt;/span&gt;ESSLLI&lt;span class="nb"&gt;}&lt;/span&gt; Workshop on Quantifiers and Determiners (&lt;span class="nb"&gt;{&lt;/span&gt;QUAD&lt;span class="nb"&gt;}&lt;/span&gt; 2017), July 17 -- 21, University of Toulouse, France&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular hierarchy"></category><category term="semantics"></category><category term="quantifiers"></category><category term="typology"></category><category term="tiers"></category></entry><entry><title>Graph Transductions and Typological Gaps in Morphological Paradigms</title><link href="http://thomasgraf.net/graf17moltalk.html" rel="alternate"></link><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2017-07-14:/graf17moltalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Several typological gaps have attracted a lot of interest in the linguistic literature recently.
-These concern the Person Case Constraint and the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
-This paper is …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Several typological gaps have attracted a lot of interest in the linguistic literature recently.
-These concern the Person Case Constraint and the absence of &lt;span class="caps"&gt;ABA&lt;/span&gt; patterns in adjectival gradation, pronoun suppletion, case syncretism, and singular noun allomorphy, among others.
-This paper is the first to provide a unified explanation of all these phenomena, and it does so via weakly non-inverting graph-transductions.
-A pattern $P$ is absent from the typology whenever such transductions cannot produce the graph corresponding to $P$ from some fixed underlying base graph.
-I show that weakly non-inverting graph-transductions are particularly simple from a computational perspective, and consequently all these typological gaps follow from general simplicity&amp;nbsp;desiderata.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17MOLtalk.pdf"&gt;pdf&lt;/a&gt;]
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf17MOLtalk.tar.gz"&gt;code&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf17MOLtalk,
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18NELSposter,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Graph Transductions and Typological Gaps in Morphological Paradigms&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2017&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Slides of a talk given at the 15th meeting on the Mathematics of Language (MOL 2017), July 13--14, Queen Mary University of London, London, UK&lt;span class="nb"&gt;}&lt;/span&gt;
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Adjunction to Movement Paths: &lt;span class="nb"&gt;{&lt;/span&gt;F&lt;span class="nb"&gt;}&lt;/span&gt;loating Quantifiers as the Little Brother of Parasitic Gaps&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at the 49th Annual Meeting of the &lt;span class="nb"&gt;{&lt;/span&gt;N&lt;span class="nb"&gt;}&lt;/span&gt;orth &lt;span class="nb"&gt;{&lt;/span&gt;E&lt;span class="nb"&gt;}&lt;/span&gt;ast &lt;span class="nb"&gt;{&lt;/span&gt;L&lt;span class="nb"&gt;}&lt;/span&gt;inguistic &lt;span class="nb"&gt;{&lt;/span&gt;S&lt;span class="nb"&gt;}&lt;/span&gt;ociety (NELS 49), October 5--7, &lt;span class="nb"&gt;{&lt;/span&gt;C&lt;span class="nb"&gt;}&lt;/span&gt;ornell &lt;span class="nb"&gt;{&lt;/span&gt;U&lt;span class="nb"&gt;}&lt;/span&gt;niversity, &lt;span class="nb"&gt;{&lt;/span&gt;I&lt;span class="nb"&gt;}&lt;/span&gt;thaca, &lt;span class="nb"&gt;{&lt;/span&gt;NY&lt;span class="nb"&gt;}}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="morphology"></category><category term="morphosyntax"></category><category term="typology"></category><category term="person hierarchy"></category><category term="person case constraint"></category><category term="subregular"></category><category term="transductions"></category><category term="*ABA"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="syntax"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category></entry></feed>
