@@ -1,0 +1,27 @@
+Title: Adjunction to Movement Paths: Floating Quantifiers as the Little Brother of Parasitic Gaps
+Author: Thomas Graf
+Date: 2018-10-07
+Category: Talks
+Tags: phonology; syntax; locality; subregular; c-command
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A lot of recent work in computational phonology seeks to pinpoint the complexity of phonotactic dependencies from a formal perspective. Numerous mathematical classes have been proposed, but Graf (2017) subsumes them all under the umbrella of *interval-based strictly piecewise dependencies* (IBSP). IBSP treats all phonological structures as strings that are subject to non-local constraints. Every local dependency is reanalyzed as a non-local constraint that is restricted to a locality domain of bounded size. If all phonotactic dependencies are IBSP, then we should only encounter phenomena that are either local or non-local, but not both. I show that this prediction is not borne out: several attested phenomena combine local and non-local information. However, a more relaxed notion of locality domains allows IBSP to produce these patterns while avoiding overgeneration. The make-up of these relaxed locality domains bears a striking resemblance to c-command in syntax, supporting the idea that phonology and syntax may be closely related on a computational level.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~latex
+@Misc{Graf18NELSposter,
+    author = {Graf, Thomas},
+    title = {Adjunction to Movement Paths: {F}loating Quantifiers as the Little Brother of Parasitic Gaps},
+    year = {2018},
+    note = {Poster presented at the 49th Annual Meeting of the {N}orth {E}ast {L}inguistic {S}ociety (NELS 49), October 5--7, {C}ornell {U}niversity, {I}thaca, {NY}}
+}
+~~~

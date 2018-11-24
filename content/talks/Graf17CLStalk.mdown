@@ -55,8 +55,8 @@ together.
 ~~~latex
 @Misc{Graf17CLStalk,
     author = {Graf, Thomas},
-    title = {It's a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics},
+    title = {It's a (Sub-)Regular Conspiracy: {L}ocality and Computation in Phonology, Morphology, Syntax, and Semantics},
     year = {2017},
-    note = {Invited talk, May 25--27, CLS, University of Chicago, Chicago, IL},
+    note = {Invited talk, {M}ay 25--27, {CLS}, {U}niversity of {C}hicago, {C}hicago, {IL}},
 }
 ~~~

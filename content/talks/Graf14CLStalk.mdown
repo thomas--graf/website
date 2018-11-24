@@ -24,7 +24,7 @@ I show that these four variants form a natural class when viewed from an algebra
 ~~~latex
 @Misc{Graf14CLStalk,
   author	= {Graf, Thomas},
-  title		= {Feature Geometry and the Person Case Constraint: An
+  title		= {Feature Geometry and the Person Case Constraint: {A}n
 		  Algebraic Link},
   year		= {2014},
   note		= {Slides of a talk given at {CLS 50}, April 10--12,

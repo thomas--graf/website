@@ -34,6 +34,6 @@ provides an entirely new, quantitative motivation for movement constraints.
     author = {Graf, Thomas},
     title = {Grammar Size and Quantitative Restrictions on Movement},
     year = {2018},
-    note = {Slides of a talk given at SCiL 2018, January 04-07, Utah}
+    note = {Slides of a talk given at {SCiL} 2018, {J}anuary 4-7, {U}tah}
 }
 ~~~

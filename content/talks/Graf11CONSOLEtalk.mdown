@@ -22,7 +22,7 @@ I demonstrate that Merge-over-Move (MOM), a transderivational constraint (TC) pu
 ~~~latex
 @Misc{Graf11CONSOLEtalk,
   author	= {Graf, Thomas},
-  title		= {Lost in Translation: A Formal Model of Merge-over-Move and
+  title		= {Lost in Translation: {A} Formal Model of {M}erge-over-{M}ove and
 		  its Implications for the Language Faculty},
   year		= {2011},
   note		= {Slides of a talk given at ConSOLE XIX, January 5--8, 2011,

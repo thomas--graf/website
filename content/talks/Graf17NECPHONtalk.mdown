@@ -17,8 +17,8 @@ Graf, Thomas
 ~~~latex
 @Misc{Graf17NECPHONtalk,
     author = {Graf, Thomas},
-    title = {Syntax in Phonology? C-Command Over Strings},
+    title = {Syntax in Phonology? {C}-Command Over Strings},
     year = {2017},
-    note = {Slides of a talk given at NECPhon 2017, Oct 21, Stony Brook University, Stony Brook, NY}
+    note = {Slides of a talk given at {NECPhon} 2017, {O}ctober 21, {S}tony {B}rook {U}niversity, {S}tony {B}rook, {NY}}
 }
 ~~~

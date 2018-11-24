@@ -27,7 +27,7 @@ The closure of Minimalist derivation tree languages under intersection with regu
   author	= {Graf, Thomas},
   title		= {Models of Adjunction in {M}inimalist Grammars},
   year		= {2014},
-  booktitle	= {Formal Grammar 2014},
+  booktitle	= {{F}ormal {G}rammar 2014},
   pages		= {52--68},
   editor	= {Morrill, Glynn and Muskens, Reinhard and Osswald, Rainer
 		  and Richter, Frank},

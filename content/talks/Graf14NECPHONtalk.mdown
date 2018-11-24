@@ -17,7 +17,7 @@ Graf, Thomas
 ~~~latex
 @Misc{Graf14NECPHONtalk,
   author	= {Graf, Thomas},
-  title		= {Dependencies in Syntax and Phonology: A Computational
+  title		= {Dependencies in Syntax and Phonology: {A} Computational
 		  Comparison},
   year		= {2014},
   note		= {Slides of a talk given at {NECPHON 2014}, November 15,

@@ -17,7 +17,7 @@ Graf, Thomas
 ~~~latex
 @Misc{Graf10Goettingentalk,
   author	= {Graf, Thomas},
-  title		= {Syntax, Semantics, Pragmatics: Where do we Find
+  title		= {Syntax, Semantics, Pragmatics: {W}here do we Find
 		  Optimality?},
   year		= {2010},
   note		= {Invited talk, December 15, Institut für Anglistik,

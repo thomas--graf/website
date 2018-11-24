@@ -31,6 +31,6 @@ Hopefully, an alliance of linguists, logicians, and computer scientists will be 
     author = {Graf, Thomas},
     title = {Fragments of First-order Logic for Linguistic Structures},
     year = {2017},
-    note = {Invited talk, April 21, UConn Logic Group, University of Connecticut, Storrs, CT}
+    note = {Invited talk, {A}pril 21, {UC}onn {L}ogic {G}roup, {U}niversity of {C}onnecticut, {S}torrs, {CT}}
 }
 ~~~

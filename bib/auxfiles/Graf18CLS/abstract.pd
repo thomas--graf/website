@@ -1,0 +1,6 @@
+This paper presents a novel answer to the question why Move might be an integral part of language.
+The answer is rooted in the computational framework of subregular complexity, which has already been fruitfully applied to phonology.
+The computational perspective reveals that Merge belongs to the class TSL (*tier-based strictly local*) if the grammar also allows for recursive adjunction.
+Any cognitive device that can handle this level of computational complexity also possesses all the resources that are needed for Move.
+In fact, Merge and Move are remarkably similar when viewed as instances of TSL.
+Consequently, Move has no additional computational or conceptual cost attached to it and comes essentially for free.

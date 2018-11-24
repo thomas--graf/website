@@ -1,0 +1,31 @@
+Title: Pogo Sticks and Wasps: A Skeptic’s Guide to Computational Linguistics
+Author: Thomas Graf
+Date: 2018-10-11
+Category: Talks
+Tags: neural networks; NLP; machine learning; industry
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Big Data, machine learning, and neural networks have taken NLP by storm.
+This talk evaluates these approaches from a critical perspective.
+I argue that in particular for customer-facing applications, these techniques do not perform as well as one would hope once one goes beyond purely quantitative evaluation metrics.
+Traditional approaches still offer significant advantages that have not been fully harnessed yet. 
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/Graf18Kasistotalk.pdf)]
+</div>
+
+~~~latex
+@misc{Graf18Kasistotalk,
+    author = {Graf, Thomas},
+    title = {Pogo Sticks and Wasps: A Skeptic's Guide to Computational Linguistics},
+    year = {2018},
+    note = {Invited talk, October 11, Kasisto Inc, New York City, New York}
+}
+~~~

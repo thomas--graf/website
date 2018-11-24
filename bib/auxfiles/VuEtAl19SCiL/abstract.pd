@@ -1,0 +1,6 @@
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly local over derivation trees.
+However, a broader range of empirical phenomena must be considered in order to solidify this claim.
+This paper investigates various phenomena related to morphological case, and we argue that they, too, are tier-based strictly local.
+Not only do our findings provide empirical support for a kind of computational parallelism across language modules, they also offer a new, computationally unified perspective of structural and lexical case.
+We hope that this paper will enable other researchers to fruitfully study syntactic phenomena from a subregular perspective.

@@ -23,10 +23,10 @@ We investigate the predictions these four metrics make for a number of relative 
 ~~~latex
 @InProceedings{GrafMarcinek14CMCL,
   author	= {Graf, Thomas and Marcinek, Bradley},
-  title		= {Evaluating Evaluation Metrics for Minimalist Parsing},
+  title		= {Evaluating Evaluation Metrics for {M}inimalist Parsing},
   year		= {2014},
   booktitle	= {Proceedings of the 2014 {ACL} Workshop on Cognitive
-		  Modeling and Computational Linguistics},
+		  Modeling and Computational Linguistics ({CMCL})},
   pages		= {28--36}
 }
 ~~~

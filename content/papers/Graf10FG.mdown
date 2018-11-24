@@ -32,7 +32,7 @@ In the second half of the paper, I demonstrate the feasibility of the OS-approac
   title		= {Reference-Set Constraints as Linear Tree Transductions via
 		  Controlled Optimality Systems},
   year		= {2012},
-  booktitle	= {Formal Grammar 2010\slash 2011},
+  booktitle	= {{F}ormal {G}rammar 2010\slash 2011},
   pages		= {97--113},
   editor	= {de Groote, Philippe and Nederhof, Mark-Jan},
   volume	= {7395},

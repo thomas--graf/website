@@ -24,6 +24,6 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
     author = {Graf, Thomas},
     title = {Locality Domains and Phonological C-Command Over Strings},
     year = {2017},
-    note = {Slides of a talk given at the 48th Annual Meeting of the North East Linguistic Society (NELS 48), October 27--29, University of Iceland, Reykjavík, Iceland}
+    note = {Slides of a talk given at the 48th Annual Meeting of the {N}orth {E}ast {L}inguistic {S}ociety ({NELS} 48), {O}ctober 27--29, {U}niversity of {I}celand, {R}eykjavík, {I}celand}
 }
 ~~~

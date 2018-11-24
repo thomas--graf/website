@@ -1,0 +1,51 @@
+Title: The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition
+Author: Thomas Graf
+Date: 2018-11-26
+Category: Talks
+Tags: syntax; phonology; Minimalist grammars; locality; subregular; c-command; tiers
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+It is a well-known fact of computational linguistics that syntax is 
+mildly context-sensitive and thus highly complex --- certainly more 
+complex than phonology or morphology. This complexity is at odds with 
+the ease of language acquisition and the impressive speed of human 
+sentence processing. If syntax is so complex, why doesn't this 
+complexity cause any issues?
+
+In this talk, I argue that syntax is actually remarkably simple from a 
+computational perspective if one picks derivation trees as the central 
+representation/data structure. In this case, syntax becomes 
+subregular. Subregularity is already known to play a central role in 
+phonology and morphology, where it has led to new learning algorithms 
+and typological generalizations. Derivation trees allow us to extend 
+the subregular approach from these domains to syntax. This has 
+intriguing repercussions for
+
+1. the cognitive architecture of language, and
+2. the relation between Merge and Move, and
+3. the difference between movement and constraints, and
+4. efficient parsing via sensing tree automata, and
+5. learning from positive data via limited semantic bootstrapping.
+
+This shows that the subregular approach to syntax has great potential 
+for language science broadly construed: theoretical linguistics, 
+cognitive science, and language technology.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~latex
+@misc{Graf18Penntalk,
+    author = {Graf, Thomas},
+    title = {The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition},
+    year = {2018},
+    note = {Invited talk, November 26, Integrated Language Science and Technology Seminar, University of Pennsylvania, Philadelphia, PA}
+}
+~~~

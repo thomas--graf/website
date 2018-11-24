@@ -1,4 +1,4 @@
-Title: Of Tops and Bottom: The Algebra of Person Case Constraints
+Title: Of Tops and Bottoms: The Algebra of Person Case Constraints
 Author: Thomas Graf
 Date: 2013-01-18
 Category: Talks
@@ -24,7 +24,7 @@ I show that these four variants form a natural class when viewed from an algebra
 ~~~latex
 @Misc{Graf13USCtalk,
   author	= {Graf, Thomas},
-  title		= {Of Tops and Bottom: The Algebra of Person Case
+  title		= {Of Tops and Bottoms: {T}he Algebra of Person Case
 		  Constraints},
   year		= {2013},
   note		= {Slides of a talk given at the Souther California Students

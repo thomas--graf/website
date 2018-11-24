@@ -29,7 +29,7 @@ These technical results are accompanied by reflections on the relation between e
 		  Approach to Phonology},
   year		= {2009},
   note		= {Handout of a talk given at the 33$^{\text{rd}}$ Penn
-		  Linguistics Colloquium (PCL33), March 27 -- 29, University
+		  Linguistics Colloquium (PLC33), March 27 -- 29, University
 		  of Pennsylvania, Philadelphia, PA.}
 }
 ~~~

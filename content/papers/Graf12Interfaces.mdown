@@ -27,7 +27,7 @@ In order to demonstrate the viability of this approach for the kind of reference
 ~~~latex
 @InCollection{Graf12Interfaces,
   author	= {Graf, Thomas},
-  title		= {Concealed Reference-Set Computation: How Syntax Escapes
+  title		= {Concealed Reference-Set Computation: {H}ow Syntax Escapes
 		  the Parser's Clutches},
   year		= {2012},
   editor	= {Di Sciullo, Anna Maria},

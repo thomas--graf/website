@@ -28,7 +28,7 @@ I identify several other axes along which Government Phonology might be generali
   title		= {Towards a Factorization of String-Based Phonology},
   year		= {2009},
   booktitle	= {Proceedings of the $14^{\text{th}}$ Student Session of the
-		  European Summerschool for Logic, Language and Information},
+      {E}uropean Summer School for Logic, Language and Information ({ESSLLI})},
   pages		= {72--84},
   editor	= {Icard, Thomas}
 }

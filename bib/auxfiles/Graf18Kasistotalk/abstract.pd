@@ -1,0 +1,4 @@
+Big Data, machine learning, and neural networks have taken NLP by storm.
+This talk evaluates these approaches from a critical perspective.
+I argue that in particular for customer-facing applications, these techniques do not perform as well as one would hope once one goes beyond purely quantitative evaluation metrics.
+Traditional approaches still offer significant advantages that have not been fully harnessed yet. 

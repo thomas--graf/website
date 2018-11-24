@@ -29,10 +29,10 @@ In this paper, I argue based on a battery of previous results that even though s
 ~~~latex
 @InProceedings{Graf14Festschrift,
   author	= {Graf, Thomas},
-  title		= {Beyond the Apparent: Cognitive Parallels Between Syntax
+  title		= {Beyond the Apparent: {C}ognitive Parallels Between Syntax
 		  and Phonology},
   year		= {2014},
-  booktitle	= {Connectedness: Papers by and for Sarah van Wagenen},
+  booktitle	= {Connectedness: {P}apers by and for {S}arah van {W}agenen},
   pages		= {161--174},
   series	= {UCLA Working Papers in Linguistics},
   volume	= {18},

@@ -22,7 +22,7 @@ Recent Minimalist thinking has been strongly influenced by the idea that some un
 ~~~latex
 @Misc{Graf12WCCFLposter,
   author	= {Graf, Thomas},
-  title		= {Why There Must be Exceptions to Principle {B}},
+  title		= {Why There Must be Exceptions to {P}rinciple {B}},
   year		= {2012},
   note		= {Poster presented at the 30$^{\text{th}}$ West Coast
 		  Conference on Formal Linguistics (WCCFL 30), April 13--15,

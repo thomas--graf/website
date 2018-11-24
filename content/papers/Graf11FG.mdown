@@ -29,7 +29,7 @@ I show that this locality condition 1) has no effect on weak generative capacity
   title		= {Locality and the Complexity of {M}inimalist Derivation Tree
 		  Languages},
   year		= {2012},
-  booktitle	= {Formal Grammar 2010\slash 2011},
+  booktitle	= {{F}ormal {G}rammar 2010\slash 2011},
   pages		= {208--227},
   editor	= {de Groot, Philippe and Nederhof, Mark-Jan},
   volume	= {7395},

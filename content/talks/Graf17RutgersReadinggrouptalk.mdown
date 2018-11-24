@@ -36,8 +36,8 @@ I then show how the Adjunct Island Constraint and the Coordinate Structure Const
 ~~~latex
 @Misc{Graf17RutgersReadinggrouptalk,
     author = {Graf, Thomas},
-    title = {One Reason to Move, A Million Reasons to be an Island: Third-Factor Explanations from Computational Syntax},
+    title = {One Reason to Move, A Million Reasons to be an Island: {T}hird-Factor Explanations from Computational Syntax},
     year = {2017},
-    note = {Invited talk, December 15, Rutgers University, New Brunswick, NJ.},
+    note = {Invited talk, {D}ecember 15, {R}utgers {U}niversity, {N}ew {B}runswick, {NJ}},
 }
 ~~~

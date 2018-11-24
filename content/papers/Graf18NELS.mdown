@@ -1,0 +1,30 @@
+Title: Locality Domains and Phonological c-Command over Strings
+Author: Thomas Graf
+Date: 2018-05-28
+Category: Papers
+Tags: phonology; syntax; locality; subregular; c-command
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A lot of recent work in computational phonology seeks to pinpoint the complexity of phonotactic dependencies from a formal perspective. Numerous mathematical classes have been proposed, but Graf (2017) subsumes them all under the umbrella of *interval-based strictly piecewise dependencies* (IBSP). IBSP treats all phonological structures as strings that are subject to non-local constraints. Every local dependency is reanalyzed as a non-local constraint that is restricted to a locality domain of bounded size. If all phonotactic dependencies are IBSP, then we should only encounter phenomena that are either local or non-local, but not both. I show that this prediction is not borne out: several attested phenomena combine local and non-local information. However, a more relaxed notion of locality domains allows IBSP to produce these patterns while avoiding overgeneration. The make-up of these relaxed locality domains bears a striking resemblance to c-command in syntax, supporting the idea that phonology and syntax may be closely related on a computational level.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/Graf18NELS.pdf)]
+</div>
+
+~~~latex
+@inproceedings{Graf18NELS,
+    author = {Graf, Thomas},
+    title = {Locality Domains and Phonological c-Command Over Strings},
+    year = {2018},
+    booktitle = {Proceedings of {NELS} 2017},
+    url = {http://ling.auf.net/lingbuzz/004080},
+    note = {To appear},
+}
+~~~

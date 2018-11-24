@@ -28,7 +28,7 @@ As an illustration of the applicability of this formal model, I exhibit precise 
 ~~~latex
 @Misc{Graf10Bielefeldtalk,
   author	= {Graf, Thomas},
-  title		= {$\text{Reference-Set Computation} = \text{Minimalism} + \text{Transformational Rules?}$},
+  title		= {Reference-Set Computation = {M}inimalism + Transformational Rules?},
   year		= {2010},
   note		= {Invited talk, December 8, Institut für Linguistik,
 		  Universität Bielefeld, Bielefeld, Germany}

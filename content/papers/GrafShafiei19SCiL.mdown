@@ -1,0 +1,31 @@
+Title: C-Command Dependencies as TSL String Constraints
+Author: Thomas Graf
+Date: 2018-10-30
+Category: Papers
+Tags: Minimalist grammars; subregular; syntax; constraints; c-command; tiers
+
+<div markdown class="authors">
+Graf, Thomas, and Nazila Shafiei
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and NPI licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
+The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and morphology.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/papers/GrafShafiei19SCiL.pdf)]
+</div>
+
+~~~latex
+@inproceedings{GrafShafiei19SCiL,
+    author = {Graf, Thomas and Shafiei, Nazila},
+    title = {C-Command Dependencies as {TSL} String Constraints},
+    year = {2019},
+    booktitle = {Proccedings of {SCiL} 2019},
+    note = {To appear}, 
+}
+~~~

@@ -26,8 +26,8 @@ This suggests that the semantic limitations of monomorphemic quantifiers are con
 ~~~latex
 @Misc{Graf17Rutgerstalk,
     author = {Graf, Thomas},
-    title = {Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers},
+    title = {Subregular Morpho-Semantics: {T}he Expressive Limits of Monomorphemic Quantifiers},
     year = {2017},
-    note = {Invited talk, December 15, Rutgers University, New Brunswick, NJ.},
+    note = {Invited talk, {D}ecember 15, {R}utgers {U}niversity, {N}ew {B}runswick, {NJ}},
 }
 ~~~

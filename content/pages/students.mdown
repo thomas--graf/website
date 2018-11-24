@@ -3,11 +3,15 @@ Author: Thomas Graf
 
 # Teaching Material
 
-- [Computational Linguistics 2 (Lin637)](http://lin637.thomasgraf.net)
+- [Computational Linguistics 2 (LIN 637)](http://lin637.thomasgraf.net)
 
-- [Computational Phonology (Lin626)](http://lin626.thomasgraf.net)
+- [Computational Phonology (LIN 626)](http://lin626.thomasgraf.net)
 
-- [Parsing and Processing (Lin630)](http://lin630.thomasgraf.net)
+- [Language & Technology (LIN 120)(http://lin120.thomasgraf.net)
+
+- [Mathematical Methods in Linguistics (LIN 539)](http://ln539.thomasgraf.net)
+
+- [Parsing and Processing (LIN 630)](http://lin630.thomasgraf.net)
 
 - Misc
     - [Old handout](../doc/teaching/mathling1/handout1.pdf) with tips and literature recommendations for budding mathematical linguists
@@ -21,6 +25,8 @@ Author: Thomas Graf
 
 - [Alëna Aksënova](http://www.aaksenova.com/) (SBU, Linguistics)
 - [Aniello De Santo](https://aniellodesanto.github.io/about/) (SBU, Linguistics)
+- Sedigheh (Sophie) Moradi (SBU, Linguistics)
+- Nazila Shafiei (SBU, Linguistics)
 
 ## Graduated
 

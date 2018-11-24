@@ -1,0 +1,45 @@
+Title: Tiers and Relativized Locality Across Language Modules
+Author: Thomas Graf
+Date: 2018-07-09
+Category: Talks
+Tags: syntax; phonology; morphology; Minimalist grammars; subregular; tiers; locality
+
+<div markdown class="authors">
+Graf, Thomas, Alëna Aksënova, Hyunah Baek, Aniello De Santo, Hossep Dolatian, Sedigheh Moradi, Jon Rawski, Suji Yang, and Jeffrey Heinz
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Heinz and Idsardi (2013) draw attention to a profound computational difference
+between syntax and phonology: phonology only requires regular computations over strings (Johnson 1972; Kaplan and Kay 1994), whereas syntax involves non-regular computations over strings (Chomsky 1956; Huybregts 1984; Shieber 1985; Radzinski 1991; Michaelis and Kracht 1997; Kobele 2006).
+We offer an alternative picture that is synthesized from several recent works
+in computational linguistics and closes the apparent chasm between phonology and syntax.
+The computational complexity of a linguistic domain can be measured along two axes: the nature of the structural representations, and the power of the computations that manipulate these structures.
+The previously observed complexity differences between syntax and phonology
+(and morphology) can be recast entirely in terms of the data structures rather than the power of the computations.
+Phonology operates over string-like structures, whereas syntax uses trees of
+unbounded size, which grant it increased expressivity.
+But the dependencies we find in both involve similar computations that fall into the formal class tier-based strictly local.
+Among other things, this entails that the linguistic notion of relativized locality plays a crucial role across language modules.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~latex
+@Misc{GrafEtAl18Meertenstalk,
+    author = {Graf, Thomas and
+              Aks\"{e}nova, Al\"{e}na and
+              Baek, Hyunah and
+              De Santo, Aniello and
+              Dolatian, Hossep and
+              Moradi, Sedigheh and
+              Rawski, Jon and
+              Yang, Suji and
+              Heinz, Jeffrey},
+    title = {Tiers and Relativized Locality Across Language Modules},
+    year = {2018},
+    note = {Slides of a talk given at the 1-day workshop {P}arallels Between Phonology and Syntax, {J}uly 9, {M}eertens {I}nstituut, {A}msterdam, {N}etherlands}
+}
+~~~

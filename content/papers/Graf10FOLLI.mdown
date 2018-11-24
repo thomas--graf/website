@@ -25,11 +25,11 @@ I identify several other axes along which Government Phonology might be generali
 ~~~latex
 @InCollection{Graf10FOLLI,
   author	= {Graf, Thomas},
-  title		= {Formal Parameters of Phonology: From {G}overnment
+  title		= {Formal Parameters of Phonology: {F}rom {G}overnment
 		  {P}honology to {SPE}},
   year		= {2010},
   editor	= {Icard, Thomas and Muskens, Reinhard},
-  booktitle	= {Interfaces: Explorations in Logic, Language and
+  booktitle	= {Interfaces: {E}xplorations in Logic, Language and
 		  Computation},
   publisher	= {Springer},
   address	= {Berlin},

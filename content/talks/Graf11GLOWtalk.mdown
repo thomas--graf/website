@@ -22,7 +22,7 @@ Reference-set constraints (RCs; also known as transderivational constraints) dif
 ~~~latex
 @Misc{Graf11GLOWtalk,
   author	= {Graf, Thomas},
-  title		= {Optimality is not a Race: Against a Performance-based View
+  title		= {Optimality is not a Race: {A}gainst a Performance-based View
 		  of Reference-set Computation},
   year		= {2011},
   note		= {Slides of a talk given at Glow 34, April 28--30, 2011,

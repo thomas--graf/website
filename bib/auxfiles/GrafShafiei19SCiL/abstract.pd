@@ -1,0 +1,3 @@
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and NPI licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
+The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and morphology.

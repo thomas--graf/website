@@ -15,7 +15,7 @@ Graf, Thomas
 ~~~latex
 @Misc{Graf15StPetetalk,
   author	= {Graf, Thomas},
-  title		= {Syntax and Phonology: A Computational Common Core},
+  title		= {Syntax and Phonology: {A} Computational Common Core},
   year		= {2015},
   note		= {Department of Mathematical Linguistics, Saint Petersburg State University, St. Petersburg, Russia}
 }

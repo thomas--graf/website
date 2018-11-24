@@ -26,7 +26,7 @@ I show that this locality condition 1) has no effect on weak generative capacity
 ~~~latex
 @Misc{Graf11FGtalk,
   author	= {Graf, Thomas},
-  title		= {Locality and the Complexity of Minimalist Derivation Tree
+  title		= {Locality and the Complexity of {M}inimalist Derivation Tree
 		  Languages},
   year		= {2011},
   note		= {Slides of a talk presented at the 16$^\textrm{th}$

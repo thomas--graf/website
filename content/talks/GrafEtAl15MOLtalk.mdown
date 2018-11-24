@@ -26,7 +26,7 @@ This result thus lends further support to the hypothesis that very simple notion
 ~~~latex
 @Misc{GrafEtAl15MOLtalk,
   author	= {Graf, Thomas and Fodor, Brigitta and Monette, James and Rachiele, Gianpaul and Warren, Aunika and Zhang, Chong},
-  title		= {A Refined Notion of Memory Usage for Minimalist Parsing},
+  title		= {A Refined Notion of Memory Usage for {M}inimalist Parsing},
   year		= {2015},
   note		= {Slides of a talk given at {MOL14}, July 25--26,
 		  University of Chicago, Chicago, IL}

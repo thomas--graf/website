@@ -25,7 +25,7 @@ Notably, TAG-style tree adjunction can be emulated by a special type of lowering
 ~~~latex
 @Misc{Graf12LACLtalk,
   author	= {Graf, Thomas},
-  title		= {Movement-Generalized Minimalist Grammars},
+  title		= {Movement-Generalized {M}inimalist Grammars},
   year		= {2012},
   note		= {Slides of a talk given at LACL 2012, July 2--4, LINA,
 		  Nantes, France}

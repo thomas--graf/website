@@ -1,0 +1,5 @@
+Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
+While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
+We show that when construed as a phonotactic dependency, the process fits into a class we call *input-output tier-based strictly local* (IO-TSL), a natural extension of the familiar class TSL.
+IO-TSL increases the power of TSL's tier projection function by making it an input-output strictly local transduction.
+Assuming that /n/-retroflexion represents the upper bound on the complexity of segmental phonology, this shows that all of segmental phonology can be captured by combining the intuitive notion of tiers with the independently motivated machinery of strictly local mappings.

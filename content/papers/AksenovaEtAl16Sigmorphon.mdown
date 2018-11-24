@@ -26,7 +26,7 @@ Furthermore, the limitation to tier-based strictly local languages explains typo
   author = {Aks\"{e}nova, Al\"{e}na and Graf, Thomas and Moradi, Sedigheh},
   title = {Morphotactics as Tier-Based Strictly Local Dependencies},
   year = {2016},
-  booktitle = {Proceedings of the 14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+  booktitle = {Proceedings of the 14th {SIGMORPHON} Workshop on Computational Research in Phonetics, Phonology, and Morphology},
   pages = {121--130},
   url = {https://www.aclweb.org/anthology/W/W16/W16-2019.pdf}
 }

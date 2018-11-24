@@ -29,6 +29,6 @@ Their respective insights may eventually be synthesized into a unified account.
     author = {Graf, Thomas},
     title = {Do We Need Features for Morphosyntax?},
     year = {2017},
-    note = {Invited talk, June 26, Workshop on Morphomathematics, Leibniz-Zentrum für Allgemeine Sprachwissenschaft, Berlin, Germany},
+    note = {Invited talk, {J}une 26, Workshop on Morphomathematics, {L}eibniz-{Z}entrum für {A}llgemeine {S}prachwissenschaft, {B}erlin, {G}ermany}
 }
 ~~~

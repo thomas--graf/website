@@ -25,7 +25,7 @@ Each Minimalist analysis occupies a specific point within this class, depending 
 ~~~latex
 @Misc{Graf15Athensposter,
   author	= {Graf, Thomas},
-  title		= {A Hidden Consensus: Computational Invariants of Minimalist Syntax},
+  title		= {A Hidden Consensus: {C}omputational Invariants of {M}inimalist Syntax},
   year		= {2015},
   note		= {Poster presented at {The Road Ahead}, May 28--30,
 		  Athens, Greece.}

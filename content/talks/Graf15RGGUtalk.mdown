@@ -29,7 +29,7 @@ optional constituents --- which I call ojuncts --- are islands.
 ~~~latex
 @Misc{Graf15RGGUtalk,
   author	= {Graf, Thomas},
-  title		= {Adjuncts, Conjuncts, Ojuncts: Deriving Strong Island Constraints},
+  title		= {Adjuncts, Conjuncts, Ojuncts: {D}eriving Strong Island Constraints},
   year		= {2015},
   note		= {Invited talk, Institute of Linguistics, Russian Sate University for the Humanities (RGGU), Moscow, Russia}
 }

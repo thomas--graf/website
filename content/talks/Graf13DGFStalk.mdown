@@ -27,7 +27,7 @@ The existence of parasitic gaps, on the other hand, is expected since their depe
 ~~~latex
 @Misc{Graf13DGFStalk,
   author	= {Graf, Thomas},
-  title		= {The Price of Freedom: Why Adjuncts are Islands},
+  title		= {The Price of Freedom: {W}hy Adjuncts are Islands},
   year		= {2013},
   note		= {Slides of a talk given at the Deutsche Gesellschaft
 		  f\"{u}r Sprachwissenschaft 2013, March 12--15, University

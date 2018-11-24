@@ -22,7 +22,7 @@ Recently, the question has been raised whether the derivation tree languages of 
 ~~~latex
 @Misc{Graf11LACLtalk,
   author	= {Graf, Thomas},
-  title		= {Closure Properties of Minimalist Derivation Tree
+  title		= {Closure Properties of {M}inimalist Derivation Tree
 		  Languages},
   year		= {2011},
   note		= {Slides of a talk given at LACL 2011, June 29--July 1,

@@ -1,4 +1,4 @@
-Title: An Alternate View on Strong Lexicalization in Tag
+Title: An Alternate View on Strong Lexicalization in TAG
 Author: Thomas Graf
 Date: 2016-07-01
 Category: Talks
@@ -25,7 +25,7 @@ A similar lifting reveals that $d$-dimensional TAGs are not closed under strong 
 ~~~latex
 @Misc{DeSantoEtAl16TAGtalk,
   author    = {De Santo, Aniello and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
-  title     = {An Alternate View on Strong Lexicalization in TAG},
+  title     = {An Alternate View on Strong Lexicalization in {TAG}},
   year      = {2016},
   note      = {Slides of a talk given at the 12th International Workshop on Tree Adjoining Grammars and Related Formalisms, June 29 -- July 1, Düsseldorf, Germany}
 }

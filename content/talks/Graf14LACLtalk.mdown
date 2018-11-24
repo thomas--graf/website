@@ -25,7 +25,7 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
 ~~~latex
 @Misc{Graf14LACLtalk,
   author	= {Graf, Thomas},
-  title		= {Late Merge as Lowering Movement in Minimalist Grammars},
+  title		= {{L}ate {M}erge as Lowering Movement in {M}inimalist Grammars},
   year		= {2014},
   note		= {Slides of a talk given at {LACL} 2014, June 18--20,
 		  {IRIT}, Toulouse, France}
