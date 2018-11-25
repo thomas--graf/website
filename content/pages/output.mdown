@@ -142,7 +142,7 @@ Graf, Thomas (2018): **Grammar Size and Quantitative Restrictions on Movement**.
 Graf, Thomas (2018): **Pogo Sticks and Wasps: A Skeptic’s Guide to Computational Linguistics**. Invited talk, October 11, Kasisto Inc, New York City, New York. [[pdf]]({filename}/doc/talks/Graf18Kasistotalk.pdf) [[details]]({filename}/talks/Graf18Kasistotalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas, and Connor Mayer (2018): **Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local**. Poster presented at SIGMORPHON 2018, October 31, Brussels, Belgium. [[details]]({filename}/talks/GrafMayer18Sigmorphonposter.mdown)
+Graf, Thomas, and Connor Mayer (2018): **Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local**. Poster presented at SIGMORPHON 2018, October 31, Brussels, Belgium. [[pdf]]({filename}/doc/talks/GrafMayer18Sigmorphonposter.pdf) [[details]]({filename}/talks/GrafMayer18Sigmorphonposter.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2018): **The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition**. Invited talk, November 26, Integrated Language Science and Technology Seminar, University of Pennsylvania, Philadelphia, PA. [[details]]({filename}/talks/Graf18Penntalk.mdown)
