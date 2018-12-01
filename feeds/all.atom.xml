@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2018-11-26T00:00:00-05:00</updated><entry><title>The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition</title><link href="http://thomasgraf.net/graf18penntalk.html" rel="alternate"></link><published>2018-11-26T00:00:00-05:00</published><updated>2018-11-26T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-11-26:/graf18penntalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2018-12-01T00:00:00-05:00</updated><entry><title>Subregular Syntax: The What, How, and Why</title><link href="http://thomasgraf.net/graf18synctalk.html" rel="alternate"></link><published>2018-12-01T00:00:00-05:00</published><updated>2018-12-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-12-01:/graf18synctalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+It is a well-known fact of computational linguistics that syntax is 
+mildly context-sensitive and thus highly complex &amp;#8212;- certainly more 
+complex than phonology or morphology. This complexity is at odds with 
+the ease of language acquisition and the impressive speed of human 
+sentence …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+It is a well-known fact of computational linguistics that syntax is 
+mildly context-sensitive and thus highly complex &amp;#8212;- certainly more 
+complex than phonology or morphology. This complexity is at odds with 
+the ease of language acquisition and the impressive speed of human 
+sentence processing. If syntax is so complex, why doesn&amp;#8217;t this 
+complexity cause any&amp;nbsp;issues?&lt;/p&gt;
+&lt;p&gt;In this talk, I argue that syntax is actually remarkably simple from a 
+computational perspective if one picks derivation trees as the central 
+representation/data structure. In this case, syntax becomes 
+subregular. Subregularity is already known to play a central role in 
+phonology and morphology, where it has led to new learning algorithms 
+and typological generalizations. Derivation trees allow us to extend 
+the subregular approach from these domains to syntax. This has 
+intriguing repercussions&amp;nbsp;for&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the cognitive architecture of language,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;the relation between Merge and Move,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;the difference between movement and constraints,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;efficient parsing via sensing tree automata,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;learning from positive data via limited semantic&amp;nbsp;bootstrapping.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This shows that the subregular approach to syntax has great potential 
+for language science broadly construed: theoretical linguistics, 
+cognitive science, and language&amp;nbsp;technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/Graf18SYNCtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18SYNCtalk,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Subregular Syntax: The What, How, and Why&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, December 1, SYNC, Stony Brook University, Stony Brook, NY.&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="syntax"></category><category term="phonology"></category><category term="Minimalist grammars"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition</title><link href="http://thomasgraf.net/graf18penntalk.html" rel="alternate"></link><published>2018-11-26T00:00:00-05:00</published><updated>2018-11-26T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-11-26:/graf18penntalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -219,25 +268,4 @@ Traditional approaches still offer significant advantages that have not been ful
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, October 11, Kasisto Inc, New York City, New York&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="neural networks"></category><category term="NLP"></category><category term="machine learning"></category><category term="industry"></category></entry><entry><title>Adjunction to Movement Paths: Floating Quantifiers as the Little Brother of Parasitic Gaps</title><link href="http://thomasgraf.net/graf18nelsposter.html" rel="alternate"></link><published>2018-10-07T00:00:00-04:00</published><updated>2018-10-07T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-07:/graf18nelsposter.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-A lot of recent work in computational phonology seeks to pinpoint the complexity of phonotactic dependencies from a formal perspective. Numerous mathematical classes have been proposed, but Graf (2017) subsumes them all under the umbrella of &lt;em&gt;interval-based strictly piecewise dependencies&lt;/em&gt; (&lt;span class="caps"&gt;IBSP&lt;/span&gt;). &lt;span class="caps"&gt;IBSP …&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-A lot of recent work in computational phonology seeks to pinpoint the complexity of phonotactic dependencies from a formal perspective. Numerous mathematical classes have been proposed, but Graf (2017) subsumes them all under the umbrella of &lt;em&gt;interval-based strictly piecewise dependencies&lt;/em&gt; (&lt;span class="caps"&gt;IBSP&lt;/span&gt;). &lt;span class="caps"&gt;IBSP&lt;/span&gt; treats all phonological structures as strings that are subject to non-local constraints. Every local dependency is reanalyzed as a non-local constraint that is restricted to a locality domain of bounded size. If all phonotactic dependencies are &lt;span class="caps"&gt;IBSP&lt;/span&gt;, then we should only encounter phenomena that are either local or non-local, but not both. I show that this prediction is not borne out: several attested phenomena combine local and non-local information. However, a more relaxed notion of locality domains allows &lt;span class="caps"&gt;IBSP&lt;/span&gt; to produce these patterns while avoiding overgeneration. The make-up of these relaxed locality domains bears a striking resemblance to c-command in syntax, supporting the idea that phonology and syntax may be closely related on a computational&amp;nbsp;level.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@Misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18NELSposter,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Adjunction to Movement Paths: &lt;span class="nb"&gt;{&lt;/span&gt;F&lt;span class="nb"&gt;}&lt;/span&gt;loating Quantifiers as the Little Brother of Parasitic Gaps&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at the 49th Annual Meeting of the &lt;span class="nb"&gt;{&lt;/span&gt;N&lt;span class="nb"&gt;}&lt;/span&gt;orth &lt;span class="nb"&gt;{&lt;/span&gt;E&lt;span class="nb"&gt;}&lt;/span&gt;ast &lt;span class="nb"&gt;{&lt;/span&gt;L&lt;span class="nb"&gt;}&lt;/span&gt;inguistic &lt;span class="nb"&gt;{&lt;/span&gt;S&lt;span class="nb"&gt;}&lt;/span&gt;ociety (NELS 49), October 5--7, &lt;span class="nb"&gt;{&lt;/span&gt;C&lt;span class="nb"&gt;}&lt;/span&gt;ornell &lt;span class="nb"&gt;{&lt;/span&gt;U&lt;span class="nb"&gt;}&lt;/span&gt;niversity, &lt;span class="nb"&gt;{&lt;/span&gt;I&lt;span class="nb"&gt;}&lt;/span&gt;thaca, &lt;span class="nb"&gt;{&lt;/span&gt;NY&lt;span class="nb"&gt;}}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="syntax"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="neural networks"></category><category term="NLP"></category><category term="machine learning"></category><category term="industry"></category></entry></feed>
