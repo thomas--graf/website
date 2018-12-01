@@ -145,6 +145,9 @@ Graf, Thomas (2018): **Pogo Sticks and Wasps: A Skeptic’s Guide to Computation
 Graf, Thomas, and Connor Mayer (2018): **Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local**. Poster presented at SIGMORPHON 2018, October 31, Brussels, Belgium. [[pdf]]({filename}/doc/talks/GrafMayer18Sigmorphonposter.pdf) [[details]]({filename}/talks/GrafMayer18Sigmorphonposter.mdown)
 </li>
 <li markdown>
+Graf, Thomas (2018): **Subregular Syntax: The What, How, and Why**. Invited talk, December 1, SYNC, Stony Brook University, Stony Brook, NY. [[pdf]]({filename}/doc/talks/Graf18SYNCtalk.pdf) [[details]]({filename}/talks/Graf18SYNCtalk.mdown)
+</li>
+<li markdown>
 Graf, Thomas (2018): **The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition**. Invited talk, November 26, Integrated Language Science and Technology Seminar, University of Pennsylvania, Philadelphia, PA. [[pdf]]({filename}/doc/talks/Graf18Penntalk.pdf) [[details]]({filename}/talks/Graf18Penntalk.mdown)
 </li>
 <li markdown>
