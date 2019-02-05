@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2018-12-01T00:00:00-05:00</updated><entry><title>Subregular Syntax: The What, How, and Why</title><link href="http://thomasgraf.net/graf18synctalk.html" rel="alternate"></link><published>2018-12-01T00:00:00-05:00</published><updated>2018-12-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-12-01:/graf18synctalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2019-01-05T00:00:00-05:00</updated><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="http://thomasgraf.net/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
+The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and&amp;nbsp;morphology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/GrafShafiei19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;GrafShafiei19SCiLposter,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Shafiei, Nazila&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;C-Command Dependencies as &lt;span class="nb"&gt;{&lt;/span&gt;TSL&lt;span class="nb"&gt;}&lt;/span&gt; String Constraints&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;, January 3--6, co-located with the &lt;span class="nb"&gt;{&lt;/span&gt;LSA 2019&lt;span class="nb"&gt;}}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Computational Cost of Generalizations: An Example from Micromorphology</title><link href="http://thomasgraf.net/moradietal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/moradietal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+The central concern of linguistics is to succinctly state generalizations.
+But as numerous linguists have pointed out over the years, generalizations do not always come for free.
+A formalism&amp;#8217;s ability to account for the data does …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+The central concern of linguistics is to succinctly state generalizations.
+But as numerous linguists have pointed out over the years, generalizations do not always come for free.
+A formalism&amp;#8217;s ability to account for the data does not entail that it can express the relevant generalizations about the data.
+We illustrate this point with a computational case study in micro-morphology.
+More precisely, we show that the subregular complexity of adjective inflection in Noon varies depending on what generalizations one wishes to&amp;nbsp;capture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/MoradiEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;MoradiEtAl19SCiLposter,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Moradi, Sedigheh and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;The Computational Cost of Generalizations: An Example from Micromorphology&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;, January 3--6, co-located with the &lt;span class="nb"&gt;{&lt;/span&gt;LSA 2019&lt;span class="nb"&gt;}}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="http://thomasgraf.net/vuetal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/vuetal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly local over derivation trees.
+However, a broader range of empirical phenomena must be considered in order to solidify this claim.
+This paper investigates various phenomena related to morphological case, and we argue that they, too, are tier-based strictly local.
+Not only do our findings provide empirical support for a kind of computational parallelism across language modules, they also offer a new, computationally unified perspective of structural and lexical case.
+We hope that this paper will enable other researchers to fruitfully study syntactic phenomena from a subregular&amp;nbsp;perspective.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="http://thomasgraf.net/doc/talks/VuEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;VuEtAl19SCiLposter,
+    author = &lt;span class="nb"&gt;{&lt;/span&gt;Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
+    title = &lt;span class="nb"&gt;{&lt;/span&gt;Case Assignment in &lt;span class="nb"&gt;{&lt;/span&gt;TSL&lt;span class="nb"&gt;}&lt;/span&gt; Syntax: A Case Study&lt;span class="nb"&gt;}&lt;/span&gt;,
+    year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
+    note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;, January 3--6, co-located with the &lt;span class="nb"&gt;{&lt;/span&gt;LSA 2019&lt;span class="nb"&gt;}}&lt;/span&gt;
+&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Subregular Syntax: The What, How, and Why</title><link href="http://thomasgraf.net/graf18synctalk.html" rel="alternate"></link><published>2018-12-01T00:00:00-05:00</published><updated>2018-12-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-12-01:/graf18synctalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -178,94 +259,10 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
     title = &lt;span class="nb"&gt;{&lt;/span&gt;C-Command Dependencies as &lt;span class="nb"&gt;{&lt;/span&gt;TSL&lt;span class="nb"&gt;}&lt;/span&gt; String Constraints&lt;span class="nb"&gt;}&lt;/span&gt;,
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
     booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proccedings of &lt;span class="nb"&gt;{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt;, 
+    editor = &lt;span class="nb"&gt;{&lt;/span&gt;Jarosz, Gaja and
+              Nelson, Max and
+              O&amp;#39;Connor, Brendan and
+              Pater, Joe&lt;span class="nb"&gt;}&lt;/span&gt;,
+    pages = &lt;span class="nb"&gt;{&lt;/span&gt;205--215&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="http://thomasgraf.net/vuetal19scil.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/vuetal19scil.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
-More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
-More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly local over derivation trees.
-However, a broader range of empirical phenomena must be considered in order to solidify this claim.
-This paper investigates various phenomena related to morphological case, and we argue that they, too, are tier-based strictly local.
-Not only do our findings provide empirical support for a kind of computational parallelism across language modules, they also offer a new, computationally unified perspective of structural and lexical case.
-We hope that this paper will enable other researchers to fruitfully study syntactic phenomena from a subregular&amp;nbsp;perspective.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/VuEtAl19SCiL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;VuEtAl19SCiL,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Case Assignment in &lt;span class="nb"&gt;{&lt;/span&gt;TSL&lt;span class="nb"&gt;}&lt;/span&gt; Syntax: A Case Study&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
-    booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proccedings of &lt;span class="nb"&gt;{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt;, 
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Monotonicity as an Effective Theory of Morphosyntactic Variation</title><link href="http://thomasgraf.net/graf18jlm.html" rel="alternate"></link><published>2018-10-24T00:00:00-04:00</published><updated>2018-10-24T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-24:/graf18jlm.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-One of the major goals of linguistics is to delineate the possible range of variation across languages.
-Recent work has identified a surprising number of typological gaps in a variety of domains.
-In morphology, this includes stem suppletion, person pronoun syncretism, case …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-One of the major goals of linguistics is to delineate the possible range of variation across languages.
-Recent work has identified a surprising number of typological gaps in a variety of domains.
-In morphology, this includes stem suppletion, person pronoun syncretism, case syncretism, and noun stem allomorphy.
-In morphosyntax, only a small number of all conceivable Person Case Constraints and Gender Case Constraints are found.
-While various proposals have been put forward for each individual domain, few attempts have been made to give a unified explanation of the limited typology across all domains.
-This paper presents a novel account that deliberately abstracts away from the usual details of grammatical description in order to provide a domain-agnostic explanation of the limits of typological variation.
-This is achieved by combining prominence hierarchies, e.g. for person and case, with mappings from those hierarchies to the relevant output forms.
-As the mappings are required to be monotonic, only a fraction of all conceivable patterns can be&amp;nbsp;instantiated.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/Graf18JLM.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@article&lt;span class="nb"&gt;{&lt;/span&gt;Graf18JLM,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Monotonicity as an effective theory of morphosyntactic variation&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
-    journal = &lt;span class="nb"&gt;{&lt;/span&gt;Journal of Language Modelling&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;to appear&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="monotonicity"></category><category term="algebra"></category><category term="morphology"></category><category term="morphosyntax"></category><category term="syncretism"></category><category term="typology"></category><category term="*ABA"></category><category term="PCC"></category><category term="Gender Case Constraint"></category></entry><entry><title>Pogo Sticks and Wasps: A Skeptic’s Guide to Computational Linguistics</title><link href="http://thomasgraf.net/graf18kasistotalk.html" rel="alternate"></link><published>2018-10-11T00:00:00-04:00</published><updated>2018-10-11T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-11:/graf18kasistotalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Big Data, machine learning, and neural networks have taken &lt;span class="caps"&gt;NLP&lt;/span&gt; by storm.
-This talk evaluates these approaches from a critical perspective.
-I argue that in particular for customer-facing applications, these techniques do not perform as well as one would hope once one …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Big Data, machine learning, and neural networks have taken &lt;span class="caps"&gt;NLP&lt;/span&gt; by storm.
-This talk evaluates these approaches from a critical perspective.
-I argue that in particular for customer-facing applications, these techniques do not perform as well as one would hope once one goes beyond purely quantitative evaluation metrics.
-Traditional approaches still offer significant advantages that have not been fully harnessed&amp;nbsp;yet. &lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf18Kasistotalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18Kasistotalk,
-    author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
-    title = &lt;span class="nb"&gt;{&lt;/span&gt;Pogo Sticks and Wasps: A Skeptic&amp;#39;s Guide to Computational Linguistics&lt;span class="nb"&gt;}&lt;/span&gt;,
-    year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
-    note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, October 11, Kasisto Inc, New York City, New York&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="neural networks"></category><category term="NLP"></category><category term="machine learning"></category><category term="industry"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry></feed>
