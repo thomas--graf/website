@@ -1,7 +1,7 @@
 Title: Grammar Size and Quantitative Restrictions on Movement
 Author: Thomas Graf
 Date: 2018-01-04
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; movement; locality; improper movement; superraising; wh-islands; grammar size
 
 <div markdown class="authors">

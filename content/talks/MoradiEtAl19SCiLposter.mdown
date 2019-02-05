@@ -1,7 +1,7 @@
 Title: The Computational Cost of Generalizations: An Example from Micromorphology
 Author: Thomas Graf
 Date: 2019-01-05
-Category: Talks
+Category: Presentations
 Tags: subregular; tiers; morphology; explanatory adequacy
 
 <div markdown class="authors">

@@ -1,7 +1,7 @@
 Title: Concealed Reference-Set Computation or How Syntax Escapes the Parser’s Clutches
 Author: Thomas Graf
 Date: 2010-05-29
-Category: Talks
+Category: Presentations
 Tags: transderivationality; reference-set computation; constraints; syntax; optimality theory
 
 <div markdown class="authors">

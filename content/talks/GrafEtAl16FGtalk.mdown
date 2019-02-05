@@ -1,7 +1,7 @@
 Title: A Single Movement Normal Form for Minimalist Grammars
 Author: Thomas Graf
 Date: 2016-08-20
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars, tree transductions, derivation trees, lexical blow-up, successive cyclic movement
 
 <div markdown class="authors">

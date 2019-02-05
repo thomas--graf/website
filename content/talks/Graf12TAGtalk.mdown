@@ -1,7 +1,7 @@
 Title: Tree Adjunction as Minimalist Lowering
 Author: Thomas Graf
 Date: 2012-09-26
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; TAG; movement; lowering; generative capacity
 
 <div markdown class="authors">

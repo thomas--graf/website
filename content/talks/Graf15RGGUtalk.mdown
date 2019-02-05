@@ -1,7 +1,7 @@
 Title: Adjuncts, Conjuncts, Ojuncts: Deriving Strong Island Constraints
 Author: Thomas Graf
 Date: 2015-12-14
-Category: Talks
+Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">

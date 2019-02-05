@@ -1,7 +1,7 @@
 Title: Memory Usage Predicts Relative Difficulty in Human Sentence Processing
 Author: Thomas Graf
 Date: 2016-04-13
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
 
 <div markdown class="authors">

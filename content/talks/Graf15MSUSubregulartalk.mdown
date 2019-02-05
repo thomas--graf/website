@@ -1,7 +1,7 @@
 Title: Computational Unity Across Language Modules
 Author: Thomas Graf
 Date: 2015-12-15
-Category: Talks
+Category: Presentations
 Tags: phonology; Minimalist grammars; subregular; constraints; locality
 
 <div markdown class="authors">

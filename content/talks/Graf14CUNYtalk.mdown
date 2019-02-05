@@ -1,7 +1,7 @@
 Title: Adjuncts, Islands, Algebra (with a Sprinkling of Semantics)
 Author: Thomas Graf
 Date: 2014-11-04
-Category: Talks
+Category: Presentations
 Tags: syntax; semantics; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">

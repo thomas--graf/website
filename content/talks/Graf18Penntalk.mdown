@@ -1,7 +1,7 @@
 Title: The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition
 Author: Thomas Graf
 Date: 2018-11-26
-Category: Talks
+Category: Presentations
 Tags: syntax; phonology; Minimalist grammars; locality; subregular; c-command; tiers
 
 <div markdown class="authors">

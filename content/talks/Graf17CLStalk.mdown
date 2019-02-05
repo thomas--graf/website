@@ -1,7 +1,7 @@
 Title: It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics
 Author: Thomas Graf
 Date: 2017-05-26
-Category: Talks
+Category: Presentations
 Tags: phonology; morphology; syntax; morphosemantics; subregular hierarchy; tiers;
 
 <div markdown class="authors">

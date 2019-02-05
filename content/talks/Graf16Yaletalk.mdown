@@ -1,7 +1,7 @@
 Title: Computational Parallels Across Language Modules
 Author: Thomas Graf
 Date: 2016-09-12
-Category: Talks
+Category: Presentations
 Tags: phonology; morphology; syntax; subregular hierarchy; formal language theory; tiers; locality; typology;
 
 <div markdown class="authors">

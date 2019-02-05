@@ -1,7 +1,7 @@
 Title: An Alternate View on Strong Lexicalization in TAG
 Author: Thomas Graf
 Date: 2016-07-01
-Category: Talks
+Category: Presentations
 Tags: Tree Adjoining grammar; lexicalization; multi-dimensional trees; generative capacity
 
 <div markdown class="authors">

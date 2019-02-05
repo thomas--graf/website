@@ -1,7 +1,7 @@
 Title: Closure Properties of Minimalist Derivation Tree Languages
 Author: Thomas Graf
 Date: 2011-06-30
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; derivation trees; constraints; tree automata; generative capacity
 
 <div markdown class="authors">

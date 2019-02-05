@@ -1,7 +1,7 @@
 Title: Optionality Implies Islandhood
 Author: Thomas Graf
 Date: 2013-11-01
-Category: Talks
+Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">

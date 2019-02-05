@@ -1,7 +1,7 @@
 Title: Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local
 Author: Thomas Graf
 Date: 2018-10-31
-Category: Talks
+Category: Presentations
 Tags: phonology; subregular; tiers; nati; Sanskrit;
 
 <div markdown class="authors">

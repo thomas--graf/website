@@ -1,7 +1,7 @@
 Title: Locality in Flux — Reducibility Results for Syntactic Constraints
 Author: Thomas Graf
 Date: 2009-08-27
-Category: Talks
+Category: Presentations
 Tags: constraints; locality; transderivationality; reference-set computation; multi-dimensional trees; model-theoretic syntax; optimality theory
 
 <div markdown class="authors">

@@ -1,7 +1,7 @@
 Title: Lost in Translation: A Formal Model of Merge-over-Move and Its Implications for the Language Faculty
 Author: Thomas Graf
 Date: 2011-01-06
-Category: Talks
+Category: Presentations
 Tags: syntax; transderivationality; reference-set computation; constraints; tree transducers; Merge-over-Move;
 
 <div markdown class="authors">

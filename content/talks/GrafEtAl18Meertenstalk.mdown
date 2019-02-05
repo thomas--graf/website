@@ -1,7 +1,7 @@
 Title: Tiers and Relativized Locality Across Language Modules
 Author: Thomas Graf
 Date: 2018-07-09
-Category: Talks
+Category: Presentations
 Tags: syntax; phonology; morphology; Minimalist grammars; subregular; tiers; locality
 
 <div markdown class="authors">

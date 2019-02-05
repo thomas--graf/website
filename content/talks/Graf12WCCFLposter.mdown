@@ -1,7 +1,7 @@
 Title: Why There Must Be Exceptions to Principle B
 Author: Thomas Graf
 Date: 2012-04-14
-Category: Talks
+Category: Presentations
 Tags: binding; formal universals; typology; Principle B; coordination
 
 <div markdown class="authors">

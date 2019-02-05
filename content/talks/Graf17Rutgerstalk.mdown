@@ -1,7 +1,7 @@
 Title: Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers
 Author: Thomas Graf
 Date: 2017-12-15
-Category: Talks
+Category: Presentations
 Tags: subregular hierarchy; semantics; typology; tiers; monotonicity
 
 <div markdown class="authors">

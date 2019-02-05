@@ -1,7 +1,7 @@
 Title: Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers
 Author: Thomas Graf
 Date: 2017-07-22
-Category: Talks
+Category: Presentations
 Tags: subregular hierarchy; semantics; quantifiers; typology; tiers
 
 <div markdown class="authors">

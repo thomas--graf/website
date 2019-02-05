@@ -1,7 +1,7 @@
 Title: Formal Processing Theory, or Parsing Without Parsers
 Author: Thomas Graf
 Date: 2015-10-11
-Category: Talks
+Category: Presentations
 Tags: syntax; processing; relative clauses; Minimalist grammars; parsing; Chomsky in the audience
 
 <div markdown class="authors">

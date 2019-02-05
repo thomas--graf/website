@@ -1,7 +1,7 @@
 Title: Syntax and Phonology: A Computational Common Core
 Author: Thomas Graf
 Date: 2015-12-10
-Category: Talks
+Category: Presentations
 Tags: phonology; Minimalist grammars; subregular; constraints; locality
 
 <div markdown class="authors">

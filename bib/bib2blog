@@ -160,7 +160,7 @@ case $bibtype in
         category="Books"
         ;;
     Misc|misc)
-        category="Talks"
+        category="Presentations"
         ;;
     *)
         category="Papers"
@@ -169,7 +169,7 @@ esac
 # set a macrotype that determines where blog entries
 # are saved in the website's content folder
 case $category in
-    Talks)
+    Presentations)
         macrotype="talks"
         ;;
     *)

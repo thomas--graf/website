@@ -1,7 +1,7 @@
 Title: Computational Computational Linguistics
 Author: Thomas Graf
 Date: 2013-10-01
-Category: Talks
+Category: Presentations
 Tags: phonology; syntax; subregular hierarchy; formal language theory; cognitive architecture
 
 <div markdown class="authors">

@@ -1,7 +1,7 @@
 Title: The Syntactic Algebra of Adjuncts
 Author: Thomas Graf
 Date: 2013-04-19
-Category: Talks
+Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint
 
 <div markdown class="authors">

@@ -1,7 +1,7 @@
 Title: Evaluating Evluation Metrics for Minimalist Parsing
 Author: Thomas Graf
 Date: 2014-06-26
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; parsing; relative clauses; embedding
 
 <div markdown class="authors">

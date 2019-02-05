@@ -1,7 +1,7 @@
 Title: Movement-Generalized Minimalist Grammars
 Author: Thomas Graf
 Date: 2012-07-04
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; movement; MSO; tree languages; transductions; Tree Adjoining grammar; sideward movement; lowering movement; clustering; generative capacity
 
 <div markdown class="authors">

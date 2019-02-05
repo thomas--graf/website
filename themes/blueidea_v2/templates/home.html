@@ -17,12 +17,14 @@ Recent News
 </h3>
 <dl>
 {% for article in dates[:HOME_NEWS_COUNT] %}
-    {% if article.category|string == "Talks" %}
+    {% if article.category|string == "Presentations" %}
+        <dt>{{ article.locale_date }}: Presentation</dt>
+    {% elif article.category|string == "Papers" %}
+        <dt>{{ article.locale_date }}: Paper</dt>
+    {% elif article.category|string == "Talks" %}
         <dt>{{ article.locale_date }}: Talk</dt>
     {% elif article.category|string == "Posters" %}
         <dt>{{ article.locale_date }}: Poster</dt>
-    {% elif article.category|string == "Papers" %}
-        <dt>{{ article.locale_date }}: Paper</dt>
     {% elif article.category|string == "Books" %}
         <dt>{{ article.locale_date }}: Book</dt>
     {% else %}

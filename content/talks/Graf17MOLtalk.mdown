@@ -1,7 +1,7 @@
 Title: Graph Transductions and Typological Gaps in Morphological Paradigms
 Author: Thomas Graf
 Date: 2017-07-14
-Category: Talks
+Category: Presentations
 Tags: morphology; morphosyntax; typology; person hierarchy; person case constraint; subregular; transductions; *ABA
 
 <div markdown class="authors">

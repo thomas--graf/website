@@ -1,7 +1,7 @@
 Title: Models of Adjunction in Minimalist Grammars
 Author: Thomas Graf
 Date: 2014-08-16
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; adjunction; model-theoretic syntax; MSO; derivation trees; subregular hierarchy
 
 <div markdown class="authors">

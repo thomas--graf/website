@@ -1,7 +1,7 @@
 Title: The Complexity of Binding in English and ASL
 Author: Thomas Graf
 Date: 2012-04-19
-Category: Talks
+Category: Presentations
 Tags: binding; Principle B; finite-state; typology; sign language; English
 
 <div markdown class="authors">

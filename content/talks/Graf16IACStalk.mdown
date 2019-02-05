@@ -1,7 +1,7 @@
 Title: Computational Lessons from and for Language
 Author: Thomas Graf
 Date: 2016-04-28
-Category: Talks
+Category: Presentations
 Tags: phonology; subregular; syntax; derivation trees; open problems
 
 <div markdown class="authors">

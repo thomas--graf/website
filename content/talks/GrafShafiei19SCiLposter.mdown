@@ -1,7 +1,7 @@
 Title: C-Command Dependencies as TSL String Constraints
 Author: Thomas Graf
 Date: 2019-01-05
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; subregular; syntax; constraints; c-command; tiers
 
 <div markdown class="authors">

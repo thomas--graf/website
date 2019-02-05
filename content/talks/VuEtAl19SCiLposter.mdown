@@ -1,7 +1,7 @@
 Title: Case Assignment in TSL Syntax: A Case Study
 Author: Thomas Graf
 Date: 2019-01-05
-Category: Talks
+Category: Presentations
 Tags: Minimalist grammars; subregular; morphosyntax; tiers; derivation trees
 
 <div markdown class="authors">

@@ -1,7 +1,7 @@
 Title: Comparing Incomparable Frameworks — a Model Theoretic Approach to Phonology
 Author: Thomas Graf
 Date: 2009-03-27
-Category: Talks
+Category: Presentations
 Tags: phonology; generative capacity; subregular; Sanskrit; Cairene Arabic; Creek; primary stress
 
 <div markdown class="authors">

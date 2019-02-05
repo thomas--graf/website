@@ -1,7 +1,7 @@
 Title: One Reason to Move, a Million Reasons to Be an Island: Third-Factor Explanations from Computational Syntax
 Author: Thomas Graf
 Date: 2017-12-15
-Category: Talks
+Category: Presentations
 Tags: subregular hierarchy; syntax; tiers; selection; movement; adjunction; islands
 
 <div markdown class="authors">
