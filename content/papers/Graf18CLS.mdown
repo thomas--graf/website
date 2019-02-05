@@ -29,7 +29,14 @@ Consequently, Move has no additional computational or conceptual cost attached t
     title = {Why Movement Comes for Free Once You Have Adjunction},
     year = {2018},
     booktitle = {Proceedings of {CLS} 53},
-    url = {http://ling.auf.net/lingbuzz/003943},
-    note = {To appear},
+    editor = {Edmiston, Daniel and
+              Ermolaeva, Marina and
+              Hakgüder, Emre and
+              Lai, Jackie and
+              Montemurro, Kathryn and
+              Rhodes, Brandon and
+              Sankhagowit, Amara and
+              Tabatowski, Miachel},
+    pages = {117--137},
 }
 ~~~

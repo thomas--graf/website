@@ -5,10 +5,10 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
-Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. *Proccedings of SCiL 2019*. To appear. [[pdf]]({filename}/doc/papers/GrafShafiei19SCiL.pdf) [[details]]({filename}/papers/GrafShafiei19SCiL.mdown)
+Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. *Proccedings of SCiL 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O’Connor, and Joe Pater, 205–215. [[pdf]]({filename}/doc/papers/GrafShafiei19SCiL.pdf) [[details]]({filename}/papers/GrafShafiei19SCiL.mdown)
 </li>
 <li markdown>
-Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. *Proccedings of SCiL 2019*. To appear. [[pdf]]({filename}/doc/papers/VuEtAl19SCiL.pdf) [[details]]({filename}/papers/VuEtAl19SCiL.mdown)
+Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. *Proccedings of SCiL 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O’Connor, and Joe Pater, 267–276. [[pdf]]({filename}/doc/papers/VuEtAl19SCiL.pdf) [[details]]({filename}/papers/VuEtAl19SCiL.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2018): **Grammar Size and Quantitative Restrictions on Movement**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2018*, 23–33. doi:[10.7275/R5348HJ8](https://doi.org/10.7275/R5348HJ8). [[pdf]]({filename}/doc/papers/Graf17SCiL.pdf) [[details]]({filename}/papers/Graf17SCiL.mdown)
@@ -23,7 +23,7 @@ Graf, Thomas (2018): **Monotonicity as an Effective Theory of Morphosyntactic Va
 Graf, Thomas, and Connor Mayer (2018): **Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local**. *Proceedings of SIGMORPHON 2018*. To appear. [[pdf]]({filename}/doc/papers/GrafMayer18Sigmorphon.pdf) [[details]]({filename}/papers/GrafMayer18Sigmorphon.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2018): **Why Movement Comes for Free Once You Have Adjunction**. *Proceedings of CLS 53*. [[pdf]]({filename}/doc/papers/Graf18CLS.pdf) [[details]]({filename}/papers/Graf18CLS.mdown)
+Graf, Thomas (2018): **Why Movement Comes for Free Once You Have Adjunction**. *Proceedings of CLS 53*, ed. by Daniel Edmiston, Marina Ermolaeva, Emre Hakgüder, Jackie Lai, Kathryn Montemurro, Brandon Rhodes, Amara Sankhagowit, and Miachel Tabatowski, 117–137. [[pdf]]({filename}/doc/papers/Graf18CLS.pdf) [[details]]({filename}/papers/Graf18CLS.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2017): **A Computational Guide to the Dichotomy of Features and Constraints**. *Glossa* 2.1–36. doi:[10.5334/gjgl.212](https://doi.org/10.5334/gjgl.212). [[pdf]]({filename}/doc/papers/Graf17Glossa.pdf) [[details]]({filename}/papers/Graf17Glossa.mdown)
@@ -132,6 +132,15 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 # Presentations
 
 <ol reversed markdown>
+<li markdown>
+Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. Poster presented at *SCiL 2019*, January 3–6, co-located with the LSA 2019. [[pdf]]({filename}/doc/talks/GrafShafiei19SCiLposter.pdf) [[details]]({filename}/talks/GrafShafiei19SCiLposter.mdown)
+</li>
+<li markdown>
+Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. Poster presented at *SCiL 2019*, January 3–6, co-located with the LSA 2019. [[pdf]]({filename}/doc/talks/VuEtAl19SCiLposter.pdf) [[details]]({filename}/talks/VuEtAl19SCiLposter.mdown)
+</li>
+<li markdown>
+Moradi, Sedigheh, Alëna Aksënova, and Thomas Graf (2019): **The Computational Cost of Generalizations: An Example from Micromorphology**. Poster presented at *SCiL 2019*, January 3–6, co-located with the LSA 2019. [[pdf]]({filename}/doc/talks/MoradiEtAl19SCiLposter.pdf) [[details]]({filename}/talks/MoradiEtAl19SCiLposter.mdown)
+</li>
 <li markdown>
 Graf, Thomas (2018): **Adjunction to Movement Paths: Floating Quantifiers as the Little Brother of Parasitic Gaps**. Poster presented at the 49th Annual Meeting of the North East Linguistic Society (NELS 49), October 5–7, Cornell University, Ithaca, NY. [[details]]({filename}/talks/Graf18NELSposter.mdown)
 </li>

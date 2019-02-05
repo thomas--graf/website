@@ -1,0 +1,32 @@
+Title: The Computational Cost of Generalizations: An Example from Micromorphology
+Author: Thomas Graf
+Date: 2019-01-05
+Category: Talks
+Tags: subregular; tiers; morphology; explanatory adequacy
+
+<div markdown class="authors">
+Moradi, Sedigheh, Alëna Aksënova, and Thomas Graf
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+The central concern of linguistics is to succinctly state generalizations.
+But as numerous linguists have pointed out over the years, generalizations do not always come for free.
+A formalism's ability to account for the data does not entail that it can express the relevant generalizations about the data.
+We illustrate this point with a computational case study in micro-morphology.
+More precisely, we show that the subregular complexity of adjective inflection in Noon varies depending on what generalizations one wishes to capture.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({filename}/doc/talks/MoradiEtAl19SCiLposter.pdf)]
+</div>
+
+~~~latex
+@misc{MoradiEtAl19SCiLposter,
+    author = {Moradi, Sedigheh and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
+    title = {The Computational Cost of Generalizations: An Example from Micromorphology},
+    year = {2019},
+    note = {Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}
+}
+~~~
