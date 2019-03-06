@@ -66,7 +66,12 @@ SOCIAL = [('email', 'mailto://mail_@_thomasgraf_._net'),
 LOAD_CONTENT_CACHE = False
 
 SLUGIFY_SOURCE = 'basename'
-ARTICLE_SAVE_AS = '{slug}.html'
+ARTICLE_PATHS = ['papers', 'talks', 'posts']
+ARTICLE_URL = 'output/{slug}.html'
+ARTICLE_SAVE_AS = 'output/{slug}.html'
+PAGE_PATHS = ['pages']
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 # Tricks to deal with special files
 STATIC_PATHS = ['images', 'doc', 'extra/CNAME', 'extra/README.md', 'extra/robots.txt','timeline']
