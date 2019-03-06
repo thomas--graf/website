@@ -180,8 +180,8 @@ esac
 # pdf and code paths are generated automatically,
 # so you have to make sure to name them accordingly
 
-pdf="{filename}/doc/${macrotype}/${bibkey}.pdf"
-code="{filename}/doc/${macrotype}/${bibkey}.tar.gz"
+pdf="{static}/doc/${macrotype}/${bibkey}.pdf"
+code="{static}/doc/${macrotype}/${bibkey}.tar.gz"
 
 # now we create the links in the blog entry
 pdflink="[pdf]($pdf)"

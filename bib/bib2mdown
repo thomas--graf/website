@@ -179,13 +179,13 @@ fi
 if [ "x$pdf_path" = "x" ]; then
     case $type in
         Publications|Papers)
-            pdf_path="{filename}/doc/papers/"
+            pdf_path="{static}/doc/papers/"
             ;;
         Presentations|Talks|Posters)
-            pdf_path="{filename}/doc/talks/"
+            pdf_path="{static}/doc/talks/"
             ;;
         *)
-            pdf_path="{filename}/doc/pdf/"
+            pdf_path="{static}/doc/pdf/"
             ;;
     esac
 fi
@@ -267,7 +267,7 @@ touch ${tmpfile}_filtered
 # now we search every line in the file for a pdf path
 while read line; do
     # extract the pdf link
-    pdf_file=$(echo $line | sed 's|.*\[\[pdf\]\]({filename}/\([^)]*\)).*|\1|')
+    pdf_file=$(echo $line | sed 's|.*\[\[pdf\]\]({static}/\([^)]*\)).*|\1|')
     # if the line contains a pdf link, pdf_file is not empty;
     # but if it is non-empty and the linked file does not exist,
     # it is a dead link and must be removed
@@ -327,6 +327,7 @@ sed -i 's/!!/**/g' $tmpfile
 
 # fix broken links
 sed -i 's|{filename[^}]|{filename}/|g' $tmpfile
+sed -i 's|{static[^}]|{static}/|g' $tmpfile
 
 
 ##############
