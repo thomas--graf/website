@@ -13,7 +13,8 @@ Graf, Thomas
 [[pdf]({static}/doc/talks/Graf13StonyBrookCogScitalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf13StonyBrookCogScitalk,
   author	= {Graf, Thomas},
   title		= {Computational Computational Linguistics},

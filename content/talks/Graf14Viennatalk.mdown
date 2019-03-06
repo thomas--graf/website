@@ -14,7 +14,8 @@ Graf, Thomas
 [[code]({static}/doc/talks/Graf14Viennatalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf14Viennatalk,
   author	= {Graf, Thomas},
   title		= {Person Case Constraints and Feature Complexity in Syntax},

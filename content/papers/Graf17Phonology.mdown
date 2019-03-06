@@ -24,7 +24,8 @@ It is also shown that SP grammars with interval-based domains are theoretically 
 [[pdf]({static}/doc/papers/Graf17Phonology.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @article{Graf17Phonology,
   author = {Graf, Thomas},
   title = {The Power of Locality Domains in Phonology},

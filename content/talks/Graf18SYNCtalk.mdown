@@ -42,7 +42,8 @@ cognitive science, and language technology.
 [[pdf]({static}/doc/talks/Graf18SYNCtalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{Graf18SYNCtalk,
     author = {Graf, Thomas},
     title = {Subregular Syntax: The What, How, and Why},

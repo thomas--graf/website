@@ -17,7 +17,8 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
 <span id="files-title">Files</span>
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf18NELSposter,
     author = {Graf, Thomas},
     title = {Adjunction to Movement Paths: {F}loating Quantifiers as the Little Brother of Parasitic Gaps},

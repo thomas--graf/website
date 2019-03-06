@@ -12,7 +12,8 @@ Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi
 <span id="files-title">Files</span>
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{AksenovaEtAl16NECPhontalk,
   author = {Aks\"{e}nova, Al\"{e}na and Graf, Thomas and Moradi, Sedigheh},
   title = {Tier-Based Strict Locality in Phonology and Morphology},

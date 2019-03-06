@@ -24,7 +24,8 @@ The results jointly vindicate a broadly construed version of the Müller-Sternef
 [[code]({static}/doc/papers/Graf10MOL.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf10MOL,
   author	= {Graf, Thomas},
   title		= {Some Interdefinability Results for Syntactic Constraint

@@ -20,7 +20,8 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
 [[pdf]({static}/doc/talks/GrafShafiei19SCiLposter.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{GrafShafiei19SCiLposter,
     author = {Graf, Thomas and Shafiei, Nazila},
     title = {C-Command Dependencies as {TSL} String Constraints},

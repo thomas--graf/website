@@ -14,7 +14,8 @@ Graf, Thomas, James Monette, Robert Pasternak, and Chong Zhang
 [[code]({static}/doc/talks/GrafEtAl16IACSposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{GrafEtAl16IACSposter,
   author    = {Graf, Thomas and Monette, James and Pasternak, Robert and Zhang, Chong},
   title     = {Memory Usage Predicts Relative Difficulty in Human Sentence Processing},

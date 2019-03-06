@@ -22,7 +22,8 @@ The closure of Minimalist derivation tree languages under intersection with regu
 [[code]({static}/doc/talks/Graf14FGtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf14FGtalk,
   author	= {Graf, Thomas},
   title		= {Models of Adjunction in {M}inimalist Grammars},

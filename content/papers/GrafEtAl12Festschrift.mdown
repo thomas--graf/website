@@ -18,7 +18,8 @@ A festschrift for Ed Keenan, containing 49 contributions from a variety of areas
 [[pdf]({static}/doc/papers/GrafEtAl12Festschrift.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Proceedings{GrafEtAl12Festschrift,
   title		= {Theories of Everything. In Honor of Ed Keenan},
   year		= {2012},

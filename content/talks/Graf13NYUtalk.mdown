@@ -14,7 +14,8 @@ Graf, Thomas
 [[code]({static}/doc/talks/Graf13NYUtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf13NYUtalk,
   author	= {Graf, Thomas},
   title		= {Optionality Implies Islandhood},

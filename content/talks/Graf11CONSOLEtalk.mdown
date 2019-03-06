@@ -19,7 +19,8 @@ I demonstrate that Merge-over-Move (MOM), a transderivational constraint (TC) pu
 [[code]({static}/doc/talks/Graf11CONSOLEtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf11CONSOLEtalk,
   author	= {Graf, Thomas},
   title		= {Lost in Translation: {A} Formal Model of {M}erge-over-{M}ove and

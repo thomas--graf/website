@@ -26,7 +26,8 @@ In this paper, I argue based on a battery of previous results that even though s
 [[code]({static}/doc/papers/Graf14Festschrift.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf14Festschrift,
   author	= {Graf, Thomas},
   title		= {Beyond the Apparent: {C}ognitive Parallels Between Syntax

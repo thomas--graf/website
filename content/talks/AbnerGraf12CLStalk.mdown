@@ -21,7 +21,8 @@ Starting from an independent observation about the permissible resource load of 
 [[code]({static}/doc/talks/AbnerGraf12CLStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{AbnerGraf12CLStalk,
   author	= {Abner, Natasha and Graf, Thomas},
   title		= {The Complexity of Binding in {E}nglish and {ASL}},

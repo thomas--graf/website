@@ -25,7 +25,8 @@ As an illustration of the applicability of this formal model, I exhibit precise 
 [[code]({static}/doc/talks/Graf10NELStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf10NELStalk,
   author	= {Graf, Thomas},
   title		= {Rethinking Transderivationality},

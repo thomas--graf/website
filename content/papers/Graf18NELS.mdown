@@ -18,7 +18,8 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
 [[pdf]({static}/doc/papers/Graf18NELS.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @inproceedings{Graf18NELS,
     author = {Graf, Thomas},
     title = {Locality Domains and Phonological c-Command Over Strings},

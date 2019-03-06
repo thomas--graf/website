@@ -21,7 +21,8 @@ These results have important ramifications for our conception of locality, the r
 [[code]({static}/doc/talks/Graf09MASLposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf09MASLposter,
   author	= {Graf, Thomas},
   title		= {Locality in Flux --- Reducibility Results for Syntactic

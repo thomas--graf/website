@@ -52,7 +52,8 @@ together.
 [[code]({static}/doc/talks/Graf17CLStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf17CLStalk,
     author = {Graf, Thomas},
     title = {It's a (Sub-)Regular Conspiracy: {L}ocality and Computation in Phonology, Morphology, Syntax, and Semantics},

@@ -34,7 +34,8 @@ trees for syntax.
 [[pdf]({static}/doc/talks/Graf15MSUSubregulartalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15MSUSubregulartalk,
   author	= {Graf, Thomas},
   title		= {Computational Unity Across Language Modules},

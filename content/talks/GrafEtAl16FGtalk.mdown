@@ -20,7 +20,8 @@ The translation procedure is implemented via a deterministic linear tree transdu
 [[pdf]({static}/doc/talks/GrafEtAl16FGtalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{GrafEtAl16FGtalk,
   author = {Graf, Thomas and Aks\"{e}nova, Al\"{e}na and De Santo, Aniello},
   title = {A Single Movement Normal Form for {M}inimalist Grammars},

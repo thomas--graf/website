@@ -22,7 +22,8 @@ More precisely, we show that the subregular complexity of adjective inflection i
 [[pdf]({static}/doc/talks/MoradiEtAl19SCiLposter.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{MoradiEtAl19SCiLposter,
     author = {Moradi, Sedigheh and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
     title = {The Computational Cost of Generalizations: An Example from Micromorphology},

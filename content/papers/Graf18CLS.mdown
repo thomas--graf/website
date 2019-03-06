@@ -23,7 +23,8 @@ Consequently, Move has no additional computational or conceptual cost attached t
 [[pdf]({static}/doc/papers/Graf18CLS.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @inproceedings{Graf18CLS,
     author = {Graf, Thomas},
     title = {Why Movement Comes for Free Once You Have Adjunction},

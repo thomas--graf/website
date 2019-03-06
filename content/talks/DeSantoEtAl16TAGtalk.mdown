@@ -22,7 +22,8 @@ A similar lifting reveals that $d$-dimensional TAGs are not closed under strong 
 [[code]({static}/doc/talks/DeSantoEtAl16TAGtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{DeSantoEtAl16TAGtalk,
   author    = {De Santo, Aniello and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
   title     = {An Alternate View on Strong Lexicalization in {TAG}},

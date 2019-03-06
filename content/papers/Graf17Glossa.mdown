@@ -22,7 +22,8 @@ At the same time, the feature-constraint equivalence can be helpful in plugging 
 [[pdf]({static}/doc/papers/Graf17Glossa.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @article{Graf17Glossa,
   author = {Graf, Thomas},
   title = {A Computational Guide to the Dichotomy of Features and Constraints},

@@ -23,7 +23,8 @@ Most of the results reported herein can also be found in a series of papers of m
 [[code]({static}/doc/papers/Graf10Thesis.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @MastersThesis{Graf10Thesis,
   author	= {Graf, Thomas},
   title		= {Logics of Phonological Reasoning},

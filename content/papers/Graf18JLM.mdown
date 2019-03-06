@@ -25,7 +25,8 @@ As the mappings are required to be monotonic, only a fraction of all conceivable
 [[pdf]({static}/doc/papers/Graf18JLM.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @article{Graf18JLM,
     author = {Graf, Thomas},
     title = {Monotonicity as an effective theory of morphosyntactic variation},

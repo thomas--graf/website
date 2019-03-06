@@ -23,7 +23,8 @@ We hope that this paper will enable other researchers to fruitfully study syntac
 [[pdf]({static}/doc/talks/VuEtAl19SCiLposter.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{VuEtAl19SCiLposter,
     author = {Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas},
     title = {Case Assignment in {TSL} Syntax: A Case Study},

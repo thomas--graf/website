@@ -23,7 +23,8 @@ Representational derivationalism recognizes that both approaches have unique adv
 [[code]({static}/doc/papers/Graf17Festschrift.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @incollection{Graf17Festschrift,
   author = {Graf, Thomas},
   title = {Derivations as Representations: {N}ews from the Computational Frontier},

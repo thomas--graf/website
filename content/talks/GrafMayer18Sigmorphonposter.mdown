@@ -22,7 +22,8 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
 [[pdf]({static}/doc/talks/GrafMayer18Sigmorphonposter.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{GrafMayer18Sigmorphonposter,
     author = {Graf, Thomas and Mayer, Connor},
     title = {Sanskrit n-Retroflexion is Input-Output Tier-Based Strictly Local},

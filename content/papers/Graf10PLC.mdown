@@ -23,7 +23,8 @@ These technical results are accompanied by reflections on the relation between e
 [[code]({static}/doc/papers/Graf10PLC.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Article{Graf10PLC,
   author	= {Graf, Thomas},
   title		= {Comparing Incomparable Frameworks: A Model Theoretic

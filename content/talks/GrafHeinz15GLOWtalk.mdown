@@ -22,7 +22,8 @@ Both phonological and syntactic dependencies turn out to be local given a suitab
 [[code]({static}/doc/talks/GrafHeinz15GLOWtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{GrafHeinz15GLOWtalk,
   author	= {Graf, Thomas and Heinz, Jeffrey},
   title		= {Commonality in Disparity: {T}he Computational View of Syntax

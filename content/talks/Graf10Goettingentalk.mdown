@@ -14,7 +14,8 @@ Graf, Thomas
 [[code]({static}/doc/talks/Graf10Goettingentalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf10Goettingentalk,
   author	= {Graf, Thomas},
   title		= {Syntax, Semantics, Pragmatics: {W}here do we Find

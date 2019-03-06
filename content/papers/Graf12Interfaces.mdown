@@ -24,7 +24,8 @@ In order to demonstrate the viability of this approach for the kind of reference
 [[code]({static}/doc/papers/Graf12Interfaces.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InCollection{Graf12Interfaces,
   author	= {Graf, Thomas},
   title		= {Concealed Reference-Set Computation: {H}ow Syntax Escapes

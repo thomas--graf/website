@@ -22,7 +22,8 @@ Notably, TAG-style tree adjunction can be emulated by a special type of lowering
 [[code]({static}/doc/papers/Graf12LACL.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf12LACL,
   author	= {Graf, Thomas},
   title		= {Movement-Generalized {M}inimalist Grammars},

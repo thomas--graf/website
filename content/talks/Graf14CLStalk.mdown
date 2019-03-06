@@ -21,7 +21,8 @@ I show that these four variants form a natural class when viewed from an algebra
 [[code]({static}/doc/talks/Graf14CLStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf14CLStalk,
   author	= {Graf, Thomas},
   title		= {Feature Geometry and the Person Case Constraint: {A}n

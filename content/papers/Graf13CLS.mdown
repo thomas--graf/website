@@ -26,7 +26,8 @@ In combination with standard assumptions about the feature-driven nature of Move
 [[code]({static}/doc/papers/Graf13CLS.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf13CLS,
   author	= {Graf, Thomas},
   title		= {The Syntactic Algebra of Adjuncts},

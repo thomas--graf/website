@@ -14,7 +14,8 @@ Graf, Thomas
 [[code]({static}/doc/talks/Graf14CUNYtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf14CUNYtalk,
   author	= {Graf, Thomas},
   title		= {Adjuncts, Islands, Algebra (With a Sprinkling of

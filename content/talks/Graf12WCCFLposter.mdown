@@ -19,7 +19,8 @@ Recent Minimalist thinking has been strongly influenced by the idea that some un
 [[code]({static}/doc/talks/Graf12WCCFLposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf12WCCFLposter,
   author	= {Graf, Thomas},
   title		= {Why There Must be Exceptions to {P}rinciple {B}},

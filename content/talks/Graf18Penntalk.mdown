@@ -42,7 +42,8 @@ cognitive science, and language technology.
 [[pdf]({static}/doc/talks/Graf18Penntalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{Graf18Penntalk,
     author = {Graf, Thomas},
     title = {The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition},

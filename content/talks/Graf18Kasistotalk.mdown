@@ -21,7 +21,8 @@ Traditional approaches still offer significant advantages that have not been ful
 [[pdf]({static}/doc/talks/Graf18Kasistotalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @misc{Graf18Kasistotalk,
     author = {Graf, Thomas},
     title = {Pogo Sticks and Wasps: A Skeptic's Guide to Computational Linguistics},

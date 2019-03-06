@@ -26,7 +26,8 @@ In the second half of the paper, I demonstrate the feasibility of the OS-approac
 [[code]({static}/doc/papers/Graf10FG.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf10FG,
   author	= {Graf, Thomas},
   title		= {Reference-Set Constraints as Linear Tree Transductions via

@@ -24,7 +24,8 @@ Second, it significantly limits the number of viable metrics that may be applied
 [[pdf]({static}/doc/papers/GrafEtAl17JLM.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @article{GrafEtAl17JLM,
   author = {Graf, Thomas and Monette, James and Zhang, Chong},
   title = {Relative Clauses as a Benchmark for {M}inimalist Parsing},

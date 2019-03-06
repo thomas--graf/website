@@ -21,7 +21,8 @@ This poster defines relevant quantifier languages in subregular terms and sketch
 <span id="files-title">Files</span>
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{DeSantoEtAlQUAD17poster,
     author = {De Santo, Aniello and Graf, Thomas and Drury, John E.},
     title  = {Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers},

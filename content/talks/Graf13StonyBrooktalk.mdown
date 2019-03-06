@@ -13,7 +13,8 @@ Graf, Thomas
 [[pdf]({static}/doc/talks/Graf13StonyBrooktalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf13StonyBrooktalk,
   author	= {Graf, Thomas},
   title		= {Constraints Emerge from {M}erge},

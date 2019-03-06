@@ -19,7 +19,8 @@ My very first talk \*nostalgia\*. It's a very early attempt at developing a gene
 [[code]({static}/doc/talks/Graf08GGStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf08GGStalk,
   author	= {Graf, Thomas},
   title		= {Ein modelltheoretischer {B}lick auf syntaktische

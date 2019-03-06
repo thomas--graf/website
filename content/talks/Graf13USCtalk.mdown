@@ -21,7 +21,8 @@ I show that these four variants form a natural class when viewed from an algebra
 [[code]({static}/doc/talks/Graf13USCtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf13USCtalk,
   author	= {Graf, Thomas},
   title		= {Of Tops and Bottoms: {T}he Algebra of Person Case

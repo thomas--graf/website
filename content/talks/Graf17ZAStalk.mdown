@@ -24,7 +24,8 @@ Their respective insights may eventually be synthesized into a unified account.
 [[code]({static}/doc/talks/Graf17ZAStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf17ZAStalk,
     author = {Graf, Thomas},
     title = {Do We Need Features for Morphosyntax?},

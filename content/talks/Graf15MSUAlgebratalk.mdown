@@ -34,7 +34,8 @@ morphosyntax without relying on a specific syntactic analysis.
 [[pdf]({static}/doc/talks/Graf15MSUAlgebratalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15MSUAlgebratalk,
   author	= {Graf, Thomas},
   title		= {Towards an Algebraic Morphosyntax},

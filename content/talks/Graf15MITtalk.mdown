@@ -23,7 +23,8 @@ This "formal processing theory" thus opens up a way of studying parsing without 
 [[code]({static}/doc/talks/Graf15MITtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15MITtalk,
   author	= {Graf, Thomas},
   title		= {Formal Processing Theory, or Parsing Without Parsers},

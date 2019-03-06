@@ -29,7 +29,8 @@ Among other things, this entails that the linguistic notion of relativized local
 [[code]({static}/doc/talks/GrafEtAl18Meertenstalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{GrafEtAl18Meertenstalk,
     author = {Graf, Thomas and
               Aks\"{e}nova, Al\"{e}na and

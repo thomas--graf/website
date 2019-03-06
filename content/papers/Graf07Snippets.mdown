@@ -18,7 +18,8 @@ A short squib on the special gender agreement properties exhibited by Icelandic 
 [[pdf]({static}/doc/papers/Graf07Snippets.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Article{Graf07Snippets,
   author	= {Graf, Thomas},
   title		= {Agreement with Hybrid Nouns in {I}celandic},

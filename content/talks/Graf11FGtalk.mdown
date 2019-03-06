@@ -23,7 +23,8 @@ I show that this locality condition 1) has no effect on weak generative capacity
 [[code]({static}/doc/talks/Graf11FGtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf11FGtalk,
   author	= {Graf, Thomas},
   title		= {Locality and the Complexity of {M}inimalist Derivation Tree

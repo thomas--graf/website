@@ -19,7 +19,8 @@ A core assumption of the biolinguistic program is that all properties of languag
 [[code]({static}/doc/talks/Graf10TLDposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf10TLDposter,
   author	= {Graf, Thomas},
   title		= {Concealed Reference-Set Computation or How Syntax Escapes

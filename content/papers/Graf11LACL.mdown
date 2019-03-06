@@ -19,7 +19,8 @@ Recently, the question has been raised whether the derivation tree languages of 
 [[code]({static}/doc/papers/Graf11LACL.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf11LACL,
   author	= {Graf, Thomas},
   title		= {Closure Properties of {M}inimalist Derivation Tree

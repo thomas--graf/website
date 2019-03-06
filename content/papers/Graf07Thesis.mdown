@@ -19,7 +19,8 @@ Because the thesis I wrote as a wee undergrad at the University of Vienna is cit
 [[code]({static}/doc/papers/Graf07Thesis.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @MastersThesis{Graf07Thesis,
   author	= {Graf, Thomas},
   title		= {From Vagueness to Disaster: On the Intricacies of Feature

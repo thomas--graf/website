@@ -38,7 +38,8 @@ step up and actually do it.
 [[code]({static}/doc/talks/Graf16IACStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf16IACStalk,
   author	= {Graf, Thomas},
   title		= {Computational Lessons from and for Language},

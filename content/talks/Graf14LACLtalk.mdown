@@ -22,7 +22,8 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
 [[code]({static}/doc/talks/Graf14LACLtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf14LACLtalk,
   author	= {Graf, Thomas},
   title		= {{L}ate {M}erge as Lowering Movement in {M}inimalist Grammars},

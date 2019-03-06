@@ -26,7 +26,8 @@ Hopefully, an alliance of linguists, logicians, and computer scientists will be 
 [[code]({static}/doc/talks/Graf17UConntalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf17UConntalk,
     author = {Graf, Thomas},
     title = {Fragments of First-order Logic for Linguistic Structures},

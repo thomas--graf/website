@@ -22,7 +22,8 @@ These technical results are accompanied by reflections on the relation between e
 [[pdf]({static}/doc/talks/Graf09PLC33talk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf09PLC33talk,
   author	= {Graf, Thomas},
   title		= {Comparing Incomparable Frameworks --- A Model Theoretic

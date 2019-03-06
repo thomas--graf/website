@@ -23,7 +23,8 @@ This result thus lends further support to the hypothesis that very simple notion
 [[code]({static}/doc/talks/GrafEtAl15MOLtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{GrafEtAl15MOLtalk,
   author	= {Graf, Thomas and Fodor, Brigitta and Monette, James and Rachiele, Gianpaul and Warren, Aunika and Zhang, Chong},
   title		= {A Refined Notion of Memory Usage for {M}inimalist Parsing},

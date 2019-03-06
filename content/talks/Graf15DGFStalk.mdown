@@ -31,7 +31,8 @@ But as long as this it not the case, we should freely choose between the two as 
 [[code]({static}/doc/talks/Graf15DGFStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15DGFStalk,
   author	= {Graf, Thomas},
   title		= {A Computational Guide to the Dichotomy of Features and Constraints},

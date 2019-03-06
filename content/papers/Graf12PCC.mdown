@@ -27,7 +27,8 @@ The general upshot is that the different Person Case Constraints correspond to s
 [[code]({static}/doc/papers/Graf12PCC.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InCollection{Graf12PCC,
   author	= {Graf, Thomas},
   title		= {An Algebraic Perspective on the {P}erson {C}ase {C}onstraint},

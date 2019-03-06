@@ -22,7 +22,8 @@ I identify several other axes along which Government Phonology might be generali
 [[code]({static}/doc/papers/Graf10FOLLI.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InCollection{Graf10FOLLI,
   author	= {Graf, Thomas},
   title		= {Formal Parameters of Phonology: {F}rom {G}overnment

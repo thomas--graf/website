@@ -22,7 +22,8 @@ Each Minimalist analysis occupies a specific point within this class, depending 
 [[pdf]({static}/doc/talks/Graf15Athensposter.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15Athensposter,
   author	= {Graf, Thomas},
   title		= {A Hidden Consensus: {C}omputational Invariants of {M}inimalist Syntax},

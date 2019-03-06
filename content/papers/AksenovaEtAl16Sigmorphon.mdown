@@ -21,7 +21,8 @@ Furthermore, the limitation to tier-based strictly local languages explains typo
 [[pdf]({static}/doc/papers/AksenovaEtAl16Sigmorphon.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{AksenovaEtAl16Sigmorphon,
   author = {Aks\"{e}nova, Al\"{e}na and Graf, Thomas and Moradi, Sedigheh},
   title = {Morphotactics as Tier-Based Strictly Local Dependencies},

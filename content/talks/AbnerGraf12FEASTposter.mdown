@@ -22,7 +22,8 @@ This suggests a profound difference in the mechanisms that mediate binding in En
 [[code]({static}/doc/talks/AbnerGraf12FEASTposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{AbnerGraf12FEASTposter,
   author	= {Abner, Natasha and Graf, Thomas},
   title		= {Binding Complexity and the Status of Pronouns in English

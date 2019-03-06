@@ -22,7 +22,8 @@ I identify several other axes along which Government Phonology might be generali
 [[code]({static}/doc/talks/Graf09ESSLLItalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf09ESSLLItalk,
   author	= {Graf, Thomas},
   title		= {Towards a Factorization of String-Based Phonology},

@@ -22,7 +22,8 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
 [[code]({static}/doc/papers/Graf14LACL.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{Graf14LACL,
   author	= {Graf, Thomas},
   title		= {Late Merge as Lowering Movement in {M}inimalist Grammars},

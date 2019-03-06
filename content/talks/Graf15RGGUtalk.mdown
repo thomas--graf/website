@@ -26,7 +26,8 @@ optional constituents --- which I call ojuncts --- are islands.
 [[pdf]({static}/doc/talks/Graf15RGGUtalk.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15RGGUtalk,
   author	= {Graf, Thomas},
   title		= {Adjuncts, Conjuncts, Ojuncts: {D}eriving Strong Island Constraints},

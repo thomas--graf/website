@@ -23,7 +23,8 @@ This conclusion is backed up by data drawn from English, German, and American Si
 [[code]({static}/doc/talks/GrafAbner12TAGposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{GrafAbner12TAGposter,
   author	= {Graf, Thomas and Abner, Natasha},
   title		= {Is Syntactic Binding Rational?},

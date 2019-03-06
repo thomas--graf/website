@@ -14,7 +14,8 @@ Graf, Thomas
 [[code]({static}/doc/talks/Graf10ONLIposter.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf10ONLIposter,
   author	= {Graf, Thomas},
   title		= {Efficient Computation at the Interfaces},

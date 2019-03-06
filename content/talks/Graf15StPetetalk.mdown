@@ -12,7 +12,8 @@ Graf, Thomas
 <span id="files-title">Files</span>
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf15StPetetalk,
   author	= {Graf, Thomas},
   title		= {Syntax and Phonology: {A} Computational Common Core},

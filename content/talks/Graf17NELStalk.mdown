@@ -19,7 +19,8 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
 [[code]({static}/doc/talks/Graf17NELStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf17NELStalk,
     author = {Graf, Thomas},
     title = {Locality Domains and Phonological C-Command Over Strings},

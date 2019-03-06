@@ -33,7 +33,8 @@ I then show how the Adjunct Island Constraint and the Coordinate Structure Const
 <span id="files-title">Files</span>
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf17RutgersReadinggrouptalk,
     author = {Graf, Thomas},
     title = {One Reason to Move, A Million Reasons to be an Island: {T}hird-Factor Explanations from Computational Syntax},

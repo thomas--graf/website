@@ -18,7 +18,8 @@ A collection of articles in mathematical linguistics.
 [[pdf]({static}/doc/papers/Graf10WPLissue.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Proceedings{Graf10WPLissue,
   title		= {Papers in Mathematical Linguistics 1},
   year		= {2010},

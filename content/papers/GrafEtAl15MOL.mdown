@@ -23,7 +23,8 @@ This result thus lends further support to the hypothesis that very simple notion
 [[code]({static}/doc/papers/GrafEtAl15MOL.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @InProceedings{GrafEtAl15MOL,
   author    = {Graf, Thomas  and  Fodor, Brigitta  and  Monette, James  and  Rachiele, Gianpaul  and  Warren, Aunika  and  Zhang, Chong},
   title     = {A Refined Notion of Memory Usage for Minimalist Parsing},

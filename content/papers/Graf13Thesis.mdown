@@ -37,7 +37,8 @@ The existence of these constraints in language is a natural consequence of the c
 [[pdf]({static}/doc/papers/Graf13Thesis.pdf)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @PhDThesis{Graf13Thesis,
   author	= {Graf, Thomas},
   title		= {Local and Transderivational Constraints in Syntax and

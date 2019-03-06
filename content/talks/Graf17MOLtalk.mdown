@@ -23,7 +23,8 @@ I show that weakly non-inverting graph-transductions are particularly simple fro
 [[code]({static}/doc/talks/Graf17MOLtalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf17MOLtalk,
     author = {Graf, Thomas},
     title = {Graph Transductions and Typological Gaps in Morphological Paradigms},

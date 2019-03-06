@@ -29,7 +29,8 @@ provides an entirely new, quantitative motivation for movement constraints.
 [[code]({static}/doc/papers/Graf17SCiL.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @inproceedings{Graf17SCiL,
     author = {Graf, Thomas},
     title = {Grammar Size and Quantitative Restrictions on Movement},

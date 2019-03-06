@@ -14,7 +14,8 @@ Graf, Thomas
 [[code]({static}/doc/talks/Graf10ZAStalk.tar.gz)]
 </div>
 
-~~~latex
+~~~
+:::bibtex
 @Misc{Graf10ZAStalk,
   author	= {Graf, Thomas},
   title		= {Optimality Conditions Could Care Less About Optimality},
