@@ -77,6 +77,6 @@ Together with [Ken Dill at Stony Brook's Laufer Center](http://dillgroup.stonybr
 
 # Syntax Timeline
 
-As a first-year graduate student at UCLA I developed an [interactive timeline of the history of generative syntax]({filename}/timeline/main.html).
+As a first-year graduate student at UCLA I developed an [interactive timeline of the history of generative syntax]({static}/timeline/main.html).
 I haven't had much time since then to work on it, and it would probably be better to run it as a collaborative project with the support of the community.
 If you have any suggestions along those lines, please shoot me a line.

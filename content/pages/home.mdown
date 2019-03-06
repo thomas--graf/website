@@ -26,7 +26,7 @@ Stony Brook, NY 11794-4376
 Email <span id="email-note">(remove underscores)</span>  
 [mail\_@\_thomasgraf\_.\_net](mailto:mail_@_thomasgraf_._net)  
 </span>
-[Public key for signing and encryption]({filename}/doc/other/thomasgraf_public.asc)
+[Public key for signing and encryption]({static}/doc/other/thomasgraf_public.asc)
 </p>
 
 <p markdown id="myemail">
@@ -41,5 +41,5 @@ Research Interests
 </div>
 
 <div markdown id="home-photo">
-![You're missing out on a lovely picture of me]({filename}/images/graf.jpg) 
+![You're missing out on a lovely picture of me]({static}/images/graf.jpg) 
 </div>
