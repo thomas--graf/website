@@ -31,6 +31,7 @@ DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tag_cloud']
+TAG_CLOUD_MAX_ITEMS = 20
 # MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight, guess_lang=off)']
 
 # Uncomment following line if you want document-relative URLs when developing
