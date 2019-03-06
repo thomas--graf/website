@@ -11,11 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://thomasgraf.net'
-MENUITEMS = [('Home', SITEURL),
-             ('News', SITEURL + '/news.html')]
-
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-
 DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
