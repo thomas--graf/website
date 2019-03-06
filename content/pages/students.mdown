@@ -7,7 +7,7 @@ Author: Thomas Graf
 
 - [Computational Phonology (LIN 626)](http://lin626.thomasgraf.net)
 
-- [Language & Technology (LIN 120)(http://lin120.thomasgraf.net)
+- [Language & Technology (LIN 120)](http://lin120.thomasgraf.net)
 
 - [Mathematical Methods in Linguistics (LIN 539)](http://ln539.thomasgraf.net)
 
