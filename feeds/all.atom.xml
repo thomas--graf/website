@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="http://thomasgraf.net/" rel="alternate"></link><link href="http://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>http://thomasgraf.net/</id><updated>2019-01-05T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="http://thomasgraf.net/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-01-05T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -16,7 +16,7 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/GrafShafiei19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/GrafShafiei19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;GrafShafiei19SCiLposter,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Shafiei, Nazila&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -24,7 +24,7 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;, January 3--6, co-located with the &lt;span class="nb"&gt;{&lt;/span&gt;LSA 2019&lt;span class="nb"&gt;}}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Computational Cost of Generalizations: An Example from Micromorphology</title><link href="http://thomasgraf.net/moradietal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/moradietal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Computational Cost of Generalizations: An Example from Micromorphology</title><link href="https://thomasgraf.net/moradietal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/moradietal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -44,7 +44,7 @@ More precisely, we show that the subregular complexity of adjective inflection i
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/MoradiEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/MoradiEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;MoradiEtAl19SCiLposter,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Moradi, Sedigheh and Aks&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;nova, Al&lt;span class="k"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;e&lt;span class="nb"&gt;}&lt;/span&gt;na and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -52,7 +52,7 @@ More precisely, we show that the subregular complexity of adjective inflection i
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;, January 3--6, co-located with the &lt;span class="nb"&gt;{&lt;/span&gt;LSA 2019&lt;span class="nb"&gt;}}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="http://thomasgraf.net/vuetal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/vuetal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="https://thomasgraf.net/vuetal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/vuetal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -72,7 +72,7 @@ We hope that this paper will enable other researchers to fruitfully study syntac
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/VuEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/VuEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;VuEtAl19SCiLposter,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -80,7 +80,7 @@ We hope that this paper will enable other researchers to fruitfully study syntac
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2019&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at &lt;span class="k"&gt;\emph&lt;/span&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;SCiL&lt;span class="nb"&gt;}&lt;/span&gt; 2019&lt;span class="nb"&gt;}&lt;/span&gt;, January 3--6, co-located with the &lt;span class="nb"&gt;{&lt;/span&gt;LSA 2019&lt;span class="nb"&gt;}}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Subregular Syntax: The What, How, and Why</title><link href="http://thomasgraf.net/graf18synctalk.html" rel="alternate"></link><published>2018-12-01T00:00:00-05:00</published><updated>2018-12-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-12-01:/graf18synctalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Subregular Syntax: The What, How, and Why</title><link href="https://thomasgraf.net/graf18synctalk.html" rel="alternate"></link><published>2018-12-01T00:00:00-05:00</published><updated>2018-12-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-12-01:/graf18synctalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -121,7 +121,7 @@ cognitive science, and language&amp;nbsp;technology.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf18SYNCtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf18SYNCtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18SYNCtalk,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -129,7 +129,7 @@ cognitive science, and language&amp;nbsp;technology.&lt;/p&gt;
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, December 1, SYNC, Stony Brook University, Stony Brook, NY.&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="syntax"></category><category term="phonology"></category><category term="Minimalist grammars"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition</title><link href="http://thomasgraf.net/graf18penntalk.html" rel="alternate"></link><published>2018-11-26T00:00:00-05:00</published><updated>2018-11-26T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-11-26:/graf18penntalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="syntax"></category><category term="phonology"></category><category term="Minimalist grammars"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Surprising Simplicity of Syntax: Derivation Trees, Subregular Complexity, and What It Implies for Language and Cognition</title><link href="https://thomasgraf.net/graf18penntalk.html" rel="alternate"></link><published>2018-11-26T00:00:00-05:00</published><updated>2018-11-26T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-11-26:/graf18penntalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -170,7 +170,7 @@ cognitive science, and language&amp;nbsp;technology.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/Graf18Penntalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf18Penntalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;Graf18Penntalk,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -178,7 +178,7 @@ cognitive science, and language&amp;nbsp;technology.&lt;/p&gt;
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Invited talk, November 26, Integrated Language Science and Technology Seminar, University of Pennsylvania, Philadelphia, PA&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="syntax"></category><category term="phonology"></category><category term="Minimalist grammars"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="http://thomasgraf.net/grafmayer18sigmorphonposter.html" rel="alternate"></link><published>2018-10-31T00:00:00-04:00</published><updated>2018-10-31T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-31:/grafmayer18sigmorphonposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="syntax"></category><category term="phonology"></category><category term="Minimalist grammars"></category><category term="locality"></category><category term="subregular"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="https://thomasgraf.net/grafmayer18sigmorphonposter.html" rel="alternate"></link><published>2018-10-31T00:00:00-04:00</published><updated>2018-10-31T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-31:/grafmayer18sigmorphonposter.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -198,7 +198,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/talks/GrafMayer18Sigmorphonposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/GrafMayer18Sigmorphonposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@misc&lt;span class="nb"&gt;{&lt;/span&gt;GrafMayer18Sigmorphonposter,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Mayer, Connor&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -206,7 +206,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
     year = &lt;span class="nb"&gt;{&lt;/span&gt;2018&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;Poster presented at SIGMORPHON 2018, October 31, Brussels, Belgium&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="http://thomasgraf.net/grafmayer18sigmorphon.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/grafmayer18sigmorphon.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="https://thomasgraf.net/grafmayer18sigmorphon.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/grafmayer18sigmorphon.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -226,7 +226,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/GrafMayer18Sigmorphon.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/GrafMayer18Sigmorphon.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;GrafMayer18Sigmorphon,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Mayer, Connor&lt;span class="nb"&gt;}&lt;/span&gt;,
@@ -235,7 +235,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
     booktitle = &lt;span class="nb"&gt;{&lt;/span&gt;Proceedings of &lt;span class="nb"&gt;{&lt;/span&gt;SIGMORPHON&lt;span class="nb"&gt;}&lt;/span&gt; 2018&lt;span class="nb"&gt;}&lt;/span&gt;,
     note = &lt;span class="nb"&gt;{&lt;/span&gt;To appear&lt;span class="nb"&gt;}&lt;/span&gt;, 
 &lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="http://thomasgraf.net/grafshafiei19scil.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/grafshafiei19scil.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/grafshafiei19scil.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/grafshafiei19scil.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -252,7 +252,7 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="http://thomasgraf.net/doc/papers/GrafShafiei19SCiL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/GrafShafiei19SCiL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@inproceedings&lt;span class="nb"&gt;{&lt;/span&gt;GrafShafiei19SCiL,
     author = &lt;span class="nb"&gt;{&lt;/span&gt;Graf, Thomas and Shafiei, Nazila&lt;span class="nb"&gt;}&lt;/span&gt;,
