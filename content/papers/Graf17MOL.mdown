@@ -19,8 +19,8 @@ I show that weakly non-inverting graph-transductions are particularly simple fro
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf17MOL.pdf)]
-[[code]({filename}/doc/papers/Graf17MOL.tar.gz)]
+[[pdf]({static}/doc/papers/Graf17MOL.pdf)]
+[[code]({static}/doc/papers/Graf17MOL.tar.gz)]
 </div>
 
 ~~~latex

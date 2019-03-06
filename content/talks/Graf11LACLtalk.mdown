@@ -15,8 +15,8 @@ Recently, the question has been raised whether the derivation tree languages of 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf11LACLtalk.pdf)]
-[[code]({filename}/doc/talks/Graf11LACLtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf11LACLtalk.pdf)]
+[[code]({static}/doc/talks/Graf11LACLtalk.tar.gz)]
 </div>
 
 ~~~latex

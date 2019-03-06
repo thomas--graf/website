@@ -23,7 +23,7 @@ optional constituents --- which I call ojuncts --- are islands.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf15RGGUtalk.pdf)]
+[[pdf]({static}/doc/talks/Graf15RGGUtalk.pdf)]
 </div>
 
 ~~~latex

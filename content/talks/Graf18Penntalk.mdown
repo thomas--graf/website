@@ -39,7 +39,7 @@ cognitive science, and language technology.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf18Penntalk.pdf)]
+[[pdf]({static}/doc/talks/Graf18Penntalk.pdf)]
 </div>
 
 ~~~latex

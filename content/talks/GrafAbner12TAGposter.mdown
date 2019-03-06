@@ -19,8 +19,8 @@ This conclusion is backed up by data drawn from English, German, and American Si
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/GrafAbner12TAGposter.pdf)]
-[[code]({filename}/doc/talks/GrafAbner12TAGposter.tar.gz)]
+[[pdf]({static}/doc/talks/GrafAbner12TAGposter.pdf)]
+[[code]({static}/doc/talks/GrafAbner12TAGposter.tar.gz)]
 </div>
 
 ~~~latex

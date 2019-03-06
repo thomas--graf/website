@@ -1,4 +1,4 @@
-Title: Pogo Sticks and Wasps: A Skeptic’s Guide to Computational Linguistics
+Title: Pogo Sticks and Wasps: A Skeptic's Guide to Computational Linguistics
 Author: Thomas Graf
 Date: 2018-10-11
 Category: Presentations
@@ -18,7 +18,7 @@ Traditional approaches still offer significant advantages that have not been ful
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf18Kasistotalk.pdf)]
+[[pdf]({static}/doc/talks/Graf18Kasistotalk.pdf)]
 </div>
 
 ~~~latex

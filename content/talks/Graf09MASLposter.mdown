@@ -1,4 +1,4 @@
-Title: Locality in Flux — Reducibility Results for Syntactic Constraints
+Title: Locality in Flux --- Reducibility Results for Syntactic Constraints
 Author: Thomas Graf
 Date: 2009-08-27
 Category: Presentations
@@ -17,8 +17,8 @@ These results have important ramifications for our conception of locality, the r
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf09MASLposter.pdf)]
-[[code]({filename}/doc/talks/Graf09MASLposter.tar.gz)]
+[[pdf]({static}/doc/talks/Graf09MASLposter.pdf)]
+[[code]({static}/doc/talks/Graf09MASLposter.tar.gz)]
 </div>
 
 ~~~latex

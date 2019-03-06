@@ -20,7 +20,7 @@ Consequently, Move has no additional computational or conceptual cost attached t
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf18CLS.pdf)]
+[[pdf]({static}/doc/papers/Graf18CLS.pdf)]
 </div>
 
 ~~~latex

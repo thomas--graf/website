@@ -19,8 +19,8 @@ This "formal processing theory" thus opens up a way of studying parsing without 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf15MITtalk.pdf)]
-[[code]({filename}/doc/talks/Graf15MITtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf15MITtalk.pdf)]
+[[code]({static}/doc/talks/Graf15MITtalk.tar.gz)]
 </div>
 
 ~~~latex

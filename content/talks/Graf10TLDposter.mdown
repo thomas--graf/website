@@ -1,4 +1,4 @@
-Title: Concealed Reference-Set Computation or How Syntax Escapes the Parser’s Clutches
+Title: Concealed Reference-Set Computation or How Syntax Escapes the Parser's Clutches
 Author: Thomas Graf
 Date: 2010-05-29
 Category: Presentations
@@ -15,8 +15,8 @@ A core assumption of the biolinguistic program is that all properties of languag
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf10TLDposter.pdf)]
-[[code]({filename}/doc/talks/Graf10TLDposter.tar.gz)]
+[[pdf]({static}/doc/talks/Graf10TLDposter.pdf)]
+[[code]({static}/doc/talks/Graf10TLDposter.tar.gz)]
 </div>
 
 ~~~latex

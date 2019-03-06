@@ -1,4 +1,4 @@
-Title: Theories of Everything. in Honor of Ed Keenan
+Title: Theories of Everything. In Honor of Ed Keenan
 Author: Thomas Graf
 Date: 2012-01-01
 Category: Books
@@ -15,7 +15,7 @@ A festschrift for Ed Keenan, containing 49 contributions from a variety of areas
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafEtAl12Festschrift.pdf)]
+[[pdf]({static}/doc/papers/GrafEtAl12Festschrift.pdf)]
 </div>
 
 ~~~latex

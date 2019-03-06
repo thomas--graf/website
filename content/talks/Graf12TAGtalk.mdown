@@ -20,8 +20,8 @@ I show that tree adjunction can be emulated by a specific kind of lowering movem
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf12TAGtalk.pdf)]
-[[code]({filename}/doc/talks/Graf12TAGtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf12TAGtalk.pdf)]
+[[code]({static}/doc/talks/Graf12TAGtalk.tar.gz)]
 </div>
 
 ~~~latex

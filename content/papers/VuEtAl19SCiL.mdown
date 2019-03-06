@@ -20,7 +20,7 @@ We hope that this paper will enable other researchers to fruitfully study syntac
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/VuEtAl19SCiL.pdf)]
+[[pdf]({static}/doc/papers/VuEtAl19SCiL.pdf)]
 </div>
 
 ~~~latex

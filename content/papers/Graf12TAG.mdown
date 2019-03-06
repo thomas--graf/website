@@ -17,8 +17,8 @@ The opposite does not hold, so the strong generative capacity of Minimalist gram
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf12TAG.pdf)]
-[[code]({filename}/doc/papers/Graf12TAG.tar.gz)]
+[[pdf]({static}/doc/papers/Graf12TAG.pdf)]
+[[code]({static}/doc/papers/Graf12TAG.tar.gz)]
 </div>
 
 ~~~latex

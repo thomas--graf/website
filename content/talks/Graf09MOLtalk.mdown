@@ -20,8 +20,8 @@ The results jointly vindicate a broadly construed version of the Müller-Sternef
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf09MOLtalk.pdf)]
-[[code]({filename}/doc/talks/Graf09MOLtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf09MOLtalk.pdf)]
+[[code]({static}/doc/talks/Graf09MOLtalk.tar.gz)]
 </div>
 
 ~~~latex

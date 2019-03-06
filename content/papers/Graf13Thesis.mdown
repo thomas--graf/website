@@ -34,7 +34,7 @@ The existence of these constraints in language is a natural consequence of the c
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf13Thesis.pdf)]
+[[pdf]({static}/doc/papers/Graf13Thesis.pdf)]
 </div>
 
 ~~~latex

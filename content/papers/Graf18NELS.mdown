@@ -15,7 +15,7 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf18NELS.pdf)]
+[[pdf]({static}/doc/papers/Graf18NELS.pdf)]
 </div>
 
 ~~~latex

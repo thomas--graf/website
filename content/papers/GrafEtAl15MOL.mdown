@@ -19,8 +19,8 @@ This result thus lends further support to the hypothesis that very simple notion
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafEtAl15MOL.pdf)]
-[[code]({filename}/doc/papers/GrafEtAl15MOL.tar.gz)]
+[[pdf]({static}/doc/papers/GrafEtAl15MOL.pdf)]
+[[code]({static}/doc/papers/GrafEtAl15MOL.tar.gz)]
 </div>
 
 ~~~latex

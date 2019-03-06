@@ -1,4 +1,4 @@
-Title: Comparing Incomparable Frameworks — a Model Theoretic Approach to Phonology
+Title: Comparing Incomparable Frameworks --- a Model Theoretic Approach to Phonology
 Author: Thomas Graf
 Date: 2009-03-27
 Category: Presentations
@@ -19,7 +19,7 @@ These technical results are accompanied by reflections on the relation between e
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf09PLC33talk.pdf)]
+[[pdf]({static}/doc/talks/Graf09PLC33talk.pdf)]
 </div>
 
 ~~~latex

@@ -31,7 +31,7 @@ trees for syntax.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf15MSUSubregulartalk.pdf)]
+[[pdf]({static}/doc/talks/Graf15MSUSubregulartalk.pdf)]
 </div>
 
 ~~~latex

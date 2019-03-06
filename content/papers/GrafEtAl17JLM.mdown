@@ -21,7 +21,7 @@ Second, it significantly limits the number of viable metrics that may be applied
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafEtAl17JLM.pdf)]
+[[pdf]({static}/doc/papers/GrafEtAl17JLM.pdf)]
 </div>
 
 ~~~latex

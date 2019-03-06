@@ -22,8 +22,8 @@ In the second half of the paper, I demonstrate the feasibility of the OS-approac
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf10FG.pdf)]
-[[code]({filename}/doc/papers/Graf10FG.tar.gz)]
+[[pdf]({static}/doc/papers/Graf10FG.pdf)]
+[[code]({static}/doc/papers/Graf10FG.tar.gz)]
 </div>
 
 ~~~latex

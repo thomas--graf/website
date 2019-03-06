@@ -27,8 +27,8 @@ But as long as this it not the case, we should freely choose between the two as 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf15DGFStalk.pdf)]
-[[code]({filename}/doc/talks/Graf15DGFStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf15DGFStalk.pdf)]
+[[code]({static}/doc/talks/Graf15DGFStalk.tar.gz)]
 </div>
 
 ~~~latex

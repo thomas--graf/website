@@ -19,8 +19,8 @@ Most of the results reported herein can also be found in a series of papers of m
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf10Thesis.pdf)]
-[[code]({filename}/doc/papers/Graf10Thesis.tar.gz)]
+[[pdf]({static}/doc/papers/Graf10Thesis.pdf)]
+[[code]({static}/doc/papers/Graf10Thesis.tar.gz)]
 </div>
 
 ~~~latex

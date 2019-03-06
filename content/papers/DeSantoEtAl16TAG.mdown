@@ -18,7 +18,7 @@ A similar lifting reveals that d-dimensional TAGs are not closed under strong le
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/DeSantoEtAl16TAG.pdf)]
+[[pdf]({static}/doc/papers/DeSantoEtAl16TAG.pdf)]
 </div>
 
 ~~~latex

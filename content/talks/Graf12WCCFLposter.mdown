@@ -15,8 +15,8 @@ Recent Minimalist thinking has been strongly influenced by the idea that some un
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf12WCCFLposter.pdf)]
-[[code]({filename}/doc/talks/Graf12WCCFLposter.tar.gz)]
+[[pdf]({static}/doc/talks/Graf12WCCFLposter.pdf)]
+[[code]({static}/doc/talks/Graf12WCCFLposter.tar.gz)]
 </div>
 
 ~~~latex

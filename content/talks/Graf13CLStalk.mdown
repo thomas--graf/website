@@ -23,8 +23,8 @@ In combination with standard assumptions about the feature-driven nature of Move
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf13CLStalk.pdf)]
-[[code]({filename}/doc/talks/Graf13CLStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf13CLStalk.pdf)]
+[[code]({static}/doc/talks/Graf13CLStalk.tar.gz)]
 </div>
 
 ~~~latex

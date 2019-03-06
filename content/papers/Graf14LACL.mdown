@@ -18,8 +18,8 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf14LACL.pdf)]
-[[code]({filename}/doc/papers/Graf14LACL.tar.gz)]
+[[pdf]({static}/doc/papers/Graf14LACL.pdf)]
+[[code]({static}/doc/papers/Graf14LACL.tar.gz)]
 </div>
 
 ~~~latex

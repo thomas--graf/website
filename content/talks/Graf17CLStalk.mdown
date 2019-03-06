@@ -1,4 +1,4 @@
-Title: It’s a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics
+Title: It's a (Sub-)Regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics
 Author: Thomas Graf
 Date: 2017-05-26
 Category: Presentations
@@ -48,8 +48,8 @@ together.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf17CLStalk.pdf)]
-[[code]({filename}/doc/talks/Graf17CLStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf17CLStalk.pdf)]
+[[code]({static}/doc/talks/Graf17CLStalk.tar.gz)]
 </div>
 
 ~~~latex

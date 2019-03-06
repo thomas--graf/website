@@ -15,8 +15,8 @@ My very first talk \*nostalgia\*. It's a very early attempt at developing a gene
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf08GGStalk.pdf)]
-[[code]({filename}/doc/talks/Graf08GGStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf08GGStalk.pdf)]
+[[code]({static}/doc/talks/Graf08GGStalk.tar.gz)]
 </div>
 
 ~~~latex

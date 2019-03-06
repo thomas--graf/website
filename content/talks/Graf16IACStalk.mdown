@@ -34,8 +34,8 @@ step up and actually do it.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf16IACStalk.pdf)]
-[[code]({filename}/doc/talks/Graf16IACStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf16IACStalk.pdf)]
+[[code]({static}/doc/talks/Graf16IACStalk.tar.gz)]
 </div>
 
 ~~~latex

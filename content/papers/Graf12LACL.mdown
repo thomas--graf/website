@@ -18,8 +18,8 @@ Notably, TAG-style tree adjunction can be emulated by a special type of lowering
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf12LACL.pdf)]
-[[code]({filename}/doc/papers/Graf12LACL.tar.gz)]
+[[pdf]({static}/doc/papers/Graf12LACL.pdf)]
+[[code]({static}/doc/papers/Graf12LACL.tar.gz)]
 </div>
 
 ~~~latex

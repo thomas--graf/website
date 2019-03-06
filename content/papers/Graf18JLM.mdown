@@ -22,7 +22,7 @@ As the mappings are required to be monotonic, only a fraction of all conceivable
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf18JLM.pdf)]
+[[pdf]({static}/doc/papers/Graf18JLM.pdf)]
 </div>
 
 ~~~latex

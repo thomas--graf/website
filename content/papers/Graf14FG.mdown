@@ -18,8 +18,8 @@ The closure of Minimalist derivation tree languages under intersection with regu
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf14FG.pdf)]
-[[code]({filename}/doc/papers/Graf14FG.tar.gz)]
+[[pdf]({static}/doc/papers/Graf14FG.pdf)]
+[[code]({static}/doc/papers/Graf14FG.tar.gz)]
 </div>
 
 ~~~latex

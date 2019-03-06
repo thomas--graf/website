@@ -25,8 +25,8 @@ provides an entirely new, quantitative motivation for movement constraints.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf17SCiL.pdf)]
-[[code]({filename}/doc/papers/Graf17SCiL.tar.gz)]
+[[pdf]({static}/doc/papers/Graf17SCiL.pdf)]
+[[code]({static}/doc/papers/Graf17SCiL.tar.gz)]
 </div>
 
 ~~~latex

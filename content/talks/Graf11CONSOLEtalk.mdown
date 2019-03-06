@@ -15,8 +15,8 @@ I demonstrate that Merge-over-Move (MOM), a transderivational constraint (TC) pu
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf11CONSOLEtalk.pdf)]
-[[code]({filename}/doc/talks/Graf11CONSOLEtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf11CONSOLEtalk.pdf)]
+[[code]({static}/doc/talks/Graf11CONSOLEtalk.tar.gz)]
 </div>
 
 ~~~latex

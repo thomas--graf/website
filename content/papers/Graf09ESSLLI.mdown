@@ -18,8 +18,8 @@ I identify several other axes along which Government Phonology might be generali
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf09ESSLLI.pdf)]
-[[code]({filename}/doc/papers/Graf09ESSLLI.tar.gz)]
+[[pdf]({static}/doc/papers/Graf09ESSLLI.pdf)]
+[[code]({static}/doc/papers/Graf09ESSLLI.tar.gz)]
 </div>
 
 ~~~latex

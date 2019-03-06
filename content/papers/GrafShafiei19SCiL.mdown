@@ -17,7 +17,7 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafShafiei19SCiL.pdf)]
+[[pdf]({static}/doc/papers/GrafShafiei19SCiL.pdf)]
 </div>
 
 ~~~latex

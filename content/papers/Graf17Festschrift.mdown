@@ -19,8 +19,8 @@ Representational derivationalism recognizes that both approaches have unique adv
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf17Festschrift.pdf)]
-[[code]({filename}/doc/papers/Graf17Festschrift.tar.gz)]
+[[pdf]({static}/doc/papers/Graf17Festschrift.pdf)]
+[[code]({static}/doc/papers/Graf17Festschrift.tar.gz)]
 </div>
 
 ~~~latex

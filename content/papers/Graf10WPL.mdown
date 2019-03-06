@@ -22,8 +22,8 @@ My approach sheds new light on the internal mechanics of these constraints and s
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf10WPL.pdf)]
-[[code]({filename}/doc/papers/Graf10WPL.tar.gz)]
+[[pdf]({static}/doc/papers/Graf10WPL.pdf)]
+[[code]({static}/doc/papers/Graf10WPL.tar.gz)]
 </div>
 
 ~~~latex

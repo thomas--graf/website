@@ -19,7 +19,7 @@ At the same time, the feature-constraint equivalence can be helpful in plugging 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf17Glossa.pdf)]
+[[pdf]({static}/doc/papers/Graf17Glossa.pdf)]
 </div>
 
 ~~~latex

@@ -18,8 +18,8 @@ This suggests a profound difference in the mechanisms that mediate binding in En
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/AbnerGraf12FEASTposter.pdf)]
-[[code]({filename}/doc/talks/AbnerGraf12FEASTposter.tar.gz)]
+[[pdf]({static}/doc/talks/AbnerGraf12FEASTposter.pdf)]
+[[code]({static}/doc/talks/AbnerGraf12FEASTposter.tar.gz)]
 </div>
 
 ~~~latex

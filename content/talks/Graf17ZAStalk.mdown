@@ -20,8 +20,8 @@ Their respective insights may eventually be synthesized into a unified account.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf17ZAStalk.pdf)]
-[[code]({filename}/doc/talks/Graf17ZAStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf17ZAStalk.pdf)]
+[[code]({static}/doc/talks/Graf17ZAStalk.tar.gz)]
 </div>
 
 ~~~latex

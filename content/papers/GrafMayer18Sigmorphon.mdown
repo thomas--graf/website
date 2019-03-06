@@ -19,7 +19,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafMayer18Sigmorphon.pdf)]
+[[pdf]({static}/doc/papers/GrafMayer18Sigmorphon.pdf)]
 </div>
 
 ~~~latex
@@ -28,6 +28,6 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
     title = {Sanskrit n-Retroflexion is Input-Output Tier-Based Strictly Local},
     year = {2018},
     booktitle = {Proceedings of {SIGMORPHON} 2018},
-    note = {To appear}, 
+    pages = {151--160}
 }
 ~~~

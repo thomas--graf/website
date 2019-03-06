@@ -17,8 +17,8 @@ I show that these four variants form a natural class when viewed from an algebra
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf13USCtalk.pdf)]
-[[code]({filename}/doc/talks/Graf13USCtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf13USCtalk.pdf)]
+[[code]({static}/doc/talks/Graf13USCtalk.tar.gz)]
 </div>
 
 ~~~latex

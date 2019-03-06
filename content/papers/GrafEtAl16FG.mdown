@@ -17,7 +17,7 @@ The translation procedure is implemented via a deterministic linear tree transdu
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/GrafEtAl16FG.pdf)]
+[[pdf]({static}/doc/papers/GrafEtAl16FG.pdf)]
 </div>
 
 ~~~latex

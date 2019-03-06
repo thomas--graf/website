@@ -19,8 +19,8 @@ I show that this locality condition 1) has no effect on weak generative capacity
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf11FGtalk.pdf)]
-[[code]({filename}/doc/talks/Graf11FGtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf11FGtalk.pdf)]
+[[code]({static}/doc/talks/Graf11FGtalk.tar.gz)]
 </div>
 
 ~~~latex

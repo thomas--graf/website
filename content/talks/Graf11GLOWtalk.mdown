@@ -15,8 +15,8 @@ Reference-set constraints (RCs; also known as transderivational constraints) dif
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf11GLOWtalk.pdf)]
-[[code]({filename}/doc/talks/Graf11GLOWtalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf11GLOWtalk.pdf)]
+[[code]({static}/doc/talks/Graf11GLOWtalk.tar.gz)]
 </div>
 
 ~~~latex

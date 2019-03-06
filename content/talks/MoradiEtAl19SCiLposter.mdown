@@ -19,7 +19,7 @@ More precisely, we show that the subregular complexity of adjective inflection i
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/MoradiEtAl19SCiLposter.pdf)]
+[[pdf]({static}/doc/talks/MoradiEtAl19SCiLposter.pdf)]
 </div>
 
 ~~~latex

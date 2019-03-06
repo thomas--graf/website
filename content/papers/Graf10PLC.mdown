@@ -19,8 +19,8 @@ These technical results are accompanied by reflections on the relation between e
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf10PLC.pdf)]
-[[code]({filename}/doc/papers/Graf10PLC.tar.gz)]
+[[pdf]({static}/doc/papers/Graf10PLC.pdf)]
+[[code]({static}/doc/papers/Graf10PLC.tar.gz)]
 </div>
 
 ~~~latex

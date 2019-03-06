@@ -21,8 +21,8 @@ As an illustration of the applicability of this formal model, I exhibit precise 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf10NELStalk.pdf)]
-[[code]({filename}/doc/talks/Graf10NELStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf10NELStalk.pdf)]
+[[code]({static}/doc/talks/Graf10NELStalk.tar.gz)]
 </div>
 
 ~~~latex

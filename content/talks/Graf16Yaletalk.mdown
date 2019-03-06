@@ -23,8 +23,8 @@ This has theoretical and empirical implications for cognition and typology alike
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf16Yaletalk.pdf)]
-[[code]({filename}/doc/talks/Graf16Yaletalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf16Yaletalk.pdf)]
+[[code]({static}/doc/talks/Graf16Yaletalk.tar.gz)]
 </div>
 
 ~~~latex

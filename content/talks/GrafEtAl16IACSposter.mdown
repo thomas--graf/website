@@ -10,8 +10,8 @@ Graf, Thomas, James Monette, Robert Pasternak, and Chong Zhang
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/GrafEtAl16IACSposter.pdf)]
-[[code]({filename}/doc/talks/GrafEtAl16IACSposter.tar.gz)]
+[[pdf]({static}/doc/talks/GrafEtAl16IACSposter.pdf)]
+[[code]({static}/doc/talks/GrafEtAl16IACSposter.tar.gz)]
 </div>
 
 ~~~latex

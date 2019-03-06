@@ -1,4 +1,4 @@
-Title: Concealed Reference-Set Computation: How Syntax Escapes the Parser’s Clutches
+Title: Concealed Reference-Set Computation: How Syntax Escapes the Parser's Clutches
 Author: Thomas Graf
 Date: 2012-01-01
 Category: Papers
@@ -20,8 +20,8 @@ In order to demonstrate the viability of this approach for the kind of reference
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf12Interfaces.pdf)]
-[[code]({filename}/doc/papers/Graf12Interfaces.tar.gz)]
+[[pdf]({static}/doc/papers/Graf12Interfaces.pdf)]
+[[code]({static}/doc/papers/Graf12Interfaces.tar.gz)]
 </div>
 
 ~~~latex

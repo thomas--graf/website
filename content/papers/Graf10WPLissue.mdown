@@ -15,7 +15,7 @@ A collection of articles in mathematical linguistics.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf10WPLissue.pdf)]
+[[pdf]({static}/doc/papers/Graf10WPLissue.pdf)]
 </div>
 
 ~~~latex

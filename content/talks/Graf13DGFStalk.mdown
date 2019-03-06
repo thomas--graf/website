@@ -20,8 +20,8 @@ The existence of parasitic gaps, on the other hand, is expected since their depe
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf13DGFStalk.pdf)]
-[[code]({filename}/doc/talks/Graf13DGFStalk.tar.gz)]
+[[pdf]({static}/doc/talks/Graf13DGFStalk.pdf)]
+[[code]({static}/doc/talks/Graf13DGFStalk.tar.gz)]
 </div>
 
 ~~~latex

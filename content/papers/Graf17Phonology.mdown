@@ -21,7 +21,7 @@ It is also shown that SP grammars with interval-based domains are theoretically 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf17Phonology.pdf)]
+[[pdf]({static}/doc/papers/Graf17Phonology.pdf)]
 </div>
 
 ~~~latex

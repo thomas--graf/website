@@ -31,7 +31,7 @@ morphosyntax without relying on a specific syntactic analysis.
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf15MSUAlgebratalk.pdf)]
+[[pdf]({static}/doc/talks/Graf15MSUAlgebratalk.pdf)]
 </div>
 
 ~~~latex

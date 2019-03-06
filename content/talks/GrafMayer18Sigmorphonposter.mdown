@@ -19,7 +19,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/GrafMayer18Sigmorphonposter.pdf)]
+[[pdf]({static}/doc/talks/GrafMayer18Sigmorphonposter.pdf)]
 </div>
 
 ~~~latex

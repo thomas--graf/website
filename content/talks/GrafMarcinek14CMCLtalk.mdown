@@ -16,8 +16,8 @@ We investigate the predictions these four metrics make for a number of relative 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/GrafMarcinek14CMCLtalk.pdf)]
-[[code]({filename}/doc/talks/GrafMarcinek14CMCLtalk.tar.gz)]
+[[pdf]({static}/doc/talks/GrafMarcinek14CMCLtalk.pdf)]
+[[code]({static}/doc/talks/GrafMarcinek14CMCLtalk.tar.gz)]
 </div>
 
 ~~~latex

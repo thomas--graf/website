@@ -22,8 +22,8 @@ In this paper, I argue based on a battery of previous results that even though s
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/Graf14Festschrift.pdf)]
-[[code]({filename}/doc/papers/Graf14Festschrift.tar.gz)]
+[[pdf]({static}/doc/papers/Graf14Festschrift.pdf)]
+[[code]({static}/doc/papers/Graf14Festschrift.tar.gz)]
 </div>
 
 ~~~latex

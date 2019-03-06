@@ -10,8 +10,8 @@ Graf, Thomas
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/talks/Graf10ONLIposter.pdf)]
-[[code]({filename}/doc/talks/Graf10ONLIposter.tar.gz)]
+[[pdf]({static}/doc/talks/Graf10ONLIposter.pdf)]
+[[code]({static}/doc/talks/Graf10ONLIposter.tar.gz)]
 </div>
 
 ~~~latex

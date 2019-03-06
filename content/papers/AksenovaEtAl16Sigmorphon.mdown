@@ -18,7 +18,7 @@ Furthermore, the limitation to tier-based strictly local languages explains typo
 
 <div markdown class="files">
 <span id="files-title">Files</span>
-[[pdf]({filename}/doc/papers/AksenovaEtAl16Sigmorphon.pdf)]
+[[pdf]({static}/doc/papers/AksenovaEtAl16Sigmorphon.pdf)]
 </div>
 
 ~~~latex
