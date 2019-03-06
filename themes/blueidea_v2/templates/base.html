@@ -17,7 +17,7 @@
 </head>
 
 <body id="index" class="home">
-{% include 'github.html' %}
+{# {% include 'github.html' %} #}
         <header id="banner" class="body">
                 <h1 id="title"><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul>
@@ -30,7 +30,7 @@
                     {% endif %}
                     {% for pg in pages | sort(attribute=PAGES_SORT_ATTRIBUTE) %}
                         {% if pg.title != "Welcome!" %}
-                            {% if 'http://' in pg.url -%}
+                            {% if 'https://' in pg.url -%}
                                 <li><a href="{{ pg.url }}">{{ pg.title }}</a></li>
                             {% else %}    
                                 <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
