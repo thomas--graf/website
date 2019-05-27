@@ -1,0 +1,30 @@
+Title: Diagnosing Movement via the Absence of c-Command Relations
+Author: Thomas Graf
+Date: 2019-03-23
+Category: Presentations
+Tags: Minimalist grammars; c-command; movement; subregular; tiers
+
+<div markdown class="authors">
+Graf, Thomas, and Sabine Laszakovits
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
+Since regulating movement is already known to be beyond the purview of c-strings, it is only natural that phenomena that deeply interact with movement may require additional mechanisms beyond c-strings.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{GrafLaszakovits19PLCtalk,
+    author = {Graf, Thomas and Laszakovits, Sabine},
+    title = {Diagnosing Movement via the Absence of c-Command Relations},
+    year = {2019},
+    note = {Slides presented at the 43rd Penn Linguistics Colloquium (PLC43), March 22--24,
+            University of Pennsylvania, Philadelphia, PA}
+}
+~~~

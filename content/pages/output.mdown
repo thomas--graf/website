@@ -5,19 +5,19 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
-Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. *Proccedings of SCiL 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O'Connor, and Joe Pater, 267--276. [[pdf]]({static}/doc/papers/VuEtAl19SCiL.pdf) [[details]]({filename}/papers/VuEtAl19SCiL.mdown)
+Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. *Proceedings of SCiL 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O'Connor, and Joe Pater, 267--276. [[pdf]]({static}/doc/papers/VuEtAl19SCiL.pdf) [[details]]({filename}/papers/VuEtAl19SCiL.mdown)
 </li>
 <li markdown>
-Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. *Proccedings of SCiL 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O'Connor, and Joe Pater, 205--215. [[pdf]]({static}/doc/papers/GrafShafiei19SCiL.pdf) [[details]]({filename}/papers/GrafShafiei19SCiL.mdown)
+Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. *Proceedings of SCiL 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O'Connor, and Joe Pater, 205--215. [[pdf]]({static}/doc/papers/GrafShafiei19SCiL.pdf) [[details]]({filename}/papers/GrafShafiei19SCiL.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2019): **Monotonicity as an Effective Theory of Morphosyntactic Variation**. *Journal of Language Modelling*. to appear. [[pdf]]({static}/doc/papers/Graf18JLM.pdf) [[details]]({filename}/papers/Graf18JLM.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2018): **Grammar Size and Quantitative Restrictions on Movement**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2018*, 23--33. doi:[10.7275/R5348HJ8](https://doi.org/10.7275/R5348HJ8). [[pdf]]({static}/doc/papers/Graf17SCiL.pdf) [[details]]({filename}/papers/Graf17SCiL.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2018): **Locality Domains and Phonological c-Command over Strings**. *Proceedings of NELS 2017*. [[pdf]]({static}/doc/papers/Graf18NELS.pdf) [[details]]({filename}/papers/Graf18NELS.mdown)
-</li>
-<li markdown>
-Graf, Thomas (2018): **Monotonicity as an Effective Theory of Morphosyntactic Variation**. *Journal of Language Modelling*. to appear. [[pdf]]({static}/doc/papers/Graf18JLM.pdf) [[details]]({filename}/papers/Graf18JLM.mdown)
 </li>
 <li markdown>
 Graf, Thomas, and Connor Mayer (2018): **Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local**. *Proceedings of SIGMORPHON 2018*, 151--160. [[pdf]]({static}/doc/papers/GrafMayer18Sigmorphon.pdf) [[details]]({filename}/papers/GrafMayer18Sigmorphon.mdown)
@@ -137,6 +137,12 @@ Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syn
 </li>
 <li markdown>
 Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. Poster presented at *SCiL 2019*, January 3--6, co-located with the LSA 2019. [[pdf]]({static}/doc/talks/GrafShafiei19SCiLposter.pdf) [[details]]({filename}/talks/GrafShafiei19SCiLposter.mdown)
+</li>
+<li markdown>
+Graf, Thomas, and Sabine Laszakovits (2019): **Diagnosing Movement via the Absence of c-Command Relations**. Slides presented at the 43rd Penn Linguistics Colloquium (PLC43), March 22--24, University of Pennsylvania, Philadelphia, PA. [[details]]({filename}/talks/GrafLaszakovits19PLCtalk.mdown)
+</li>
+<li markdown>
+Graf, Thomas (2019): **Features: More Trouble Than They're Worth?** Invited talk, May 27, Workshop on *Thirty Million Theories of Syntactic Features*, University of Tromsø, Tromsø, Norway. [[pdf]]({static}/doc/talks/Graf19Tromsotalk.pdf) [[details]]({filename}/talks/Graf19Tromsotalk.mdown)
 </li>
 <li markdown>
 Moradi, Sedigheh, Alëna Aksënova, and Thomas Graf (2019): **The Computational Cost of Generalizations: An Example from Micromorphology**. Poster presented at *SCiL 2019*, January 3--6, co-located with the LSA 2019. [[pdf]]({static}/doc/talks/MoradiEtAl19SCiLposter.pdf) [[details]]({filename}/talks/MoradiEtAl19SCiLposter.mdown)

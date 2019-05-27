@@ -1,0 +1,20 @@
+Do contemporary syntactic theories rely on too many features?
+Decades of computational research have culminated in two contradictory answers:
+
+- Yes, there are too many features because having at least two features is already one too many and brings in undesirable overgeneration.
+- No, the number of features is irrelevant because a grammar with no features can be just as powerful as one with thousands of features.
+
+The source of this confusing state of affairs is the intimate relation between features and constraints.
+Features can be replaced by constraints, to a point where the grammar is completely feature-free.
+And constraints can be compiled down into the feature system until no constraints are left and everything is done by feature checking.
+
+**Proposition 1**: Features and constraints are interchangeable.
+
+The power to express arbitrary constraints causes massive overgeneration, which must be curtailed.
+There is a substantive body of computational work on how constraints can be limited in a linguistically natural fashion, whereas it is largely unclear how the same can be achieved with restrictions on feature systems.
+I will sketch what options have been explored so far and why constraints are easier to rein in than features.
+
+**Proposition 2**: The power of constraints is easy to restrict, that of features is not.
+
+In the absence of meaningful restrictions on features, then, constraint-based accounts should be preferred. 
+I present small case studies on successive-cyclic movement, selection, and morphosyntax that illustrate what this approach looks like in practice and how it can yield new theoretical and empirical insights.

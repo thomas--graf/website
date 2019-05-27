@@ -1,0 +1,2 @@
+Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
+Since regulating movement is already known to be beyond the purview of c-strings, it is only natural that phenomena that deeply interact with movement may require additional mechanisms beyond c-strings.

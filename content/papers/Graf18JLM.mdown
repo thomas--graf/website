@@ -29,8 +29,8 @@ As the mappings are required to be monotonic, only a fraction of all conceivable
 :::bibtex
 @article{Graf18JLM,
     author = {Graf, Thomas},
-    title = {Monotonicity as an effective theory of morphosyntactic variation},
-    year = {2018},
+    title = {Monotonicity as an Effective Theory of Morphosyntactic Variation},
+    year = {2019},
     journal = {Journal of Language Modelling},
     note = {to appear}
 }
