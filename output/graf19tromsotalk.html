@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>A Hidden Consensus: Computational Invariants of Minimalist Syntax</title>
+        <title>Features: More Trouble Than They’re Worth?</title>
         <link rel="stylesheet" href="https://thomasgraf.net/theme/css/main.css" />
         <link href="https://thomasgraf.net/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Thomas Graf Atom Feed" />
 
@@ -161,37 +161,47 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="https://thomasgraf.net/output/graf15athensposter.html" rel="bookmark"
-           title="Permalink to A Hidden Consensus: Computational Invariants of Minimalist Syntax">A Hidden Consensus: Computational Invariants of Minimalist&nbsp;Syntax</a></h1>
+        <a href="https://thomasgraf.net/output/graf19tromsotalk.html" rel="bookmark"
+           title="Permalink to Features: More Trouble Than They’re Worth?">Features: More Trouble Than They&#8217;re&nbsp;Worth?</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <span>Thu 28 May 2015</span>
+        <span>Mon 27 May 2019</span>
 	        <span>| in <a href="https://thomasgraf.net/category/presentations.html">Presentations</a> |</span>
 <br>
-<span>| <a href="https://thomasgraf.net/tag/syntax.html">syntax</a> | <a href="https://thomasgraf.net/tag/constraints.html">constraints</a> | <a href="https://thomasgraf.net/tag/movement.html">movement</a> | <a href="https://thomasgraf.net/tag/derivation-trees.html">derivation trees</a> | <a href="https://thomasgraf.net/tag/minimalist-grammars.html">Minimalist grammars</a> | </span>
+<span>| <a href="https://thomasgraf.net/tag/constraints.html">constraints</a> | <a href="https://thomasgraf.net/tag/features.html">features</a> | <a href="https://thomasgraf.net/tag/subregular.html">subregular</a> | <a href="https://thomasgraf.net/tag/syntax.html">syntax</a> | <a href="https://thomasgraf.net/tag/morphosyntax.html">morphosyntax</a> | <a href="https://thomasgraf.net/tag/subcategorization.html">subcategorization</a> | </span>
 </footer><!-- /.post-info -->      <div class="authors">
 <p>Graf,&nbsp;Thomas</p>
 </div>
 <div class="abstract">
 <p><span id="abstract-title">Abstract</span>
-A common sentiment among linguists is that the Minimalist literature features a dazzling array of competing proposals that seem to share little common ground in their technical assumptions.
-While differences certainly do exist between accounts, a computationally informed perspective reveals a set of invariants that unify Minimalist analyses and differentiate them from competing proposals such as <span class="caps">HPSG</span> and <span class="caps">LFG</span>.
-These invariants have been studied extensively by the Minimalist grammar community, but have mostly gone unnoticed by syntacticians.
-Taking these findings as my vantage point, I argue that Minimalist syntax can be understood as a theory of derivation trees and corresponding mappings to interface representations, with the restriction that both derivations and mappings are computable with a finite amount of working memory.
-Each Minimalist analysis occupies a specific point within this class, depending on which ancillary assumptions it adopts, and we can measure the distance between two proposals in this space according to certain formal metrics of&nbsp;equivalence.</p>
+Do contemporary syntactic theories rely on too many features?
+Decades of computational research have culminated in two contradictory&nbsp;answers:</p>
+<ul>
+<li>Yes, there are too many features because having at least two features is already one too many and brings in undesirable&nbsp;overgeneration.</li>
+<li>No, the number of features is irrelevant because a grammar with no features can be just as powerful as one with thousands of&nbsp;features.</li>
+</ul>
+<p>The source of this confusing state of affairs is the intimate relation between features and constraints.
+Features can be replaced by constraints, to a point where the grammar is completely feature-free.
+And constraints can be compiled down into the feature system until no constraints are left and everything is done by feature&nbsp;checking.</p>
+<p><strong>Proposition 1</strong>: Features and constraints are&nbsp;interchangeable.</p>
+<p>The power to express arbitrary constraints causes massive overgeneration, which must be curtailed.
+There is a substantive body of computational work on how constraints can be limited in a linguistically natural fashion, whereas it is largely unclear how the same can be achieved with restrictions on feature systems.
+I will sketch what options have been explored so far and why constraints are easier to rein in than&nbsp;features.</p>
+<p><strong>Proposition 2</strong>: The power of constraints is easy to restrict, that of features is&nbsp;not.</p>
+<p>In the absence of meaningful restrictions on features, then, constraint-based accounts should be preferred. 
+I present small case studies on successive-cyclic movement, selection, and morphosyntax that illustrate what this approach looks like in practice and how it can yield new theoretical and empirical&nbsp;insights.</p>
 </div>
 <div class="files">
 <p><span id="files-title">Files</span>
-[<a href="https://thomasgraf.net/doc/talks/Graf15Athensposter.pdf">pdf</a>]</p>
+[<a href="https://thomasgraf.net/doc/talks/Graf19Tromsotalk.pdf">pdf</a>]</p>
 </div>
-<div class="highlight"><pre><span></span><span class="nc">@Misc</span><span class="p">{</span><span class="nl">Graf15Athensposter</span><span class="p">,</span>
-  <span class="na">author</span>    <span class="p">=</span> <span class="s">{Graf, Thomas}</span><span class="p">,</span>
-  <span class="na">title</span>     <span class="p">=</span> <span class="s">{A Hidden Consensus: {C}omputational Invariants of {M}inimalist Syntax}</span><span class="p">,</span>
-  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
-  <span class="na">note</span>      <span class="p">=</span> <span class="s">{Poster presented at {The Road Ahead}, May 28--30,</span>
-<span class="s">          Athens, Greece.}</span>
+<div class="highlight"><pre><span></span><span class="nc">@misc</span><span class="p">{</span><span class="nl">Graf19Tromsotalk</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">{Graf, Thomas}</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">{Features: More Trouble Than They&#39;re Worth?}</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+    <span class="na">note</span> <span class="p">=</span> <span class="s">{Invited talk, May 27, Workshop on \emph{Thirty Million Theories of Syntactic Features}, University of Troms\o, Troms\o, Norway}</span>
 <span class="p">}</span>
 </pre></div>
     </div><!-- /.entry-content -->

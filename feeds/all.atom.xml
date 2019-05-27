@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-01-05T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/output/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-05-27T00:00:00-04:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>Features: More Trouble Than They’re Worth?</title><link href="https://thomasgraf.net/output/graf19tromsotalk.html" rel="alternate"></link><published>2019-05-27T00:00:00-04:00</published><updated>2019-05-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-05-27:/output/graf19tromsotalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Do contemporary syntactic theories rely on too many features?
+Decades of computational research have culminated in two contradictory&amp;nbsp;answers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yes, there are too many features because having at least two features is already one too many and brings in undesirable&amp;nbsp;overgeneration.&lt;/li&gt;
+&lt;li&gt;No …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Do contemporary syntactic theories rely on too many features?
+Decades of computational research have culminated in two contradictory&amp;nbsp;answers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yes, there are too many features because having at least two features is already one too many and brings in undesirable&amp;nbsp;overgeneration.&lt;/li&gt;
+&lt;li&gt;No, the number of features is irrelevant because a grammar with no features can be just as powerful as one with thousands of&amp;nbsp;features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The source of this confusing state of affairs is the intimate relation between features and constraints.
+Features can be replaced by constraints, to a point where the grammar is completely feature-free.
+And constraints can be compiled down into the feature system until no constraints are left and everything is done by feature&amp;nbsp;checking.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition 1&lt;/strong&gt;: Features and constraints are&amp;nbsp;interchangeable.&lt;/p&gt;
+&lt;p&gt;The power to express arbitrary constraints causes massive overgeneration, which must be curtailed.
+There is a substantive body of computational work on how constraints can be limited in a linguistically natural fashion, whereas it is largely unclear how the same can be achieved with restrictions on feature systems.
+I will sketch what options have been explored so far and why constraints are easier to rein in than&amp;nbsp;features.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition 2&lt;/strong&gt;: The power of constraints is easy to restrict, that of features is&amp;nbsp;not.&lt;/p&gt;
+&lt;p&gt;In the absence of meaningful restrictions on features, then, constraint-based accounts should be preferred. 
+I present small case studies on successive-cyclic movement, selection, and morphosyntax that illustrate what this approach looks like in practice and how it can yield new theoretical and empirical&amp;nbsp;insights.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf19Tromsotalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19Tromsotalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Features: More Trouble Than They&amp;#39;re Worth?}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, May 27, Workshop on \emph{Thirty Million Theories of Syntactic Features}, University of Troms\o, Troms\o, Norway}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="constraints"></category><category term="features"></category><category term="subregular"></category><category term="syntax"></category><category term="morphosyntax"></category><category term="subcategorization"></category></entry><entry><title>Diagnosing Movement via the Absence of c-Command Relations</title><link href="https://thomasgraf.net/output/graflaszakovits19plctalk.html" rel="alternate"></link><published>2019-03-23T00:00:00-04:00</published><updated>2019-03-23T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-03-23:/output/graflaszakovits19plctalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Sabine&amp;nbsp;Laszakovits&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
+Since regulating movement is already known to be beyond the purview of c-strings …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Sabine&amp;nbsp;Laszakovits&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
+Since regulating movement is already known to be beyond the purview of c-strings, it is only natural that phenomena that deeply interact with movement may require additional mechanisms beyond&amp;nbsp;c-strings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafLaszakovits19PLCtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Laszakovits, Sabine}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Diagnosing Movement via the Absence of c-Command Relations}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides presented at the 43rd Penn Linguistics Colloquium (PLC43), March 22--24,&lt;/span&gt;
+&lt;span class="s"&gt;            University of Pennsylvania, Philadelphia, PA}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="c-command"></category><category term="movement"></category><category term="subregular"></category><category term="tiers"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/output/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -206,63 +271,4 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
     &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2018}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at SIGMORPHON 2018, October 31, Brussels, Belgium}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>Sanskrit N-Retroflexion Is Input-Output Tier-Based Strictly Local</title><link href="https://thomasgraf.net/output/grafmayer18sigmorphon.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/output/grafmayer18sigmorphon.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
-While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
-We show that when …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Connor&amp;nbsp;Mayer&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Sanskrit /n/-retroflexion is one of the most complex segmental processes in phonology.
-While it is still star-free, it does not fit in any of the subregular classes that are commonly entertained in the literature.
-We show that when construed as a phonotactic dependency, the process fits into a class we call &lt;em&gt;input-output tier-based strictly local&lt;/em&gt; (&lt;span class="caps"&gt;IO&lt;/span&gt;-&lt;span class="caps"&gt;TSL&lt;/span&gt;), a natural extension of the familiar class &lt;span class="caps"&gt;TSL&lt;/span&gt;.
-&lt;span class="caps"&gt;IO&lt;/span&gt;-&lt;span class="caps"&gt;TSL&lt;/span&gt; increases the power of &lt;span class="caps"&gt;TSL&lt;/span&gt;&amp;#8217;s tier projection function by making it an input-output strictly local transduction.
-Assuming that /n/-retroflexion represents the upper bound on the complexity of segmental phonology, this shows that all of segmental phonology can be captured by combining the intuitive notion of tiers with the independently motivated machinery of strictly local&amp;nbsp;mappings.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/papers/GrafMayer18Sigmorphon.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@inproceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafMayer18Sigmorphon&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Mayer, Connor}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Sanskrit n-Retroflexion is Input-Output Tier-Based Strictly Local}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2018}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;booktitle&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Proceedings of {SIGMORPHON} 2018}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;pages&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{151--160}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/output/grafshafiei19scil.html" rel="alternate"></link><published>2018-10-30T00:00:00-04:00</published><updated>2018-10-30T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2018-10-30:/output/grafshafiei19scil.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
-C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
-C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
-The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and&amp;nbsp;morphology.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/papers/GrafShafiei19SCiL.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@inproceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafShafiei19SCiL&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Shafiei, Nazila}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{C-Command Dependencies as {TSL} String Constraints}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;booktitle&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Proccedings of {SCiL} 2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;editor&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Jarosz, Gaja and&lt;/span&gt;
-&lt;span class="s"&gt;              Nelson, Max and&lt;/span&gt;
-&lt;span class="s"&gt;              O&amp;#39;Connor, Brendan and&lt;/span&gt;
-&lt;span class="s"&gt;              Pater, Joe}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;pages&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{205--215}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="phonology"></category><category term="subregular"></category><category term="tiers"></category><category term="nati"></category><category term="Sanskrit"></category></entry></feed>
