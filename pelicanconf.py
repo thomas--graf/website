@@ -57,7 +57,7 @@ LINKS = [('SBU Linguistics', 'http://linguistics.stonybrook.edu'),
          ('SBU IACS', 'http://www.iacs.stonybrook.edu/'),
          ('MathLing Reading Group', 'http://mlrg.thomasgraf.net'),
          ('NLP Reading Group', 'https://sites.google.com/site/nlpsbureadinggroup/home'),
-         ('Faculty of Language', 'http://facultyoflanguage.blogspot.com')]
+         ('Outdex', 'https://outde.xyz')]
 
 # Social widget
 SOCIAL = [('email', 'mailto://mail_@_thomasgraf_._net'),
