@@ -1,0 +1,23 @@
+Title: Structure Sensitive Tier Projection: Applications and Formal Properties
+Author: Thomas Graf
+Date: 2019-01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+De Santo, Aniello, and Thomas Graf
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{DeSantoGraf19FGtalk,
+    author={De Santo, Aniello and Graf, Thomas},
+    title={Structure Sensitive Tier Projection: Applications and Formal Properties},
+    year = {2019},
+    note = {Slides of a talk given at the 24th Conference on Formal Grammar, August 11, Riga, Latvia}
+}
+~~~

@@ -1,4 +1,4 @@
-Title: Evaluating Evluation Metrics for Minimalist Parsing
+Title: Evaluating Evaluation Metrics for Minimalist Parsing
 Author: Thomas Graf
 Date: 2014-06-26
 Category: Presentations
@@ -24,7 +24,7 @@ We investigate the predictions these four metrics make for a number of relative 
 :::bibtex
 @Misc{GrafMarcinek14CMCLtalk,
   author	= {Graf, Thomas and Marcinek, Bradley},
-  title		= {Evaluating Evluation Metrics for {M}inimalist Parsing},
+  title		= {Evaluating Evaluation Metrics for {M}inimalist Parsing},
   year		= {2014},
   note		= {Slides for a talk given at Cognitive Modeling and
 		  Computational Linguistics {(CMCL 2014)}, June 26,

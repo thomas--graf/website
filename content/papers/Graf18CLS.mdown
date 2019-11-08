@@ -38,6 +38,6 @@ Consequently, Move has no additional computational or conceptual cost attached t
               Rhodes, Brandon and
               Sankhagowit, Amara and
               Tabatowski, Miachel},
-    pages = {117--137},
+    pages = {117--136},
 }
 ~~~

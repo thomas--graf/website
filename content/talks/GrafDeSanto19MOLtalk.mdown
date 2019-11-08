@@ -1,0 +1,23 @@
+Title: Sensing Tree Automata as a Model of Syntactic Dependencies
+Author: Thomas Graf
+Date: 2019-01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+Graf, Thomas, and Aniello De Santo
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{GrafDeSanto19MOLtalk,
+    title = {Sensing Tree Automata as a Model of Syntactic Dependencies},
+    author = {Graf, Thomas and De Santo, Aniello},
+    year = {2019},
+    note = {Slides of a talk given at the 16th meeting on the mathematics of language ({MOL} 2019), {J}uly 18--19, {U}niversity of {T}oronto, {T}oronto, {C}anada}
+}
+~~~
