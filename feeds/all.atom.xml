@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-11-08T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>Subregular Linguistics for Linguists</title><link href="https://thomasgraf.net/output/graf19umasstalk.html" rel="alternate"></link><published>2019-11-08T00:00:00-05:00</published><updated>2019-11-08T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-11-08:/output/graf19umasstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Drawing from computational work that is known as the &lt;strong&gt;subregular program&lt;/strong&gt;, I argue against two received views in linguistics: &amp;#8220;phonology and syntax are very different&amp;#8217; and &amp;#8220;subcategorization is a solved&amp;nbsp;problem&amp;#8221;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cognitive parallelism&lt;/strong&gt;&lt;br&gt;
+   Subregular notions of complexity can be applied to strings …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Drawing from computational work that is known as the &lt;strong&gt;subregular program&lt;/strong&gt;, I argue against two received views in linguistics: &amp;#8220;phonology and syntax are very different&amp;#8217; and &amp;#8220;subcategorization is a solved&amp;nbsp;problem&amp;#8221;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cognitive parallelism&lt;/strong&gt;&lt;br&gt;
+   Subregular notions of complexity can be applied to strings as well as trees.
+   Doing so reveals that phonology and syntax are remarkably similar (and those parallels even extend into morphology and semantics).
+   For instance, islands and blocking effects are instances of the same computational&amp;nbsp;mechanism.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Subcategorization&lt;/strong&gt;&lt;br&gt;
+   Subcategorization (or c-selection) is rarely studied by linguists, but it is actually a source of tremendous overgeneration.
+   Once again subregular notions of complexity can be used to address this problem.
+   This isn&amp;#8217;t just a mathematical exercise, but makes concrete empirical predictions about the nature of category systems, subcategorization, the status of empty heads, the &lt;span class="caps"&gt;DP&lt;/span&gt;-analysis, &lt;span class="caps"&gt;DM&lt;/span&gt;-style roots, and once again highlights parallels to&amp;nbsp;phonology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The general upshot is that subregular concepts, despite their computational origin, are intuitive and linguistically fertile: they address conceptual issues, bridge gaps between linguistic subfields, and make concrete empirical predictions.
+Subregular linguistics is just linguistics with some computational flavor sprinkled on&amp;nbsp;top.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt; This talk is 100%&amp;nbsp;formula-free.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf19UMasstalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19UMasstalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Subregular Linguistics for Linguists}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, November 8, UMass Amherst, Amherst, Massachusetts}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="phonology"></category><category term="syntax"></category><category term="tiers"></category><category term="islands"></category><category term="subcategorization"></category></entry><entry><title>Features: More Trouble Than They’re Worth?</title><link href="https://thomasgraf.net/output/graf19tromsotalk.html" rel="alternate"></link><published>2019-05-27T00:00:00-04:00</published><updated>2019-05-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-05-27:/output/graf19tromsotalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Do contemporary syntactic theories rely on too many features?
+Decades of computational research have culminated in two contradictory&amp;nbsp;answers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yes, there are too many features because having at least two features is already one too many and brings in undesirable&amp;nbsp;overgeneration.&lt;/li&gt;
+&lt;li&gt;No …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Do contemporary syntactic theories rely on too many features?
+Decades of computational research have culminated in two contradictory&amp;nbsp;answers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yes, there are too many features because having at least two features is already one too many and brings in undesirable&amp;nbsp;overgeneration.&lt;/li&gt;
+&lt;li&gt;No, the number of features is irrelevant because a grammar with no features can be just as powerful as one with thousands of&amp;nbsp;features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The source of this confusing state of affairs is the intimate relation between features and constraints.
+Features can be replaced by constraints, to a point where the grammar is completely feature-free.
+And constraints can be compiled down into the feature system until no constraints are left and everything is done by feature&amp;nbsp;checking.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition 1&lt;/strong&gt;: Features and constraints are&amp;nbsp;interchangeable.&lt;/p&gt;
+&lt;p&gt;The power to express arbitrary constraints causes massive overgeneration, which must be curtailed.
+There is a substantive body of computational work on how constraints can be limited in a linguistically natural fashion, whereas it is largely unclear how the same can be achieved with restrictions on feature systems.
+I will sketch what options have been explored so far and why constraints are easier to rein in than&amp;nbsp;features.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition 2&lt;/strong&gt;: The power of constraints is easy to restrict, that of features is&amp;nbsp;not.&lt;/p&gt;
+&lt;p&gt;In the absence of meaningful restrictions on features, then, constraint-based accounts should be preferred. 
+I present small case studies on successive-cyclic movement, selection, and morphosyntax that illustrate what this approach looks like in practice and how it can yield new theoretical and empirical&amp;nbsp;insights.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf19Tromsotalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19Tromsotalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Features: More Trouble Than They&amp;#39;re Worth?}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, May 27, Workshop on \emph{Thirty Million Theories of Syntactic Features}, University of Troms\o, Troms\o, Norway}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="constraints"></category><category term="features"></category><category term="subregular"></category><category term="syntax"></category><category term="morphosyntax"></category><category term="subcategorization"></category></entry><entry><title>Diagnosing Movement via the Absence of c-Command Relations</title><link href="https://thomasgraf.net/output/graflaszakovits19plctalk.html" rel="alternate"></link><published>2019-03-23T00:00:00-04:00</published><updated>2019-03-23T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-03-23:/output/graflaszakovits19plctalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Sabine&amp;nbsp;Laszakovits&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
+Since regulating movement is already known to be beyond the purview of c-strings …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Sabine&amp;nbsp;Laszakovits&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
+Since regulating movement is already known to be beyond the purview of c-strings, it is only natural that phenomena that deeply interact with movement may require additional mechanisms beyond&amp;nbsp;c-strings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafLaszakovits19PLCtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Laszakovits, Sabine}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Diagnosing Movement via the Absence of c-Command Relations}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides presented at the 43rd Penn Linguistics Colloquium (PLC43), March 22--24,&lt;/span&gt;
+&lt;span class="s"&gt;            University of Pennsylvania, Philadelphia, PA}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="c-command"></category><category term="movement"></category><category term="subregular"></category><category term="tiers"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/output/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
+C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
+The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and&amp;nbsp;morphology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/GrafShafiei19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafShafiei19SCiLposter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Shafiei, Nazila}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{C-Command Dependencies as {TSL} String Constraints}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Computational Cost of Generalizations: An Example from Micromorphology</title><link href="https://thomasgraf.net/output/moradietal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/moradietal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+The central concern of linguistics is to succinctly state generalizations.
+But as numerous linguists have pointed out over the years, generalizations do not always come for free.
+A formalism&amp;#8217;s ability to account for the data does …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+The central concern of linguistics is to succinctly state generalizations.
+But as numerous linguists have pointed out over the years, generalizations do not always come for free.
+A formalism&amp;#8217;s ability to account for the data does not entail that it can express the relevant generalizations about the data.
+We illustrate this point with a computational case study in micro-morphology.
+More precisely, we show that the subregular complexity of adjective inflection in Noon varies depending on what generalizations one wishes to&amp;nbsp;capture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/MoradiEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;MoradiEtAl19SCiLposter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Moradi, Sedigheh and Aks\&amp;quot;{e}nova, Al\&amp;quot;{e}na and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{The Computational Cost of Generalizations: An Example from Micromorphology}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="https://thomasgraf.net/output/vuetal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/vuetal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
+More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly local over derivation trees.
+However, a broader range of empirical phenomena must be considered in order to solidify this claim.
+This paper investigates various phenomena related to morphological case, and we argue that they, too, are tier-based strictly local.
+Not only do our findings provide empirical support for a kind of computational parallelism across language modules, they also offer a new, computationally unified perspective of structural and lexical case.
+We hope that this paper will enable other researchers to fruitfully study syntactic phenomena from a subregular&amp;nbsp;perspective.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/VuEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;VuEtAl19SCiLposter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Case Assignment in {TSL} Syntax: A Case Study}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Structure Sensitive Tier Projection: Applications and Formal Properties</title><link href="https://thomasgraf.net/output/desantograf19fg.html" rel="alternate"></link><published>2019-01-01T00:00:00-05:00</published><updated>2019-01-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-01:/output/desantograf19fg.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@InProceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FG&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;editor&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Bernardi, Raffaella and Kobele, Gregory and Pogodalla, Sylvain}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;booktitle&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Formal Grammar}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;publisher&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Springer}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;address&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Berlin, Heidelberg}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;pages …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@InProceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FG&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;editor&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Bernardi, Raffaella and Kobele, Gregory and Pogodalla, Sylvain}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;booktitle&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Formal Grammar}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;publisher&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Springer}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;address&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Berlin, Heidelberg}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{35--50}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10.1007/978-3-662-59648-7_3}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Structure Sensitive Tier Projection: Applications and Formal Properties</title><link href="https://thomasgraf.net/output/desantograf19fgtalk.html" rel="alternate"></link><published>2019-01-01T00:00:00-05:00</published><updated>2019-01-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-01:/output/desantograf19fgtalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FGtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at the 24th Conference on Formal Grammar, August 11, Riga, Latvia}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FGtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at the 24th Conference on Formal Grammar, August 11, Riga, Latvia}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content></entry></feed>
