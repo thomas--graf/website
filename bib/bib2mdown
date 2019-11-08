@@ -329,6 +329,9 @@ sed -i 's/!!/**/g' $tmpfile
 sed -i 's|{filename[^}]|{filename}/|g' $tmpfile
 sed -i 's|{static[^}]|{static}/|g' $tmpfile
 
+# fix weird [arabic] line
+sed -i 's|\[arabic\].*||' $tmpfile
+
 
 ##############
 #  Finalize  #
