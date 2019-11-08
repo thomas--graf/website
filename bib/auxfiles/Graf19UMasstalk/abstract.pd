@@ -1,0 +1,16 @@
+Drawing from computational work that is known as the **subregular program**, I argue against two received views in linguistics: "phonology and syntax are very different' and "subcategorization is a solved problem".
+
+1. **Cognitive parallelism**  
+   Subregular notions of complexity can be applied to strings as well as trees.
+   Doing so reveals that phonology and syntax are remarkably similar (and those parallels even extend into morphology and semantics).
+   For instance, islands and blocking effects are instances of the same computational mechanism.
+
+2. **Subcategorization**  
+   Subcategorization (or c-selection) is rarely studied by linguists, but it is actually a source of tremendous overgeneration.
+   Once again subregular notions of complexity can be used to address this problem.
+   This isn't just a mathematical exercise, but makes concrete empirical predictions about the nature of category systems, subcategorization, the status of empty heads, the DP-analysis, DM-style roots, and once again highlights parallels to phonology.
+
+The general upshot is that subregular concepts, despite their computational origin, are intuitive and linguistically fertile: they address conceptual issues, bridge gaps between linguistic subfields, and make concrete empirical predictions.
+Subregular linguistics is just linguistics with some computational flavor sprinkled on top.
+
+*Disclaimer:* This talk is 100% formula-free.
