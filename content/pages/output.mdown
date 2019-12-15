@@ -5,6 +5,9 @@ Author: Thomas Graf
 
 <ol reversed markdown>
 <li markdown>
+Graf, Thomas (2019): **A Subregular Bound on the Complexity of Lexical Quantifiers**. *Proceedings of the 22nd Amsterdam Colloquium*, ed. by Julian J. Schlöder, Dean McHugh, and Floris Roelofsen, 455--464. [[pdf]]({static}/doc/papers/Graf19AC.pdf) [[details]]({filename}/papers/Graf19AC.mdown)
+</li>
+<li markdown>
 Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O'Connor, and Joe Pater, 267--276. doi:[10.7275/sywz-xw23](https://doi.org/10.7275/sywz-xw23). [[pdf]]({static}/doc/papers/VuEtAl19SCiL.pdf) [[details]]({filename}/papers/VuEtAl19SCiL.mdown)
 </li>
 <li markdown>
@@ -136,6 +139,9 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 <ol reversed markdown>
 <li markdown>
+Graf, Thomas (2019): **A Subregular Bound on the Complexity of Lexical Quantifiers**. Slides of a talk given at the Amsterdam Colloquium, December 18--20, University of Amsterdam, Amsterdam, Netherlands. [[pdf]]({static}/doc/talks/Graf19ACtalk.pdf) [[details]]({filename}/talks/Graf19ACtalk.mdown)
+</li>
+<li markdown>
 Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syntax: A Case Study**. Poster presented at *SCiL 2019*, January 3--6, co-located with the LSA 2019. [[pdf]]({static}/doc/talks/VuEtAl19SCiLposter.pdf) [[details]]({filename}/talks/VuEtAl19SCiLposter.mdown)
 </li>
 <li markdown>
@@ -154,13 +160,13 @@ Graf, Thomas, and Aniello De Santo (2019): **Sensing Tree Automata as a Model of
 De Santo, Aniello, and Thomas Graf (2019): **Structure Sensitive Tier Projection: Applications and Formal Properties**. Slides of a talk given at the 24th Conference on Formal Grammar, August 11, Riga, Latvia. [[details]]({filename}/talks/DeSantoGraf19FGtalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2019): **Subregular Linguistics for Linguists**. Invited talk, November 8, UMass Amherst, Amherst, Massachusetts. [[pdf]]({static}/doc/talks/Graf19UMasstalk.pdf) [[details]]({filename}/talks/Graf19UMasstalk.mdown)
+Graf, Thomas (2019): **Subregular Linguistics for Linguists**. Invited talk, November 8, University of Massachusetts Amherst, Amherst, Massachusetts. [[pdf]]({static}/doc/talks/Graf19UMasstalk.pdf) [[details]]({filename}/talks/Graf19UMasstalk.mdown)
 </li>
 <li markdown>
 Moradi, Sedigheh, Alëna Aksënova, and Thomas Graf (2019): **The Computational Cost of Generalizations: An Example from Micromorphology**. Poster presented at *SCiL 2019*, January 3--6, co-located with the LSA 2019. [[pdf]]({static}/doc/talks/MoradiEtAl19SCiLposter.pdf) [[details]]({filename}/talks/MoradiEtAl19SCiLposter.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2019): **Working the Tail: Improving Ux by Optimizing Low-Frequency Items**. Invited talk, July 8, Kasisto Inc, New York City, New York. [[details]]({filename}/talks/Graf19Kasistotalk.mdown)
+Graf, Thomas (2019): **Working the Tail: Improving UX by Optimizing Low-Frequency Items**. Invited talk, July 8, Kasisto Inc, New York City, New York. [[details]]({filename}/talks/Graf19Kasistotalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2018): **Adjunction to Movement Paths: Floating Quantifiers as the Little Brother of Parasitic Gaps**. Poster presented at the 49th Annual Meeting of the North East Linguistic Society (NELS 49), October 5--7, Cornell University, Ithaca, NY. [[details]]({filename}/talks/Graf18NELSposter.mdown)

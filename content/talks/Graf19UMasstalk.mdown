@@ -39,6 +39,6 @@ Subregular linguistics is just linguistics with some computational flavor sprink
     author = {Graf, Thomas},
     title = {Subregular Linguistics for Linguists},
     year = {2019},
-    note = {Invited talk, November 8, UMass Amherst, Amherst, Massachusetts}
+    note = {Invited talk, November 8, University of Massachusetts Amherst, Amherst, Massachusetts}
 }
 ~~~

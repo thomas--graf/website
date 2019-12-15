@@ -1,4 +1,4 @@
-Title: Working the Tail: Improving Ux by Optimizing Low-Frequency Items
+Title: Working the Tail: Improving UX by Optimizing Low-Frequency Items
 Author: Thomas Graf
 Date: 2019-01-01
 Category: Presentations
@@ -16,7 +16,7 @@ Graf, Thomas
 :::bibtex
 @misc{Graf19Kasistotalk,
     author = {Graf, Thomas},
-    title = {Working the Tail: Improving UX by Optimizing Low-Frequency Items},
+    title = {Working the Tail: Improving {UX} by Optimizing Low-Frequency Items},
     year = {2019},
     note = {Invited talk, July 8, Kasisto Inc, New York City, New York}
 }

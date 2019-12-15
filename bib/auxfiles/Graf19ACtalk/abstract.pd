@@ -1,0 +1,6 @@
+Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
+An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are *subregular*.
+Whereas quantifier phrases such as *an even number of* correspond to specific regular languages, *every*, *no*, *some* and *not all* stay within the much weaker class of *tier-based strictly local* languages (TSL).
+In addition, it seems to hold crosslinguistically that a TSL quantifier may be expressed by a single lexical item only if its tier projection is monotonic.
+This constitutes a novel typological universal that limits how complex a meaning may be stored in a single lexical item.
+TSL is also known to play a central role in phonology, morphology, and syntax, which suggests that subregularity in general and tier-based strict locality in particular may be a computational universal of natural language that surfaces across all its submodules, including semantics.

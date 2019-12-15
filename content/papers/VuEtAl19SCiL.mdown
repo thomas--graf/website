@@ -29,7 +29,7 @@ We hope that this paper will enable other researchers to fruitfully study syntac
     author = {Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas},
     title = {Case Assignment in {TSL} Syntax: A Case Study},
     year = {2019},
-    booktitle = {Proceedings of the Society for Computation in Linguistics ({SCiL}) 2019},
+    booktitle = {Proceedings of the {S}ociety for {C}omputation in {L}inguistics ({SCiL}) 2019},
     editor = {Jarosz, Gaja and
               Nelson, Max and
               O'Connor, Brendan and
