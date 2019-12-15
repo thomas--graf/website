@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-11-08T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>Subregular Linguistics for Linguists</title><link href="https://thomasgraf.net/output/graf19umasstalk.html" rel="alternate"></link><published>2019-11-08T00:00:00-05:00</published><updated>2019-11-08T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-11-08:/output/graf19umasstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-12-18T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>A Subregular Bound on the Complexity of Lexical Quantifiers</title><link href="https://thomasgraf.net/output/graf19actalk.html" rel="alternate"></link><published>2019-12-18T00:00:00-05:00</published><updated>2019-12-18T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-12-18:/output/graf19actalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
+An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
+Whereas quantifier phrases …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
+An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
+Whereas quantifier phrases such as &lt;em&gt;an even number of&lt;/em&gt; correspond to specific regular languages, &lt;em&gt;every&lt;/em&gt;, &lt;em&gt;no&lt;/em&gt;, &lt;em&gt;some&lt;/em&gt; and &lt;em&gt;not all&lt;/em&gt; stay within the much weaker class of &lt;em&gt;tier-based strictly local&lt;/em&gt; languages (&lt;span class="caps"&gt;TSL&lt;/span&gt;).
+In addition, it seems to hold crosslinguistically that a &lt;span class="caps"&gt;TSL&lt;/span&gt; quantifier may be expressed by a single lexical item only if its tier projection is monotonic.
+This constitutes a novel typological universal that limits how complex a meaning may be stored in a single lexical item.
+&lt;span class="caps"&gt;TSL&lt;/span&gt; is also known to play a central role in phonology, morphology, and syntax, which suggests that subregularity in general and tier-based strict locality in particular may be a computational universal of natural language that surfaces across all its submodules, including&amp;nbsp;semantics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf19ACtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19ACtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{A Subregular Bound on the Complexity of Lexical Quantifiers}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at the Amsterdam Colloquium, {D}ecember 18--20, University of Amsterdam, Amsterdam, Netherlands}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="semantics"></category><category term="generalized quantifiers"></category><category term="typology"></category></entry><entry><title>A Subregular Bound on the Complexity of Lexical Quantifiers</title><link href="https://thomasgraf.net/output/graf19ac.html" rel="alternate"></link><published>2019-12-15T00:00:00-05:00</published><updated>2019-12-15T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-12-15:/output/graf19ac.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
+An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
+Whereas quantifier phrases …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
+An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
+Whereas quantifier phrases such as &lt;em&gt;an even number of&lt;/em&gt; correspond to specific regular languages, &lt;em&gt;every&lt;/em&gt;, &lt;em&gt;no&lt;/em&gt;, &lt;em&gt;some&lt;/em&gt; and &lt;em&gt;not all&lt;/em&gt; stay within the much weaker class of &lt;em&gt;tier-based strictly local&lt;/em&gt; languages (&lt;span class="caps"&gt;TSL&lt;/span&gt;).
+In addition, it seems to hold crosslinguistically that a &lt;span class="caps"&gt;TSL&lt;/span&gt; quantifier may be expressed by a single lexical item only if its tier projection is monotonic.
+This constitutes a novel typological universal that limits how complex a meaning may be stored in a single lexical item.
+&lt;span class="caps"&gt;TSL&lt;/span&gt; is also known to play a central role in phonology, morphology, and syntax, which suggests that subregularity in general and tier-based strict locality in particular may be a computational universal of natural language that surfaces across all its submodules, including&amp;nbsp;semantics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/Graf19AC.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@inproceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19AC&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{A Subregular Bound on the Complexity of Lexical Quantifiers}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;booktitle&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Proceedings of the 22nd {A}msterdam {C}olloquium}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;editor&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Schl\&amp;quot;{o}der, Julian J. and McHugh, Dean and Roelofsen, Floris}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;pages&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{455--464}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="semantics"></category><category term="generalized quantifiers"></category><category term="typology"></category></entry><entry><title>Subregular Linguistics for Linguists</title><link href="https://thomasgraf.net/output/graf19umasstalk.html" rel="alternate"></link><published>2019-11-08T00:00:00-05:00</published><updated>2019-11-08T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-11-08:/output/graf19umasstalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -40,7 +100,7 @@ Subregular linguistics is just linguistics with some computational flavor sprink
     &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Subregular Linguistics for Linguists}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, November 8, UMass Amherst, Amherst, Massachusetts}&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, November 8, University of Massachusetts Amherst, Amherst, Massachusetts}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="phonology"></category><category term="syntax"></category><category term="tiers"></category><category term="islands"></category><category term="subcategorization"></category></entry><entry><title>Features: More Trouble Than They’re Worth?</title><link href="https://thomasgraf.net/output/graf19tromsotalk.html" rel="alternate"></link><published>2019-05-27T00:00:00-04:00</published><updated>2019-05-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-05-27:/output/graf19tromsotalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
@@ -188,59 +248,4 @@ We hope that this paper will enable other researchers to fruitfully study syntac
     &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry><entry><title>Structure Sensitive Tier Projection: Applications and Formal Properties</title><link href="https://thomasgraf.net/output/desantograf19fg.html" rel="alternate"></link><published>2019-01-01T00:00:00-05:00</published><updated>2019-01-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-01:/output/desantograf19fg.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@InProceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FG&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;editor&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Bernardi, Raffaella and Kobele, Gregory and Pogodalla, Sylvain}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;booktitle&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Formal Grammar}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;publisher&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Springer}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;address&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Berlin, Heidelberg}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;pages …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@InProceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FG&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;editor&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Bernardi, Raffaella and Kobele, Gregory and Pogodalla, Sylvain}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;booktitle&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Formal Grammar}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;publisher&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Springer}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;address&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Berlin, Heidelberg}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{35--50}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10.1007/978-3-662-59648-7_3}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Structure Sensitive Tier Projection: Applications and Formal Properties</title><link href="https://thomasgraf.net/output/desantograf19fgtalk.html" rel="alternate"></link><published>2019-01-01T00:00:00-05:00</published><updated>2019-01-01T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-01:/output/desantograf19fgtalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FGtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at the 24th Conference on Formal Grammar, August 11, Riga, Latvia}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;De Santo, Aniello, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;DeSantoGraf19FGtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{De Santo, Aniello and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Structure Sensitive Tier Projection: Applications and Formal Properties}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at the 24th Conference on Formal Grammar, August 11, Riga, Latvia}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry></feed>
