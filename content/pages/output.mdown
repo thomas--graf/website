@@ -4,6 +4,7 @@ Author: Thomas Graf
 # Publications
 
 <ol reversed markdown>
+
 <li markdown>
 Graf, Thomas (2019): **A Subregular Bound on the Complexity of Lexical Quantifiers**. *Proceedings of the 22nd Amsterdam Colloquium*, ed. by Julian J. Schlöder, Dean McHugh, and Floris Roelofsen, 455--464. [[pdf]]({static}/doc/papers/Graf19AC.pdf) [[details]]({filename}/papers/Graf19AC.mdown)
 </li>
@@ -138,6 +139,10 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 # Presentations
 
 <ol reversed markdown>
+
+<li markdown>
+Graf, Thomas (2020): **Curbing Feature Coding: Strictly Local Feature Assignment**. Slides of a talk given at *SCiL 2020*, January 2--5, co-located with the LSA 2020. [[pdf]]({static}/doc/talks/Graf20SCiLtalk.pdf) [[details]]({filename}/talks/Graf20SCiLtalk.mdown)
+</li>
 <li markdown>
 Graf, Thomas (2019): **A Subregular Bound on the Complexity of Lexical Quantifiers**. Slides of a talk given at the Amsterdam Colloquium, December 18--20, University of Amsterdam, Amsterdam, Netherlands. [[pdf]]({static}/doc/talks/Graf19ACtalk.pdf) [[details]]({filename}/talks/Graf19ACtalk.mdown)
 </li>

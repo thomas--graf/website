@@ -1,0 +1,35 @@
+Title: Curbing Feature Coding: Strictly Local Feature Assignment
+Author: Thomas Graf
+Date: 2020-01-04
+Category: Presentations
+Tags: subcategorization; constraints; subregular; syntax; features; transductions
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Graf (2017) warns that every syntactic formalism faces a severe overgeneration problem because of the hidden power of subcategorization.
+Any constraint definable in monadic second-order logic can be compiled into the category system so that it is indirectly enforced as part of subcategorization.
+Not only does this kind of feature coding deprive syntactic proposals of their empirical bite, it also undermines computational efforts to limit syntactic formalisms via subregular complexity.
+This paper presents a subregular solution to feature coding.
+Instead of features being a cheap resource that comes for free, features must be assigned by a transduction.
+In particular, category features must be assigned by an input strictly local (ISL) tree-to-tree transduction, defined here for the first time.
+The restriction to ISL transductions correctly rules out various deviant category systems.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf20SCiLtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf20SCiLtalk,
+    author = {Graf, Thomas},
+    title = {Curbing Feature Coding: Strictly Local Feature Assignment},
+    year = {2020},
+    note = {Slides of a talk given at \emph{{SCiL} 2020}, January 2--5, co-located with the {LSA 2020}}
+}
+~~~
