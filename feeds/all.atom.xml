@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2019-12-18T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>A Subregular Bound on the Complexity of Lexical Quantifiers</title><link href="https://thomasgraf.net/output/graf19actalk.html" rel="alternate"></link><published>2019-12-18T00:00:00-05:00</published><updated>2019-12-18T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-12-18:/output/graf19actalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2020-01-04T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>Curbing Feature Coding: Strictly Local Feature Assignment</title><link href="https://thomasgraf.net/output/graf20sciltalk.html" rel="alternate"></link><published>2020-01-04T00:00:00-05:00</published><updated>2020-01-04T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2020-01-04:/output/graf20sciltalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Graf (2017) warns that every syntactic formalism faces a severe overgeneration problem because of the hidden power of subcategorization.
+Any constraint definable in monadic second-order logic can be compiled into the category system so that it is indirectly enforced as part of …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Graf (2017) warns that every syntactic formalism faces a severe overgeneration problem because of the hidden power of subcategorization.
+Any constraint definable in monadic second-order logic can be compiled into the category system so that it is indirectly enforced as part of subcategorization.
+Not only does this kind of feature coding deprive syntactic proposals of their empirical bite, it also undermines computational efforts to limit syntactic formalisms via subregular complexity.
+This paper presents a subregular solution to feature coding.
+Instead of features being a cheap resource that comes for free, features must be assigned by a transduction.
+In particular, category features must be assigned by an input strictly local (&lt;span class="caps"&gt;ISL&lt;/span&gt;) tree-to-tree transduction, defined here for the first time.
+The restriction to &lt;span class="caps"&gt;ISL&lt;/span&gt; transductions correctly rules out various deviant category&amp;nbsp;systems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf20SCiLtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf20SCiLtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Curbing Feature Coding: Strictly Local Feature Assignment}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2020}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at \emph{{SCiL} 2020}, January 2--5, co-located with the {LSA 2020}}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subcategorization"></category><category term="constraints"></category><category term="subregular"></category><category term="syntax"></category><category term="features"></category><category term="transductions"></category></entry><entry><title>A Subregular Bound on the Complexity of Lexical Quantifiers</title><link href="https://thomasgraf.net/output/graf19actalk.html" rel="alternate"></link><published>2019-12-18T00:00:00-05:00</published><updated>2019-12-18T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-12-18:/output/graf19actalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -220,32 +249,4 @@ More precisely, we show that the subregular complexity of adjective inflection i
     &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry><entry><title>Case Assignment in TSL Syntax: A Case Study</title><link href="https://thomasgraf.net/output/vuetal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/vuetal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
-More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Vu, Mai Ha, Nazila Shafiei, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Recent work suggests that the subregular complexity of syntax might be comparable to that of phonology and morphology.
-More specifically, whereas phonological and morphological dependencies are tier-based strictly local over strings, syntactic dependencies are tier-based strictly local over derivation trees.
-However, a broader range of empirical phenomena must be considered in order to solidify this claim.
-This paper investigates various phenomena related to morphological case, and we argue that they, too, are tier-based strictly local.
-Not only do our findings provide empirical support for a kind of computational parallelism across language modules, they also offer a new, computationally unified perspective of structural and lexical case.
-We hope that this paper will enable other researchers to fruitfully study syntactic phenomena from a subregular&amp;nbsp;perspective.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/VuEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;VuEtAl19SCiLposter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Case Assignment in {TSL} Syntax: A Case Study}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="morphosyntax"></category><category term="tiers"></category><category term="derivation trees"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry></feed>
