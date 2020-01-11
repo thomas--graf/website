@@ -7,7 +7,7 @@ save_as: index.html
 <div markdown id="home-splash">
 
 <span markdown id="me-assistant">
-Assistant Professor  
+Associate Professor  
 [Department of Linguistics](https://linguistics.stonybrook.edu/)
 </span>
 
