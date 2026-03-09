@@ -1,0 +1,68 @@
+Metadata-Version: 2.4
+Name: feedgenerator
+Version: 2.2.1
+Summary: Standalone version of django.utils.feedgenerator
+Project-URL: Homepage, https://github.com/getpelican/feedgenerator
+Project-URL: Issue Tracker, https://github.com/getpelican/feedgenerator/issues
+Project-URL: Changelog, https://github.com/getpelican/feedgenerator/blob/main/CHANGELOG.md
+Project-URL: Funding, https://donate.getpelican.com/
+Author-email: Pelican Dev Team <authors@getpelican.com>
+License: Copyright (c) Django Software Foundation and individual contributors.
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without modification,
+        are permitted provided that the following conditions are met:
+        
+            1. Redistributions of source code must retain the above copyright notice,
+               this list of conditions and the following disclaimer.
+        
+            2. Redistributions in binary form must reproduce the above copyright
+               notice, this list of conditions and the following disclaimer in the
+               documentation and/or other materials provided with the distribution.
+        
+            3. Neither the name of Django nor the names of its contributors may be used
+               to endorse or promote products derived from this software without
+               specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+        ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Keywords: atom,feed,rss
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Pelican
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: tzdata; sys_platform == 'win32'
+Description-Content-Type: text/markdown
+
+FeedGenerator
+=============
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/getpelican/feedgenerator/main.yml?branch=main)](https://github.com/getpelican/feedgenerator/actions)
+[![PyPI Version](https://img.shields.io/pypi/v/feedgenerator)](https://pypi.org/project/feedgenerator/)
+[![Downloads](https://img.shields.io/pypi/dm/feedgenerator)](https://pypi.org/project/feedgenerator/)
+![License](https://img.shields.io/pypi/l/feedgenerator?color=blue)
+
+FeedGenerator is a standalone version of Django’s
+[feedgenerator](https://github.com/django/django/blob/master/django/utils/feedgenerator.py)
+module. It has evolved over time and includes numerous enhancements.

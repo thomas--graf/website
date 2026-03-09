@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: typogrify
+Version: 2.1.0
+Summary: Filters to enhance web typography, including support for Django & Jinja templates
+Project-URL: Homepage, https://github.com/justinmayer/typogrify
+Project-URL: Issue Tracker, https://github.com/justinmayer/typogrify/issues
+Project-URL: Changelog, https://github.com/justinmayer/typogrify/blob/main/CHANGELOG.md
+Author-email: Justin Mayer <entroP@gmail.com>, Christian Metts <xian@mintchaos.com>
+License: BSD
+License-File: LICENSE.txt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: <4.0,>=3.9
+Requires-Dist: smartypants>=1.8.3

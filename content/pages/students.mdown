@@ -9,9 +9,9 @@ Author: Thomas Graf
 
 - [Language & Technology (LIN 120)](http://lin120.thomasgraf.net)
 
-- [Mathematical Methods in Linguistics (LIN 539)](http://ln539.thomasgraf.net)
+- [Mathematical Methods in Linguistics (LIN 539)](http://lin539.thomasgraf.net)
 
-- [Parsing and Processing (LIN 630)](http://lin630.thomasgraf.net)
+- [Parsing and Processing (LIN 630)](https://github.com/StonyBrook-Lin630-S18/main/)
 
 - Misc
     - [Old handout](../doc/teaching/mathling1/handout1.pdf) with tips and literature recommendations for budding mathematical linguists
@@ -22,12 +22,14 @@ Author: Thomas Graf
 # Advisees
 
 ## Current
-
-- [Alëna Aksënova](http://www.aaksenova.com/) (SBU, Linguistics)
-- [Aniello De Santo](https://aniellodesanto.github.io/about/) (SBU, Linguistics)
-- Sedigheh (Sophie) Moradi (SBU, Linguistics)
-- Nazila Shafiei (SBU, Linguistics)
+- Matthew Hayden (SBU, Linguistics)
+- Logan Swanson (SBU, Linguistics)
 
 ## Graduated
-
-- [Chong Zhang](https://www.linkedin.com/in/chong-zhang-85b95437) (SBU, Linguistics, PhD 2017)
+- [Kenneth Hanson](https://www.kennethhanson.net/) (SBU, Linguistics, Ph.D. 2025)
+- Nazila Shafiei (SBU, Linguistics, Ph.D. 2022)
+- [Lei Liu](https://www.leiliu.net/) (SBU, Linguistics, Ph.D. 2022)
+- Sedigheh Moradi (SBU, Linguistics, Ph.D. 2021)
+- [Alëna Aksënova](http://www.aaksenova.com/) (SBU, Linguistics, Ph.D. 2020)
+- [Aniello De Santo](https://aniellodesanto.github.io/about/) (SBU, Linguistics, Ph.D. 2020)
+- [Chong Zhang](https://www.linkedin.com/in/chong-zhang-85b95437) (SBU, Linguistics, Ph.D. 2017)
