@@ -1,0 +1,5 @@
+Even though languages can express a wide range of quantifiers, only a small number are ever realized as morphologically simplex determiners: every, no, some, and most.
+This is puzzling because I) most is much more complex than the other three, and II) quantifiers like an even number are simpler than most yet cannot belong to this class.
+Building on concepts from subregular complexity, I present a new way of measuring a quantifier’s complexity in terms of its verification pattern.
+The quantifiers every, no, some, and most all have strictly 2-local (SL-2) verification patterns, but quantifiers like an even number do not.
+This suggest that subregular complexity, and in particular strict locality, plays a crucial role for how much meaning can be packed into morphologically simplex expressions.

@@ -1,0 +1,5 @@
+Based on a formal analysis of the operations Merge and Move, I provide a computational answer to the question why Move might be an integral part of language.
+The answer is rooted in the framework of subregular complexity, which reveals that Merge is most succinctly analyzed in terms of the formal class TSL.
+Any cognitive device that can handle this level of complexity also possesses sufficient resources for Move.
+In fact, Merge and Move are remarkably similar instances of TSL.
+Consequently, Move has little computational or conceptual cost attached to it and comes essentially for free in any grammar that expresses Merge as compactly as possible.

@@ -1,0 +1,7 @@
+Graf (2017) warns that every syntactic formalism faces a severe overgeneration problem because of the hidden power of subcategorization.
+Any constraint definable in monadic second-order logic can be compiled into the category system so that it is indirectly enforced as part of subcategorization.
+Not only does this kind of feature coding deprive syntactic proposals of their empirical bite, it also undermines computational efforts to limit syntactic formalisms via subregular complexity.
+This paper presents a subregular solution to feature coding.
+Instead of features being a cheap resource that comes for free, features must be assigned by a transduction.
+In particular, category features must be assigned by an input strictly local (ISL) tree-to-tree transduction, defined here for the first time.
+The restriction to ISL transductions correctly rules out various deviant category systems.

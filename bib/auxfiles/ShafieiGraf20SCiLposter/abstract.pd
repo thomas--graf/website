@@ -1,0 +1,5 @@
+We provide a formal framework for analyzing syntactic island effects from a subregular perspective.
+Key aspects of the syntactic representation are encoded as strings where precedence represents containment.
+Island effects then are expressed as constraints on the shape of these strings.
+The constraints fit in the class IBSP (Interval-Based Strictly Piecewise), which has been previously explored in subregular phonology.
+Consequently, the characterization of islands in terms of IBSP string constraints not only provides a computational upper bound on the inventory of feasible island effects, but also establishes a surprising link between syntax on the one hand and phonology on the other.

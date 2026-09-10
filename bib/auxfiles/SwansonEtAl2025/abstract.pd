@@ -1,0 +1,6 @@
+We use the MG treebank of Torr (2017) to investigate the conjecture in Graf (2020) that category systems are ISL-2 inferrable.
+A category system is ISL-2 inferrable iff the category feature of every lexical item can be jointly inferred from phonological exponents of both the item itself and either its selecting head or the arguments it selects.
+If correct, this conjecture would greatly limit the overgeneration problem posed by subcategorization mechanisms (Kobele, 2011; Graf, 2011, 2017).
+We find that the conjecture is largely borne out in this data set.
+However, we also observe that it holds even for features that are not expected to be inferrable in this manner, and we demonstrate that inferrability can arise from the assumption that certain distributional properties of the lexicon are Zipfian in nature.
+We conclude that category systems in natural languages may well be ISL-2 inferrable, but that this could be due to extragrammatical factors.

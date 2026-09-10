@@ -1,0 +1,13 @@
+Language has always played a central role in artificial intelligence, yet AI researchers and linguists have rarely seen eye to eye on things, in particular the status of subsymbolic/neural approaches to language.
+After decades of debates, it looks like the subsymbolic approaches have finally emerged victorious.
+Not only are large language models (LLMs) succeeding in incredibly complex real-world tasks, subsymbolic models are also rapidly gaining traction in some areas of theoretical linguistics, e.g.
+lexical semantics.
+This raises the question: will symbolic linguistics be left in the dust, or is this actually an opportunity for meaningful synergy between symbolic and subsymbolic approaches?
+In this talk, I argue for the latter by presenting “subregular syntax” as a concrete example of what such a synergy may look like.
+Subregular syntax is a symbolic approach that combines formal language theory with the Minimalist syntax framework proposed by Noam Chomsky, which grants it a large degree of empirical coverage across a wide range of typologically diverse languages.
+Despite that broad coverage, subregular syntax is a very simple formalism that analyzes all syntactic dependencies in terms of relativized adjacency conditions.
+Even though these conditions are stated over trees, they can actually be reduced to a very specific types of n-grams over strings.
+This opens up a new way of representing sentence structure in neural networks while bringing robust learning algorithms like stochastic gradient descent to Minimalist syntax.
+It also casts doubt on claims in the literature that the behavior of neural networks in specific linguistic tasks, e.g. binding or NPI-licensing, shows that they use tree structure.
+Instead, these findings may be indicative of a network’s ability to use fairly elaborate types of n-grams.
+The careful study of the symbolic approach of subregular syntax thus is an opportunity to deepen our understanding of neural networks while also harnessing their advantages for theoretical linguistics.

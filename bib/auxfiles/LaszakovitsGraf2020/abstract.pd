@@ -1,0 +1,7 @@
+In this paper, we propose a new diagnostic for movement.
+It has been argued in the computational linguistics literature that some constraints can be formalized by path constraints on the sequence of their c-commanders (Graf and Shafiei 2019), and that some constraints can be formalized by the tree configuration they appear in (Graf and Heinz 2015).
+It holds that path constraints are a special case of tree constraints.
+We make the observation that path constraints cannot account for phenomena that have been argued to involve movement of the element requiring licensing, namely for ATB-extraction and parasitic gaps.
+However, the reverse does not hold: adjuncts islands and freezing effects, which also involve movement, can be formalized by path constraints.
+We thus propose the following one-way generalization: Whenever a phenomenon cannot be captured by path constraints, and can be captured by tree constraints, this phenomenon involves movement.
+We contend that this is not surprising given the fact that constraints on the well-formedness of the Move operation cannot be captured by path constraints, and rather must be captured by tree constraints (Graf 2018).
