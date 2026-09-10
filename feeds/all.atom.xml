@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2020-01-04T00:00:00-05:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>Curbing Feature Coding: Strictly Local Feature Assignment</title><link href="https://thomasgraf.net/output/graf20sciltalk.html" rel="alternate"></link><published>2020-01-04T00:00:00-05:00</published><updated>2020-01-04T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2020-01-04:/output/graf20sciltalk.html</id><summary type="html">&lt;div class="authors"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Graf</title><link href="https://thomasgraf.net/" rel="alternate"></link><link href="https://thomasgraf.net/feeds/all.atom.xml" rel="self"></link><id>https://thomasgraf.net/</id><updated>2026-03-23T13:13:23-04:00</updated><subtitle>Computational Linguist at Stony Brook University</subtitle><entry><title>Recursive prosody is not finite-state</title><link href="https://thomasgraf.net/output/dolatiandesantograf2021recursive.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-15T17:26:40-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/dolatiandesantograf2021recursive.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Dolatian, Hossep, Aniello De Santo, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+This paper investigates bounds on the generative capacity of prosodic processes, by focusing on the complexity of recursive prosody in coordination contexts in English (Wagner, 2010).
+Although all phonological processes and most prosodic processes are computationally …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Dolatian, Hossep, Aniello De Santo, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+This paper investigates bounds on the generative capacity of prosodic processes, by focusing on the complexity of recursive prosody in coordination contexts in English (Wagner, 2010).
+Although all phonological processes and most prosodic processes are computationally regular string languages, we show that recursive prosody is not.
+The output string language is instead parallel multiple context-free (Seki et al., 1991).
+We evaluate the complexity of the pattern over strings, and then move on to a characterization over trees that requires the expressivity of multi bottom-up tree transducers.
+In doing so, we provide a foundation for future mathematically grounded investigations of the syntax-prosody&amp;nbsp;interface.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/DolatianDeSantoGraf2021recursive.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@inproceedings&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;dolatian2021recursive&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="k"&gt;Recursive&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;prosody&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;not&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;finite&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;state&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Dolatian&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Hossep&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;De&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Santo&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Aniello&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;booktitle&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Proceedings&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="n"&gt;th&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;SIGMORPHON&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Workshop&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Computational&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Research&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Phonetics&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Phonology&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Morphology&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2021&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Papers"></category><category term="prosody"></category><category term="coordination"></category><category term="transductions"></category><category term="generative capacity"></category></entry><entry><title>Recursive prosody is not finite-state</title><link href="https://thomasgraf.net/output/dolatiandesantograf2021talk.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-23T00:16:41-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/dolatiandesantograf2021talk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Dolatian, Hossep, Aniello De Santo, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+This paper investigates bounds on the generative capacity of prosodic processes, by focusing on the complexity of recursive prosody in coordination contexts in English (Wagner, 2010).
+Although all phonological processes and most prosodic processes are computationally …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Dolatian, Hossep, Aniello De Santo, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+This paper investigates bounds on the generative capacity of prosodic processes, by focusing on the complexity of recursive prosody in coordination contexts in English (Wagner, 2010).
+Although all phonological processes and most prosodic processes are computationally regular string languages, we show that recursive prosody is not.
+The output string language is instead parallel multiple context-free (Seki et al., 1991).
+We evaluate the complexity of the pattern over strings, and then move on to a characterization over trees that requires the expressivity of multi bottom-up tree transducers.
+In doing so, we provide a foundation for future mathematically grounded investigations of the syntax-prosody&amp;nbsp;interface.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@misc&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;DolatianDeSantoGraf2021talk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Dolatian&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Hossep&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;De&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Santo&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Aniello&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="k"&gt;Recursive&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;prosody&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;not&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;finite&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;state&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2021&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;note&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Slides&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;talk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;given&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;at&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;SIGMORPHON&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2021&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;August&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;online&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Presentations"></category><category term="prosody"></category><category term="coordination"></category><category term="transductions"></category><category term="generative capacity"></category></entry><entry><title>Trees probe deeper than strings: an argument from allomorphy</title><link href="https://thomasgraf.net/output/dolatianikawagraf2022.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-15T17:46:40-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/dolatianikawagraf2022.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Dolatian, Hossep, Shiori Ikawa, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Linguists disagree on whether morphological representations should be strings or trees.
+We argue that tree-based views of morphology can provide new insights into morphological complexity even in cases where the posited tree structure closely matches the surface …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+&lt;p&gt;Dolatian, Hossep, Shiori Ikawa, and Thomas&amp;nbsp;Graf&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract"&gt;
+&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
+Linguists disagree on whether morphological representations should be strings or trees.
+We argue that tree-based views of morphology can provide new insights into morphological complexity even in cases where the posited tree structure closely matches the surface string.
+Our argument is based on a subregular case study of morphologically conditioned allomorphy, where the phonological form of some morpheme (the target) is conditioned by the presence of some other morpheme (the trigger) somewhere within the morphosyntactic context.
+The trigger and target can either be linearly adjacent or non-adjacent, and either the trigger precedes the target (inwardly sensitive) or the target precedes the trigger (outwardly sensitive).
+When formalized as string transductions, the only complexity difference is between local and non-local allomorphy.
+Over trees, on the other hand, we also see a complexity difference between inwardly sensitive and outwardly sensitive allomorphy.
+Just as unboundedness assumptions can sometimes tease apart patterns that are equally complex in the finitely bounded case, tree-based representations can reveal differences that disappear over&amp;nbsp;strings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="files"&gt;
+&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/DolatianIkawaGraf2022.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@inproceedings&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;dolatian2022trees&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Trees&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;probe&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;deeper&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;than&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;strings&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;an&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;argument&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;from&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;allomorphy&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Dolatian&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Hossep&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Ikawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Shiori&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;booktitle&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Proceedings&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;19&lt;/span&gt;&lt;span class="n"&gt;th&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;SIGMORPHON&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;workshop&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;computational&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;research&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;phonetics&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;phonology&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;morphology&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;51&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2022&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Papers"></category><category term="morphology"></category><category term="subregular"></category><category term="transductions"></category><category term="allomorphy"></category></entry><entry><title>Curbing Feature Coding: Strictly Local Feature Assignment</title><link href="https://thomasgraf.net/output/graf2020curbing.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-15T17:14:35-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/graf2020curbing.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
@@ -14,239 +98,140 @@ Graf (2017) warns that every syntactic formalism faces a severe overgeneration p
 Any constraint definable in monadic second-order logic can be compiled into the category system so that it is indirectly enforced as part of subcategorization.
 Not only does this kind of feature coding deprive syntactic proposals of their empirical bite, it also undermines computational efforts to limit syntactic formalisms via subregular complexity.
 This paper presents a subregular solution to feature coding.
-Instead of features being a cheap resource that comes for free, features must be assigned by a transduction.
-In particular, category features must be assigned by an input strictly local (&lt;span class="caps"&gt;ISL&lt;/span&gt;) tree-to-tree transduction, defined here for the first time.
-The restriction to &lt;span class="caps"&gt;ISL&lt;/span&gt; transductions correctly rules out various deviant category&amp;nbsp;systems.&lt;/p&gt;
+Instead of features being a cheap resource that comes for free, features
+must be assigned by a transduction.
+In particular, category features must be assigned by an input strictly local (&lt;span class="caps"&gt;ISL&lt;/span&gt;) tree-to-tree transduction, defined here for the first time. The restriction to &lt;span class="caps"&gt;ISL&lt;/span&gt; transductions correctly rules out various deviant category&amp;nbsp;systems.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/Graf20SCiLtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/Graf2020curbing.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf20SCiLtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Curbing Feature Coding: Strictly Local Feature Assignment}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2020}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at \emph{{SCiL} 2020}, January 2--5, co-located with the {LSA 2020}}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subcategorization"></category><category term="constraints"></category><category term="subregular"></category><category term="syntax"></category><category term="features"></category><category term="transductions"></category></entry><entry><title>A Subregular Bound on the Complexity of Lexical Quantifiers</title><link href="https://thomasgraf.net/output/graf19actalk.html" rel="alternate"></link><published>2019-12-18T00:00:00-05:00</published><updated>2019-12-18T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-12-18:/output/graf19actalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@inproceedings&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;graf2020curbing&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Curbing&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;feature&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;coding&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Strictly&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;local&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;feature&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;assignment&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;booktitle&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Proceedings&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Society&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Computation&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Linguistics&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;224&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Papers"></category><category term="Minimalist grammars"></category><category term="syntax"></category><category term="features"></category><category term="transductions"></category><category term="derivation trees"></category></entry><entry><title>Monotonicity in Syntax</title><link href="https://thomasgraf.net/output/graf2020monotonicity.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-22T22:46:19-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/graf2020monotonicity.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
-An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
-Whereas quantifier phrases …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+Extending previous work on monotonicity in morphology and morphosyntax, I argue that some of the most important constraints in syntax can be analyzed in terms of monotonic functions that map spe cific kinds of syntactic representations to fixed, universal hierarchies.
+I cover …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
-An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
-Whereas quantifier phrases such as &lt;em&gt;an even number of&lt;/em&gt; correspond to specific regular languages, &lt;em&gt;every&lt;/em&gt;, &lt;em&gt;no&lt;/em&gt;, &lt;em&gt;some&lt;/em&gt; and &lt;em&gt;not all&lt;/em&gt; stay within the much weaker class of &lt;em&gt;tier-based strictly local&lt;/em&gt; languages (&lt;span class="caps"&gt;TSL&lt;/span&gt;).
-In addition, it seems to hold crosslinguistically that a &lt;span class="caps"&gt;TSL&lt;/span&gt; quantifier may be expressed by a single lexical item only if its tier projection is monotonic.
-This constitutes a novel typological universal that limits how complex a meaning may be stored in a single lexical item.
-&lt;span class="caps"&gt;TSL&lt;/span&gt; is also known to play a central role in phonology, morphology, and syntax, which suggests that subregularity in general and tier-based strict locality in particular may be a computational universal of natural language that surfaces across all its submodules, including&amp;nbsp;semantics.&lt;/p&gt;
+Extending previous work on monotonicity in morphology and morphosyntax, I argue that some of the most important constraints in syntax can be analyzed in terms of monotonic functions that map spe cific kinds of syntactic representations to fixed, universal hierarchies.
+I cover the Ban Against Improper Movement, the Williams Cycle, the Ban Against Improper Case, and omnivorous number.
+The general method of analysis is remarkably similar across all phenomena, which suggests that monotonicity provides a unified perspective on a wide range of phenomena in syntax as well as morphology and morphosyntax.
+I also argue that syntax, thanks to extensive work in computational syntax, provides a unique opportunity to probe whether the prevalence of monotonicity principles in natural language is due to computational complexity considerations.
+Not only, then, is it possible to extend the purview of monotonicity from semantics to syntax, doing so might yield new insights into
+monotonicity that would not be obtainable&amp;nbsp;otherwise.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/Graf19ACtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/Graf2020monotonicity.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19ACtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{A Subregular Bound on the Complexity of Lexical Quantifiers}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides of a talk given at the Amsterdam Colloquium, {D}ecember 18--20, University of Amsterdam, Amsterdam, Netherlands}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="semantics"></category><category term="generalized quantifiers"></category><category term="typology"></category></entry><entry><title>A Subregular Bound on the Complexity of Lexical Quantifiers</title><link href="https://thomasgraf.net/output/graf19ac.html" rel="alternate"></link><published>2019-12-15T00:00:00-05:00</published><updated>2019-12-15T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-12-15:/output/graf19ac.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@inproceedings&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;graf2020monotonicity&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Monotonicity&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;syntax&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;booktitle&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{{&lt;/span&gt;&lt;span class="n"&gt;T&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;singhua&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Interdisciplant&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Workshop&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Logic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Language&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;Meaning&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Monotonicity&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Logic&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Language&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;35&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;53&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;organization&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Springer&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Papers"></category><category term="monotonicity"></category><category term="syntax"></category><category term="typology"></category><category term="ban against improper movement"></category><category term="dependent case"></category><category term="omnivorous number"></category></entry><entry><title>Monotonicity in Syntax</title><link href="https://thomasgraf.net/output/graf2020tllmtalk.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-23T12:58:47-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/graf2020tllmtalk.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
-An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
-Whereas quantifier phrases …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+Extending previous work on monotonicity in morphology and morphosyntax, I argue that some of the most important constraints in syntax can be analyzed in terms of monotonic functions that map specific kinds of syntactic representations to fixed, universal hierarchies.
+I cover the …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Semantic automata theory studies the complexity of generalized quantifiers in terms of the string languages that describe their truth conditions.
-An important point has gone unnoticed so far: for most quantifiers that are determiners, these string languages are &lt;em&gt;subregular&lt;/em&gt;.
-Whereas quantifier phrases such as &lt;em&gt;an even number of&lt;/em&gt; correspond to specific regular languages, &lt;em&gt;every&lt;/em&gt;, &lt;em&gt;no&lt;/em&gt;, &lt;em&gt;some&lt;/em&gt; and &lt;em&gt;not all&lt;/em&gt; stay within the much weaker class of &lt;em&gt;tier-based strictly local&lt;/em&gt; languages (&lt;span class="caps"&gt;TSL&lt;/span&gt;).
-In addition, it seems to hold crosslinguistically that a &lt;span class="caps"&gt;TSL&lt;/span&gt; quantifier may be expressed by a single lexical item only if its tier projection is monotonic.
-This constitutes a novel typological universal that limits how complex a meaning may be stored in a single lexical item.
-&lt;span class="caps"&gt;TSL&lt;/span&gt; is also known to play a central role in phonology, morphology, and syntax, which suggests that subregularity in general and tier-based strict locality in particular may be a computational universal of natural language that surfaces across all its submodules, including&amp;nbsp;semantics.&lt;/p&gt;
+Extending previous work on monotonicity in morphology and morphosyntax, I argue that some of the most important constraints in syntax can be analyzed in terms of monotonic functions that map specific kinds of syntactic representations to fixed, universal hierarchies.
+I cover the Ban Against Improper Movement, the Williams Cycle, the Ban Against Improper Case, and omnivorous number.
+The general method of analysis is remarkably similar across all phenomena, which suggests that monotonicity provides a unified perspective on a wide range of phenomena in syntax as well as morphology and morphosyntax.
+I also argue that syntax, thanks to extensive work in computational syntax, provides a unique opportunity to probe whether the prevalence of monotonicity principles in natural language is due to computational complexity considerations.
+Not only, then, is it possible to extend the purview of monotonicity from semantics to syntax, doing so might yield new insights into
+monotonicity that would not be obtainable&amp;nbsp;otherwise.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/papers/Graf19AC.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/talks/Graf2020TLLMtalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@inproceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19AC&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{A Subregular Bound on the Complexity of Lexical Quantifiers}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;booktitle&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Proceedings of the 22nd {A}msterdam {C}olloquium}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;editor&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Schl\&amp;quot;{o}der, Julian J. and McHugh, Dean and Roelofsen, Floris}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;pages&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{455--464}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="semantics"></category><category term="generalized quantifiers"></category><category term="typology"></category></entry><entry><title>Subregular Linguistics for Linguists</title><link href="https://thomasgraf.net/output/graf19umasstalk.html" rel="alternate"></link><published>2019-11-08T00:00:00-05:00</published><updated>2019-11-08T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-11-08:/output/graf19umasstalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@misc&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Graf2020TLLMtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Monotonicity&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;S&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;yntax&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;note&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Slides&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;talk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;given&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;at&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="k"&gt;Second&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;T&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;singhua&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Interdisciplinary&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Workshop&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;L&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;ogic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;L&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;anguage&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;M&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;eaning&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;TLLM&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;December&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Beijing&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;China&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Presentations"></category><category term="monotonicity"></category><category term="syntax"></category><category term="typology"></category><category term="ban against improper movement"></category><category term="dependent case"></category><category term="omnivorous number"></category></entry><entry><title>The computational unity of Merge and Move</title><link href="https://thomasgraf.net/output/graf2021unity.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-15T17:32:43-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/graf2021unity.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Drawing from computational work that is known as the &lt;strong&gt;subregular program&lt;/strong&gt;, I argue against two received views in linguistics: &amp;#8220;phonology and syntax are very different&amp;#8217; and &amp;#8220;subcategorization is a solved&amp;nbsp;problem&amp;#8221;.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Cognitive parallelism&lt;/strong&gt;&lt;br&gt;
-   Subregular notions of complexity can be applied to strings …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+Based on a formal analysis of the operations Merge and Move, I provide a computational answer to the question why Move might be an integral part of language.
+The answer is rooted in the framework of subregular complexity, which reveals that Merge …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Drawing from computational work that is known as the &lt;strong&gt;subregular program&lt;/strong&gt;, I argue against two received views in linguistics: &amp;#8220;phonology and syntax are very different&amp;#8217; and &amp;#8220;subcategorization is a solved&amp;nbsp;problem&amp;#8221;.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Cognitive parallelism&lt;/strong&gt;&lt;br&gt;
-   Subregular notions of complexity can be applied to strings as well as trees.
-   Doing so reveals that phonology and syntax are remarkably similar (and those parallels even extend into morphology and semantics).
-   For instance, islands and blocking effects are instances of the same computational&amp;nbsp;mechanism.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Subcategorization&lt;/strong&gt;&lt;br&gt;
-   Subcategorization (or c-selection) is rarely studied by linguists, but it is actually a source of tremendous overgeneration.
-   Once again subregular notions of complexity can be used to address this problem.
-   This isn&amp;#8217;t just a mathematical exercise, but makes concrete empirical predictions about the nature of category systems, subcategorization, the status of empty heads, the &lt;span class="caps"&gt;DP&lt;/span&gt;-analysis, &lt;span class="caps"&gt;DM&lt;/span&gt;-style roots, and once again highlights parallels to&amp;nbsp;phonology.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The general upshot is that subregular concepts, despite their computational origin, are intuitive and linguistically fertile: they address conceptual issues, bridge gaps between linguistic subfields, and make concrete empirical predictions.
-Subregular linguistics is just linguistics with some computational flavor sprinkled on&amp;nbsp;top.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt; This talk is 100%&amp;nbsp;formula-free.&lt;/p&gt;
+Based on a formal analysis of the operations Merge and Move, I provide a computational answer to the question why Move might be an integral part of language.
+The answer is rooted in the framework of subregular complexity, which reveals that Merge is most succinctly analyzed in terms of the formal class &lt;span class="caps"&gt;TSL&lt;/span&gt;.
+Any cognitive device that can handle this level of complexity also possesses sufficient resources for Move. In fact, Merge and Move are remarkably similar instances of &lt;span class="caps"&gt;TSL&lt;/span&gt;.
+Consequently, Move has little computational or conceptual cost attached to it and comes essentially for free in any grammar that expresses Merge as compactly as&amp;nbsp;possible.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/Graf19UMasstalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/Graf2021unity.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19UMasstalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Subregular Linguistics for Linguists}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, November 8, University of Massachusetts Amherst, Amherst, Massachusetts}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="phonology"></category><category term="syntax"></category><category term="tiers"></category><category term="islands"></category><category term="subcategorization"></category></entry><entry><title>Features: More Trouble Than They’re Worth?</title><link href="https://thomasgraf.net/output/graf19tromsotalk.html" rel="alternate"></link><published>2019-05-27T00:00:00-04:00</published><updated>2019-05-27T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-05-27:/output/graf19tromsotalk.html</id><summary type="html">&lt;div class="authors"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@article&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;graf2021computational&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;The&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;computational&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;unity&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;M&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;erge&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;M&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;ove&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;journal&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{{&lt;/span&gt;&lt;span class="n"&gt;E&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;volutionary&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;L&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;inguistic&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;T&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;heory&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;volume&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;154&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2021&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;publisher&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;John&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Benjamins&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Publishing&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Company&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Amsterdam&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Philadelphia&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Papers"></category><category term="Minimalist Grammars"></category><category term="syntax"></category><category term="subregular"></category><category term="Merge"></category><category term="movement"></category></entry><entry><title>Diving deeper into subregular syntax</title><link href="https://thomasgraf.net/output/graf2022divingdeeper.html" rel="alternate"></link><published>2026-03-15T00:00:00-04:00</published><updated>2026-03-23T13:13:23-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2026-03-15:/output/graf2022divingdeeper.html</id><summary type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Do contemporary syntactic theories rely on too many features?
-Decades of computational research have culminated in two contradictory&amp;nbsp;answers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Yes, there are too many features because having at least two features is already one too many and brings in undesirable&amp;nbsp;overgeneration.&lt;/li&gt;
-&lt;li&gt;No …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
+In my target paper &lt;i&gt;Subregular linguistics: Bridging theoretical linguistics and formal grammar&lt;/i&gt; I argued that theoretical linguistics and formal grammar, despite major differences in methodology, have a lot to offer to each other, and that the recently emerged subfield of subregular linguistics …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
 &lt;p&gt;Graf,&amp;nbsp;Thomas&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="abstract"&gt;
 &lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Do contemporary syntactic theories rely on too many features?
-Decades of computational research have culminated in two contradictory&amp;nbsp;answers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Yes, there are too many features because having at least two features is already one too many and brings in undesirable&amp;nbsp;overgeneration.&lt;/li&gt;
-&lt;li&gt;No, the number of features is irrelevant because a grammar with no features can be just as powerful as one with thousands of&amp;nbsp;features.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The source of this confusing state of affairs is the intimate relation between features and constraints.
-Features can be replaced by constraints, to a point where the grammar is completely feature-free.
-And constraints can be compiled down into the feature system until no constraints are left and everything is done by feature&amp;nbsp;checking.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Proposition 1&lt;/strong&gt;: Features and constraints are&amp;nbsp;interchangeable.&lt;/p&gt;
-&lt;p&gt;The power to express arbitrary constraints causes massive overgeneration, which must be curtailed.
-There is a substantive body of computational work on how constraints can be limited in a linguistically natural fashion, whereas it is largely unclear how the same can be achieved with restrictions on feature systems.
-I will sketch what options have been explored so far and why constraints are easier to rein in than&amp;nbsp;features.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Proposition 2&lt;/strong&gt;: The power of constraints is easy to restrict, that of features is&amp;nbsp;not.&lt;/p&gt;
-&lt;p&gt;In the absence of meaningful restrictions on features, then, constraint-based accounts should be preferred. 
-I present small case studies on successive-cyclic movement, selection, and morphosyntax that illustrate what this approach looks like in practice and how it can yield new theoretical and empirical&amp;nbsp;insights.&lt;/p&gt;
+In my target paper &lt;i&gt;Subregular linguistics: Bridging theoretical linguistics and formal grammar&lt;/i&gt; I argued that theoretical linguistics and formal grammar, despite major differences in methodology, have a lot to offer to each other, and that the recently emerged subfield of subregular linguistics provides a conduit for knowledge transfer between the two.
+I thank all the authors for their thought-provoking commentaries that greatly enrich the discussion that I hoped to start with the initial paper. 
+Here I focus on some shared themes revolving around subregular syntax: the role of mappings, with Irish wh-agreement as a concrete example; the challenges of linearization, with a new Generalized Ban on Improper Movement derived from subregular limits of linearization; the importance of careful empirical analysis, including a brief discussion of existing work on gradient &lt;span class="caps"&gt;TSL&lt;/span&gt; and its empirical applications; and finally, what exactly it means to say that a specific phenomenon falls within a subregular class like &lt;span class="caps"&gt;TSL&lt;/span&gt;, and why this is orthogonal to the issue of formalisms and&amp;nbsp;metalanguages.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="files"&gt;
 &lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/Graf19Tromsotalk.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
+[&lt;a href="https://thomasgraf.net/doc/papers/Graf2022divingdeeper.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;Graf19Tromsotalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Features: More Trouble Than They&amp;#39;re Worth?}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Invited talk, May 27, Workshop on \emph{Thirty Million Theories of Syntactic Features}, University of Troms\o, Troms\o, Norway}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="constraints"></category><category term="features"></category><category term="subregular"></category><category term="syntax"></category><category term="morphosyntax"></category><category term="subcategorization"></category></entry><entry><title>Diagnosing Movement via the Absence of c-Command Relations</title><link href="https://thomasgraf.net/output/graflaszakovits19plctalk.html" rel="alternate"></link><published>2019-03-23T00:00:00-04:00</published><updated>2019-03-23T00:00:00-04:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-03-23:/output/graflaszakovits19plctalk.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Sabine&amp;nbsp;Laszakovits&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
-Since regulating movement is already known to be beyond the purview of c-strings …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Sabine&amp;nbsp;Laszakovits&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-Based on an earlier finding that almost all c-command dependencies amount to subregular constraints on c-strings, we argue that all exceptions to this generalization involve movement.
-Since regulating movement is already known to be beyond the purview of c-strings, it is only natural that phenomena that deeply interact with movement may require additional mechanisms beyond&amp;nbsp;c-strings.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafLaszakovits19PLCtalk&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Laszakovits, Sabine}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Diagnosing Movement via the Absence of c-Command Relations}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Slides presented at the 43rd Penn Linguistics Colloquium (PLC43), March 22--24,&lt;/span&gt;
-&lt;span class="s"&gt;            University of Pennsylvania, Philadelphia, PA}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="c-command"></category><category term="movement"></category><category term="subregular"></category><category term="tiers"></category></entry><entry><title>C-Command Dependencies as TSL String Constraints</title><link href="https://thomasgraf.net/output/grafshafiei19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/grafshafiei19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
-C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Graf, Thomas, and Nazila&amp;nbsp;Shafiei&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-We provide a general formal framework for analyzing c-command based dependencies in syntax, e.g. binding and &lt;span class="caps"&gt;NPI&lt;/span&gt; licensing, from a subregular perspective.
-C-command relations are represented as strings computed from Minimalist derivation trees, and syntactic dependencies are shown to be input-output tier-based strictly local over such strings.
-The complexity of many syntactic phenomena thus is comparable to dependencies in phonology and&amp;nbsp;morphology.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/GrafShafiei19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;GrafShafiei19SCiLposter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Graf, Thomas and Shafiei, Nazila}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{C-Command Dependencies as {TSL} String Constraints}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Minimalist grammars"></category><category term="subregular"></category><category term="syntax"></category><category term="constraints"></category><category term="c-command"></category><category term="tiers"></category></entry><entry><title>The Computational Cost of Generalizations: An Example from Micromorphology</title><link href="https://thomasgraf.net/output/moradietal19scilposter.html" rel="alternate"></link><published>2019-01-05T00:00:00-05:00</published><updated>2019-01-05T00:00:00-05:00</updated><author><name>Thomas Graf</name></author><id>tag:thomasgraf.net,2019-01-05:/output/moradietal19scilposter.html</id><summary type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-The central concern of linguistics is to succinctly state generalizations.
-But as numerous linguists have pointed out over the years, generalizations do not always come for free.
-A formalism&amp;#8217;s ability to account for the data does …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="authors"&gt;
-&lt;p&gt;Moradi, Sedigheh, Alëna Aksënova, and Thomas&amp;nbsp;Graf&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="abstract"&gt;
-&lt;p&gt;&lt;span id="abstract-title"&gt;Abstract&lt;/span&gt;
-The central concern of linguistics is to succinctly state generalizations.
-But as numerous linguists have pointed out over the years, generalizations do not always come for free.
-A formalism&amp;#8217;s ability to account for the data does not entail that it can express the relevant generalizations about the data.
-We illustrate this point with a computational case study in micro-morphology.
-More precisely, we show that the subregular complexity of adjective inflection in Noon varies depending on what generalizations one wishes to&amp;nbsp;capture.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="files"&gt;
-&lt;p&gt;&lt;span id="files-title"&gt;Files&lt;/span&gt;
-[&lt;a href="https://thomasgraf.net/doc/talks/MoradiEtAl19SCiLposter.pdf"&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nc"&gt;@misc&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;MoradiEtAl19SCiLposter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;author&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Moradi, Sedigheh and Aks\&amp;quot;{e}nova, Al\&amp;quot;{e}na and Graf, Thomas}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;title&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{The Computational Cost of Generalizations: An Example from Micromorphology}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;year&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{2019}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="na"&gt;note&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;{Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="subregular"></category><category term="tiers"></category><category term="morphology"></category><category term="explanatory adequacy"></category></entry></feed>
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="n"&gt;bibtex&lt;/span&gt;
+&lt;span class="nv"&gt;@article&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;graf2022diving&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Diving&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;deeper&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;into&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;subregular&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;syntax&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Graf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Thomas&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;journal&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{{&lt;/span&gt;&lt;span class="n"&gt;T&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;heoretical&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;L&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="n"&gt;inguistics&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;volume&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;48&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;245&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="mi"&gt;278&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2022&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;publisher&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;De&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Gruyter&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Papers"></category><category term="Minimalist grammars"></category></entry></feed>
