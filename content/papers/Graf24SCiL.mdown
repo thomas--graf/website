@@ -1,0 +1,27 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{Graf24SCiL,
+  author    = {Graf, Thomas},
+  title     = {Morphologically Simplex {D}-quantifiers are Strictly 2-Local},
+  year      = {2024},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		       {Linguistics} ({SCiL}) 2024},
+  pages     = {32--42},
+  doi       = {10.7275/scil.2127},
+  openaccess = {gold},
+}
+~~~

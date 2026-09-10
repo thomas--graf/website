@@ -1,0 +1,23 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{DolatianEtAl21Sigmorphontalk,
+    title = {Recursive Prosody is not Finite-State},
+    author={Dolatian, Hossep and De Santo, Aniello and Graf, Thomas},
+    year={2021},
+    note = {Slides of a talk given at \emph{{SIGMORPHON} 2021}, August 5, online},
+}
+~~~

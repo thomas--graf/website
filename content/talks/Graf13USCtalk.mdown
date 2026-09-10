@@ -1,11 +1,11 @@
-Title: Of Tops and Bottoms: The Algebra of Person Case Constraints
+Title: 
 Author: Thomas Graf
 Date: 2013-01-18
 Category: Presentations
 Tags: substantive universals; person case constraint; algebra; person hierarchy; lattices; feature geometry
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

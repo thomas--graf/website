@@ -1,11 +1,11 @@
-Title: Tiers and Relativized Locality Across Language Modules
+Title: 
 Author: Thomas Graf
 Date: 2018-07-09
 Category: Presentations
 Tags: syntax; phonology; morphology; Minimalist grammars; subregular; tiers; locality
 
 <div markdown class="authors">
-Graf, Thomas, Alëna Aksënova, Hyunah Baek, Aniello De Santo, Hossep Dolatian, Sedigheh Moradi, Jon Rawski, Suji Yang, and Jeffrey Heinz
+
 </div>
 
 <div markdown class="abstract">
@@ -42,6 +42,7 @@ Among other things, this entails that the linguistic notion of relativized local
               Yang, Suji and
               Heinz, Jeffrey},
     title = {Tiers and Relativized Locality Across Language Modules},
+    author+an = {2=sbu;3=sbu;4=sbu;5=sbu;6=sbu;7=sbu;7=sbu;8=sbu},
     year = {2018},
     note = {Slides of a talk given at the 1-day workshop {P}arallels Between Phonology and Syntax, {J}uly 9, {M}eertens {I}nstituut, {A}msterdam, {N}etherlands}
 }

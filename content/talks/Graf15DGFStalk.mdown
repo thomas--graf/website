@@ -1,11 +1,11 @@
-Title: A Computational Guide to the Dichotomy of Features and Constraints
+Title: 
 Author: Thomas Graf
 Date: 2015-03-05
 Category: Presentations
 Tags: syntax; Minimalist grammars; model-theoretic syntax; subcategorization; features; constraints; overgeneration
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

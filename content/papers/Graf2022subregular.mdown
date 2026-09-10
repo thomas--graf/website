@@ -1,0 +1,36 @@
+Title: Subregular linguistics: bridging theoretical linguistics and formal grammar
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: Minimalist grammars; first-order logic; formal grammar; islands; phonology; subregular; syntax
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Subregular linguistics is a fairly new approach that seeks a deeper understanding of language by combining the rigor of formal grammar with the empirical sophistication of theoretical linguistics.
+The approach started in phonology but has since branched out to morphology and even syntax, unearthing unexpected parallels between these three domains of language.
+In this paper, I argue based on these results that subregular linguistics has a lot to offer to both fields.
+Subregular linguistics may be the ideal conduit for knowledge transfer between these two communities.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/Graf2022subregular.pdf)]
+</div>
+
+~~~
+:::bibtex
+@article{graf2022subregular,
+  title={Subregular linguistics: bridging theoretical linguistics and formal grammar},
+  author={Graf, Thomas},
+  journal={{T}heoretical {L}inguistics},
+  volume={48},
+  number={3-4},
+  pages={145--184},
+  year={2022},
+  publisher={De Gruyter}
+}
+~~~

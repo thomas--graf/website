@@ -1,11 +1,11 @@
-Title: Subregular Linguistics for Linguists
+Title: 
 Author: Thomas Graf
 Date: 2019-11-08
 Category: Presentations
 Tags: subregular; phonology; syntax; tiers; islands; subcategorization
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

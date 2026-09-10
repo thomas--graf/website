@@ -1,67 +1,12 @@
 Title: Output
 Author: Thomas Graf
 
+This page is automatically generated, and the script is currently broken.
+For publications since 2020, please check my CV or the News section.
+
 # Publications
 
 <ol reversed markdown>
-<li markdown>
-Graf, Thomas (2025). **The dose makes the poison: Chesi’s vision and subregular syntax**. *Italian Journal of Linguistics* 37. 85–98. doi:[10.26346/1120-2726-241](https://doi.org/10.26346/1120-2726-241). [[pdf]]({static}/doc/papers/Graf2025chesi.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas, and Kenneth Hanson (2025). **Automata for subregular syntax: syntax with strings attached**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2025*. doi:[10.7275/scil.3184](https://doi.org/10.7275/scil.3184). [[pdf]]({static}/doc/papers/GrafHanson2025automata.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Swanson, Logan, Kenneth Hanson, and Thomas Graf (2025). **Are syntactic categories ISL-2 inferrable? A corpus study**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2025*. doi:[10.7275/scil.3170](https://doi.org/10.7275/scil.3170). [[pdf]]({static}/doc/papers/SwansonEtAl2025.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2024). **Morphologically simplex D-quantifiers are strictly 2-local**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2024*, 32–42. doi:[10.7275/scil.2127](https://doi.org/10.7275/scil.2127). [[pdf]]({static}/doc/papers/Graf2024scil.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Aksënova, Alëna, Jonathan Rawski, Thomas Graf, and Jeffrey Heinz (2024). **The computational power of harmonic forms**. In Harry van der Hulst (ed.), *Handbook of Vowel Harmony*, 437–451. Oxford, UK: Oxford University Press. doi:[10.1093/oxfordhb/9780198826804.013.34](https://doi.org/10.1093/oxfordhb/9780198826804.013.34). [[details]]({filename})
-</li>
-<li markdown>
-Torres, Charles, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). **Modeling island effects with probabilistic tier-based strictly local grammars over trees**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2023*, 155–164. doi:[10.7275/nz4q-6b09](https://doi.org/10.7275/nz4q-6b09). [[pdf]]({static}/doc/papers/TorresEtAl2023.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2023). **Subregular tree transductions, movement, copies, traces, and the ban on improper
-movement**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2023*, 289–299. doi:[10.7275/tk1n-q855](https://doi.org/10.7275/tk1n-q855). [[pdf]]({static}/doc/papers/Graf2023boim.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2022). **Diving deeper into subregular syntax**. *Theoretical Linguistics* 48. 245–278. doi:[10.1515/tl-2022-2043](https://doi.org/10.1515/tl-2022-2043). [[pdf]]({static}/doc/papers/Graf2022divingdeeper.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2022). **Subregular linguistics: bridging theoretical linguistics and formal grammar**. *Theoretical Linguistics* 48. 145–184. doi:[10.1515/tl-2022-2037](https://doi.org/10.1515/tl-2022-2037). [[pdf]]({static}/doc/papers/Graf2022subregular.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Dolatian, Hossep, Shiori Ikawa, and Thomas Graf (2022). **Trees probe deeper than strings: an argument from allomorphy**. In *Proceedings of the 19th SIGMORPHON workshop on computational research in phonetics, phonology, and morphology*, 51–60. Seattle, Washington: Association for Computational Linguistics. doi:[10.18653/v1/2022.sigmorphon-1.6](https://doi.org/10.18653/v1/2022.sigmorphon-1.6). [[pdf]]({static}/doc/papers/DolatianIkawaGraf2022.pdf) [[details]]({filename})
-<li markdown>
-Graf, Thomas (2022). **Typological implications of tier-based strictly local movement**. *Proceedings of the
-Society for Computation in Linguistics (SCiL) 2022*, 184–193. doi:[10.7275/gb65-Ht31](https://doi.org/10.7275/gb65-Ht31). [[pdf]]({static}/doc/papers/Graf2021typological.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2021). **The computational unity of Merge and Move**. *Evolutionary Linguistic Theory* 3. 154–180. doi:[10.1075/elt.00032.gra](https://doi.org/10.1075/elt.00032.gra). [[pdf]]({static}/doc/papers/Graf2021unity.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Pasternak, Robert, and Thomas Graf (2021). **Cyclic scope and processing difficulty in a Minimalist parser**. *Glossa* 6.1–34. doi:[10.5334/gjgl.1209](https://doi.org/10.5334/gjgl.1209). [[pdf]]({static}/doc/papers/PasternakGraf2021.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Dolatian, Hossep, Aniello De Santo, and Thomas Graf (2021). **Recursive prosody is not finite-state**. In *Proceedings of SIGMORPHON 2021*, 11–22. doi:[10.18653/v1/2021.sigmorphon-1.2](https://doi.org/10.18653/v1/2021.sigmorphon-1.2). [[pdf]]({static}/doc/papers/DolatianDeSantoGraf2021recursive.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas, and Kalina Kostyszyn (2021). **Multiple wh-movement is not special: the subregular complexity of persistent features in Minimalist grammars**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2021*, 275–285. doi:[10.7275/2dfv-v219](https://doi.org/10.7275/2dfv-v219). [[pdf]]({static}/doc/papers/GrafKostyszyn2021.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2020). **Curbing feature coding: Strictly local feature assignment**. In *Proceedings of the Society for Computation in Linguistics (SCiL) 2020*, 362–371. doi:[10.7275/f7y5-xz32](https://doi.org/10.7275/f7y5-xz32). [[pdf]]({static}/doc/papers/Graf2020curbing.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Shafiei, Nazila, and Thomas Graf (2020). **The subregular complexity of syntactic islands**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2020*, 272–281. doi:[10.7275/Scil.1202](https://doi.org/10.7275/Scil.1202). [[pdf]]({static}/doc/papers/ShafieiGraf2020.pdf) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2020). **Monotonicity in syntax**. In Dun Deng, Fenrong Liu, Mingming Liu & Dag Westerståhl (eds.), *Monotonicity in logic and language*, Vol. 12564 (Lecture Notes in Computer Science), 35–53. Berlin, Heidelberg: Springer. doi:[10.1007/978-3-662-62843-0_3](https://doi.org/10.1007/978-3-662-62843-0_3). [[pdf]]({static}/doc/papers/Graf2020monotonicity.pdf)[[details]]({filename})
-</li>
-<li markdown>
-Laszakovits, Sabine and Thomas Graf (2020). **Diagnosing movement via the absence of c-command relations**. In *University of Pennsylvania working papers in linguistics*, Vol. 26, 135–144. Article 16. [[pdf]]({static}/doc/papers/LaszakovitsGraf2020.pdf) [[details]]({filename})
-</li>
 <li markdown>
 Graf, Thomas (2019): **A Subregular Bound on the Complexity of Lexical Quantifiers**. *Proceedings of the 22nd Amsterdam Colloquium*, ed. by Julian J. Schlöder, Dean McHugh, and Floris Roelofsen, 455--464. [[pdf]]({static}/doc/papers/Graf19AC.pdf) [[details]]({filename}/papers/Graf19AC.mdown)
 </li>
@@ -72,16 +17,13 @@ Vu, Mai Ha, Nazila Shafiei, and Thomas Graf (2019): **Case Assignment in TSL Syn
 Graf, Thomas, and Nazila Shafiei (2019): **C-Command Dependencies as TSL String Constraints**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2019*, ed. by Gaja Jarosz, Max Nelson, Brendan O'Connor, and Joe Pater, 205--215. [[pdf]]({static}/doc/papers/GrafShafiei19SCiL.pdf) [[details]]({filename}/papers/GrafShafiei19SCiL.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2019): **Monotonicity as an Effective Theory of Morphosyntactic Variation**. *Journal of Language Modelling* 7.3-–47. doi:[10.15398/jlm.v7i2.211](https://doi.org/10.15398/jlm.v7i2.211).[[pdf]]({static}/doc/papers/Graf18JLM.pdf) [[details]]({filename}/papers/Graf18JLM.mdown)
+Graf, Thomas (2019): **Monotonicity as an Effective Theory of Morphosyntactic Variation**. *Journal of Language Modelling*. to appear. [[pdf]]({static}/doc/papers/Graf18JLM.pdf) [[details]]({filename}/papers/Graf18JLM.mdown)
 </li>
 <li markdown>
-Graf, Thomas, and Aniello De Santo (2019): **Sensing Tree Automata as a Model of Syntactic Dependencies**. *Proceedings of the 16th Meeting on the Mathematics of Language*, 12--26. Association for Computational Linguistics: Toronto, Canada. [[pdf]]({static}/doc/papers/GrafDeSanto2019.pdf) [[details]]({filename}/papers/GrafDeSanto19MOL.mdown)
+Graf, Thomas, and Aniello De Santo (2019): **Sensing Tree Automata as a Model of Syntactic Dependencies**. *Proceedings of the 16th Meeting on the Mathematics of Language*, 12--26. Association for Computational Linguistics: Toronto, Canada. [[details]]({filename}/papers/GrafDeSanto19MOL.mdown)
 </li>
 <li markdown>
-De Santo, Aniello, and Thomas Graf (2019): **Structure Sensitive Tier Projection: Applications and Formal Properties**. *Formal Grammar*, ed. by Raffaella Bernardi, Gregory Kobele, and Sylvain Pogodalla, 35--50. Springer: Berlin, Heidelberg. doi:[10.1007/978-3-662-59648-7_3](https://doi.org/10.1007/978-3-662-59648-7_3). [[pdf]]({static}/doc/papers/DeSantoGraf2019.pdf) [[details]]({filename}/papers/DeSantoGraf19FG.mdown)
-</li>
-<li markdown>
-Graf, Thomas (2018). **Locality domains and phonological c-command over strings**. In *Nels 48: Proceedings of the Forty-Eighth Annual Meeting of the North East Linguistic Society*. Vol. 1. 257–270. Amherst, MA: GLSA. [[pdf]]({static}/doc/papers/Graf18NELS.pdf) [[details]]({filename})
+De Santo, Aniello, and Thomas Graf (2019): **Structure Sensitive Tier Projection: Applications and Formal Properties**. *Formal Grammar*, ed. by Raffaella Bernardi, Gregory Kobele, and Sylvain Pogodalla, 35--50. Springer: Berlin, Heidelberg. doi:[10.1007/978-3-662-59648-7_3](https://doi.org/10.1007/978-3-662-59648-7_3). [[details]]({filename}/papers/DeSantoGraf19FG.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2018): **Grammar Size and Quantitative Restrictions on Movement**. *Proceedings of the Society for Computation in Linguistics (SCiL) 2018*, 23--33. doi:[10.7275/R5348HJ8](https://doi.org/10.7275/R5348HJ8). [[pdf]]({static}/doc/papers/Graf17SCiL.pdf) [[details]]({filename}/papers/Graf17SCiL.mdown)
@@ -199,48 +141,6 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 # Presentations
 
 <ol reversed markdown>
-<li markdown>
-Graf, Thomas (2024). **Morphologically simplex D-quantifiers are strictly 2-local**. Slides of a talk given at *SCiL 2024*, June 27–29, UC Irvine, Irvine, California. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-Graf, Thomas (2023). **Linguistics and symbolic computation in a world of large language models**. Invited talk, December 20, Austrian Research Institute for Artificial Intelligence (OFAI), Vienna, Austria. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-<li markdown>
-Graf, Thomas (2023). **Formal and substantive universals across language modules**. Invited talk, January 31, Surrey Linguistics Circle, Surrey, United Kingdom. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2023). **Subregular tree transductions, movement, copies, traces, and the ban on improper movement**. Slides of a talk given at *SCiL 2023*, June 15–17, University of Massachusetts Amherst, Amherst, Massachusetts. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Torres, Charles, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). **Modeling island effects with probabilistic tier-based strictly local grammars over trees**. Slides of a talk given at *SCiL 2023*, June 15–17, University of Massachusetts Amherst, Amherst, Massachusetts. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2022). **Syntactic tiers: empirical applications and challenges**. Invited talk, November 11, NYU, New York, New York. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2022). **Typological implications of tier-based strictly local movement**. Slides of a talk given at *SCiL 2022*, February 7–9, online. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Hossep, Dolatian, Aniello De Santo, and Thomas Graf (2021). **Recursive prosody is not finite-state**. Slides of a talk given at *SIGMORPHON 2021*, August 5, online. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2021). **Monotonicity as a high-level principle of grammar**. Invited talk, July 16, University of
-Leipzig, Leipzig, Germany. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2021). **Monotonicity as a third factor in syntax and morphology**. Invited talk, May 7, MIT, Boston, Massachusetts. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2021). **A computational Minimalist program for syntax and sentence processing**. Invited talk,
-April 8, CUNY Graduate School, New York City, New York. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas, and Kalina Kostyszyn (2021). **Multiple wh-movement is not special: the subregular complexity of persistent features in Minimalist grammars**. Slides of a talk given at *SCiL 2021*, February 15–19, online. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Graf, Thomas (2020). **Monotonicity in syntax**. Slides of a talk given at the *Second Tsinghua Interdisciplinary Workshop on Logic, Language, and Meaning (TLLM 2020)*, December 17–20, Beijing, China. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
-<li markdown>
-Shafiei, Nazila, and Thomas Graf (2020). **The subregular complexity of syntactic islands**. Poster presented at *SCiL 2020*, January 2–5, co-located with the LSA 2020. [[pdf]]({static}/doc/papers/) [[details]]({filename})
-</li>
 <li markdown>
 Graf, Thomas (2020): **Curbing Feature Coding: Strictly Local Feature Assignment**. Slides of a talk given at *SCiL 2020*, January 2--5, co-located with the LSA 2020. [[pdf]]({static}/doc/talks/Graf20SCiLtalk.pdf) [[details]]({filename}/talks/Graf20SCiLtalk.mdown)
 </li>

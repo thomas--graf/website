@@ -1,11 +1,11 @@
-Title: Adjunction to Movement Paths: Floating Quantifiers as the Little Brother of Parasitic Gaps
+Title: 
 Author: Thomas Graf
 Date: 2018-10-07
 Category: Presentations
 Tags: phonology; syntax; locality; subregular; c-command
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

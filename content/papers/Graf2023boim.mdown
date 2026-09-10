@@ -1,0 +1,36 @@
+Title: Subregular tree transductions, movement, copies, traces, and the ban on improper movement
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: Minimalist grammars; subregular; movement; ban on improper movement; transductions; syntax
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Extending prior work in Graf (2018, 2020, 2022c), I show that movement is tier-based strictly local (TSL) even if one analyzes it as a transformation, i.e. a tree transduction from derivation trees to output trees.
+I define input strictly local (ISL) tree-to-tree transductions with (lexical) TSL tests as a tier-based extension of ISL tree-to-tree transductions.
+TSL tests allow us to attach each mover to all its landing sites.
+In general, this class of transductions fails to attach each mover to its final landing site to the exclusion of all its intermediate landing sites, which is crucial for producing output trees with the correct string yield.
+The problem is avoided, though, if syntax enforces a variant of the Ban on Improper Movement.
+Subregular complexity thus provides a novel motivation for core restrictions on movement while also shedding new light on the choice between copies and traces in syntax.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/Graf2023boim.pdf)]
+</div>
+
+~~~
+:::bibtex
+@inproceedings{graf2023subregular,
+  title={Subregular tree transductions, movement, copies, traces, and the ban on improper movement},
+  author={Graf, Thomas},
+  booktitle={Proceedings of the {S}ociety for {C}omputation in {L}inguistics 2023},
+  pages={289--299},
+  year={2023}
+}
+
+~~~

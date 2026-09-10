@@ -1,11 +1,11 @@
-Title: Is Syntactic Binding Rational?
+Title: 
 Author: Thomas Graf
 Date: 2012-09-26
 Category: Presentations
 Tags: binding; Principle B; finite-state; typology; sign language; English; German
 
 <div markdown class="authors">
-Graf, Thomas, and Natasha Abner
+
 </div>
 
 <div markdown class="abstract">

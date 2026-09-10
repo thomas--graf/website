@@ -1,11 +1,11 @@
-Title: Models of Adjunction in Minimalist Grammars
+Title: 
 Author: Thomas Graf
 Date: 2014-08-16
 Category: Papers
 Tags: Minimalist grammars; adjunction; model-theoretic syntax; MSO; derivation trees; subregular hierarchy
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -26,9 +26,9 @@ The closure of Minimalist derivation tree languages under intersection with regu
 :::bibtex
 @InProceedings{Graf14FG,
   author	= {Graf, Thomas},
-  title		= {Models of Adjunction in {M}inimalist Grammars},
+  title		= {Models of Adjunction in {Minimalist} Grammars},
   year		= {2014},
-  booktitle	= {{F}ormal {G}rammar 2014},
+  booktitle	= {{Formal} {Grammar} 2014},
   pages		= {52--68},
   editor	= {Morrill, Glynn and Muskens, Reinhard and Osswald, Rainer
 		  and Richter, Frank},
@@ -36,7 +36,7 @@ The closure of Minimalist derivation tree languages under intersection with regu
   series	= {Lecture Notes in Computer Science},
   address	= {Heidelberg},
   publisher	= {Springer},
-  doi       = {10.1007/978-3-662-44121-3_4},
-  url = {https://doi.org/10.1007/978-3-662-44121-3_4},
+  doi		= {10.1007/978-3-662-44121-3_4},
+  url		= {https://doi.org/10.1007/978-3-662-44121-3_4}
 }
 ~~~

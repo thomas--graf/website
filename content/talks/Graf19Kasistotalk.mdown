@@ -1,11 +1,11 @@
-Title: Working the Tail: Improving UX by Optimizing Low-Frequency Items
+Title: 
 Author: Thomas Graf
-Date: 2019-01-01
+Date: -01-01
 Category: Presentations
 Tags: 
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="files">

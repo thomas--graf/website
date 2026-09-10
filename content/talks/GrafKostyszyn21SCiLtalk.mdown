@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{GrafKostyszyn21SCiLtalk,
+    author    = {Graf, Thomas and Kostyszyn, Kalina},
+    author+an = {2=sbu},
+    title     = {Multiple Wh-Movement is not Special: The Subregular Complexity of Persistent Features in {M}inimalist Grammars},
+    year      = {2021},
+    note = {Slides of a talk given at \emph{{SCiL} 2021}, February 15--19, online},
+}
+~~~

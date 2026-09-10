@@ -22,7 +22,7 @@ Author: Thomas Graf
 # Advisees
 
 ## Current
-- Matthew Hayden (SBU, Linguistics)
+- [Matthew Hayden](https://www.matthewhayden.cv/) (SBU, Linguistics)
 - Logan Swanson (SBU, Linguistics)
 
 ## Graduated

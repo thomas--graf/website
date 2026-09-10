@@ -1,11 +1,11 @@
-Title: Locality and the Complexity of Minimalist Derivation Tree Languages
+Title: 
 Author: Thomas Graf
 Date: 2011-08-06
 Category: Presentations
 Tags: Minimalist grammars; locality; subregular hierarchy; first-order logic; model-theoretic syntax; tree automata
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

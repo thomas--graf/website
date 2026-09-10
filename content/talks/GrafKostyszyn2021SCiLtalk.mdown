@@ -1,0 +1,33 @@
+Title: Multiple Wh-Movement is not Special: The Subregular Complexity of Persistent Features in Minimalist Grammars
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Presentations
+Tags: Minimalist grammars; syntax; subregular; features; movement
+
+<div markdown class="authors">
+Graf, Thomas, and Kalina Kostyszyn
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Minimalist grammars have been criticized for their inability to analyze successive cyclic movement and multiple wh-movement in a manner that is faithful to the Minimalist literature.
+Persistent features have been proposed in the literature as a potential remedy (Stabler, 2011; Laszakovits, 2018).
+We show that not all persistent features are alike.
+The persistent features involved in multiple wh-movement do not increase subregular complexity, making this phenomenon appear very natural from the perspective of MGs.
+The persistent features in successive-cyclic movement, on the other hand, change the subregular nature of movement, favoring an alternative treatment along the lines of Kobele (2006).
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/GrafKostyszyn2021SCiLtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{GrafKostyszyn2021SCiLtalk,
+    author = {Graf, Thomas, and Kalina Kostyszyn},
+    title = {Multiple {W}h-Movement is not Special: The Subregular Complexity of Persistent Features in {M}inimalist {G}rammars},
+    year = {2021},
+    note = {Slides of a talk given at {SCiL} 2021, February 15--19, online}
+}
+~~~

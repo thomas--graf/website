@@ -1,11 +1,11 @@
-Title: Rethinking Transderivationality
+Title: 
 Author: Thomas Graf
 Date: 2010-10-22
 Category: Presentations
 Tags: constraints; transderivationality; optimality theory; Focus Economy; Merge-over-Move; transducers
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

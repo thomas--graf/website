@@ -1,11 +1,11 @@
-Title: Evaluating Evaluation Metrics for Minimalist Parsing
+Title: 
 Author: Thomas Graf
 Date: 2014-06-26
 Category: Presentations
 Tags: Minimalist grammars; parsing; relative clauses; embedding
 
 <div markdown class="authors">
-Graf, Thomas, and Bradley Marcinek
+
 </div>
 
 <div markdown class="abstract">
@@ -24,6 +24,7 @@ We investigate the predictions these four metrics make for a number of relative 
 :::bibtex
 @Misc{GrafMarcinek14CMCLtalk,
   author	= {Graf, Thomas and Marcinek, Bradley},
+  author+an = {2=sbu},
   title		= {Evaluating Evaluation Metrics for {M}inimalist Parsing},
   year		= {2014},
   note		= {Slides for a talk given at Cognitive Modeling and

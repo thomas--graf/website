@@ -1,0 +1,34 @@
+Title: Monotonicity in Syntax
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Presentations
+Tags: monotonicity; syntax; typology; ban against improper movement; dependent case; omnivorous number
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Extending previous work on monotonicity in morphology and morphosyntax, I argue that some of the most important constraints in syntax can be analyzed in terms of monotonic functions that map specific kinds of syntactic representations to fixed, universal hierarchies.
+I cover the Ban Against Improper Movement, the Williams Cycle, the Ban Against Improper Case, and omnivorous number.
+The general method of analysis is remarkably similar across all phenomena, which suggests that monotonicity provides a unified perspective on a wide range of phenomena in syntax as well as morphology and morphosyntax.
+I also argue that syntax, thanks to extensive work in computational syntax, provides a unique opportunity to probe whether the prevalence of monotonicity principles in natural language is due to computational complexity considerations.
+Not only, then, is it possible to extend the purview of monotonicity from semantics to syntax, doing so might yield new insights into
+monotonicity that would not be obtainable otherwise.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf2020TLLMtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf2020TLLMtalk,
+    author = {Graf, Thomas},
+    title = {Monotonicity in {S}yntax},
+    year = {2020},
+    note = {Slides of a talk given at the *Second {T}singhua Interdisciplinary Workshop on {L}ogic, {L}anguage, and {M}eaning ({TLLM} 2020)*, December 17--20, Beijing, China}
+}
+~~~

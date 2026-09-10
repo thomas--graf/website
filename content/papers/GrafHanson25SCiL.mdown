@@ -1,0 +1,28 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{GrafHanson25SCiL,
+  author    = {Graf, Thomas and Hanson, Kenneth},
+  author+an = {2=sbu},
+  title     = {Automata for Subregular Syntax: Syntax With Strings Attached},
+  year      = {2025},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		       {Linguistics} ({SCiL}) 2025},
+  article   = {23},
+  doi       = {10.7275/scil.3184},
+  openaccess = {gold},
+}
+~~~

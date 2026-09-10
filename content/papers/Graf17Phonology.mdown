@@ -1,11 +1,11 @@
-Title: The Power of Locality Domains in Phonology
+Title: 
 Author: Thomas Graf
 Date: 2017-05-24
 Category: Papers
 Tags: phonology; subregular; locality; formal language theory; learnability
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -26,14 +26,14 @@ It is also shown that SP grammars with interval-based domains are theoretically 
 
 ~~~
 :::bibtex
-@article{Graf17Phonology,
-  author = {Graf, Thomas},
-  title = {The Power of Locality Domains in Phonology},
-  year = {2017},
-  journal = {Phonology},
-  volume = {34},
-  pages = {385--405},
-  doi = {10.1017/S0952675717000197},
-  url = {https://dx.doi.org/10.1017/S0952675717000197}
+@Article{Graf17Phonology,
+  author	= {Graf, Thomas},
+  title		= {The Power of Locality Domains in Phonology},
+  year		= {2017},
+  journal	= {Phonology},
+  volume	= {34},
+  pages		= {385--405},
+  doi		= {10.1017/S0952675717000197},
+  url		= {https://dx.doi.org/10.1017/S0952675717000197}
 }
 ~~~

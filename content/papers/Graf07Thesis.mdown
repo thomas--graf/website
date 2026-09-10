@@ -1,11 +1,11 @@
-Title: From Vagueness to Disaster: On the Intricacies of Feature Checking
+Title: 
 Author: Thomas Graf
 Date: 2007-06-01
 Category: Papers
 Tags: model-theoretic syntax; binding; feature checking; Minimalist grammars
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

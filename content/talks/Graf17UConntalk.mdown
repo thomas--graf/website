@@ -1,11 +1,11 @@
-Title: Fragments of First-Order Logic for Linguistic Structures
+Title: 
 Author: Thomas Graf
 Date: 2017-04-24
 Category: Presentations
 Tags: phonology; morphology; syntax; semantics; morphosemantics; subregular hierarchy; logic; tiers;
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

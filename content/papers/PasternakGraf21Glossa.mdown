@@ -1,0 +1,28 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@article{PasternakGraf21Glossa,
+  author   = {Pasternak, Robert and Graf, Thomas},
+  author+an = {1=sbu},
+  title    = {Cyclic Scope and Processing Difficulty in a {Minimalist} Parser},
+  year     = {2021},
+  journal  = {Glossa},
+  volume   = {6},
+  pages    = {1--34},
+  doi      = {10.5334/gjgl.1209},
+  openaccess = {gold},
+}
+~~~

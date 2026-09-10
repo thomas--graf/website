@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: Minimalist grammars; 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/LaszakovitsGraf2020.pdf)]
+</div>
+
+~~~
+:::bibtex
+
+~~~

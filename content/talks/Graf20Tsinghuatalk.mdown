@@ -1,0 +1,23 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{Graf20Tsinghuatalk,
+    author = {Graf, Thomas},
+    title = {Monotonicity in Syntax},
+    year = {2020},
+    note = {Slides of a talk given at the \emph{Second Tsinghua Interdisciplinary Workshop on Logic, Language, and Meaning (TLLM 2020)}, December 17--20, Beijing, China},
+}
+~~~

@@ -1,11 +1,11 @@
-Title: Ein Modelltheoretischer Blick Auf Syntaktische Constraints
+Title: 
 Author: Thomas Graf
 Date: 2008-05-04
 Category: Presentations
 Tags: constraints; model-theoretic syntax; multi-dimensional trees
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

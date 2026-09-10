@@ -1,0 +1,38 @@
+Title: Cyclic scope and processing difficulty in a Minimalist parser
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: Minimalist grammars; quantification; scope; scope processing; formal parsing;
+
+<div markdown class="authors">
+Pasternak, Robert and Thomas Graf
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+A common view in the theoretical literature is that quantifier raising (QR) is a clause-bounded operation.
+But in a paper published in Glossa, Wurmbrand (2018) argues that (i) QR is not clause-bounded, and the apparent clause-boundedness of QR is due to the human parser’s difficulty in processing extraclausal QR; and (ii) the relative difficulty of extraclausal QR depends on the size of the embedded clause from which QR takes place.
+She then proposes a theory of scope processing in which parsing Logical Form (LF) movement is costly for the human parser, which in conjunction with independently motivated assumptions about A′-movement generates the desired results.
+In this paper, we accept Wurmbrand’s descriptive observations and proposed syntax but offer an alternative, rigorously defined metric of scope processing difficulty that makes precise quantitative predictions.
+Our proposal is formalized with Minimalist Grammars (Stabler 1997) and expands recent work by Kobele et al. (2013), among others, that uses this formalism to account for numerous processing phenomena.
+Our metric correctly handles Wurmbrand’s observations as well as cases that are problematic for her account, and points the way toward an explanatory theory of scope processing.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/PasternakGraf2021.pdf)]
+</div>
+
+~~~
+:::bibtex
+@article{pasternak2021cyclic,
+  title={Cyclic scope and processing difficulty in a {M}inimalist parser},
+  author={Pasternak, Robert and Graf, Thomas},
+  journal={{G}lossa: a journal of general linguistics},
+  volume={6},
+  number={1},
+  year={2021},
+  publisher={Open Library of Humanities}
+}
+
+~~~

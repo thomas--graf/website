@@ -1,11 +1,11 @@
-Title: Curbing Feature Coding: Strictly Local Feature Assignment
+Title: 
 Author: Thomas Graf
 Date: 2020-01-04
 Category: Presentations
 Tags: subcategorization; constraints; subregular; syntax; features; transductions
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

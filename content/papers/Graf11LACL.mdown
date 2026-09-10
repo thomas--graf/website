@@ -1,11 +1,11 @@
-Title: Closure Properties of Minimalist Derivation Tree Languages
+Title: 
 Author: Thomas Graf
 Date: 2011-06-30
 Category: Papers
 Tags: Minimalist grammars; derivation trees; constraints; tree automata; generative capacity
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -23,7 +23,7 @@ Recently, the question has been raised whether the derivation tree languages of 
 :::bibtex
 @InProceedings{Graf11LACL,
   author	= {Graf, Thomas},
-  title		= {Closure Properties of {M}inimalist Derivation Tree
+  title		= {Closure Properties of {Minimalist} Derivation Tree
 		  Languages},
   year		= {2011},
   booktitle	= {{LACL} 2011},
@@ -33,7 +33,7 @@ Recently, the question has been raised whether the derivation tree languages of 
   series	= {Lecture Notes in Artificial Intelligence},
   address	= {Heidelberg},
   publisher	= {Springer},
-  doi = {10.1007/978-3-642-22221-4_7},
-  url = {https://dx.doi.org/10.1007/978-3-642-22221-4_7}
+  doi		= {10.1007/978-3-642-22221-4_7},
+  url		= {https://dx.doi.org/10.1007/978-3-642-22221-4_7}
 }
 ~~~

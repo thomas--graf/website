@@ -1,11 +1,11 @@
-Title: Pogo Sticks and Wasps: A Skeptic's Guide to Computational Linguistics
+Title: 
 Author: Thomas Graf
 Date: 2018-10-11
 Category: Presentations
 Tags: neural networks; NLP; machine learning; industry
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

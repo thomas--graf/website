@@ -53,7 +53,7 @@ HOME_NEWS_COUNT = 8
 
 # Blogroll
 LINKS = [('SBU Linguistics', 'http://linguistics.stonybrook.edu'), 
-         ('SBU CompLab', 'http://compling.stonybrook.edu'),
+         # ('SBU CompLab', 'http://compling.stonybrook.edu'),
          ('SBU IACS', 'http://www.iacs.stonybrook.edu/'),
          ('MathLing Reading Group', 'http://mlrg.thomasgraf.net'),
          ('NLP Reading Group', 'https://sites.google.com/site/nlpsbureadinggroup/home'),

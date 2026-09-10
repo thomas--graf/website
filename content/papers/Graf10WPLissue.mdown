@@ -1,11 +1,11 @@
-Title: Papers in Mathematical Linguistics 1
+Title: 
 Author: Thomas Graf
-Date: 2010-01-01
+Date: -01-01
 Category: Books
 Tags: edited volume
 
 <div markdown class="authors">
-Graf, Thomas [ed.]
+
 </div>
 
 <div markdown class="abstract">
@@ -25,6 +25,7 @@ A collection of articles in mathematical linguistics.
   year		= {2010},
   editor	= {Thomas Graf},
   volume	= {15},
-  series	= {UCLA Working Papers in Linguistics}
+  series	= {UCLA Working Papers in Linguistics},
+  openaccess = {gold},
 }
 ~~~

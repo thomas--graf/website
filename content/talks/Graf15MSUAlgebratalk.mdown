@@ -1,11 +1,11 @@
-Title: Towards an Algebraic Morphosyntax
+Title: 
 Author: Thomas Graf
 Date: 2015-12-16
 Category: Presentations
 Tags: substantive universals; person case constraint; algebra; person hierarchy; lattices; feature geometry
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

@@ -1,11 +1,11 @@
-Title: Features: More Trouble Than They're Worth?
+Title: 
 Author: Thomas Graf
 Date: 2019-05-27
 Category: Presentations
 Tags: constraints; features; subregular; syntax; morphosyntax; subcategorization
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

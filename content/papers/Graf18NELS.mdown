@@ -5,6 +5,7 @@ Category: Papers
 Tags: phonology; syntax; locality; subregular; c-command
 
 <div markdown class="authors">
+
 </div>
 
 <div markdown class="abstract">
@@ -19,16 +20,17 @@ A lot of recent work in computational phonology seeks to pinpoint the complexity
 
 ~~~
 :::bibtex
-@InProceedings{	  Graf18NELS,
+@InProceedings{Graf18NELS,
   author	= {Graf, Thomas},
   title		= {Locality Domains and Phonological c-Command Over Strings},
   year		= {2018},
-  booktitle	= {NELS 48: Proceedings of the Forty-Eighth Annual Meeting of the North East Linguistic Society},
-  editors   = {Hucklebridge, Sherry and Nelson, Max},
-  volume    = {1},
+  booktitle	= {NELS 48: Proceedings of the Forty-Eighth Annual Meeting of
+		  the North East Linguistic Society},
+  editors	= {Hucklebridge, Sherry and Nelson, Max},
+  volume	= {1},
   url		= {http://ling.auf.net/lingbuzz/004080},
-  pages     = {257--270},
-  publisher = {GLSA},
-  address   = {Amherst, MA}
+  pages		= {257--270},
+  publisher	= {GLSA},
+  address	= {Amherst, MA}
 }
 ~~~

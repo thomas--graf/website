@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf22SCiLtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf22SCiLtalk,
+    author    = {Graf, Thomas},
+    title     = {Typological Implications of Tier-Based Strictly Local Movement},
+    year      = {2022},
+    note = {Slides of a talk given at \emph{{SCiL} 2022}, February 7--9, online},
+}
+~~~

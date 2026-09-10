@@ -1,0 +1,28 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{GrafKostyszyn21SCiL,
+  author    = {Graf, Thomas and Kostyszyn, Kalina},
+  author+an = {2=sbu},
+  title     = {Multiple Wh-Movement is not Special: The Subregular Complexity of Persistent Features in {Minimalist} Grammars},
+  year      = {2021},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		       {Linguistics} ({SCiL}) 2021},
+  pages     = {275--285},
+  doi       = {10.7275/2dfv-v219},
+  openaccess = {gold},
+}
+~~~

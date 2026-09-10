@@ -1,0 +1,31 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@incollection{AksenovaEtAl24Handbook,
+  author = {Aks\"{e}nova, Al\"{e}na and
+            Rawski, Jonathan and
+            Graf, Thomas and
+            Heinz, Jeffrey},
+  title = {The Computational Power of Harmonic Forms},
+  booktitle = {Handbook of Vowel Harmony},
+  year = {2024},
+  editor = {Harry van der Hulst},
+  publisher = {Oxford University Press},
+  address = {Oxford, UK},
+  pages = {437--451},
+  doi = {10.1093/oxfordhb/9780198826804.013.34},
+}
+~~~

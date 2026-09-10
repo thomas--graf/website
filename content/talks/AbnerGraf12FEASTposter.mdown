@@ -1,11 +1,11 @@
-Title: Binding Complexity and the Status of Pronouns in English and Asl
+Title: 
 Author: Thomas Graf
 Date: 2012-06-01
 Category: Presentations
 Tags: binding; Principle B; sign language; English
 
 <div markdown class="authors">
-Abner, Natasha, and Thomas Graf
+
 </div>
 
 <div markdown class="abstract">

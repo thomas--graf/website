@@ -1,11 +1,11 @@
-Title: A Computational Guide to the Dichotomy of Features and Constraints
+Title: 
 Author: Thomas Graf
 Date: 2016-07-27
 Category: Papers
 Tags: Minimalist grammars; syntax; typology; categories; subcategorization; model-theoretic syntax; generative capacity
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -24,15 +24,17 @@ At the same time, the feature-constraint equivalence can be helpful in plugging 
 
 ~~~
 :::bibtex
-@article{Graf17Glossa,
-  author = {Graf, Thomas},
-  title = {A Computational Guide to the Dichotomy of Features and Constraints},
-  year = {2017},
-  journal = {Glossa},
-  volume = {2},
-  article = {18},
-  pages = {1--36},
-  doi = {10.5334/gjgl.212},
-  url = {https://dx.doi.org/10.5334/gjgl.212}
+@Article{Graf17Glossa,
+  author	= {Graf, Thomas},
+  title		= {A Computational Guide to the Dichotomy of Features and
+		  Constraints},
+  year		= {2017},
+  journal	= {Glossa},
+  volume	= {2},
+  article	= {18},
+  pages		= {1--36},
+  doi		= {10.5334/gjgl.212},
+  url		= {https://dx.doi.org/10.5334/gjgl.212},
+  openaccess = {gold},
 }
 ~~~

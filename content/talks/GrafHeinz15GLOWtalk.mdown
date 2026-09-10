@@ -1,11 +1,11 @@
-Title: Commonality in Disparity: The Computational View of Syntax and Phonology
+Title: 
 Author: Thomas Graf
 Date: 2015-04-18
 Category: Presentations
 Tags: phonology; Minimalist grammars; subregular; constraints; locality
 
 <div markdown class="authors">
-Graf, Thomas, and Jeffrey Heinz
+
 </div>
 
 <div markdown class="abstract">

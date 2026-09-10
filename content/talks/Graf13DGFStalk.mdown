@@ -1,11 +1,11 @@
-Title: The Price of Freedom: Why Adjuncts Are Islands
+Title: 
 Author: Thomas Graf
 Date: 2013-03-14
 Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

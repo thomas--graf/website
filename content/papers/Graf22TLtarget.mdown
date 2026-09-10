@@ -1,0 +1,27 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@article{Graf22TLtarget,
+  author = {Graf, Thomas},
+  title = {Subregular Linguistics: Bridging Theoretical Linguistics and Formal Grammar},
+  year = {2022},
+  journal = {Theoretical Linguistics},
+  volume = {48},
+  pages = {145--184},
+  doi = {10.1515/tl-2022-2037},
+  openaccess = {gold},
+}
+~~~

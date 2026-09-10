@@ -1,0 +1,28 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{GrafLaszakovits19PLC,
+    author = {Graf, Thomas and Laszakovits, Sabine},
+    author+an = {2=student},
+    title = {Diagnosing Movement via the Absence of c-Command Relations},
+    year = {2020},
+    booktitle = {University of {Pennsylvania} Working Papers in Linguistics},
+    volume = {26},
+    issue = {1},
+    pages = {135--144},
+    note = {Article 16},
+}
+~~~

@@ -1,0 +1,33 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{Graf20Tsinghua,
+    author={Graf, Thomas},
+    editor={Deng, Dun
+    and Liu, Fenrong
+    and Liu, Mingming
+    and Westerst{\aa}hl, Dag},
+    title={Monotonicity in Syntax},
+    booktitle={Monotonicity in Logic and Language},
+    series = {Lecture Notes in Computer Science},
+    volume = {12564},
+    year={2020},
+    publisher={Springer},
+    address={Berlin, Heidelberg},
+    pages={35--53},
+    doi = {10.1007/978-3-662-62843-0_3},
+}
+~~~

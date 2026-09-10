@@ -1,11 +1,11 @@
-Title: Reference-Set Constraints as Linear Tree Transductions via Controlled Optimality Systems
+Title: 
 Author: Thomas Graf
 Date: 2010-08-07
 Category: Papers
 Tags: constraints; transderivationality; reference-set computation; optimality theory; transducers
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -33,14 +33,14 @@ In the second half of the paper, I demonstrate the feasibility of the OS-approac
   title		= {Reference-Set Constraints as Linear Tree Transductions via
 		  Controlled Optimality Systems},
   year		= {2012},
-  booktitle	= {{F}ormal {G}rammar 2010\slash 2011},
+  booktitle	= {{Formal} {Grammar} 2010\slash 2011},
   pages		= {97--113},
   editor	= {de Groote, Philippe and Nederhof, Mark-Jan},
   volume	= {7395},
   series	= {Lecture Notes in Computer Science},
   address	= {Heidelberg},
   publisher	= {Springer},
-  url = {https://doi.org/10.1007/978-3-642-32024-8_7},
-  doi = {10.1007/978-3-642-32024-8_7},
+  url		= {https://doi.org/10.1007/978-3-642-32024-8_7},
+  doi		= {10.1007/978-3-642-32024-8_7}
 }
 ~~~

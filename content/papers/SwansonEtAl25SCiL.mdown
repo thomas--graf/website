@@ -1,0 +1,28 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{SwansonEtAl25SCiL,
+  author    = {Swanson, Logan and Hanson, Kenneth and Graf, Thomas},
+  author+an = {1=sbu;2=sbu},
+  title     = {Are Syntactic Categories {ISL-2} Inferrable? {A} Corpus Study},
+  year      = {2025},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		       {Linguistics} ({SCiL}) 2025},
+  article   = {19},
+  doi       = {10.7275/scil.3170},
+  openaccess = {gold},
+}
+~~~

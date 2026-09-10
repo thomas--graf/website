@@ -1,11 +1,11 @@
-Title: Concealed Reference-Set Computation: How Syntax Escapes the Parser's Clutches
+Title: 
 Author: Thomas Graf
-Date: 2012-01-01
+Date: -01-01
 Category: Papers
 Tags: transderivationality; reference-set computation; constraints; syntax; Merge-over-Move; tree transducers
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -28,11 +28,11 @@ In order to demonstrate the viability of this approach for the kind of reference
 :::bibtex
 @InCollection{Graf12Interfaces,
   author	= {Graf, Thomas},
-  title		= {Concealed Reference-Set Computation: {H}ow Syntax Escapes
+  title		= {Concealed Reference-Set Computation: {How} Syntax Escapes
 		  the Parser's Clutches},
   year		= {2012},
   editor	= {Di Sciullo, Anna Maria},
-  booktitle	= {Towards a Biolinguistic Understanding of Grammar. {E}ssays
+  booktitle	= {Towards a Biolinguistic Understanding of Grammar. {Essays}
 		  on Interfaces},
   publisher	= {John Benjamins},
   address	= {Amsterdam},

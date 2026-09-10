@@ -1,11 +1,11 @@
-Title: A Subregular Bound on the Complexity of Lexical Quantifiers
+Title: 
 Author: Thomas Graf
 Date: 2019-12-18
 Category: Presentations
 Tags: subregular; semantics; generalized quantifiers; typology
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

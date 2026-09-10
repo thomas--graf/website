@@ -1,11 +1,11 @@
-Title: Efficient Computation at the Interfaces
+Title: 
 Author: Thomas Graf
 Date: 2010-12-03
 Category: Presentations
 Tags: constraints; transderivationality; optimality theory; Focus Economy; Merge-over-Move; Shortest Derivation Principle; transducers
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="files">

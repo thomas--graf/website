@@ -1,11 +1,11 @@
-Title: Case Assignment in TSL Syntax: A Case Study
+Title: 
 Author: Thomas Graf
 Date: 2019-01-05
 Category: Presentations
 Tags: Minimalist grammars; subregular; morphosyntax; tiers; derivation trees
 
 <div markdown class="authors">
-Vu, Mai Ha, Nazila Shafiei, and Thomas Graf
+
 </div>
 
 <div markdown class="abstract">
@@ -27,6 +27,7 @@ We hope that this paper will enable other researchers to fruitfully study syntac
 :::bibtex
 @misc{VuEtAl19SCiLposter,
     author = {Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas},
+    author+an = {1=student;2=sbu},
     title = {Case Assignment in {TSL} Syntax: A Case Study},
     year = {2019},
     note = {Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}

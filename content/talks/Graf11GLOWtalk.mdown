@@ -1,11 +1,11 @@
-Title: Optimality Is Not a Race: Against a Performance-Based View of Reference-Set Computation
+Title: 
 Author: Thomas Graf
 Date: 2011-04-29
 Category: Presentations
 Tags: transderivationality; reference-set computation; constraints; syntax; semantics; transducers
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf23Surreytalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf23Surreytalk,
+    author    = {Graf, Thomas},
+    title     = {Formal and Substantive Universals Across Language Modules},
+    year      = {2023},
+    note      = {Invited talk, January 31, Surrey Linguistics Circle, Surrey, United Kingdom}
+}
+~~~

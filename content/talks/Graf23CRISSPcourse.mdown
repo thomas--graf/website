@@ -1,0 +1,23 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{Graf23CRISSPcourse,
+    author = {Graf, Thomas},
+    title = {Syntactic Tiers for Movement and Agreement},
+    year = {2023},
+    note = {Mini-course, December 6--8, CRISSP KU Leuven, Brussels, Belgium},
+}
+~~~

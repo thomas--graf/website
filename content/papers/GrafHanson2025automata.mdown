@@ -1,0 +1,35 @@
+Title: Automata for subregular syntax: Syntax with strings attached
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: Minimalist grammars; syntax; subregular; constraints; automata
+
+<div markdown class="authors">
+Graf, Thomas and Kenneth Hanson
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Building on recent work in subregular syntax, we argue that syntactic constraints are best understood as operating not over trees, but rather strings that track structural relations such as dominance and c-command.
+Even constraints that seem intrinsically tied to trees (e.g. constraints on tree tiers) can be reduced to such strings.
+We define serial constraints as an abstraction that decomposes string constraints into a context function (which associates nodes with strings) and a requirement function (which enforces constraints on these strings).
+We provide a general procedure for implementing serial constraints as deterministic tree automata.
+The construction reveals that the many types of constraints found in subregular syntax are variants of the same computational template.
+Our findings open up a string-based perspective on syntactic constraints and provide a new, very general approach to the automata-theoretic study of subregular complexity.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/GrafHanson2025automata.pdf)]
+</div>
+
+~~~
+:::bibtex
+@inproceedings{graf2025automata,
+  title={Automata for subregular syntax: {S}yntax with strings attached},
+  author={Graf, Thomas and Hanson, Kenneth},
+  booktitle={Proceedings of the {S}ociety for {C}omputation in {L}inguistics 2025},
+  pages={333--345},
+  year={2025}
+}
+~~~

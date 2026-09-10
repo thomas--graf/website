@@ -1,0 +1,27 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@article{Graf22TLresponse,
+  author = {Graf, Thomas},
+  title = {Diving Deeper into Subregular Syntax},
+  year = {2022},
+  journal = {Theoretical Linguistics},
+  volume = {48},
+  pages = {245--278},
+  doi = {10.1515/tl-2022-2043},
+  openaccess = {gold},
+}
+~~~

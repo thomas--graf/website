@@ -1,11 +1,11 @@
-Title: A Subregular Bound on the Complexity of Lexical Quantifiers
+Title: 
 Author: Thomas Graf
 Date: 2019-12-15
 Category: Papers
 Tags: subregular; semantics; generalized quantifiers; typology
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -25,12 +25,14 @@ TSL is also known to play a central role in phonology, morphology, and syntax, w
 
 ~~~
 :::bibtex
-@inproceedings{Graf19AC,
-    author = {Graf, Thomas},
-    title = {A Subregular Bound on the Complexity of Lexical Quantifiers},
-    year = {2019},
-    booktitle = {Proceedings of the 22nd {A}msterdam {C}olloquium},
-    editor = {Schl\"{o}der, Julian J. and McHugh, Dean and Roelofsen, Floris},
-    pages = {455--464},
+@InProceedings{Graf19AC,
+  author	= {Graf, Thomas},
+  title		= {A Subregular Bound on the Complexity of Lexical
+		  Quantifiers},
+  year		= {2019},
+  booktitle	= {Proceedings of the 22nd {Amsterdam} {Colloquium}},
+  editor	= {Schl\"{o}der, Julian J. and McHugh, Dean and Roelofsen,
+		  Floris},
+  pages		= {455--464}
 }
 ~~~

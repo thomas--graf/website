@@ -1,11 +1,11 @@
-Title: Feature Geometry and the Person Case Constraint: An Algebraic Link
+Title: 
 Author: Thomas Graf
 Date: 2014-04-11
 Category: Presentations
 Tags: morphosyntax; PCC; algebra; feature geometry; typology; lattices; person hierarchy
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

@@ -1,11 +1,11 @@
-Title: An Alternate View on Strong Lexicalization in TAG
+Title: 
 Author: Thomas Graf
 Date: 2016-07-27
 Category: Papers
 Tags: Tree Adjoining grammar; lexicalization; multi-dimensional trees; generative capacity
 
 <div markdown class="authors">
-De Santo, Aniello, Alëna Aksënova, and Thomas Graf
+
 </div>
 
 <div markdown class="abstract">
@@ -24,12 +24,16 @@ A similar lifting reveals that d-dimensional TAGs are not closed under strong le
 ~~~
 :::bibtex
 @InProceedings{DeSantoEtAl16TAG,
-  author    = {De Santo, Aniello and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
-  title     = {An Alternate View on Strong Lexicalization in {TAG}},
-  booktitle = {Proceedings of the 12th International Workshop on {T}ree {A}djoining {G}rammars and Related Formalisms ({TAG}+12)},
-  year      = {2016},
-  address   = {Düsseldorf, Germany},
-  pages     = {93--102},
-  url       = {http://www.aclweb.org/anthology/W16-3310}
+  author	= {De Santo, Aniello and Aks\"{e}nova, Al\"{e}na and Graf,
+		  Thomas},
+  author+an = {1=sbu;2=sbu},
+  title		= {An Alternate View on Strong Lexicalization in {TAG}},
+  booktitle	= {Proceedings of the 12th International Workshop on {Tree}
+		  {Adjoining} {Grammars} and Related Formalisms ({TAG}+12)},
+  year		= {2016},
+  address	= {Düsseldorf, Germany},
+  pages		= {93--102},
+  url		= {http://www.aclweb.org/anthology/W16-3310},
+  openaccess = {gold},
 }
 ~~~

@@ -1,11 +1,11 @@
-Title: Some Interdefinability Results for Syntactic Constraint Classes
+Title: 
 Author: Thomas Graf
-Date: 2010-01-01
+Date: -01-01
 Category: Papers
 Tags: constraints; transderivationality; reference-set computation; model-theoretic syntax; multi-dimensional trees; optimality theory
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

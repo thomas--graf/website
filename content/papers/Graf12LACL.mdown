@@ -1,11 +1,11 @@
-Title: Movement-Generalized Minimalist Grammars
+Title: 
 Author: Thomas Graf
 Date: 2012-07-04
 Category: Papers
 Tags: Minimalist grammars; movement; MSO; tree languages; transductions; Tree Adjoining grammar; sideward movement; lowering movement; clustering; generative capacity
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -26,14 +26,14 @@ Notably, TAG-style tree adjunction can be emulated by a special type of lowering
 :::bibtex
 @InProceedings{Graf12LACL,
   author	= {Graf, Thomas},
-  title		= {Movement-Generalized {M}inimalist Grammars},
+  title		= {Movement-Generalized {Minimalist} Grammars},
   year		= {2012},
   booktitle	= {{LACL} 2012},
   pages		= {58--73},
   editor	= {Béchet, Denis and Dikovsky, Alexander J.},
   volume	= {7351},
   series	= {Lecture Notes in Computer Science},
-  doi       = {10.1007/978-3-642-31262-5_4},
-  url       = {http://dx.doi.org/10.1007/978-3-642-31262-5_4}
+  doi		= {10.1007/978-3-642-31262-5_4},
+  url		= {http://dx.doi.org/10.1007/978-3-642-31262-5_4}
 }
 ~~~

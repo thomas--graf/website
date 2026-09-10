@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf23SCiLtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf23SCiLtalk,
+    author    = {Graf, Thomas},
+    title     = {Subregular Tree Transductions, Movement, Copies, Traces, and the Ban on Improper Movement},
+    year      = {2023},
+    note      = {Slides of a talk given at \emph{{SCiL} 2023}, June 15--17, University of Massachusetts Amherst, Amherst, Massachusetts},
+}
+~~~

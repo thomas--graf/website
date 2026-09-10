@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf24SCiLtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf24SCiLtalk,
+    author    = {Graf, Thomas},
+    title     = {Morphologically Simplex {D}-quantifiers are Strictly 2-Local},
+    year      = {2024},
+    note      = {Slides of a talk given at \emph{{SCiL} 2024}, June 27--29, UC Irvine, Irvine, California},
+}
+~~~

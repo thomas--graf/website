@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf22NYUtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf22NYUtalk,
+    author    = {Graf, Thomas},
+    title     = {Syntactic tiers: Empirical applications and challenges},
+    year      = {2022},
+    note      = {Invited talk, November 11, NYU, New York, New York}
+}
+~~~

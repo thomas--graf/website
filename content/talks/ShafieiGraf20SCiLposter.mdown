@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@misc{ShafieiGraf20SCiLposter,
+    author = {Shafiei, Nazila and Graf, Thomas},
+    author+an = {1=sbu},
+    title = {The Subregular Complexity of Syntactic Islands},
+    year = {2020},
+    note = {Poster presented at \emph{{SCiL} 2020}, January 2--5, co-located with the {LSA 2020}}
+}
+~~~

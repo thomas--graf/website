@@ -1,11 +1,11 @@
-Title: Reference-Set Computation = Minimalism + Transformational Rules?
+Title: 
 Author: Thomas Graf
 Date: 2010-12-08
 Category: Presentations
 Tags: constraints; transderivationality; optimality theory; Focus Economy; Merge-over-Move; Shortest Derivation Principle; transducers
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

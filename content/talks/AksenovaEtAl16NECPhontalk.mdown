@@ -1,11 +1,11 @@
-Title: Tier-Based Strict Locality in Phonology and Morphology
+Title: 
 Author: Thomas Graf
-Date: 2016-01-01
+Date: -01-01
 Category: Presentations
 Tags: 
 
 <div markdown class="authors">
-Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi
+
 </div>
 
 <div markdown class="files">
@@ -16,6 +16,7 @@ Aksënova, Alëna, Thomas Graf, and Sedigheh Moradi
 :::bibtex
 @misc{AksenovaEtAl16NECPhontalk,
   author = {Aks\"{e}nova, Al\"{e}na and Graf, Thomas and Moradi, Sedigheh},
+  author+an = {1=sbu;3=sbu},
   title = {Tier-Based Strict Locality in Phonology and Morphology},
   year = {2016},
   note = {Slides of a talk given at the 10th Northeast Computational Phonology Meeting (NECPhon), September 24, UMass Amherst, Amherst, MA},

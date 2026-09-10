@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{TorresEtAl23SCiLtalk,
+  author    = {Torres, Charles and Hanson, Kenneth and Graf, Thomas and Mayer, Connor},
+  author+an = {1=student;2=sbu},
+  title     = {Modeling Island Effects With Probabilistic Tier-Based Strictly Local Grammars Over Trees},
+  year      = {2023},
+  note      = {Slides of a talk given at \emph{{SCiL} 2023}, June 15--17, University of Massachusetts Amherst, Amherst, Massachusetts},
+}
+~~~

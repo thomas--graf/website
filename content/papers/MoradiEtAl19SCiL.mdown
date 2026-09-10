@@ -1,0 +1,27 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{MoradiEtAl19SCiL,
+  author	= {Moradi, Sedigheh and Aks\"{e}nova, Al\"{e}na and Graf, Thomas},
+  author+an = {1=sbu;2=sbu},
+  title		= {The Computational Cost of Generalizations: An Example From Micromorphology},
+  year		= {2019},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		  {Linguistics} ({SCiL}) 2019},
+  pages		= {367--368},
+  openaccess = {gold},
+}
+~~~

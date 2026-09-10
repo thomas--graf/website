@@ -1,0 +1,24 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Presentations
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf21CUNYtalk.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{Graf21CUNYtalk,
+    author = {Graf, Thomas},
+    title = {A Computational {Minimalist} Program for Syntax and Sentence Processing},
+    year = {2021},
+    note = {Invited talk, April 8, CUNY Graduate School, New York City, New York},
+}
+~~~

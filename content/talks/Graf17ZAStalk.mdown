@@ -1,11 +1,11 @@
-Title: Do We Need Features for Morphosyntax?
+Title: 
 Author: Thomas Graf
 Date: 2017-06-26
 Category: Presentations
 Tags: morphology; morphosyntax; typology; person hierarchy; person case constraint; subregular; features; transductions; *ABA
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">

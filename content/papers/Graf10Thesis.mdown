@@ -1,11 +1,11 @@
-Title: Logics of Phonological Reasoning
+Title: 
 Author: Thomas Graf
 Date: 2010-08-22
 Category: Papers
 Tags: phonology; generative capacity; subregular hierarchy; Sanskrit; Cairene Arabic; Creek; primary stress; modal logic; Government phonology; SPE
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -30,6 +30,7 @@ Most of the results reported herein can also be found in a series of papers of m
   title		= {Logics of Phonological Reasoning},
   year		= {2010},
   school	= {University of California, Los Angeles},
-  url       = {http://thomasgraf.net/doc/papers/LogicsOfPhonologicalReasoning.pdf}
+  url		= {http://thomasgraf.net/doc/papers/LogicsOfPhonologicalReasoning.pdf},
+  openaccess = {green},
 }
 ~~~

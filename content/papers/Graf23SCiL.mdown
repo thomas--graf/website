@@ -1,0 +1,27 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{Graf23SCiL,
+  author    = {Graf, Thomas},
+  title     = {Subregular Tree Transductions, Movement, Copies, Traces, and the Ban on Improper Movement},
+  year      = {2023},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		       {Linguistics} ({SCiL}) 2023},
+  pages     = {289--299},
+  doi       = {10.7275/tk1n-q855},
+  openaccess = {gold},
+}
+~~~

@@ -1,0 +1,26 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@article{Graf21ELT,
+  author = {Graf, Thomas},
+  title = {The Computational Unity of {Merge} and {Move}},
+  year = {2021},
+  journal = {Evolutionary Linguistic Theory},
+  volume = {3},
+  pages = {154--180},
+  doi = {10.1075/elt.00032.gra},
+}
+~~~

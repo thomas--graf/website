@@ -1,11 +1,11 @@
-Title: Graph Transductions and Typological Gaps in Morphological Paradigms
+Title: 
 Author: Thomas Graf
 Date: 2017-07-01
 Category: Papers
 Tags: morphology; morphosyntax; typology; person hierarchy; person case constraint; subregular; transductions; *ABA
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -25,12 +25,15 @@ I show that weakly non-inverting graph-transductions are particularly simple fro
 
 ~~~
 :::bibtex
-@inproceedings{Graf17MOL,
-  author = {Graf, Thomas},
-  title = {Graph Transductions and Typological Gaps in Morphological Paradigms},
-  year = {2017},
-  booktitle = {Proceedings of the 15th Meeting on the Mathematics of Language ({MOL} 2017)},
-  pages = {114--126},
-  url = {http://www.aclweb.org/anthology/W17-3411}
+@InProceedings{Graf17MOL,
+  author	= {Graf, Thomas},
+  title		= {Graph Transductions and Typological Gaps in Morphological
+		  Paradigms},
+  year		= {2017},
+  booktitle	= {Proceedings of the 15th Meeting on the Mathematics of
+		  Language ({MOL} 2017)},
+  pages		= {114--126},
+  url		= {http://www.aclweb.org/anthology/W17-3411},
+  openaccess = {gold},
 }
 ~~~

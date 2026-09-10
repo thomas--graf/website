@@ -1,11 +1,11 @@
-Title: Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers
+Title: 
 Author: Thomas Graf
 Date: 2017-07-22
 Category: Presentations
 Tags: subregular hierarchy; semantics; quantifiers; typology; tiers
 
 <div markdown class="authors">
-De Santo, Aniello, Thomas Graf, and John E. Drury
+
 </div>
 
 <div markdown class="abstract">
@@ -25,6 +25,7 @@ This poster defines relevant quantifier languages in subregular terms and sketch
 :::bibtex
 @Misc{DeSantoEtAlQUAD17poster,
     author = {De Santo, Aniello and Graf, Thomas and Drury, John E.},
+    author+an = {1=sbu},
     title  = {Evaluating Subregular Distinctions in the Complexity of Generalized Quantifiers},
     year   = {2017},
     note   = {Poster presented at the {ESSLLI} Workshop on Quantifiers and Determiners ({QUAD} 2017), July 17 -- 21, University of Toulouse, France}

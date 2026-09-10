@@ -1,0 +1,32 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@inproceedings{DolatianEtAl22Sigmorphon,
+    title = {Trees Probe Deeper Than Strings: an Argument From Allomorphy},
+    author = {Dolatian, Hossep  and
+      Ikawa, Shiori  and
+      Graf, Thomas},
+    author+an = {2=student},
+    booktitle = {Proceedings of the 19th {SIGMORPHON} Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+    year = {2022},
+    address = {Seattle, Washington},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2022.sigmorphon-1.6},
+    doi = {10.18653/v1/2022.sigmorphon-1.6},
+    pages = {51--60},
+    openaccess = {gold},
+}
+~~~

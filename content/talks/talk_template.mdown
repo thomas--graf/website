@@ -1,0 +1,29 @@
+Title: 
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Presentations
+Tags: Minimalist grammars; 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/VuEtAl19SCiLposter.pdf)]
+</div>
+
+~~~
+:::bibtex
+@misc{VuEtAl19SCiLposter,
+    author = {Vu, Mai Ha and Shafiei, Nazila and Graf, Thomas},
+    title = {Case Assignment in {TSL} Syntax: A Case Study},
+    year = {2019},
+    note = {Poster presented at \emph{{SCiL} 2019}, January 3--6, co-located with the {LSA 2019}}
+}
+~~~

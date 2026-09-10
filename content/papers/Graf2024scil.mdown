@@ -1,0 +1,34 @@
+Title: Morphologically simplex D-quantifiers are strictly 2-local
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: morphosemantics; verification patterns; quantification; simplex quantifiers
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Even though languages can express a wide range of quantifiers, only a small number are ever realized as morphologically simplex determiners: <i>every</i>, <i>no</i>, <i>some</i>, and <i>most</i>.
+This is puzzling because I) most is much more complex than the other three, and II) quantifiers like an even number are simpler than most yet cannot belong to this class.
+Building on concepts from subregular complexity, I present a new way of measuring a quantifier’s complexity in terms of its verification pattern.
+The quantifiers <i>every</i>, <i>no</i>, <i>some</i>, and <i>most</i> all have strictly 2-local (SL-2) verification patterns, but quantifiers like <i>an even number</i> do not.
+This suggest that subregular complexity, and in particular strict locality, plays a crucial role for how much meaning can be packed into morphologically simplex expressions.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/Graf2024scil.pdf)]
+</div>
+
+~~~
+:::bibtex
+@inproceedings{graf2024morphologically,
+  title={Morphologically simplex D-quantifiers are strictly 2-local},
+  author={Graf, Thomas},
+  booktitle={Proceedings of the {S}ociety for {C}omputation in {L}inguistics 2024},
+  pages={32--42},
+  year={2024}
+}
+~~~

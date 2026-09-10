@@ -1,0 +1,35 @@
+Title: Recursive prosody is not finite-state
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: prosody; coordination; transductions; generative capacity
+
+<div markdown class="authors">
+Dolatian, Hossep, Aniello De Santo, and Thomas Graf
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+This paper investigates bounds on the generative capacity of prosodic processes, by focusing on the complexity of recursive prosody in coordination contexts in English (Wagner, 2010).
+Although all phonological processes and most prosodic processes are computationally regular string languages, we show that recursive prosody is not.
+The output string language is instead parallel multiple context-free (Seki et al., 1991).
+We evaluate the complexity of the pattern over strings, and then move on to a characterization over trees that requires the expressivity of multi bottom-up tree transducers.
+In doing so, we provide a foundation for future mathematically grounded investigations of the syntax-prosody interface.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/DolatianDeSantoGraf2021recursive.pdf)]
+</div>
+
+~~~
+:::bibtex
+@inproceedings{dolatian2021recursive,
+  title={Recursive prosody is not finite-state},
+  author={Dolatian, Hossep and De Santo, Aniello and Graf, Thomas},
+  booktitle={Proceedings of the 18th {SIGMORPHON} Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+  pages={11--22},
+  year={2021}
+}
+
+~~~

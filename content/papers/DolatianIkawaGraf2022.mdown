@@ -1,0 +1,36 @@
+Title: Trees probe deeper than strings: an argument from allomorphy
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: morphology; subregular; transductions; allomorphy
+
+<div markdown class="authors">
+Dolatian, Hossep, Shiori Ikawa, and Thomas Graf
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Linguists disagree on whether morphological representations should be strings or trees.
+We argue that tree-based views of morphology can provide new insights into morphological complexity even in cases where the posited tree structure closely matches the surface string.
+Our argument is based on a subregular case study of morphologically conditioned allomorphy, where the phonological form of some morpheme (the target) is conditioned by the presence of some other morpheme (the trigger) somewhere within the morphosyntactic context.
+The trigger and target can either be linearly adjacent or non-adjacent, and either the trigger precedes the target (inwardly sensitive) or the target precedes the trigger (outwardly sensitive).
+When formalized as string transductions, the only complexity difference is between local and non-local allomorphy.
+Over trees, on the other hand, we also see a complexity difference between inwardly sensitive and outwardly sensitive allomorphy.
+Just as unboundedness assumptions can sometimes tease apart patterns that are equally complex in the finitely bounded case, tree-based representations can reveal differences that disappear over strings.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/DolatianIkawaGraf2022.pdf)]
+</div>
+
+~~~
+:::bibtex
+@inproceedings{dolatian2022trees,
+  title={Trees probe deeper than strings: an argument from allomorphy},
+  author={Dolatian, Hossep and Ikawa, Shiori and Graf, Thomas},
+  booktitle={Proceedings of the 19th {SIGMORPHON} workshop on computational research in phonetics, phonology, and morphology},
+  pages={51--60},
+  year={2022}
+}
+~~~

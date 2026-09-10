@@ -1,11 +1,11 @@
-Title: Monotonicity as an Effective Theory of Morphosyntactic Variation
+Title: 
 Author: Thomas Graf
 Date: 2018-10-24
 Category: Papers
 Tags: monotonicity; algebra; morphology; morphosyntax; syncretism; typology; *ABA; PCC; Gender Case Constraint;
 
 <div markdown class="authors">
-Graf, Thomas
+
 </div>
 
 <div markdown class="abstract">
@@ -27,11 +27,15 @@ As the mappings are required to be monotonic, only a fraction of all conceivable
 
 ~~~
 :::bibtex
-@article{Graf18JLM,
-    author = {Graf, Thomas},
-    title = {Monotonicity as an Effective Theory of Morphosyntactic Variation},
-    year = {2019},
-    journal = {Journal of Language Modelling},
-    note = {to appear}
+@Article{Graf18JLM,
+  author	= {Graf, Thomas},
+  title		= {Monotonicity as an Effective Theory of Morphosyntactic
+		  Variation},
+  year		= {2019},
+  journal	= {Journal of Language Modelling},
+  volume    = {7},
+  pages     = {3--47},
+  doi       = {10.15398/jlm.v7i2.211},
+  openaccess = {gold},
 }
 ~~~

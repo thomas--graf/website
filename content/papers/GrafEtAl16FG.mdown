@@ -1,11 +1,11 @@
-Title: A Single Movement Normal Form for Minimalist Grammars
+Title: 
 Author: Thomas Graf
 Date: 2016-07-14
 Category: Papers
 Tags: Minimalist grammars, tree transductions, derivation trees, lexical blow-up, successive cyclic movement
 
 <div markdown class="authors">
-Graf, Thomas, Alëna Aksënova, and Aniello De Santo
+
 </div>
 
 <div markdown class="abstract">
@@ -22,22 +22,31 @@ The translation procedure is implemented via a deterministic linear tree transdu
 
 ~~~
 :::bibtex
-@inproceedings{GrafEtAl16FG,
-  author = {Graf, Thomas and Aks\"{e}nova, Al\"{e}na and De Santo, Aniello},
-  title = {A Single Movement Normal Form for {M}inimalist Grammars},
-  year = {2016},
-  bookTitle={{F}ormal {G}rammar: 20th and 21st International Conferences, {FG} 2015, {B}arcelona, {S}pain, {A}ugust 2015, Revised Selected Papers. {FG} 2016, {B}ozen, {I}taly, {A}ugust 2016},
-  editor={Foret, Annie
-  and Morrill, Glyn
-  and Muskens, Reinhard
-  and Osswald, Rainer
-  and Pogodalla, Sylvain},
-  publisher={Springer},
-  address={Berlin, Heidelberg},
-  pages={200--215},
-  abstract={Movement is the locus of power in Minimalist grammars (MGs) but also their primary source of complexity. In order to simplify future analysis of the formalism, we prove that every MG can be converted into a strongly equivalent MG where every phrase moves at most once. The translation procedure is implemented via a deterministic linear tree transduction on the derivation tree language and induces at most a linear blow-up in the size of the lexicon.},
-isbn="978-3-662-53042-9",
-  doi={10.1007/978-3-662-53042-9_12},
-  url={https://doi.org/10.1007/978-3-662-53042-9_12}
+@InProceedings{GrafEtAl16FG,
+  author	= {Graf, Thomas and Aks\"{e}nova, Al\"{e}na and De Santo,
+		  Aniello},
+  author+an = {2=sbu;3=sbu},
+  title		= {A Single Movement Normal Form for {Minimalist} Grammars},
+  year		= {2016},
+  booktitle	= {{Formal} {Grammar}: 20th and 21st International
+		  Conferences, {FG} 2015, {B}arcelona, {S}pain, {A}ugust
+		  2015, Revised Selected Papers. {FG} 2016, {B}ozen, {I}taly,
+		  {A}ugust 2016},
+  editor	= {Foret, Annie and Morrill, Glyn and Muskens, Reinhard and
+		  Osswald, Rainer and Pogodalla, Sylvain},
+  publisher	= {Springer},
+  address	= {Berlin, Heidelberg},
+  pages		= {200--215},
+  abstract	= {Movement is the locus of power in Minimalist grammars
+		  (MGs) but also their primary source of complexity. In order
+		  to simplify future analysis of the formalism, we prove that
+		  every MG can be converted into a strongly equivalent MG
+		  where every phrase moves at most once. The translation
+		  procedure is implemented via a deterministic linear tree
+		  transduction on the derivation tree language and induces at
+		  most a linear blow-up in the size of the lexicon.},
+  isbn		= "978-3-662-53042-9",
+  doi		= {10.1007/978-3-662-53042-9_12},
+  url		= {https://doi.org/10.1007/978-3-662-53042-9_12}
 }
 ~~~

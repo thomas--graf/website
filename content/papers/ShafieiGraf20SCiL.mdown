@@ -1,0 +1,28 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{ShafieiGraf20SCiL,
+  author	= {Shafiei, Nazila and Graf, Thomas},
+  author+an = {1=sbu},
+  title		= {The Subregular Complexity of Syntactic Islands},
+  year		= {2020},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		  {Linguistics} ({SCiL}) 2020},
+  pages		= {272--281},
+  doi       = {10.7275/scil.1202},
+  openaccess = {gold},
+}
+~~~

@@ -1,11 +1,11 @@
-Title: A Refined Notion of Memory Usage for Minimalist Parsing
+Title: 
 Author: Thomas Graf
 Date: 2015-07-25
 Category: Papers
 Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
 
 <div markdown class="authors">
-Graf, Thomas, Brigitta Fodor, James Monette, Gianpaul Rachiele, Aunika Warren, and Chong Zhang
+
 </div>
 
 <div markdown class="abstract">
@@ -26,13 +26,17 @@ This result thus lends further support to the hypothesis that very simple notion
 ~~~
 :::bibtex
 @InProceedings{GrafEtAl15MOL,
-  author    = {Graf, Thomas  and  Fodor, Brigitta  and  Monette, James  and  Rachiele, Gianpaul  and  Warren, Aunika  and  Zhang, Chong},
-  title     = {A Refined Notion of Memory Usage for Minimalist Parsing},
-  booktitle = {Proceedings of the 14th Meeting on the Mathematics of Language ({MOL} 2015)},
-  year      = {2015},
-  address   = {Chicago, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {1--14},
-  url       = {http://www.aclweb.org/anthology/W15-2301}
+  author	= {Graf, Thomas and Fodor, Brigitta and Monette, James and
+		  Rachiele, Gianpaul and Warren, Aunika and Zhang, Chong},
+  author+an = {2=sbu;3=sbu;4=sbu;5=sbu;6=sbu},
+  title		= {A Refined Notion of Memory Usage for {Minimalist} Parsing},
+  booktitle	= {Proceedings of the 14th Meeting on the Mathematics of
+		  Language ({MOL} 2015)},
+  year		= {2015},
+  address	= {Chicago, USA},
+  publisher	= {Association for Computational Linguistics},
+  pages		= {1--14},
+  url		= {http://www.aclweb.org/anthology/W15-2301},
+  openaccess = {gold},
 }
 ~~~

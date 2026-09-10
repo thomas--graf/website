@@ -1,11 +1,11 @@
-Title: A Refined Notion of Memory Usage for Minimalist Parsing
+Title: 
 Author: Thomas Graf
 Date: 2015-07-25
 Category: Presentations
 Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
 
 <div markdown class="authors">
-Graf, Thomas, Brigitta Fodor, James Monette, Gianpaul Rachiele, Aunika Warren, and Chong Zhang
+
 </div>
 
 <div markdown class="abstract">
@@ -27,6 +27,7 @@ This result thus lends further support to the hypothesis that very simple notion
 :::bibtex
 @Misc{GrafEtAl15MOLtalk,
   author	= {Graf, Thomas and Fodor, Brigitta and Monette, James and Rachiele, Gianpaul and Warren, Aunika and Zhang, Chong},
+  author+an = {2=sbu;3=sbu;4=sbu;5=sbu;6=sbu},
   title		= {A Refined Notion of Memory Usage for {M}inimalist Parsing},
   year		= {2015},
   note		= {Slides of a talk given at {MOL14}, July 25--26,

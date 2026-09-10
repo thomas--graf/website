@@ -1,0 +1,36 @@
+Title: The computational unity of Merge and Move
+Author: Thomas Graf
+Date: 2026-03-15
+Category: Papers
+Tags: Minimalist Grammars; syntax; subregular; Merge; movement
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Based on a formal analysis of the operations Merge and Move, I provide a computational answer to the question why Move might be an integral part of language.
+The answer is rooted in the framework of subregular complexity, which reveals that Merge is most succinctly analyzed in terms of the formal class TSL.
+Any cognitive device that can handle this level of complexity also possesses sufficient resources for Move. In fact, Merge and Move are remarkably similar instances of TSL.
+Consequently, Move has little computational or conceptual cost attached to it and comes essentially for free in any grammar that expresses Merge as compactly as possible.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/Graf2021unity.pdf)]
+</div>
+
+~~~
+:::bibtex
+@article{graf2021computational,
+  title={The computational unity of {M}erge and {M}ove},
+  author={Graf, Thomas},
+  journal={{E}volutionary {L}inguistic {T}heory},
+  volume={3},
+  number={2},
+  pages={154--180},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+~~~

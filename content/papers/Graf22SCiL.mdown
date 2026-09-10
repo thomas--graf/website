@@ -1,0 +1,27 @@
+Title: 
+Author: Thomas Graf
+Date: -01-01
+Category: Papers
+Tags: 
+
+<div markdown class="authors">
+
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+</div>
+
+~~~
+:::bibtex
+@InProceedings{Graf22SCiL,
+  title		= {Typological Implications of Tier-Based Strictly Local Movement},
+  author	= {Graf, Thomas},
+  year		= {2022},
+  booktitle	= {Proceedings of the {Society} for {Computation} in
+		  {Linguistics} ({SCiL}) 2022},
+  pages     = {184--193},
+  doi       = {10.7275/gb65-ht31},
+  openaccess = {gold},
+}
+~~~
