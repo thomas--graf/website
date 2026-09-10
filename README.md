@@ -86,15 +86,26 @@ Here's a description of each script:
    It automatically assigns it the right category (books, talks, or papers) and saves it to the corresponding subfolder (*talks* for talks, and *papers* for books and papers).
    It also checks whether there is a folder with the same bibkey in `auxfiles`, and loads the abstract, tags, and date from the files in this folder, if it exists.
    It also looks for an archive with the source code in `doc/talks` or `doc/papers` and adds the corresponding link.
-   All of that is then put together into a nice entry
+   All of that is then put together into a nice entry.
 
 1. `create_bibliography` takes two bibtex files as input, one for publications and one for presentations.
-   It then uses `bib2mdown` to produce the Output page of the website.
+   It then uses `bib2mdown` to produce the *Output* page of the website.
 
 1. `create_bibkey` runs `bib2blog` for every bibtex key in a bibtex file.
 
 1. `compile_references` runs `create_bibliography` and `create_bibkey` on my bibtex files.
    If everything is configured correctly, this is the only script that needs to be run, all others will be called as needed.
+
+The overall flow looks as follows:
+
+```
+compile references
+|
+|
+|-----> create_bibliography --> bib2mdown
+|
+|-----> create_bibkey ---> bib2blog
+```
 
 All scripts except `compile_references` take command line arguments and can be altered via various options.
 Just run them with ``--help`` to learn more.

@@ -1,11 +1,20 @@
 Title: 
 Author: Thomas Graf
-Date: -01-01
+Date: 2019-01-01
 Category: Papers
-Tags: 
+Tags: phonology; subregular hypothesis; TSL; phonotactics; input strictly local functions; generative capacity
 
 <div markdown class="authors">
 
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+The subregular approach has revealed that the phonological surface patterns found in natural language are much simpler than previously assumed. 
+Most patterns belong to the subregular class of tier-based strictly local languages (TSL), which characterizes them as the combination of a strictly local dependency with a tier-projection mechanism that masks out irrelevant segments. 
+Some non-TSL patterns have been pointed out in the literature, though. We show that these outliers can be captured by rendering the tier projection mechanism sensitive to the surrounding structure. 
+We focus on a specific instance of these structure-sensitive TSL languages: input-local TSL (ITSL), in which the tier projection may distinguish between identical segments that occur in different local contexts in the input string. 
+This generalization of TSL establishes a tight link between tier-based language classes and ISL transductions, and is motivated by several natural language phenomena.
 </div>
 
 <div markdown class="files">

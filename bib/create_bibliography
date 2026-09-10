@@ -92,7 +92,7 @@ while [ "$1" != "" ]; do
     shift
 done
 
-if [ -z "$publications" -o -z "$presentations" -o -z "$author" ]; then
+if [ -z "$publications" ] || [ -z "$presentations" ] || [ -z "$author" ]; then
     echo "Error: missing argument!\n"
     usage
     exit 1
@@ -104,12 +104,12 @@ fi
 ############
 
 echo "Title: ${title}
-Author: ${author}" > ${tmppath}/output_header
-${bib_path}/bib2mdown -f $publications -t Publications -r True -o ${tmppath}/output_$(basename $publications)
-${bib_path}/bib2mdown -f $presentations -t Presentations -r True -o ${tmppath}/output_$(basename $presentations)
+Author: ${author}" > "${tmppath}/output_header"
+"${bib_path}/bib2mdown" -f "$publications" -t Publications -r True -o "${tmppath}/output_$(basename "$publications")"
+"${bib_path}/bib2mdown" -f "$presentations" -t Presentations -r True -o "${tmppath}/output_$(basename "$presentations")"
 
-cat ${tmppath}/output_header ${tmppath}/output_$(basename $publications) ${tmppath}/output_$(basename $presentations) > $outfile
+cat "${tmppath}/output_header" "${tmppath}/output_$(basename "$publications")" "${tmppath}/output_$(basename "$presentations")" > "$outfile"
 
-rm ${tmppath}/output_header
-rm ${tmppath}/output_$(basename $publications)
-rm ${tmppath}/output_$(basename $presentations)
+rm "${tmppath}/output_header"
+rm "${tmppath}/output_$(basename "$publications")"
+rm "${tmppath}/output_$(basename "$presentations")"
