@@ -102,9 +102,9 @@ The overall flow looks as follows:
 compile references
 |
 |
-|-----> create_bibliography --> bib2mdown
+|-----> create_bibliography ---> bib2mdown
 |
-|-----> create_bibkey ---> bib2blog
+|-----> create_bibkey ---------> bib2blog ---> bib2mdown
 ```
 
 All scripts except `compile_references` take command line arguments and can be altered via various options.

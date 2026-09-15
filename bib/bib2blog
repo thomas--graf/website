@@ -101,7 +101,7 @@ while [ "$1" != "" ]; do
 done
 
 # input files must exist
-if [ -z "$bibfile" -o -z "$bibkey" ]; then
+if [ -z "$bibfile" ] || [ -z "$bibkey" ]; then
     echo "Error: missing argument!\n"
     usage
     exit 1
@@ -114,11 +114,11 @@ fi
 
 # look for $bibkey in $bibfile and
 # extract the full entry to $tmpfile
-awk -v RS='' "/${bibkey},/" $bibfile > $tmpfile
+awk -v RS='' "/${bibkey},/" "$bibfile" > "$tmpfile"
 
 # convert entry to pelican format via bib2mdown
-cp $tmpfile ${bibkey}.bib
-${bib_path}/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
+cp "$tmpfile" "${bibkey}.bib"
+"${bib_path}/bib2mdown" -f "$tmpfile" -t Entry -o "bib2blog_${bibkey}"
 
 
 #########################
@@ -127,22 +127,22 @@ ${bib_path}/bib2mdown -f $tmpfile -t Entry -o bib2blog_${bibkey}
 
 # first we go through the pandoc-processed file;
 # author goes from third position until first space before (
-author=$(sed -e 's/^- \([^(]*\) .*/\1/' bib2blog_${bibkey})
+author=$(sed -e 's/^- \([^(]*\) .*/\1/' "bib2blog_${bibkey}")
 # year occurs between first ( and )
-year=$(sed -e 's/^[^(]*(\([0-9]*\)).*/\1/' bib2blog_${bibkey})
+year=$(sed -e 's/^[^(]*(\([0-9]*\)).*/\1/' "bib2blog_${bibkey}")
 # title occurs between first occurrence of stars
-title=$(sed -e 's/[^*]*\*\?\*\([^*]*\).*/\1/' bib2blog_${bibkey})
+title=$(sed -e 's/[^*]*\*\?\*\([^*]*\).*/\1/' "bib2blog_${bibkey}")
 
 # abstract and tags have their own files so that we do not clutter the bibtex file;
-abstract=$(cat ${auxfile_path}/${bibkey}/abstract.pd 2>/dev/null)
-tags=$(cat ${auxfile_path}/${bibkey}/tags.pd 2>/dev/null)
+abstract=$(cat "${auxfile_path}/${bibkey}/abstract.pd" 2>/dev/null)
+tags=$(cat "${auxfile_path}/${bibkey}/tags.pd" 2>/dev/null)
 # tags_raw=$(cat ${auxfile_path}/${bibkey}/tags.pd 2>/dev/null)
 # tags=$(echo "$tags_raw" | tr '[:upper:]' '[:lower:]')
-date=$(cat ${auxfile_path}/${bibkey}/date.pd 2>/dev/null)
-desc=$(cat ${auxfile_path}/${bibkey}/desc.pd 2>/dev/null)
+date=$(cat "${auxfile_path}/${bibkey}/date.pd" 2>/dev/null)
+desc=$(cat "${auxfile_path}/${bibkey}/desc.pd" 2>/dev/null)
 
 if [ "x$date" = "x" ]; then
-    date=$(echo $year | tr -d "\n")-01-01
+    date=$(echo "$year" | tr -d "\n")-01-01
 fi
 
 
@@ -150,9 +150,9 @@ fi
 # its found between @ and { on the first line;
 # we discard all other lines in order to
 # determine the type of entry
-bibtype=$(sed -e '1s/^@\([^{[:space:]]*\).*/\1/' ${bibkey}.bib | head -n 1)
+bibtype=$(sed -e '1s/^@\([^{[:space:]]*\).*/\1/' "${bibkey}.bib" | head -n 1)
 # and then we just load the whole bib entry
-bibtex_clean=$(cat ${bibkey}.bib)
+bibtex_clean=$(cat "${bibkey}.bib")
 
 # use type of entry to determine category for blog
 case $bibtype in
@@ -195,18 +195,18 @@ codelink="[code]($code)"
 # and now we put it all together
 
 # create file with Pelican headers
-echo "Title: $(echo $title | tr -d "\n")
+echo "Title: $(echo "$title" | tr -d "\n")
 Author: $webauthor
 Date: $date
 Category: $category
 Tags: $tags
-" > ${content_path}/${macrotype}/${bibkey}.mdown
+" > "${content_path}/${macrotype}/${bibkey}.mdown"
 
 # add the list of authors
 echo "<div markdown class=\"authors\">
-$(echo $author | tr -d "\n")
+$(echo "$author" | tr -d "\n")
 </div>
-" >> ${content_path}/${macrotype}/${bibkey}.mdown
+" >> "${content_path}/${macrotype}/${bibkey}.mdown"
 
 # the abstract, if it exists
 if [ "x$abstract" != "x" ]; then
@@ -214,50 +214,50 @@ echo "<div markdown class=\"abstract\">
 <span id=\"abstract-title\">Abstract</span>
 $abstract
 </div>
-" >> ${content_path}/${macrotype}/${bibkey}.mdown
+" >> "${content_path}/${macrotype}/${bibkey}.mdown"
 fi
 
 # the Files header
 echo "<div markdown class=\"files\">
 <span id=\"files-title\">Files</span>"\
->> ${content_path}/${macrotype}/${bibkey}.mdown
+>> "${content_path}/${macrotype}/${bibkey}.mdown"
 
 # add link to pdf if file exists
 if [ -e "${content_path}/doc/${macrotype}/${bibkey}.pdf" ]; then
     echo "[$pdflink]"\
-    >> ${content_path}/${macrotype}/${bibkey}.mdown
+    >> "${content_path}/${macrotype}/${bibkey}.mdown"
 fi
 
 # add link to source code if file exists
 # fixme: we check for tar.gz or zip, but codelink is always tar.gz
-if [ -e "${content_path}/doc/${macrotype}/${bibkey}.tar.gz" -o -e "${content_path}/doc/${macrotype}/${bibkey}.zip" ]; then
+if [ -e "${content_path}/doc/${macrotype}/${bibkey}.tar.gz" ] || [ -e "${content_path}/doc/${macrotype}/${bibkey}.zip" ]; then
     echo "[$codelink]"\
-    >> ${content_path}/${macrotype}/${bibkey}.mdown
+    >> "${content_path}/${macrotype}/${bibkey}.mdown"
 fi
 
 # close the Files div element
 echo "</div>
-" >> ${content_path}/${macrotype}/${bibkey}.mdown
+" >> "${content_path}/${macrotype}/${bibkey}.mdown"
 
 # print the full bibtex entry, verbatim
-echo '~~~' >> ${content_path}/${macrotype}/${bibkey}.mdown
-echo ':::bibtex' >> ${content_path}/${macrotype}/${bibkey}.mdown
-cat  ${bibkey}.bib >> ${content_path}/${macrotype}/${bibkey}.mdown
-echo '~~~' >> ${content_path}/${macrotype}/${bibkey}.mdown
+echo '~~~' >> "${content_path}/${macrotype}/${bibkey}.mdown"
+echo ':::bibtex' >> "${content_path}/${macrotype}/${bibkey}.mdown"
+cat  "${bibkey}.bib" >> "${content_path}/${macrotype}/${bibkey}.mdown"
+echo '~~~' >> "${content_path}/${macrotype}/${bibkey}.mdown"
 
 
 ##############
 #  Clean-Up  #
 ##############
 
-if [ -e $tmpfile ]; then
-    rm $tmpfile
+if [ -e "$tmpfile" ]; then
+    rm "$tmpfile"
 fi
 
-if [ -e ${bibkey}.bib ]; then
-    rm ${bibkey}.bib
+if [ -e "${bibkey}.bib" ]; then
+    rm "${bibkey}.bib"
 fi
 
-if [ -e bib2blog_${bibkey} ]; then
-    rm bib2blog_${bibkey}
+if [ -e "bib2blog_${bibkey}" ]; then
+    rm "bib2blog_${bibkey}"
 fi
