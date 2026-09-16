@@ -1,11 +1,18 @@
-Title: 
+Title: A Computational Minimalist Program for Syntax and Sentence Processing
 Author: Thomas Graf
-Date: -01-01
+Date: 2026-03-15
 Category: Presentations
-Tags: 
+Tags: Minimalist grammars; syntax, sentence processing, parsing, recursive descent, movement
 
 <div markdown class="authors">
+Graf, Thomas
+</div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Minimalism emphasizes the simplicity of UG and the role of computational efficiency as a third factor that shapes grammar.
+But how does one turn this big-picture idea into a concrete proposal with specific predictions?
+This talk presents a computational answer in the form a simple processing model for Minimalism that 1) unifies a broad range of phenomena from relative clause processing to heavy NP shift and quantifier scope preferences, and 2) suggests hard limits on the complexity of syntax, thereby deriving a number of island constraints.
 </div>
 
 <div markdown class="files">
@@ -13,12 +20,11 @@ Tags:
 [[pdf]({static}/doc/talks/Graf21CUNYtalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{Graf21CUNYtalk,
     author = {Graf, Thomas},
     title = {A Computational {Minimalist} Program for Syntax and Sentence Processing},
     year = {2021},
     note = {Invited talk, April 8, CUNY Graduate School, New York City, New York},
 }
-~~~
+```

@@ -1,0 +1,6 @@
+This chapter studies vowel harmony from a computational perspective.
+We primarily study necessary and sufficient conditions on the types of surface constraints present in vowel harmony phonotactics.
+The takeaway is that the computational complexity of grammars generating patterns obeying vowel harmony appears to fall within a well-defined class of finite-state, or regular, grammars.
+This means the memory required to compute the output is bound by a constant no matter the size of the input.
+Furthermore, the computational conditions on vowel harmony can be even more strongly characterized using familiar phonological notions of tiers, which relativizes locality conditions.
+This is in line with Heinz (2011), who argues that many phonological analyses can be made in terms of weaker, sub-regular classes.

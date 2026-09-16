@@ -1,11 +1,11 @@
-Title: 
+Title: Optimality Conditions Could Care Less about Optimality
 Author: Thomas Graf
 Date: 2010-12-10
 Category: Presentations
 Tags: constraints; transderivationality; reference-set computation; optimality theory; transducers; semantics; Scope Economy
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
@@ -14,8 +14,7 @@ Tags: constraints; transderivationality; reference-set computation; optimality t
 [[code]({static}/doc/talks/Graf10ZAStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf10ZAStalk,
   author	= {Graf, Thomas},
   title		= {Optimality Conditions Could Care Less About Optimality},
@@ -23,4 +22,4 @@ Tags: constraints; transderivationality; reference-set computation; optimality t
   note		= {Invited talk, December 10, Zentrum für Allgemeine
 		  Sprachwissenschaft (ZAS), Berlin, Germany}
 }
-~~~
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Features: More Trouble Than They're Worth?
 Author: Thomas Graf
 Date: 2019-05-27
 Category: Presentations
 Tags: constraints; features; subregular; syntax; morphosyntax; subcategorization
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -37,12 +37,11 @@ I present small case studies on successive-cyclic movement, selection, and morph
 [[pdf]({static}/doc/talks/Graf19Tromsotalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{Graf19Tromsotalk,
     author = {Graf, Thomas},
     title = {Features: More Trouble Than They're Worth?},
     year = {2019},
     note = {Invited talk, May 27, Workshop on \emph{Thirty Million Theories of Syntactic Features}, University of Troms\o, Troms\o, Norway}
 }
-~~~
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Subregular Linguistics for Linguists
 Author: Thomas Graf
 Date: 2019-11-08
 Category: Presentations
 Tags: subregular; phonology; syntax; tiers; islands; subcategorization
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -33,12 +33,11 @@ Subregular linguistics is just linguistics with some computational flavor sprink
 [[pdf]({static}/doc/talks/Graf19UMasstalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{Graf19UMasstalk,
     author = {Graf, Thomas},
     title = {Subregular Linguistics for Linguists},
     year = {2019},
-    note = {Invited talk, November 8, University of Massachusetts Amherst, Amherst, Massachusetts}
+    note = {Invited talk, November 8, Department of Linguistics, University of Massachusetts Amherst, Amherst, Massachusetts}
 }
-~~~
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Syntax, Semantics, Pragmatics: Where Do We Find Optimality?
 Author: Thomas Graf
 Date: 2010-12-14
 Category: Presentations
 Tags: constraints; transderivationality; reference-set computation; optimality theory; transducers; semantics; Scope Economy
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
@@ -14,8 +14,7 @@ Tags: constraints; transderivationality; reference-set computation; optimality t
 [[code]({static}/doc/talks/Graf10Goettingentalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf10Goettingentalk,
   author	= {Graf, Thomas},
   title		= {Syntax, Semantics, Pragmatics: {W}here do we Find
@@ -24,4 +23,4 @@ Tags: constraints; transderivationality; reference-set computation; optimality t
   note		= {Invited talk, December 15, Institut für Anglistik,
 		  Universität Göttingen, Göttingen, Germany}
 }
-~~~
+```

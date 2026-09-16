@@ -1,19 +1,27 @@
-Title: 
+Title: The Subregular Complexity of Syntactic Islands
 Author: Thomas Graf
-Date: -01-01
+Date: 2026-03-15
 Category: Presentations
-Tags: 
+Tags: Minimalist grammars; syntax; subregular; contraints; islands
 
 <div markdown class="authors">
+Shafiei, Nazila, and Thomas Graf
+</div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+We provide a formal framework for analyzing syntactic island effects from a subregular perspective.
+Key aspects of the syntactic representation are encoded as strings where precedence represents containment.
+Island effects then are expressed as constraints on the shape of these strings.
+The constraints fit in the class IBSP (Interval-Based Strictly Piecewise), which has been previously explored in subregular phonology.
+Consequently, the characterization of islands in terms of IBSP string constraints not only provides a computational upper bound on the inventory of feasible island effects, but also establishes a surprising link between syntax on the one hand and phonology on the other.
 </div>
 
 <div markdown class="files">
 <span id="files-title">Files</span>
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{ShafieiGraf20SCiLposter,
     author = {Shafiei, Nazila and Graf, Thomas},
     author+an = {1=sbu},
@@ -21,4 +29,4 @@ Tags:
     year = {2020},
     note = {Poster presented at \emph{{SCiL} 2020}, January 2--5, co-located with the {LSA 2020}}
 }
-~~~
+```

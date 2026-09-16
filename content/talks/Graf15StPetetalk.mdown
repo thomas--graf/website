@@ -1,23 +1,22 @@
-Title: 
+Title: Syntax and Phonology: A Computational Common Core
 Author: Thomas Graf
 Date: 2015-12-10
 Category: Presentations
 Tags: phonology; Minimalist grammars; subregular; constraints; locality
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
 <span id="files-title">Files</span>
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf15StPetetalk,
   author	= {Graf, Thomas},
   title		= {Syntax and Phonology: {A} Computational Common Core},
   year		= {2015},
   note		= {Department of Mathematical Linguistics, Saint Petersburg State University, St. Petersburg, Russia}
 }
-~~~
+```

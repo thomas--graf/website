@@ -1,11 +1,11 @@
-Title: 
+Title: It's a (Sub-)regular Conspiracy: Locality and Computation in Phonology, Morphology, Syntax, and Semantics
 Author: Thomas Graf
 Date: 2017-05-26
 Category: Presentations
 Tags: phonology; morphology; syntax; morphosemantics; subregular hierarchy; tiers;
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -52,12 +52,11 @@ together.
 [[code]({static}/doc/talks/Graf17CLStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf17CLStalk,
     author = {Graf, Thomas},
     title = {It's a (Sub-)Regular Conspiracy: {L}ocality and Computation in Phonology, Morphology, Syntax, and Semantics},
     year = {2017},
     note = {Invited talk, {M}ay 25--27, {CLS}, {U}niversity of {C}hicago, {C}hicago, {IL}},
 }
-~~~
+```

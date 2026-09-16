@@ -1,11 +1,11 @@
-Title: 
+Title: Reference-Set Computation = Minimalism + Transformational Rules?
 Author: Thomas Graf
 Date: 2010-12-08
 Category: Presentations
 Tags: constraints; transderivationality; optimality theory; Focus Economy; Merge-over-Move; Shortest Derivation Principle; transducers
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -25,8 +25,7 @@ As an illustration of the applicability of this formal model, I exhibit precise 
 [[code]({static}/doc/talks/Graf10Bielefeldtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf10Bielefeldtalk,
   author	= {Graf, Thomas},
   title		= {Reference-Set Computation = {M}inimalism + Transformational Rules?},
@@ -34,4 +33,4 @@ As an illustration of the applicability of this formal model, I exhibit precise 
   note		= {Invited talk, December 8, Institut für Linguistik,
 		  Universität Bielefeld, Bielefeld, Germany}
 }
-~~~
+```

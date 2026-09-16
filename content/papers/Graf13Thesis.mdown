@@ -1,11 +1,11 @@
-Title: 
+Title: Local and Transderivational Constraints in Syntax and Semantics
 Author: Thomas Graf
 Date: 2013-07-30
 Category: Papers
 Tags: Minimalist grammars; syntax; constraints; MSO; tree automata; tree transducers; features
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -37,8 +37,7 @@ The existence of these constraints in language is a natural consequence of the c
 [[pdf]({static}/doc/papers/Graf13Thesis.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @PhDThesis{Graf13Thesis,
   author	= {Graf, Thomas},
   title		= {Local and Transderivational Constraints in Syntax and
@@ -48,4 +47,4 @@ The existence of these constraints in language is a natural consequence of the c
   url		= {http://thomasgraf.net/doc/papers/Graf13Thesis.pdf},
   openaccess = {green},
 }
-~~~
+```

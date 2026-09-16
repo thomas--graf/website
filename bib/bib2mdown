@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Basic usage
 usage() {
@@ -143,8 +143,8 @@ while [ "$1" != "" ]; do
     shift
 done
 
-# input file must exist,
-if [ -z $bibfile ]; then
+# input file must exist
+if [ -z "$bibfile" ]; then
     echo "Error: missing argument!\n"
     usage
     exit 1
@@ -152,12 +152,12 @@ fi
 
 # and we create a default tmp-file if not manually specified
 if [ "x$tmpfile" = "x" ]; then
-    tmpfile="/tmp/$(basename $0)_$(basename $bibfile)"
+    tmpfile="/tmp/$(basename "$0")_$(basename "$bibfile")"
 fi
 
 # also set a default output file: lowercase $type.mdown
-if [ -z $outfile ]; then
-    outfile="$(echo $type | tr '[:upper:]' '[:lower:]').mdown"
+if [ -z "$outfile" ]; then
+    outfile="$(echo "$type" | tr '[:upper:]' '[:lower:]').mdown"
 fi
  
 # if blog_path isn't specified, pick smart default
@@ -196,14 +196,16 @@ fi
 ######################
 
 # only keep lines with bibtex key
-grep -E "^@" $bibfile > $tmpfile
+grep -E "^@" "$bibfile" > "$tmpfile"
 
 # turn remaining lines into pandoc keys;
-# first remove bibtext type and number items
-sed -i 's/@[[:alpha:]]*{/1.  \[@/g' $tmpfile
+# first remove bibtext type and number items,
+# with REFERENCE as a separator to avoid parsing issues
+sed -i 's/@[[:alpha:]]*{/1. REFERENCE \[@/g' "$tmpfile"
 # then close the pandoc key with ]
-sed -i 's/,/\]\n/g' $tmpfile
+sed -i 's/,/\]\n/g' "$tmpfile"
 
+# we now have a list where each line is a pandoc reference that pandoc will convert to a citation
 
 #######################
 #  Pandoc Conversion  #
@@ -213,42 +215,42 @@ sed -i 's/,/\]\n/g' $tmpfile
 # strictly speaking this doesn't translate much
 # because pandoc has no asciidoc reader; ah well, maybe in the future
 # NOTE: --wrap=none is --no-wrap in earlier versions of pandoc
-if [ -z $tmpfile ]; then
-    echo "$tmpfile does not exist!"
+if [ -z "$tmpfile" ]; then
+    echo "Error: $tmpfile does not exist!"
     exit 1
 else
-    pandoc $tmpfile --bibliography $bibfile --csl $style -t asciidoc --standalone --wrap=none -o ${tmpfile}_asciidoc
+    pandoc "$tmpfile" --citeproc --from=markdown+citations --bibliography "$bibfile" --csl "$style" -t asciidoc --standalone --wrap=none -o "${tmpfile}_asciidoc"
 fi
 
-if [ -z ${tmpfile}_asciidoc ]; then
-    echo "${tmpfile}_asciidoc does not exist!"
+if [ ! -e "${tmpfile}_asciidoc" ]; then
+    echo "Error: ${tmpfile}_asciidoc does not exist!"
     exit 1
 else
-    pandoc ${tmpfile}_asciidoc -t markdown --wrap=none -o $tmpfile
+    pandoc "${tmpfile}_asciidoc" --from=markdown -t markdown --wrap=none -o "$tmpfile"
 fi
 
 # clean-up
-if [ -e ${tmpfile}_asciidoc ]; then
-    rm ${tmpfile}_asciidoc
+if [ -e "${tmpfile}_asciidoc" ]; then
+    rm "${tmpfile}_asciidoc"
 fi
 
 # make doi hyperlinks;
 # Step 1: replace \_ by _ so that we can easily find the end of the url
-sed -i 's|\\_|_|g' $tmpfile
+sed -i 's|\\_|_|g' "$tmpfile"
 # Step 2: extract all relevant parts and reassemble into markdown link
 # - format in tmpfile is
 # doi:URL\[the_doi\]
 # - \1 = URL
 # - \2 = the_doi
 # - output: doi:[the_doi](URL)
-sed -i 's|doi:\([^\\]*\)\\\[\([^\\]*\)\\\]|doi:[\2](\1)|g' $tmpfile
+sed -i 's|doi:\([^\\]*\)\\\[\([^\\]*\)\\\]|doi:[\2](\1)|g' "$tmpfile"
 
 # remove URL links as they're best kept in the details;
 # this must be done before we move ref ids to the end;
-sed -i 's| https\{0,1\}://.*||g' $tmpfile
+sed -i 's| https\{0,1\}://.*||g' "$tmpfile"
 
 # format ref ids and move to end
-sed -i 's|.*\\\[\\\[ref-\([[:alnum:]]*\)\\\]\\\] \(.*\)|\2 [\[pdf\]]('"$pdf_path"'\1.pdf) [\[details\]]('"$blog_path"'\1.mdown)|' $tmpfile
+sed -i 's|.*\\\[\\\[ref-\([[:alnum:]]*\)\\\]\\\] \(.*\)|\2 [\[pdf\]]('"$pdf_path"'\1.pdf) [\[details\]]('"$blog_path"'\1.mdown)|' "$tmpfile"
 
 # Pelican's slugify lowercases all urls,
 # so we do the same for the details link;
@@ -256,94 +258,98 @@ sed -i 's|.*\\\[\\\[ref-\([[:alnum:]]*\)\\\]\\\] \(.*\)|\2 [\[pdf\]]('"$pdf_path
 # sed -i 's|\(/[[:alnum:]]*\))$|\L\1\.html)|' $tmpfile
 
 # remove citation triggers;
-# this works because bib-file preparation numbered them all
-grep -Ev "^[0-9]+\." $tmpfile > ${tmpfile}_grep
-mv ${tmpfile}_grep $tmpfile
+# this works because bib-file preparation numbered them all and added REFERENCE
+# grep -Ev "^[0-9]+\. REFERENCE" "$tmpfile" > "${tmpfile}_grep"
+# mv "${tmpfile}_grep" "$tmpfile"
 
 # delete links to non-existent files;
 # first we create a new temporary file to store lines after filtering
-touch ${tmpfile}_filtered
+touch "${tmpfile}_filtered"
 
 # now we search every line in the file for a pdf path
-while read line; do
+while read -r line; do
     # extract the pdf link
-    pdf_file=$(echo $line | sed 's|.*\[\[pdf\]\]({static}/\([^)]*\)).*|\1|')
+    pdf_file=$(echo "$line" | sed 's|.*\[\[pdf\]\]({static}/\([^)]*\)).*|\1|')
     # if the line contains a pdf link, pdf_file is not empty;
     # but if it is non-empty and the linked file does not exist,
     # it is a dead link and must be removed
-    if [ ! -z "$pdf_file" -a ! -f "${content_path}/$pdf_file" ]; then
-        line=$(echo $line | sed 's|\[\[pdf\]\]([^)]*) ||')
+    if [ -n "$pdf_file" ] && [ ! -f "${content_path}/$pdf_file" ]; then
+        line=$(echo "$line" | sed 's|\[\[pdf\]\]([^)]*) ||')
     fi
     # write the (possibly modified) line to filtered tmp file
-    echo "$line" >> ${tmpfile}_filtered
-done < $tmpfile
+    echo "$line" >> "${tmpfile}_filtered"
+done < "$tmpfile"
 
 # and make the filtererd tmp file the new base tmpfile
-mv ${tmpfile}_filtered $tmpfile
+mv "${tmpfile}_filtered" "$tmpfile"
 
 # next step: remove blank lines at start
-sed -i '/./,$!d' $tmpfile
+sed -i '/./,$!d' "$tmpfile"
 
 # itemize biliography as desired
-if [ $numbered_list ]; then
-    sed -i 's/^\([[:alnum:]]\)/0. \1/' $tmpfile
-elif [ $reverse_numbered_list ]; then
+if [ "$numbered_list" ]; then
+    sed -i 's/^\([[:alnum:]]\)/0. \1/' "$tmpfile"
+elif [ "$reverse_numbered_list" ]; then
     # wrap entries in <li> tags 
     # the markdown specification makes sure the markdown inside the tags gets parsed by pelican
-    sed -i 's/^\([[:alnum:]]\)/<li markdown>\n\1/' $tmpfile
-    sed -i 's|^\([^\n<]\+\)|\1\n</li>|' $tmpfile
+    sed -i 's/^\([[:alnum:]]\)/<li markdown>\n\1/' "$tmpfile"
+    sed -i 's|^\([^\n<]\+\)|\1\n</li>|' "$tmpfile"
     # wrap in ordered list environment
-    sed -i '1s|^|\n<ol reversed markdown>\n|' $tmpfile
-    sed -i '$ s|>|>\n</ol>|' $tmpfile
+    sed -i '1s|^|\n<ol reversed markdown>\n|' "$tmpfile"
+    sed -i '$ s|>|>\n</ol>|' "$tmpfile"
     # delete empty lines
-    sed -i '/^\s*$/d' $tmpfile
+    sed -i '/^\s*$/d' "$tmpfile"
 else
-    sed -i 's/^\([[:alnum:]]\)/- \1/' $tmpfile
+    sed -i 's/^\([[:alnum:]]\)/- \1/' "$tmpfile"
 fi
 
 
 ###########
 #  Hacks  #
 ###########
-# remove latexmath stuff
-sed -i 's/latexmath:\[\$\([^\$]*\)\$\]/\1/g' $tmpfile
+# latexmath stuff is no longer inserted because the bibtex file has been changed
+# sed -i 's/latexmath:\\\[.*\([[:alnum:]]*\).*\\\]/\1/g' "$tmpfile"
+# remove nocase stuff
+sed -i 's/\\\[\.nocase\\\]#\(.*\)#/\1/g' "$tmpfile"
 # remove text commands
-sed -i 's/text[[:alnum:]]*{\([^}]*\)}/\1/g' $tmpfile
+sed -i 's/text[[:alnum:]]*{\([^}]*\)}/\1/g' "$tmpfile"
 # fix superscripts for numbers
-sed -i 's|\^{\{0,1\}\([^\}]*\)}\{0,1\}|\1|g' $tmpfile
+sed -i 's|\^{\{0,1\}\([^\}]*\)}\{0,1\}|\1|g' "$tmpfile"
+# fix trailing ^
+sed -i 's/th\^/th/g' "$tmpfile"
 
 # fix duplicated Ms.
-sed -i 's/ ms\. Ms\./ Ms\./' $tmpfile
+sed -i 's/ ms\. Ms\./ Ms\./' "$tmpfile"
 
 # fix titles in italic instead of boldface
-sed -i 's/: \*\([^*]\+\)\*/: \*\*\1\*\*/' $tmpfile
+sed -i 's/: \*\([^*]\+\)\*/: \*\*\1\*\*/' "$tmpfile"
 
 # second bold face should be italic
 # this regex is hard to read, so we first switch from ** to !!
-sed -i 's/\*\*/!!/g' $tmpfile
-sed -i 's/\([^!]*!![^!]*!![^!]*\)!!\([^!]*\)!!\([^!]*\)/\1\*\2\*\3/' $tmpfile
+sed -i 's/\*\*/!!/g' "$tmpfile"
+sed -i 's/\([^!]*!![^!]*!![^!]*\)!!\([^!]*\)!!\([^!]*\)/\1\*\2\*\3/' "$tmpfile"
 # and now back from !! to **
-sed -i 's/!!/**/g' $tmpfile
+sed -i 's/!!/**/g' "$tmpfile"
 
 # fix broken links
-sed -i 's|{filename[^}]|{filename}/|g' $tmpfile
-sed -i 's|{static[^}]|{static}/|g' $tmpfile
+sed -i 's|{filename[^}]|{filename}/|g' "$tmpfile"
+sed -i 's|{static[^}]|{static}/|g' "$tmpfile"
 
 # fix weird [arabic] line
-sed -i 's|\[arabic\].*||' $tmpfile
+sed -i 's/\\\[arabic\\\].*//' "$tmpfile"
 
 
 ##############
 #  Finalize  #
 ##############
 # insert empty line at top
-sed -i '1s/.*/\n&/' $tmpfile
+sed -i '1s/.*/\n&/' "$tmpfile"
 
-if [ $type = "Entry" ]; then
+if [ "$type" = "Entry" ]; then
     add_section="False"
 fi
 
-if [ $add_section = "True" ]; then
-    sed -i "1s/^/\n# ${type}\n/" $tmpfile
+if [ "$add_section" = "True" ]; then
+    sed -i "1s/^/\n# ${type}\n/" "$tmpfile"
 fi
-mv $tmpfile $outfile
+mv "$tmpfile" "$outfile"

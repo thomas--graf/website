@@ -240,10 +240,9 @@ echo "</div>
 " >> "${content_path}/${macrotype}/${bibkey}.mdown"
 
 # print the full bibtex entry, verbatim
-echo '~~~' >> "${content_path}/${macrotype}/${bibkey}.mdown"
-echo ':::bibtex' >> "${content_path}/${macrotype}/${bibkey}.mdown"
+echo '```bibtex' >> "${content_path}/${macrotype}/${bibkey}.mdown"
 cat  "${bibkey}.bib" >> "${content_path}/${macrotype}/${bibkey}.mdown"
-echo '~~~' >> "${content_path}/${macrotype}/${bibkey}.mdown"
+echo '```' >> "${content_path}/${macrotype}/${bibkey}.mdown"
 
 
 ##############

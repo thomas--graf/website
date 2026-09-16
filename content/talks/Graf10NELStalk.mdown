@@ -1,11 +1,11 @@
-Title: 
+Title: Rethinking Transderivationality
 Author: Thomas Graf
 Date: 2010-10-22
 Category: Presentations
 Tags: constraints; transderivationality; optimality theory; Focus Economy; Merge-over-Move; transducers
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -25,15 +25,14 @@ As an illustration of the applicability of this formal model, I exhibit precise 
 [[code]({static}/doc/talks/Graf10NELStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf10NELStalk,
   author	= {Graf, Thomas},
   title		= {Rethinking Transderivationality},
   year		= {2010},
-  note		= {Slides of a talk given at the 41$^{\text{st}}$ annual
+  note		= {Slides of a talk given at the 41\textsuperscript{th} annual
 		  meeting of the North East Linguistic Society (NELS 41),
 		  October 22--24, University of Pennsylvania, Philadelphia,
 		  PA}
 }
-~~~
+```

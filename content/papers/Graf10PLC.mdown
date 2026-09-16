@@ -1,11 +1,11 @@
-Title: 
+Title: Comparing Incomparable Frameworks: A Model Theoretic Approach to Phonology
 Author: Thomas Graf
-Date: -01-01
+Date: 2010-01-01
 Category: Papers
 Tags: phonology; generative capacity; subregular hierarchy; Sanskrit; Cairene Arabic; Creek; primary stress
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -23,8 +23,7 @@ These technical results are accompanied by reflections on the relation between e
 [[code]({static}/doc/papers/Graf10PLC.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Article{Graf10PLC,
   author	= {Graf, Thomas},
   title		= {Comparing Incomparable Frameworks: A Model Theoretic
@@ -37,4 +36,4 @@ These technical results are accompanied by reflections on the relation between e
   url		= {http://repository.upenn.edu/pwpl/vol16/iss1/10},
   openaccess = {gold},
 }
-~~~
+```

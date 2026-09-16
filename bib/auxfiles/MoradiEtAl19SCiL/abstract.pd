@@ -1,0 +1,5 @@
+The central concern of linguistics is to succinctly state generalizations.
+But as numerous linguists have pointed out over the years, generalizations do not always come for free.
+A formalism's ability to account for the data does not entail that it can express the relevant generalizations about the data.
+We illustrate this point with a computational case study in micro-morphology.
+More precisely, we show that the subregular complexity of adjective inflection in Noon varies depending on what generalizations one wishes to capture.

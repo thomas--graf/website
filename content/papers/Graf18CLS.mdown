@@ -1,11 +1,11 @@
-Title: 
+Title: Why Movement Comes for Free Once You Have Adjunction
 Author: Thomas Graf
 Date: 2018-06-06
 Category: Papers
 Tags: syntax; Minimalist grammars; Merge; movement; adjunction; subregular; tiers
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -23,8 +23,7 @@ Consequently, Move has no additional computational or conceptual cost attached t
 [[pdf]({static}/doc/papers/Graf18CLS.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{Graf18CLS,
   author	= {Graf, Thomas},
   title		= {Why Movement Comes for Free Once You Have Adjunction},
@@ -35,4 +34,4 @@ Consequently, Move has no additional computational or conceptual cost attached t
 		  and Sankhagowit, Amara and Tabatowski, Miachel},
   pages		= {117--136}
 }
-~~~
+```

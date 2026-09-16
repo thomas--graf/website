@@ -1,11 +1,11 @@
-Title: 
+Title: C-Command Dependencies as TSL String Constraints
 Author: Thomas Graf
 Date: 2018-10-30
 Category: Papers
 Tags: Minimalist grammars; subregular; syntax; constraints; c-command; tiers
 
 <div markdown class="authors">
-
+Graf, Thomas, and Nazila Shafiei
 </div>
 
 <div markdown class="abstract">
@@ -20,8 +20,7 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
 [[pdf]({static}/doc/papers/GrafShafiei19SCiL.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{GrafShafiei19SCiL,
   author	= {Graf, Thomas and Shafiei, Nazila},
   author+an = {2=sbu},
@@ -35,4 +34,4 @@ The complexity of many syntactic phenomena thus is comparable to dependencies in
   doi       = {10.7275/4rrx-x488},
   openaccess = {gold},
 }
-~~~
+```

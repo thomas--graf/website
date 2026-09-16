@@ -1,11 +1,11 @@
-Title: 
+Title: A Computational Guide to the Dichotomy of Features and Constraints
 Author: Thomas Graf
 Date: 2015-03-05
 Category: Presentations
 Tags: syntax; Minimalist grammars; model-theoretic syntax; subcategorization; features; constraints; overgeneration
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -31,8 +31,7 @@ But as long as this it not the case, we should freely choose between the two as 
 [[code]({static}/doc/talks/Graf15DGFStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf15DGFStalk,
   author	= {Graf, Thomas},
   title		= {A Computational Guide to the Dichotomy of Features and Constraints},
@@ -40,4 +39,4 @@ But as long as this it not the case, we should freely choose between the two as 
   note		= {Slides of a talk given at {DGfS 2015}, April 15--18,
 		  University of Leipzig, Leipzig, Germany.}
 }
-~~~
+```

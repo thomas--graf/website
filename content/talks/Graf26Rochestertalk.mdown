@@ -1,0 +1,37 @@
+Title: Syntactic Constraints: Strings Are More Insightful Than Trees
+Author: Thomas Graf
+Date: 2026-09-11
+Category: Presentations
+Tags: syntax; subregular; tier-based definite; movement; extraction morphology; wh-copying; freezing
+
+<div markdown class="authors">
+Graf, Thomas
+</div>
+
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+If there is any consensus in syntax at all, it is that syntax is all about tree structures --- so of course this is exactly what this talk will argue against on computational grounds.
+I will start with recent work in subregular syntax that actually supports the consensus: whereas the linear string patterns produced by syntax can be very complex (mildly context-sensitive), the tree patterns are much simpler and exhibit computational properties similar to what one finds in phonology and morphology (tier-based strictly local).
+But while syntactic structures may well be trees, syntactic constraints are different. I survey a variety of syntactic constraints, including island constraints, relativized minimality, freezing effects, and extraction morphology (e.g. wh-agreement).
+I show that these constraints form a natural class from a computational perspective, but only if they are computed over strings instead of trees.
+Crucially, these strings don't encode linear order but specific types of prominence in the syntactic derivation.
+For example, the c[ommand]-string of a lexical item l contains all the lexical items that must have been selected later than l.
+The constraints above reduce to the same basic template applied to different types of strings.
+The overall system shares similarities with path equations in Lexical Functional Grammar yet is remarkably simple from a computational perspective (tier-based 1-definite).
+This greatly aids learnability and puts tight limits on the range of cross-linguistic variation we expect to see in those constraints.
+While syntax may well be about trees, it isn't all about trees, and that's actually a good thing.
+</div>
+
+<div markdown class="files">
+<span id="files-title">Files</span>
+[[pdf]({static}/doc/talks/Graf26Rochestertalk.pdf)]
+</div>
+
+```bibtex
+@misc{Graf26Rochestertalk,
+    author = {Graf, Thomas},
+    title = {Syntactic Constraints: Strings are More Insightful Than Trees},
+    year = {2026},
+    note = {Invited talk, September 10, Department of Linguistics, University of Rochester, Rochester, New York},
+}
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Formal Parameters of Phonology: From Government Phonology to SPE
 Author: Thomas Graf
-Date: -01-01
+Date: 2010-01-01
 Category: Papers
 Tags: phonology; generative capacity; constraints; modal logic
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -22,8 +22,7 @@ I identify several other axes along which Government Phonology might be generali
 [[code]({static}/doc/papers/Graf10FOLLI.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InCollection{Graf10FOLLI,
   author	= {Graf, Thomas},
   title		= {Formal Parameters of Phonology: {From} {Government}
@@ -38,4 +37,4 @@ I identify several other axes along which Government Phonology might be generali
   volume	= {6211},
   series	= {Lectures Notes in Artifical Intelligence}
 }
-~~~
+```

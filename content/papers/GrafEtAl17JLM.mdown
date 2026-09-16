@@ -1,11 +1,11 @@
-Title: 
+Title: Relative Clauses as a Benchmark for Minimalist Parsing
 Author: Thomas Graf
 Date: 2017-05-24
 Category: Papers
 Tags: Minimalist grammars; parsing; relative clauses; movement; processing; Chinese; Japanese; Korean
 
 <div markdown class="authors">
-
+Graf, Thomas, James Monette, and Chong Zhang
 </div>
 
 <div markdown class="abstract">
@@ -24,8 +24,7 @@ Second, it significantly limits the number of viable metrics that may be applied
 [[pdf]({static}/doc/papers/GrafEtAl17JLM.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Article{GrafEtAl17JLM,
   author	= {Graf, Thomas and Monette, James and Zhang, Chong},
   author+an = {2=sbu;3=sbu},
@@ -38,4 +37,4 @@ Second, it significantly limits the number of viable metrics that may be applied
   doi		= {10.15398/jlm.v5i1.157},
   openaccess = {gold},
 }
-~~~
+```

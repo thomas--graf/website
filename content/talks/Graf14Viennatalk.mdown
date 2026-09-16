@@ -1,11 +1,11 @@
-Title: 
+Title: Person Case Constraints and Feature Complexity in Syntax
 Author: Thomas Graf
 Date: 2014-01-09
 Category: Presentations
 Tags: substantive universals; person case constraint; algebra; person hierarchy; lattices; feature geometry
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
@@ -14,8 +14,7 @@ Tags: substantive universals; person case constraint; algebra; person hierarchy;
 [[code]({static}/doc/talks/Graf14Viennatalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf14Viennatalk,
   author	= {Graf, Thomas},
   title		= {Person Case Constraints and Feature Complexity in Syntax},
@@ -23,4 +22,4 @@ Tags: substantive universals; person case constraint; algebra; person hierarchy;
   note		= {Invited talk, January 9, Institut für Sprachwissenschaft,
 		  Universität Wien, Vienna, Austria}
 }
-~~~
+```

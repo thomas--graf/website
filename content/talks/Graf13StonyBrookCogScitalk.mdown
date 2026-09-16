@@ -1,11 +1,11 @@
-Title: 
+Title: Computational Computational Linguistics
 Author: Thomas Graf
 Date: 2013-10-01
 Category: Presentations
 Tags: phonology; syntax; subregular hierarchy; formal language theory; cognitive architecture
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
@@ -13,8 +13,7 @@ Tags: phonology; syntax; subregular hierarchy; formal language theory; cognitive
 [[pdf]({static}/doc/talks/Graf13StonyBrookCogScitalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf13StonyBrookCogScitalk,
   author	= {Graf, Thomas},
   title		= {Computational Computational Linguistics},
@@ -22,4 +21,4 @@ Tags: phonology; syntax; subregular hierarchy; formal language theory; cognitive
   note		= {Invited talk, December 4, Department of Psychology, Stony
 		  Brook University, Stony Brook, NY}
 }
-~~~
+```

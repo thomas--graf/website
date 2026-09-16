@@ -1,11 +1,22 @@
-Title: 
+Title: Typological Implications of Tier-Based Strictly Local Movement
 Author: Thomas Graf
-Date: -01-01
+Date: 2026-03-15
 Category: Presentations
-Tags: 
+Tags: Minimalist grammars; syntax; movement; islands; that-trace effect; constraints; typology
 
 <div markdown class="authors">
+Graf, Thomas
+</div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Earlier work has shown that movement, which forms the backbone of Minimalist syntax, belongs in the subregular class of TSL-2 dependencies over trees.
+The central idea is that movement, albeit unbounded, boils down to local mother-daughter dependencies on a specific substructure called a tree tier.
+This reveals interesting parallels between syntax and phonology, but it also looks very different from the standard view of movement.
+One may wonder, then, whether the TSL-2 characterization is linguistically natural.
+I argue that this is indeed the case because TSL-2 furnishes a unified analysis of a variety of phenomena: multiple wh-movement, expletive constructions, the that-trace effect and the anti-that-trace effect, islands, and wh-agreement.
+In addition, TSL-2 explains the absence of many logically feasible yet unattested phenomena.
+Far from a mere mathematical curiosity, TSL-2 is a conceptually pleasing and empirically fertile characterization of movement.
 </div>
 
 <div markdown class="files">
@@ -13,12 +24,11 @@ Tags:
 [[pdf]({static}/doc/talks/Graf22SCiLtalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{Graf22SCiLtalk,
     author    = {Graf, Thomas},
     title     = {Typological Implications of Tier-Based Strictly Local Movement},
     year      = {2022},
     note = {Slides of a talk given at \emph{{SCiL} 2022}, February 7--9, online},
 }
-~~~
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Some Interdefinability Results for Syntactic Constraint Classes
 Author: Thomas Graf
-Date: -01-01
+Date: 2010-01-01
 Category: Papers
 Tags: constraints; transderivationality; reference-set computation; model-theoretic syntax; multi-dimensional trees; optimality theory
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -24,8 +24,7 @@ The results jointly vindicate a broadly construed version of the Müller-Sternef
 [[code]({static}/doc/papers/Graf10MOL.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{Graf10MOL,
   author	= {Graf, Thomas},
   title		= {Some Interdefinability Results for Syntactic Constraint
@@ -39,4 +38,4 @@ The results jointly vindicate a broadly construed version of the Müller-Sternef
   address	= {Heidelberg},
   publisher	= {Springer}
 }
-~~~
+```

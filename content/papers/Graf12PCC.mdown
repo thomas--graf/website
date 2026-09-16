@@ -1,11 +1,11 @@
-Title: 
+Title: An Algebraic Perspective on the Person Case Constraint
 Author: Thomas Graf
-Date: -01-01
+Date: 2012-01-01
 Category: Papers
 Tags: PCC; MSO; algebra; substantive universals
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -27,8 +27,7 @@ The general upshot is that the different Person Case Constraints correspond to s
 [[code]({static}/doc/papers/Graf12PCC.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InCollection{Graf12PCC,
   author	= {Graf, Thomas},
   title		= {An Algebraic Perspective on the {Person} {Case}
@@ -42,4 +41,4 @@ The general upshot is that the different Person Case Constraints correspond to s
   series	= {UCLA Working Papers in Linguistics},
   openaccess = {gold},
 }
-~~~
+```

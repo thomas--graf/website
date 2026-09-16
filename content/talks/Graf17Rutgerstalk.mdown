@@ -1,11 +1,11 @@
-Title: 
+Title: Subregular Morpho-Semantics: The Expressive Limits of Monomorphemic Quantifiers
 Author: Thomas Graf
 Date: 2017-12-15
 Category: Presentations
 Tags: subregular hierarchy; semantics; typology; tiers; monotonicity
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -23,12 +23,11 @@ This suggests that the semantic limitations of monomorphemic quantifiers are con
 [[code]({static}/doc/talks/Graf17Rutgerstalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf17Rutgerstalk,
     author = {Graf, Thomas},
     title = {Subregular Morpho-Semantics: {T}he Expressive Limits of Monomorphemic Quantifiers},
     year = {2017},
-    note = {Invited talk, {D}ecember 15, {R}utgers {U}niversity, {N}ew {B}runswick, {NJ}},
+    note = {Invited talk, {D}ecember 15, Department of Linguistics, {R}utgers {U}niversity, {N}ew {B}runswick, {NJ}},
 }
-~~~
+```

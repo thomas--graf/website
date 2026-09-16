@@ -1,11 +1,11 @@
-Title: 
+Title: Computational Unity Across Language Modules
 Author: Thomas Graf
 Date: 2015-12-15
 Category: Presentations
 Tags: phonology; Minimalist grammars; subregular; constraints; locality
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -34,12 +34,11 @@ trees for syntax.
 [[pdf]({static}/doc/talks/Graf15MSUSubregulartalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf15MSUSubregulartalk,
   author	= {Graf, Thomas},
   title		= {Computational Unity Across Language Modules},
   year		= {2015},
   note		= {Invited talk, December 15, Department of Theoretical and Applied Linguistics, Moscow State University, Moscow, Russia}
 }
-~~~
+```

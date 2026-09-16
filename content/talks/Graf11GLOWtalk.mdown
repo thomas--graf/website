@@ -1,11 +1,11 @@
-Title: 
+Title: Optimality Is Not a Race: Against a Performance-Based View of Reference-Set Computation
 Author: Thomas Graf
 Date: 2011-04-29
 Category: Presentations
 Tags: transderivationality; reference-set computation; constraints; syntax; semantics; transducers
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -19,8 +19,7 @@ Reference-set constraints (RCs; also known as transderivational constraints) dif
 [[code]({static}/doc/talks/Graf11GLOWtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf11GLOWtalk,
   author	= {Graf, Thomas},
   title		= {Optimality is not a Race: {A}gainst a Performance-based View
@@ -29,4 +28,4 @@ Reference-set constraints (RCs; also known as transderivational constraints) dif
   note		= {Slides of a talk given at Glow 34, April 28--30, 2011,
 		  University of Vienna, Vienna, Austria}
 }
-~~~
+```

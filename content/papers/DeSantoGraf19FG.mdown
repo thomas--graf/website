@@ -1,11 +1,11 @@
-Title: 
+Title: Structure Sensitive Tier Projection: Applications and Formal Properties
 Author: Thomas Graf
 Date: 2019-01-01
 Category: Papers
 Tags: phonology; subregular hypothesis; TSL; phonotactics; input strictly local functions; generative capacity
 
 <div markdown class="authors">
-
+De Santo, Aniello, and Thomas Graf
 </div>
 
 <div markdown class="abstract">
@@ -19,10 +19,10 @@ This generalization of TSL establishes a tight link between tier-based language 
 
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/DeSantoGraf19FG.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{DeSantoGraf19FG,
   author	= {De Santo, Aniello and Graf, Thomas},
   author+an = {1=sbu},
@@ -37,4 +37,4 @@ This generalization of TSL establishes a tight link between tier-based language 
   pages		= {35--50},
   doi		= {10.1007/978-3-662-59648-7_3}
 }
-~~~
+```

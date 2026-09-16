@@ -1,19 +1,27 @@
-Title: 
+Title: Sensing Tree Automata as a Model of Syntactic Dependencies
 Author: Thomas Graf
-Date: -01-01
+Date: 2019-01-01
 Category: Presentations
-Tags: 
+Tags: Minimalist Grammars; syntax; movement; derivation trees; subregular; automata
 
 <div markdown class="authors">
+Graf, Thomas, and Aniello De Santo
+</div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+Various aspects of syntax have recently been characterized in subregular terms. However, these characterizations operate over very different representations, including string encodings of c-command relations as well as tiers projected from derivation trees. 
+We present a way to unify these approaches via sensing tree automata over Minimalist grammar dependency trees. 
+Sensing tree automata are deterministic top-down tree automata that may inspect the labels of all daughter nodes before assigning them specific states. 
+It is already known that these automata cannot correctly enforce all movement dependencies in Minimalist grammars, but we show that this result no longer holds if one takes into account several well-established empirical restrictions on movement. 
+Sensing tree automata thus furnish a strong yet uniform upper bound on the complexity of syntactic dependencies.
 </div>
 
 <div markdown class="files">
 <span id="files-title">Files</span>
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{GrafDeSanto19MOLtalk,
     title = {Sensing Tree Automata as a Model of Syntactic Dependencies},
     author = {Graf, Thomas and De Santo, Aniello},
@@ -21,4 +29,4 @@ Tags:
     year = {2019},
     note = {Slides of a talk given at the 16th meeting on the mathematics of language ({MOL} 2019), {J}uly 18--19, {U}niversity of {T}oronto, {T}oronto, {C}anada}
 }
-~~~
+```

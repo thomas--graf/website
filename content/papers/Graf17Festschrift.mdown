@@ -1,11 +1,11 @@
-Title: 
+Title: Derivations as Representations: News from the Computational Frontier
 Author: Thomas Graf
 Date: 2018-01-16
 Category: Papers
 Tags: Syntax; Minimalist grammars; representations; derivations
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -23,8 +23,7 @@ Representational derivationalism recognizes that both approaches have unique adv
 [[code]({static}/doc/papers/Graf17Festschrift.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InCollection{Graf17Festschrift,
   author	= {Graf, Thomas},
   title		= {Derivations as Representations: {News} from the
@@ -36,4 +35,4 @@ Representational derivationalism recognizes that both approaches have unique adv
   pages		= {61--69},
   year		= {2017}
 }
-~~~
+```

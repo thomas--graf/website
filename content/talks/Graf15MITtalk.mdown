@@ -1,11 +1,11 @@
-Title: 
+Title: Formal Processing Theory, or Parsing Without Parsers
 Author: Thomas Graf
 Date: 2015-10-11
 Category: Presentations
 Tags: syntax; processing; relative clauses; Minimalist grammars; parsing; Chomsky in the audience
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -23,12 +23,11 @@ This "formal processing theory" thus opens up a way of studying parsing without 
 [[code]({static}/doc/talks/Graf15MITtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf15MITtalk,
   author	= {Graf, Thomas},
   title		= {Formal Processing Theory, or Parsing Without Parsers},
   year		= {2015},
   note		= {Slides of a talk given at the Workshop on Minimalist Parsing, October 9--12, MIT, Boston, MA}
 }
-~~~
+```

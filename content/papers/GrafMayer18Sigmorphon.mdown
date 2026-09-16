@@ -1,11 +1,11 @@
-Title: 
+Title: Sanskrit n-Retroflexion Is Input-Output Tier-Based Strictly Local
 Author: Thomas Graf
 Date: 2018-10-30
 Category: Papers
 Tags: phonology; subregular; tiers; nati; Sanskrit;
 
 <div markdown class="authors">
-
+Graf, Thomas, and Connor Mayer
 </div>
 
 <div markdown class="abstract">
@@ -22,8 +22,7 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
 [[pdf]({static}/doc/papers/GrafMayer18Sigmorphon.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{GrafMayer18Sigmorphon,
   author	= {Graf, Thomas and Mayer, Connor},
   author+an = {2=student},
@@ -34,4 +33,4 @@ Assuming that /n/-retroflexion represents the upper bound on the complexity of s
   pages		= {151--160},
   openaccess = {gold},
 }
-~~~
+```

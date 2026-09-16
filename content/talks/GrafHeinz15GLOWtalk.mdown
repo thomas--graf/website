@@ -1,11 +1,11 @@
-Title: 
+Title: Commonality in Disparity: The Computational View of Syntax and Phonology
 Author: Thomas Graf
 Date: 2015-04-18
 Category: Presentations
 Tags: phonology; Minimalist grammars; subregular; constraints; locality
 
 <div markdown class="authors">
-
+Graf, Thomas, and Jeffrey Heinz
 </div>
 
 <div markdown class="abstract">
@@ -22,8 +22,7 @@ Both phonological and syntactic dependencies turn out to be local given a suitab
 [[code]({static}/doc/talks/GrafHeinz15GLOWtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{GrafHeinz15GLOWtalk,
   author	= {Graf, Thomas and Heinz, Jeffrey},
   title		= {Commonality in Disparity: {T}he Computational View of Syntax
@@ -32,4 +31,4 @@ Both phonological and syntactic dependencies turn out to be local given a suitab
   note		= {Slides of a talk given at {GLOW 2015}, April 18, Paris,
 		  France.}
 }
-~~~
+```

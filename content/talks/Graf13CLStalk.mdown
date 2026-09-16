@@ -1,11 +1,11 @@
-Title: 
+Title: The Syntactic Algebra of Adjuncts
 Author: Thomas Graf
 Date: 2013-04-19
 Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -27,8 +27,7 @@ In combination with standard assumptions about the feature-driven nature of Move
 [[code]({static}/doc/talks/Graf13CLStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf13CLStalk,
   author	= {Graf, Thomas},
   title		= {The Syntactic Algebra of Adjuncts},
@@ -36,4 +35,4 @@ In combination with standard assumptions about the feature-driven nature of Move
   note		= {Slides of a talk given at {CLS 49}, April 18--22,
 		  University of Chicago, Chicago, IL}
 }
-~~~
+```

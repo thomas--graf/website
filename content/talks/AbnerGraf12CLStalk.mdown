@@ -1,11 +1,11 @@
-Title: 
+Title: The Complexity of Binding in English and ASL
 Author: Thomas Graf
 Date: 2012-04-19
 Category: Presentations
 Tags: binding; Principle B; finite-state; typology; sign language; English
 
 <div markdown class="authors">
-
+Abner, Natasha, and Thomas Graf
 </div>
 
 <div markdown class="abstract">
@@ -21,8 +21,7 @@ Starting from an independent observation about the permissible resource load of 
 [[code]({static}/doc/talks/AbnerGraf12CLStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{AbnerGraf12CLStalk,
   author	= {Abner, Natasha and Graf, Thomas},
   title		= {The Complexity of Binding in {E}nglish and {ASL}},
@@ -30,4 +29,4 @@ Starting from an independent observation about the permissible resource load of 
   note		= {Slides of a talk given at {CLS 48}, April 19--21,
 		  University of Chicago, Chicago, IL}
 }
-~~~
+```

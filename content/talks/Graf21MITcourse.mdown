@@ -1,23 +1,22 @@
-Title: 
+Title: Subregular Linguistics for...well, Linguists
 Author: Thomas Graf
-Date: -01-01
+Date: 2021-01-01
 Category: Presentations
 Tags: 
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
 <span id="files-title">Files</span>
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{Graf21MITcourse,
     author = {Graf, Thomas},
     title = {Subregular Linguistics for\ldots well, linguists},
     year = {2021},
-    note = {Mini-course, May 5--6, MIT, Boston, Massachusetts},
+    note = {Mini-course, May 5--6, Department of Linguistics, MIT, Boston, Massachusetts},
 }
-~~~
+```

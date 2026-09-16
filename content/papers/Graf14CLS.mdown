@@ -1,11 +1,11 @@
-Title: 
+Title: Feature Geometry and the Person Case Constraint: An Algebraic Link
 Author: Thomas Graf
 Date: 2014-04-11
 Category: Papers
 Tags: morphosyntax; PCC; algebra; feature geometry; typology; lattices; person hierarchy
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -21,8 +21,7 @@ I show that these four variants form a natural class when viewed from an algebra
 [[code]({static}/doc/papers/Graf14CLS.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{Graf14CLS,
   author	= {Graf, Thomas},
   title		= {Feature Geometry and the {Person} {Case} {Constraint}: An
@@ -32,4 +31,4 @@ I show that these four variants form a natural class when viewed from an algebra
   note		= {To appear},
   url		= {http://thomasgraf.net/doc/papers/Graf14CLS.pdf}
 }
-~~~
+```

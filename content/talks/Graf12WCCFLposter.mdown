@@ -1,11 +1,11 @@
-Title: 
+Title: Why There Must Be Exceptions to Principle B
 Author: Thomas Graf
 Date: 2012-04-14
 Category: Presentations
 Tags: binding; formal universals; typology; Principle B; coordination
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -19,14 +19,13 @@ Recent Minimalist thinking has been strongly influenced by the idea that some un
 [[code]({static}/doc/talks/Graf12WCCFLposter.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf12WCCFLposter,
   author	= {Graf, Thomas},
   title		= {Why There Must be Exceptions to {P}rinciple {B}},
   year		= {2012},
-  note		= {Poster presented at the 30$^{\text{th}}$ West Coast
+  note		= {Poster presented at the 30\textsuperscript{th} West Coast
 		  Conference on Formal Linguistics (WCCFL 30), April 13--15,
 		  UCSC, Santa Cruz, CA}
 }
-~~~
+```

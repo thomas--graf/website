@@ -1,11 +1,11 @@
-Title: 
+Title: Locality and the Complexity of Minimalist Derivation Tree Languages
 Author: Thomas Graf
 Date: 2011-08-06
 Category: Presentations
 Tags: Minimalist grammars; locality; subregular hierarchy; first-order logic; model-theoretic syntax; tree automata
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -23,15 +23,14 @@ I show that this locality condition 1) has no effect on weak generative capacity
 [[code]({static}/doc/talks/Graf11FGtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf11FGtalk,
   author	= {Graf, Thomas},
   title		= {Locality and the Complexity of {M}inimalist Derivation Tree
 		  Languages},
   year		= {2011},
-  note		= {Slides of a talk presented at the 16$^\textrm{th}$
+  note		= {Slides of a talk presented at the 16\textsuperscript{th}
 		  Conference on Formal Grammar (FG-2011), August 6, 2011,
 		  Ljubljana, Slovenia}
 }
-~~~
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Adjuncts, Conjuncts, Ojuncts: Deriving Strong Island Constraints
 Author: Thomas Graf
 Date: 2015-12-14
 Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -26,12 +26,11 @@ optional constituents --- which I call ojuncts --- are islands.
 [[pdf]({static}/doc/talks/Graf15RGGUtalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf15RGGUtalk,
   author	= {Graf, Thomas},
   title		= {Adjuncts, Conjuncts, Ojuncts: {D}eriving Strong Island Constraints},
   year		= {2015},
   note		= {Invited talk, Institute of Linguistics, Russian Sate University for the Humanities (RGGU), Moscow, Russia}
 }
-~~~
+```

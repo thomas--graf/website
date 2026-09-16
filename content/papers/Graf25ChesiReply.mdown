@@ -1,19 +1,27 @@
-Title: 
+Title: The Dose Makes the Poison: Chesi's Vision and Subregular Syntax
 Author: Thomas Graf
-Date: -01-01
+Date: 2026-03-15
 Category: Papers
-Tags: 
+Tags: Minimalist grammars; syntax; subregular; syntactic benchmarks; minimum description length
 
 <div markdown class="authors">
+Graf, Thomas
+</div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+In this reply to Chesi’s Is it the end of (generative) linguistics as we know it, I argue that the specifics of his vision for generative syntax in the 21st century remain hazy.
+Depending on how one interprets Chesi’s methodological desiderata, they may well have a chilling effect on novel approaches instead of fostering them.
+As a concrete example of this dynamic, I discuss the problems with Chesi’s focus on benchmarks and Minimum Description Length and how it would undermine recent efforts in subregular syntax that are in fact closely aligned with Chesi’s goals.
+I conclude that Chesi’s vision has merit, but only in moderation.
 </div>
 
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/Graf25ChesiReply.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @article{Graf25ChesiReply,
     author = {Graf, Thomas},
     title = {The dose makes the poison: {Chesi's} Vision and Subregular Syntax},
@@ -23,4 +31,4 @@ Tags:
     pages = {85--98},
     doi = {10.26346/1120-2726-241},
 }
-~~~
+```

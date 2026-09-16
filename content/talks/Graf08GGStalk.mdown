@@ -1,11 +1,11 @@
-Title: 
+Title: Ein Modelltheoretischer Blick Auf Syntaktische Constraints
 Author: Thomas Graf
 Date: 2008-05-04
 Category: Presentations
 Tags: constraints; model-theoretic syntax; multi-dimensional trees
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -19,8 +19,7 @@ My very first talk \*nostalgia\*. It's a very early attempt at developing a gene
 [[code]({static}/doc/talks/Graf08GGStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf08GGStalk,
   author	= {Graf, Thomas},
   title		= {Ein modelltheoretischer {B}lick auf syntaktische
@@ -29,4 +28,4 @@ My very first talk \*nostalgia\*. It's a very early attempt at developing a gene
   note		= {Handout of a talk given at Generative Grammatik des
 		  Südens 2008 (GGS 08), May 2-4, ZAS Berlin, Germany}
 }
-~~~
+```

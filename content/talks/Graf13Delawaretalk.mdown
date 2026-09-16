@@ -1,11 +1,11 @@
-Title: 
+Title: Islands Without Islands
 Author: Thomas Graf
 Date: 2013-10-04
 Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="files">
@@ -14,8 +14,7 @@ Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure 
 [[code]({static}/doc/talks/Graf13Delawaretalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf13Delawaretalk,
   author	= {Graf, Thomas},
   title		= {Islands Without Islands},
@@ -23,4 +22,4 @@ Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure 
   note		= {Invited talk, October 4, Department of Linguistics and
 		  Cognitive Science, University of Delaware, Newark, DE}
 }
-~~~
+```

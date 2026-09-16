@@ -1,11 +1,11 @@
-Title: 
+Title: From Vagueness to Disaster: On the Intricacies of Feature Checking
 Author: Thomas Graf
 Date: 2007-06-01
 Category: Papers
 Tags: model-theoretic syntax; binding; feature checking; Minimalist grammars
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -19,8 +19,7 @@ Because the thesis I wrote as a wee undergrad at the University of Vienna is cit
 [[code]({static}/doc/papers/Graf07Thesis.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @MastersThesis{Graf07Thesis,
   author	= {Graf, Thomas},
   title		= {From Vagueness to Disaster: On the Intricacies of Feature
@@ -28,4 +27,4 @@ Because the thesis I wrote as a wee undergrad at the University of Vienna is cit
   year		= {2007},
   school	= {University of Vienna}
 }
-~~~
+```

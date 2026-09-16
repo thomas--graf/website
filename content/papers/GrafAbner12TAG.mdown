@@ -1,11 +1,11 @@
-Title: 
+Title: Is Syntactic Binding Rational?
 Author: Thomas Graf
 Date: 2012-09-26
 Category: Papers
 Tags: binding; Principle B; finite-state; typology; sign language; English; German
 
 <div markdown class="authors">
-
+Graf, Thomas, and Natasha Abner
 </div>
 
 <div markdown class="abstract">
@@ -23,8 +23,7 @@ This conclusion is backed up by data drawn from English, German, and American Si
 [[code]({static}/doc/papers/GrafAbner12TAG.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{GrafAbner12TAG,
   author	= {Graf, Thomas and Natasha Abner},
   title		= {Is Syntactic Binding Rational?},
@@ -34,4 +33,4 @@ This conclusion is backed up by data drawn from English, German, and American Si
   pages		= {189--197},
   url		= {http://thomasgraf.net/doc/papers/GrafAbner12TAG.pdf}
 }
-~~~
+```

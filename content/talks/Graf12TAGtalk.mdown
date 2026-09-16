@@ -1,11 +1,11 @@
-Title: 
+Title: Tree Adjunction as Minimalist Lowering
 Author: Thomas Graf
 Date: 2012-09-26
 Category: Presentations
 Tags: Minimalist grammars; TAG; movement; lowering; generative capacity
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -24,8 +24,7 @@ I show that tree adjunction can be emulated by a specific kind of lowering movem
 [[code]({static}/doc/talks/Graf12TAGtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf12TAGtalk,
   author	= {Graf, Thomas},
   title		= {Tree Adjunction as {M}inimalist Lowering},
@@ -35,4 +34,4 @@ I show that tree adjunction can be emulated by a specific kind of lowering movem
 		  (TAG+11), September 26--28, University Paris-Diderot,
 		  Paris, France}
 }
-~~~
+```

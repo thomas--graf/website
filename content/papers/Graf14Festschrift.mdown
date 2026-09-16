@@ -1,11 +1,11 @@
-Title: 
+Title: Beyond the Apparent: Cognitive Parallels Between Syntax and Phonology
 Author: Thomas Graf
-Date: -01-01
+Date: 2014-01-01
 Category: Papers
 Tags: phonology; syntax; subregular hierarchy; formal language theory; cognitive architecture; automata
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -26,8 +26,7 @@ In this paper, I argue based on a battery of previous results that even though s
 [[code]({static}/doc/papers/Graf14Festschrift.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{Graf14Festschrift,
   author	= {Graf, Thomas},
   title		= {Beyond the Apparent: {Cognitive} Parallels Between Syntax
@@ -40,4 +39,4 @@ In this paper, I argue based on a battery of previous results that even though s
   editor	= {Schütze, Carson T. and Stockall, Linnaea},
   openaccess = {gold},
 }
-~~~
+```

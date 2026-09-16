@@ -1,11 +1,11 @@
-Title: 
+Title: The Price of Freedom: Why Adjuncts Are Islands
 Author: Thomas Graf
 Date: 2013-03-14
 Category: Presentations
 Tags: syntax; islands; algebra; adjunct island constraint; coordinate structure constraint; features
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -24,8 +24,7 @@ The existence of parasitic gaps, on the other hand, is expected since their depe
 [[code]({static}/doc/talks/Graf13DGFStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf13DGFStalk,
   author	= {Graf, Thomas},
   title		= {The Price of Freedom: {W}hy Adjuncts are Islands},
@@ -34,4 +33,4 @@ The existence of parasitic gaps, on the other hand, is expected since their depe
 		  f\"{u}r Sprachwissenschaft 2013, March 12--15, University
 		  of Potsdam, Potsdam, Germany}
 }
-~~~
+```

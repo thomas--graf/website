@@ -1,11 +1,11 @@
-Title: 
+Title: Pogo Sticks and Wasps: A Skeptic's Guide to Computational Linguistics
 Author: Thomas Graf
 Date: 2018-10-11
 Category: Presentations
 Tags: neural networks; NLP; machine learning; industry
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -21,12 +21,11 @@ Traditional approaches still offer significant advantages that have not been ful
 [[pdf]({static}/doc/talks/Graf18Kasistotalk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @misc{Graf18Kasistotalk,
     author = {Graf, Thomas},
     title = {Pogo Sticks and Wasps: A Skeptic's Guide to Computational Linguistics},
     year = {2018},
     note = {Invited talk, October 11, Kasisto Inc, New York City, New York}
 }
-~~~
+```

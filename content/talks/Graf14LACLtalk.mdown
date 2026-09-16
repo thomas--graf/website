@@ -1,11 +1,11 @@
-Title: 
+Title: Late Merge as Lowering Movement in Minimalist Grammars
 Author: Thomas Graf
 Date: 2014-06-19
 Category: Presentations
 Tags: Minimalist grammars; late merge; movement; lowering; generative capacity
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -22,8 +22,7 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
 [[code]({static}/doc/talks/Graf14LACLtalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf14LACLtalk,
   author	= {Graf, Thomas},
   title		= {{L}ate {M}erge as Lowering Movement in {M}inimalist Grammars},
@@ -31,4 +30,4 @@ As the latter are MSO-definable, the linguistically relevant fragment of Late Me
   note		= {Slides of a talk given at {LACL} 2014, June 18--20,
 		  {IRIT}, Toulouse, France}
 }
-~~~
+```

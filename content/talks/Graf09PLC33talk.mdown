@@ -1,11 +1,11 @@
-Title: 
+Title: Comparing Incomparable Frameworks --- a Model Theoretic Approach to Phonology
 Author: Thomas Graf
 Date: 2009-03-27
 Category: Presentations
 Tags: phonology; generative capacity; subregular; Sanskrit; Cairene Arabic; Creek; primary stress
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -22,15 +22,14 @@ These technical results are accompanied by reflections on the relation between e
 [[pdf]({static}/doc/talks/Graf09PLC33talk.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf09PLC33talk,
   author	= {Graf, Thomas},
   title		= {Comparing Incomparable Frameworks --- A Model Theoretic
 		  Approach to Phonology},
   year		= {2009},
-  note		= {Handout of a talk given at the 33$^{\text{rd}}$ Penn
+  note		= {Handout of a talk given at the 33\textsuperscript{rd} Penn
 		  Linguistics Colloquium (PLC33), March 27 -- 29, University
 		  of Pennsylvania, Philadelphia, PA.}
 }
-~~~
+```

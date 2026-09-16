@@ -1,19 +1,26 @@
-Title: 
+Title: Modeling Island Effects with Probabilistic Tier-Based Strictly Local Grammars over Trees
 Author: Thomas Graf
-Date: -01-01
+Date: 2026-03-15
 Category: Papers
-Tags: 
+Tags: Minimalist grammars; syntax; subregular; islands; movement
 
 <div markdown class="authors">
+Torres, Charles, Kenneth Hanson, Thomas Graf, and Connor Mayer
+</div>
 
+<div markdown class="abstract">
+<span id="abstract-title">Abstract</span>
+We fuse two recent strands of work in subregular linguistics—probabilistic tier projections (Mayer, 2021) and tier-based perspectives on movement (Graf, 2022a)—into a probabilistic model of syntax that makes it easy to add gradience to traditional, categorical analyses from the syntactic literature.
+As a case study, we test this model on experimental data from Sprouse et al. (2016) for a number of island effects in English.
+We show that the model correctly replicates the superadditive effects and gradience that have been observed in the psycholinguistic literature.
 </div>
 
 <div markdown class="files">
 <span id="files-title">Files</span>
+[[pdf]({static}/doc/papers/TorresEtAl23SCiL.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{TorresEtAl23SCiL,
   author    = {Torres, Charles and Hanson, Kenneth and Graf, Thomas and Mayer, Connor},
   author+an = {1=student;2=sbu},
@@ -25,4 +32,4 @@ Tags:
   doi       = {10.7275/nz4q-6b09},
   openaccess = {gold},
 }
-~~~
+```

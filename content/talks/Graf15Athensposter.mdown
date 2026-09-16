@@ -1,11 +1,11 @@
-Title: 
+Title: A Hidden Consensus: Computational Invariants of Minimalist Syntax
 Author: Thomas Graf
 Date: 2015-05-28
 Category: Presentations
 Tags: syntax; constraints; movement; derivation trees; Minimalist grammars
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -22,8 +22,7 @@ Each Minimalist analysis occupies a specific point within this class, depending 
 [[pdf]({static}/doc/talks/Graf15Athensposter.pdf)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf15Athensposter,
   author	= {Graf, Thomas},
   title		= {A Hidden Consensus: {C}omputational Invariants of {M}inimalist Syntax},
@@ -31,4 +30,4 @@ Each Minimalist analysis occupies a specific point within this class, depending 
   note		= {Poster presented at {The Road Ahead}, May 28--30,
 		  Athens, Greece.}
 }
-~~~
+```

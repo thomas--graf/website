@@ -1,11 +1,11 @@
-Title: 
+Title: Computational Parallels Across Language Modules
 Author: Thomas Graf
 Date: 2016-09-12
 Category: Presentations
 Tags: phonology; morphology; syntax; subregular hierarchy; formal language theory; tiers; locality; typology;
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -27,12 +27,11 @@ This has theoretical and empirical implications for cognition and typology alike
 [[code]({static}/doc/talks/Graf16Yaletalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf16Yaletalk,
   author = {Graf, Thomas},
   title = {Computational Parallels Across Language Modules},
   year = {2016},
   note = {Invited talk, September 12, Department of Linguistics, Yale University, New Haven, CT}
 }
-~~~
+```

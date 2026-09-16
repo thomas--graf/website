@@ -1,11 +1,11 @@
-Title: 
+Title: Tree Adjunction as Minimalist Lowering
 Author: Thomas Graf
 Date: 2012-09-26
 Category: Papers
 Tags: Minimalist grammars; TAG; movement; lowering; generative capacity
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -21,8 +21,7 @@ The opposite does not hold, so the strong generative capacity of Minimalist gram
 [[code]({static}/doc/papers/Graf12TAG.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @InProceedings{Graf12TAG,
   author	= {Graf, Thomas},
   title		= {Tree Adjunction as {Minimalist} Lowering},
@@ -33,4 +32,4 @@ The opposite does not hold, so the strong generative capacity of Minimalist gram
   url		= {http://www.aclweb.org/old_anthology/W/W12/W12-4603.pdf},
   openaccess = {gold},
 }
-~~~
+```

@@ -1,11 +1,11 @@
-Title: 
+Title: Computational Lessons from and for Language
 Author: Thomas Graf
 Date: 2016-04-28
 Category: Presentations
 Tags: phonology; subregular; syntax; derivation trees; open problems
 
 <div markdown class="authors">
-
+Graf, Thomas
 </div>
 
 <div markdown class="abstract">
@@ -38,8 +38,7 @@ step up and actually do it.
 [[code]({static}/doc/talks/Graf16IACStalk.tar.gz)]
 </div>
 
-~~~
-:::bibtex
+```bibtex
 @Misc{Graf16IACStalk,
   author	= {Graf, Thomas},
   title		= {Computational Lessons from and for Language},
@@ -47,4 +46,4 @@ step up and actually do it.
   note		= {Invited talk, April 28, IACS, Stony
 		  Brook University, Stony Brook, NY}
 }
-~~~
+```

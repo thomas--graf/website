@@ -1,0 +1,36 @@
+Title: Teaching
+Author: Thomas Graf
+
+# Textbooks
+
+- [The little book of language, math, and computation](https://stonybrook-lin539.github.io/main/) (work in progress)
+
+# Code Repositories (pdf + source code)
+
+Feel free to use, modify, and/or adapt the materials in these repositories for your own teaching.
+
+- [Computational Linguistics 2 (LIN 637)](http://lin637.thomasgraf.net)
+
+- [Computational Phonology (LIN 626)](http://lin626.thomasgraf.net)
+
+- [Language & Technology (LIN 120)](http://lin120.thomasgraf.net)
+
+- [Mathematical Methods in Linguistics (LIN 539)](http://lin539.thomasgraf.net)
+
+- [Parsing and Processing (LIN 630)](https://github.com/StonyBrook-Lin630-S18/main/)
+
+# Unmaintained stuff
+
+Most of these documents are from my early days of grad school.
+People keep telling me they have found them useful, so I'm keeping them up for now.
+
+- [Old handout](../doc/teaching/mathling1/handout1.pdf) with tips and literature recommendations for budding mathematical linguists
+- [Overview of ellipsis processes](../doc/other/ellipsis.pdf)
+- [Properties of formal language classes](../doc/other/fltable.pdf)
+
+# Syntax Timeline
+
+As a first-year graduate student at UCLA I developed an [interactive timeline of the history of generative syntax]({static}/timeline/main.html).
+It really helped me get a better understanding of the field and how its core ideas have developed over the years.
+I haven't had much time since then to work on it, and it's pretty broken by now.
+If you are interested in reviving this project, please shoot me a line.
