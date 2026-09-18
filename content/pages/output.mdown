@@ -206,7 +206,7 @@ Graf, Thomas (2007): **From Vagueness to Disaster: On the Intricacies of Feature
 
 </li>
 <li markdown>
-Graf, Thomas (2026): **Syntactic Constraints: Strings Are More Insightful Than Trees**. Invited talk, September 10, Department of Linguistics, University of Rochester, Rochester, New York. [[pdf]]({static}/doc/talks/Graf26Rochestertalk.pdf) [[details]]({filename}/talks/Graf26Rochestertalk.mdown)
+Graf, Thomas (2026): **Syntactic Constraints: Strings Are More Insightful Than Trees**. Invited talk, September 11, Department of Linguistics, University of Rochester, Rochester, New York. [[pdf]]({static}/doc/talks/Graf26Rochestertalk.pdf) [[details]]({filename}/talks/Graf26Rochestertalk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2024): **Morphologically Simplex D-Quantifiers Are Strictly 2-Local**. Slides of a talk given at *SCiL 2024*, June 27--29, UC Irvine, Irvine, California. [[pdf]]({static}/doc/talks/Graf24SCiLtalk.pdf) [[details]]({filename}/talks/Graf24SCiLtalk.mdown)
@@ -224,7 +224,7 @@ Torres, Charles, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023): **Modelin
 Graf, Thomas (2023): **Subregular Tree Transductions, Movement, Copies, Traces, and the Ban on Improper Movement**. Slides of a talk given at *SCiL 2023*, June 15--17, University of Massachusetts Amherst, Amherst, Massachusetts. [[pdf]]({static}/doc/talks/Graf23SCiLtalk.pdf) [[details]]({filename}/talks/Graf23SCiLtalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2023): **Syntactic Tiers for Movement and Agreement**. Mini-course, December 6--8, CRISSP KU Leuven, Brussels, Belgium. [[details]]({filename}/talks/Graf23CRISSPcourse.mdown)
+Graf, Thomas (2023): **Syntactic Tiers for Movement and Agreement**. Mini-course, December 6--8, CRISSP KU Leuven, Brussels, Belgium. [[pdf]]({static}/doc/talks/Graf23CRISSPcourse.pdf) [[details]]({filename}/talks/Graf23CRISSPcourse.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2022): **Syntactic Tiers: Empirical Applications and Challenges**. Invited talk, November 11, Department of Linguistics, NYU, New York, New York. [[pdf]]({static}/doc/talks/Graf22NYUtalk.pdf) [[details]]({filename}/talks/Graf22NYUtalk.mdown)
@@ -248,10 +248,10 @@ Graf, Thomas, and Kalina Kostyszyn (2021): **Multiple Wh-Movement Is Not Special
 Dolatian, Hossep, Aniello De Santo, and Thomas Graf (2021): **Recursive Prosody Is Not Finite-State**. Slides of a talk given at *SIGMORPHON 2021*, August 5, online. [[details]]({filename}/talks/DolatianEtAl21Sigmorphontalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2021): **Subregular Linguistics for...well, Linguists**. Mini-course, May 5--6, Department of Linguistics, MIT, Boston, Massachusetts. [[details]]({filename}/talks/Graf21MITcourse.mdown)
+Graf, Thomas (2021): **Subregular Linguistics for...well, Linguists**. Mini-course, May 5--6, Department of Linguistics, MIT, Boston, Massachusetts. [[pdf]]({static}/doc/talks/Graf21MITcourse.pdf) [[details]]({filename}/talks/Graf21MITcourse.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2021): **The Computational Nature of Language**. Summer course, July 26--30, ESSLLI, online. [[details]]({filename}/talks/Graf21ESSLLIcourse.mdown)
+Graf, Thomas (2021): **The Computational Nature of Language**. Summer course, July 26--30, ESSLLI, online. [[pdf]]({static}/doc/talks/Graf21ESSLLIcourse.pdf) [[details]]({filename}/talks/Graf21ESSLLIcourse.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2020): **Curbing Feature Coding: Strictly Local Feature Assignment**. Slides of a talk given at *SCiL 2020*, January 2--5, co-located with the LSA 2020. [[pdf]]({static}/doc/talks/Graf20SCiLtalk.pdf) [[details]]({filename}/talks/Graf20SCiLtalk.mdown)
@@ -482,7 +482,7 @@ Graf, Thomas (2010): **Rethinking Transderivationality**. Slides of a talk given
 Graf, Thomas (2010): **Syntax, Semantics, Pragmatics: Where Do We Find Optimality?** Invited talk, December 15, Institut für Anglistik, Universität Göttingen, Göttingen, Germany. [[pdf]]({static}/doc/talks/Graf10Goettingentalk.pdf) [[details]]({filename}/talks/Graf10Goettingentalk.mdown)
 </li>
 <li markdown>
-Graf, Thomas (2009): **Comparing Incomparable Frameworks --- a Model Theoretic Approach to Phonology**. Handout of a talk given at the 33rd^ Penn Linguistics Colloquium (PLC33), March 27 -- 29, University of Pennsylvania, Philadelphia, PA. [[pdf]]({static}/doc/talks/Graf09PLC33talk.pdf) [[details]]({filename}/talks/Graf09PLC33talk.mdown)
+Graf, Thomas (2009): **Comparing Incomparable Frameworks --- a Model Theoretic Approach to Phonology**. Handout of a talk given at the 33rd Penn Linguistics Colloquium (PLC33), March 27 -- 29, University of Pennsylvania, Philadelphia, PA. [[pdf]]({static}/doc/talks/Graf09PLC33talk.pdf) [[details]]({filename}/talks/Graf09PLC33talk.mdown)
 </li>
 <li markdown>
 Graf, Thomas (2009): **Locality in Flux --- Reducibility Results for Syntactic Constraints**. Poster presented at the Conference on Minimalist Approaches to Syntactic Locality (MASL), August 26 -- 28, Research Institute for Linguistics of the Hungarian Academy of Sciences, Budapest, Hungary. [[pdf]]({static}/doc/talks/Graf09MASLposter.pdf) [[details]]({filename}/talks/Graf09MASLposter.mdown)

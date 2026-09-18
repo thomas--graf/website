@@ -1,15 +1,3 @@
-Title: Syntactic Tiers for Movement and Agreement
-Author: Thomas Graf
-Date: 2023-12-06
-Category: Presentations
-Tags: syntax; phonology; subregular; movement; tiers; islands
-
-<div markdown class="authors">
-Graf, Thomas
-</div>
-
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
 This lecture series is an empirically minded introduction to the concept of tiers, which for the last ten year has played a central role in work at the intersection of theoretical and computational linguistics.
 While this computational notion of tiers is inspired by autosegmental phonology, it can be fruitfully generalized to syntax to arrive at a unified notion of relativized locality that subsumes Merge, Move, and Agree as special cases.
 We will take a whirlwind tour of syntactic phenomena and how they can be reconceptualized in terms of syntactic tiers:
@@ -23,18 +11,3 @@ Horn amalgams.
 We will also look at parasitic gaps as an example of a phenomenon that poses severe challenges for the approach.
 Finally, we will discuss how tiers allow us to retain the analytical core of Minimalist syntax in the exploration of gradience and learning.
 The central message is that tiers are an analytically fertile and computationally natural tool that generative syntacticians can easily incorporate into their own work, and doing so may shed new light on the syntactic typology, Plato’s problem, and interface issues like gradience effects.
-</div>
-
-<div markdown class="files">
-<span id="files-title">Files</span>
-[[pdf]({static}/doc/talks/Graf23CRISSPcourse.pdf)]
-</div>
-
-```bibtex
-@misc{Graf23CRISSPcourse,
-    author = {Graf, Thomas},
-    title = {Syntactic Tiers for Movement and Agreement},
-    year = {2023},
-    note = {Mini-course, December 6--8, CRISSP KU Leuven, Brussels, Belgium},
-}
-```

@@ -1,32 +1,5 @@
-Title: The Computational Nature of Language
-Author: Thomas Graf
-Date: 2021-07-26
-Category: Presentations
-Tags: syntax; phonology; subregular; tiers
-
-<div markdown class="authors">
-Graf, Thomas
-</div>
-
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
 This course is aimed at students with the general mathematical maturity that can be expected of ESSLLI students (sets, functions, relations, first-order logic), but no further background in linguistics or the theory of computation.
 It uses recent ideas from subregular complexity, formalized as fragments of first-order logic, to show students the benefits of a formally rigorous view of language.
 The concepts are first applied to phonology and morphology, and are then extended to syntax (formalized via Minimalist grammars).
 Particular emphasis is put on the concrete analysis of empirical phenomena such as long-distance harmony or island constraints.
 The central message of the course is that it is easier than ever to study language from a computationally informed perspective, and that this is a very fertile research perspective with an abundance of low hanging fruit ready for the picking.
-</div>
-
-<div markdown class="files">
-<span id="files-title">Files</span>
-[[pdf]({static}/doc/talks/Graf21ESSLLIcourse.pdf)]
-</div>
-
-```bibtex
-@misc{Graf21ESSLLIcourse,
-    author = {Graf, Thomas},
-    title = {The Computational Nature of Language},
-    year = {2021},
-    note = {Summer course, July 26--30, ESSLLI, online},
-}
-```

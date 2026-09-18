@@ -1,15 +1,3 @@
-Title: Subregular Linguistics for...well, Linguists
-Author: Thomas Graf
-Date: 2021-05-05
-Category: Presentations
-Tags: syntax; phonology; subregular; movement; tiers; islands
-
-<div markdown class="authors">
-Graf, Thomas
-</div>
-
-<div markdown class="abstract">
-<span id="abstract-title">Abstract</span>
 Subregular linguistics is a recent research program that draws heavily from formal language theory but enjoys two noteworthy traits:
 
 1. the key concepts are intuitive and easy to visualize without the use of any mathematics, and
@@ -25,18 +13,3 @@ ii) explains the existence of island effects;
 iii) reveals cognitive parallels between vastly different language modules;
 iv) unifies seemingly unrelated phenomena like unbounded tone plateauing and complementizer wh-agreement.
 The mini-course will provide you with everything you need to get started on an empirically-minded journey down the subregular rabbit hole.
-</div>
-
-<div markdown class="files">
-<span id="files-title">Files</span>
-[[pdf]({static}/doc/talks/Graf21MITcourse.pdf)]
-</div>
-
-```bibtex
-@misc{Graf21MITcourse,
-    author = {Graf, Thomas},
-    title = {Subregular Linguistics for\ldots well, linguists},
-    year = {2021},
-    note = {Mini-course, May 5--6, Department of Linguistics, MIT, Boston, Massachusetts},
-}
-```

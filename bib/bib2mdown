@@ -309,6 +309,7 @@ fi
 ###########
 # latexmath stuff is no longer inserted because the bibtex file has been changed
 # sed -i 's/latexmath:\\\[.*\([[:alnum:]]*\).*\\\]/\1/g' "$tmpfile"
+#
 # remove nocase stuff
 sed -i 's/\\\[\.nocase\\\]#\(.*\)#/\1/g' "$tmpfile"
 # remove text commands
@@ -316,14 +317,12 @@ sed -i 's/text[[:alnum:]]*{\([^}]*\)}/\1/g' "$tmpfile"
 # fix superscripts for numbers
 sed -i 's|\^{\{0,1\}\([^\}]*\)}\{0,1\}|\1|g' "$tmpfile"
 # fix trailing ^
-sed -i 's/th\^/th/g' "$tmpfile"
-
+sed -i -E 's/(st|nd|rd|th)\^/\1/g' "$tmpfile"
 # fix duplicated Ms.
 sed -i 's/ ms\. Ms\./ Ms\./' "$tmpfile"
-
+#
 # fix titles in italic instead of boldface
 sed -i 's/: \*\([^*]\+\)\*/: \*\*\1\*\*/' "$tmpfile"
-
 # second bold face should be italic
 # this regex is hard to read, so we first switch from ** to !!
 sed -i 's/\*\*/!!/g' "$tmpfile"

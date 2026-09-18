@@ -32,6 +32,6 @@ While syntax may well be about trees, it isn't all about trees, and that's actua
     author = {Graf, Thomas},
     title = {Syntactic Constraints: Strings are More Insightful Than Trees},
     year = {2026},
-    note = {Invited talk, September 10, Department of Linguistics, University of Rochester, Rochester, New York},
+    note = {Invited talk, September 11, Department of Linguistics, University of Rochester, Rochester, New York},
 }
 ```
